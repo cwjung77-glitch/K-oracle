@@ -204,7 +204,7 @@ export default function SajuCompatibility() {
                 <input 
                   type="text" 
                   value={searchQuery}
-                  placeholder="e.g. Jungkook, Wonyoung, BTS..."
+                  placeholder="Idol Name (e.g. Jungkook)"
                   className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 pl-10" 
                   onChange={(e) => {
                     setSearchQuery(e.target.value);
@@ -430,6 +430,7 @@ export default function SajuCompatibility() {
     </div>
   );
 }
+
 
 
 

@@ -69,10 +69,10 @@ export default function OracleLanding() {
           <Sparkles size={14} className="text-yellow-500 animate-pulse" /> Cyber-Shamanism for the global generation
         </div>
         
-        <h1 className="text-6xl md:text-8xl font-black leading-[1.1] tracking-tighter mb-8">
+        <h1 className="text-[11vw] sm:text-6xl md:text-8xl font-black leading-[1.1] tracking-tighter mb-8">
           <span className="block text-zinc-300 font-serif italic font-medium">Decode Your</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-orange-500 drop-shadow-lg">Destiny</span> 
-          <span className="text-zinc-600 font-sans font-light mx-4">&</span> 
+          <span className="text-zinc-600 font-sans font-light mx-1 sm:mx-4">&</span> 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 drop-shadow-lg">Aura</span>
         </h1>
         
@@ -177,6 +177,7 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 
 
