@@ -85,7 +85,7 @@ export default function OracleLanding() {
         <div className="inline-flex bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg">
           <button 
             onClick={() => { setActiveTab('saju'); setHasPaid(false); }}
-            className={`px-8 py-4 rounded-xl font-bold flex items-center gap-3 transition-all duration-300 ${
+            className={`px-3 sm:px-8 py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
                 ? 'bg-gradient-to-r from-yellow-600/90 to-red-600/90 text-white shadow-[0_0_20px_rgba(234,179,8,0.3)] border border-yellow-500/50' 
                 : 'text-zinc-500 hover:text-white border border-transparent hover:bg-white/5'
@@ -96,7 +96,7 @@ export default function OracleLanding() {
           </button>
           <button 
             onClick={() => { setActiveTab('beauty'); setHasPaid(false); }}
-            className={`px-8 py-4 rounded-xl font-bold flex items-center gap-3 transition-all duration-300 ${
+            className={`px-3 sm:px-8 py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'beauty' 
                 ? 'bg-gradient-to-r from-pink-500/90 to-blue-500/90 text-white shadow-[0_0_20px_rgba(236,72,153,0.3)] border border-pink-500/50' 
                 : 'text-zinc-500 hover:text-white border border-transparent hover:bg-white/5'
@@ -177,6 +177,7 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 
 
