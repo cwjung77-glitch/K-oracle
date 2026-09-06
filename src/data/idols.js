@@ -856,6 +856,26 @@ export const idolsDB = [
     "dob": "2009-02-17"
   },
   {
+    "name": "Woni (RESCENE)",
+    "dob": "2004-05-25"
+  },
+  {
+    "name": "Liv (RESCENE)",
+    "dob": "2006-10-11"
+  },
+  {
+    "name": "Minami (RESCENE)",
+    "dob": "2006-11-29"
+  },
+  {
+    "name": "May (RESCENE)",
+    "dob": "2008-08-19"
+  },
+  {
+    "name": "Zena (RESCENE)",
+    "dob": "2008-11-27"
+  },
+  {
     "name": "Yunah (ILLIT)",
     "dob": "2004-01-15"
   },
