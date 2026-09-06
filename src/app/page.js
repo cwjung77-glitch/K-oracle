@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect } from 'react';
 import SajuCompatibility from '../components/features/SajuCompatibility';
 import PersonalColor from '../components/features/PersonalColor';
@@ -34,7 +34,7 @@ export default function OracleLanding() {
       {/* Navbar */}
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="text-2xl font-black tracking-widest flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0,0)}>
+          <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={() => window.scrollTo(0,0)}>
             <span className="text-yellow-500">K</span>-ORACLE
           </div>
           <div className="flex items-center gap-4">
@@ -177,5 +177,6 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 

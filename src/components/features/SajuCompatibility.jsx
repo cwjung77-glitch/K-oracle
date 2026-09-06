@@ -183,7 +183,7 @@ export default function SajuCompatibility() {
           <div className="space-y-6">
             <div className="space-y-4">
               <label className="block text-sm font-medium text-zinc-300">1. Enter Your Birth Info</label>
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <input 
                   type="date" 
                   value={dob}
@@ -195,7 +195,7 @@ export default function SajuCompatibility() {
             </div>
 
             <div className="space-y-4" ref={searchRef}>
-              <label className="block text-sm font-medium text-zinc-300 flex justify-between">
+              <label className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 text-sm font-medium text-zinc-300">
                 <span>2. Search Your Bias (최애 검색)</span>
                 <span className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
               </label>
@@ -256,7 +256,7 @@ export default function SajuCompatibility() {
             <button 
               onClick={handleAnalyze}
               disabled={loading}
-              className="w-full py-4 mt-4 bg-gradient-to-r from-yellow-600 to-red-600 hover:from-yellow-500 hover:to-red-500 text-white font-black rounded-xl text-lg flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(234,179,8,0.3)] disabled:opacity-50"
+              className="w-full py-4 mt-4 bg-gradient-to-r from-yellow-600 to-red-600 hover:from-yellow-500 hover:to-red-500 text-white font-black rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(234,179,8,0.3)] disabled:opacity-50"
             >
               {loading ? (
                 <span className="animate-pulse">Reading the Stars...</span>
@@ -430,6 +430,8 @@ export default function SajuCompatibility() {
     </div>
   );
 }
+
+
 
 
 
