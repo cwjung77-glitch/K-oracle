@@ -25,38 +25,7 @@ export default function SajuCompatibility() {
   const searchRef = useRef(null);
 
   // Simulated Crawled Database (Expanded)
-  const idolsDB = [
-    { name: 'Jungkook (BTS)', dob: '1997-09-01' },
-    { name: 'V (BTS)', dob: '1995-12-30' },
-    { name: 'Jimin (BTS)', dob: '1995-10-13' },
-    { name: 'Jin (BTS)', dob: '1992-12-04' },
-    { name: 'RM (BTS)', dob: '1994-09-12' },
-    { name: 'Suga (BTS)', dob: '1993-03-09' },
-    { name: 'J-Hope (BTS)', dob: '1994-02-18' },
-    { name: 'Jennie (BLACKPINK)', dob: '1996-01-16' },
-    { name: 'Jisoo (BLACKPINK)', dob: '1995-01-03' },
-    { name: 'Lisa (BLACKPINK)', dob: '1997-03-27' },
-    { name: 'Rosé (BLACKPINK)', dob: '1997-02-11' },
-    { name: 'Wonyoung (IVE)', dob: '2004-08-31' },
-    { name: 'Yujin (IVE)', dob: '2003-09-01' },
-    { name: 'Karina (aespa)', dob: '2000-04-11' },
-    { name: 'Winter (aespa)', dob: '2001-01-01' },
-    { name: 'Hanni (NewJeans)', dob: '2004-10-06' },
-    { name: 'Minji (NewJeans)', dob: '2004-05-07' },
-    { name: 'Cha Eun-woo (ASTRO)', dob: '1997-03-30' },
-    { name: 'Felix (Stray Kids)', dob: '2000-09-15' },
-    { name: 'Hyunjin (Stray Kids)', dob: '2000-03-20' },
-    { name: 'Nayeon (TWICE)', dob: '1995-09-22' },
-    { name: 'Sana (TWICE)', dob: '1996-12-29' },
-    { name: 'Momo (TWICE)', dob: '1996-11-09' },
-    { name: 'Mingyu (SEVENTEEN)', dob: '1997-04-06' },
-    { name: 'Jeonghan (SEVENTEEN)', dob: '1995-10-04' },
-    { name: 'Chaewon (LE SSERAFIM)', dob: '2000-08-01' },
-    { name: 'Sakura (LE SSERAFIM)', dob: '1998-03-19' },
-    { name: 'Taeyeon (Girls Gen)', dob: '1989-03-09' },
-    { name: 'Baekhyun (EXO)', dob: '1992-05-06' },
-    { name: 'Irene (Red Velvet)', dob: '1991-03-29' }
-  ];
+  import { idolsDB } from '../../data/idols';
 
   const [selectedIdol, setSelectedIdol] = useState(idolsDB[0]);
 
@@ -430,6 +399,7 @@ export default function SajuCompatibility() {
     </div>
   );
 }
+
 
 
 
