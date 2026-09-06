@@ -1,0 +1,436 @@
+﻿"use client";
+
+import React, { useState, useMemo, useRef, useEffect } from 'react';
+import { Sparkles, Heart, Star, ArrowRight, Search, Download } from 'lucide-react';
+
+export default function SajuCompatibility() {
+  const [step, setStep] = useState(1);
+  const [loading, setLoading] = useState(false);
+  const [result, setResult] = useState(null);
+  
+  // Initialize DOB from localStorage if it exists
+  const [dob, setDob] = useState(''); useEffect(() => { if(typeof window !== "undefined") { const saved = localStorage.getItem("userDob"); if (saved) setDob(saved); } }, []);
+
+  // Auto-save DOB to localStorage whenever it changes
+  useEffect(() => {
+    if (dob) {
+      localStorage.setItem('userDob', dob);
+    }
+  }, [dob]);
+
+  // Search states
+  const [searchQuery, setSearchQuery] = useState('');
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [showSharePreview, setShowSharePreview] = useState(false);
+  const searchRef = useRef(null);
+
+  // Simulated Crawled Database (Expanded)
+  const idolsDB = [
+    { name: 'Jungkook (BTS)', dob: '1997-09-01' },
+    { name: 'V (BTS)', dob: '1995-12-30' },
+    { name: 'Jimin (BTS)', dob: '1995-10-13' },
+    { name: 'Jin (BTS)', dob: '1992-12-04' },
+    { name: 'RM (BTS)', dob: '1994-09-12' },
+    { name: 'Suga (BTS)', dob: '1993-03-09' },
+    { name: 'J-Hope (BTS)', dob: '1994-02-18' },
+    { name: 'Jennie (BLACKPINK)', dob: '1996-01-16' },
+    { name: 'Jisoo (BLACKPINK)', dob: '1995-01-03' },
+    { name: 'Lisa (BLACKPINK)', dob: '1997-03-27' },
+    { name: 'Rosé (BLACKPINK)', dob: '1997-02-11' },
+    { name: 'Wonyoung (IVE)', dob: '2004-08-31' },
+    { name: 'Yujin (IVE)', dob: '2003-09-01' },
+    { name: 'Karina (aespa)', dob: '2000-04-11' },
+    { name: 'Winter (aespa)', dob: '2001-01-01' },
+    { name: 'Hanni (NewJeans)', dob: '2004-10-06' },
+    { name: 'Minji (NewJeans)', dob: '2004-05-07' },
+    { name: 'Cha Eun-woo (ASTRO)', dob: '1997-03-30' },
+    { name: 'Felix (Stray Kids)', dob: '2000-09-15' },
+    { name: 'Hyunjin (Stray Kids)', dob: '2000-03-20' },
+    { name: 'Nayeon (TWICE)', dob: '1995-09-22' },
+    { name: 'Sana (TWICE)', dob: '1996-12-29' },
+    { name: 'Momo (TWICE)', dob: '1996-11-09' },
+    { name: 'Mingyu (SEVENTEEN)', dob: '1997-04-06' },
+    { name: 'Jeonghan (SEVENTEEN)', dob: '1995-10-04' },
+    { name: 'Chaewon (LE SSERAFIM)', dob: '2000-08-01' },
+    { name: 'Sakura (LE SSERAFIM)', dob: '1998-03-19' },
+    { name: 'Taeyeon (Girls Gen)', dob: '1989-03-09' },
+    { name: 'Baekhyun (EXO)', dob: '1992-05-06' },
+    { name: 'Irene (Red Velvet)', dob: '1991-03-29' }
+  ];
+
+  const [selectedIdol, setSelectedIdol] = useState(idolsDB[0]);
+
+  // Filter idols based on search query
+  const filteredIdols = useMemo(() => {
+    if (!searchQuery) return idolsDB.slice(0, 5); // Show top 5 trending if empty
+    return idolsDB.filter(idol => 
+      idol.name.toLowerCase().includes(searchQuery.toLowerCase())
+    ).slice(0, 5); // Limit to 5 results to avoid long scrolling
+  }, [searchQuery]);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (searchRef.current && !searchRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const handleAnalyze = () => {
+    if (!dob) {
+      alert("Please enter your birth date first!");
+      return;
+    }
+    
+    setLoading(true);
+    
+    // 1. User's Element (Fixed based on DOB)
+    let userHash = 0;
+    for (let i = 0; i < dob.length; i++) userHash = dob.charCodeAt(i) + ((userHash << 5) - userHash);
+    userHash = Math.abs(userHash);
+    
+    // 2. Idol's Element (Fixed based on Idol Name)
+    let idolHash = 0;
+    for (let i = 0; i < selectedIdol.name.length; i++) idolHash = selectedIdol.name.charCodeAt(i) + ((idolHash << 5) - idolHash);
+    idolHash = Math.abs(idolHash);
+    
+    const elements = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
+    const myElem = elements[userHash % 5];
+    const theirElem = elements[idolHash % 5];
+    
+    // 3. Compatibility Logic (Base score based on element interaction + variation)
+    // Saju generating cycle: Wood->Fire->Earth->Metal->Water->Wood
+    const elementCycle = { 'Wood': 0, 'Fire': 1, 'Earth': 2, 'Metal': 3, 'Water': 4 };
+    const myIndex = elementCycle[myElem];
+    const theirIndex = elementCycle[theirElem];
+    
+    let baseScore = 70;
+    let relationship = "Neutral";
+    
+    if (myIndex === theirIndex) {
+      baseScore = 80; // Same element (Good)
+      relationship = "Similar Souls";
+    } else if ((myIndex + 1) % 5 === theirIndex || (theirIndex + 1) % 5 === myIndex) {
+      baseScore = 95; // Generating cycle (Excellent)
+      relationship = "Destined Supporters";
+    } else {
+      baseScore = 65; // Overcoming cycle (Challenging but passionate)
+      relationship = "Passionate Clash";
+    }
+    
+    // Add unique variation based on combined hash so it's not always exactly 95 or 65
+    const combinedHash = Math.abs(userHash ^ idolHash);
+    const score = Math.min(99, baseScore + (combinedHash % 10) - 5);
+
+    const descriptions = {
+      'Similar Souls': 'You both share the same energy. According to ancient Saju, you reflect each others deepest thoughts.',
+      'Destined Supporters': 'A perfect match! You create a generating cycle, creating a soulmate-level synergy.',
+      'Passionate Clash': 'This is a dynamic, magnetic relationship. Though you have opposite energies, it creates an intense bond.'
+    };
+
+    const talismans = [
+      { text: '액운퇴치', en: "Protection", type: "classic" },
+      { text: "평안무사", en: "Peace", type: "classic" },
+      { text: "인기절정", en: "Superstar", type: "kpop" },
+      { text: "매력발산", en: "Potential", type: "kpop" },
+      { text: "심쿵주의", en: "Heart Attack", type: "kpop" },
+      { text: "시선강탈", en: "Eye Catcher", type: "kpop" },
+      { text: "명예상승", en: "Honor", type: "classic" },
+      { text: "광클성공", en: "Fast Click", type: "kpop" },
+      { text: "덕질만렙", en: "Pro Fan", type: "kpop" },
+      { text: "일취월장", en: "Growth", type: "classic" },
+      { text: "재물폭발", en: "Money Rain", type: "classic" },
+      { text: "매력만점", en: "Charisma", type: "kpop" },
+      { text: "전광석화", en: "Speed", type: "classic" },
+      { text: "스밍성공", en: "Stream", type: "kpop" },
+      { text: "본방사수", en: "Live Watch", type: "kpop" }
+    ];
+
+    setTimeout(() => {
+      setLoading(false);
+      setResult({
+        score: score,
+        element: `${myElem} meets ${theirElem}`,
+        description: descriptions[relationship],
+        talisman: talismans[combinedHash % talismans.length]
+      });
+      setStep(2);
+    }, 2000);
+  };
+
+  return (
+    <div className="w-full max-w-2xl mx-auto bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-yellow-500/20 p-8 shadow-[0_0_50px_rgba(234,179,8,0.1)] relative">
+      
+      {/* Background mystical elements - Wrapped in overflow-hidden to keep them inside the card */}
+      <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-500/10 rounded-full blur-[80px]"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-red-500/10 rounded-full blur-[80px]"></div>
+      </div>
+
+      <div className="relative z-10">
+        <div className="text-center mb-8">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-500/10 text-yellow-500 text-sm font-bold border border-yellow-500/20 mb-4">
+            <Sparkles size={16} /> K-Destiny Matrix
+          </div>
+          <h2 className="text-3xl font-black text-white">Idol Saju Compatibility</h2>
+          <p className="text-zinc-400 mt-2">Discover your cosmic connection based on Korean Astrology.</p>
+        </div>
+
+        {step === 1 ? (
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <label className="block text-sm font-medium text-zinc-300">1. Enter Your Birth Info</label>
+              <div className="grid grid-cols-2 gap-4">
+                <input 
+                  type="date" 
+                  value={dob}
+                  onChange={(e) => setDob(e.target.value)}
+                  className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" 
+                />
+                <input type="time" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" defaultValue="12:00" />
+              </div>
+            </div>
+
+            <div className="space-y-4" ref={searchRef}>
+              <label className="block text-sm font-medium text-zinc-300 flex justify-between">
+                <span>2. Search Your Bias (최애 검색)</span>
+                <span className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
+              </label>
+              
+              <div className="relative">
+                <input 
+                  type="text" 
+                  value={searchQuery}
+                  placeholder="e.g. Jungkook, Wonyoung, BTS..."
+                  className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 pl-10" 
+                  onChange={(e) => {
+                    setSearchQuery(e.target.value);
+                    setIsDropdownOpen(true);
+                  }}
+                  onFocus={() => setIsDropdownOpen(true)}
+                />
+                <Sparkles size={18} className="absolute left-3 top-3.5 text-zinc-500" />
+                
+                {/* Autocomplete Dropdown */}
+                {isDropdownOpen && (
+                  <div className="absolute w-full mt-2 bg-zinc-800 border border-zinc-700 rounded-xl overflow-hidden shadow-2xl z-20">
+                    <div className="px-4 py-2 text-xs text-zinc-500 bg-zinc-900/50">
+                      {searchQuery ? 'SEARCH RESULTS' : 'TRENDING SEARCHES'}
+                    </div>
+                    {filteredIdols.length > 0 ? (
+                      filteredIdols.map(idol => (
+                        <button 
+                          key={idol.name}
+                          onClick={() => {
+                            setSelectedIdol(idol);
+                            setSearchQuery(idol.name);
+                            setIsDropdownOpen(false);
+                          }}
+                          className={`w-full text-left px-4 py-3 hover:bg-zinc-700 flex justify-between items-center transition-colors ${
+                            selectedIdol.name === idol.name ? 'bg-yellow-500/10 text-yellow-500' : 'text-zinc-300'
+                          }`}
+                        >
+                          <span className="font-bold">{idol.name}</span>
+                          <span className="text-xs opacity-60">{idol.dob}</span>
+                        </button>
+                      ))
+                    ) : (
+                      <div className="px-4 py-4 text-center text-zinc-400 text-sm">
+                        No idol found. <button className="text-yellow-500 underline ml-1">Add them!</button>
+                      </div>
+                    )}
+                  </div>
+                )}
+              </div>
+              
+              {selectedIdol && !isDropdownOpen && (
+                <div className="mt-4 p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-xl text-yellow-500 text-sm flex items-center justify-between animate-in fade-in">
+                  <span>Selected: <strong>{selectedIdol.name}</strong></span>
+                </div>
+              )}
+            </div>
+
+            <button 
+              onClick={handleAnalyze}
+              disabled={loading}
+              className="w-full py-4 mt-4 bg-gradient-to-r from-yellow-600 to-red-600 hover:from-yellow-500 hover:to-red-500 text-white font-black rounded-xl text-lg flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(234,179,8,0.3)] disabled:opacity-50"
+            >
+              {loading ? (
+                <span className="animate-pulse">Reading the Stars...</span>
+              ) : (
+                <>Analyze Cosmic Bond <ArrowRight size={20} /></>
+              )}
+            </button>
+          </div>
+        ) : (
+          (() => {
+            // Dynamic Theme Logic based on User's Element
+            const userElement = result.element.split(' ')[0];
+            const isUltraRare = result.score >= 95;
+            
+            const themes = {
+              'Wood': { paper: 'bg-[#064E3B]', ink: 'text-[#34D399]', border: 'border-[#059669]', banner: 'bg-[#047857]', shadow: 'shadow-[0_0_60px_rgba(52,211,153,0.4)]', stroke: '#34D399' },
+              'Fire': { paper: 'bg-[#450A0A]', ink: 'text-[#F87171]', border: 'border-[#DC2626]', banner: 'bg-[#B91C1C]', shadow: 'shadow-[0_0_60px_rgba(248,113,113,0.4)]', stroke: '#F87171' },
+              'Earth': { paper: 'bg-[#422006]', ink: 'text-[#FBBF24]', border: 'border-[#D97706]', banner: 'bg-[#B45309]', shadow: 'shadow-[0_0_60px_rgba(251,191,36,0.4)]', stroke: '#FBBF24' },
+              'Metal': { paper: 'bg-[#171717]', ink: 'text-[#E4E4E7]', border: 'border-[#52525B]', banner: 'bg-[#3F3F46]', shadow: 'shadow-[0_0_60px_rgba(228,228,231,0.4)]', stroke: '#E4E4E7' },
+              'Water': { paper: 'bg-[#082F49]', ink: 'text-[#38BDF8]', border: 'border-[#0284C7]', banner: 'bg-[#0369A1]', shadow: 'shadow-[0_0_60px_rgba(56,189,248,0.4)]', stroke: '#38BDF8' }
+            };
+            
+            const t = themes[userElement] || themes['Earth'];
+            
+            return (
+              <>
+                <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
+                  {/* Holographic Cyber-Bujeok Card */}
+                  <div className="inline-block relative mb-10 group" style={{ perspective: '1000px' }}>
+                    <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden ${t.shadow} transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400 animate-pulse' : ''}`}>
+                      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30 mix-blend-overlay"></div>
+                      <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-50 animate-[shimmer_2s_infinite]' : ''}`}></div>
+                      <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
+                        {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
+                      </div>
+                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-30 mix-blend-screen pointer-events-none flex items-center justify-center">
+                        <svg viewBox="0 0 100 100" className="w-full h-full animate-[spin_60s_linear_infinite]">
+                          <path d="M50 0 Q 100 0, 100 50 T 50 100 T 0 50 T 50 0" fill="none" stroke={t.stroke} strokeWidth="1"/>
+                          <path d="M50 10 Q 90 10, 90 50 T 50 90 T 10 50 T 50 10" fill="none" stroke={t.stroke} strokeWidth="2"/>
+                          <path d="M20 20 L 80 80 M 20 80 L 80 20" stroke={t.stroke} strokeWidth="1"/>
+                          <circle cx="50" cy="50" r="30" fill="none" stroke={t.stroke} strokeWidth="2" strokeDasharray="5,5"/>
+                        </svg>
+                      </div>
+                      <div className={`relative z-10 ${t.ink} text-4xl font-black flex flex-col items-center justify-center gap-1 py-2 drop-shadow-lg leading-none`}>
+                        {result.talisman.text.split('').map((char, i) => (
+                          <span key={i}>{char}</span>
+                        ))}
+                      </div>
+                      <div className="relative z-10 w-full flex flex-col items-center mb-6">
+                        <div className={`mb-1 px-1.5 py-0.5 border border-white/30 rounded flex items-center gap-1 bg-black/40 backdrop-blur-sm text-[8px] font-bold text-white tracking-widest`}>
+                          {result.talisman.type === 'classic' ? (
+                            <>📜 TRADITIONAL</>
+                          ) : (
+                            <>✨ FANDOM VIBE</>
+                          )}
+                        </div>
+                        <div className={`${t.banner} text-white w-4/5 py-1.5 text-center font-black text-sm tracking-[0.2em] uppercase shadow-lg`}>
+                          {result.talisman.en}
+                        </div>
+                        <div className={`mt-2 text-[9px] ${t.ink} opacity-70 font-mono tracking-widest font-bold`}>
+                          {isUltraRare ? '★ LEGENDARY ★' : 'K-ORACLE // ID:'} {Math.random().toString(36).substring(2, 8).toUpperCase()}
+                        </div>
+                      </div>
+                    </div>
+                    <div className={`absolute -inset-4 rounded-[20%] blur-2xl opacity-20 -z-10 ${isUltraRare ? 'bg-gradient-to-r from-yellow-400 via-pink-500 to-cyan-400 animate-pulse' : t.paper}`}></div>
+                  </div>
+                  
+                  {isUltraRare && (
+                    <div className="inline-block px-4 py-1 bg-yellow-500/20 border border-yellow-500/50 rounded-full text-yellow-500 text-xs font-bold tracking-widest mb-4 animate-bounce">
+                      SOULMATE LEVEL UNLOCKED!
+                    </div>
+                  )}
+                  
+                  <div className="flex items-center justify-center gap-4 mb-4">
+                    <span className="text-xl font-bold">You</span>
+                    <Heart className={`text-red-500 fill-red-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} />
+                    <span className="text-xl font-bold">{selectedIdol.name}</span>
+                  </div>
+
+                  <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2">
+                    {result.score}% Match
+                  </div>
+                  <div className="text-yellow-500 font-bold mb-6">{result.element}</div>
+                  
+                  <p className="text-zinc-300 leading-relaxed mb-8 bg-zinc-800/50 p-6 rounded-xl border border-zinc-700">
+                    {result.description}
+                  </p>
+
+                  <div className="flex gap-4">
+                    <button onClick={() => { setStep(1); setSearchQuery(''); setIsDropdownOpen(false); }} className="flex-1 py-4 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold">
+                      Try Another Match
+                    </button>
+                    <button onClick={() => setShowSharePreview(true)} className="flex-1 py-4 rounded-xl bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45] text-white font-black flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(253,29,29,0.4)]">
+                      Share to Instagram
+                    </button>
+                  </div>
+                </div>
+
+                {/* Instagram Share Preview Modal */}
+                {showSharePreview && (
+                  <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-in fade-in duration-300">
+                    <div className="relative flex flex-col items-center max-w-sm w-full">
+                      <button onClick={() => setShowSharePreview(false)} className="absolute -top-12 right-0 text-white/50 hover:text-white text-xl font-bold">✕ Close</button>
+                      <p className="text-white/70 text-sm mb-4 font-bold tracking-widest uppercase">Instagram Story Preview</p>
+                      
+                      <div className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
+                        <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-black to-red-500/10"></div>
+                        <div className="relative z-10 w-full text-center mt-6">
+                          <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
+                          <div className="text-2xl font-black text-white bg-black/50 py-2 px-4 rounded-full inline-block border border-white/10 backdrop-blur-sm">
+                            ME ❤️ {selectedIdol.name}
+                          </div>
+                        </div>
+                        
+                        <div className="relative z-10 scale-[0.8] -my-10">
+                          {/* EXACT MATCH BUJEOK (Shared logic) */}
+                          <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden shadow-xl border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400' : ''}`}>
+                            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30 mix-blend-overlay"></div>
+                            <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
+                              {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
+                            </div>
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-30 mix-blend-screen pointer-events-none flex items-center justify-center">
+                              <svg viewBox="0 0 100 100" className="w-full h-full">
+                                <path d="M50 0 Q 100 0, 100 50 T 50 100 T 0 50 T 50 0" fill="none" stroke={t.stroke} strokeWidth="1"/>
+                                <path d="M50 10 Q 90 10, 90 50 T 50 90 T 10 50 T 50 10" fill="none" stroke={t.stroke} strokeWidth="2"/>
+                                <path d="M20 20 L 80 80 M 20 80 L 80 20" stroke={t.stroke} strokeWidth="1"/>
+                                <circle cx="50" cy="50" r="30" fill="none" stroke={t.stroke} strokeWidth="2" strokeDasharray="5,5"/>
+                              </svg>
+                            </div>
+                            <div className={`relative z-10 ${t.ink} text-4xl font-black flex flex-col items-center justify-center gap-1 py-2 drop-shadow-lg leading-none`}>
+                              {result.talisman.text.split('').map((char, i) => (
+                                <span key={i}>{char}</span>
+                              ))}
+                            </div>
+                            <div className="relative z-10 w-full flex flex-col items-center mb-6">
+                              <div className={`mb-1 px-1.5 py-0.5 border border-white/30 rounded flex items-center gap-1 bg-black/40 backdrop-blur-sm text-[8px] font-bold text-white tracking-widest`}>
+                                {result.talisman.type === 'classic' ? (
+                                  <>📜 TRADITIONAL</>
+                                ) : (
+                                  <>✨ FANDOM VIBE</>
+                                )}
+                              </div>
+                              <div className={`${t.banner} text-white w-4/5 py-1.5 text-center font-black text-sm tracking-[0.2em] uppercase shadow-lg`}>
+                                {result.talisman.en}
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        
+                        <div className="relative z-10 text-center mb-6">
+                          <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2 drop-shadow-lg">{result.score}%</div>
+                          <div className="text-yellow-500 font-bold tracking-widest text-sm uppercase">Perfect Match</div>
+                        </div>
+
+                        <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg">
+                          <Search size={16} /> Discover Yours at K-ORACLE.com
+                        </div>
+                      </div>
+
+                      <button className="mt-6 w-full py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors">
+                        <Download size={20} /> Save to Camera Roll
+                      </button>
+                    </div>
+                  </div>
+                )}
+              </>
+            );
+          })()
+        )}
+      </div>
+    </div>
+  );
+}
+
+
+
+
