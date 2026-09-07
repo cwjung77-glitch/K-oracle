@@ -223,7 +223,7 @@ export default function PersonalColor() {
       <div className="relative z-10">
         <div className="text-center mb-10">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-500/10 text-pink-400 text-xs font-bold border border-pink-500/20 mb-4 tracking-widest uppercase">
-            <ScanFace size={14} /> AI Tone Scanner
+            <ScanFace size={14} /> Cosmic Tone Scanner
           </div>
           <h2 className="text-4xl font-black text-white tracking-tight">K-Beauty Personal Color</h2>
           <p className="text-zinc-200 mt-3 font-medium text-lg">Upload a selfie to decode your exact undertone and discover your K-Pop idol skin twin.</p>
@@ -294,13 +294,13 @@ export default function PersonalColor() {
                 onClick={handleScan}
                 className="w-full py-4 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:opacity-90 transition-opacity"
               >
-                START AI ANALYSIS
+                START COSMIC ANALYSIS
               </button>
             )}
 
             <div className="text-center space-y-4 mt-6">
               <p className="text-sm text-yellow-300 font-bold bg-yellow-500/20 inline-block px-5 py-2.5 rounded-xl border border-yellow-500/50 shadow-[0_0_15px_rgba(234,179,8,0.15)] leading-relaxed">
-                ⚠️ Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your AI tone analysis.
+                ⚠️ Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
               </p>
               <p className="text-sm text-zinc-400 font-medium tracking-wide">
                 * Photos are processed locally and deleted instantly. We do not store your face data.
@@ -441,3 +441,4 @@ export default function PersonalColor() {
     </div>
   );
 }
+

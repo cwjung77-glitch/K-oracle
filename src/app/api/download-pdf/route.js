@@ -44,7 +44,7 @@ export async function POST(req) {
       doc.moveDown(2);
       doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? 'Reporte Maestro 2027 (Edición VIP)' : '2027 Master Report (VIP Edition)', { align: 'center' });
       
-      doc.font(fontSans).fillColor('#555555').fontSize(10).text('© 2027 K-ORACLE AI. STRICTLY CONFIDENTIAL.', 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
+      doc.font(fontSans).fillColor('#555555').fontSize(10).text('© 2027 K-ORACLE. STRICTLY CONFIDENTIAL.', 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
 
       // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
       addNewPage();
@@ -205,6 +205,7 @@ export async function POST(req) {
     return new NextResponse('Internal Server Error', { status: 500 });
   }
 }
+
 
 
 
