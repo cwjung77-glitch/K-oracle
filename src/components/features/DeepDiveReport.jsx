@@ -15,7 +15,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         const res = await fetch('/api/generate-saju', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ birthData: "1995-10-15", gender: "female", lang })
+          body: JSON.stringify({ birthData: localStorage.getItem("userDob") || "1995-10-15", gender: localStorage.getItem("userGender") || "female", lang })
         });
         const data = await res.json();
         if (data.success) {
@@ -123,7 +123,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         </section>
 
         <button 
-          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, data: { content: aiReport } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
+          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, data: { content: aiReport, dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
           disabled={isGenerating}
           className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex items-center justify-center gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
         >
@@ -134,6 +134,7 @@ export default function DeepDiveReport({ lang = "en" }) {
     </div>
   );
 }
+
 
 
 

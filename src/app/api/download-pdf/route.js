@@ -59,7 +59,7 @@ export async function POST(req) {
       const cy = 340;
       const r = 140;
       const elements = isEs ? ['Madera', 'Fuego', 'Tierra', 'Metal', 'Agua'] : ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
-      const values = [80, 40, 95, 60, 50]; 
+      let hash = 0; const dob = data.dob || "1995-10-15"; for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); const seed = Math.abs(hash); const values = [ (seed % 60) + 40, ((seed >> 2) % 60) + 40, ((seed >> 4) % 60) + 40, ((seed >> 6) % 60) + 40, ((seed >> 8) % 60) + 40 ]; 
 
       // Draw background pentagons
       for (let step = 1; step <= 5; step++) {
@@ -127,7 +127,7 @@ export async function POST(req) {
       doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
 
       const months = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      const scores = [30, 45, 60, 40, 85, 95, 70, 80, 100, 60, 50, 75];
+      const scores = []; for (let i=0; i<12; i++) scores.push( (((seed >> i) % 70) + 30) );
 
       [0, 25, 50, 75, 100].forEach(level => {
         const y = gY - (level / 100) * gH;
@@ -205,5 +205,6 @@ export async function POST(req) {
     return new NextResponse('Internal Server Error', { status: 500 });
   }
 }
+
 
 
