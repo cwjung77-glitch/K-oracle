@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 import PDFDocument from 'pdfkit';
 
 export async function POST(req) {
@@ -23,13 +23,7 @@ export async function POST(req) {
     const fontSansBold = 'Helvetica-Bold';
 
     // Helper to add a new page with dark background
-    const addNewPage = () => {
-      doc.addPage();
-      doc.rect(0, 0, doc.page.width, doc.page.height).fill(bgColor);
-      // Subtle elegant border
-      doc.rect(25, 25, doc.page.width - 50, doc.page.height - 50).lineWidth(1).strokeColor('#2A2A2A').stroke();
-      doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(0.5).strokeColor('#444444').stroke();
-    };
+    doc.on('pageAdded', () => { doc.rect(0, 0, doc.page.width, doc.page.height).fill(bgColor); doc.rect(25, 25, doc.page.width - 50, doc.page.height - 50).lineWidth(1).strokeColor('#2A2A2A').stroke(); doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(0.5).strokeColor('#444444').stroke(); doc.y = 60; doc.x = 50; }); const addNewPage = () => { doc.addPage(); };
 
     // Helper for Headers
     const addHeader = (title, subtitle) => {
@@ -212,3 +206,4 @@ export async function POST(req) {
     return new NextResponse('Internal Server Error', { status: 500 });
   }
 }
+
