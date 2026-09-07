@@ -12,6 +12,7 @@ export default function OracleLanding() {
   const [activeTab, setActiveTab] = useState('saju');
   const [showCheckout, setShowCheckout] = useState(false);
   const [hasPaid, setHasPaid] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState('bundle');
   const [showLogin, setShowLogin] = useState(false);
   const [lang, setLang] = useState('en');
 
@@ -135,7 +136,7 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Oct - Dec Forecast</li>
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Basic 5 Elements</li>
                     </ul>
-                    <button onClick={() => { setHasPaid(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
+                    <button onClick={() => setShowCheckout(true)} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
                   </div>
 
                   {/* Tier 3: Bundle (Most Popular) */}
@@ -150,7 +151,7 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> K-Pop Idol Compatibility</li>
                     </ul>
-                    <button onClick={() => { setHasPaid(true); }} className="w-full py-4 rounded-xl bg-yellow-500 text-black font-black hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.4)]">Unlock Bundle</button>
+                    <button onClick={() => setShowCheckout(true)} className="w-full py-4 rounded-xl bg-yellow-500 text-black font-black hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.4)]">Unlock Bundle</button>
                   </div>
 
                   {/* Tier 2: 2028 */}
@@ -162,7 +163,7 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> 12-Month 2028 Flow</li>
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Radar Chart</li>
                     </ul>
-                    <button onClick={() => { setHasPaid(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
+                    <button onClick={() => setShowCheckout(true)} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
                   </div>
                 </div>
               </div>
@@ -210,6 +211,7 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 
 
