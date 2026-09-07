@@ -33,7 +33,7 @@ Generate a highly detailed, 800-word analysis worthy of a $4.99 premium report. 
 
     console.log("[AI Engine] Sending prompt to Google Gemini 1.5 Flash...");
     
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -68,9 +68,11 @@ Generate a highly detailed, 800-word analysis worthy of a $4.99 premium report. 
 
   } catch (error) {
     console.error('[AI Generation Error]', error);
-    return NextResponse.json({ success: false, error: 'Failed to generate destiny report.' }, { status: 500 });
+    return NextResponse.json({ success: false, error: error.message || 'Failed to generate destiny report.' }, { status: 500 });
   }
 }
+
+
 
 
 
