@@ -1,4 +1,7 @@
 ﻿"use client";
+import { idolsDB } from '../../data/idols';
+
+
 
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Sparkles, Heart, Star, ArrowRight, Search, Download } from 'lucide-react';
@@ -25,7 +28,7 @@ export default function SajuCompatibility() {
   const searchRef = useRef(null);
 
   // Simulated Crawled Database (Expanded)
-  import { idolsDB } from '../../data/idols';
+  
 
   const [selectedIdol, setSelectedIdol] = useState(idolsDB[0]);
 
@@ -399,6 +402,8 @@ export default function SajuCompatibility() {
     </div>
   );
 }
+
+
 
 
 
