@@ -153,8 +153,7 @@ export async function POST(req) {
         doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
       }
       
-      doc.y = 520;
-      doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? 'Agosto a Septiembre marca tu temporada cumbre. Prepárate.' : 'August to September marks your peak season. Prepare for a major event.', { align: 'center' });
+      doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? 'Agosto a Septiembre marca tu temporada cumbre. Prepárate.' : 'August to September marks your peak season. Prepare for a major event.', { align: 'center', width: doc.page.width - 100 });
 
       // ---------------- PAGE 5-10: IN-DEPTH TEXT SECTIONS ----------------
       const sections = isEs ? [
@@ -206,4 +205,5 @@ export async function POST(req) {
     return new NextResponse('Internal Server Error', { status: 500 });
   }
 }
+
 
