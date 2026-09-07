@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 
 export async function POST(req) {
   try {
@@ -33,7 +33,7 @@ Keep the total response under 300 words. Format with clear paragraphs. Do not in
 
     console.log("[AI Engine] Sending prompt to Google Gemini 1.5 Flash...");
     
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -71,3 +71,4 @@ Keep the total response under 300 words. Format with clear paragraphs. Do not in
     return NextResponse.json({ success: false, error: 'Failed to generate destiny report.' }, { status: 500 });
   }
 }
+
