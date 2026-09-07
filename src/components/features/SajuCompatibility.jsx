@@ -57,7 +57,7 @@ export default function SajuCompatibility() {
       return;
     }
     
-    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userGender', gender);
+    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userGender', 'female');
     
     // 1. User's Element (Fixed based on DOB)
     let userHash = 0;
@@ -402,6 +402,7 @@ export default function SajuCompatibility() {
     </div>
   );
 }
+
 
 
 
