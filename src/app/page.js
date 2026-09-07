@@ -119,20 +119,53 @@ export default function OracleLanding() {
       <section className="mt-32 border-t border-white/5 bg-zinc-950/50 py-24 px-6 relative" id="premium-report">
         
         {!hasPaid ? (
-          <div className="text-center max-w-xl mx-auto">
+          <div className="text-center w-full max-w-5xl mx-auto">
             {activeTab === 'saju' ? (
-              <>
-                <h2 className="text-3xl font-black mb-4">Want the Deep Dive?</h2>
-                <p className="text-zinc-400 mb-8">Unlock your 2027 Full Year Saju Report or get a 1:1 Live Consultation.</p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <button 
-                    onClick={() => setShowCheckout(true)}
-                    className="px-8 py-4 rounded-xl border border-yellow-500/30 bg-yellow-500/10 text-yellow-500 font-bold hover:bg-yellow-500/20 transition-colors flex items-center justify-center gap-2"
-                  >
-                    <Lock size={18} /> Unlock 2027 Destiny Report ($4.99)
-                  </button>
+              <div className="max-w-5xl mx-auto w-full px-4">
+                <h2 className="text-3xl md:text-5xl font-black mb-4">Choose Your Destiny Plan</h2>
+                <p className="text-zinc-400 mb-12 text-lg">Select the cosmic blueprint that guides your future. 90% of our VIPs choose the Bundle.</p>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                  {/* Tier 1: 2027 Q4 */}
+                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-500/30 transition-colors">
+                    <h3 className="text-xl font-bold text-zinc-300">2027 Q4 Finale</h3>
+                    <p className="text-zinc-500 text-sm mt-2 mb-6">Navigate the remaining 3 months.</p>
+                    <div className="text-3xl font-black mb-6">$2.99</div>
+                    <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Oct - Dec Forecast</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Basic 5 Elements</li>
+                    </ul>
+                    <button onClick={() => { setHasPaid(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
+                  </div>
+
+                  {/* Tier 3: Bundle (Most Popular) */}
+                  <div className="bg-gradient-to-b from-yellow-900/20 to-black border-2 border-yellow-500 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-[0_0_30px_rgba(234,179,8,0.15)] z-10">
+                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
+                    <h3 className="text-2xl font-bold text-yellow-500">27+28 Bundle</h3>
+                    <p className="text-zinc-400 text-sm mt-2 mb-6">The ultimate 15-month masterplan.</p>
+                    <div className="text-4xl font-black mb-6 text-white">$5.99</div>
+                    <ul className="space-y-3 mb-8 text-sm text-zinc-300 flex-grow">
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> 15-Month Spline Flow Chart</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Full 10-Page VIP PDF</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> K-Pop Idol Compatibility</li>
+                    </ul>
+                    <button onClick={() => { setHasPaid(true); }} className="w-full py-4 rounded-xl bg-yellow-500 text-black font-black hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.4)]">Unlock Bundle</button>
+                  </div>
+
+                  {/* Tier 2: 2028 */}
+                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-500/30 transition-colors">
+                    <h3 className="text-xl font-bold text-zinc-300">2028 Full Year</h3>
+                    <p className="text-zinc-500 text-sm mt-2 mb-6">Prepare for the new year early.</p>
+                    <div className="text-3xl font-black mb-6">$4.99</div>
+                    <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> 12-Month 2028 Flow</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Radar Chart</li>
+                    </ul>
+                    <button onClick={() => { setHasPaid(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
+                  </div>
                 </div>
-              </>
+              </div>
             ) : (
               <>
                 <h2 className="text-3xl font-black mb-4">Unlock Your Beauty Blueprint</h2>
@@ -177,6 +210,7 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 
 
