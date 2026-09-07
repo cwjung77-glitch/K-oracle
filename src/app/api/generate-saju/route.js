@@ -1,29 +1,69 @@
-﻿import { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
 export async function POST(req) {
   try {
     const body = await req.json();
     const { birthData, gender, lang } = body;
+    const isEs = lang === 'es';
 
-    // Simulate LLM Processing time (3 seconds)
-    console.log("[AI Engine] Generating Premium Saju Report using 'Tough Love Grandmaster' Persona...");
-    await new Promise(resolve => setTimeout(resolve, 3000));
+    const apiKey = process.env.GEMINI_API_KEY;
 
-    // This is the mock of what the LLM would return after being primed with our Master Prompt.
-    // Master Prompt (Hidden on backend): "You are a 40-year veteran Korean Shaman. Read the user to filth based on their elements, but end with a highly specific, warm remedy."
+    if (!apiKey) {
+      console.warn("No Gemini API key found, falling back to mock.");
+      // Fallback
+      return NextResponse.json({ 
+        success: true, 
+        reportText: isEs ? "Faltan claves de API. Este es un texto de prueba." : "API keys are missing. This is fallback text.",
+        pdfUrl: ""
+      });
+    }
+
+    const prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and slightly direct ("Tough Love Grandmaster").
+You are generating a highly personalized "2027 K-Astrology (Saju) Masterplan" for a client.
+Client Details:
+- Birth Data: ${birthData}
+- Gender: ${gender}
+- Target Language: ${isEs ? 'Spanish' : 'English'}
+
+Instructions:
+1. Briefly analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on their birth date (create a mystical interpretation).
+2. Give a direct, "tough love" warning about a specific karma or danger in 2027.
+3. Provide a warm, specific remedy (Bi-bang) involving a color, an action, or a lucky number.
+Keep the total response under 300 words. Format with clear paragraphs. Do not include markdown asterisks like **bold**.`;
+
+    console.log("[AI Engine] Sending prompt to Google Gemini 1.5 Flash...");
     
-    const mockLLMResponse = lang === 'es' ? `[Análisis Elemental Saju: Una roca terca en el corazón del invierno]\n\nMirando la energía de tu Saju (Destino), es severamente fría e increíblemente rígida. Eres como una roca masiva e inquebrantable (Gyeong-Sool) que se yergue completamente sola en una tormenta de nieve invernal.\n\nDéjame hablarte claro. Tienes un destino que 'se niega absolutamente a escuchar a los demás'. Debido a tu agudo intelecto y extrema independencia, puede que hayas logrado cosas por tu cuenta en tus veintes. Sin embargo, la energía 'Sang-gwan' (Oficial Hiriente) que entra en tu vida a finales de este año perforará tu arrogancia.\n\nEn septiembre, hay un 80% de probabilidad de que seas traicionado por un colega de confianza. Sentirás que es profundamente injusto, pero es el karma (Up-bo) que has construido por tu negativa a comprometerte. Si continúas así, no evitarás una separación dolorosa este año.\n\n[El Remedio Secreto del Gran Maestro (Bi-bang)]\n\nAlzo mi voz porque tu destino me frustra, pero ¿cómo no iba a saber que bajo este exterior rígido se esconde un corazón puro e increíblemente frágil?\nTe daré el remedio secreto para sobrevivir a esta crisis. Una roca congelada debe derretirse con 'agua tibia'.\n\n1. En septiembre, cuenta hasta tres antes de hablar. Esos 3 segundos te salvarán miles de dólares.\n2. Lleva un accesorio 'Azul'. La energía de Madera (Mok) del color azul atraerá un 'Gwi-in' (Ayudante Noble) a tu lado.\n\nSi sigues esto, la crisis se transformará en el mayor punto de inflexión de tu vida. Oraré por ti.` : `[Saju Elemental Analysis: A Stubborn Boulder in the Dead of Winter]\n\nLooking at the energy of your Saju, it is severely cold and incredibly rigid. You are like a massive, unyielding boulder (Gyeong-Sool) standing entirely alone in a winter blizzard.\n\nLet me speak plainly. You have a destiny that 'absolutely refuses to listen to others.'\nBecause of your sharp intellect and extreme independence, you may have achieved things on your own in your twenties. However, the 'Sang-gwan (Wounding Officer)' energy entering your life late this year will pierce right through your arrogance.\n\nIn September, there is an 80% chance you will be betrayed by a trusted colleague. You will feel this is deeply unfair, but it is the karma (Up-bo) you have built. If you continue this way, you will not avoid a painful separation this year.\n\n[The Grandmaster's Secret Remedy (Bi-bang)]\n\nTsk, tsk... I raise my voice because your destiny frustrates me, but how could I not know that beneath this rigid exterior lies a pure and incredibly fragile heart?\n\nI will give you the secret remedy to survive this crisis. A frozen boulder must be melted with 'warm water'.\n\n1. In September, count to three before speaking. Those 3 seconds will save you tens of thousands of dollars.\n2. Wear a 'Blue' accessory. The Wood (Mok) energy of the color blue will attract a 'Gwi-in' (Noble Helper) to your side.\n\nIf you follow this, the crisis will miraculously transform into the greatest turning point of your life. I will pray for you.`;
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        contents: [{
+          parts: [{ text: prompt }]
+        }]
+      })
+    });
 
-    // In production, we would pass 'mockLLMResponse' into a PDF generator (like Puppeteer) here
-    // const pdfBuffer = await generatePdf(mockLLMResponse);
-    // const pdfUrl = await uploadToS3(pdfBuffer);
-    
-    const mockPdfUrl = 'https://k-oracle-assets.s3.amazonaws.com/mock_premium_saju_report.pdf';
+    if (!response.ok) {
+      const errorData = await response.text();
+      throw new Error(`Gemini API Error: ${errorData}`);
+    }
+
+    const data = await response.json();
+    let generatedText = data.candidates?.[0]?.content?.parts?.[0]?.text;
+
+    if (!generatedText) {
+      throw new Error("No text generated from Gemini");
+    }
+
+    // Clean up asterisks if Gemini adds them
+    generatedText = generatedText.replace(/\*\*/g, '');
 
     return NextResponse.json({ 
       success: true, 
-      reportText: mockLLMResponse,
-      pdfUrl: mockPdfUrl
+      reportText: generatedText,
+      pdfUrl: ""
     });
 
   } catch (error) {
@@ -31,5 +71,3 @@ export async function POST(req) {
     return NextResponse.json({ success: false, error: 'Failed to generate destiny report.' }, { status: 500 });
   }
 }
-
-
