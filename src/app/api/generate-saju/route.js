@@ -29,7 +29,7 @@ Instructions:
 1. Briefly analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on their birth date (create a mystical interpretation).
 2. Give a direct, "tough love" warning about a specific karma or danger in 2027.
 3. Provide a warm, specific remedy (Bi-bang) involving a color, an action, or a lucky number.
-Keep the total response under 300 words. Format with clear paragraphs. Do not include markdown asterisks like **bold**.`;
+Generate a highly detailed, extensive analysis (at least 800 words) worthy of a premium $4.99 paid report. Write beautifully in long, flowing paragraphs. Format with clear paragraphs. Do not include markdown asterisks like **bold**.`;
 
     console.log("[AI Engine] Sending prompt to Google Gemini 1.5 Flash...");
     
@@ -71,5 +71,6 @@ Keep the total response under 300 words. Format with clear paragraphs. Do not in
     return NextResponse.json({ success: false, error: 'Failed to generate destiny report.' }, { status: 500 });
   }
 }
+
 
 
