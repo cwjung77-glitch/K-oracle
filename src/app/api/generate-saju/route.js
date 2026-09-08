@@ -55,6 +55,15 @@ Example:
 [CATEGORY: The Spiritual Solution]
 (your text here)`;
 
+        const prompt3 = `${basePrompt}
+TASK 3: Generate the Wealth and Romance Matrix data as pure JSON.
+You must return ONLY a JSON object exactly matching this structure, with no markdown code blocks around it:
+{
+  "wealth": { "opportunity": "[1-2 sentences]", "danger": "[1-2 sentences]" },
+  "romance": { "opportunity": "[1-2 sentences]", "danger": "[1-2 sentences]" }
+}
+Do not write anything else. Write in ${lang === 'ko' ? 'Korean' : 'English'}.`;
+
     console.log("[AI Engine] Sending parallel prompts to Google Gemini 3.5 Flash...");
     
     const fetchGemini = async (promptText) => {
@@ -68,10 +77,22 @@ Example:
       return (data.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
     };
 
-    const [reportText, karmaText] = await Promise.all([
+    const [reportText, karmaText, matrixResponse] = await Promise.all([
       fetchGemini(prompt1),
-      fetchGemini(prompt2)
+      fetchGemini(prompt2),
+      fetchGemini(prompt3)
     ]);
+    
+    let matrixData = null;
+    try {
+      matrixData = JSON.parse(matrixResponse.replace(/```json/g, '').replace(/```/g, '').trim());
+    } catch(e) {
+      console.error('Failed to parse matrix JSON:', e);
+      matrixData = { 
+        wealth: { opportunity: 'Matrix data failed to generate.', danger: 'Please check logs.' },
+        romance: { opportunity: 'Matrix data failed to generate.', danger: 'Please check logs.' }
+      };
+    }
 
     if (!reportText || !karmaText) throw new Error("No text generated from Gemini");
 
@@ -79,6 +100,7 @@ Example:
       success: true, 
       reportText: reportText,
       karmaText: karmaText,
+      matrixData: matrixData,
       pdfUrl: ""
     });
 

@@ -126,8 +126,8 @@ export default function DeepDiveReport({ lang = "en" }) {
                     </div>
                     <h4 className="text-2xl font-bold text-white mb-4">{isKo ? '재물 & 커리어 매트릭스' : 'Wealth & Career Matrix'}</h4>
                     <div className="space-y-4 text-zinc-400 leading-relaxed">
-                      <p><strong>{isKo ? '기회:' : 'The Opportunity:'}</strong> {wealthOps[seed % 3]}</p>
-                      <p><strong>{isKo ? '위험:' : 'The Danger:'}</strong> {wealthDans[(seed + 1) % 3]}</p>
+                      <p><strong>{isKo ? '기회:' : 'The Opportunity:'}</strong> {reportData?.matrixData?.wealth?.opportunity || wealthOps[seed % 3]}</p>
+                      <p><strong>{isKo ? '위험:' : 'The Danger:'}</strong> {reportData?.matrixData?.wealth?.danger || wealthDans[(seed + 1) % 3]}</p>
                     </div>
                   </div>
                   
@@ -137,8 +137,8 @@ export default function DeepDiveReport({ lang = "en" }) {
                     </div>
                     <h4 className="text-2xl font-bold text-white mb-4">{isKo ? '연애 & 인맥 매트릭스' : 'Romance & Network'}</h4>
                     <div className="space-y-4 text-zinc-400 leading-relaxed">
-                      <p><strong>{isKo ? '기회:' : 'The Opportunity:'}</strong> {romOps[(seed + 2) % 3]}</p>
-                      <p><strong>{isKo ? '위험:' : 'The Danger:'}</strong> {romDans[(seed + 3) % 3]}</p>
+                      <p><strong>{isKo ? '기회:' : 'The Opportunity:'}</strong> {reportData?.matrixData?.romance?.opportunity || romOps[(seed + 2) % 3]}</p>
+                      <p><strong>{isKo ? '위험:' : 'The Danger:'}</strong> {reportData?.matrixData?.romance?.danger || romDans[(seed + 3) % 3]}</p>
                     </div>
                   </div>
                 </div>
