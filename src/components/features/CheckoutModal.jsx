@@ -5,15 +5,33 @@
 import React, { useState } from 'react';
 import { Lock, ShieldCheck, Loader2, CreditCard, Smartphone } from 'lucide-react';
 
-export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab }) {
+export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, selectedPlan }) {
   const [isProcessing, setIsProcessing] = useState(false);
   const [method, setMethod] = useState('card'); // 'card' or 'digital'
 
   if (!isOpen) return null;
 
   const isBeauty = activeTab === 'beauty';
-  const productName = isBeauty ? "K-Beauty Deep Dive Report" : "2027 Full Destiny Report";
-  const price = isBeauty ? "$9.99" : "$4.99";
+  
+  let productName = "2027 Full Destiny Report";
+  let price = "$4.99";
+  
+  if (isBeauty) {
+    productName = "K-Beauty Deep Dive Report";
+    price = "$9.99";
+  } else {
+    if (selectedPlan === 'q4') {
+      productName = "2027 Q4 Finale Report";
+      price = "$2.99";
+    } else if (selectedPlan === 'fullyear') {
+      productName = "2028 Full Year Report";
+      price = "$4.99";
+    } else {
+      productName = "27+28 Bundle Report";
+      price = "$5.99";
+    }
+  }
+
   const themeColor = isBeauty ? "text-pink-400" : "text-yellow-500";
   const bgTheme = isBeauty ? "bg-pink-500" : "bg-yellow-500";
   const hoverTheme = isBeauty ? "hover:bg-pink-600" : "hover:bg-yellow-600";
@@ -31,7 +49,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab })
         body: JSON.stringify({
           activeTab: activeTab,
           email: email,
-          productId: isBeauty ? 'prod_beauty' : 'prod_saju'
+          productId: isBeauty ? 'prod_beauty' : selectedPlan
         })
       });
 
@@ -39,9 +57,9 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab })
 
       if (data.success) {
         console.log("Redirecting to Lemon Squeezy Checkout URL:", data.checkoutUrl);
-        // window.location.href = data.checkoutUrl; // In real life, redirect here.
+        window.location.href = data.checkoutUrl;
         setIsProcessing(false);
-        onSuccess(); // Simulate successful return from checkout for MVP
+        // onSuccess();
       } else {
         throw new Error(data.error);
       }
