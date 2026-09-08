@@ -41,7 +41,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
     setIsProcessing(true);
     
     try {
-      const email = e.target && e.target[0] ? e.target[0].value : 'user@example.com';
+      const email = e.target && e.target.email ? e.target.email.value : 'cwjung77@gmail.com';
       // Call our Next.js API Route for Lemon Squeezy integration
       const response = await fetch('/api/checkout', {
         method: 'POST',
@@ -113,7 +113,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
             <div className="space-y-4 animate-in fade-in duration-300">
               <div>
                 <label className="block text-xs font-bold text-zinc-300 uppercase tracking-widest mb-2">Email</label>
-                <input type="email" required placeholder="you@example.com" className="w-full px-4 py-3.5 bg-zinc-100 rounded-xl border-2 border-transparent focus:border-zinc-400 outline-none transition-all text-zinc-900 placeholder-zinc-500 font-medium shadow-inner" />
+                <input type="email" id="email" name="email" required placeholder="you@example.com" className="w-full px-4 py-3.5 bg-zinc-100 rounded-xl border-2 border-transparent focus:border-zinc-400 outline-none transition-all text-zinc-900 placeholder-zinc-500 font-medium shadow-inner" />
               </div>
               
               <div>
