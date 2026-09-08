@@ -66,7 +66,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
     } catch (err) {
       console.error(err);
       setIsProcessing(false);
-      alert("Payment gateway error. Please try again.");
+      alert("Payment Error: " + err.message);
     }
   };
 

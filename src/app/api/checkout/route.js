@@ -69,7 +69,7 @@ export async function POST(req) {
 
     if (!response.ok) {
       console.error("Lemon Squeezy API Error:", resData);
-      throw new Error("Payment gateway failed to initialize");
+      return NextResponse.json({ success: false, error: JSON.stringify(resData) }, { status: 500 });
     }
 
     const checkoutUrl = resData.data.attributes.url;
@@ -82,6 +82,6 @@ export async function POST(req) {
 
   } catch (error) {
     console.error('[Checkout Error]', error);
-    return NextResponse.json({ success: false, error: 'Payment gateway failed' }, { status: 500 });
+    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
   }
 }
