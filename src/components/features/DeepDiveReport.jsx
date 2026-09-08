@@ -19,7 +19,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         });
         const data = await res.json();
         if (data.success) {
-          setAiReport(data.reportText);
+          setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText);
           setPdfUrl(data.pdfUrl); } else { setAiReport("ERROR: The AI Engine failed to connect. (Check if your GEMINI_API_KEY is valid. Gemini keys usually start with AIzaSy). \n\nServer Response: " + data.error); }
       } catch (err) {
         console.error("Failed to fetch report", err);
@@ -158,7 +158,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         </section>
 
         <button 
-          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, data: { content: aiReport, dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
+          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
           disabled={isGenerating}
           className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex items-center justify-center gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
         >
@@ -169,6 +169,7 @@ export default function DeepDiveReport({ lang = "en" }) {
     </div>
   );
 }
+
 
 
 
