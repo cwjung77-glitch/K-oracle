@@ -29,15 +29,31 @@ WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Wr
     const prompt1 = `${basePrompt}
 TASK 1: Generate a highly personalized "2027 K-Astrology (Saju) Masterplan" (800 words).
 1. Analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on birth date.
-2. Give a direct warning about a specific karma/danger in 2027.
-3. Break it down into: Career/Wealth (specific months), Relationships, and Secret Remedy.
+2. Break it down into: Career/Wealth (specific months), Relationships, and Secret Remedy.
+IMPORTANT FORMATTING RULE: You MUST use the exact string "[CATEGORY: Category Name]" to create headings for different sections.
+Example:
+[CATEGORY: The Wealth Matrix]
+(your text here)
+[CATEGORY: The Crimson String]
+(your text here)
+[CATEGORY: The Secret Remedy]
+(your text here)
+
 IMPORTANT LEGAL RULE: Never give direct financial, medical, or legal commands. Frame as "energetic tendencies".`;
 
     const prompt2 = `${basePrompt}
 TASK 2: Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
-1. Analyze their past life incarnation based on the birth date. Were they a warrior, a merchant, a lonely scholar? Create a vivid, cinematic description of their past life.
+1. Analyze their past life incarnation based on the birth date. Create a vivid, cinematic description of their past life.
 2. Explain what specific Karmic Debt they carried over into this current life (2027). Why are they facing their current struggles?
-3. Provide a spiritual method (Bi-bang) to sever or repay this karmic debt in 2027.`;
+3. Provide a spiritual method (Bi-bang) to sever or repay this karmic debt in 2027.
+IMPORTANT FORMATTING RULE: You MUST use the exact string "[CATEGORY: Category Name]" to create headings for different sections.
+Example:
+[CATEGORY: Past Life Incarnation]
+(your text here)
+[CATEGORY: The Karmic Debt]
+(your text here)
+[CATEGORY: The Spiritual Solution]
+(your text here)`;
 
     console.log("[AI Engine] Sending parallel prompts to Google Gemini 3.5 Flash...");
     

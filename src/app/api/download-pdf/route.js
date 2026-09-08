@@ -47,16 +47,31 @@ export async function POST(req) {
       
       doc.font(fontSans).fillColor('#555555').fontSize(10).text('© 2027 K-ORACLE. STRICTLY CONFIDENTIAL.', 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
 
-      // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
+      
+        const renderParsedText = (textStr) => {
+          const lines = textStr.split('\n');
+          lines.forEach(line => {
+            const match = line.match(/^\[CATEGORY:s*(.*?)\]/i);
+            if (match) {
+              doc.moveDown(1);
+              doc.font(fontSerifBold).fillColor(primaryColor).fontSize(16).text(match[1], { align: 'left' });
+              doc.moveDown(0.5);
+            } else if (line.trim().length > 0) {
+              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'justify' });
+            }
+          });
+        };
+
+        // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
       addNewPage();
-      addHeader(isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix', isEs ? 'El núcleo de tu identidad cósmica' : 'The core of your cosmic identity');
-      doc.font(fontSerif).fillColor(textColor).fontSize(14).text(data.content || (isEs ? 'Tu energía se alinea con la fuerza del Fuego. Iluminas la oscuridad pero debes tener cuidado de no quemarte.' : 'Your energy aligns with the force of Fire. You illuminate the darkness but must be careful not to burn out.'), { lineGap: 10, align: 'justify' });
+      addHeader(isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix', isEs ? 'El nucleo de tu identidad cosmica' : 'The core of your cosmic identity');
+        renderParsedText(data.content || (isEs ? 'Tu energia se alinea con la fuerza del Fuego. Iluminas la oscuridad pero debes tener cuidado de no quemarte.' : 'Your energy aligns with the force of Fire. You illuminate the darkness but must be careful not to burn out.'));
 
       
         // ---------------- PAGE 2.5: PAST LIFE KARMA ----------------
         addNewPage();
         addHeader(isKo ? '2. 전생 분석' : isEs ? '2. Analisis de Vidas Pasadas' : '2. Past Life Analysis', isKo ? '카르마와 업보' : isEs ? 'Karma y Deudas' : 'Karma and Debts');
-        doc.font(fontSerif).fillColor(textColor).fontSize(14).text(data.karma || (isEs ? 'Tu karma esta limpio.' : 'Your karma is clear.'), { lineGap: 10, align: 'justify' });
+          renderParsedText(data.karma || (isEs ? 'Tu karma esta limpio.' : 'Your karma is clear.'));
 
         // ---------------- PAGE 3: 5 ELEMENTS RADAR CHART ----------------
       addNewPage();

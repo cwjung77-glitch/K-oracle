@@ -149,9 +149,19 @@ export default function DeepDiveReport({ lang = "en" }) {
         
           {lang === 'ko' && (
             <section className="mt-8 p-6 bg-zinc-900 border border-yellow-500/30 rounded-2xl">
-              <h3 className="text-yellow-500 font-bold mb-4">[ADMIN ONLY] KARMA REVIEW</h3>
-              <p className="whitespace-pre-wrap text-sm text-zinc-300">{localStorage.getItem("aiKarma")}</p>
-            </section>
+                <h3 className="text-yellow-500 font-bold mb-4">[ADMIN ONLY] KARMA REVIEW</h3>
+                <div className="space-y-4 text-sm text-zinc-300">
+                  {(localStorage.getItem("aiKarma") || "").split('\n').map((line, idx) => {
+                    const match = line.match(/^\[CATEGORY:\s*(.*?)\]/i);
+                    if (match) {
+                      return <h4 key={idx} className="text-lg font-bold text-yellow-400 mt-6 mb-1">{match[1]}</h4>;
+                    } else if (line.trim().length > 0) {
+                      return <p key={idx}>{line}</p>;
+                    }
+                    return null;
+                  })}
+                </div>
+              </section>
           )}
 
           {/* 12-Month Luck Heatmap */}
