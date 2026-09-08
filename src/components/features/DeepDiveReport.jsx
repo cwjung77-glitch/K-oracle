@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Lock, Sparkles, TrendingUp, HeartPulse, Activity, Download, Loader2, Flame } from 'lucide-react';
 
 export default function DeepDiveReport({ lang = "en" }) {
+  const isKo = lang === "ko";
   const [isGenerating, setIsGenerating] = useState(true);
   const [aiReport, setAiReport] = useState("");
   const [pdfUrl, setPdfUrl] = useState("");
@@ -172,8 +173,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           <div className="bg-zinc-800/30 p-8 rounded-3xl border border-zinc-700/50">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-6">
               {[
-                ...(() => { let hash = 0; const dob = (typeof window !== 'undefined' ? localStorage.getItem('userDob') : null) || '1995-10-15'; for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); const seed = Math.abs(hash); const isKo = lang === 'ko';
-              const months = isKo ? ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['January','February','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return months.map((m, i) => ({ m, s: (((seed >> i) % 70) + 30) })); })()
+                ...(() => { let hash = 0; const dob = (typeof window !== 'undefined' ? localStorage.getItem('userDob') : null) || '1995-10-15'; for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); const seed = Math.abs(hash); const months = isKo ? ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['January','February','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return months.map((m, i) => ({ m, s: (((seed >> i) % 70) + 30) })); })()
               ].map((month) => {
                 let barColor = 'bg-zinc-500';
                 if (month.s >= 85) barColor = 'bg-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.5)]';
