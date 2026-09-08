@@ -14,7 +14,7 @@ export default function OracleLanding() {
   const [hasPaid, setHasPaid] = useState(false);
   const [selectedPlan, setSelectedPlan] = useState('bundle');
   const [showLogin, setShowLogin] = useState(false);
-  const [lang, setLang] = useState('en');
+  const [lang, setLang] = useState('en'); const [logoClicks, setLogoClicks] = useState(0); const [showKo, setShowKo] = useState(false);
 
   // Smooth scroll to top when switching tabs to prevent layout jumps/cut-offs
   useEffect(() => {
@@ -35,7 +35,7 @@ export default function OracleLanding() {
       {/* Navbar */}
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={() => window.scrollTo(0,0)}>
+          <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={() => { window.scrollTo(0,0); setLogoClicks(p => p + 1); if (logoClicks + 1 >= 5) setShowKo(true); }}>
             <span className="text-yellow-500">K</span>-ORACLE
           </div>
           <div className="flex items-center gap-4">
@@ -52,10 +52,7 @@ export default function OracleLanding() {
                 className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'es' ? 'bg-white text-black' : 'text-zinc-500 hover:text-white'}`}
               >
                 ES
-              </button>
-            </div>
-            <button 
-              onClick={() => setShowLogin(true)}
+              </button>{showKo && <button onClick={() => setLang('ko')} className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'ko' ? 'bg-yellow-500 text-black' : 'text-zinc-500 hover:text-white'}`}>KO</button>}</div><button onClick={() => setShowLogin(true)}
               className="px-6 py-2 text-xs font-bold tracking-widest bg-white text-black rounded-full hover:bg-zinc-200 transition-colors uppercase"
             >
               Log In
@@ -211,6 +208,7 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 
 

@@ -22,7 +22,7 @@ export async function POST(req) {
 Client Details:
 - Birth Data: ${birthData}
 - Gender: ${gender}
-- Target Language: ${isEs ? 'Spanish' : 'English'}
+- Target Language: ${lang === 'ko' ? 'Korean (Native Korean Language)' : isEs ? 'Spanish' : 'English'}
 
 WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Write like a high-end, fast-paced magazine column to maximize readability. Format with clear, short paragraphs and plenty of line breaks. Do not include markdown asterisks like **bold**. ABSOLUTELY NO GENERIC FLUFF. Every sentence must provide explosive value.`;
 

@@ -130,7 +130,15 @@ export default function DeepDiveReport({ lang = "en" }) {
 
           </section>
 
-        {/* 12-Month Luck Heatmap */}
+        
+          {lang === 'ko' && (
+            <section className="mt-8 p-6 bg-zinc-900 border border-yellow-500/30 rounded-2xl">
+              <h3 className="text-yellow-500 font-bold mb-4">[ADMIN ONLY] KARMA REVIEW</h3>
+              <p className="whitespace-pre-wrap text-sm text-zinc-300">{localStorage.getItem("aiKarma")}</p>
+            </section>
+          )}
+
+          {/* 12-Month Luck Heatmap */}
         <section>
           <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-8">
             <Activity className="text-blue-400" size={32} /> 2027 Energy Flow (Heatmap)

@@ -11,6 +11,7 @@ export async function POST(req) {
     const pdfPromise = new Promise((resolve) => doc.on('end', () => resolve(Buffer.concat(buffers))));
 
     const isEs = lang === 'es';
+    const isKo = lang === 'ko';
     const bgColor = '#0f0f0f';
     const primaryColor = '#EAB308'; // Gold/Yellow
     const secondaryColor = '#EC4899'; // Pink
@@ -48,18 +49,18 @@ export async function POST(req) {
 
       // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
       addNewPage();
-      addHeader(isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix', isEs ? 'El núcleo de tu identidad cósmica' : 'The core of your cosmic identity');
+      addHeader(isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix', isEs ? 'El núcleo de tu identidad cósmica' : 'The core of your cosmic identity');
       doc.font(fontSerif).fillColor(textColor).fontSize(14).text(data.content || (isEs ? 'Tu energía se alinea con la fuerza del Fuego. Iluminas la oscuridad pero debes tener cuidado de no quemarte.' : 'Your energy aligns with the force of Fire. You illuminate the darkness but must be careful not to burn out.'), { lineGap: 10, align: 'justify' });
 
       
         // ---------------- PAGE 2.5: PAST LIFE KARMA ----------------
         addNewPage();
-        addHeader(isEs ? '2. Analisis de Vidas Pasadas' : '2. Past Life Analysis', isEs ? 'Karma y Deudas' : 'Karma and Debts');
+        addHeader(isKo ? '2. 전생 분석' : isEs ? '2. Analisis de Vidas Pasadas' : '2. Past Life Analysis', isKo ? '카르마와 업보' : isEs ? 'Karma y Deudas' : 'Karma and Debts');
         doc.font(fontSerif).fillColor(textColor).fontSize(14).text(data.karma || (isEs ? 'Tu karma esta limpio.' : 'Your karma is clear.'), { lineGap: 10, align: 'justify' });
 
         // ---------------- PAGE 3: 5 ELEMENTS RADAR CHART ----------------
       addNewPage();
-      addHeader(isEs ? '3. Balance de los 5 Elementos' : '3. The 5 Elements Balance', isEs ? 'La alquimia de tu energía' : 'The alchemy of your energy');
+      addHeader(isKo ? '3. 오행 밸런스' : isEs ? '3. Balance de los 5 Elementos' : '3. The 5 Elements Balance', isEs ? 'La alquimia de tu energía' : 'The alchemy of your energy');
       
       const cx = doc.page.width / 2;
       const cy = 340;
