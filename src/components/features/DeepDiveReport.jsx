@@ -20,7 +20,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         const data = await res.json();
         if (data.success) {
           setAiReport(data.reportText);
-          setPdfUrl(data.pdfUrl); } else { setAiReport("ERROR: The AI Engine failed to connect. (Check if your GEMINI_API_KEY is valid. Gemini keys usually start with AIzaSy). \\n\\nServer Response: " + data.error); }
+          setPdfUrl(data.pdfUrl); } else { setAiReport("ERROR: The AI Engine failed to connect. (Check if your GEMINI_API_KEY is valid. Gemini keys usually start with AIzaSy). \n\nServer Response: " + data.error); }
       } catch (err) {
         console.error("Failed to fetch report", err);
         setAiReport("Error generating report. Please contact support.");
@@ -97,12 +97,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           <div className="bg-zinc-800/30 p-8 rounded-3xl border border-zinc-700/50">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-6">
               {[
-                { m: 'Jan', s: 40 }, { m: 'Feb', s: 50 },
-                { m: 'Mar', s: 20 }, { m: 'Apr', s: 70 },
-                { m: 'May', s: 85 }, { m: 'Jun', s: 90 },
-                { m: 'Jul', s: 95 }, { m: 'Aug', s: 100 },
-                { m: 'Sep', s: 80 }, { m: 'Oct', s: 60 },
-                { m: 'Nov', s: 30 }, { m: 'Dec', s: 55 }
+                ...(() => { let hash = 0; const dob = (typeof window !== 'undefined' ? localStorage.getItem('userDob') : null) || '1995-10-15'; for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); const seed = Math.abs(hash); const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return months.map((m, i) => ({ m, s: (((seed >> i) % 70) + 30) })); })()
               ].map((month) => {
                 let barColor = 'bg-zinc-500';
                 if (month.s >= 85) barColor = 'bg-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.5)]';
@@ -133,6 +128,8 @@ export default function DeepDiveReport({ lang = "en" }) {
     </div>
   );
 }
+
+
 
 
 
