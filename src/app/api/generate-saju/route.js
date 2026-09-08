@@ -29,7 +29,7 @@ Instructions:
 1. Briefly analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on their birth date (create a mystical interpretation).
 2. Give a direct, "tough love" warning about a specific karma or danger in 2027.
 3. Provide a warm, specific remedy (Bi-bang) involving a color, an action, or a lucky number.
-Generate a highly detailed, 800-word analysis worthy of a $4.99 premium report. ABSOLUTELY NO GENERIC FLUFF or filler words. You must provide HYPER-SPECIFIC, actionable insights. Break it down into: 1. Career/Wealth (Specific months to exercise caution or seize opportunities, WITHOUT giving direct financial commands), 2. Relationships (Specific energetic dynamics to watch out for), 3. Secret Remedy (Exact daily habits or colors). IMPORTANT LEGAL RULE: Never give direct financial, medical, or legal commands (e.g., "cancel this contract"). Frame everything as "energetic tendencies" or "spiritual advice" to avoid legal liability. Every single sentence must provide explosive value to the user. Format with clear paragraphs. Do not include markdown asterisks like **bold**.`;
+Generate a highly detailed, 800-word analysis worthy of a $4.99 premium report. ABSOLUTELY NO GENERIC FLUFF or filler words. You must provide HYPER-SPECIFIC, actionable insights. Break it down into: 1. Career/Wealth (Specific months to exercise caution or seize opportunities, WITHOUT giving direct financial commands), 2. Relationships (Specific energetic dynamics to watch out for), 3. Secret Remedy (Exact daily habits or colors). IMPORTANT LEGAL RULE: Never give direct financial, medical, or legal commands (e.g., "cancel this contract"). Frame everything as "energetic tendencies" or "spiritual advice" to avoid legal liability. Every single sentence must provide explosive value to the user. Format with clear, short paragraphs and plenty of line breaks. WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Write like a high-end, fast-paced magazine column to maximize readability for modern attention spans. Do not include markdown asterisks like **bold**.`;
 
     console.log("[AI Engine] Sending prompt to Google Gemini 1.5 Flash...");
     
@@ -71,6 +71,7 @@ Generate a highly detailed, 800-word analysis worthy of a $4.99 premium report. 
     return NextResponse.json({ success: false, error: error.message || 'Failed to generate destiny report.' }, { status: 500 });
   }
 }
+
 
 
 
