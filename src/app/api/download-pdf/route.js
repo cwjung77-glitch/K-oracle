@@ -153,38 +153,10 @@ export async function POST(req) {
         doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
       }
       
-      doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? 'Agosto a Septiembre marca tu temporada cumbre. Prepárate.' : 'August to September marks your peak season. Prepare for a major event.', { align: 'center', width: doc.page.width - 100 });
+      doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? 'Agosto a Septiembre marca tu temporada cumbre. Prepárate.' : `\${months[scores.indexOf(Math.max(...scores))]} marks your absolute peak season. Prepare for a major cosmic event.`, { align: 'center', width: doc.page.width - 100 });
 
       // ---------------- PAGE 5-10: IN-DEPTH TEXT SECTIONS ----------------
-      const sections = isEs ? [
-        ['4. Matriz de Riqueza y Carrera', 'El Dinero Inesperado'],
-        ['5. Análisis de Vidas Pasadas', 'Karma y Deudas'],
-        ['6. Matriz de Amor y Aura', 'Tu Hilo Rojo'],
-        ['7. Compatibilidad con Ídolos', 'El Vínculo Cósmico'],
-        ['8. Números y Colores de la Suerte', 'Geometría del Alma'],
-        ['9. El Veredicto Final', 'Tu Destino en 2027']
-      ] : [
-        ['4. Wealth & Career Matrix', 'The Unexpected Windfall'],
-        ['5. Past Life Analysis', 'Karma and Debts'],
-        ['6. Love & Aura Matrix', 'Your Red String of Fate'],
-        ['7. K-Pop Idol Compatibility', 'The Cosmic Bond'],
-        ['8. Lucky Numbers & Colors', 'Soul Geometry'],
-        ['9. The Final Verdict', 'Your Destiny in 2027']
-      ];
-
-      const dummyContent = isEs ? 
-        'Los textos antiguos sugieren que tu energía fluctúa con los ciclos lunares. Durante este período, experimentarás una alineación profunda de tu propósito. No rechaces nuevas oportunidades que lleguen disfrazadas de desafíos. La presencia de la estrella "Caballo Volador" (역마) en tu carta indica viajes internacionales o reubicación que traerán ganancias financieras masivas.\n\nEvita asociaciones impulsivas en Marzo y Octubre. Tus años dorados financieros comienzan a manifestarse hacia el final de la década.' : 
-        'The ancient texts suggest your energy fluctuates with the lunar cycles. During this period, you will experience a profound alignment of your purpose. Do not refuse new opportunities that arrive disguised as challenges. The presence of the "Flying Horse" (역마) star in your chart indicates international travel or relocation that will bring massive financial gain.\n\nAvoid impulsive partnerships in March and October. Your golden financial years begin to manifest toward the end of the decade.';
-
-      for (let i = 0; i < 6; i++) {
-        addNewPage();
-        addHeader(sections[i][0], sections[i][1]);
-        doc.font(fontSerif).fillColor(textColor).fontSize(14).text(dummyContent, { lineGap: 12, align: 'justify' });
-        doc.moveDown();
-        doc.font(fontSerifItalic).fillColor('#A1A1AA').fontSize(14).text(dummyContent, { lineGap: 12, align: 'justify' });
-      }
-
-    } else {
+      } else {
       addNewPage();
       doc.font(fontSerifBold).fillColor(textColor).fontSize(20).text('BEAUTY REPORT - UNDER CONSTRUCTION', 50, 100);
     }
