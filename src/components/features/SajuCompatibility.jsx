@@ -57,7 +57,7 @@ export default function SajuCompatibility() {
       return;
     }
     
-    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userGender', 'female');
+    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userGender', gender); localStorage.setItem('userGender', 'female');
     
     // 1. User's Element (Fixed based on DOB)
     let userHash = 0;
@@ -155,7 +155,7 @@ export default function SajuCompatibility() {
           <div className="space-y-6">
             <div className="space-y-4">
               <label className="block text-sm font-medium text-zinc-300">1. Enter Your Birth Info</label>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <input 
                   type="date" 
                   value={dob}
@@ -163,6 +163,14 @@ export default function SajuCompatibility() {
                   className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" 
                 />
                 <input type="time" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" defaultValue="12:00" />
+                  <select 
+                    value={gender} 
+                    onChange={(e) => setGender(e.target.value)}
+                    className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 appearance-none cursor-pointer"
+                  >
+                    <option value="female">♀ Female (여성)</option>
+                    <option value="male">♂ Male (남성)</option>
+                  </select>
               </div>
             </div>
 
