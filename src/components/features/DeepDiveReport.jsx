@@ -7,6 +7,7 @@ export default function DeepDiveReport({ lang = "en" }) {
   const isKo = lang === "ko";
   const [isGenerating, setIsGenerating] = useState(true);
   const [aiReport, setAiReport] = useState("");
+  const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");
 
   useEffect(() => {
@@ -20,7 +21,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         });
         const data = await res.json();
         if (data.success) {
-          setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText);
+          setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data);
           setPdfUrl(data.pdfUrl); } else { setAiReport("ERROR: The AI Engine failed to connect. (Check if your GEMINI_API_KEY is valid. Gemini keys usually start with AIzaSy). \n\nServer Response: " + data.error); }
       } catch (err) {
         console.error("Failed to fetch report", err);
