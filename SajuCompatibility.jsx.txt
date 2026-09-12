@@ -23,8 +23,6 @@ export default function SajuCompatibility() {
       if (savedTime) setTime(savedTime);
       if (savedGender) setGender(savedGender);
     }
-  }, []);
-
   useEffect(() => {
     if (dob) {
       localStorage.setItem('userDob', dob);

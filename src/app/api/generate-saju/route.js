@@ -70,7 +70,7 @@ Do not write anything else. Write in ${lang === 'ko' ? 'Korean' : 'English'}.`;
       const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ contents: [{ parts: [{ text: promptText }] }] })
+        body: JSON.stringify({ contents: [{ parts: [{ text: promptText }] }], generationConfig: { temperature: 0.1, topK: 1 } })
       });
       if (!response.ok) throw new Error(`Gemini API Error: ${await response.text()}`);
       const data = await response.json();
