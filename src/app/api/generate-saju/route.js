@@ -55,7 +55,13 @@ Example:
 [CATEGORY: The Spiritual Solution]
 (your text here)`;
 
-        const prompt3 = `${basePrompt}
+        const todayStr = new Date().toISOString().split('T')[0];
+    const prompt4 = `${basePrompt}
+TASK 4: Generate "Today's Fortune" (Daily Horoscope) for today: ${todayStr}.
+Keep it under 3-4 sentences. It must be highly actionable, slightly mystical, and specific to their Saju on this exact day.
+Return ONLY the text of the fortune. No formatting, no headings. Write in ${lang === 'ko' ? 'Korean' : 'English'}.`;
+
+    const prompt3 = `${basePrompt}
 TASK 3: Generate the Wealth and Romance Matrix data as pure JSON.
 You must return ONLY a JSON object exactly matching this structure, with no markdown code blocks around it:
 {
@@ -77,10 +83,11 @@ Do not write anything else. Write in ${lang === 'ko' ? 'Korean' : 'English'}.`;
       return (data.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
     };
 
-    const [reportText, karmaText, matrixResponse] = await Promise.all([
+    const [reportText, karmaText, matrixResponse, dailyFortune] = await Promise.all([
       fetchGemini(prompt1),
       fetchGemini(prompt2),
-      fetchGemini(prompt3)
+      fetchGemini(prompt3),
+      fetchGemini(prompt4)
     ]);
     
     let matrixData = null;
@@ -101,6 +108,7 @@ Do not write anything else. Write in ${lang === 'ko' ? 'Korean' : 'English'}.`;
       reportText: reportText,
       karmaText: karmaText,
       matrixData: matrixData,
+      dailyFortune: dailyFortune,
       pdfUrl: ""
     });
 
