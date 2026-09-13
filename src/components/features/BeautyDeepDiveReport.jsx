@@ -7,6 +7,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
   const [isGenerating, setIsGenerating] = useState(true);
   const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");
+  const [errorMsg, setErrorMsg] = useState("");
 
   useEffect(() => {
     const fetchReport = async () => {
@@ -19,12 +20,19 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
         });
         const json = await res.json();
         if (json.success) {
-          setReportData(json.data);
-          setPdfUrl(json.pdfUrl);
-        }
+            setReportData(json.data);
+            setPdfUrl(json.pdfUrl);
+          } else {
+            if (json.isRateLimit) {
+              setErrorMsg(lang === 'ko' ? "우주의 에너지가 폭주하고 있습니다! 1분 뒤에 새로고침하여 다시 시도해주세요." : "The cosmos is overwhelmed! Please wait 1 minute and refresh the page.");
+            } else {
+              setErrorMsg("AI Generation failed. Please try again later.");
+            }
+          }
       } catch (err) {
-        console.error("Failed to fetch beauty report", err);
-      } finally {
+          console.error("Failed to fetch beauty report", err);
+          setErrorMsg("Network error. Please check your connection.");
+        } finally {
         setIsGenerating(false);
       }
     };

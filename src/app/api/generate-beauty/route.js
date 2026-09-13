@@ -35,13 +35,16 @@ Example:
 
 WRITING STYLE: Use short, punchy sentences. Avoid long academic text. Write like a high-end fashion magazine column. ABSOLUTELY NO GENERIC FLUFF. Do not use markdown asterisks.`;
 
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${apiKey}`, {
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
     });
 
     if (!response.ok) {
+      if (response.status === 429) {
+        throw new Error("API_RATE_LIMIT");
+      }
       throw new Error(`Gemini API Error: ${await response.text()}`);
     }
 
