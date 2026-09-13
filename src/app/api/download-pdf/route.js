@@ -4,7 +4,8 @@ import PDFDocument from 'pdfkit';
 
 export async function POST(req) {
   try {
-    const { type, lang, data } = await req.json();
+    const { type, lang, data, plan } = await req.json();
+    const displayYear = plan === 'compatibility' ? 'Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
 
     const doc = new PDFDocument({ margin: 50, size: 'A4', autoFirstPage: false });
     const buffers = [];
@@ -50,9 +51,9 @@ export async function POST(req) {
       doc.font(fontSerifBold).fillColor(primaryColor).fontSize(54).text('K-ORACLE', 0, 280, { align: 'center', characterSpacing: 12 });
       doc.font(fontSans).fillColor(textColor).fontSize(16).text(isEs ? 'DECODIFICA TU DESTINO Y AURA' : 'DECODE YOUR DESTINY & AURA', { align: 'center', characterSpacing: 4 });
       doc.moveDown(2);
-      doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? 'Reporte Maestro ${displayYear} (Edición VIP)' : `${displayYear} Master Report (VIP Edition)`, { align: 'center' });
+      doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edición VIP)` : `${displayYear} Master Report (VIP Edition)`, { align: 'center' });
       
-      doc.font(fontSans).fillColor('#555555').fontSize(10).text('©© ${new Date().getFullYear()} K-ORACLE. STRICTLY CONFIDENTIAL.', 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
+      doc.font(fontSans).fillColor('#555555').fontSize(10).text(`Copyright ${new Date().getFullYear()} K-ORACLE. STRICTLY CONFIDENTIAL.`, 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
 
       
         const renderParsedText = (textStr) => {
