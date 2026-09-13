@@ -17,6 +17,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   const [showRequestIdol, setShowRequestIdol] = useState(false);
   const [requestName, setRequestName] = useState('');
   const [requestStatus, setRequestStatus] = useState('');
+  const [matchType, setMatchType] = useState('idol');
+  const [customName, setCustomName] = useState('');
+  const [customDob, setCustomDob] = useState('');
+  const [customTime, setCustomTime] = useState('12:00');
+  const [customGender, setCustomGender] = useState('male');
   useEffect(() => {
     if(typeof window !== 'undefined') {
       const savedDob = localStorage.getItem('userDob');
@@ -70,6 +75,16 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       return;
     }
     
+    let targetPerson = selectedIdol;
+    if (matchType === 'custom') {
+      if (!customName || !customDob) {
+        alert("Please enter your partner's name and birth date!");
+        return;
+      }
+      targetPerson = { name: customName, dob: customDob };
+      setSelectedIdol(targetPerson);
+    }
+    
     setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userTime', time); localStorage.setItem('userGender', gender);
     
     // 1. User's Element (Fixed based on DOB)
@@ -79,7 +94,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     
     // 2. Idol's Element (Fixed based on Idol Name)
     let idolHash = 0;
-    for (let i = 0; i < selectedIdol.name.length; i++) idolHash = selectedIdol.name.charCodeAt(i) + ((idolHash << 5) - idolHash);
+    for (let i = 0; i < targetPerson.name.length; i++) idolHash = targetPerson.name.charCodeAt(i) + ((idolHash << 5) - idolHash);
     idolHash = Math.abs(idolHash);
     
     const elements = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
@@ -183,11 +198,32 @@ export default function SajuCompatibility({ onUnlockPremium }) {
             </div>
 
             <div className="space-y-4" ref={searchRef}>
-              <label className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 text-sm font-medium text-zinc-300">
-                <span>2. Search Your Bias (최애 검색)</span>
-                <span onClick={() => setShowRequestIdol(true)} className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
-              </label>
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-2">
+                <label className="text-sm font-medium text-zinc-300">2. Select Your Partner</label>
+                <div className="flex bg-zinc-800 rounded-lg p-1">
+                  <button onClick={() => setMatchType('idol')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'idol' ? 'bg-yellow-500 text-black' : 'text-zinc-400 hover:text-white'}`}>Idol Match</button>
+                  <button onClick={() => setMatchType('custom')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'custom' ? 'bg-yellow-500 text-black' : 'text-zinc-400 hover:text-white'}`}>Custom Match</button>
+                </div>
+              </div>
               
+              {matchType === 'custom' ? (
+                <div className="space-y-3 animate-in fade-in slide-in-from-top-2">
+                  <input type="text" value={customName} onChange={(e) => setCustomName(e.target.value)} placeholder="Partner's Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <input type="date" value={customDob} onChange={(e) => setCustomDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                    <input type="time" value={customTime} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                    <select value={customGender} onChange={(e) => setCustomGender(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 appearance-none cursor-pointer">
+                      <option value="female">♀ Female</option>
+                      <option value="male">♂ Male</option>
+                    </select>
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <div className="flex justify-between items-center mb-1">
+                    <span className="text-xs text-zinc-500">Search from K-Pop database</span>
+                    <span onClick={() => setShowRequestIdol(true)} className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
+                  </div>
                             {showRequestIdol && (
                 <div className="mt-2 p-4 bg-zinc-900 border border-yellow-500/30 rounded-xl animate-in fade-in slide-in-from-top-2 mb-4">
                   {requestStatus ? (
@@ -256,6 +292,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                 <div className="mt-4 p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-xl text-yellow-500 text-sm flex items-center justify-between animate-in fade-in">
                   <span>Selected: <strong>{selectedIdol.name}</strong></span>
                 </div>
+              )}
+                </>
               )}
             </div>
 
