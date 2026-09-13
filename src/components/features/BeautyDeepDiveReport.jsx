@@ -9,8 +9,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
   const [pdfUrl, setPdfUrl] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
-  useEffect(() => {
-    const fetchReport = async () => {
+  const fetchReport = async () => {
       setIsGenerating(true);
       try {
         const res = await fetch('/api/generate-beauty', {
@@ -24,7 +23,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
             setPdfUrl(json.pdfUrl);
           } else {
             if (json.isRateLimit) {
-              setErrorMsg(lang === 'ko' ? "우주의 에너지가 폭주하고 있습니다! 1분 뒤에 새로고침하여 다시 시도해주세요." : "The cosmos is overwhelmed! Please wait 1 minute and refresh the page.");
+              setErrorMsg(lang === 'ko' ? "우주의 에너지가 폭주하고 있습니다! 1분 뒤에 아래 버튼을 눌러 다시 시도해주세요." : "The cosmos is overwhelmed! Please wait 1 minute and try again below.");
             } else {
               setErrorMsg("AI Generation failed. Please try again later.");
             }
@@ -35,17 +34,35 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
         } finally {
         setIsGenerating(false);
       }
-    };
+  };
+
+  useEffect(() => {
     fetchReport();
   }, [lang]);
 
   if (isGenerating || !reportData) {
     return (
       <div className="w-full bg-[#0a0a0a] rounded-[2rem] border border-pink-500/30 shadow-[0_0_100px_rgba(236,72,153,0.1)] flex flex-col items-center justify-center py-40">
-        <Loader2 className="animate-spin mb-4 text-pink-500" size={48} />
-        <p className="text-xl font-bold animate-pulse text-pink-400">
-          {lang === 'es' ? 'La estilista está analizando tu tono...' : 'The Stylist is analyzing your tone...'}
-        </p>
+        {!errorMsg ? (
+          <>
+            <Loader2 className="animate-spin mb-4 text-pink-500" size={48} />
+            <p className="text-xl font-bold animate-pulse text-pink-400">
+              {lang === 'es' ? 'La estilista esta analizando tu tono...' : 'The Stylist is analyzing your tone...'}
+            </p>
+          </>
+        ) : (
+          <div className="flex flex-col items-center gap-6 max-w-md text-center px-4">
+            <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center mb-2 text-red-500">
+              <AlertCircle size={32} />
+            </div>
+            <p className="text-xl font-bold text-zinc-300">
+              {errorMsg}
+            </p>
+            <button onClick={fetchReport} className="px-8 py-4 bg-pink-500 text-white font-bold rounded-xl hover:bg-pink-600 transition-colors shadow-[0_0_20px_rgba(236,72,153,0.4)]">
+              Retry Generation (Already Paid)
+            </button>
+          </div>
+        )}
       </div>
     );
   }

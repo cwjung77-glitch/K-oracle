@@ -6,14 +6,14 @@ import { Lock, Sparkles, TrendingUp, HeartPulse, Activity, Download, Loader2, Fl
 export default function DeepDiveReport({ lang = "en" }) {
   const isKo = lang === "ko";
   const [isGenerating, setIsGenerating] = useState(true);
+  const [error, setError] = useState(false);
   const [aiReport, setAiReport] = useState("");
   const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");
   const plan = typeof window !== 'undefined' ? localStorage.getItem("purchasedPlan") || "bundle" : "bundle";
   const displayYear = plan === 'compatibility' ? 'Cosmic Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
 
-  useEffect(() => {
-    const fetchReport = async () => {
+  const fetchReport = async () => {
       setIsGenerating(true);
       try {
         const res = await fetch('/api/generate-saju', {
@@ -23,7 +23,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         });
         const data = await res.json();
         if (data.success) {
-          setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data);
+          setError(false); setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data);
           setPdfUrl(data.pdfUrl); } else {
     if (data.isRateLimit) {
       setAiReport(isKo 
@@ -35,11 +35,13 @@ export default function DeepDiveReport({ lang = "en" }) {
   }
       } catch (err) {
         console.error("Failed to fetch report", err);
-        setAiReport("Error generating report. Please contact support.");
+        setError(true); setAiReport("Error generating report. Please check your connection and try again.");
       } finally {
         setIsGenerating(false);
       }
     };
+
+  useEffect(() => {
     fetchReport();
   }, [lang]);
 
@@ -89,8 +91,15 @@ export default function DeepDiveReport({ lang = "en" }) {
                 <p className="text-lg font-bold animate-pulse">The Grandmaster is analyzing your energy...</p>
               </div>
             ) : (
-              aiReport
-            )}
+                <div className="flex flex-col gap-4">
+                  <div className="whitespace-pre-wrap">{aiReport}</div>
+                  {error && (
+                    <button onClick={fetchReport} className="self-start px-6 py-3 bg-yellow-500 text-black font-bold rounded-xl hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.4)]">
+                      Retry Generation (Already Paid)
+                    </button>
+                  )}
+                </div>
+              )}
           </div>
         </section>
 
