@@ -53,8 +53,8 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
 
     console.log("[AI Engine] Sending consolidated single prompt to Google Gemini...");
     
-    // We can use gemini-1.5-flash as it is much more stable and is the actual model name.
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`, {
+    // Using the latest and most stable gemini-3.8-flash for optimal speed and reliability
+    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.1, topK: 1 } })
