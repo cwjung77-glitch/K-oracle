@@ -19,7 +19,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         const res = await fetch('/api/generate-saju', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan"), idolName: localStorage.getItem("idolName") || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
+          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan"), idolName: localStorage.getItem("idolName"), userName: localStorage.getItem("userName") || "The Client" || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
         });
         const data = await res.json();
         if (data.success) {

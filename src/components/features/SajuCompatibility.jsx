@@ -11,6 +11,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   
+  const [userName, setUserName] = useState('');
   const [dob, setDob] = useState('');
   const [time, setTime] = useState('12:00');
   const [gender, setGender] = useState('female');
@@ -24,9 +25,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   const [customGender, setCustomGender] = useState('male');
   useEffect(() => {
     if(typeof window !== 'undefined') {
+      const savedName = localStorage.getItem('userName');
       const savedDob = localStorage.getItem('userDob');
       const savedTime = localStorage.getItem('userTime');
       const savedGender = localStorage.getItem('userGender');
+      if (savedName) setUserName(savedName);
       if (savedDob) setDob(savedDob);
       if (savedTime) setTime(savedTime);
       if (savedGender) setGender(savedGender);
@@ -36,8 +39,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   useEffect(() => {
     if (dob) {
       localStorage.setItem('userDob', dob);
+      if (userName) localStorage.setItem('userName', userName);
     }
-  }, [dob]);
+  }, [dob, userName]);
 
   // Search states
   const [searchQuery, setSearchQuery] = useState('');
@@ -85,7 +89,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       setSelectedIdol(targetPerson);
     }
     
-    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userTime', time); localStorage.setItem('userGender', gender);
+    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userTime', time); localStorage.setItem('userGender', gender); localStorage.setItem('userName', userName || "You");
     
     // 1. User's Element (Fixed based on DOB)
     let userHash = 0;
@@ -183,6 +187,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
           <div className="space-y-6">
             <div className="space-y-4">
               <label className="block text-sm font-medium text-zinc-300">1. Enter Your Birth Info</label>
+              <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} placeholder="Your Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 mb-4" />
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <input type="date" value={dob} onChange={(e) => setDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
                 <input type="time" value={time} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
@@ -375,7 +380,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   )}
                   
                   <div className="flex items-center justify-center gap-4 mb-4">
-                    <span className="text-xl font-bold">You</span>
+                    <span className="text-xl font-bold">{userName || 'You'}</span>
                     <Heart className={`text-red-500 fill-red-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} />
                     <span className="text-xl font-bold">{selectedIdol.name}</span>
                   </div>
@@ -414,7 +419,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
                           <div className="text-2xl font-black text-white bg-black/50 py-2 px-4 rounded-full inline-block border border-white/10 backdrop-blur-sm">
-                            ME ❤️ {selectedIdol.name}
+                            {userName ? userName.toUpperCase() : 'ME'} ❤️ {selectedIdol.name}
                           </div>
                         </div>
                         

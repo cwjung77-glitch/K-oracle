@@ -24,13 +24,14 @@ export async function POST(req) {
     if (plan === 'fullyear') targetYears = "2028";
     else if (plan === 'bundle') targetYears = "2027 and 2028";
     
-    const idolName = body.idolName || "Your Partner";
+    const idolName = bodyIdolName || body.idolName || "Your Partner";
     const isCompatibility = plan === 'compatibility';
     
     let prompt = "";
     if (isCompatibility) {
       prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and direct.
 Client Details:
+- User Name: ${userName || 'The Client'}
 - User Birth Data: ${birthData}
 - User Gender: ${gender}
 - Partner/Idol Name: ${idolName}
@@ -59,6 +60,7 @@ Generate "Relationship Fortune for Today" (3 sentences).
     } else {
       prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and slightly direct ("Tough Love Grandmaster").
 Client Details:
+- User Name: ${userName || 'The Client'}
 - Birth Data: ${birthData}
 - Gender: ${gender}
 - Today's Date: ${todayStr}
