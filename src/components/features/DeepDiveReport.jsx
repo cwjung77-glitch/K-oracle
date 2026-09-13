@@ -10,7 +10,7 @@ export default function DeepDiveReport({ lang = "en" }) {
   const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");
   const plan = typeof window !== 'undefined' ? localStorage.getItem("purchasedPlan") || "bundle" : "bundle";
-  const displayYear = plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
+  const displayYear = plan === 'compatibility' ? 'Cosmic Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
 
   useEffect(() => {
     const fetchReport = async () => {
@@ -19,7 +19,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         const res = await fetch('/api/generate-saju', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan") || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
+          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan"), idolName: localStorage.getItem("idolName") || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
         });
         const data = await res.json();
         if (data.success) {

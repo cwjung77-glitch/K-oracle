@@ -6,7 +6,7 @@ import { idolsDB } from '../../data/idols';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Sparkles, Heart, Star, ArrowRight, Search, Download } from 'lucide-react';
 
-export default function SajuCompatibility() {
+export default function SajuCompatibility({ onUnlockPremium }) {
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);

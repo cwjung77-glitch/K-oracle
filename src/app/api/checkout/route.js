@@ -18,6 +18,7 @@ export async function POST(req) {
     } else {
       if (productId === 'q4') variantId = "2103661";
       else if (productId === 'fullyear') variantId = "2103670";
+      else if (productId === 'compatibility') variantId = "2103661"; // Mapping to $2.99 tier for MVP
       else variantId = "2103672"; // Bundle
     }
 

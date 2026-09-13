@@ -125,7 +125,7 @@ export default function OracleLanding() {
       {/* Active Feature Area */}
       <section className="px-6 relative">
         <div className="max-w-4xl mx-auto">
-          {activeTab === 'saju' ? <SajuCompatibility /> : <PersonalColor />}
+          {activeTab === 'saju' ? <SajuCompatibility onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} /> : <PersonalColor />}
         </div>
       </section>
 
