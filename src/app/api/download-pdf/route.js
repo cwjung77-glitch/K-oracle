@@ -1,4 +1,5 @@
 ﻿import { NextResponse } from 'next/server';
+import path from 'path';
 import PDFDocument from 'pdfkit';
 
 export async function POST(req) {
@@ -17,11 +18,17 @@ export async function POST(req) {
     const secondaryColor = '#EC4899'; // Pink
     const textColor = '#E4E4E7'; // Zinc 200
 
-    const fontSerif = 'Times-Roman';
-    const fontSerifBold = 'Times-Bold';
-    const fontSerifItalic = 'Times-Italic';
-    const fontSans = 'Helvetica';
-    const fontSansBold = 'Helvetica-Bold';
+    const fontPath = path.join(process.cwd(), 'public', 'fonts', 'NotoSansKR-Regular.otf');
+    try {
+      doc.registerFont('NotoSansKR', fontPath);
+    } catch(e) {
+      console.error('Font registration failed:', e);
+    }
+    const fontSerif = 'NotoSansKR';
+    const fontSerifBold = 'NotoSansKR';
+    const fontSerifItalic = 'NotoSansKR';
+    const fontSans = 'NotoSansKR';
+    const fontSansBold = 'NotoSansKR';
 
     // Helper to add a new page with dark background
     doc.on('pageAdded', () => { doc.rect(0, 0, doc.page.width, doc.page.height).fill(bgColor); doc.rect(25, 25, doc.page.width - 50, doc.page.height - 50).lineWidth(1).strokeColor('#2A2A2A').stroke(); doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(0.5).strokeColor('#444444').stroke(); doc.fillColor(textColor); }); const addNewPage = () => { doc.addPage(); };
