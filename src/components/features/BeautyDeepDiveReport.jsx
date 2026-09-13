@@ -11,6 +11,17 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
 
   const fetchReport = async () => {
       setIsGenerating(true);
+      const cacheKey = `beauty_${lang}_${localStorage.getItem("userDob")}`;
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) {
+        try {
+          const data = JSON.parse(cached);
+          setErrorMsg("");
+          setReportData(data);
+          setIsGenerating(false);
+          return;
+        } catch(e) { }
+      }
       try {
         const res = await fetch('/api/generate-beauty', {
           method: 'POST',
@@ -19,8 +30,8 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
         });
         const json = await res.json();
         if (json.success) {
-            setReportData(json.data);
-            setPdfUrl(json.pdfUrl);
+            setReportData(json.data); localStorage.setItem(`beauty_${lang}_${localStorage.getItem("userDob")}`, JSON.stringify(json.data));
+              setPdfUrl(json.pdfUrl);
           } else {
             if (json.isRateLimit) {
               setErrorMsg(lang === 'ko' ? "우주의 에너지가 폭주하고 있습니다! 1분 뒤에 아래 버튼을 눌러 다시 시도해주세요." : "The cosmos is overwhelmed! Please wait 1 minute and try again below.");

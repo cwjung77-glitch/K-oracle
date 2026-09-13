@@ -16,6 +16,19 @@ export default function DeepDiveReport({ lang = "en" }) {
 
   const fetchReport = async () => {
       setIsGenerating(true);
+      const cacheKey = `saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`;
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) {
+        try {
+          const data = JSON.parse(cached);
+          setError(false);
+          setAiReport(data.reportText); 
+          localStorage.setItem("aiKarma", data.karmaText); 
+          setReportData(data);
+          setIsGenerating(false);
+          return;
+        } catch(e) { }
+      }
       try {
         const res = await fetch('/api/generate-saju', {
           method: 'POST',
@@ -24,7 +37,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         });
         const data = await res.json();
         if (data.success) {
-          setError(false); setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data);
+          setError(false); setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data); localStorage.setItem(`saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`, JSON.stringify(data));
           setPdfUrl(data.pdfUrl); } else {
     if (data.isRateLimit) {
       setAiReport(isKo 

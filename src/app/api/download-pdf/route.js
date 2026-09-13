@@ -48,8 +48,8 @@ export async function POST(req) {
       doc.rect(0, 0, doc.page.width, doc.page.height).fill('#050505'); // True black for cover
       doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(1.5).strokeColor(primaryColor).stroke();
       
-      doc.font(fontSerifBold).fillColor(primaryColor).fontSize(54).text('K-ORACLE', 0, 280, { align: 'center', characterSpacing: 12 });
-      doc.font(fontSans).fillColor(textColor).fontSize(16).text(isEs ? 'DECODIFICA TU DESTINO Y AURA' : 'DECODE YOUR DESTINY & AURA', { align: 'center', characterSpacing: 4 });
+      doc.font(fontSerifBold).fillColor(primaryColor).fontSize(54).text(isCompatibility ? 'K-CHEMISTRY' : 'K-ORACLE', 0, 280, { align: 'center', characterSpacing: 12 });
+      doc.font(fontSans).fillColor(textColor).fontSize(16).text(isCompatibility ? (isEs ? 'Sinergia Cosmica Decodificada' : 'COSMIC SYNERGY DECODED') : (isEs ? 'DECODIFICA TU DESTINO Y AURA' : 'DECODE YOUR DESTINY & AURA'), { align: 'center', characterSpacing: 4 });
       doc.moveDown(2);
       doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edición VIP)` : `${displayYear} Master Report (VIP Edition)`, { align: 'center' });
       
@@ -72,16 +72,17 @@ export async function POST(req) {
 
         // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
       addNewPage();
-      addHeader(isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix', isEs ? 'El nucleo de tu identidad cosmica' : 'The core of your cosmic identity');
+      addHeader(isCompatibility ? (isKo ? '1. 관계 케미스트리' : '1. Relationship Chemistry') : (isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix'), isCompatibility ? 'The spark and the conflict' : (isEs ? 'El nucleo de tu identidad cosmica' : 'The core of your cosmic identity'));
         renderParsedText(data.content || (isEs ? 'Tu energia se alinea con la fuerza del Fuego. Iluminas la oscuridad pero debes tener cuidado de no quemarte.' : 'Your energy aligns with the force of Fire. You illuminate the darkness but must be careful not to burn out.'));
 
       
         // ---------------- PAGE 2.5: PAST LIFE KARMA ----------------
         addNewPage();
-        addHeader(isKo ? '2. 전생 분석' : isEs ? '2. Analisis de Vidas Pasadas' : '2. Past Life Analysis', isKo ? '카르마와 업보' : isEs ? 'Karma y Deudas' : 'Karma and Debts');
+        addHeader(isCompatibility ? (isKo ? '2. 전생의 인연' : '2. Past Life Connection') : (isKo ? '2. 전생 분석' : isEs ? '2. Analisis de Vidas Pasadas' : '2. Past Life Analysis'), isKo ? '카르마와 업보' : isEs ? 'Karma y Deudas' : 'Karma and Debts');
           renderParsedText(data.karma || (isEs ? 'Tu karma esta limpio.' : 'Your karma is clear.'));
 
-        // ---------------- PAGE 3: 5 ELEMENTS RADAR CHART ----------------
+        if (!isCompatibility) {
+      // ---------------- PAGE 3: 5 ELEMENTS RADAR CHART ----------------
       addNewPage();
       addHeader(isKo ? '3. 오행 밸런스' : isEs ? '3. Balance de los 5 Elementos' : '3. The 5 Elements Balance', isEs ? 'La alquimia de tu energía' : 'The alchemy of your energy');
       
@@ -184,6 +185,8 @@ export async function POST(req) {
       }
       
       doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? 'Agosto a Septiembre marca tu temporada cumbre. Prepárate.' : `\${months[scores.indexOf(Math.max(...scores))]} marks your absolute peak season. Prepare for a major cosmic event.`, { align: 'center', width: doc.page.width - 100 });
+      }
+
 
       // ---------------- PAGE 5-10: IN-DEPTH TEXT SECTIONS ----------------
       } else if (type === 'beauty') {
