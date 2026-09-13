@@ -12,6 +12,7 @@ export default function DeepDiveReport({ lang = "en" }) {
   const [pdfUrl, setPdfUrl] = useState("");
   const plan = typeof window !== 'undefined' ? localStorage.getItem("purchasedPlan") || "bundle" : "bundle";
   const displayYear = plan === 'compatibility' ? 'Cosmic Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
+    const isCompatibility = plan === "compatibility";
 
   const fetchReport = async () => {
       setIsGenerating(true);
@@ -69,7 +70,7 @@ export default function DeepDiveReport({ lang = "en" }) {
                 <div className="bg-zinc-900 rounded-2xl p-6 border border-yellow-500/20 shadow-[0_0_30px_rgba(234,179,8,0.05)]">
                   <div className="flex items-center gap-2 mb-3">
                     <Sparkles className="text-yellow-500" size={20} />
-                    <h4 className="text-yellow-500 font-bold uppercase tracking-widest text-sm">{isKo ? '오늘의 맞춤 운세' : 'Your Daily Cosmic Vibe'}</h4>
+                    <h4 className="text-yellow-500 font-bold uppercase tracking-widest text-sm">{isCompatibility ? (isKo ? '오늘의 궁합 바이브' : 'Today\'s Chemistry Vibe') : (isKo ? '오늘의 맞춤 운세' : 'Your Daily Cosmic Vibe')}</h4>
                   </div>
                   <p className="text-zinc-200 text-lg leading-relaxed font-serif">
                     {reportData.dailyFortune}
@@ -162,7 +163,7 @@ export default function DeepDiveReport({ lang = "en" }) {
                     <div className="w-14 h-14 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
                       <TrendingUp className="text-green-400" size={28} />
                     </div>
-                    <h4 className="text-2xl font-bold text-white mb-4">{isKo ? '재물 & 커리어 매트릭스' : 'Wealth & Career Matrix'}</h4>
+                    <h4 className="text-2xl font-bold text-white mb-4">{isCompatibility ? (isKo ? '관계 에너지 매트릭스' : 'Relationship Energy Matrix') : (isKo ? '재물 & 커리어 매트릭스' : 'Wealth & Career Matrix')}</h4>
                     <div className="space-y-4 text-zinc-400 leading-relaxed">
                       <p><strong>{isKo ? '기회:' : 'The Opportunity:'}</strong> {reportData?.matrixData?.wealth?.opportunity || wealthOps[seed % 3]}</p>
                       <p><strong>{isKo ? '위험:' : 'The Danger:'}</strong> {reportData?.matrixData?.wealth?.danger || wealthDans[(seed + 1) % 3]}</p>
@@ -173,7 +174,7 @@ export default function DeepDiveReport({ lang = "en" }) {
                     <div className="w-14 h-14 bg-pink-500/10 rounded-2xl flex items-center justify-center mb-6">
                       <HeartPulse className="text-pink-400" size={28} />
                     </div>
-                    <h4 className="text-2xl font-bold text-white mb-4">{isKo ? '연애 & 인맥 매트릭스' : 'Romance & Network'}</h4>
+                    <h4 className="text-2xl font-bold text-white mb-4">{isCompatibility ? (isKo ? '친밀도 & 신뢰 매트릭스' : 'Intimacy & Trust Matrix') : (isKo ? '연애 & 인맥 매트릭스' : 'Romance & Network')}</h4>
                     <div className="space-y-4 text-zinc-400 leading-relaxed">
                       <p><strong>{isKo ? '기회:' : 'The Opportunity:'}</strong> {reportData?.matrixData?.romance?.opportunity || romOps[(seed + 2) % 3]}</p>
                       <p><strong>{isKo ? '위험:' : 'The Danger:'}</strong> {reportData?.matrixData?.romance?.danger || romDans[(seed + 3) % 3]}</p>
@@ -186,25 +187,28 @@ export default function DeepDiveReport({ lang = "en" }) {
           </section>
 
         
-          {lang === 'ko' && (
-            <section className="mt-8 p-6 bg-zinc-900 border border-yellow-500/30 rounded-2xl">
-                <h3 className="text-yellow-500 font-bold mb-4">[ADMIN ONLY] KARMA REVIEW</h3>
-                <div className="space-y-4 text-sm text-zinc-300">
-                  {(localStorage.getItem("aiKarma") || "").split('\n').map((line, idx) => {
-                    const match = line.match(/^\[CATEGORY:\s*(.*?)\]/i);
-                    if (match) {
-                      return <h4 key={idx} className="text-lg font-bold text-yellow-400 mt-6 mb-1">{match[1]}</h4>;
-                    } else if (line.trim().length > 0) {
-                      return <p key={idx}>{line}</p>;
-                    }
-                    return null;
-                  })}
-                </div>
-              </section>
+          {isCompatibility && (
+            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-loose text-lg whitespace-pre-wrap font-serif">
+              <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-6">
+                <HeartPulse className="text-pink-500" size={32} /> {isKo ? '전생의 인연 (Past Life Karma)' : 'Past Life Connection'}
+              </h3>
+              <div className="space-y-4">
+                {(localStorage.getItem("aiKarma") || "").split('\n').map((line, idx) => {
+                  const match = line.match(/^\[CATEGORY:\s*(.*?)\]/i);
+                  if (match) {
+                    return <h4 key={idx} className="text-xl font-bold text-pink-400 mt-6 mb-2">{match[1]}</h4>;
+                  } else if (line.trim().length > 0) {
+                    return <p key={idx}>{line}</p>;
+                  }
+                  return null;
+                })}
+              </div>
+            </section>
           )}
 
           {/* 12-Month Luck Heatmap */}
-        <section>
+          {!isCompatibility && (
+          <section>
           <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-8">
             <Activity className="text-blue-400" size={32} /> {displayYear} Energy Flow (Heatmap)
           </h3>
@@ -227,11 +231,12 @@ export default function DeepDiveReport({ lang = "en" }) {
                 )
               })}
             </div>
-          </div>
-        </section>
+            </div>
+          </section>
+          )}
 
-        <button 
-          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, plan, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
+          <button 
+            onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, plan, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
           disabled={isGenerating}
           className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex items-center justify-center gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
         >
