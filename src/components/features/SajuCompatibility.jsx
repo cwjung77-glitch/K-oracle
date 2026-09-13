@@ -169,13 +169,8 @@ export default function SajuCompatibility() {
             <div className="space-y-4">
               <label className="block text-sm font-medium text-zinc-300">1. Enter Your Birth Info</label>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <input 
-                  type="date" 
-                  value={dob}
-                  onChange={(e) => setDob(e.target.value)}
-                  className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" 
-                />
-                <input type="time" value={time} onChange={(e) => setTime(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                <input type="date" value={dob} onChange={(e) => setDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                <input type="time" value={time} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
                   <select 
                     value={gender} 
                     onChange={(e) => setGender(e.target.value)}
