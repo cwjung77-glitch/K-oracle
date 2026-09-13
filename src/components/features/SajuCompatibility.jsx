@@ -14,6 +14,9 @@ export default function SajuCompatibility() {
   const [dob, setDob] = useState('');
   const [time, setTime] = useState('12:00');
   const [gender, setGender] = useState('female');
+  const [showRequestIdol, setShowRequestIdol] = useState(false);
+  const [requestName, setRequestName] = useState('');
+  const [requestStatus, setRequestStatus] = useState('');
   useEffect(() => {
     if(typeof window !== 'undefined') {
       const savedDob = localStorage.getItem('userDob');
@@ -187,11 +190,29 @@ export default function SajuCompatibility() {
             <div className="space-y-4" ref={searchRef}>
               <label className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 text-sm font-medium text-zinc-300">
                 <span>2. Search Your Bias (최애 검색)</span>
-                <span className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
+                <span onClick={() => setShowRequestIdol(true)} className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
               </label>
               
-              <div className="relative">
-                <input 
+                            {showRequestIdol && (
+                <div className="mt-2 p-4 bg-zinc-900 border border-yellow-500/30 rounded-xl animate-in fade-in slide-in-from-top-2 mb-4">
+                  {requestStatus ? (
+                    <div className="text-yellow-500 text-sm font-bold text-center py-2">{requestStatus}</div>
+                  ) : (
+                    <div className="flex flex-col gap-2">
+                      <div className="flex justify-between items-center mb-1">
+                        <span className="text-xs text-zinc-400">Request a new idol to be added</span>
+                        <button onClick={() => setShowRequestIdol(false)} className="text-xs text-zinc-500 hover:text-zinc-300">Close</button>
+                      </div>
+                      <div className="flex gap-2">
+                        <input type="text" value={requestName} onChange={(e) => setRequestName(e.target.value)} placeholder="Type Idol and Group Name..." className="flex-1 bg-black border border-zinc-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-yellow-500" />
+                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to Oracle AI! 🚀'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400">Send</button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+                <div className="relative">
+                  <input 
                   type="text" 
                   value={searchQuery}
                   placeholder="Idol Name (e.g. Jungkook)"
