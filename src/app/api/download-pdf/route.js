@@ -6,6 +6,7 @@ export async function POST(req) {
   try {
     const { type, lang, data, plan } = await req.json();
     const displayYear = plan === 'compatibility' ? 'Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
+    const isCompatibility = plan === 'compatibility';
 
     const doc = new PDFDocument({ margin: 50, size: 'A4', autoFirstPage: false });
     const buffers = [];
