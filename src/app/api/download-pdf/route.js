@@ -50,9 +50,9 @@ export async function POST(req) {
       doc.font(fontSerifBold).fillColor(primaryColor).fontSize(54).text('K-ORACLE', 0, 280, { align: 'center', characterSpacing: 12 });
       doc.font(fontSans).fillColor(textColor).fontSize(16).text(isEs ? 'DECODIFICA TU DESTINO Y AURA' : 'DECODE YOUR DESTINY & AURA', { align: 'center', characterSpacing: 4 });
       doc.moveDown(2);
-      doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? 'Reporte Maestro 2027 (Edición VIP)' : '2027 Master Report (VIP Edition)', { align: 'center' });
+      doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? 'Reporte Maestro ${displayYear} (Edición VIP)' : `${displayYear} Master Report (VIP Edition)`, { align: 'center' });
       
-      doc.font(fontSans).fillColor('#555555').fontSize(10).text('© 2027 K-ORACLE. STRICTLY CONFIDENTIAL.', 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
+      doc.font(fontSans).fillColor('#555555').fontSize(10).text('©© ${new Date().getFullYear()} K-ORACLE. STRICTLY CONFIDENTIAL.', 0, 720, { align: 'center', characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 50, 760, { align: 'center' });
 
       
         const renderParsedText = (textStr) => {
@@ -150,7 +150,7 @@ export async function POST(req) {
 
       // ---------------- PAGE 4: 12-MONTH FORTUNE FLOW (SPLINE GRAPH) ----------------
       addNewPage();
-      addHeader(isEs ? '3. Flujo de Energía 2027' : '3. 2027 Energy Flow', isEs ? 'Biorritmo Cósmico de 12 Meses' : '12-Month Cosmic Biorhythm');
+      addHeader(isEs ? '3. Flujo de Energía 2027' : `3. ${displayYear} Energy Flow`, isEs ? 'Biorritmo Cósmico de 12 Meses' : '12-Month Cosmic Biorhythm');
 
       const gX = 50, gY = 450, gW = doc.page.width - 100, gH = 180;
       doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
@@ -219,7 +219,7 @@ export async function POST(req) {
         doc.font(fontSerifBold).fillColor(beautyColor).fontSize(54).text('K-BEAUTY', 0, 280, { align: 'center', characterSpacing: 12 });
         doc.font(fontSans).fillColor(textColor).fontSize(16).text(isEs ? 'TU PLAN MAESTRO DE ESTILO' : 'YOUR STYLING MASTERPLAN', { align: 'center', characterSpacing: 4 });
         doc.moveDown(2);
-        doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? 'Reporte Maestro 2027 (Edicion VIP)' : '2027 Master Report (VIP Edition)', { align: 'center' });
+        doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edicion VIP)` : `${displayYear} Master Report (VIP Edition)`, { align: 'center' });
         
         // ---------------- PAGE 2: AI STYLING REPORT ----------------
         addNewPage();

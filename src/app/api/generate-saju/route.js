@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { birthData, gender, lang } = body;
+    const { birthData, gender, lang, plan } = body;
     const isEs = lang === 'es';
 
     const apiKey = process.env.GEMINI_API_KEY;
@@ -20,6 +20,10 @@ export async function POST(req) {
 
     const todayStr = new Date().toISOString().split('T')[0];
 
+    let targetYears = "2027";
+    if (plan === 'fullyear') targetYears = "2028";
+    else if (plan === 'bundle') targetYears = "2027 and 2028";
+    
     const prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and slightly direct ("Tough Love Grandmaster").
 Client Details:
 - Birth Data: ${birthData}
@@ -32,7 +36,7 @@ WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Wr
 YOUR TASK: You must generate 4 separate pieces of content. You MUST separate them using exactly these delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, and ---MATRIX---. Do not add any extra text before or after the delimiters.
 
 ---REPORT---
-Generate a highly personalized "2027 K-Astrology (Saju) Masterplan" (800 words).
+Generate a highly personalized "${targetYears} K-Astrology (Saju) Masterplan" (800 words). Focus specifically on the year(s): ${targetYears}.
 1. Analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on birth date.
 2. Break it down into: Career/Wealth, Relationships, and Secret Remedy.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
@@ -40,7 +44,7 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 ---KARMA---
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
 1. Analyze their past life incarnation based on the birth date.
-2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in 2027.
+2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
 
 ---FORTUNE---

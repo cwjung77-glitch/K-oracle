@@ -9,6 +9,8 @@ export default function DeepDiveReport({ lang = "en" }) {
   const [aiReport, setAiReport] = useState("");
   const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");
+  const plan = typeof window !== 'undefined' ? localStorage.getItem("purchasedPlan") || "bundle" : "bundle";
+  const displayYear = plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
 
   useEffect(() => {
     const fetchReport = async () => {
@@ -17,7 +19,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         const res = await fetch('/api/generate-saju', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
+          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan") || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
         });
         const data = await res.json();
         if (data.success) {
@@ -78,7 +80,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           {/* Core Analysis (Dynamic AI Fetch) */}
         <section>
           <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-6">
-            <Flame className="text-yellow-500" size={32} /> The Grand Narrative of 2027
+            <Flame className="text-yellow-500" size={32} /> The Grand Narrative of {displayYear}
           </h3>
           <div className="bg-zinc-800/30 p-8 rounded-2xl border border-zinc-800/50 text-zinc-300 leading-loose text-lg whitespace-pre-wrap font-serif">
             {isGenerating ? (
@@ -195,7 +197,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           {/* 12-Month Luck Heatmap */}
         <section>
           <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-8">
-            <Activity className="text-blue-400" size={32} /> 2027 Energy Flow (Heatmap)
+            <Activity className="text-blue-400" size={32} /> {displayYear} Energy Flow (Heatmap)
           </h3>
           <div className="bg-zinc-800/30 p-8 rounded-3xl border border-zinc-700/50">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-6">
@@ -220,7 +222,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         </section>
 
         <button 
-          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
+          onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, plan, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
           disabled={isGenerating}
           className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex items-center justify-center gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
         >

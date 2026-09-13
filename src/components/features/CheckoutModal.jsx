@@ -42,6 +42,8 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
     
     try {
       const email = e.target && e.target.email ? e.target.email.value : 'cwjung77@gmail.com';
+      localStorage.setItem('purchasedProduct', activeTab);
+      localStorage.setItem('purchasedPlan', selectedPlan);
       // Call our Next.js API Route for Lemon Squeezy integration
       const response = await fetch('/api/checkout', {
         method: 'POST',
