@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { birthData, gender, lang, plan } = body;
+    const { birthData, gender, lang, plan, userName, idolName: bodyIdolName } = body;
     const isEs = lang === 'es';
 
     const apiKey = process.env.GEMINI_API_KEY;
