@@ -17,11 +17,17 @@ export default function OracleLanding() {
   const [lang, setLang] = useState('en'); const [logoClicks, setLogoClicks] = useState(0); const [showKo, setShowKo] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && localStorage.getItem('hasPaid') === 'true') {
-      setHasPaid(true);
-      setTimeout(() => {
-        document.getElementById('premium-report')?.scrollIntoView({ behavior: 'smooth' });
-      }, 500);
+    if (typeof window !== 'undefined') {
+      const purchased = localStorage.getItem('purchasedProduct');
+      if (purchased) {
+        setActiveTab(purchased);
+      }
+      if (localStorage.getItem('hasPaid') === 'true') {
+        setHasPaid(true);
+        setTimeout(() => {
+          document.getElementById('premium-report')?.scrollIntoView({ behavior: 'smooth' });
+        }, 500);
+      }
     }
   }, []);
 
