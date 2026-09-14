@@ -51,7 +51,7 @@ tags: ["Tag1", "Tag2", "Tag3"]
 Body of the markdown goes here. Use ## for headings, bullet points, and bold text. End the article by encouraging users to visit the K-Oracle app to check their own Saju.`;
 
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${apiKey}`, {
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent?key=${apiKey}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
