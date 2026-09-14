@@ -90,6 +90,8 @@ Client Details:
 
 WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Write like a high-end, fast-paced magazine column to maximize readability. Format with clear, short paragraphs and plenty of line breaks. Do not include markdown asterisks like **bold**. ABSOLUTELY NO GENERIC FLUFF. Every sentence must provide explosive value.
 
+CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. If warning about dangers, frame them strictly as financial, emotional, or career challenges.
+
 YOUR TASK: You must generate 4 separate pieces of content. You MUST separate them using exactly these delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, and ---MATRIX---. Do not add any extra text before or after the delimiters.
 ${timeConstraint}
 
