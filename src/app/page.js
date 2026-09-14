@@ -61,13 +61,17 @@ export default function OracleLanding() {
   return (
     <div className="relative min-h-screen bg-[#050505] text-white font-sans selection:bg-yellow-500 selection:text-black pb-24 overflow-hidden">
       
-      {/* Ambient Cosmic Background */}
-      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-purple-900/20 blur-[120px] rounded-full pointer-events-none" />
-      <div className="absolute top-[20%] right-[-10%] w-[40%] h-[60%] bg-blue-900/20 blur-[120px] rounded-full pointer-events-none" />
-      <div className="absolute bottom-[-10%] left-[20%] w-[60%] h-[40%] bg-red-900/10 blur-[120px] rounded-full pointer-events-none" />
+      {/* Premium Cosmic Aurora Background */}
+      <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/20 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '8s' }} />
+      <div className="absolute top-[10%] right-[-10%] w-[50%] h-[80%] bg-yellow-600/15 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '12s', animationDelay: '2s' }} />
+      <div className="absolute bottom-[-20%] left-[10%] w-[70%] h-[60%] bg-pink-600/15 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '10s', animationDelay: '4s' }} />
       
-      {/* Grid Texture Overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
+      {/* Stardust Effect */}
+      <div className="absolute inset-0 opacity-[0.2] pointer-events-none mix-blend-screen" style={{ backgroundImage: 'radial-gradient(circle at center, #ffffff 1px, transparent 1px)', backgroundSize: '48px 48px' }} />
+      <div className="absolute inset-0 opacity-[0.1] pointer-events-none mix-blend-screen" style={{ backgroundImage: 'radial-gradient(circle at center, #ffffff 1.5px, transparent 1.5px)', backgroundSize: '72px 72px', backgroundPosition: '36px 36px' }} />
+      
+      {/* Grid Texture Overlay (Kept for depth) */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff03_1px,transparent_1px),linear-gradient(to_bottom,#ffffff03_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
       
       {/* Navbar */}
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
@@ -135,11 +139,11 @@ export default function OracleLanding() {
                         localStorage.setItem('userDob', parts[2]);
                         localStorage.setItem('userName', parts[3]);
                         localStorage.setItem('idolName', parts[4] || '');
-                        setActiveTab('saju');
+                        setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju');
                       } else {
                         const parts = item.cacheKey.split('_');
                         localStorage.setItem('userDob', parts[2]);
-                        setActiveTab('beauty');
+                        setActiveTab('beauty'); localStorage.setItem('purchasedProduct', 'beauty');
                       }
                       localStorage.setItem('hasPaid', 'true');
                       setHasPaid(true);
@@ -160,7 +164,7 @@ export default function OracleLanding() {
           {/* Custom Tab Switcher */}
         <div className="grid grid-cols-2 bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg w-full max-w-sm mx-auto">
           <button 
-            onClick={() => { setActiveTab('saju'); setHasPaid(false); }}
+            onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
                 ? 'bg-gradient-to-r from-yellow-600/90 to-red-600/90 text-white shadow-[0_0_20px_rgba(234,179,8,0.3)] border border-yellow-500/50' 
@@ -171,7 +175,7 @@ export default function OracleLanding() {
             <span className="tracking-wide">K-ASTROLOGY</span>
           </button>
           <button 
-            onClick={() => { setActiveTab('beauty'); setHasPaid(false); }}
+            onClick={() => { setActiveTab('beauty'); localStorage.setItem('purchasedProduct', 'beauty'); setHasPaid(false); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'beauty' 
                 ? 'bg-gradient-to-r from-pink-500/90 to-blue-500/90 text-white shadow-[0_0_20px_rgba(236,72,153,0.3)] border border-pink-500/50' 
