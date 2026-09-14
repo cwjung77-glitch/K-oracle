@@ -172,6 +172,7 @@ export default function PersonalColor() {
       setTimeout(() => {
         setLoading(false);
         const seasonData = colors.find(c => c.season === targetSeason) || colors[0];
+        if (typeof window !== 'undefined') localStorage.setItem('userPersonalColor', targetSeason);
         
         const idolsPool = gender === 'F' ? seasonData.femaleIdols : seasonData.maleIdols;
         const totalIdols = idolsPool.length;

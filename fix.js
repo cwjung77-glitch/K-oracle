@@ -1,4 +1,16 @@
 const fs = require('fs');
-let c = fs.readFileSync('src/components/features/DeepDiveReport.jsx', 'utf8');
-c = c.replace(/\{\s*m:\s*'Jan',\s*s:\s*40\s*\}(.|\n)*\{\s*m:\s*'Dec',\s*s:\s*55\s*\}/m, "...(() => { let hash = 0; const dob = (typeof window !== 'undefined' ? localStorage.getItem('userDob') : null) || '1995-10-15'; for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); const seed = Math.abs(hash); const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; return months.map((m, i) => ({ m, s: (((seed >> i) % 70) + 30) })); })()");
-fs.writeFileSync('src/components/features/DeepDiveReport.jsx', c);
+
+let pc = fs.readFileSync('src/components/features/PersonalColor.jsx', 'utf8');
+pc = pc.replace(
+  'const seasonData = colors.find(c => c.season === targetSeason) || colors[0];',
+  'const seasonData = colors.find(c => c.season === targetSeason) || colors[0];\n        if (typeof window !== \'undefined\') localStorage.setItem(\'userPersonalColor\', targetSeason);'
+);
+fs.writeFileSync('src/components/features/PersonalColor.jsx', pc);
+
+let bdd = fs.readFileSync('src/components/features/BeautyDeepDiveReport.jsx', 'utf8');
+bdd = bdd.replace(
+  'body: JSON.stringify({ tone: "Winter Cool", lang })',
+  'body: JSON.stringify({ tone: (typeof window !== "undefined" ? localStorage.getItem("userPersonalColor") : null) || "Winter Cool", lang })'
+);
+fs.writeFileSync('src/components/features/BeautyDeepDiveReport.jsx', bdd);
+console.log('Done!');

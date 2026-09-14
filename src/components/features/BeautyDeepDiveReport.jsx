@@ -27,7 +27,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
         const res = await fetch('/api/generate-beauty', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ tone: "Winter Cool", lang })
+          body: JSON.stringify({ tone: (typeof window !== "undefined" ? localStorage.getItem("userPersonalColor") : null) || "Winter Cool", lang })
         });
         const json = await res.json();
         if (json.success) {
