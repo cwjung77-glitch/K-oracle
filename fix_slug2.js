@@ -1,4 +1,6 @@
-import fs from 'fs';
+const fs = require('fs');
+
+const code = `import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
@@ -123,4 +125,6 @@ export default async function BlogPost({ params }) {
       </main>
     </div>
   );
-}
+}`;
+
+fs.writeFileSync('src/app/blog/[slug]/page.js', code);
