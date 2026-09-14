@@ -107,6 +107,7 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
 1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity. Do not invent a different past life occupation.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
+CRITICAL TONE RULE FOR BI-BANG: Since Western users do not know what a 'Bi-bang' is, the first time you mention it, you MUST explain it beautifully (e.g., "In Korean Shamanism, we use a Bi-bang—a secret mystical remedy—to alter fate").
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
 
