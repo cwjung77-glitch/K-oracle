@@ -1,7 +1,7 @@
 ---
 title: "NewJeans Hyein Saju Analysis: The Mystical Destiny of a Star"
 slug: "newjeans-hyein-saju-analysis"
-date: "2026-08-27"
+date: "2026-09-03"
 excerpt: "Discover the ancient Saju reading of NewJeans' youngest powerhouse, Hyein. Explore how her Jeong-Hae Day Pillar and Five Elements alignment shape her vocal talent, mature charm, and global success."
 author: "K-Oracle"
 tags: ["NewJeans", "Hyein", "Saju Reading", "K-Pop Saju", "Four Pillars of Destiny"]

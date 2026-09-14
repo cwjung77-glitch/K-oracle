@@ -1,7 +1,7 @@
 ---
 title: "Le Sserafim Chaewon Saju Analysis: Destiny of a Fearless Leader"
 slug: "le-sserafim-chaewon-saju-analysis"
-date: "2026-09-14"
+date: "2026-08-30"
 excerpt: "Explore the ancient Four Pillars of Destiny behind Kim Chaewon, the captivating leader of Le Sserafim. Uncover how her Yang Metal day master fuels her unwavering strength and stage artistry."
 author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]

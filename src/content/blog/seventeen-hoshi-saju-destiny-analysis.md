@@ -1,7 +1,7 @@
 ---
 title: "Seventeen Hoshi Saju Analysis: The Secret Destiny of K-Pop's Dancing Tiger"
 slug: "seventeen-hoshi-saju-destiny-analysis"
-date: "2026-09-14"
+date: "2026-09-04"
 excerpt: "Discover the profound Korean Saju astrological analysis of SEVENTEEN's Hoshi. Unveil how his Four Pillars of Destiny explain his ferocious stage presence, passion, and leadership."
 author: "K-Oracle"
 tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars of Destiny"]

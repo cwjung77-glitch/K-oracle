@@ -1,7 +1,7 @@
 ---
 title: "TXT Soobin Saju Analysis: Destiny, Leadership, and Hidden Cosmic Energy"
 slug: "txt-soobin-saju-analysis-destiny-leadership"
-date: "2026-09-14"
+date: "2026-09-10"
 excerpt: "Explore the Four Pillars of Destiny for TXT leader Soobin. Unveil his Im Water Day Master, gentle leadership power, and artistic fortune through the K-Oracle ancient system."
 author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]

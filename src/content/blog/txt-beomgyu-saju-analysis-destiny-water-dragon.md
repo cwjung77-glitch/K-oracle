@@ -1,7 +1,7 @@
 ---
 title: "TXT Beomgyu Saju Analysis: The Destiny of the Water Dragon"
 slug: "txt-beomgyu-saju-analysis-destiny-water-dragon"
-date: "2026-09-14"
+date: "2026-09-09"
 excerpt: "Explore the cosmic blueprint of TXT's Beomgyu through the ancient Korean Saju system. Discover how his Water Dragon Day Master and strong Wood energy fuel his undeniable charisma and artistic mastery."
 author: "K-Oracle"
 tags: ["TXT", "Beomgyu", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

@@ -1,7 +1,7 @@
 ---
 title: "Saju Analysis of TXT Taehyun: The Flame of Passion and Intellectual Mastery"
 slug: "txt-taehyun-saju-analysis"
-date: "2026-09-14"
+date: "2026-09-10"
 excerpt: "Explore the Four Pillars of Destiny for TXT's Taehyun. Discover how his Saju chart reveals his fierce passion, analytical intellect, vocal power, and global success."
 author: "K-Oracle"
 tags: ["TXT", "Taehyun", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]

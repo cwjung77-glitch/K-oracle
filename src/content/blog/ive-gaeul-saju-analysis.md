@@ -1,7 +1,7 @@
 ---
 title: "IVE Gaeul Saju Analysis: The Hidden Fire Behind Her Graceful Autumn Charm"
 slug: "ive-gaeul-saju-analysis"
-date: "2026-08-30"
+date: "2026-08-27"
 excerpt: "Discover the Saju reading of IVE's Gaeul. Unveil how her Ding-Si Fire Day Master and Autumn Metal energy shape her calm leadership, artistic talent, and destiny."
 author: "K-Oracle"
 tags: ["IVE", "Gaeul", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]

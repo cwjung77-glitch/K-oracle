@@ -1,7 +1,7 @@
 ---
 title: "Decoding Aespa Karina's Saju: Cosmic Secrets Behind the Ultimate K-Pop Leader"
 slug: "aespa-karina-saju-analysis"
-date: "2026-08-27"
+date: "2026-08-25"
 excerpt: "Explore the Four Pillars of Destiny (Saju) chart of Aespa's Karina. Discover how her elemental blueprint shapes her ethereal visuals, natural leadership, and global stardom."
 author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]

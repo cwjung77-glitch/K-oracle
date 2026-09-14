@@ -1,7 +1,7 @@
 ---
 title: "Stray Kids Lee Know Saju Analysis: Decoding the Destiny of the Wood Snake"
 slug: "stray-kids-lee-know-saju-analysis"
-date: "2026-09-14"
+date: "2026-09-08"
 excerpt: "Explore the ancient Saju chart of Stray Kids' Lee Know. Uncover his Wood Snake Day Master, elemental balance, sharp stage presence, and unique personality traits."
 author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]

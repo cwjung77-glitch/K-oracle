@@ -1,7 +1,7 @@
 ---
 title: "Seventeen Wonwoo Saju Analysis: Decoding the Destiny of the Refined Gem"
 slug: "seventeen-wonwoo-saju-analysis"
-date: "2026-09-14"
+date: "2026-09-06"
 excerpt: "Discover the hidden destiny of SEVENTEEN's Wonwoo through Korean Saju. Unveil how his Day Master, elemental balance, and ancient cosmic chart shape his magnetic talent and quiet strength."
 author: "K-Oracle"
 tags: ["Wonwoo", "SEVENTEEN", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]

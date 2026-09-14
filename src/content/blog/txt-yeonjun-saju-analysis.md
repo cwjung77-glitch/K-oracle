@@ -1,7 +1,7 @@
 ---
 title: "TXT Yeonjun Saju Analysis: Destiny of the 4th Gen IT Boy"
 slug: "txt-yeonjun-saju-analysis"
-date: "2026-09-14"
+date: "2026-09-11"
 excerpt: "Discover the ancient Korean Saju destiny reading of TXT's Yeonjun. Explore his Water Horse day pillar, powerful Peach Blossom charisma, and cosmic secret behind his legendary star power."
 author: "K-Oracle"
 tags: ["Saju Analysis", "TXT Yeonjun", "K-pop Astrology", "Korean Destiny"]

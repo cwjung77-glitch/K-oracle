@@ -1,7 +1,7 @@
 ---
 title: "Unveiling NewJeans Haerin's Saju: The Mysterious Water Tiger and Global Stardom"
 slug: "newjeans-haerin-saju-analysis-destiny"
-date: "2026-08-26"
+date: "2026-09-02"
 excerpt: "Explore the ancient Saju reading of NewJeans' Haerin. Discover how her Ren Water Day Master and Tiger energy shape her enigmatic charm, artistic talent, and extraordinary career path."
 author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]

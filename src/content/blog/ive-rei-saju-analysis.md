@@ -1,7 +1,7 @@
 ---
 title: "IVE Rei Saju Analysis: Decoding the Destiny of K-Pop's Artistic Gem"
 slug: "ive-rei-saju-analysis"
-date: "2026-08-31"
+date: "2026-08-29"
 excerpt: "An in-depth Korean Saju analysis of IVE's Rei. Discover her elemental balance, unique creative talents, personality traits, and cosmic destiny through the Four Pillars of Destiny."
 author: "K-Oracle"
 tags: ["IVE Rei", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "K-Oracle"]

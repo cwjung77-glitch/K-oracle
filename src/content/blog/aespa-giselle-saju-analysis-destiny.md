@@ -1,7 +1,7 @@
 ---
 title: "Aespa Giselle Saju Reading: Unveiling Her Cosmic Destiny and Hidden Energy"
 slug: "aespa-giselle-saju-analysis-destiny"
-date: "2026-08-28"
+date: "2026-08-25"
 excerpt: "Discover the ancient Korean Saju destiny chart of Aespa's Giselle. Explore her cosmic elements, stage charisma, linguistic talents, and future fortune."
 author: "K-Oracle"
 tags: ["Giselle", "Aespa", "Saju Analysis", "K-Pop Destiny"]

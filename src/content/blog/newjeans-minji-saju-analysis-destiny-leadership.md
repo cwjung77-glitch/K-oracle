@@ -1,7 +1,7 @@
 ---
 title: "NewJeans Minji Saju Analysis: Destiny, Leadership, and the Cosmic Secret Behind Her Success"
 slug: "newjeans-minji-saju-analysis-destiny-leadership"
-date: "2026-08-25"
+date: "2026-09-04"
 excerpt: "Discover the hidden Saju energy of NewJeans' anchor, Minji. Explore how her Jeong Fire Day Master and Heavenly Nobleman stars shape her charismatic stage presence, natural leadership, and long-term career fortune."
 author: "K-Oracle"
 tags: ["NewJeans", "Minji", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]

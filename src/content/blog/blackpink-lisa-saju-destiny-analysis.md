@@ -1,7 +1,7 @@
 ---
 title: "Blackpink Lisa Saju Analysis: The Cosmic Blueprint of a Global Icon"
 slug: "blackpink-lisa-saju-destiny-analysis"
-date: "2026-09-03"
+date: "2026-08-27"
 excerpt: "Explore the Four Pillars of Destiny for Blackpink's Lisa. Uncover how her Day Master, cosmic element balance, and Peach Blossom stars propelled her to global pop royalty."
 author: "K-Oracle"
 tags: ["Saju Analysis", "Blackpink Lisa", "Celebrity Saju", "Four Pillars of Destiny", "Korean Astrology"]

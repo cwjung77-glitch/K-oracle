@@ -1,7 +1,7 @@
 ---
 title: "SEVENTEEN Mingyu Saju Analysis: Destiny, Charisma, and Elemental Power"
 slug: "seventeen-mingyu-saju-analysis"
-date: "2026-09-14"
+date: "2026-09-05"
 excerpt: "Explore the ancient Korean Saju destiny chart of SEVENTEEN's Mingyu. Discover how his Day Master element, Peach Blossom star, and unique cosmic alignment forge his legendary charisma and versatile talent."
 author: "K-Oracle"
 tags: ["SEVENTEEN", "Mingyu", "Saju Analysis", "K-Pop Astrology", "Korean Destiny"]

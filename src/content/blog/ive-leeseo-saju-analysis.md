@@ -1,7 +1,7 @@
 ---
 title: "IVE Leeseo Saju Analysis: Destiny of the Fierce Metal Tiger"
 slug: "ive-leeseo-saju-analysis"
-date: "2026-08-31"
+date: "2026-08-28"
 excerpt: "Explore the Saju chart of IVE's youngest star, Leeseo. Discover how her Geng Metal Day Master and vibrant Wood energy craft her fearless stage presence and natural charisma."
 author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]

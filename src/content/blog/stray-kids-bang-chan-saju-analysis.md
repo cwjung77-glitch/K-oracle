@@ -1,7 +1,7 @@
 ---
 title: "Stray Kids Bang Chan Saju Analysis: Destiny of a Visionary Leader"
 slug: "stray-kids-bang-chan-saju-analysis"
-date: "2026-09-14"
+date: "2026-09-06"
 excerpt: "Explore the cosmic birth chart of Stray Kids' leader Bang Chan through ancient Korean Saju. Discover how his core elements reveal his musical genius, protective leadership, and enduring global success."
 author: "K-Oracle"
 tags: ["BangChan", "StrayKids", "Saju Analysis", "Korean Astrology", "KPop Destiny"]
