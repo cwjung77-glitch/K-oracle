@@ -158,23 +158,26 @@ export async function POST(req) {
       const gX = 50, gY = 450, gW = doc.page.width - 100, gH = 180;
       doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
 
-      let months = [];
+      let monthsData = [];
       if (plan === 'q4') {
-        months = isEs ? ['Oct','Nov','Dic'] : ['Oct','Nov','Dec'];
+        const mNames = isEs ? ['Oct','Nov','Dic'] : ['Oct','Nov','Dec'];
+        monthsData = mNames.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
       } else if (plan === 'bundle') {
-        const m26 = isEs ? ['Oct 26','Nov 26','Dic 26'] : ['Oct 26','Nov 26','Dec 26'];
-        const m27 = isEs ? ['Ene 27','Feb 27','Mar 27','Abr 27','May 27','Jun 27','Jul 27','Ago 27','Sep 27','Oct 27','Nov 27','Dic 27'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
-        months = [...m26, ...m27];
+        const m26Names = isEs ? ['Oct 26','Nov 26','Dic 26'] : ['Oct 26','Nov 26','Dec 26'];
+        const m27Names = isEs ? ['Ene 27','Feb 27','Mar 27','Abr 27','May 27','Jun 27','Jul 27','Ago 27','Sep 27','Oct 27','Nov 27','Dic 27'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
+        const m26 = m26Names.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
+        const m27 = m27Names.map((m, i) => ({ m, y: 2027, idx: i }));
+        monthsData = [...m26, ...m27];
       } else {
-        months = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        const mNames = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        monthsData = mNames.map((m, i) => ({ m, y: 2027, idx: i }));
       }
-
-      let yearSeed = seed;
-      if (plan === 'fullyear') yearSeed += 2027;
-      else if (plan === 'bundle') yearSeed += 4053;
-      else yearSeed += 2026;
       
-      const scores = []; for (let i=0; i<months.length; i++) scores.push( (((yearSeed + i * 17) % 70) + 30) );
+      const months = monthsData.map(d => d.m);
+      const scores = monthsData.map(({ y, idx }) => {
+        const combinedSeed = seed + y * 100 + idx;
+        return (((combinedSeed * 17) % 70) + 30);
+      });
 
       [0, 25, 50, 75, 100].forEach(level => {
         const y = gY - (level / 100) * gH;

@@ -249,20 +249,25 @@ export default function DeepDiveReport({ lang = "en" }) {
                   const dob = (typeof window !== 'undefined' ? localStorage.getItem('userDob') : null) || '1995-10-15'; 
                   for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); 
                   let seed = Math.abs(hash); 
-                  if (plan === 'fullyear') seed += 2027;
-                  else if (plan === 'bundle') seed += 4053; // Arbitrary modifier to make it distinct
-                  else seed += 2026;
-                  let months = [];
+                  let monthsData = [];
                   if (plan === 'q4') {
-                    months = isKo ? ['10월','11월','12월'] : ['Oct','Nov','Dec'];
+                    const mNames = isKo ? ['10월','11월','12월'] : ['Oct','Nov','Dec'];
+                    monthsData = mNames.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
                   } else if (plan === 'bundle') {
-                    const m26 = isKo ? ['26년 10월','11월','12월'] : ['Oct 26','Nov 26','Dec 26'];
-                    const m27 = isKo ? ['27년 1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
-                    months = [...m26, ...m27];
+                    const m26Names = isKo ? ['26년 10월','11월','12월'] : ['Oct 26','Nov 26','Dec 26'];
+                    const m27Names = isKo ? ['27년 1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
+                    const m26 = m26Names.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
+                    const m27 = m27Names.map((m, i) => ({ m, y: 2027, idx: i }));
+                    monthsData = [...m26, ...m27];
                   } else {
-                    months = isKo ? ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                    const mNames = isKo ? ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                    monthsData = mNames.map((m, i) => ({ m, y: 2027, idx: i }));
                   }
-                  return months.map((m, i) => ({ m, s: (((seed + i * 17) % 70) + 30) })); 
+                  
+                  return monthsData.map(({ m, y, idx }) => {
+                    const combinedSeed = seed + y * 100 + idx;
+                    return { m, s: (((combinedSeed * 17) % 70) + 30) };
+                  });
                 })()
               ].map((month) => {
                 let barColor = 'bg-zinc-500';
