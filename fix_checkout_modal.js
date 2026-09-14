@@ -1,45 +1,41 @@
 const fs = require('fs');
-let c = fs.readFileSync('src/components/features/CheckoutModal.jsx', 'utf8');
+let c = fs.readFileSync('src/components/features/CheckoutModal.jsx', 'utf8').replace(/\r\n/g, '\n');
 
-const replacement = `
-export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, selectedPlan }) {
-  const [isProcessing, setIsProcessing] = useState(false);
-  const [method, setMethod] = useState('card'); // 'card' or 'digital'
+const newForm = `        {/* Form */}
+        <form onSubmit={handlePay} className="p-6">
+          <div className="space-y-4 animate-in fade-in duration-300">
+            <p className="text-sm text-zinc-400 leading-relaxed mb-4">
+              To ensure the highest level of security and global compliance, your payment will be processed securely by our official merchant of record, <strong className="text-white">Lemon Squeezy</strong>.
+            </p>
+            
+            <div>
+              <label className="block text-xs font-bold text-zinc-300 uppercase tracking-widest mb-2">Email for Receipt & Access</label>
+              <input type="email" id="email" name="email" required placeholder="you@example.com" className="w-full px-4 py-3.5 bg-zinc-900 rounded-xl border border-zinc-700 focus:border-zinc-400 outline-none transition-all text-white placeholder-zinc-500 font-medium" />
+            </div>
+          </div>
 
-  if (!isOpen) return null;
+          <button 
+            type="submit" 
+            disabled={isProcessing}
+            className={\`w-full mt-8 \${bgTheme} \${hoverTheme} text-black font-black py-4 rounded-xl flex items-center justify-center gap-2 transition-all disabled:opacity-70 shadow-[0_0_20px_rgba(255,255,255,0.1)] hover:shadow-[0_0_30px_rgba(255,255,255,0.2)]\`}
+          >
+            {isProcessing ? (
+              <><Loader2 className="animate-spin" size={20} /> Redirecting...</>
+            ) : (
+              <><ShieldCheck size={18} /> Proceed to Secure Checkout</>
+            )}
+          </button>
+          
+          <div className="mt-6 flex items-center justify-center gap-1.5 text-xs text-zinc-500 font-bold uppercase tracking-widest">
+            <Lock size={14} /> 256-bit Secure Encryption
+          </div>
+        </form>`;
 
-  const isBeauty = activeTab === 'beauty';
-  
-  let productName = "2027 Full Destiny Report";
-  let price = "$4.99";
-  
-  if (isBeauty) {
-    productName = "K-Beauty Deep Dive Report";
-    price = "$9.99";
-  } else {
-    if (selectedPlan === 'q4') {
-      productName = "2027 Q4 Finale Report";
-      price = "$2.99";
-    } else if (selectedPlan === 'fullyear') {
-      productName = "2028 Full Year Report";
-      price = "$4.99";
-    } else {
-      productName = "27+28 Bundle Report";
-      price = "$5.99";
-    }
-  }
+// Find everything from {/* Form */} to the end of the form.
+const regex = /\{\/\* Form \*\/\}\n\s*<form onSubmit=\{handlePay\} className="p-6">[\s\S]*?<\/form>/;
+c = c.replace(regex, newForm);
 
-  const themeColor = isBeauty ? "text-pink-400" : "text-yellow-500";
-`;
-
-c = c.replace(/export default function CheckoutModal.*?const themeColor = isBeauty \? "text-pink-400" : "text-yellow-500";/s, replacement.trim());
-
-// Update fetch call body
-c = c.replace(/productId: isBeauty \? 'prod_beauty' : 'prod_saju'/, `productId: isBeauty ? 'prod_beauty' : selectedPlan`);
-
-// Uncomment redirect
-c = c.replace(/\/\/ window\.location\.href = data\.checkoutUrl; \/\/ In real life, redirect here./, 'window.location.href = data.checkoutUrl;');
-// Comment out onSuccess (as they will be redirected)
-c = c.replace(/onSuccess\(\); \/\/ Simulate successful return from checkout for MVP/, '// onSuccess();');
+// Also remove the `method` state since it's no longer needed
+c = c.replace(/const \[method, setMethod\] = useState\('card'\); \/\/ 'card' or 'digital'\n/, '');
 
 fs.writeFileSync('src/components/features/CheckoutModal.jsx', c);
