@@ -53,24 +53,13 @@ export async function POST(req) {
     for (let i=0; i<kDob.length; i++) kHash = kDob.charCodeAt(i) + ((kHash << 5) - kHash);
     const personalArchetype = karmicArchetypes[Math.abs(kHash) % karmicArchetypes.length];
 
-    const relArchetypes = [
-      "Tragic Star-Crossed Lovers", "Rival Warlords", "Master and Loyal Apprentice", "Secret Royal Siblings", "Betrayed Comrades", 
-      "Reincarnated Soulmates", "A King and a Hidden Rebel", "Two Spies on Opposite Sides", "A Monk and a Temptress", "A General and a Captive",
-      "A Poet and a Muse", "Two Merchants Competing for the Silk Road", "A Healer and a Dying Prince", "A Shaman and a Cursed Noble", "A Blacksmith and a Warrior",
-      "A Gisaeng and a Secret Envoy", "Two Princes Fighting for the Throne", "A Matchmaker and a Heartbroken Client", "A Pirate and a Royal Admiral", "A Royal Tutor and a Rebellious Student",
-      "A Court Musician and a Deaf Painter", "A Forbidden Palace Romance", "Two Assassins Bound by Blood", "A Queen and her Loyal Knight", "A Traveling Merchant and a Lonely Innkeeper",
-      "A Ghost and a Shaman", "A Farmer and a Heavenly Fairy", "Two Scholars Debating to the Death", "A Runaway Slave and a Compassionate Noble", "A King and a Prophet",
-      "A Captive Princess and her Mercenary Guard", "Two Rival Fortune Tellers", "A Corrupt Magistrate and a Righteous Thief", "A Head Eunuch and a Court Lady", "A Silk Weaver and a Wealthy Patron",
-      "A Disgraced General and a Blind Monk", "Two Childhood Friends Torn by War", "A Tiger Hunter and a Mountain Spirit", "A Royal Food Taster and a Poisoner", "An Exiled Scholar and a Village Chief",
-      "A Swordmaster and a Pacifist Monk", "A Smuggler and a Border Guard", "A Royal Astronomer and a Peasant Girl", "A Fallen Noble and a Wealthy Merchant", "A Matchmaker and a Notorious Playboy",
-      "A Shaman and a Skeptical Scholar", "Two Courtesans Vying for the King's Favor", "A Master Calligrapher and an Illiterate Soldier", "A Tea Master and a Weary Traveler", "A Rebel Leader and a Royal Spy",
-      "An Orphan and a Secret Prince", "Two Blacksmiths Forging Rival Swords", "A Royal Mapmaker and a Foreign Explorer", "A Palace Guard and a Masked Dancer", "A Cursed Heir and a Pure-hearted Healer",
-      "A Pirate Queen and a Captive Noble", "A Keeper of Tombs and a Grave Robber", "Two Poets Competing in a Royal Exam", "A Firework Maker and a Blind Musician", "A Secret Emissary and a Local Rebel"
-    ];
+    const eras = ["Goguryeo Dynasty", "Baekje Dynasty", "Silla Dynasty", "Goryeo Dynasty", "Joseon Dynasty"];
+    const personalEra = eras[Math.abs(kHash) % eras.length];
+      
     let rHash = kHash;
     const rDob = idolName || '1995-01-01';
     for (let i=0; i<rDob.length; i++) rHash = rDob.charCodeAt(i) + ((rHash << 5) - rHash);
-    const relationshipArchetype = relArchetypes[Math.abs(rHash) % relArchetypes.length];
+    const partnerArchetype = karmicArchetypes[Math.abs(rHash) % karmicArchetypes.length];
     
     let prompt = "";
     if (isCompatibility) {
@@ -97,8 +86,8 @@ Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---KARMA---
 Generate "Past Life Connection" (800 words).
-CRITICAL RULE: Their fixed past life relationship archetype is: "${relationshipArchetype} in the Joseon Dynasty". You MUST use this exact archetype.
-CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story or a cheesy romance novel. Present this as a serious, profound karmic deduction based on ancient Eastern astrology. Explain that their current real-world behavioral patterns (e.g., why they argue over certain things, why they feel an instant magnetic pull) are psychological echoes of this past life trauma or bond. Connect the past life directly to their present-day psychology.
+CRITICAL RULE: The User's fixed past life incarnation is: "${personalArchetype} in the ${personalEra}". The Partner's fixed past life incarnation is: "${partnerArchetype} in the ${personalEra}". You MUST use these exact identities. Do not invent different roles.
+CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story or a cheesy romance novel. Present this as a serious, profound karmic deduction based on ancient Eastern astrology. Explain how their specific paths crossed in the ${personalEra} and what karmic dynamic they formed. Explain that their current real-world behavioral patterns (e.g., why they argue over certain things, why they feel an instant magnetic pull) are psychological echoes of this past life trauma or bond. Connect the past life directly to their present-day psychology.
 Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---FORTUNE---
@@ -131,10 +120,10 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 
 ---KARMA---
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
-1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity.
+1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the ${personalEra}". You MUST use this exact identity.
 CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story. Present this as a serious, profound karmic deduction. Explain that their current real-world behavioral patterns, irrational fears, or unexplainable talents are psychological echoes of this specific past life in the ancient Korean kingdom. Frame it as a deep psychological and mystical revelation, not a fantasy tale.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
-CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them the first time they are used so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy used to alter fate'). Do not assume they know Korean history or terminology.
+CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or the specific dynasty name, you MUST briefly and elegantly explain them the first time they are used so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', ${personalEra}: 'An ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy used to alter fate'). Do not assume they know Korean history or terminology.
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
 
