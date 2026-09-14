@@ -91,9 +91,8 @@ Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---KARMA---
 Generate "Past Life Connection" (800 words).
-CRITICAL RULE: Their fixed past life relationship archetype is: "${relationshipArchetype} in the Joseon Dynasty". You MUST weave this exact identity into the story. Do NOT invent a different relationship.
-CRITICAL TONE RULE FOR PAST LIFE: Explain that they feel an inexplicable pull to this person in their current life because their souls were deeply intertwined in the ancient Korean kingdom. Frame this past life not as a fantasy novel, but as a profound, mystical karmic root.
-Were they lovers, enemies, or comrades in a past life?
+CRITICAL RULE: Their fixed past life relationship archetype is: "${relationshipArchetype} in the Joseon Dynasty". You MUST use this exact archetype.
+CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story or a cheesy romance novel. Present this as a serious, profound karmic deduction based on ancient Eastern astrology. Explain that their current real-world behavioral patterns (e.g., why they argue over certain things, why they feel an instant magnetic pull) are psychological echoes of this past life trauma or bond. Connect the past life directly to their present-day psychology.
 Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---FORTUNE---
@@ -127,7 +126,7 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 ---KARMA---
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
 1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity.
-CRITICAL TONE RULE FOR PAST LIFE: Since the user is likely Western, explain that their soul is drawn to K-Astrology today because their deep karmic roots actually trace back to this specific ancient Korean past life. Frame it as a profound, mystical revelation of their soul's Eastern origin, not a historical error.
+CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story. Present this as a serious, profound karmic deduction. Explain that their current real-world behavioral patterns, irrational fears, or unexplainable talents are psychological echoes of this specific past life in the ancient Korean kingdom. Frame it as a deep psychological and mystical revelation, not a fantasy tale.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
 CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them the first time they are used so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy used to alter fate'). Do not assume they know Korean history or terminology.
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
