@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "blog": "node scripts/publish_blog.js"
+    "blog": "node scripts/publish_blog.js",
+    "fix-dates": "node scripts/backdate_blogs.js"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.20",
