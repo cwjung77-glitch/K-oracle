@@ -1,7 +1,8 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect } from 'react';
 import { Lock, Sparkles, TrendingUp, HeartPulse, Activity, Download, Loader2, Flame } from 'lucide-react';
+import CosmicLoader from '../ui/CosmicLoader';
 
 export default function DeepDiveReport({ lang = "en" }) {
   const isKo = lang === "ko";
@@ -118,10 +119,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           </h3>
           <div className="bg-zinc-800/30 p-8 rounded-2xl border border-zinc-800/50 text-zinc-300 leading-loose text-lg whitespace-pre-wrap font-serif">
             {isGenerating ? (
-              <div className="flex flex-col items-center justify-center py-20 text-yellow-500">
-                <Loader2 className="animate-spin mb-4" size={48} />
-                <p className="text-lg font-bold animate-pulse">The Grandmaster is analyzing your energy...</p>
-              </div>
+              <CosmicLoader isBeauty={false} lang={lang} />
             ) : (
                 <div className="flex flex-col gap-4">
                   <div className="whitespace-pre-wrap">{aiReport}</div>

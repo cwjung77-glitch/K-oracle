@@ -1,7 +1,8 @@
-﻿"use client";
+"use client";
 
 import React, { useState, useEffect } from 'react';
-import { Shirt, Scissors, ShoppingBag, Download, Star, Sparkles, Loader2, Check, X } from 'lucide-react';
+import { Shirt, Scissors, ShoppingBag, Download, Star, Sparkles, Loader2, Check, X, AlertCircle } from 'lucide-react';
+import CosmicLoader from '../ui/CosmicLoader';
 
 export default function BeautyDeepDiveReport({ lang = "en" }) {
   const [isGenerating, setIsGenerating] = useState(true);
@@ -70,16 +71,11 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
 
   if (isGenerating || !reportData) {
     return (
-      <div className="w-full bg-[#0a0a0a] rounded-[2rem] border border-pink-500/30 shadow-[0_0_100px_rgba(236,72,153,0.1)] flex flex-col items-center justify-center py-40">
+      <div className="w-full bg-[#0a0a0a] rounded-[2rem] border border-pink-500/30 shadow-[0_0_100px_rgba(236,72,153,0.1)] overflow-hidden">
         {!errorMsg ? (
-          <>
-            <Loader2 className="animate-spin mb-4 text-pink-500" size={48} />
-            <p className="text-xl font-bold animate-pulse text-pink-400">
-              {lang === 'es' ? 'La estilista esta analizando tu tono...' : 'The Stylist is analyzing your tone...'}
-            </p>
-          </>
+          <CosmicLoader isBeauty={true} lang={lang} />
         ) : (
-          <div className="flex flex-col items-center gap-6 max-w-md text-center px-4">
+          <div className="flex flex-col items-center gap-6 max-w-md text-center px-4 py-20">
             <div className="w-16 h-16 rounded-full bg-red-500/10 flex items-center justify-center mb-2 text-red-500">
               <AlertCircle size={32} />
             </div>
