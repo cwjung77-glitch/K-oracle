@@ -1,7 +1,7 @@
 ---
 title: "What is Korean Saju? The Ultimate Guide to Four Pillars of Destiny"
 slug: "what-is-korean-saju-four-pillars-of-destiny"
-date: "2026-03-30"
+date: "2026-09-12"
 excerpt: "Discover Korean Saju, also known as the Four Pillars of Destiny. Learn how this ancient Eastern cosmic blueprint decodes your personality, career, relationships, and life path."
 author: "K-Oracle"
 tags: ["Korean Saju", "Four Pillars of Destiny", "Saju Reading", "Eastern Astrology", "K-Oracle"]

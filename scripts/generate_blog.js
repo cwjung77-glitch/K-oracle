@@ -42,7 +42,7 @@ Required frontmatter format:
 ---
 title: "Catchy SEO Title in English"
 slug: "seo-friendly-english-url-slug"
-date: "YYYY-MM-DD"
+date: "${new Date().toISOString().split('T')[0]}"
 excerpt: "A short 2-3 sentence meta description in English."
 author: "K-Oracle"
 tags: ["Tag1", "Tag2", "Tag3"]
