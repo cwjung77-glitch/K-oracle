@@ -5,7 +5,7 @@ const blogDir = path.join(__dirname, '../src/content/blog');
 const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md'));
 
 // 시작 날짜 설정: 2026년 8월 31일
-let startDate = new Date('2026-08-31');
+let startDate = new Date('2026-08-23');
 
 console.log(`\n📅 블로그 게시물 날짜 자동 분산 스크립트를 시작합니다 (하루 2포스팅 기준)...`);
 
