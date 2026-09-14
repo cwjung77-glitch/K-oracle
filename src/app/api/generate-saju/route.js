@@ -49,7 +49,7 @@ export async function POST(req) {
       "a Salt Merchant", "a Royal Mapmaker", "a Keeper of Royal Hounds", "a Master of Fireworks", "a Secret Emissary"
     ];
     let kHash = 0;
-    const kDob = bodyDob || '1990-01-01';
+    const kDob = birthData || '1990-01-01';
     for (let i=0; i<kDob.length; i++) kHash = kDob.charCodeAt(i) + ((kHash << 5) - kHash);
     const personalArchetype = karmicArchetypes[Math.abs(kHash) % karmicArchetypes.length];
 
@@ -62,7 +62,7 @@ export async function POST(req) {
       "A Ghost and a Shaman", "A Farmer and a Heavenly Fairy", "Two Scholars Debating to the Death", "A Runaway Slave and a Compassionate Noble", "A King and a Prophet"
     ];
     let rHash = kHash;
-    const rDob = body.idolDob || '1995-01-01';
+    const rDob = idolName || '1995-01-01';
     for (let i=0; i<rDob.length; i++) rHash = rDob.charCodeAt(i) + ((rHash << 5) - rHash);
     const relationshipArchetype = relArchetypes[Math.abs(rHash) % relArchetypes.length];
     
