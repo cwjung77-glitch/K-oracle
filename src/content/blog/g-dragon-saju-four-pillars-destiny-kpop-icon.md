@@ -1,7 +1,7 @@
 ---
 title: "G-Dragon's Saju Analysis: The Four Pillars of K-Pop's Ultimate Icon"
 slug: "g-dragon-saju-four-pillars-destiny-kpop-icon"
-date: "2026-09-14"
+date: "2026-08-24"
 excerpt: "Explore the ancient Four Pillars of Destiny (Saju) chart of BIGBANG's G-Dragon. Discover how Yin Wood, Fire expression, and Metal authority created K-Pop's ultimate trendsetter."
 author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
