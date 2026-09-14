@@ -36,13 +36,31 @@ export async function POST(req) {
     const isCompatibility = plan === 'compatibility';
     
     // Generate deterministic past life archetypes based on DOB to ensure consistency across plans
-    const karmicArchetypes = ["a Royal Scholar", "a Wandering Merchant", "a Fierce Warrior", "a Palace Healer", "an Exiled Noble", "a Temple Monk", "a Mystic Shaman", "a Wealthy Landlord", "a Rebel Leader", "a Master Artisan"];
+    const karmicArchetypes = [
+      "a Royal Scholar", "a Wandering Merchant", "a Fierce Warrior", "a Palace Healer", "an Exiled Noble", 
+      "a Temple Monk", "a Mystic Shaman", "a Wealthy Landlord", "a Rebel Leader", "a Master Artisan",
+      "a Court Musician", "a Shadow Assassin", "a Silk Weaver", "a Royal Astronomer", "a Border Guard",
+      "a Masked Dancer", "a Feng Shui Master", "a Fallen Prince", "a Hidden Queen", "a Blacksmith of Legends",
+      "a Traveling Poet", "a Sea Captain", "a Royal Tea Brewer", "a Calligraphy Master", "a Head Eunuch",
+      "a Tiger Hunter", "a Herbalist in the Deep Mountains", "a Corrupt Magistrate", "a Righteous Outlaw", "a Book Smuggler",
+      "a Royal Food Taster", "a Keeper of the Royal Tombs", "a Blind Fortune Teller", "a Gisaeng of High Arts", "a Royal Architect",
+      "a Spy for the King", "a Deserted Soldier", "a Pearl Diver", "a Keeper of the Sacred Fire", "a Diplomat to Ming",
+      "a Master of Swords", "a Royal Falconer", "a Matchmaker for the Elite", "a Keeper of Forbidden Books", "a Dragon Boat Racer",
+      "a Salt Merchant", "a Royal Mapmaker", "a Keeper of Royal Hounds", "a Master of Fireworks", "a Secret Emissary"
+    ];
     let kHash = 0;
     const kDob = bodyDob || '1990-01-01';
     for (let i=0; i<kDob.length; i++) kHash = kDob.charCodeAt(i) + ((kHash << 5) - kHash);
     const personalArchetype = karmicArchetypes[Math.abs(kHash) % karmicArchetypes.length];
 
-    const relArchetypes = ["Tragic Star-Crossed Lovers", "Rival Warlords", "Master and Loyal Apprentice", "Secret Royal Siblings", "Betrayed Comrades", "Reincarnated Soulmates"];
+    const relArchetypes = [
+      "Tragic Star-Crossed Lovers", "Rival Warlords", "Master and Loyal Apprentice", "Secret Royal Siblings", "Betrayed Comrades", 
+      "Reincarnated Soulmates", "A King and a Hidden Rebel", "Two Spies on Opposite Sides", "A Monk and a Temptress", "A General and a Captive",
+      "A Poet and a Muse", "Two Merchants Competing for the Silk Road", "A Healer and a Dying Prince", "A Shaman and a Cursed Noble", "A Blacksmith and a Warrior",
+      "A Gisaeng and a Secret Envoy", "Two Princes Fighting for the Throne", "A Matchmaker and a Heartbroken Client", "A Pirate and a Royal Admiral", "A Royal Tutor and a Rebellious Student",
+      "A Court Musician and a Deaf Painter", "A Forbidden Palace Romance", "Two Assassins Bound by Blood", "A Queen and her Loyal Knight", "A Traveling Merchant and a Lonely Innkeeper",
+      "A Ghost and a Shaman", "A Farmer and a Heavenly Fairy", "Two Scholars Debating to the Death", "A Runaway Slave and a Compassionate Noble", "A King and a Prophet"
+    ];
     let rHash = kHash;
     const rDob = body.idolDob || '1995-01-01';
     for (let i=0; i<rDob.length; i++) rHash = rDob.charCodeAt(i) + ((rHash << 5) - rHash);
@@ -72,7 +90,8 @@ Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---KARMA---
 Generate "Past Life Connection" (800 words).
-CRITICAL RULE: Their fixed past life relationship archetype is: "${relationshipArchetype}". You MUST weave this exact identity into the story. Do NOT invent a different relationship.
+CRITICAL RULE: Their fixed past life relationship archetype is: "${relationshipArchetype} in the Joseon Dynasty". You MUST weave this exact identity into the story. Do NOT invent a different relationship.
+CRITICAL TONE RULE FOR PAST LIFE: Explain that they feel an inexplicable pull to this person in their current life because their souls were deeply intertwined in the ancient Korean kingdom. Frame this past life not as a fantasy novel, but as a profound, mystical karmic root.
 Were they lovers, enemies, or comrades in a past life?
 Use exact string "[CATEGORY: Category Name]" for headings.
 
@@ -106,7 +125,8 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 
 ---KARMA---
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
-1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity. Do not invent a different past life occupation.
+1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity.
+CRITICAL TONE RULE FOR PAST LIFE: Since the user is likely Western, explain that their soul is drawn to K-Astrology today because their deep karmic roots actually trace back to this specific ancient Korean past life. Frame it as a profound, mystical revelation of their soul's Eastern origin, not a historical error.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
 CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them the first time they are used so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy used to alter fate'). Do not assume they know Korean history or terminology.
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
