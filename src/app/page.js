@@ -16,6 +16,20 @@ export default function OracleLanding() {
   const [showLogin, setShowLogin] = useState(false);
   const [lang, setLang] = useState('en'); const [logoClicks, setLogoClicks] = useState(0); const [showKo, setShowKo] = useState(false);
 
+  const handleLogoClick = () => {
+    if (hasPaid) {
+      if (window.confirm(lang === 'ko' ? "PDF 마스터플랜을 다운로드하셨나요? 지금 메인으로 돌아가면 분석 결과가 영구적으로 삭제됩니다." : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
+        localStorage.removeItem("hasPaid");
+        setHasPaid(false);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    setLogoClicks(p => p + 1);
+    if (logoClicks + 1 >= 5) setShowKo(true);
+  };
+
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const purchased = localStorage.getItem('purchasedProduct');
@@ -51,7 +65,7 @@ export default function OracleLanding() {
       {/* Navbar */}
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={() => { window.scrollTo(0,0); setLogoClicks(p => p + 1); if (logoClicks + 1 >= 5) setShowKo(true); }}>
+          <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={handleLogoClick}>
             <span className="text-yellow-500">K</span>-ORACLE
           </div>
           <div className="flex items-center gap-4">
