@@ -7,15 +7,16 @@ const files = fs.readdirSync(blogDir).filter(f => f.endsWith('.md'));
 // 시작 날짜 설정: 2026년 8월 31일
 let startDate = new Date('2026-08-31');
 
-console.log(`\n📅 블로그 게시물 날짜 자동 분산 스크립트를 시작합니다...`);
+console.log(`\n📅 블로그 게시물 날짜 자동 분산 스크립트를 시작합니다 (하루 2포스팅 기준)...`);
 
 files.forEach((file, index) => {
   const filePath = path.join(blogDir, file);
   let content = fs.readFileSync(filePath, 'utf8');
   
-  // 날짜 계산 (하루씩 더하기, 단 오늘 날짜를 넘지 않도록 최대 오늘까지만)
+  // 2개의 글마다 하루씩 증가하도록 계산 (0, 1 -> 0일 추가 / 2, 3 -> 1일 추가)
   let postDate = new Date(startDate);
-  postDate.setDate(postDate.getDate() + index);
+  const daysToAdd = Math.floor(index / 2);
+  postDate.setDate(postDate.getDate() + daysToAdd);
   
   const today = new Date();
   if (postDate > today) {
@@ -31,6 +32,6 @@ files.forEach((file, index) => {
   console.log(`✅ [${formattedDate}]로 변경 완료: ${file}`);
 });
 
-console.log(`\n🎉 총 ${files.length}개의 블로그 글 날짜가 자연스럽게 분산 배치되었습니다!`);
-console.log(`이제 터미널에 아래 명령어를 입력해서 실서버에 반영해 주세요:`);
-console.log(`git add . && git commit -m "chore: redistribute blog dates" && git push origin main\n`);
+console.log(`\n🎉 총 ${files.length}개의 블로그 글이 하루 2개씩 업로드된 것처럼 완벽하게 위장 완료되었습니다!`);
+console.log(`터미널에 아래 명령어를 입력해서 실서버에 반영해 주세요:`);
+console.log(`git add . && git commit -m "chore: redistribute blog dates (2 per day)" && git push origin main\n`);
