@@ -36,7 +36,7 @@ CRITICAL LANGUAGE RULE: No matter what language the Topic is provided in (e.g., 
 Return the result strictly in raw Markdown format with a YAML frontmatter block at the top.
 Do NOT use code block markers (like \`\`\`markdown) around your response.
 
-CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
+CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. Also, NEVER output meta-terms like "SEO", "GEO", or "AEO" in the text or headings (e.g., do NOT write "AEO Section"). Keep the language 100% natural and mystical for a human reader. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
 
 Required frontmatter format:
 ---

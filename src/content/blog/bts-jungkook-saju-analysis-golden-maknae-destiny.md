@@ -89,7 +89,7 @@ In Korean Saju, 10-year luck cycles (*Daewoon*) shape the macro-seasons of life.
 
 ---
 
-## Frequently Asked Questions (AEO Section)
+## Frequently Asked Questions
 
 ### Q1: What is BTS Jungkook's Saju Day Master?
 Jungkook's Saju Day Master is **Bing Wu (丙午)**, or **Yang Fire Horse**. This represents the blazing Sun sitting atop dynamic Fire energy, giving him immense warmth, presence, and creative energy.
