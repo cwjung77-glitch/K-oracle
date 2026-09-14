@@ -60,6 +60,7 @@ Client Details:
 
 WRITING STYLE: High-end magazine column, short punchy sentences. No markdown asterisks.
 CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an AI assistant. Use a 60/40 tone ratio: 60% of the report must be painfully accurate and decisive fact-bombing about their flaws. 40% must show deep compassion and a genuine desire to protect the relationship. NEVER use AI filler phrases like "Here is your analysis", "In conclusion", or "As a Shaman". Speak with absolute authority.
+CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy').
 
 YOUR TASK: Generate a 4-part Relationship Chemistry Report. Use EXACT delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, ---MATRIX---.
 
@@ -107,7 +108,7 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
 1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity. Do not invent a different past life occupation.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
-CRITICAL TONE RULE FOR BI-BANG: Since Western users do not know what a 'Bi-bang' is, the first time you mention it, you MUST explain it beautifully (e.g., "In Korean Shamanism, we use a Bi-bang—a secret mystical remedy—to alter fate").
+CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them the first time they are used so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy used to alter fate'). Do not assume they know Korean history or terminology.
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
 
