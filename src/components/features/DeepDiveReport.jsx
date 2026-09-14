@@ -44,13 +44,17 @@ export default function DeepDiveReport({ lang = "en" }) {
               const historyStr = localStorage.getItem('kOracleHistory') || '[]';
               let history = JSON.parse(historyStr);
               const newEntry = {
-                type: plan === 'compatibility' ? 'Idol Chemistry' : 'Saju Destiny',
-                target: plan === 'compatibility' ? localStorage.getItem("idolName") : 'Myself',
-                date: new Date().toLocaleDateString(),
-                preview: data.dailyFortune || data.reportText.substring(0, 50) + '...'
+                type: 'saju',
+                plan,
+                name: localStorage.getItem('userName') || 'The Client',
+                idolName: localStorage.getItem('idolName'),
+                date: new Date().toISOString().split('T')[0],
+                cacheKey: `saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`
               };
+              history = history.filter(h => h.cacheKey !== newEntry.cacheKey);
               history.unshift(newEntry);
-              localStorage.setItem('kOracleHistory', JSON.stringify(history.slice(0, 10)));
+              if (history.length > 5) history = history.slice(0, 5);
+              localStorage.setItem('kOracleHistory', JSON.stringify(history));
             } catch(e) { console.error(e) }
   
             setPdfUrl(data.pdfUrl); } else {
