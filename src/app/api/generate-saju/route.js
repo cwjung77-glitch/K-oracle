@@ -6,9 +6,9 @@ export async function POST(req) {
     const { birthData, gender, lang, plan, userName, idolName: bodyIdolName } = body;
     const isEs = lang === 'es';
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
 
-    if (!apiKey) {
+    if (apiKeys.length === 0 || !apiKeys[0]) {
       console.warn("No Gemini API key found, falling back to mock.");
       return NextResponse.json({ 
         success: true, 
@@ -93,38 +93,44 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
 
     console.log("[K-Oracle Engine] Sending consolidated single prompt to Google Gemini...");
     
-    // Using the latest and most stable gemini-3.8-flash for optimal speed and reliability
+    // Using the latest and most stable gemini-3.6-flash for optimal speed and reliability
     if (!isCompatibility) { prompt += "\n"; }
     
     let response;
-    let retries = 3;
-    while (retries > 0) {
-      response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.1, topK: 1 } })
-      });
-      
-      if (response.ok) {
-        break; // Success!
-      }
-      
-      if (response.status === 429 || response.status >= 500) {
-        retries--;
-        console.warn(`[K-Oracle Engine] API Error ${response.status}. Retries left: ${retries}`);
-        if (retries === 0) {
-          if (response.status === 429) throw new Error("API_RATE_LIMIT");
-          throw new Error(`Gemini API Error: ${await response.text()}`);
+    let data;
+    let success = false;
+    let lastError = null;
+
+    for (let i = 0; i < apiKeys.length; i++) {
+      const currentKey = apiKeys[i];
+      try {
+        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.1, topK: 1 } })
+        });
+        
+        if (response.ok) {
+          data = await response.json();
+          if (!data.error) {
+            success = true;
+            break; // Success! Break out of the rotation loop
+          }
         }
-        // Exponential backoff
-        await new Promise(r => setTimeout(r, (3 - retries) * 1500));
-      } else {
-        // Unrecoverable error (e.g. 400 Bad Request)
-        throw new Error(`Gemini API Error: ${await response.text()}`);
+        
+        // If not ok or has error, capture it and let loop continue to next key
+        lastError = await response.text();
+        console.warn(`[API Rotation] Key ${i + 1} failed. Status: ${response.status}. Trying next key...`);
+      } catch (err) {
+        lastError = err.message;
+        console.warn(`[API Rotation] Key ${i + 1} failed with network error. Trying next key...`);
       }
     }
 
-    const data = await response.json();
+    if (!success) {
+      throw new Error("API_RATE_LIMIT");
+    }
+
     const fullText = (data.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
 
     // Parse the sections using the delimiters

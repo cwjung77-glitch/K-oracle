@@ -6,9 +6,9 @@ export async function POST(req) {
     const { tone, lang } = body;
     const isEs = lang === 'es';
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
 
-    if (!apiKey) {
+    if (apiKeys.length === 0 || !apiKeys[0]) {
       console.warn("No Gemini API key found, falling back to mock.");
       return NextResponse.json({ success: false, error: "API Key missing" }, { status: 500 });
     }
@@ -35,20 +35,41 @@ Example:
 
 WRITING STYLE: Use short, punchy sentences. Avoid long academic text. Write like a high-end fashion magazine column. ABSOLUTELY NO GENERIC FLUFF. Do not use markdown asterisks.`;
 
-    const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent?key=${apiKey}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
-    });
+    let response;
+    let aiResult;
+    let success = false;
+    let lastError = null;
 
-    if (!response.ok) {
-      if (response.status === 429) {
-        throw new Error("API_RATE_LIMIT");
+    for (let i = 0; i < apiKeys.length; i++) {
+      const currentKey = apiKeys[i];
+      try {
+        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+        });
+        
+        if (response.ok) {
+          aiResult = await response.json();
+          if (!aiResult.error) {
+            success = true;
+            break; // Success! Break out of the rotation loop
+          }
+        }
+        
+        // If not ok or has error, capture it and let loop continue to next key
+        lastError = await response.text();
+        console.warn(`[API Rotation] Key ${i + 1} failed. Status: ${response.status}. Trying next key...`);
+      } catch (err) {
+        lastError = err.message;
+        console.warn(`[API Rotation] Key ${i + 1} failed with network error. Trying next key...`);
       }
-      throw new Error(`Gemini API Error: ${await response.text()}`);
     }
 
-    const aiResult = await response.json();
+    if (!success) {
+      throw new Error("API_RATE_LIMIT");
+    }
+
     const generatedText = (aiResult.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
 
     // Keep the structured mock data for the React UI to prevent breakage
