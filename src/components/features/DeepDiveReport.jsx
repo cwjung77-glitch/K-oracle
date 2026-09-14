@@ -284,6 +284,23 @@ export default function DeepDiveReport({ lang = "en" }) {
                 )
               })}
             </div>
+              
+              {/* Heatmap Legend */}
+              <div className="flex flex-wrap items-center justify-center gap-6 mt-4 pt-6 border-t border-zinc-700/50">
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-yellow-500 shadow-[0_0_10px_rgba(234,179,8,0.8)]"></div>
+                  <span className="text-sm font-semibold text-zinc-300">{isKo ? '대운 (최고 전성기)' : 'Peak Energy (85%+)'}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-zinc-500"></div>
+                  <span className="text-sm font-semibold text-zinc-400">{isKo ? '평운 (안정기)' : 'Stable Energy'}</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <div className="w-3 h-3 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
+                  <span className="text-sm font-semibold text-zinc-300">{isKo ? '흉운 (주의 구간)' : 'Caution (35%-)'}</span>
+                </div>
+              </div>
+              
             </div>
           </section>
           )}
