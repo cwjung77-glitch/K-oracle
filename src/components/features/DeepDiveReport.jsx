@@ -37,39 +37,35 @@ export default function DeepDiveReport({ lang = "en" }) {
           body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan"), idolName: localStorage.getItem("idolName"), userName: localStorage.getItem("userName") || "The Client" || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
         });
         const data = await res.json();
-        if (data.success) {
-          setError(false); setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data); localStorage.setItem(`saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`, JSON.stringify(data));
-          // Save to kOracleHistory
-          try {
-            const historyStr = localStorage.getItem('kOracleHistory') || '[]';
-            let history = JSON.parse(historyStr);
-            const newEntry = {
-              type: 'saju',
-              plan,
-              name: localStorage.getItem('userName') || 'The Client',
-              idolName: localStorage.getItem('idolName'),
-              date: new Date().toISOString().split('T')[0],
-              cacheKey: `saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`
-            };
-            // Remove exact duplicates
-            history = history.filter(h => h.cacheKey !== newEntry.cacheKey);
-            history.unshift(newEntry);
-            if (history.length > 5) history = history.slice(0, 5); // Keep last 5
-            localStorage.setItem('kOracleHistory', JSON.stringify(history));
-          } catch(e) { console.error(e) }
-
-          setPdfUrl(data.pdfUrl); } else {
-          setError(true);
-          if (data.isRateLimit) {
-            setAiReport(isKo ? "우주의 에너지가 폭주하고 있습니다! 너무 많은 요청이 발생했습니다. 1분 뒤 아래 버튼을 눌러 다시 시도해주세요." : "The cosmos is overwhelmed with energy! Too many users are generating reports right now. Please wait 1 minute and try again below.");
-          } else {
-            setAiReport(isKo ? "우주의 에너지가 일시적으로 혼란스럽습니다. 아래 버튼을 눌러 다시 시도해 주세요." : "The cosmos is experiencing a temporary disturbance. Please try again below.");
+          if (data.success) {
+            setError(false); setAiReport(data.reportText); localStorage.setItem("aiKarma", data.karmaText); setReportData(data); localStorage.setItem(`saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`, JSON.stringify(data));
+            // Save to kOracleHistory
+            try {
+              const historyStr = localStorage.getItem('kOracleHistory') || '[]';
+              let history = JSON.parse(historyStr);
+              const newEntry = {
+                type: plan === 'compatibility' ? 'Idol Chemistry' : 'Saju Destiny',
+                target: plan === 'compatibility' ? localStorage.getItem("idolName") : 'Myself',
+                date: new Date().toLocaleDateString(),
+                preview: data.dailyFortune || data.reportText.substring(0, 50) + '...'
+              };
+              history.unshift(newEntry);
+              localStorage.setItem('kOracleHistory', JSON.stringify(history.slice(0, 10)));
+            } catch(e) { console.error(e) }
+  
+            setPdfUrl(data.pdfUrl); } else {
+            setError(true);
+            localStorage.removeItem("aiKarma");
+            if (data.isRateLimit) {
+              setAiReport(isKo ? "우주의 에너지가 폭발하고 있습니다! 너무 많은 요청이 발생했습니다. 1분 뒤에 아래 버튼을 눌러 다시 시도해주세요." : "The cosmos is overwhelmed with energy! Too many users are generating reports right now. Please wait 1 minute and try again below.");
+            } else {
+              setAiReport(isKo ? "우주의 에너지가 일시적으로 혼란스럽습니다. 아래 버튼을 눌러 다시 시도해 주세요." : "The cosmos is experiencing a temporary disturbance. Please try again below.");
+            }
           }
-        }
-      } catch (err) {
-        console.error("Failed to fetch report", err);
-        setError(true); setAiReport("Error generating report. Please check your connection and try again.");
-      } finally {
+        } catch (err) {
+          console.error("Failed to fetch report", err);
+          setError(true); localStorage.removeItem("aiKarma"); setAiReport("Error generating report. Please check your connection and try again.");
+        } finally {
         setIsGenerating(false);
       }
     };
@@ -307,7 +303,7 @@ export default function DeepDiveReport({ lang = "en" }) {
 
           <button 
             onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, plan, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
-          disabled={isGenerating}
+          disabled={isGenerating || error}
           className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex items-center justify-center gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
         >
           <Download size={22} /> Download Premium PDF Masterplan
