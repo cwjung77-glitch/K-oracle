@@ -1,4 +1,4 @@
-﻿import { NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 import path from 'path';
 import PDFDocument from 'pdfkit';
 
@@ -159,7 +159,12 @@ export async function POST(req) {
       doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
 
       const months = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-      const scores = []; for (let i=0; i<12; i++) scores.push( (((seed >> i) % 70) + 30) );
+      let yearSeed = seed;
+      if (plan === 'fullyear') yearSeed += 2027;
+      else if (plan === 'bundle') yearSeed += 4053;
+      else yearSeed += 2026;
+      
+      const scores = []; for (let i=0; i<12; i++) scores.push( (((yearSeed >> i) % 70) + 30) );
 
       [0, 25, 50, 75, 100].forEach(level => {
         const y = gY - (level / 100) * gH;
@@ -185,7 +190,8 @@ export async function POST(req) {
         doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
       }
       
-      doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? 'Agosto a Septiembre marca tu temporada cumbre. Prepárate.' : `\${months[scores.indexOf(Math.max(...scores))]} marks your absolute peak season. Prepare for a major cosmic event.`, { align: 'center', width: doc.page.width - 100 });
+      const peakMonth = months[scores.indexOf(Math.max(...scores))];
+      doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? `${peakMonth} marca tu temporada cumbre. Preparate.` : `${peakMonth} marks your absolute peak season. Prepare for a major cosmic event.`, { align: 'center', width: doc.page.width - 100 });
       }
 
 
