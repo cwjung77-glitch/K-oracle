@@ -72,23 +72,40 @@ WRITING STYLE: Use short, punchy sentences. Avoid long academic text. Write like
 
     const generatedText = (aiResult.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
 
-    // Keep the structured mock data for the React UI to prevent breakage
     let aiData = {};
-    if (lang === 'es') {
+    const t = tone.toUpperCase();
+    
+    if (t.includes('SPRING')) {
       aiData = {
         wardrobe: {
-          dos: ["Usa bloques de color de alto contraste.", "Materiales como seda y satén.", "Blanco puro o negro azabache."],
-          donts: ["Evita tonos tierra opacos.", "Lino áspero puede hacerte lucir cansada.", "Evita patrones florales pequeños."]
+          dos: isEs ? ["Tonos pastel cálidos.", "Telas ligeras como el algodón.", "Accesorios de oro rosa."] : ["Warm pastel tones.", "Lightweight fabrics like cotton.", "Rose gold accessories."],
+          donts: isEs ? ["Evita colores oscuros y pesados.", "Telas rígidas.", "Plata pura."] : ["Avoid heavy dark colors.", "Stiff, rigid fabrics.", "Pure silver."]
         },
-        hair: { targetShade: "Azul Ceniza Negro", bleachLevel: "Nivel 6-7 (Sin amarillo)", tonerFormula: "Base violeta" }
+        hair: { targetShade: isEs ? "Marrón Caramelo" : "Caramel Brown", bleachLevel: isEs ? "Nivel 5" : "Level 5", tonerFormula: isEs ? "Base cálida" : "Warm base" }
+      };
+    } else if (t.includes('AUTUMN')) {
+      aiData = {
+        wardrobe: {
+          dos: isEs ? ["Tonos tierra profundos.", "Texturas ricas como ante.", "Accesorios de oro amarillo."] : ["Deep earth tones.", "Rich textures like suede.", "Yellow gold accessories."],
+          donts: isEs ? ["Colores neón brillantes.", "Telas demasiado brillantes.", "Tonos fríos y pálidos."] : ["Bright neon colors.", "Overly shiny fabrics.", "Pale, cool tones."]
+        },
+        hair: { targetShade: isEs ? "Castaño Cobrizo" : "Auburn Chestnut", bleachLevel: isEs ? "Nivel 6" : "Level 6", tonerFormula: isEs ? "Base roja/naranja" : "Red/Orange base" }
+      };
+    } else if (t.includes('SUMMER')) {
+      aiData = {
+        wardrobe: {
+          dos: isEs ? ["Tonos apagados y polvorientos.", "Telas suaves y fluidas.", "Plata delicada."] : ["Dusty, muted tones.", "Soft, flowing fabrics.", "Delicate silver."],
+          donts: isEs ? ["Contraste severo.", "Naranja brillante.", "Oro pesado."] : ["Harsh contrast.", "Bright orange.", "Heavy gold."]
+        },
+        hair: { targetShade: isEs ? "Marrón Ceniza Claro" : "Light Ash Brown", bleachLevel: isEs ? "Nivel 8" : "Level 8", tonerFormula: isEs ? "Base azul/violeta" : "Blue/Violet base" }
       };
     } else {
       aiData = {
         wardrobe: {
-          dos: ["Use high-contrast color blocking.", "Silk and satin materials.", "Pure white or pitch black."],
-          donts: ["Avoid muddy, muted earth tones.", "Rough linen can make you look tired.", "Avoid small floral patterns."]
+          dos: isEs ? ["Usa bloques de color de alto contraste.", "Materiales como seda y satén.", "Blanco puro o negro azabache."] : ["Use high-contrast color blocking.", "Silk and satin materials.", "Pure white or pitch black."],
+          donts: isEs ? ["Evita tonos tierra opacos.", "Lino áspero.", "Patrones florales pequeños."] : ["Avoid muddy earth tones.", "Rough linen.", "Small floral patterns."]
         },
-        hair: { targetShade: "Ash Blue Black", bleachLevel: "Level 6-7 (No yellow)", tonerFormula: "Violet base to cancel brass" }
+        hair: { targetShade: isEs ? "Azul Ceniza Negro" : "Ash Blue Black", bleachLevel: isEs ? "Nivel 6-7" : "Level 6-7", tonerFormula: isEs ? "Base violeta" : "Violet base" }
       };
     }
     
