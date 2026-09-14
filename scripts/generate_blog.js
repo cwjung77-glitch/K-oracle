@@ -48,7 +48,7 @@ author: "K-Oracle"
 tags: ["Tag1", "Tag2", "Tag3"]
 ---
 
-Body of the markdown goes here. Use ## for headings, bullet points, and bold text. End the article by encouraging users to visit the K-Oracle app to check their own Saju.`;
+Body of the markdown goes here. Use ## for headings, bullet points, and bold text. Do NOT add any concluding calls to action (CTAs) encouraging users to visit the app, analyze their Saju, or "click here", because the website UI template already automatically renders a beautiful CTA box at the bottom of every post.`;
 
   try {
     const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${apiKey}`, {

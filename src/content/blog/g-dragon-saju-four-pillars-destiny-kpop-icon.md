@@ -79,8 +79,4 @@ The harmony between extreme creative output (Fire) and formidable authority/disc
 
 ---
 
-## Discover Your Own Cosmic Destiny with K-Oracle
-
-Understanding your Saju chart provides deep clarity into your natural talents, ideal career path, emotional tendencies, and future luck cycles. Whether you are seeking creative fulfillment, financial success, or personal harmony, the ancient system of the Four Pillars holds the keys to your potential.
-
-Curious about your own Day Master and Five Element profile? **Visit the K-Oracle app today** to unlock your personalized Saju reading and navigate your future with ancient wisdom!
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

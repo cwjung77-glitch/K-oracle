@@ -66,3 +66,5 @@ Jennie's Saju chart demonstrates how alignment between your inner element and ou
 Are you driven by the deep wisdom of Water, the fiery passion of Fire, or the rooted stability of Earth? 
 
 **Explore your personalized Saju chart today on K-Oracle** and uncover what the ancient wisdom of the cosmos has written for your future.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

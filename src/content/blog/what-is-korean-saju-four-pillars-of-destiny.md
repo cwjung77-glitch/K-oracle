@@ -98,3 +98,5 @@ Understanding your Saju gives you the ultimate advantage: knowing when to take a
 Experience the profound wisdom of Korean Saju powered by the ancient system at **K-Oracle**. Unveil your Four Pillars, discover your Day Master, and gain deep insights into your career, wealth, love, and life trajectory today.
 
 👉 **[Discover Your Saju Chart on the K-Oracle App Now](#)**
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

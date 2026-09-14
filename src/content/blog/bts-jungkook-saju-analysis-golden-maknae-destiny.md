@@ -102,10 +102,4 @@ Because his chart contains strong Fire and Earth energy, **Water** (representing
 
 ---
 
-## Unveil Your Own Cosmic Destiny with K-Oracle
-
-Just like Jungkook, you were born under a unique alignment of the five elements that shapes your innate talents, optimal career paths, love compatibility, and future fortune cycles.
-
-Curious about your own Day Master and hidden elemental strengths? Let **K-Oracle** illuminate your path.
-
-**[Click here to analyze your Saju on K-Oracle today!](#)** Discover your personal cosmic blueprint and unlock your true potential through ancient Korean wisdom.
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*
