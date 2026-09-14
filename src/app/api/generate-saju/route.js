@@ -59,7 +59,13 @@ export async function POST(req) {
       "A Poet and a Muse", "Two Merchants Competing for the Silk Road", "A Healer and a Dying Prince", "A Shaman and a Cursed Noble", "A Blacksmith and a Warrior",
       "A Gisaeng and a Secret Envoy", "Two Princes Fighting for the Throne", "A Matchmaker and a Heartbroken Client", "A Pirate and a Royal Admiral", "A Royal Tutor and a Rebellious Student",
       "A Court Musician and a Deaf Painter", "A Forbidden Palace Romance", "Two Assassins Bound by Blood", "A Queen and her Loyal Knight", "A Traveling Merchant and a Lonely Innkeeper",
-      "A Ghost and a Shaman", "A Farmer and a Heavenly Fairy", "Two Scholars Debating to the Death", "A Runaway Slave and a Compassionate Noble", "A King and a Prophet"
+      "A Ghost and a Shaman", "A Farmer and a Heavenly Fairy", "Two Scholars Debating to the Death", "A Runaway Slave and a Compassionate Noble", "A King and a Prophet",
+      "A Captive Princess and her Mercenary Guard", "Two Rival Fortune Tellers", "A Corrupt Magistrate and a Righteous Thief", "A Head Eunuch and a Court Lady", "A Silk Weaver and a Wealthy Patron",
+      "A Disgraced General and a Blind Monk", "Two Childhood Friends Torn by War", "A Tiger Hunter and a Mountain Spirit", "A Royal Food Taster and a Poisoner", "An Exiled Scholar and a Village Chief",
+      "A Swordmaster and a Pacifist Monk", "A Smuggler and a Border Guard", "A Royal Astronomer and a Peasant Girl", "A Fallen Noble and a Wealthy Merchant", "A Matchmaker and a Notorious Playboy",
+      "A Shaman and a Skeptical Scholar", "Two Courtesans Vying for the King's Favor", "A Master Calligrapher and an Illiterate Soldier", "A Tea Master and a Weary Traveler", "A Rebel Leader and a Royal Spy",
+      "An Orphan and a Secret Prince", "Two Blacksmiths Forging Rival Swords", "A Royal Mapmaker and a Foreign Explorer", "A Palace Guard and a Masked Dancer", "A Cursed Heir and a Pure-hearted Healer",
+      "A Pirate Queen and a Captive Noble", "A Keeper of Tombs and a Grave Robber", "Two Poets Competing in a Royal Exam", "A Firework Maker and a Blind Musician", "A Secret Emissary and a Local Rebel"
     ];
     let rHash = kHash;
     const rDob = idolName || '1995-01-01';
