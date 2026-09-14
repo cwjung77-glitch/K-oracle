@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import React, { useState, useEffect } from 'react';
 import SajuCompatibility from '../components/features/SajuCompatibility';
 import PersonalColor from '../components/features/PersonalColor';
@@ -60,7 +60,7 @@ export default function OracleLanding() {
   }, [activeTab]);
 
   return (
-    <div className="relative min-h-screen bg-[#050505] text-white font-sans selection:bg-yellow-500 selection:text-black pb-24 overflow-hidden">
+    <div className="relative min-h-screen bg-[#050505] text-white font-sans selection:bg-yellow-500 selection:text-black pb-24 overflow-x-hidden">
       
       {/* Premium Cosmic Aurora Background */}
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/20 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '8s' }} />
