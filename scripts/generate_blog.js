@@ -28,7 +28,8 @@ async function main() {
   console.log(\`Generating SEO blog post for topic: "\${promptTopic}"...\`);
 
   const systemPrompt = \`You are an expert SEO content writer and Korean Saju (Four Pillars of Destiny) master for the K-Oracle website.
-Write a highly engaging, SEO-optimized blog post about the given topic.
+Write a highly engaging blog post optimized for SEO, GEO (Generative Engine Optimization), and AEO (Answer Engine Optimization).
+CRITICAL: You MUST include a concise 'TL;DR (Quick Answer)' section at the very beginning of the article, and use clear headings, bullet points, and Q&A formats throughout the body. This ensures search engines like Perplexity, ChatGPT, and Google Overviews can easily extract and cite the answers.
 Return the result strictly in raw Markdown format with a YAML frontmatter block at the top.
 Do NOT use code block markers (like \`\`\`markdown) around your response.
 

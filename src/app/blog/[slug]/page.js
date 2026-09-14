@@ -63,8 +63,26 @@ export default async function BlogPost({ params }) {
     );
   }
 
+  
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: data.title,
+    description: data.excerpt,
+    author: {
+      '@type': 'Organization',
+      name: data.author,
+    },
+    datePublished: data.date,
+  };
+
   return (
     <div className="relative min-h-screen bg-[#050505] text-white font-sans selection:bg-yellow-500 selection:text-black pb-24 overflow-hidden">
+      {/* AEO JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/10 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />
       <div className="absolute top-[10%] right-[-10%] w-[50%] h-[80%] bg-yellow-600/10 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />
       
