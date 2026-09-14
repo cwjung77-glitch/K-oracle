@@ -21,3 +21,4 @@ Jungkook's Saju reveals a strong presence of **Fire and Metal**.
 His chart shows a unique formation where his creative output directly translates into massive wealth (Wealth Element). Interestingly, his romance element suggests he is deeply loyal but highly private about his personal life.
 
 Want to see if your Saju is compatible with Jungkook? Check out our **[Deep Chemistry & Compatibility Report](/ "K-Oracle")** to find out!
+\n\n*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*
