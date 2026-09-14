@@ -162,7 +162,7 @@ export async function POST(req) {
       if (plan === 'q4') {
         months = isEs ? ['Oct','Nov','Dic'] : ['Oct','Nov','Dec'];
       } else if (plan === 'bundle') {
-        const m26 = isEs ? ['Ene 26','Feb 26','Mar 26','Abr 26','May 26','Jun 26','Jul 26','Ago 26','Sep 26','Oct 26','Nov 26','Dic 26'] : ['Jan 26','Feb 26','Mar 26','Apr 26','May 26','Jun 26','Jul 26','Aug 26','Sep 26','Oct 26','Nov 26','Dec 26'];
+        const m26 = isEs ? ['Oct 26','Nov 26','Dic 26'] : ['Oct 26','Nov 26','Dec 26'];
         const m27 = isEs ? ['Ene 27','Feb 27','Mar 27','Abr 27','May 27','Jun 27','Jul 27','Ago 27','Sep 27','Oct 27','Nov 27','Dic 27'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
         months = [...m26, ...m27];
       } else {
