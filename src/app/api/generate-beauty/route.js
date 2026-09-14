@@ -33,7 +33,8 @@ Example:
 [CATEGORY: Signature Makeup & Hair]
 (your text here)
 
-WRITING STYLE: Use short, punchy sentences. Avoid long academic text. Write like a high-end fashion magazine column. ABSOLUTELY NO GENERIC FLUFF. Do not use markdown asterisks.`;
+WRITING STYLE: Use short, punchy sentences. Write like a high-end fashion magazine column. ABSOLUTELY NO GENERIC FLUFF.
+CRITICAL TONE RULE: You MUST NOT sound like an AI assistant. NEVER use phrases like "Here is your analysis", "In conclusion", "As a stylist, I recommend", or "It is important to remember". Speak with the absolute, unapologetic authority of a human consultant who charges $10,000 per hour. Give direct commands. Do not use markdown asterisks.`;
 
     let response;
     let aiResult;

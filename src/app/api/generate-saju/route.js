@@ -59,6 +59,7 @@ Client Details:
 - Target Language: ${lang === 'ko' ? 'Korean' : 'English'}
 
 WRITING STYLE: High-end magazine column, short punchy sentences. No markdown asterisks.
+CRITICAL TONE RULE: You MUST NOT sound like an AI assistant. NEVER use AI filler phrases like "Here is your analysis", "In conclusion", or "As a Shaman". Speak with absolute authority.
 
 YOUR TASK: Generate a 4-part Relationship Chemistry Report. Use EXACT delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, ---MATRIX---.
 
@@ -88,7 +89,8 @@ Client Details:
 - Today's Date: ${todayStr}
 - Target Language: ${lang === 'ko' ? 'Korean (Native Korean Language)' : isEs ? 'Spanish' : 'English'}
 
-WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Write like a high-end, fast-paced magazine column to maximize readability. Format with clear, short paragraphs and plenty of line breaks. Do not include markdown asterisks like **bold**. ABSOLUTELY NO GENERIC FLUFF. Every sentence must provide explosive value.
+WRITING STYLE: Use short, punchy sentences. Write like a high-end, fast-paced magazine column to maximize readability. Do not include markdown asterisks like **bold**. ABSOLUTELY NO GENERIC FLUFF.
+CRITICAL TONE RULE: You MUST NOT sound like an AI assistant. NEVER use AI filler phrases like "Here is your analysis", "In conclusion", "As a Shaman, I see", or "It is important to remember". Speak directly to the soul of the client with the absolute, unapologetic authority of a grandmaster. Give direct commands.
 
 CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. If warning about dangers, frame them strictly as financial, emotional, or career challenges.
 
