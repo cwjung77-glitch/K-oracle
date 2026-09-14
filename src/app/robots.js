@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://k-oracle.com/sitemap.xml', // Change to actual production URL later
+    sitemap: 'https://k-oracle-omega.vercel.app/sitemap.xml', // Change to actual production URL later
   };
 }

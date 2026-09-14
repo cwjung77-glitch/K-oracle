@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default function sitemap() {
-  const baseUrl = 'https://k-oracle.com'; // Change to actual production URL later
+  const baseUrl = 'https://k-oracle-omega.vercel.app'; // Change to actual production URL later
   
   const contentDir = path.join(process.cwd(), 'src/content/blog');
   let blogUrls = [];
