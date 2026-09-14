@@ -1,4 +1,6 @@
 const fs = require('fs');
+
+const newCode = `const fs = require('fs');
 const path = require('path');
 
 async function main() {
@@ -25,16 +27,16 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`Generating SEO blog post for topic: "${promptTopic}"...`);
+  console.log(\`Generating SEO blog post for topic: "\${promptTopic}"...\`);
 
-  const systemPrompt = `You are an expert SEO content writer and Korean Saju (Four Pillars of Destiny) master for the K-Oracle website.
+  const systemPrompt = \`You are an expert SEO content writer and Korean Saju (Four Pillars of Destiny) master for the K-Oracle website.
 Write a highly engaging blog post optimized for SEO, GEO (Generative Engine Optimization), and AEO (Answer Engine Optimization).
 CRITICAL: You MUST include a concise 'TL;DR (Quick Answer)' section at the very beginning of the article, and use clear headings, bullet points, and Q&A formats throughout the body. This ensures search engines like Perplexity, ChatGPT, and Google Overviews can easily extract and cite the answers.
 
 CRITICAL LANGUAGE RULE: No matter what language the Topic is provided in (e.g., Korean), you MUST write the entire blog post (including the title, frontmatter, and body) in ENGLISH. 
 
 Return the result strictly in raw Markdown format with a YAML frontmatter block at the top.
-Do NOT use code block markers (like \`\`\`markdown) around your response.
+Do NOT use code block markers (like \\\`\\\`\\\`markdown) around your response.
 
 CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
 
@@ -48,15 +50,15 @@ author: "K-Oracle"
 tags: ["Tag1", "Tag2", "Tag3"]
 ---
 
-Body of the markdown goes here. Use ## for headings, bullet points, and bold text. End the article by encouraging users to visit the K-Oracle app to check their own Saju.`;
+Body of the markdown goes here. Use ## for headings, bullet points, and bold text. End the article by encouraging users to visit the K-Oracle app to check their own Saju.\`;
 
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=${apiKey}`, {
+    const res = await fetch(\`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-pro:generateContent?key=\${apiKey}\`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         contents: [
-          { role: 'user', parts: [{ text: `${systemPrompt}\n\nTopic: ${promptTopic}` }] }
+          { role: 'user', parts: [{ text: \`\${systemPrompt}\\n\\nTopic: \${promptTopic}\` }] }
         ]
       })
     });
@@ -67,19 +69,21 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
     let text = data.candidates[0].content.parts[0].text;
     
     // Remove markdown codeblock wrappers if Gemini accidentally includes them
-    text = text.replace(/^\s*\`\`\`markdown\n/, '').replace(/\n\`\`\`\s*$/, '');
+    text = text.replace(/^\\s*\\\`\\\`\\\`markdown\\n/, '').replace(/\\n\\\`\\\`\\\`\\s*$/, '');
 
     // Extract slug from the YAML frontmatter
-    let slugMatch = text.match(/slug:\s*"([^"]+)"/);
+    let slugMatch = text.match(/slug:\\s*"([^"]+)"/);
     let slug = slugMatch ? slugMatch[1] : 'blog-post-' + Date.now();
     
-    const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
+    const outPath = path.join(__dirname, \`../src/content/blog/\${slug}.md\`);
     fs.writeFileSync(outPath, text);
     
-    console.log(`✅ Successfully generated and saved to ${outPath}`);
+    console.log(\`✅ Successfully generated and saved to \${outPath}\`);
   } catch (err) {
     console.error("Error generating post:", err);
   }
 }
 
-main();
+main();`;
+
+fs.writeFileSync('scripts/generate_blog.js', newCode);
