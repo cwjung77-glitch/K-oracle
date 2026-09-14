@@ -1,4 +1,4 @@
-Ôªø"use client";
+"use client";
 
 import React, { useState } from 'react';
 import { Camera, Sparkles, CheckCircle2, ScanFace, Upload, Share2, Palette } from 'lucide-react';
@@ -15,12 +15,12 @@ export default function PersonalColor() {
   const colors = [
     {
       season: "SPRING WARM",
-      kor: "Î¥Ñ ÏõúÌÜ§",
+      kor: "∫Ω ø˙≈Ê",
       theme: "from-orange-200 via-yellow-100 to-amber-200",
       textColor: "text-orange-400",
       cardText: "text-orange-900",
-      femaleIdols: ["Suzy (ÏàòÏßÄ)", "Sana (ÏÇ¨ÎÇò - TWICE)", "Joy (Ï°∞Ïù¥ - Red Velvet)", "Nayeon (ÎÇòÏó∞ - TWICE)", "Minji (ÎØºÏßÄ - NewJeans)", "Eunchae (ÏùÄÏ±Ñ - LE SSERAFIM)", "Rei (Î†àÏù¥ - IVE)", "Winter (ÏúàÌÑ∞ - aespa)", "Chuu (Ï∏Ñ)", "Yuqi (Ïö∞Í∏∞ - (G)I-DLE)", "Yeri (ÏòàÎ¶¨ - Red Velvet)", "Ningning (ÎãùÎãù - aespa)", "Sakura (ÏÇ¨Ïø†Îùº - LE SSERAFIM)", "Ryujin (Î•òÏßÑ - ITZY)", "Yujin (ÏµúÏú†ÏßÑ - Kep1er)", "Jiwon (ÏßÄÏõê - fromis_9)", "YooA (Ïú†ÏïÑ - Oh My Girl)", "Lia (Î¶¨ÏïÑ - ITZY)", "Dayeon (Îã§Ïó∞ - Kep1er)", "Tsuki (Ï∏†ÌÇ§ - Billlie)"],
-      maleIdols: ["V (Î∑î - BTS)", "Cha Eunwoo (Ï∞®ÏùÄÏö∞ - ASTRO)", "Minhyun (Ìô©ÎØºÌòÑ)", "Jungwoo (Ï†ïÏö∞ - NCT)", "Sunoo (ÏÑ†Ïö∞ - ENHYPEN)", "Soobin (ÏàòÎπà - TXT)", "Jaehyun (Ïû¨ÌòÑ - BOYNEXTDOOR)", "DK (ÎèÑÍ≤∏ - SEVENTEEN)", "Jeno (Ï†úÎÖ∏ - NCT)", "Doyoung (ÎèÑÏòÅ - NCT)", "Rowoon (Î°úÏö¥)", "Huening Kai (Ìú¥ÎãùÏπ¥Ïù¥ - TXT)", "Taehyun (ÌÉúÌòÑ - TXT)", "Jake (Ï†úÏù¥ÌÅ¨ - ENHYPEN)", "Anton (Ïï§ÌÜ§ - RIIZE)", "Eunseok (ÏùÄÏÑù - RIIZE)", "Seungkwan (ÏäπÍ¥Ä - SEVENTEEN)", "Hoshi (Ìò∏Ïãú - SEVENTEEN)", "Han (Ìïú - Stray Kids)", "Seungmin (ÏäπÎØº - Stray Kids)"],
+      femaleIdols: ["Suzy (ºˆ¡ˆ)", "Sana (ªÁ≥™ - TWICE)", "Joy (¡∂¿Ã - Red Velvet)", "Nayeon (≥™ø¨ - TWICE)", "Minji (πŒ¡ˆ - NewJeans)", "Eunchae (¿∫√§ - LE SSERAFIM)", "Rei (∑π¿Ã - IVE)", "Winter (¿©≈Õ - aespa)", "Chuu (√Ú)", "Yuqi (øÏ±‚ - (G)I-DLE)", "Yeri (øπ∏Æ - Red Velvet)", "Ningning (¥◊¥◊ - aespa)", "Sakura (ªÁƒÌ∂Û - LE SSERAFIM)", "Ryujin (∑˘¡¯ - ITZY)", "Yujin (√÷¿Ø¡¯ - Kep1er)", "Jiwon (¡ˆø¯ - fromis_9)", "YooA (¿Øæ∆ - Oh My Girl)", "Lia (∏Ææ∆ - ITZY)", "Dayeon (¥Ÿø¨ - Kep1er)", "Tsuki (√˜≈∞ - Billlie)"],
+      maleIdols: ["V (∫ﬂ - BTS)", "Cha Eunwoo (¬˜¿∫øÏ - ASTRO)", "Minhyun (»≤πŒ«ˆ)", "Jungwoo (¡§øÏ - NCT)", "Sunoo (º±øÏ - ENHYPEN)", "Soobin (ºˆ∫Û - TXT)", "Jaehyun (¿Á«ˆ - BOYNEXTDOOR)", "DK (µµ∞‚ - SEVENTEEN)", "Jeno (¡¶≥Î - NCT)", "Doyoung (µµøµ - NCT)", "Rowoon (∑ŒøÓ)", "Huening Kai (»ﬁ¥◊ƒ´¿Ã - TXT)", "Taehyun (≈¬«ˆ - TXT)", "Jake (¡¶¿Ã≈© - ENHYPEN)", "Anton (æÿ≈Ê - RIIZE)", "Eunseok (¿∫ºÆ - RIIZE)", "Seungkwan (Ω¬∞¸ - SEVENTEEN)", "Hoshi (»£Ω√ - SEVENTEEN)", "Han («— - Stray Kids)", "Seungmin (Ω¬πŒ - Stray Kids)"],
       desc: "Like your idol skin twin! You look glowing in bright, warm, and peachy colors. Your aura is fresh, vibrant, and incredibly lovely.",
       colorPool: [{hex:'#FFB6C1', name:'Light Pink'}, {hex:'#FFA07A', name:'Salmon'}, {hex:'#FFDAB9', name:'Peach'}, {hex:'#F0E68C', name:'Khaki'}, {hex:'#98FB98', name:'Mint'}, {hex:'#FF8C00', name:'Dark Orange'}, {hex:'#FF7F50', name:'Coral'}, {hex:'#FFFFE0', name:'Light Yellow'}, {hex:'#ADFF2F', name:'Green Yellow'}, {hex:'#FF69B4', name:'Hot Pink'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#FFE4B5', name:'Moccasin'}],
       tagPool: [{bg:'bg-orange-500/20', text:'text-orange-400', label:'Peach'}, {bg:'bg-yellow-500/20', text:'text-yellow-400', label:'Coral'}, {bg:'bg-lime-500/20', text:'text-lime-400', label:'Fresh Green'}, {bg:'bg-amber-500/20', text:'text-amber-400', label:'Warm Gold'}],
@@ -41,12 +41,12 @@ export default function PersonalColor() {
     },
     {
       season: "SUMMER COOL",
-      kor: "Ïó¨Î¶Ñ Ïø®ÌÜ§",
+      kor: "ø©∏ß ƒ≈Ê",
       theme: "from-pink-200 via-purple-100 to-blue-200",
       textColor: "text-pink-400",
       cardText: "text-indigo-900",
-      femaleIdols: ["Wonyoung (ÏõêÏòÅ - IVE)", "Irene (ÏïÑÏù¥Î¶∞ - Red Velvet)", "Chaewon (Ï±ÑÏõê - LE SSERAFIM)", "Hanni (ÌïòÎãà - NewJeans)", "Sullyoon (ÏÑ§Ïú§ - NMIXX)", "An Yujin (ÏïàÏú†ÏßÑ - IVE)", "Miyeon (ÎØ∏Ïó∞ - (G)I-DLE)", "Haerin (Ìï¥Î¶∞ - NewJeans)", "Isa (ÏïÑÏù¥ÏÇ¨ - STAYC)", "Arin (ÏïÑÎ¶∞ - Oh My Girl)", "Binnie (Ïú†Îπà - Oh My Girl)", "Wendy (Ïõ¨Îîî - Red Velvet)", "Yeseo (ÏòàÏÑú - Kep1er)", "J (Ï†úÏù¥ - STAYC)", "Sieun (ÏãúÏùÄ - STAYC)", "Xiaoting (ÏÉ§Ïò§ÌåÖ - Kep1er)", "Jiwoo (ÏßÄÏö∞ - NMIXX)", "Haewon (Ìï¥Ïõê - NMIXX)", "Seeun (ÏÑ∏ÏùÄ - STAYC)", "Natty (ÎÇòÎù† - KISS OF LIFE)"],
-      maleIdols: ["Jungkook (Ï†ïÍµ≠ - BTS)", "Wonbin (ÏõêÎπà - RIIZE)", "Beomgyu (Î≤îÍ∑ú - TXT)", "Mark (ÎßàÌÅ¨ - NCT)", "Taemin (ÌÉúÎØº - SHINee)", "Baekhyun (Î∞±ÌòÑ - EXO)", "Joshua (Ï°∞ÏäàÏïÑ - SEVENTEEN)", "Sunghoon (ÏÑ±Ìõà - ENHYPEN)", "Sohee (ÏÜåÌù¨ - RIIZE)", "Renjun (Îü∞Ï•î - NCT)", "Chenle (Ï≤úÎü¨ - NCT)", "I.N (ÏïÑÏù¥Ïóî - Stray Kids)", "Wonwoo (ÏõêÏö∞ - SEVENTEEN)", "Vernon (Î≤ÑÎÖº - SEVENTEEN)", "Dino (ÎîîÎÖ∏ - SEVENTEEN)", "Jungwon (Ï†ïÏõê - ENHYPEN)", "Ni-ki (ÎãàÌÇ§ - ENHYPEN)", "Taesan (ÌÉúÏÇ∞ - BOYNEXTDOOR)", "Leehan (Ïù¥Ìïú - BOYNEXTDOOR)", "Hyunsuk (ÌòÑÏÑù - TREASURE)"],
+      femaleIdols: ["Wonyoung (ø¯øµ - IVE)", "Irene (æ∆¿Ã∏∞ - Red Velvet)", "Chaewon (√§ø¯ - LE SSERAFIM)", "Hanni («œ¥œ - NewJeans)", "Sullyoon (º≥¿± - NMIXX)", "An Yujin (æ»¿Ø¡¯ - IVE)", "Miyeon (πÃø¨ - (G)I-DLE)", "Haerin («ÿ∏∞ - NewJeans)", "Isa (æ∆¿ÃªÁ - STAYC)", "Arin (æ∆∏∞ - Oh My Girl)", "Binnie (¿Ø∫Û - Oh My Girl)", "Wendy (¿¢µ - Red Velvet)", "Yeseo (øπº≠ - Kep1er)", "J (¡¶¿Ã - STAYC)", "Sieun (Ω√¿∫ - STAYC)", "Xiaoting (ª˛ø¿∆√ - Kep1er)", "Jiwoo (¡ˆøÏ - NMIXX)", "Haewon («ÿø¯ - NMIXX)", "Seeun (ºº¿∫ - STAYC)", "Natty (≥™∂Ï - KISS OF LIFE)"],
+      maleIdols: ["Jungkook (¡§±π - BTS)", "Wonbin (ø¯∫Û - RIIZE)", "Beomgyu (π¸±‘ - TXT)", "Mark (∏∂≈© - NCT)", "Taemin (≈¬πŒ - SHINee)", "Baekhyun (πÈ«ˆ - EXO)", "Joshua (¡∂Ω¥æ∆ - SEVENTEEN)", "Sunghoon (º∫»∆ - ENHYPEN)", "Sohee (º“»Ò - RIIZE)", "Renjun (∑±¡Â - NCT)", "Chenle (√µ∑Ø - NCT)", "I.N (æ∆¿Ãø£ - Stray Kids)", "Wonwoo (ø¯øÏ - SEVENTEEN)", "Vernon (πˆ≥Ì - SEVENTEEN)", "Dino (µ≥Î - SEVENTEEN)", "Jungwon (¡§ø¯ - ENHYPEN)", "Ni-ki (¥œ≈∞ - ENHYPEN)", "Taesan (≈¬ªÍ - BOYNEXTDOOR)", "Leehan (¿Ã«— - BOYNEXTDOOR)", "Hyunsuk («ˆºÆ - TREASURE)"],
       desc: "Like your idol skin twin! Your skin looks flawless with pastel and cool-toned makeup. Your aura is elegant, clear, and sophisticated.",
       colorPool: [{hex:'#E6E6FA', name:'Lavender'}, {hex:'#D8BFD8', name:'Thistle'}, {hex:'#B0E0E6', name:'Powder Blue'}, {hex:'#FFC0CB', name:'Pink'}, {hex:'#E0FFFF', name:'Light Cyan'}, {hex:'#87CEFA', name:'Sky Blue'}, {hex:'#FFB6C1', name:'Light Pink'}, {hex:'#DDA0DD', name:'Plum'}, {hex:'#F0F8FF', name:'Alice Blue'}, {hex:'#E6E6FA', name:'Lavender'}, {hex:'#FFF0F5', name:'Lavender Blush'}, {hex:'#ADD8E6', name:'Light Blue'}],
       tagPool: [{bg:'bg-pink-500/20', text:'text-pink-400', label:'Pastel Pink'}, {bg:'bg-blue-500/20', text:'text-blue-400', label:'Lavender'}, {bg:'bg-indigo-500/20', text:'text-indigo-400', label:'Mute Blue'}, {bg:'bg-fuchsia-500/20', text:'text-fuchsia-400', label:'Cool Berry'}],
@@ -67,12 +67,12 @@ export default function PersonalColor() {
     },
     {
       season: "AUTUMN WARM",
-      kor: "Í∞ÄÏùÑ ÏõúÌÜ§",
+      kor: "∞°¿ª ø˙≈Ê",
       theme: "from-amber-700 via-orange-800 to-red-900",
       textColor: "text-amber-500",
       cardText: "text-amber-100",
-      femaleIdols: ["Jennie (Ï†úÎãà - BLACKPINK)", "Seulgi (Ïä¨Í∏∞ - Red Velvet)", "Kazuha (Ïπ¥Ï¶àÌïò - LE SSERAFIM)", "Danielle (Îã§ÎãàÏóò - NewJeans)", "Giselle (ÏßÄÏ†§ - aespa)", "Ros√© (Î°úÏ†ú - BLACKPINK)", "Hwasa (ÌôîÏÇ¨ - MAMAMOO)", "Gaeul (Í∞ÄÏùÑ - IVE)", "Yeji (ÏòàÏßÄ - ITZY)", "Minnie (ÎØºÎãà - (G)I-DLE)", "Soyeon (ÏÜåÏó∞ - (G)I-DLE)", "Lisa (Î¶¨ÏÇ¨ - BLACKPINK)", "Yunjin (Ïú§ÏßÑ - LE SSERAFIM)", "Chaeryeong (Ï±ÑÎ†π - ITZY)", "Momo (Î™®Î™® - TWICE)", "Mina (ÎØ∏ÎÇò - TWICE)", "Tzuyu (ÏØîÏúÑ - TWICE)", "Jihyo (ÏßÄÌö® - TWICE)", "Sumin (ÏàòÎØº - STAYC)", "Julie (Ï•¥Î¶¨ - KISS OF LIFE)"],
-      maleIdols: ["Kai (Ïπ¥Ïù¥ - EXO)", "Mingyu (ÎØºÍ∑ú - SEVENTEEN)", "Yeonjun (Ïó∞Ï§Ä - TXT)", "Haechan (Ìï¥Ï∞¨ - NCT)", "Hyunjin (ÌòÑÏßÑ - Stray Kids)", "Jimin (ÏßÄÎØº - BTS)", "Jeonghan (Ï†ïÌïú - SEVENTEEN)", "Jay (Ï†úÏù¥ - ENHYPEN)", "Jaehyun (Ïû¨ÌòÑ - NCT)", "Johnny (ÏüàÎãà - NCT)", "Yuta (Ïú†ÌÉÄ - NCT)", "S.Coups (ÏóêÏä§Ïø±Ïä§ - SEVENTEEN)", "Jun (Ï§Ä - SEVENTEEN)", "Bang Chan (Î∞©Ï∞¨ - Stray Kids)", "Changbin (Ï∞ΩÎπà - Stray Kids)", "RM (ÏïåÏó† - BTS)", "J-Hope (Ï†úÏù¥Ìôâ - BTS)", "Haruto (ÌïòÎ£®ÌÜ† - TREASURE)", "Yoshi (ÏöîÏãú - TREASURE)", "Asahi (ÏïÑÏÇ¨Ìûà - TREASURE)"],
+      femaleIdols: ["Jennie (¡¶¥œ - BLACKPINK)", "Seulgi (ΩΩ±‚ - Red Velvet)", "Kazuha (ƒ´¡Ó«œ - LE SSERAFIM)", "Danielle (¥Ÿ¥œø§ - NewJeans)", "Giselle (¡ˆ¡© - aespa)", "Rose (∑Œ¡¶ - BLACKPINK)", "Hwasa (»≠ªÁ - MAMAMOO)", "Gaeul (∞°¿ª - IVE)", "Yeji (øπ¡ˆ - ITZY)", "Minnie (πŒ¥œ - (G)I-DLE)", "Soyeon (º“ø¨ - (G)I-DLE)", "Lisa (∏ÆªÁ - BLACKPINK)", "Yunjin (¿±¡¯ - LE SSERAFIM)", "Chaeryeong (√§∑… - ITZY)", "Momo (∏∏ - TWICE)", "Mina (πÃ≥™ - TWICE)", "Tzuyu (¬Í¿ß - TWICE)", "Jihyo (¡ˆ»ø - TWICE)", "Sumin (ºˆπŒ - STAYC)", "Julie (¡Ï∏Æ - KISS OF LIFE)"],
+      maleIdols: ["Kai (ƒ´¿Ã - EXO)", "Mingyu (πŒ±‘ - SEVENTEEN)", "Yeonjun (ø¨¡ÿ - TXT)", "Haechan («ÿ¬˘ - NCT)", "Hyunjin («ˆ¡¯ - Stray Kids)", "Jimin (¡ˆπŒ - BTS)", "Jeonghan (¡§«— - SEVENTEEN)", "Jay (¡¶¿Ã - ENHYPEN)", "Jaehyun (¿Á«ˆ - NCT)", "Johnny (¿¥œ - NCT)", "Yuta (¿Ø≈∏ - NCT)", "S.Coups (ø°Ω∫ƒÚΩ∫ - SEVENTEEN)", "Jun (¡ÿ - SEVENTEEN)", "Bang Chan (πÊ¬˘ - Stray Kids)", "Changbin (√¢∫Û - Stray Kids)", "RM (æÀø• - BTS)", "J-Hope (¡¶¿Ã»© - BTS)", "Haruto («œ∑Á≈‰ - TREASURE)", "Yoshi (ø‰Ω√ - TREASURE)", "Asahi (æ∆ªÁ»˜ - TREASURE)"],
       desc: "Like your idol skin twin! You rock deep, rich, and earthy tones. Your aura is luxurious, chic, and effortlessly cool.",
       colorPool: [{hex:'#8B4513', name:'Saddle Brown'}, {hex:'#A0522D', name:'Sienna'}, {hex:'#D2691E', name:'Chocolate'}, {hex:'#CD853F', name:'Peru'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#D2B48C', name:'Tan'}, {hex:'#DEB887', name:'Burlywood'}, {hex:'#BC8F8F', name:'Rosy Brown'}, {hex:'#F5DEB3', name:'Wheat'}, {hex:'#800000', name:'Maroon'}, {hex:'#A52A2A', name:'Brown'}, {hex:'#DAA520', name:'Goldenrod'}],
       tagPool: [{bg:'bg-amber-500/20', text:'text-amber-400', label:'Brick Red'}, {bg:'bg-orange-900/20', text:'text-orange-400', label:'Mute Brown'}, {bg:'bg-yellow-700/20', text:'text-yellow-600', label:'Deep Gold'}, {bg:'bg-red-800/20', text:'text-red-400', label:'Chili'}],
@@ -93,12 +93,12 @@ export default function PersonalColor() {
     },
     {
       season: "WINTER COOL",
-      kor: "Í≤®Ïö∏ Ïø®ÌÜ§",
+      kor: "∞‹øÔ ƒ≈Ê",
       theme: "from-fuchsia-900 via-purple-900 to-indigo-950",
       textColor: "text-fuchsia-400",
       cardText: "text-fuchsia-100",
-      femaleIdols: ["Karina (Ïπ¥Î¶¨ÎÇò - aespa)", "Jisoo (ÏßÄÏàò - BLACKPINK)", "Chaeyoung (Ï±ÑÏòÅ - TWICE)", "Hyein (ÌòúÏù∏ - NewJeans)", "Yuna (Ïú†ÎÇò - ITZY)", "Leeseo (Ïù¥ÏÑú - IVE)", "Shuhua (ÏäàÌôî - (G)I-DLE)", "Kyujin (Í∑úÏßÑ - NMIXX)", "Yoon (Ïú§ - STAYC)", "Lily (Î¶¥Î¶¨ - NMIXX)", "Moonbyul (Î¨∏Î≥Ñ - MAMAMOO)", "Solar (ÏÜîÎùº - MAMAMOO)", "Eunbi (Í∂åÏùÄÎπÑ)", "Liz (Î¶¨Ï¶à - IVE)", "Bae (Î∞∞Ïù¥ - NMIXX)", "Jeongyeon (Ï†ïÏó∞ - TWICE)", "Dahyun (Îã§ÌòÑ - TWICE)", "Seoyeon (ÏÑúÏó∞ - fromis_9)", "Nakyung (Ïù¥ÎÇòÍ≤Ω - fromis_9)", "Belle (Î≤® - KISS OF LIFE)"],
-      maleIdols: ["Sehun (ÏÑ∏Ìõà - EXO)", "Taeyong (ÌÉúÏö© - NCT)", "Felix (ÌïÑÎ¶≠Ïä§ - Stray Kids)", "Sungchan (ÏÑ±Ï∞¨ - RIIZE)", "Lee Know (Î¶¨ÎÖ∏ - Stray Kids)", "Suga (ÏäàÍ∞Ä - BTS)", "Minghao (ÎîîÏóêÏûá - SEVENTEEN)", "Heeseung (Ìù¨Ïäπ - ENHYPEN)", "Shotaro (ÏáºÌÉÄÎ°ú - RIIZE)", "Jin (ÏßÑ - BTS)", "Ten (ÌÖê - NCT)", "Xiaojun (ÏÉ§Ïò§Ï•î - WayV)", "Hendery (Ìó®ÎìúÎ¶¨ - WayV)", "Woozi (Ïö∞ÏßÄ - SEVENTEEN)", "Woonhak (Ïö¥Ìïô - BOYNEXTDOOR)", "Riwoo (Î¶¨Ïö∞ - BOYNEXTDOOR)", "Jihoon (ÏßÄÌõà - TREASURE)", "Junkyu (Ï§ÄÍ∑ú - TREASURE)", "Doyoung (ÎèÑÏòÅ - TREASURE)", "Jeongwoo (Ï†ïÏö∞ - TREASURE)"],
+      femaleIdols: ["Karina (ƒ´∏Æ≥™ - aespa)", "Jisoo (¡ˆºˆ - BLACKPINK)", "Chaeyoung (√§øµ - TWICE)", "Hyein («˝¿Œ - NewJeans)", "Yuna (¿Ø≥™ - ITZY)", "Leeseo (¿Ãº≠ - IVE)", "Shuhua (Ω¥»≠ - (G)I-DLE)", "Kyujin (±‘¡¯ - NMIXX)", "Yoon (¿± - STAYC)", "Lily (∏±∏Æ - NMIXX)", "Moonbyul (πÆ∫∞ - MAMAMOO)", "Solar (º÷∂Û - MAMAMOO)", "Eunbi (±«¿∫∫Ò)", "Liz (∏Æ¡Ó - IVE)", "Bae (πË¿Ã - NMIXX)", "Jeongyeon (¡§ø¨ - TWICE)", "Dahyun (¥Ÿ«ˆ - TWICE)", "Seoyeon (º≠ø¨ - fromis_9)", "Nakyung (¿Ã≥™∞Ê - fromis_9)", "Belle (∫ß - KISS OF LIFE)"],
+      maleIdols: ["Sehun (ºº»∆ - EXO)", "Taeyong (≈¬øÎ - NCT)", "Felix (« ∏ØΩ∫ - Stray Kids)", "Sungchan (º∫¬˘ - RIIZE)", "Lee Know (∏Æ≥Î - Stray Kids)", "Suga (Ω¥∞° - BTS)", "Minghao (µø°¿’ - SEVENTEEN)", "Heeseung (»ÒΩ¬ - ENHYPEN)", "Shotaro (ºÓ≈∏∑Œ - RIIZE)", "Jin (¡¯ - BTS)", "Ten (≈Ÿ - NCT)", "Xiaojun (ª˛ø¿¡Â - WayV)", "Hendery («ÓµÂ∏Æ - WayV)", "Woozi (øÏ¡ˆ - SEVENTEEN)", "Woonhak (øÓ«– - BOYNEXTDOOR)", "Riwoo (∏ÆøÏ - BOYNEXTDOOR)", "Jihoon (¡ˆ»∆ - TREASURE)", "Junkyu (¡ÿ±‘ - TREASURE)", "Doyoung (µµøµ - TREASURE)", "Jeongwoo (¡§øÏ - TREASURE)"],
       desc: "Like your idol skin twin! High-contrast, icy, and deep colors make your features pop. Your aura is striking, sharp, and intensely charismatic.",
       colorPool: [{hex:'#000000', name:'Black'}, {hex:'#000080', name:'Navy'}, {hex:'#800080', name:'Purple'}, {hex:'#FF00FF', name:'Magenta'}, {hex:'#DC143C', name:'Crimson'}, {hex:'#4B0082', name:'Indigo'}, {hex:'#8B008B', name:'Dark Magenta'}, {hex:'#9400D3', name:'Dark Violet'}, {hex:'#0000CD', name:'Medium Blue'}, {hex:'#C71585', name:'Medium Violet'}, {hex:'#FFFFFF', name:'White'}, {hex:'#00FFFF', name:'Cyan'}],
       tagPool: [{bg:'bg-purple-500/20', text:'text-purple-400', label:'Icy Plum'}, {bg:'bg-fuchsia-900/20', text:'text-fuchsia-400', label:'True Black'}, {bg:'bg-blue-900/20', text:'text-blue-400', label:'Navy'}, {bg:'bg-pink-700/20', text:'text-pink-300', label:'Magenta'}],
@@ -124,6 +124,18 @@ export default function PersonalColor() {
   const [uploadedFile, setUploadedFile] = useState(null);
   const [gender, setGender] = useState('F');
 
+    const handleShareInstagram = async () => {
+    const card = document.getElementById('aura-card');
+    if (!card) return;
+    try {
+      const canvas = await html2canvas(card, { backgroundColor: null, scale: 2 });
+      const url = canvas.toDataURL("image/png");
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'K-Oracle_AuraCard.png';
+      a.click();
+    } catch(e) { console.error("Error generating image", e); }
+  };
   const handleImageUpload = (e) => {
     const file = e.target.files[0];
     if (file) {
@@ -301,7 +313,7 @@ export default function PersonalColor() {
 
             <div className="text-center space-y-4 mt-6">
               <p className="text-sm text-yellow-300 font-bold bg-yellow-500/20 inline-block px-5 py-2.5 rounded-xl border border-yellow-500/50 shadow-[0_0_15px_rgba(234,179,8,0.15)] leading-relaxed">
-                ‚ö†Ô∏è Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
+                ?? Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
               </p>
               <p className="text-sm text-zinc-400 font-medium tracking-wide">
                 * Photos are processed locally and deleted instantly. We do not store your face data.
@@ -336,7 +348,7 @@ export default function PersonalColor() {
                 <div className="flex justify-between items-start mb-8">
                   <div className="space-y-1">
                     <h3 className={`text-5xl md:text-6xl font-black ${result.cardText} tracking-tighter drop-shadow-sm leading-none`}>{result.season}</h3>
-                    <div className={`${result.cardText} opacity-80 font-bold tracking-[0.2em] text-xs uppercase mt-2`}>{result.kor} ‚Ä¢ PERSONAL COLOR</div>
+                    <div className={`${result.cardText} opacity-80 font-bold tracking-[0.2em] text-xs uppercase mt-2`}>{result.kor} ? PERSONAL COLOR</div>
                   </div>
                   <div className={`px-4 py-1.5 bg-white/30 backdrop-blur-md rounded-full text-xs font-black ${result.cardText} shadow-sm border border-white/40 uppercase tracking-wider`}>
                     100% Match
@@ -372,7 +384,7 @@ export default function PersonalColor() {
               </div>
             </div>
             
-            <button className="w-full mb-8 py-3.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-lg">
+            <button onClick={handleShareInstagram} className="w-full mb-8 py-3.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-lg">
               <Share2 size={18} /> SHARE AURA CARD TO INSTAGRAM
             </button>
             

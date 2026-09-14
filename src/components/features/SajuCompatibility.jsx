@@ -73,6 +73,18 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
+    const handleDownloadImage = async () => {
+    const card = document.getElementById('ig-story-card');
+    if (!card) return;
+    try {
+      const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2 });
+      const url = canvas.toDataURL("image/png");
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'K-Oracle_Compatibility_IG_Story.png';
+      a.click();
+    } catch(e) { console.error("Error generating image", e); }
+  };
   const handleAnalyze = () => {
     if (!dob) {
       alert("Please enter your birth date first!");
@@ -136,21 +148,21 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     };
 
     const talismans = [
-      { text: '액운퇴치', en: "Protection", type: "classic" },
-      { text: "평안무사", en: "Peace", type: "classic" },
-      { text: "인기절정", en: "Superstar", type: "kpop" },
+      { text: '?�운?�치', en: "Protection", type: "classic" },
+      { text: "?�안무사", en: "Peace", type: "classic" },
+      { text: "?�기?�정", en: "Superstar", type: "kpop" },
       { text: "매력발산", en: "Potential", type: "kpop" },
-      { text: "심쿵주의", en: "Heart Attack", type: "kpop" },
-      { text: "시선강탈", en: "Eye Catcher", type: "kpop" },
-      { text: "명예상승", en: "Honor", type: "classic" },
-      { text: "광클성공", en: "Fast Click", type: "kpop" },
-      { text: "덕질만렙", en: "Pro Fan", type: "kpop" },
-      { text: "일취월장", en: "Growth", type: "classic" },
-      { text: "재물폭발", en: "Money Rain", type: "classic" },
+      { text: "?�쿵주의", en: "Heart Attack", type: "kpop" },
+      { text: "?�선강탈", en: "Eye Catcher", type: "kpop" },
+      { text: "명예?�승", en: "Honor", type: "classic" },
+      { text: "광클?�공", en: "Fast Click", type: "kpop" },
+      { text: "?�질만렙", en: "Pro Fan", type: "kpop" },
+      { text: "?�취?�장", en: "Growth", type: "classic" },
+      { text: "?�물??��", en: "Money Rain", type: "classic" },
       { text: "매력만점", en: "Charisma", type: "kpop" },
-      { text: "전광석화", en: "Speed", type: "classic" },
-      { text: "스밍성공", en: "Stream", type: "kpop" },
-      { text: "본방사수", en: "Live Watch", type: "kpop" }
+      { text: "?�광?�화", en: "Speed", type: "classic" },
+      { text: "?�밍?�공", en: "Stream", type: "kpop" },
+      { text: "본방?�수", en: "Live Watch", type: "kpop" }
     ];
 
     setTimeout(() => {
@@ -196,8 +208,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     onChange={(e) => setGender(e.target.value)}
                     className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 appearance-none cursor-pointer"
                   >
-                    <option value="female">♀ Female (여성)</option>
-                    <option value="male">♂ Male (남성)</option>
+                    <option value="female">?� Female (?�성)</option>
+                    <option value="male">??Male (?�성)</option>
                   </select>
               </div>
             </div>
@@ -218,8 +230,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <input type="date" value={customDob} onChange={(e) => setCustomDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
                     <input type="time" value={customTime} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
                     <select value={customGender} onChange={(e) => setCustomGender(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 appearance-none cursor-pointer">
-                      <option value="female">♀ Female</option>
-                      <option value="male">♂ Male</option>
+                      <option value="female">?� Female</option>
+                      <option value="male">??Male</option>
                     </select>
                   </div>
                 </div>
@@ -241,7 +253,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       </div>
                       <div className="flex gap-2">
                         <input type="text" value={requestName} onChange={(e) => setRequestName(e.target.value)} placeholder="Type Idol and Group Name..." className="flex-1 bg-black border border-zinc-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-yellow-500" />
-                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to K-Oracle! 🚀'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400">Send</button>
+                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to K-Oracle! ??'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400">Send</button>
                       </div>
                     </div>
                   )}
@@ -339,7 +351,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30 mix-blend-overlay"></div>
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-50 animate-[shimmer_2s_infinite]' : ''}`}></div>
                       <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
-                        {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
+                        {userElement === 'Fire' ? '?? : userElement === 'Water' ? '�? : userElement === 'Wood' ? '?? : userElement === 'Metal' ? '?? : '??}
                       </div>
                       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-30 mix-blend-screen pointer-events-none flex items-center justify-center">
                         <svg viewBox="0 0 100 100" className="w-full h-full animate-[spin_60s_linear_infinite]">
@@ -357,16 +369,16 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       <div className="relative z-10 w-full flex flex-col items-center mb-6">
                         <div className={`mb-1 px-1.5 py-0.5 border border-white/30 rounded flex items-center gap-1 bg-black/40 backdrop-blur-sm text-[8px] font-bold text-white tracking-widest`}>
                           {result.talisman.type === 'classic' ? (
-                            <>📜 TRADITIONAL</>
+                            <>?�� TRADITIONAL</>
                           ) : (
-                            <>✨ FANDOM VIBE</>
+                            <>??FANDOM VIBE</>
                           )}
                         </div>
                         <div className={`${t.banner} text-white w-4/5 py-1.5 text-center font-black text-sm tracking-[0.2em] uppercase shadow-lg`}>
                           {result.talisman.en}
                         </div>
                         <div className={`mt-2 text-[9px] ${t.ink} opacity-70 font-mono tracking-widest font-bold`}>
-                          {isUltraRare ? '★ LEGENDARY ★' : 'K-ORACLE // ID:'} {Math.random().toString(36).substring(2, 8).toUpperCase()}
+                          {isUltraRare ? '??LEGENDARY ?? : 'K-ORACLE // ID:'} {Math.random().toString(36).substring(2, 8).toUpperCase()}
                         </div>
                       </div>
                     </div>
@@ -411,15 +423,15 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                 {showSharePreview && (
                   <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-in fade-in duration-300">
                     <div className="relative flex flex-col items-center max-w-sm w-full">
-                      <button onClick={() => setShowSharePreview(false)} className="absolute -top-12 right-0 text-white/50 hover:text-white text-xl font-bold">✕ Close</button>
+                      <button onClick={() => setShowSharePreview(false)} className="absolute -top-12 right-0 text-white/50 hover:text-white text-xl font-bold">??Close</button>
                       <p className="text-white/70 text-sm mb-4 font-bold tracking-widest uppercase">Instagram Story Preview</p>
                       
-                      <div className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
+                      <div id="ig-story-card" className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-black to-red-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
                           <div className="text-2xl font-black text-white bg-black/50 py-2 px-4 rounded-full inline-block border border-white/10 backdrop-blur-sm">
-                            {userName ? userName.toUpperCase() : 'ME'} ❤️ {selectedIdol.name}
+                            {userName ? userName.toUpperCase() : 'ME'} ?�️ {selectedIdol.name}
                           </div>
                         </div>
                         
@@ -428,7 +440,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                           <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden shadow-xl border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400' : ''}`}>
                             <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30 mix-blend-overlay"></div>
                             <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
-                              {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
+                              {userElement === 'Fire' ? '?? : userElement === 'Water' ? '�? : userElement === 'Wood' ? '?? : userElement === 'Metal' ? '?? : '??}
                             </div>
                             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-30 mix-blend-screen pointer-events-none flex items-center justify-center">
                               <svg viewBox="0 0 100 100" className="w-full h-full">
@@ -446,9 +458,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                             <div className="relative z-10 w-full flex flex-col items-center mb-6">
                               <div className={`mb-1 px-1.5 py-0.5 border border-white/30 rounded flex items-center gap-1 bg-black/40 backdrop-blur-sm text-[8px] font-bold text-white tracking-widest`}>
                                 {result.talisman.type === 'classic' ? (
-                                  <>📜 TRADITIONAL</>
+                                  <>?�� TRADITIONAL</>
                                 ) : (
-                                  <>✨ FANDOM VIBE</>
+                                  <>??FANDOM VIBE</>
                                 )}
                               </div>
                               <div className={`${t.banner} text-white w-4/5 py-1.5 text-center font-black text-sm tracking-[0.2em] uppercase shadow-lg`}>
@@ -468,7 +480,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
                       </div>
 
-                      <button className="mt-6 w-full py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors">
+                      <button onClick={handleDownloadImage} className="mt-6 w-full py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors">
                         <Download size={20} /> Save to Camera Roll
                       </button>
                     </div>
