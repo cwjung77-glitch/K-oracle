@@ -252,8 +252,17 @@ export default function DeepDiveReport({ lang = "en" }) {
                   if (plan === 'fullyear') seed += 2027;
                   else if (plan === 'bundle') seed += 4053; // Arbitrary modifier to make it distinct
                   else seed += 2026;
-                  const months = isKo ? ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['January','February','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']; 
-                  return months.map((m, i) => ({ m, s: (((seed >> i) % 70) + 30) })); 
+                  let months = [];
+                  if (plan === 'q4') {
+                    months = isKo ? ['10월','11월','12월'] : ['Oct','Nov','Dec'];
+                  } else if (plan === 'bundle') {
+                    const m26 = isKo ? ['26년 1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan 26','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                    const m27 = isKo ? ['27년 1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan 27','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                    months = [...m26, ...m27];
+                  } else {
+                    months = isKo ? ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+                  }
+                  return months.map((m, i) => ({ m, s: (((seed + i * 17) % 70) + 30) })); 
                 })()
               ].map((month) => {
                 let barColor = 'bg-zinc-500';

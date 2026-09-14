@@ -158,13 +158,23 @@ export async function POST(req) {
       const gX = 50, gY = 450, gW = doc.page.width - 100, gH = 180;
       doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
 
-      const months = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      let months = [];
+      if (plan === 'q4') {
+        months = isEs ? ['Oct','Nov','Dic'] : ['Oct','Nov','Dec'];
+      } else if (plan === 'bundle') {
+        const m26 = isEs ? ['Ene 26','Feb 26','Mar 26','Abr 26','May 26','Jun 26','Jul 26','Ago 26','Sep 26','Oct 26','Nov 26','Dic 26'] : ['Jan 26','Feb 26','Mar 26','Apr 26','May 26','Jun 26','Jul 26','Aug 26','Sep 26','Oct 26','Nov 26','Dec 26'];
+        const m27 = isEs ? ['Ene 27','Feb 27','Mar 27','Abr 27','May 27','Jun 27','Jul 27','Ago 27','Sep 27','Oct 27','Nov 27','Dic 27'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
+        months = [...m26, ...m27];
+      } else {
+        months = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      }
+
       let yearSeed = seed;
       if (plan === 'fullyear') yearSeed += 2027;
       else if (plan === 'bundle') yearSeed += 4053;
       else yearSeed += 2026;
       
-      const scores = []; for (let i=0; i<12; i++) scores.push( (((yearSeed >> i) % 70) + 30) );
+      const scores = []; for (let i=0; i<months.length; i++) scores.push( (((yearSeed + i * 17) % 70) + 30) );
 
       [0, 25, 50, 75, 100].forEach(level => {
         const y = gY - (level / 100) * gH;
@@ -172,9 +182,11 @@ export async function POST(req) {
         doc.font(fontSans).fillColor('#666').fontSize(8).text(`${level}%`, gX - 35, y - 4, { align: 'right', width: 30 });
       });
 
-      const stepX = gW / 11;
+      const numPoints = months.length;
+      const stepX = gW / Math.max(1, (numPoints - 1));
+      
       doc.moveTo(gX, gY - (scores[0] / 100) * gH);
-      for (let i = 1; i < 12; i++) {
+      for (let i = 1; i < numPoints; i++) {
         const prevX = gX + (i - 1) * stepX;
         const prevY = gY - (scores[i - 1] / 100) * gH;
         const currX = gX + i * stepX;
@@ -183,14 +195,20 @@ export async function POST(req) {
       }
       doc.lineWidth(3).strokeColor(primaryColor).stroke();
 
-      for (let i = 0; i < 12; i++) {
+      for (let i = 0; i < numPoints; i++) {
         const x = gX + i * stepX;
         const y = gY - (scores[i] / 100) * gH;
         doc.circle(x, y, 4).fillAndStroke('#111', primaryColor);
-        doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
+        if (plan === 'bundle') {
+          if (i % 2 === 0) {
+            doc.font(fontSansBold).fillColor(textColor).fontSize(7).text(months[i].replace(' ', '\n'), x - 15, gY + 10, { align: 'center', width: 30 });
+          }
+        } else {
+          doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
+        }
       }
       
-      const peakMonth = months[scores.indexOf(Math.max(...scores))];
+      const peakMonth = months[scores.indexOf(Math.max(...scores))].replace('\n', ' ');
       doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? `${peakMonth} marca tu temporada cumbre. Preparate.` : `${peakMonth} marks your absolute peak season. Prepare for a major cosmic event.`, { align: 'center', width: doc.page.width - 100 });
       }
 
