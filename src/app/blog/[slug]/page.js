@@ -102,7 +102,7 @@ export default function BlogPost({ params }) {
             </h1>
             <div className="flex items-center gap-4 text-zinc-400 font-bold">
               <span>{data.author}</span>
-              <span>•</span>
+              <span>&bull;</span>
               <span>{data.date}</span>
             </div>
           </header>
