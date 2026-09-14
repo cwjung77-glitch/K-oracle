@@ -35,6 +35,19 @@ export async function POST(req) {
     const idolName = bodyIdolName || body.idolName || "Your Partner";
     const isCompatibility = plan === 'compatibility';
     
+    // Generate deterministic past life archetypes based on DOB to ensure consistency across plans
+    const karmicArchetypes = ["a Royal Scholar", "a Wandering Merchant", "a Fierce Warrior", "a Palace Healer", "an Exiled Noble", "a Temple Monk", "a Mystic Shaman", "a Wealthy Landlord", "a Rebel Leader", "a Master Artisan"];
+    let kHash = 0;
+    const kDob = bodyDob || '1990-01-01';
+    for (let i=0; i<kDob.length; i++) kHash = kDob.charCodeAt(i) + ((kHash << 5) - kHash);
+    const personalArchetype = karmicArchetypes[Math.abs(kHash) % karmicArchetypes.length];
+
+    const relArchetypes = ["Tragic Star-Crossed Lovers", "Rival Warlords", "Master and Loyal Apprentice", "Secret Royal Siblings", "Betrayed Comrades", "Reincarnated Soulmates"];
+    let rHash = kHash;
+    const rDob = body.idolDob || '1995-01-01';
+    for (let i=0; i<rDob.length; i++) rHash = rDob.charCodeAt(i) + ((rHash << 5) - rHash);
+    const relationshipArchetype = relArchetypes[Math.abs(rHash) % relArchetypes.length];
+    
     let prompt = "";
     if (isCompatibility) {
       prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and direct.
@@ -57,6 +70,7 @@ Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---KARMA---
 Generate "Past Life Connection" (800 words).
+CRITICAL RULE: Their fixed past life relationship archetype is: "${relationshipArchetype}". You MUST weave this exact identity into the story. Do NOT invent a different relationship.
 Were they lovers, enemies, or comrades in a past life?
 Use exact string "[CATEGORY: Category Name]" for headings.
 
@@ -87,7 +101,7 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 
 ---KARMA---
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
-1. Analyze their past life incarnation based on the birth date.
+1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the Joseon Dynasty". You MUST use this exact identity. Do not invent a different past life occupation.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
