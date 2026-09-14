@@ -212,7 +212,7 @@ export default function OracleLanding() {
                   <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-500/30 transition-colors">
                     <h3 className="text-xl font-bold text-zinc-300">2026 Q4 Finale</h3>
                     <p className="text-zinc-500 text-sm mt-2 mb-6">Navigate the remaining 3 months.</p>
-                    <div className="text-3xl font-black mb-6">$2.99</div>
+                    <div className="text-3xl font-black mb-6">$4.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Oct - Dec Forecast</li>
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Basic 5 Elements</li>
@@ -225,7 +225,7 @@ export default function OracleLanding() {
                     <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
                     <h3 className="text-2xl font-bold text-yellow-500">26+27 Bundle</h3>
                     <p className="text-zinc-400 text-sm mt-2 mb-6">The ultimate 15-month masterplan.</p>
-                    <div className="text-4xl font-black mb-6 text-white">$5.99</div>
+                    <div className="text-4xl font-black mb-6 text-white">$11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-300 flex-grow">
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> 15-Month Spline Flow Chart</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Full 10-Page VIP PDF</li>
@@ -239,7 +239,7 @@ export default function OracleLanding() {
                   <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-500/30 transition-colors">
                     <h3 className="text-xl font-bold text-zinc-300">2027 Full Year</h3>
                     <p className="text-zinc-500 text-sm mt-2 mb-6">Prepare for the new year early.</p>
-                    <div className="text-3xl font-black mb-6">$4.99</div>
+                    <div className="text-3xl font-black mb-6">$9.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> 12-Month 2027 Flow</li>
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Radar Chart</li>

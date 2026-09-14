@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 "use client";
 
@@ -21,16 +21,16 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
   } else {
     if (selectedPlan === 'q4') {
       productName = "2026 Q4 Finale Report";
-      price = "$2.99";
+      price = "$4.99";
     } else if (selectedPlan === 'compatibility') {
       productName = "Deep Chemistry & Compatibility Report";
-      price = "$2.99";
+      price = "$4.99";
     } else if (selectedPlan === 'fullyear') {
       productName = "2027 Full Year Report";
-      price = "$4.99";
+      price = "$9.99";
     } else {
       productName = "26+27 Bundle Report";
-      price = "$5.99";
+      price = "$11.99";
     }
   }
 
