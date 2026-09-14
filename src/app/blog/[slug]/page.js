@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
@@ -136,7 +137,7 @@ export default async function BlogPost({ params }) {
             prose-p:text-zinc-300 prose-p:leading-relaxed 
             prose-a:text-yellow-500 prose-a:no-underline hover:prose-a:underline
             prose-strong:text-white prose-strong:font-bold">
-            <ReactMarkdown>{content}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
           </div>
         </article>
 
