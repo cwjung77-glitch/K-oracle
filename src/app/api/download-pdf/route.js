@@ -5,7 +5,7 @@ import PDFDocument from 'pdfkit';
 export async function POST(req) {
   try {
     const { type, lang, data, plan } = await req.json();
-    const displayYear = plan === 'compatibility' ? 'Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
+    const displayYear = plan === 'compatibility' ? 'Chemistry' : plan === 'fullyear' ? '2027' : plan === 'bundle' ? '2026-2027' : '2026';
     const isCompatibility = plan === 'compatibility';
 
     const doc = new PDFDocument({ margin: 50, size: 'A4', autoFirstPage: false });
@@ -153,7 +153,7 @@ export async function POST(req) {
 
       // ---------------- PAGE 4: 12-MONTH FORTUNE FLOW (SPLINE GRAPH) ----------------
       addNewPage();
-      addHeader(isEs ? '3. Flujo de Energía 2027' : `3. ${displayYear} Energy Flow`, isEs ? 'Biorritmo Cósmico de 12 Meses' : '12-Month Cosmic Biorhythm');
+      addHeader(isEs ? '3. Flujo de Energía 2026' : `3. ${displayYear} Energy Flow`, isEs ? 'Biorritmo Cósmico de 12 Meses' : '12-Month Cosmic Biorhythm');
 
       const gX = 50, gY = 450, gW = doc.page.width - 100, gH = 180;
       doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();

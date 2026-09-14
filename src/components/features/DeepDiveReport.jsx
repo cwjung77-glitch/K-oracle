@@ -11,7 +11,7 @@ export default function DeepDiveReport({ lang = "en" }) {
   const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");
   const plan = typeof window !== 'undefined' ? localStorage.getItem("purchasedPlan") || "bundle" : "bundle";
-  const displayYear = plan === 'compatibility' ? 'Cosmic Chemistry' : plan === 'fullyear' ? '2028' : plan === 'bundle' ? '2027-2028' : '2027';
+  const displayYear = plan === 'compatibility' ? 'Cosmic Chemistry' : plan === 'fullyear' ? '2027' : plan === 'bundle' ? '2026-2027' : '2026';
     const isCompatibility = plan === "compatibility";
 
   const fetchReport = async () => {

@@ -20,9 +20,9 @@ export async function POST(req) {
 
     const todayStr = new Date().toISOString().split('T')[0];
 
-    let targetYears = "2027";
-    if (plan === 'fullyear') targetYears = "2028";
-    else if (plan === 'bundle') targetYears = "2027 and 2028";
+    let targetYears = "2026";
+    if (plan === 'fullyear') targetYears = "2027";
+    else if (plan === 'bundle') targetYears = "2026 and 2027";
     
     const idolName = bodyIdolName || body.idolName || "Your Partner";
     const isCompatibility = plan === 'compatibility';
