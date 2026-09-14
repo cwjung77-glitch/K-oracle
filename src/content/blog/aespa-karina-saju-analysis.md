@@ -72,3 +72,5 @@ Karina entered a favorable movement in her luck cycles during her early twenties
 * **Unearthly Visuals & Precision**: Driven by the dominant Geng Metal element, giving her razor-sharp aesthetic appeal and disciplined performance standards.
 * **Grounded Leadership**: Driven by Ji Earth, making her a deeply caring, reliable, and humble anchor for her team.
 * **Enduring Stardom**: The presence of the Dragon branches gives her chart rare grandeur and resilience, guaranteeing long-lasting magnetic charm on the world stage.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

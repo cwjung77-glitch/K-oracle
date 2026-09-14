@@ -101,3 +101,5 @@ To keep her Ding Fire burning brightly while refining her heavy Autumn Metal, **
 * **Inner Strength**: Soft moonlight on the outside, unbreakable steel on the inside.
 * **Destiny Alignment**: Born in Autumn with a chart overflowing with Autumn Metal energy, perfectly living up to her name *Gaeul*.
 * **Artistic Mastery**: Fueled by the transformative power of Fire refining Metal, ensuring her continued growth as an iconic performer.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -79,3 +79,5 @@ Saju readers often look for specific elemental patterns to explain why certain i
 | **Fire (Fame)** | Authority & Public Light| Natural charisma, global spotlight, stage presence |
 
 Sakura’s journey is a living masterclass in the Yin Metal archetype: through every challenge, trial, and total reset, she does not break—she simply polishes herself until she sparkles brighter than before.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

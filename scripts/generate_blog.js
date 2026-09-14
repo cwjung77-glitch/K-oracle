@@ -48,37 +48,52 @@ author: "K-Oracle"
 tags: ["Tag1", "Tag2", "Tag3"]
 ---
 
-Body of the markdown goes here. Use ## for headings, bullet points, and bold text. Do NOT add any concluding calls to action (CTAs) encouraging users to visit the app, analyze their Saju, or "click here", because the website UI template already automatically renders a beautiful CTA box at the bottom of every post.`;
+Body of the markdown goes here. Use ## for headings, bullet points, and bold text. Do NOT add any concluding calls to action (CTAs) encouraging users to visit the app, analyze their Saju, or "click here", because the website UI template already automatically renders a beautiful CTA box at the bottom of every post.
 
-  try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${apiKey}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [
-          { role: 'user', parts: [{ text: `${systemPrompt}\n\nTopic: ${promptTopic}` }] }
-        ]
-      })
-    });
+CRITICAL INSTRUCTION 2: You MUST append the following exact disclaimer as italic text at the very bottom of the article:
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*`;
 
-    const data = await res.json();
-    if (data.error) throw new Error(data.error.message);
+  // API Key Rotation Logic
+  const keys = apiKey.split(',').map(k => k.trim());
+  let success = false;
+  
+  for (let i = 0; i < keys.length; i++) {
+    const currentKey = keys[i];
+    console.log(`[🔑 Key ${i+1}/${keys.length}] 시도 중...`);
     
-    let text = data.candidates[0].content.parts[0].text;
-    
-    // Remove markdown codeblock wrappers if Gemini accidentally includes them
-    text = text.replace(/^\s*\`\`\`markdown\n/, '').replace(/\n\`\`\`\s*$/, '');
+    try {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          contents: [
+            { role: 'user', parts: [{ text: `${systemPrompt}\n\nTopic: ${promptTopic}` }] }
+          ]
+        })
+      });
 
-    // Extract slug from the YAML frontmatter
-    let slugMatch = text.match(/slug:\s*"([^"]+)"/);
-    let slug = slugMatch ? slugMatch[1] : 'blog-post-' + Date.now();
-    
-    const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
-    fs.writeFileSync(outPath, text);
-    
-    console.log(`✅ Successfully generated and saved to ${outPath}`);
-  } catch (err) {
-    console.error("Error generating post:", err);
+      const data = await res.json();
+      if (data.error) throw new Error(data.error.message);
+      
+      let text = data.candidates[0].content.parts[0].text;
+      text = text.replace(/^\s*\`\`\`markdown\n/, '').replace(/\n\`\`\`\s*$/, '');
+
+      let slugMatch = text.match(/slug:\s*"([^"]+)"/);
+      let slug = slugMatch ? slugMatch[1] : 'blog-post-' + Date.now();
+      
+      const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
+      fs.writeFileSync(outPath, text);
+      
+      console.log(`✅ Successfully generated and saved to ${outPath}`);
+      success = true;
+      break; // Stop looping if successful
+    } catch (err) {
+      console.error(`⚠️ Key ${i+1} 실패: ${err.message}`);
+      if (i === keys.length - 1) {
+        console.error("❌ 모든 API 키가 소진되었거나 에러가 발생했습니다.");
+        process.exit(1);
+      }
+    }
   }
 }
 

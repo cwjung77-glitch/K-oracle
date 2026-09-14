@@ -70,3 +70,5 @@ Her core identity is **Bing Fire (Sun)**, strongly supported by **Wood** (Resour
 
 ### What do the ancient pillars reveal about her solo career longevity?
 Her chart displays strong **Metal Wealth Stars** and resilient **Wood Resources**. This structural harmony indicates that her solo success is not a temporary trend, but a durable, long-term legacy that will evolve into creative production, fashion, and business ventures in her mature years.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

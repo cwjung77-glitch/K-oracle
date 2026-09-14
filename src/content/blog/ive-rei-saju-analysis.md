@@ -87,3 +87,5 @@ Rei's birth chart contains prominent **artistic stars (Sik-Sang)**, which drive 
 
 ### What lies ahead in Rei's cosmic energy path?
 With her foundational Earth energy supported by upcoming favorable elemental cycles, Rei is entering a prolonged period of artistic maturity and individual creative expansion, solidifying her status as a multifaceted artist in fashion, music, and performance.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

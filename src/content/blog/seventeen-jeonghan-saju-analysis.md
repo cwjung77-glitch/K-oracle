@@ -75,3 +75,5 @@ His core element is **Yin Water (Gye)**, supported heavily by **Earth (Ox)** and
 
 ### How does Saju explain Jeonghan's nickname "Angel"?
 His "Angel" aura stems from the strong **Yin Wood** elements in his chart, which grant delicate visual aesthetics, vocal beauty, and an empathetic demeanor. Coupled with his Yin Water Day Master, he emits a soothing, tranquil energy to those around him.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -71,3 +71,5 @@ Her chart contains strong **Expression Stars** paired with the **Peach Blossom S
 
 ### What does Saju reveal about her future growth?
 Because her Day Master thrives on continuous learning and creative expansion, her chart suggests ongoing artistic evolution—including songwriting, visual arts, global brand ambassadorships, and cross-genre creative endeavors for many years to come.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

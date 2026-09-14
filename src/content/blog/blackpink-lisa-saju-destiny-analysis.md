@@ -69,3 +69,5 @@ Because her chart holds rich Earth and Fire vitality, **Metal (Expression)** and
 *   **Dominant Elements**: Earth, Fire, Wood, and Water.
 *   **Special Star Aura**: Dual Peach Blossom (Do-Hwa) for unmatched performer charisma.
 *   **Destiny Path**: Turning intense inner warmth into global influence, financial prosperity, and enduring stardom.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

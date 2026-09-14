@@ -86,3 +86,5 @@ The ancient system indicates a sustained, evolving artistic trajectory. As her l
 * **Solar Charisma**: Her Yang Fire nature ensures she thrives in the spotlight and inspires others.
 * **Creative Autonomy**: Her destiny favors self-written works, artistic independence, and genuine personal storytelling.
 * **International Resonance**: Cosmic travel markers confirm her alignment with global stardom and cross-cultural impact.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

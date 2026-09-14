@@ -80,3 +80,5 @@ Her chart indicates a preference for partners who offer mental stimulation, hone
 
 ### How does her cosmic chart interact with her bandmates?
 Giselle brings a balancing, stabilizing Earth and Metal energy to her group's collective aura. She serves as an anchor during chaotic moments while providing a clean, sleek contrast to the overall performance balance.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

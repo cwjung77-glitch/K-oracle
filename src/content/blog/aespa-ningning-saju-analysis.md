@@ -83,3 +83,5 @@ As a **Ji Earth (己土)** Day Master, Ningning provides a warm, adaptable, and 
 
 ### Why was Ningning destined for international success outside her home country?
 Her chart features a strong **Traveling Horse Star** aligned with **Water energy**. This specific combination in K-Oracle readings signifies major life triumphs abroad, seamless cross-cultural communication, and broad global recognition.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

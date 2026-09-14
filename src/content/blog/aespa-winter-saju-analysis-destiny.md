@@ -66,3 +66,5 @@ In Saju theory, Metal controls sound, speech, and the lungs. Strong, balanced Me
 
 ### How does her elemental chart affect her stage presence?
 Her chart combines **Yin Metal** with **Yang Fire**. Fire brings warmth, charisma, and visibility, while Metal brings cool precision. This duality creates her iconic "icy yet captivating" stage presence.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

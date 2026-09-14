@@ -61,3 +61,5 @@ Her chart blends intense **Yang Fire** (star power and visibility) with strong *
 
 ### What does the ancient system predict for her long-term career?
 The presence of a strong **Metal Wealth Star** combined with **Water Authority** indicates longevity. Her chart points toward a long-lasting career that extends far beyond music into acting, hosting, business endorsements, and production management well into her mature years.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

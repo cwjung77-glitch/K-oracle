@@ -96,3 +96,5 @@ In the ancient Five Elements system, the **Metal** element governs clear, resona
 
 ### What kind of leader is Minji according to her birth energy?
 Minji is a steady, protective leader who leads by example rather than force. Her *Jeong Fire* warmth combined with *Metal* structure allows her to keep her team organized, calm, and balanced under intense industry pressure.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

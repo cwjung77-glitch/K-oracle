@@ -80,3 +80,5 @@ Because her chart features strong Wood (Wealth) and active Water (Expression), e
 ## Summary of Leeseo's Cosmic Energy
 
 Leeseo's destiny chart reflects a rare blend of **unyielding inner fortitude (Geng Metal)** and **vibrant, creative vitality (Yin Wood Tiger)**. Guided by the ancient principles of K-Oracle, her chart reveals an artist built for endurance, constant growth, and high-impact stardom. As her luck cycles continue to mature, her ability to captivate global audiences will only grow sharper and more brilliant.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

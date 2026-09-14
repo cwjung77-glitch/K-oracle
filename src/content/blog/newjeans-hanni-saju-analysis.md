@@ -89,3 +89,5 @@ Her Year Pillar contains the **Monkey (Shen)** branch, associated with dynamic m
 ## Summary of Hanni's Cosmic Energy
 
 Hanni's Four Pillars of Destiny paint a vivid picture of a born artist: fluid like gentle water, expressive like flourishing springtime branches, and universally adored under the glow of the Peach Blossom Star. Her chart guarantees that as her internal energy deepens, her artistic influence across the global entertainment landscape will only continue to expand.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

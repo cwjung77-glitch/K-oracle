@@ -70,3 +70,5 @@ Her Day Master sits directly on **Yin Wood (寅木)**, the Earthly Branch of the
 
 ### What does Saju reveal about Haerin's future success?
 Haerin's birth chart possesses a smooth elemental flow from Water to Wood to Fire. This structural balance suggests long-lasting career longevity, sustained financial success, and expanding international influence throughout her youth and adult life.
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*
