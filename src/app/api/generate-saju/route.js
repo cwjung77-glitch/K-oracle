@@ -20,9 +20,17 @@ export async function POST(req) {
 
     const todayStr = new Date().toISOString().split('T')[0];
 
-    let targetYears = "2026";
-    if (plan === 'fullyear') targetYears = "2027";
-    else if (plan === 'bundle') targetYears = "2026 and 2027";
+    let targetYears = "the last 3 months of 2026 (October to December)";
+    let timeConstraint = "CRITICAL RULE: Do NOT analyze or mention any past months before October 2026. Focus purely on the present and the future.";
+    
+    if (plan === 'fullyear') {
+      targetYears = "the entire year of 2027 (January to December)";
+      timeConstraint = "CRITICAL RULE: Focus exclusively on the 12 months of 2027.";
+    }
+    else if (plan === 'bundle') {
+      targetYears = "Q4 2026 (Oct-Dec) and the entire year of 2027";
+      timeConstraint = "CRITICAL RULE: Do NOT analyze early or mid 2026. Focus your analysis entirely on the transition from late 2026 into the whole year of 2027.";
+    }
     
     const idolName = bodyIdolName || body.idolName || "Your Partner";
     const isCompatibility = plan === 'compatibility';
@@ -69,6 +77,7 @@ Client Details:
 WRITING STYLE: Use short, punchy sentences. Avoid long, boring academic text. Write like a high-end, fast-paced magazine column to maximize readability. Format with clear, short paragraphs and plenty of line breaks. Do not include markdown asterisks like **bold**. ABSOLUTELY NO GENERIC FLUFF. Every sentence must provide explosive value.
 
 YOUR TASK: You must generate 4 separate pieces of content. You MUST separate them using exactly these delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, and ---MATRIX---. Do not add any extra text before or after the delimiters.
+${timeConstraint}
 
 ---REPORT---
 Generate a highly personalized "${targetYears} K-Astrology (Saju) Masterplan" (800 words). Focus specifically on the year(s): ${targetYears}.
