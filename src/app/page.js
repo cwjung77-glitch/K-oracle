@@ -6,6 +6,7 @@ import CheckoutModal from '../components/features/CheckoutModal';
 import DeepDiveReport from '../components/features/DeepDiveReport';
 import BeautyDeepDiveReport from '../components/features/BeautyDeepDiveReport';
 import LoginModal from '../components/features/LoginModal';
+import Link from 'next/link';
 import { Sparkles, Moon, Palette, Zap, Lock } from 'lucide-react';
 
 export default function OracleLanding() {
@@ -79,7 +80,8 @@ export default function OracleLanding() {
           <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={handleLogoClick}>
             <span className="text-yellow-500">K</span>-ORACLE
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-6">
+            <Link href="/blog" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
             {/* Language Toggle */}
             <div className="flex items-center gap-1 bg-zinc-900 border border-zinc-800 rounded-full p-1">
               <button 
