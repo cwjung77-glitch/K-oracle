@@ -23,7 +23,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
       productName = "2027 Q4 Finale Report";
       price = "$2.99";
     } else if (selectedPlan === 'compatibility') {
-      productName = "AI Chemistry & Compatibility Report";
+      productName = "Deep Chemistry & Compatibility Report";
       price = "$2.99";
     } else if (selectedPlan === 'fullyear') {
       productName = "2028 Full Year Report";

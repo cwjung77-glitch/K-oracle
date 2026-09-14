@@ -6,7 +6,7 @@ import Link from 'next/link';
 // SEO Metadata for the main blog page
 export const metadata = {
   title: 'K-Oracle Blog - Saju, Destiny, & K-Culture Insights',
-  description: 'Explore the mysteries of Korean Saju, K-Pop idol compatibility, and deep fortune telling insights on the K-Oracle AI blog.',
+  description: 'Explore the mysteries of Korean Saju, K-Pop idol compatibility, and deep fortune telling insights on the K-Oracle blog.',
 };
 
 export default function BlogIndex() {

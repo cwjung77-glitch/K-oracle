@@ -111,7 +111,7 @@ export default function DeepDiveReport({ lang = "en" }) {
             </section>
           )}
 
-          {/* Core Analysis (Dynamic AI Fetch) */}
+          {/* Core Analysis (Dynamic Fetch) */}
         <section>
           <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-6">
             <Flame className="text-yellow-500" size={32} /> The Grand Narrative of {displayYear}

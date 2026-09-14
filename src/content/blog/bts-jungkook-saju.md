@@ -2,7 +2,7 @@
 title: "BTS Jungkook Saju Analysis: Why He's a Global Superstar"
 date: "2026-09-13"
 excerpt: "We analyzed BTS Jungkook's Saju (Four Pillars of Destiny) to understand the cosmic forces behind his immense talent, wealth, and global fame."
-author: "K-Oracle AI"
+author: "K-Oracle"
 tags: ["BTS", "Jungkook", "Saju", "K-Pop"]
 ---
 
@@ -20,4 +20,4 @@ Jungkook's Saju reveals a strong presence of **Fire and Metal**.
 
 His chart shows a unique formation where his creative output directly translates into massive wealth (Wealth Element). Interestingly, his romance element suggests he is deeply loyal but highly private about his personal life.
 
-Want to see if your Saju is compatible with Jungkook? Check out our **[AI Chemistry & Compatibility Report](/ "K-Oracle")** to find out!
+Want to see if your Saju is compatible with Jungkook? Check out our **[Deep Chemistry & Compatibility Report](/ "K-Oracle")** to find out!

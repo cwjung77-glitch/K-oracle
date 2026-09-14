@@ -53,7 +53,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
             if (json.isRateLimit) {
               setErrorMsg(lang === 'ko' ? "우주의 에너지가 폭주하고 있습니다! 1분 뒤에 아래 버튼을 눌러 다시 시도해주세요." : "The cosmos is overwhelmed! Please wait 1 minute and try again below.");
             } else {
-              setErrorMsg("AI Generation failed. Please try again later.");
+              setErrorMsg("Report generation failed. Please try again later.");
             }
           }
       } catch (err) {
@@ -123,7 +123,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
 
       <div className="p-10 space-y-12">
         
-        {/* Cheongdam Styling Masterplan (AI Text) */}
+        {/* Cheongdam Styling Masterplan (Text) */}
         <section className="bg-zinc-900/50 p-8 rounded-3xl border border-pink-500/30">
           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
             <Sparkles className="text-pink-400" size={28} />

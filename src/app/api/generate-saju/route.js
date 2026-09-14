@@ -91,7 +91,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
 {"wealth":{"opportunity":"1-2 sentences","danger":"1-2 sentences"},"romance":{"opportunity":"1-2 sentences","danger":"1-2 sentences"}}`;
     }
 
-    console.log("[AI Engine] Sending consolidated single prompt to Google Gemini...");
+    console.log("[K-Oracle Engine] Sending consolidated single prompt to Google Gemini...");
     
     // Using the latest and most stable gemini-3.8-flash for optimal speed and reliability
     if (!isCompatibility) { prompt += "\n"; }
@@ -111,7 +111,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
       
       if (response.status === 429 || response.status >= 500) {
         retries--;
-        console.warn(`[AI Engine] API Error ${response.status}. Retries left: ${retries}`);
+        console.warn(`[K-Oracle Engine] API Error ${response.status}. Retries left: ${retries}`);
         if (retries === 0) {
           if (response.status === 429) throw new Error("API_RATE_LIMIT");
           throw new Error(`Gemini API Error: ${await response.text()}`);
@@ -162,7 +162,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     });
 
   } catch (error) {
-    console.error('[AI Generation Error]', error);
+    console.error('[Report Generation Error]', error);
     const isRateLimit = error.message === "API_RATE_LIMIT" || (error.message && error.message.includes("429"));
     return NextResponse.json({ 
       success: false, 

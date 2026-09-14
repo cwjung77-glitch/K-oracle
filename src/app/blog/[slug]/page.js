@@ -115,7 +115,7 @@ export default async function BlogPost({ params }) {
 
         <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-yellow-500/30 rounded-3xl text-center">
           <h3 className="text-2xl font-black mb-4">Discover Your Own Cosmic Blueprint</h3>
-          <p className="text-zinc-400 mb-6">Let K-Oracle AI decode your destiny just like the stars of K-Pop.</p>
+          <p className="text-zinc-400 mb-6">Let K-Oracle decode your destiny just like the stars of K-Pop.</p>
           <Link href="/" className="inline-block px-8 py-4 bg-yellow-500 text-black font-black rounded-xl hover:bg-yellow-400 transition-colors shadow-[0_0_20px_rgba(234,179,8,0.3)]">
             Analyze My Saju
           </Link>

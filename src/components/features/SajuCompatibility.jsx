@@ -241,7 +241,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       </div>
                       <div className="flex gap-2">
                         <input type="text" value={requestName} onChange={(e) => setRequestName(e.target.value)} placeholder="Type Idol and Group Name..." className="flex-1 bg-black border border-zinc-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-yellow-500" />
-                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to Oracle AI! 🚀'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400">Send</button>
+                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to K-Oracle! 🚀'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400">Send</button>
                       </div>
                     </div>
                   )}
@@ -395,7 +395,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   </p>
 
                   <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-400 hover:to-amber-400 text-black font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_40px_rgba(245,158,11,0.5)] hover:scale-[1.02]">
-                    Unlock Deep AI Chemistry Report ($2.99)
+                    Unlock Deep Chemistry Report ($2.99)
                   </button>
                   <div className="flex gap-4">
                     <button onClick={() => { setStep(1); setSearchQuery(''); setIsDropdownOpen(false); }} className="flex-1 py-4 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold">

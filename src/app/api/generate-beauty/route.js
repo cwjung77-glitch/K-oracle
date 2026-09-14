@@ -13,7 +13,7 @@ export async function POST(req) {
       return NextResponse.json({ success: false, error: "API Key missing" }, { status: 500 });
     }
 
-    console.log(`[AI Engine] Generating Premium Beauty Report for tone: ${tone}, lang: ${lang} using 'Cheongdam Stylist' Persona...`);
+    console.log(`[K-Oracle Engine] Generating Premium Beauty Report for tone: ${tone}, lang: ${lang} using 'Cheongdam Stylist' Persona...`);
     
     const prompt = `You are an elite Cheongdam-dong celebrity stylist in Seoul. Your tone is chic, luxurious, and highly professional.
 Client Details:
@@ -81,7 +81,7 @@ WRITING STYLE: Use short, punchy sentences. Avoid long academic text. Write like
     });
 
   } catch (error) {
-    console.error('[AI Generation Error]', error);
+    console.error('[Report Generation Error]', error);
     return NextResponse.json({ success: false, error: 'Failed to generate beauty report.' }, { status: 500 });
   }
 }

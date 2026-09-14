@@ -32,12 +32,14 @@ Write a highly engaging, SEO-optimized blog post about the given topic.
 Return the result strictly in raw Markdown format with a YAML frontmatter block at the top.
 Do NOT use code block markers (like \`\`\`markdown) around your response.
 
+CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
+
 Required frontmatter format:
 ---
 title: "Catchy SEO Title"
 date: "YYYY-MM-DD"
 excerpt: "A short 2-3 sentence meta description."
-author: "K-Oracle AI"
+author: "K-Oracle"
 tags: ["Tag1", "Tag2", "Tag3"]
 ---
 

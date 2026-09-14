@@ -226,7 +226,7 @@ export async function POST(req) {
         doc.moveDown(2);
         doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edicion VIP)` : `${displayYear} Master Report (VIP Edition)`, { align: 'center' });
         
-        // ---------------- PAGE 2: AI STYLING REPORT ----------------
+        // ---------------- PAGE 2: PREMIUM STYLING REPORT ----------------
         addNewPage();
         addBeautyHeader(isKo ? '1. 스타일링 분석' : isEs ? '1. Analisis de Estilo' : '1. Styling Analysis', isEs ? 'El secreto de Cheongdam' : 'The Cheongdam Secret');
         renderBeautyParsedText(data.reportText || "Data is missing.");
