@@ -89,6 +89,7 @@ Use the exact string "[CATEGORY: Category Name]" to create headings.
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
 1. Analyze their past life incarnation based on the birth date.
 2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
+CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
 
 ---FORTUNE---
