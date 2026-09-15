@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Camera, Sparkles, CheckCircle2, ScanFace, Upload, Share2, Palette } from 'lucide-react';
+import html2canvas from 'html2canvas';
 
 export default function PersonalColor() {
   const [step, setStep] = useState(1);
@@ -442,8 +443,10 @@ export default function PersonalColor() {
                 <CheckCircle2 className="text-green-400" size={20} /> Your 5-Step Makeup Kit (YesStyle)
               </h4>
               <div className="space-y-3">
-                {result.products.map((p, i) => (
-                  <a key={i} href={`https://www.yesstyle.com/en/list.html?q=${encodeURIComponent(p.name)}&rco=KVIBE777`} target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-black/40 hover:bg-black/60 transition-colors border border-white/5 group relative overflow-hidden">
+                {result.products.map((p, i) => {
+                  const query = p.name.replace('&', 'and').split(' ').slice(0, 3).join(' ');
+                  return (
+                  <a key={i} href={`https://www.yesstyle.com/en/list.html?q=${encodeURIComponent(query)}&rco=KVIBE777`} target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-black/40 hover:bg-black/60 transition-colors border border-white/5 group relative overflow-hidden">
                     <div className={`w-14 h-14 rounded-xl shrink-0 bg-gradient-to-br ${result.theme} opacity-80 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
                       <span className={`${result.cardText} font-black opacity-50`}>0{i+1}</span>
                     </div>
@@ -458,7 +461,8 @@ export default function PersonalColor() {
                        <span className="text-xs bg-white text-black px-2 py-1 rounded-full font-bold">BUY</span>
                     </div>
                   </a>
-                ))}
+                  );
+                })}
               </div>
               <p className="text-center text-xs text-zinc-500 mt-4">Disclosure: We earn a small commission from these links at no extra cost to you.</p>
             </div>
