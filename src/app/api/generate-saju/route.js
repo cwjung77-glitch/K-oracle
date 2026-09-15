@@ -116,10 +116,11 @@ YOUR TASK: You must generate 4 separate pieces of content. You MUST separate the
 ${timeConstraint}
 
 ---REPORT---
-Generate a highly personalized "${targetYears} K-Astrology (Saju) Masterplan" (800 words). Focus specifically on the year(s): ${targetYears}.
-1. Analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on birth date.
-2. Break it down into: Career/Wealth, Relationships, and Secret Remedy.
-Use the exact string "[CATEGORY: Category Name]" to create headings.
+  Generate a highly personalized "${targetYears} K-Astrology (Saju) Masterplan" (1000 words). Focus specifically on the year(s): ${targetYears}.
+  1. Analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on birth date.
+  2. Break it down into: Career/Wealth, and Secret Remedy.
+  3. "Activating Your Peach Blossom (Dohwasal)": Provide a hyper-specific, micro-detailed guide on how to maximize their romantic attraction energy. Advise them on highly specific aesthetic choices (e.g., specific clothing fabrics, jewelry types, subtle scents, or hairstyles) that unblock their Saju energy and attract potential partners. Frame this NOT as generic dating advice, but strictly as "Shamanic Energy Activation" or "Feng Shui for the body" based on their gender and chart.
+  Use the exact string "[CATEGORY: Category Name]" to create headings.
 
 ---KARMA---
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
