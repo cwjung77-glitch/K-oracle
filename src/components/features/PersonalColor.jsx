@@ -135,21 +135,14 @@ export default function PersonalColor() {
       const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2, useCORS: true, allowTaint: true });
       canvas.toBlob(async (blob) => {
         if(!blob) { setIsDownloading(false); return; }
-        const file = new File([blob], 'K-Oracle_AuraCard.png', { type: 'image/png' });
-        let shared = false;
-        if (navigator.canShare && navigator.canShare({ files: [file] })) {
-          try { await navigator.share({ files: [file] }); shared = true; } catch (err) {}
-        }
-        if (!shared) {
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.style.display = 'none';
-          a.href = url;
-          a.download = 'K-Oracle_AuraCard.png';
-          document.body.appendChild(a);
-          a.click();
-          setTimeout(() => { try { document.body.removeChild(a); } catch(e){} }, 2000);
-        }
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = 'K-Oracle_AuraCard.png';
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => { try { document.body.removeChild(a); } catch(e){} }, 2000);
         setIsDownloading(false);
       }, 'image/png');
     } catch(e) { setIsDownloading(false); }
@@ -351,8 +344,8 @@ export default function PersonalColor() {
               </div>
 
               {/* Decorative Glow Elements */}
-              <div className="absolute top-[-20%] left-[-10%] w-64 h-64 bg-white/40 rounded-full blur-[80px]"></div>
-              <div className="absolute bottom-[-20%] right-[-10%] w-64 h-64 bg-black/20 rounded-full blur-[80px]"></div>
+              <div data-html2canvas-ignore="true" className="absolute top-[-20%] left-[-10%] w-64 h-64 bg-white/10 rounded-full blur-[80px]"></div>
+              <div data-html2canvas-ignore="true" className="absolute bottom-[-20%] right-[-10%] w-64 h-64 bg-black/20 rounded-full blur-[80px]"></div>
               
               {/* Premium SVG Noise Texture */}
               <div data-html2canvas-ignore="true" className="absolute inset-0 opacity-[0.04] mix-blend-overlay" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}></div>
@@ -444,9 +437,26 @@ export default function PersonalColor() {
               </h4>
               <div className="space-y-3">
                 {result.products.map((p, i) => {
-                  const query = p.name.replace('&', 'and').split(' ').slice(0, 3).join(' ');
+                  let q = p.name.toLowerCase();
+                  let brand = p.name.split(' ')[0];
+                  if (q.includes('rom&nd') || q.includes('romand')) brand = 'romand';
+                  else if (q.includes('peripera')) brand = 'peripera';
+                  else if (q.includes('3ce')) brand = '3ce';
+                  else if (q.includes('etude')) brand = 'etude';
+                  else if (q.includes('too cool for school')) brand = 'too cool for school';
+                  else if (q.includes('dasique')) brand = 'dasique';
+                  else if (q.includes('clio')) brand = 'clio';
+                  else if (q.includes('amuse')) brand = 'amuse';
+                  else if (q.includes('laka')) brand = 'laka';
+                  else if (q.includes('hince')) brand = 'hince';
+                  else if (q.includes('wakemake')) brand = 'wakemake';
+                  else if (q.includes('laneige')) brand = 'laneige';
+                  else if (q.includes('innisfree')) brand = 'innisfree';
+                  else if (q.includes('missha')) brand = 'missha';
+                  else if (q.includes('beauty of joseon')) brand = 'beauty of joseon';
+
                   return (
-                  <a key={i} href={`https://www.yesstyle.com/en/list.html?q=${encodeURIComponent(query)}&rco=KVIBE777`} target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-black/40 hover:bg-black/60 transition-colors border border-white/5 group relative overflow-hidden">
+                  <a key={i} href={`https://www.yesstyle.com/en/list.html?q=${encodeURIComponent(brand)}&rco=KVIBE777`} target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-black/40 hover:bg-black/60 transition-colors border border-white/5 group relative overflow-hidden">
                     <div className={`w-14 h-14 rounded-xl shrink-0 bg-gradient-to-br ${result.theme} opacity-80 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
                       <span className={`${result.cardText} font-black opacity-50`}>0{i+1}</span>
                     </div>
