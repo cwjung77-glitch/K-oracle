@@ -396,8 +396,8 @@ export default function PersonalColor() {
               </div>
             </div>
             
-            <button onClick={handleShareInstagram} className="w-full mb-8 py-3.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-lg">
-              <Share2 size={18} /> SHARE AURA CARD TO INSTAGRAM
+            <button onClick={handleShareInstagram} disabled={isDownloading} className="w-full mb-8 py-3.5 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-lg disabled:opacity-50">
+              {isDownloading ? "GENERATING..." : <><Share2 size={18} /> SHARE AURA CARD TO INSTAGRAM</>}
             </button>
             
             {/* Palette Breakdown */}

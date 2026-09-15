@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { idolsDB } from '../../data/idols';
 
 
@@ -489,12 +489,12 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
 
                         <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg">
-                          <Search size={16} /> Discover Yours at k-oracle-omega.vercel.app
+                          <Search size={16} /> k-oracle-omega.vercel.app
                         </div>
                       </div>
 
-                      <button onClick={handleDownloadImage} className="mt-6 w-full py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors">
-                        <Download size={20} /> Save to Camera Roll
+                      <button onClick={handleDownloadImage} disabled={isDownloading} className="mt-6 w-full py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors disabled:opacity-50">
+                        {isDownloading ? "Generating..." : <><Download size={20} /> Save to Camera Roll</>}
                       </button>
                     </div>
                   </div>
