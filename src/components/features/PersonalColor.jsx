@@ -439,11 +439,11 @@ export default function PersonalColor() {
             {/* Product Recommendations */}
             <div className="border-t border-zinc-800 pt-8">
               <h4 className="text-xl font-bold mb-4 flex items-center gap-2 text-white">
-                <CheckCircle2 className="text-green-400" size={20} /> Your 5-Step Makeup Kit (Olive Young)
+                <CheckCircle2 className="text-green-400" size={20} /> Your 5-Step Makeup Kit (YesStyle)
               </h4>
               <div className="space-y-3">
                 {result.products.map((p, i) => (
-                  <a key={i} href="https://global.oliveyoung.com/" target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-black/40 hover:bg-black/60 transition-colors border border-white/5 group relative overflow-hidden">
+                  <a key={i} href={`https://www.yesstyle.com/en/list.html?q=${encodeURIComponent(p.name)}&rco=KVIBE777`} target="_blank" rel="noreferrer" className="flex items-center gap-4 p-4 rounded-xl bg-black/40 hover:bg-black/60 transition-colors border border-white/5 group relative overflow-hidden">
                     <div className={`w-14 h-14 rounded-xl shrink-0 bg-gradient-to-br ${result.theme} opacity-80 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
                       <span className={`${result.cardText} font-black opacity-50`}>0{i+1}</span>
                     </div>
