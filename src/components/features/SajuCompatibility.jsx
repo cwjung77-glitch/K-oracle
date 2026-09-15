@@ -348,7 +348,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   {/* Holographic Cyber-Bujeok Card */}
                   <div className="inline-block relative mb-10 group" style={{ perspective: '1000px' }}>
                     <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden ${t.shadow} transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400 animate-pulse' : ''}`}>
-                      <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30 mix-blend-overlay"></div>
+                      <div className="absolute inset-0 bg-[url('/rice-paper.png')] opacity-30 mix-blend-overlay"></div>
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-50 animate-[shimmer_2s_infinite]' : ''}`}></div>
                       <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
                         {userElement === 'Fire' ? '?? : userElement === 'Water' ? '�? : userElement === 'Wood' ? '?? : userElement === 'Metal' ? '?? : '??}
@@ -438,7 +438,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div className="relative z-10 scale-[0.8] -my-10">
                           {/* EXACT MATCH BUJEOK (Shared logic) */}
                           <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden shadow-xl border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400' : ''}`}>
-                            <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/rice-paper-2.png')] opacity-30 mix-blend-overlay"></div>
+                            <div className="absolute inset-0 bg-[url('/rice-paper.png')] opacity-30 mix-blend-overlay"></div>
                             <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
                               {userElement === 'Fire' ? '?? : userElement === 'Water' ? '�? : userElement === 'Wood' ? '?? : userElement === 'Metal' ? '?? : '??}
                             </div>
