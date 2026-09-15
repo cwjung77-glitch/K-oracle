@@ -56,14 +56,8 @@ The combination of *Ding Fire* resting directly on *You Metal* forms one of the 
 
 ## Elemental Balance: Why His Stage Presence Is So Explosive
 
-```
-+-------------------------------------------------------+
-|                 CHOI SAN'S ELEMENTAL FLOW             |
-|                                                       |
-|   Wood (Rabbit)  --->  Fire (Ding)  --->  Metal (Rooster) |
-|   [Roots/Source]     [Core Passion]      [Refinement/Art] |
-+-------------------------------------------------------+
-```
+**CHOI SAN'S ELEMENTAL FLOW:**
+* **Wood (Rabbit)** [Roots/Source] → **Fire (Ding)** [Core Passion] → **Metal (Rooster)** [Refinement/Art]
 
 The contrast between San's warm, cozy demeanor offstage and his terrifyingly intense presence onstage comes down to his elemental balance:
 

@@ -21,17 +21,10 @@ Born on April 6, 1997, Mingyu’s birth chart is rooted in an extraordinary bala
 * **Month Pillar:** Jia Chen (Wood Dragon - 甲辰)
 * **Day Pillar:** Ji Mao (Earth Rabbit - 己卯)
 
-```
-+-------------------------------------------------------+
-|                 MINGYU'S SAJU CHART                   |
-+-------------------+-------------------+---------------+
-|   YEAR PILLAR     |   MONTH PILLAR    |   DAY PILLAR  |
-|   Ding Chou       |   Jia Chen        |   Ji Mao      |
-|  (Yin Fire / Ox)  | (Yang Wood/Dragon)|(Yin Earth/Rbt)|
-+-------------------+-------------------+---------------+
-|  Resource & Earth | Power & Earth     | Self & Power  |
-+-------------------+-------------------+---------------+
-```
+| YEAR PILLAR | MONTH PILLAR | DAY PILLAR |
+|---|---|---|
+| Ding Chou (Yin Fire / Ox) | Jia Chen (Yang Wood/Dragon) | Ji Mao (Yin Earth/Rbt) |
+| Resource & Earth | Power & Earth | Self & Power |
 
 ---
 
@@ -62,13 +55,8 @@ Mingyu’s Day Branch contains the **Mao Rabbit (卯木)**, a pure elemental woo
 
 An ancient reading balances the inter-generating forces of nature within the chart:
 
-```
-      [ FIRE ] (Ding)
-     /        \
-    v          v
-[ WOOD ] ---> [ EARTH ] (Ji)
-(Jia/Mao)     (Chou/Chen)
-```
+* **[ FIRE ] (Ding)** ➔ **[ WOOD ] (Jia/Mao)** & **[ EARTH ] (Ji) (Chou/Chen)**
+* **[ WOOD ] (Jia/Mao)** ➔ **[ EARTH ] (Ji) (Chou/Chen)**
 
 ### 1. The Power of Wood (Jia & Mao) – Leadership and Standard
 The **Wood** element represents the "Officer" star in Saju—symbolizing discipline, structure, responsibility, and commanding presence. With both Jia Wood (tall timber) and Mao Wood in his chart, Mingyu possesses an inherent sense of duty and high standards. This energy gives him his tall stature, stately aura, and unwavering professionalism.

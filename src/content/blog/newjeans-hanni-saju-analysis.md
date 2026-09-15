@@ -36,18 +36,9 @@ This Yin Water nature gives her a gentle yet profound emotional depth. It explai
 
 ## Key Pillars of Hanni's Destiny Chart
 
-```
-+-----------------------------------------------------------+
-|               HANNI'S SAJU CHART AT A GLANCE              |
-+---------------------+-----------------+-------------------+
-|  YEAR PILLAR        |  MONTH PILLAR   |  DAY PILLAR       |
-|  (Ancestral/Global) |  (Youth/Career) |  (Core Essence)   |
-+---------------------+-----------------+-------------------+
-|  Jia Shen           |  Jia Xu         |  Gui Wei          |
-|  (Yang Wood /       |  (Yang Wood /   |  (Yin Water /     |
-|   Monkey)           |   Dog)          |   Goat)           |
-+---------------------+-----------------+-------------------+
-```
+| YEAR PILLAR (Ancestral/Global) | MONTH PILLAR (Youth/Career) | DAY PILLAR (Core Essence) |
+| --- | --- | --- |
+| Jia Shen (Yang Wood / Monkey) | Jia Xu (Yang Wood / Dog) | Gui Wei (Yin Water / Goat) |
 
 ### 1. The Expression Star (Sik-sang): Pure Creative Flow
 Hanni's chart contains prominent **Wood elements** (Jia Wood) sitting above her foundation. In Eastern metaphysics, when a Water Day Master produces Wood, it activates the **Expression Star** (*Sik-sin* and *Sang-gwan*).

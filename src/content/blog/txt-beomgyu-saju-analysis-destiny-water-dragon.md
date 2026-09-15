@@ -60,18 +60,12 @@ The **Snake (Sa Fire)** in his Year pillar brings warmth to an otherwise cool Wa
 
 ## Personality Insights Revealed by Saju
 
-```
-+-----------------------------------------------------------+
-|                  BEOMGYU'S SAJU TRAITS                    |
-+---------------------------+-------------------------------+
-| Trait                     | Saju Origin                   |
-+---------------------------+-------------------------------+
-| Magnetic & Mysterious     | Im-Jin Water Dragon           |
-| Artistic & Playful        | Spring Wood (Rabbit Month)    |
-| Quick Learner & Meticulous| Sin Metal Resource Stars      |
-| Deeply Empathetic         | Ocean Water Element           |
-+---------------------------+-------------------------------+
-```
+| Trait | Saju Origin |
+| --- | --- |
+| Magnetic & Mysterious | Im-Jin Water Dragon |
+| Artistic & Playful | Spring Wood (Rabbit Month) |
+| Quick Learner & Meticulous | Sin Metal Resource Stars |
+| Deeply Empathetic | Ocean Water Element |
 
 * **The Energetic Moodmaker:** The active Wood energy makes him vibrant, full of life, and naturally uplifting to those around him.
 * **The Empathetic Anchor:** Beneath his energetic exterior lies deep Im Water emotional depth. He feels the emotions of his bandmates and fans acutely, acting as an empathetic pillar for his group.

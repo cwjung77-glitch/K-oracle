@@ -23,16 +23,12 @@ Saju measures the delicate harmony of the Five Elements—Wood, Fire, Earth, Met
 
 ## Elemental Breakdown: Momo's Birth Energy Profile
 
-```
-+-------------------------------------------------------+
-|                 MOMO'S ENERGETIC MAP                  |
-+-------------------+-----------------------------------+
-| Day Master (Self) | Yang Earth (The Mountain)          |
-| Primary Strengths | Discipline, Endurance, Warmth     |
-| Catalyst Elements | Fire (Passion) & Water (Wealth)   |
-| Core Pillar Focus | Mastery through physical practice |
-+-------------------+-----------------------------------+
-```
+| MOMO'S ENERGETIC MAP | |
+| :--- | :--- |
+| **Day Master (Self)** | Yang Earth (The Mountain) |
+| **Primary Strengths** | Discipline, Endurance, Warmth |
+| **Catalyst Elements** | Fire (Passion) & Water (Wealth) |
+| **Core Pillar Focus** | Mastery through physical practice |
 
 *   **Day Master (Core Self - Yang Earth):** Like a vast mountain, Yang Earth embodies stability, unwavering focus, patience, and immense physical strength. It gives Momo her calm composure off-stage and her disciplined work ethic.
 *   **Fire Element (Passion & Recognition):** Generates intense stage presence, warmth, and the ability to attract global adoration under bright lights.

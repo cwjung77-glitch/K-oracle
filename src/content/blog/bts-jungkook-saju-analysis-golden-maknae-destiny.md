@@ -28,17 +28,10 @@ To understand Jungkook's spiritual blueprint, we look at his birth details: **Se
 * **Month Pillar:** Wu Shen (戊申) — Earth Monkey
 * **Day Pillar:** Bing Wu (丙午) — Fire Horse (Day Master)
 
-```
-+-------------------------------------------------------+
-|  Year Pillar   |   Month Pillar   |    Day Pillar     |
-+-------------------------------------------------------+
-|   Yin Fire     |    Yang Earth    |    Yang Fire      |
-|     (Ding)     |       (Wu)       |      (Bing)       |
-+-------------------------------------------------------+
-|     Ox         |     Monkey       |      Horse        |
-|    (Chou)      |     (Shen)       |      (Wu)         |
-+-------------------------------------------------------+
-```
+| Year Pillar | Month Pillar | Day Pillar |
+| --- | --- | --- |
+| Yin Fire (Ding) | Yang Earth (Wu) | Yang Fire (Bing) |
+| Ox (Chou) | Monkey (Shen) | Horse (Wu) |
 
 ### 1. The Day Master: Bing Wu (Yang Fire on Horse)
 Jungkook’s core essence—his **Day Master**—is **Bing Fire (丙火)**. Bing Fire represents the Sun: powerful, brilliant, warm, and impossible to hide. 

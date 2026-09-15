@@ -30,14 +30,10 @@ Saju calculates the exact cosmic energies present at the moment of a person's bi
 
 Born on **August 18, 1988**, G-Dragon’s chart displays a dynamic interplay of elements that explains his artistic talent and intense public presence.
 
-```
-       Year Pillar     Month Pillar     Day Pillar
-     +--------------+----------------+--------------+
-     |   Wu Jin     |   Gyeong Shin  |   Eul Sa     |
-     | Earth Dragon |  Metal Monkey  |  Yin Wood    |
-     |              |                |    Snake     |
-     +--------------+----------------+--------------+
-```
+| Year Pillar | Month Pillar | Day Pillar |
+| --- | --- | --- |
+| Wu Jin | Gyeong Shin | Eul Sa |
+| Earth Dragon | Metal Monkey | Yin Wood Snake |
 
 ### 1. The Day Master: Yin Wood (Eul Mok 乙木)
 The Day Master represents the core essence of the individual. G-Dragon is born under **Eul Mok**, symbolized by a flower, ivy, or flexible vine.

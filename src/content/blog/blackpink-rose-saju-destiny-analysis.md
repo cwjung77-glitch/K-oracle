@@ -33,16 +33,9 @@ Unlike small candle flames, Bing Fire radiates effortlessly outward. People born
 
 A balanced destiny chart relies on how the Five Elements—Wood, Fire, Earth, Metal, and Water—interact. Rosé’s chart displays an extraordinary dialogue between these energies.
 
-```
-       [Fire Element]  <--- Fueled by Wood (Resource)
-             |
-       (Rosé's Core)
-             |
-    +--------+--------+
-    |                 |
-[Earth Element]  [Water Element]
- (Expression)      (Global Fame)
-```
+* **Fire Element (Rosé's Core)** — Fueled by Wood (Resource)
+  * **Earth Element**: Expression
+  * **Water Element**: Global Fame
 
 ### 1. Earth: The Voice and Creative Output
 In Saju, the element that Fire creates is **Earth**. Earth represents her *Output Star* (the Eating God and Hurting Officer stars). This is the pillar of self-expression, performance, and vocal artistry.
