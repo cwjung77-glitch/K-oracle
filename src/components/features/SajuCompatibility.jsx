@@ -5,7 +5,7 @@ import { idolsDB } from '../../data/idols';
 
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import html2canvas from 'html2canvas';
-import { Sparkles, Heart, Star, ArrowRight, Search, Download } from 'lucide-react';
+import { Sparkles, Heart, Star, ArrowRight, Search, Download, Lock } from 'lucide-react';
 
 export default function SajuCompatibility({ onUnlockPremium }) {
   const [step, setStep] = useState(1);
@@ -424,6 +424,49 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <p className="text-zinc-300 leading-relaxed mb-8 bg-zinc-800/50 p-6 rounded-xl border border-zinc-700">
                     {result.description}
                   </p>
+
+                  <div className="w-full flex flex-col gap-3 mb-6">
+                    <p className="text-zinc-400 font-bold text-sm text-center mb-2">Deep Chemistry Analysis Includes:</p>
+                    
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-yellow-500/50 transition-colors">
+                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="flex flex-col gap-1 z-10">
+                        <div className="text-white font-bold flex items-center gap-2 text-sm">
+                          <Lock size={14} className="text-yellow-500" />
+                          The Vibe That Catches {selectedIdol.name}'s Eye
+                        </div>
+                        <div className="text-zinc-500 text-xs blur-[2px] select-none">
+                          Based on their chart, they are instinctively drawn to...
+                        </div>
+                      </div>
+                    </div>
+
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-yellow-500/50 transition-colors">
+                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="flex flex-col gap-1 z-10">
+                        <div className="text-white font-bold flex items-center gap-2 text-sm">
+                          <Lock size={14} className="text-yellow-500" />
+                          When Your Cosmic Energies Align
+                        </div>
+                        <div className="text-zinc-500 text-xs blur-[2px] select-none">
+                          The specific months where your romantic luck peaks...
+                        </div>
+                      </div>
+                    </div>
+
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-yellow-500/50 transition-colors">
+                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="flex flex-col gap-1 z-10">
+                        <div className="text-white font-bold flex items-center gap-2 text-sm">
+                          <Lock size={14} className="text-yellow-500" />
+                          How to Unlock Their Heart
+                        </div>
+                        <div className="text-zinc-500 text-xs blur-[2px] select-none">
+                          To make a lasting impression, you need to appeal to their...
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
                   <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-400 hover:to-amber-400 text-black font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_40px_rgba(245,158,11,0.5)] hover:scale-[1.02]">
                     Unlock Deep Chemistry Report ($4.99)

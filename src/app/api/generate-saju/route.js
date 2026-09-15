@@ -79,9 +79,12 @@ CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal i
 YOUR TASK: You must generate 4 separate pieces of content. You MUST separate them using exactly these delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, and ---MATRIX---. Do not add any extra text before or after the delimiters.
 
 ---REPORT---
-Generate a highly personalized "Deep Cosmic Chemistry" analysis (800 words).
-1. Analyze their elemental interaction.
-2. Break it down into: The Spark, The Conflict, The Secret Synergy.
+Generate a highly personalized "Deep Cosmic Chemistry" analysis (1000 words).
+1. Analyze their elemental interaction (The Spark, The Conflict, The Secret Synergy).
+2. "The Vibe That Catches Their Eye": Describe highly specific aesthetic details (e.g., clothes, fabrics, specific scents, hairstyles) that naturally resonate with the partner's Saju element.
+3. "When Your Cosmic Energies Align": Analyze specific months where the user's romantic luck naturally peaks and aligns with the partner's Saju flow.
+4. "How to Unlock Their Heart": Describe specific conversation styles, attitudes, and psychological approaches that appeal to the partner's Saju archetype.
+CRITICAL LEGAL RULE: NEVER promise or imply that the user will actually meet, contact, or be contacted by the idol in real life. Frame EVERYTHING strictly as "Astrological Archetype Chemistry" and "The psychological vibe that resonates with their chart". Do NOT use manipulative words like "How to make him text you" or "When your paths will physically cross".
 Use exact string "[CATEGORY: Category Name]" for headings.
 
 ---KARMA---
