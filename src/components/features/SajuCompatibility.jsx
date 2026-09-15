@@ -81,7 +81,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       const url = canvas.toDataURL("image/png");
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'k-vibe.compatibility_IG_Story.png';
+      a.download = 'k-oracle-omega.vercel.apppatibility_IG_Story.png';
       a.click();
     } catch(e) { console.error("Error generating image", e); }
   };
@@ -476,7 +476,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
 
                         <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg">
-                          <Search size={16} /> Discover Yours at k-vibe.com
+                          <Search size={16} /> Discover Yours at k-oracle-omega.vercel.app
                         </div>
                       </div>
 
