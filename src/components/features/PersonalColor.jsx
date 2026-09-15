@@ -33,11 +33,11 @@ export default function PersonalColor() {
         {name: "3CE Face Blush", shade: "#Peach Splash", price: "$18.00"}
       ],
       maleProducts: [
-        {name: "BeReady Blue Cushion", shade: "#02 Ryan (Warm Beige)", price: "$24.00"},
-        {name: "OBgE Natural Cover Foundation", shade: "#Beige", price: "$28.50"},
-        {name: "DASHU Mens Perfect Lip Balm", shade: "#Natural Red", price: "$12.00"},
+        {name: "LANEIGE Neo Cushion Matte", shade: "#02 Ryan (Warm Beige)", price: "$24.00"},
+        {name: "Etude Double Lasting Foundation", shade: "#Beige", price: "$28.50"},
+        {name: "Innisfree Dewy Tint Lip Balm", shade: "#Natural Red", price: "$12.00"},
         {name: "Rom&nd Han All Flat Brow", shade: "#Mild Woody", price: "$10.50"},
-        {name: "Round Lab Birch Juice", shade: "#Tone-up Sun Cream", price: "$21.00"}
+        {name: "Beauty of Joseon Relief Sun", shade: "#Tone-up Sun Cream", price: "$21.00"}
       ]
     },
     {
@@ -59,8 +59,8 @@ export default function PersonalColor() {
         {name: "Laka Fruity Glam Tint", shade: "#103 Humming", price: "$14.00"}
       ],
       maleProducts: [
-        {name: "BeReady Blue Cushion", shade: "#01 Stone (Cool Ivory)", price: "$24.00"},
-        {name: "OBgE Mood Earth Stick", shade: "#Cool Shading", price: "$19.00"},
+        {name: "LANEIGE Neo Cushion Matte", shade: "#01 Stone (Cool Ivory)", price: "$24.00"},
+        {name: "Etude Play 101 Stick", shade: "#Cool Shading", price: "$19.00"},
         {name: "Innisfree Dewy Tint Balm", shade: "#02 Melon Coral", price: "$14.00"},
         {name: "Laneige Homme BB Cream", shade: "#Light Tone", price: "$26.00"},
         {name: "Etude Bare Edge Brow", shade: "#Light Gray", price: "$9.50"}
@@ -85,10 +85,10 @@ export default function PersonalColor() {
         {name: "Too Cool For School", shade: "#Artclass By Rodin", price: "$16.00"}
       ],
       maleProducts: [
-        {name: "BeReady Blue Cushion", shade: "#03 Jeffrey (Deep Warm)", price: "$24.00"},
-        {name: "OBgE Perfect Ombre Shading", shade: "#Warm Contour", price: "$22.00"},
-        {name: "DASHU Double Appeal Lip", shade: "#Brick Red", price: "$12.50"},
-        {name: "HERA Homme CC Cream", shade: "#Natural", price: "$32.00"},
+        {name: "LANEIGE Neo Cushion Matte", shade: "#03 Jeffrey (Deep Warm)", price: "$24.00"},
+        {name: "Etude Contour Powder", shade: "#Warm Contour", price: "$22.00"},
+        {name: "Innisfree Dewy Tint Lip Balm", shade: "#Brick Red", price: "$12.50"},
+        {name: "Missha M Perfect Cover BB", shade: "#Natural", price: "$32.00"},
         {name: "Too Cool For School", shade: "#Artclass Shading", price: "$16.00"}
       ]
     },
@@ -111,10 +111,10 @@ export default function PersonalColor() {
         {name: "Dasique Water Blur Tint", shade: "#05 Berry Compote", price: "$14.50"}
       ],
       maleProducts: [
-        {name: "BeReady Blue Cushion", shade: "#04 Damien (Cool Deep)", price: "$24.00"},
-        {name: "OBgE Natural Cover", shade: "#Cool Ivory", price: "$28.50"},
-        {name: "DASHU Mens Color Lip Balm", shade: "#Plum Red", price: "$12.00"},
-        {name: "IOPE Men Anti-Aging BB", shade: "#Clear", price: "$35.00"},
+        {name: "LANEIGE Neo Cushion Matte", shade: "#04 Damien (Cool Deep)", price: "$24.00"},
+        {name: "Etude Double Lasting Foundation", shade: "#Cool Ivory", price: "$28.50"},
+        {name: "Innisfree Dewy Tint Lip Balm", shade: "#Plum Red", price: "$12.00"},
+        {name: "Missha M Perfect Cover BB", shade: "#Clear", price: "$35.00"},
         {name: "Wakemake Pen Liner", shade: "#02 Brown (Subtle)", price: "$14.00"}
       ]
     }
@@ -355,7 +355,7 @@ export default function PersonalColor() {
               <div className="absolute bottom-[-20%] right-[-10%] w-64 h-64 bg-black/20 rounded-full blur-[80px]"></div>
               
               {/* Premium SVG Noise Texture */}
-              <div className="absolute inset-0 opacity-[0.04] mix-blend-overlay" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}></div>
+              <div data-html2canvas-ignore="true" className="absolute inset-0 opacity-[0.04] mix-blend-overlay" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.85%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E")' }}></div>
               
               <div className="relative z-10">
                 {/* Official Branding Header for Social Sharing Context */}
