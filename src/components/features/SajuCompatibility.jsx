@@ -93,7 +93,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
-        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        setTimeout(() => { try { document.body.removeChild(a); } catch(e){} URL.revokeObjectURL(url); }, 10000);
       }, 'image/png');
     } catch(e) { console.error("Error generating image", e); }
   };
