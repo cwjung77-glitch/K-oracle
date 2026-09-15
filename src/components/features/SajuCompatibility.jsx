@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { idolsDB } from '../../data/idols';
 
 
@@ -75,27 +75,33 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   }, []);
 
   
+  const [isDownloading, setIsDownloading] = useState(false);
   const handleDownloadImage = async () => {
     const card = document.getElementById('ig-story-card');
     if (!card) return;
+    setIsDownloading(true);
     try {
-      const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2, useCORS: true });
+      const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2, useCORS: true, allowTaint: true });
       canvas.toBlob(async (blob) => {
-        if(!blob) return;
+        if(!blob) { setIsDownloading(false); return; }
         const file = new File([blob], 'K-Oracle_Compatibility_IG.png', { type: 'image/png' });
+        let shared = false;
         if (navigator.canShare && navigator.canShare({ files: [file] })) {
-          try { await navigator.share({ files: [file] }); return; } catch (err) {}
+          try { await navigator.share({ files: [file], title: 'My Cosmic Soulmate' }); shared = true; } catch (err) {}
         }
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url;
-        a.download = 'K-Oracle_Compatibility_IG.png';
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        setTimeout(() => { try { document.body.removeChild(a); } catch(e){} URL.revokeObjectURL(url); }, 10000);
+        if (!shared) {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.style.display = 'none';
+          a.href = url;
+          a.download = 'K-Oracle_Compatibility_IG.png';
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(() => { try { document.body.removeChild(a); } catch(e){} }, 2000);
+        }
+        setIsDownloading(false);
       }, 'image/png');
-    } catch(e) { console.error("Error generating image", e); }
+    } catch(e) { setIsDownloading(false); }
   };
 
   const handleAnalyze = () => {
