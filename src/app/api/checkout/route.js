@@ -17,23 +17,23 @@ export async function POST(req) {
 
     if (activeTab === 'beauty') {
       variantId = "2103674"; // $9.99
-      customName = "K-Beauty Deep Dive Report";
+      customName = "K-Beauty Premium";
     } else {
       if (productId === 'q4') {
-        variantId = "2103670"; // $4.99
+        variantId = "2103661"; // $4.99
         customName = "2026 Q4 Finale Report";
       }
       else if (productId === 'compatibility') {
-        variantId = "2103670"; // $4.99
-        customName = "Deep Chemistry & Compatibility Report";
+        variantId = "2127402"; // $4.99
+        customName = "Deep Chemistry & Compatibility";
       }
       else if (productId === 'fullyear') {
-        variantId = "2103674"; // $9.99
+        variantId = "2103670"; // $9.99
         customName = "2027 Full Year Report";
       }
       else {
-        variantId = "2103674"; // $9.99 (Nearest available to $11.99)
-        customName = "The Ultimate Bundle (2026 Q4 + 2027)";
+        variantId = "2103672"; // $11.99
+        customName = "26+27 Bundle Report";
       }
     }
 
