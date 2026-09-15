@@ -12,8 +12,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "K-Oracle | Ancient Saju & Cosmic Blueprint",
-  description: "Discover your destiny, deep chemistry, and beauty aura with K-Oracle's premium Saju analysis.",
+  title: {
+    default: "K-Oracle Saju | Ancient Korean Astrology & Cosmic Blueprint",
+    template: "%s | K-Oracle Saju"
+  },
+  description: "Discover your true destiny, K-Pop idol compatibility, and beauty aura with K-Oracle Saju. Premium Four Pillars of Destiny (Saju) analysis.",
+  keywords: ["k-oracle", "k-oracle saju", "saju oracle", "korean astrology", "kpop compatibility", "four pillars of destiny"],
   verification: {
     google: "NWFd1BBHryk6Y4wUhL95WOAa1s4CjMwolOT9ulW3KlQ",
   },

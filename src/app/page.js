@@ -118,8 +118,7 @@ export default function OracleLanding() {
         </h1>
         
         <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-16 font-light tracking-wide">
-          Ancient Korean astrology meets modern K-Beauty algorithms. 
-          Uncover the blueprint of your soul and the exact colors of your aesthetic.
+          <strong className="text-zinc-200 font-medium">K-Oracle Saju</strong>: Ancient Korean astrology (Four Pillars of Destiny) meets modern K-Pop compatibility algorithms. Uncover the blueprint of your soul and the exact colors of your aesthetic.
         </p>
 
         
