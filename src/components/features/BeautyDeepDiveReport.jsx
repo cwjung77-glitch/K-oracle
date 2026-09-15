@@ -221,22 +221,28 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
             <h3 className="text-2xl font-bold text-white">VIP Shopping Links</h3>
           </div>
           <div className="space-y-4">
-            <div className="bg-zinc-900/40 p-4 rounded-xl border border-zinc-800/50 flex items-center justify-between hover:bg-zinc-800/80 transition-colors cursor-pointer">
+            <div 
+              className="bg-zinc-900/40 p-4 rounded-xl border border-zinc-800/50 flex items-center justify-between hover:bg-zinc-800/80 transition-colors cursor-pointer"
+              onClick={() => window.open('https://www.yesstyle.com/en/list.html?q=korean+makeup&rco=KVIBE777', '_blank')}
+            >
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 bg-zinc-800 rounded-lg"></div>
+                <div className="w-10 h-10 bg-zinc-800 rounded-lg flex items-center justify-center text-xl">💄</div>
                 <div>
-                  <div className="text-white font-bold">Full 5-Step Makeup Kit (Olive Young)</div>
-                  <div className="text-zinc-500 text-sm">One-click add to cart for your exact tone.</div>
+                  <div className="text-white font-bold">{lang === 'es' ? 'Kit de Maquillaje K-Beauty (YesStyle)' : 'K-Beauty Makeup Kit (YesStyle)'}</div>
+                  <div className="text-zinc-500 text-sm">{lang === 'es' ? 'Compra con descuento VIP aplicado' : 'Shop with VIP discount applied'}</div>
                 </div>
               </div>
               <div className="px-4 py-2 bg-green-500/10 text-green-400 rounded-lg font-bold text-sm">Open Link</div>
             </div>
-            <div className="bg-zinc-900/40 p-4 rounded-xl border border-zinc-800/50 flex items-center justify-between hover:bg-zinc-800/80 transition-colors cursor-pointer">
+            <div 
+              className="bg-zinc-900/40 p-4 rounded-xl border border-zinc-800/50 flex items-center justify-between hover:bg-zinc-800/80 transition-colors cursor-pointer"
+              onClick={() => window.open('https://www.yesstyle.com/en/list.html?q=korean+skincare&rco=KVIBE777', '_blank')}
+            >
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 bg-zinc-800 rounded-lg"></div>
+                <div className="w-10 h-10 bg-zinc-800 rounded-lg flex items-center justify-center text-xl">✨</div>
                 <div>
-                  <div className="text-white font-bold">Recommended Color Lenses (Olens)</div>
-                  <div className="text-zinc-500 text-sm">High-contrast cool tone lenses.</div>
+                  <div className="text-white font-bold">{lang === 'es' ? 'Cuidado de Piel Coreano (YesStyle)' : 'Korean Skincare Essentials (YesStyle)'}</div>
+                  <div className="text-zinc-500 text-sm">{lang === 'es' ? 'Compra con descuento VIP aplicado' : 'Shop with VIP discount applied'}</div>
                 </div>
               </div>
               <div className="px-4 py-2 bg-green-500/10 text-green-400 rounded-lg font-bold text-sm">Open Link</div>
