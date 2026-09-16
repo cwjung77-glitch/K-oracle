@@ -76,9 +76,9 @@ CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an 
 CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy').
 CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. NEVER suggest breaking the law, reckless financial investments, divorces, or physically dangerous acts. Keep your "tough love" strictly constrained to psychological insights, symbolic aesthetic changes, and general career/relationship prudence. You must eliminate any legal liability.
 
-YOUR TASK: You must generate 4 separate pieces of content. You MUST separate them using exactly these delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, and ---MATRIX---. Do not add any extra text before or after the delimiters.
+YOUR TASK: You must generate 4 separate pieces of content wrapped in specific XML tags. Do NOT use markdown for the delimiters. Use exact XML tags: <REPORT> (your report here) </REPORT>, <KARMA> (your karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
 
----REPORT---
+<REPORT>
 Generate a highly personalized "Deep Cosmic Chemistry" analysis (1000 words).
 1. Analyze their elemental interaction (The Spark, The Conflict, The Secret Synergy).
 2. "The Vibe That Catches Their Eye": Describe highly specific aesthetic details (e.g., clothes, fabrics, specific scents, hairstyles) that naturally resonate with the partner's Saju element.
@@ -87,16 +87,16 @@ Generate a highly personalized "Deep Cosmic Chemistry" analysis (1000 words).
 CRITICAL LEGAL RULE: NEVER promise or imply that the user will actually meet, contact, or be contacted by the idol in real life. Frame EVERYTHING strictly as "Astrological Archetype Chemistry" and "The psychological vibe that resonates with their chart". Do NOT use manipulative words like "How to make him text you" or "When your paths will physically cross".
 Use exact string "[CATEGORY: Category Name]" for headings.
 
----KARMA---
+<KARMA>
 Generate "Past Life Connection" (800 words).
 CRITICAL RULE: The User's fixed past life incarnation is: "${personalArchetype} in the ${personalEra}". The Partner's fixed past life incarnation is: "${partnerArchetype} in the ${personalEra}". You MUST use these exact identities. Do not invent different roles.
 CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story or a cheesy romance novel. Present this as a serious, profound karmic deduction based on ancient Eastern astrology. Explain how their specific paths crossed in the ${personalEra} and what karmic dynamic they formed. Explain that their current real-world behavioral patterns (e.g., why they argue over certain things, why they feel an instant magnetic pull) are psychological echoes of this past life trauma or bond. Connect the past life directly to their present-day psychology.
 Use exact string "[CATEGORY: Category Name]" for headings.
 
----FORTUNE---
+<FORTUNE>
 Generate "Relationship Fortune for Today" (3 sentences).
 
----MATRIX---
+<MATRIX>
 {"wealth":{"opportunity":"1-2 sentences","danger":"1-2 sentences"},"romance":{"opportunity":"1-2 sentences","danger":"1-2 sentences"}}`;
     } else {
       prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and slightly direct ("Tough Love Grandmaster").
@@ -112,17 +112,17 @@ CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an 
 
 CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. NEVER suggest breaking the law, reckless financial investments, divorces, or physically dangerous acts. Keep your "tough love" strictly constrained to psychological insights, symbolic aesthetic changes, and general career/relationship prudence. You must eliminate any legal liability.
 
-YOUR TASK: You must generate 4 separate pieces of content. You MUST separate them using exactly these delimiters: ---REPORT---, ---KARMA---, ---FORTUNE---, and ---MATRIX---. Do not add any extra text before or after the delimiters.
+YOUR TASK: You must generate 4 separate pieces of content wrapped in specific XML tags. Do NOT use markdown for the delimiters. Use exact XML tags: <REPORT> (your report here) </REPORT>, <KARMA> (your karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
 ${timeConstraint}
 
----REPORT---
+<REPORT>
   Generate a highly personalized "${targetYears} K-Astrology (Saju) Masterplan" (1000 words). Focus specifically on the year(s): ${targetYears}.
   1. Analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on birth date.
   2. Break it down into: Career/Wealth, and Secret Remedy.
   3. "Activating Your Peach Blossom (Dohwasal)": Provide a hyper-specific, micro-detailed guide on how to maximize their romantic attraction energy. Advise them on highly specific aesthetic choices (e.g., specific clothing fabrics, jewelry types, subtle scents, or hairstyles) that unblock their Saju energy and attract potential partners. Frame this NOT as generic dating advice, but strictly as "Shamanic Energy Activation" or "Feng Shui for the body" based on their gender and chart.
   Use the exact string "[CATEGORY: Category Name]" to create headings.
 
----KARMA---
+<KARMA>
 Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
 1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the ${personalEra}". You MUST use this exact identity.
 CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story. Present this as a serious, profound karmic deduction. Explain that their current real-world behavioral patterns, irrational fears, or unexplainable talents are psychological echoes of this specific past life in the ancient Korean kingdom. Frame it as a deep psychological and mystical revelation, not a fantasy tale.
@@ -131,11 +131,11 @@ CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 
 CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
 Use the exact string "[CATEGORY: Category Name]" to create headings.
 
----FORTUNE---
+<FORTUNE>
 Generate "Today's Fortune" (Daily Horoscope) for today: ${todayStr}.
 Keep it under 3-4 sentences. Highly actionable, specific to their Saju today. No headings.
 
----MATRIX---
+<MATRIX>
 Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this format:
 {"wealth":{"opportunity":"1-2 sentences","danger":"1-2 sentences"},"romance":{"opportunity":"1-2 sentences","danger":"1-2 sentences"}}`;
     }
@@ -200,26 +200,10 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
 
     const fullText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
 
-    const getBoundaryRegex = (sectionStr) => {
-      return "(?:^|\\n)[\\s]*" +
-        "(?:" +
-          "--+[^\\n]*?" + sectionStr + "[^\\n]*?(?:--+)?" + "|" +
-          "##+[^\\n]*?" + sectionStr + "[^\\n]*?" + "|" +
-          "\\*\\*[^\\n]*?" + sectionStr + "[^\\n]*?\\*\\*" + "|" +
-          "\\[[^\\n]*?" + sectionStr + "[^\\n]*?\\]" + "|" +
-          sectionStr +
-        ")[\\s]*(?:\\n|$)";
-    };
-
     const extractSection = (text, sectionName) => {
-      const boundary = getBoundaryRegex(sectionName);
-      const nextBoundary = getBoundaryRegex("(?:REPORT|KARMA|FORTUNE|MATRIX)");
-      const regex = new RegExp(boundary + "([\\s\\S]*?)(?=" + nextBoundary + "|$)", 'i');
+      const regex = new RegExp(`<${sectionName}>([\\s\\S]*?)</${sectionName}>`, 'i');
       const match = text.match(regex);
-      if (match) {
-        return match[1].trim();
-      }
-      return null;
+      return match ? match[1].trim() : null;
     };
     
     let reportText = extractSection(fullText, 'REPORT');
@@ -270,5 +254,6 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     }, { status: isRateLimit ? 429 : 500 });
   }
 }
+
 
 
