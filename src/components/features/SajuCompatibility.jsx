@@ -545,7 +545,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                           </div>
                         </div>
                         
-                        <div className="relative z-10 scale-[0.8] -my-10">
+                        <div className="relative z-10 scale-[1.1] my-4">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
                           <div className={`w-56 h-[420px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                             <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
@@ -581,9 +581,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                             {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
                           </div>
                           
-                          <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg mt-6">
-                            <Search size={16} /> k-oracle-omega.vercel.app
-                          </div>
+                          <div className="relative z-10 w-fit mx-auto bg-zinc-900/90 border border-zinc-800 text-zinc-400 py-2 px-6 rounded-full flex items-center justify-center gap-2 font-bold shadow-lg mt-6 text-xs tracking-wider">
+  <Search size={14} className="text-zinc-500" /> k-oracle-omega.vercel.app
+</div>
                         </div>
 
                     </div>
