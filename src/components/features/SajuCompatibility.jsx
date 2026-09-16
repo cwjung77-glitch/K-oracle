@@ -383,7 +383,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
             <button 
               onClick={handleAnalyze}
               disabled={loading}
-              className="w-full py-4 mt-4 bg-zinc-100 hover:bg-white text-black text-white font-black rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all shadow-lg shadow-white/10 disabled:opacity-50"
+              className="w-full py-4 mt-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all shadow-[0_0_20px_rgba(168,85,247,0.4)] disabled:opacity-50"
             >
               {loading ? (
                 <span className="animate-pulse">Reading the Stars...</span>
@@ -521,7 +521,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     </div>
                   </div>
 
-                  <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-zinc-100 hover:bg-white text-black font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-xl shadow-white/20 hover:scale-[1.02]">
+                  <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
                     Unlock Deep Chemistry Report ($4.99)
                   </button>
                   <div className="flex gap-4">

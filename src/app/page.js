@@ -78,7 +78,7 @@ export default function OracleLanding() {
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={handleLogoClick}>
-            <span className="text-zinc-300">K</span>-ORACLE
+            <span className="text-violet-400">K</span>-ORACLE
           </div>
           <div className="flex items-center gap-6">
             <Link href="/blog" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
@@ -112,7 +112,7 @@ export default function OracleLanding() {
         
         <h1 className="text-[11vw] sm:text-6xl md:text-8xl font-black leading-[1.1] tracking-tighter mb-8">
           <span className="block text-zinc-300 font-serif italic font-medium">Decode Your</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-200 via-zinc-400 to-zinc-500 drop-shadow-lg">Destiny</span> 
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-fuchsia-400 to-pink-500 drop-shadow-lg">Destiny</span> 
           <span className="text-zinc-600 font-sans font-light mx-1 sm:mx-4">&</span> 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 drop-shadow-lg">Aura</span>
         </h1>
@@ -231,7 +231,7 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> K-Pop Idol Compatibility</li>
                     </ul>
-                    <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-zinc-100 text-black font-black hover:bg-white transition-colors shadow-lg shadow-black/50">Unlock Bundle</button>
+                    <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black transition-colors shadow-[0_0_30px_rgba(168,85,247,0.5)]">Unlock Bundle</button>
                   </div>
 
                   {/* Tier 2: 2027 */}
