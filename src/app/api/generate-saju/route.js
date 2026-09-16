@@ -142,7 +142,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
 
     console.log("[K-Oracle Engine] Sending consolidated single prompt to Google Gemini...");
     
-    // Using the latest and most stable gemini-3.6-flash for optimal speed and reliability
+    // Using the latest and most stable gemini-3.7-flash for optimal speed and reliability
     if (!isCompatibility) { prompt += "\n"; }
     
     let response;
@@ -153,7 +153,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     for (let i = 0; i < apiKeys.length; i++) {
       const currentKey = apiKeys[i];
       try {
-        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
+        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${currentKey}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ 
@@ -261,4 +261,5 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     }, { status: isRateLimit ? 429 : 500 });
   }
 }
+
 
