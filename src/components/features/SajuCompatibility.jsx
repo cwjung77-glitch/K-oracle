@@ -385,23 +385,30 @@ export default function SajuCompatibility({ onUnlockPremium }) {
             
             return (
               <>
+                <style>
+                  {`
+                    @import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Nanum+Brush+Script&display=swap');
+                    .font-brush-kr { font-family: 'Nanum Brush Script', cursive; font-size: 1.25em; letter-spacing: -2px; }
+                    .font-brush-cn { font-family: 'Zhi Mang Xing', cursive; font-size: 1.3em; }
+                  `}
+                </style>
                 <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
                   {/* High-End Minimalist Digital Talisman Card */}
                   <div className="inline-block relative mb-10 group" style={{ perspective: '1000px' }}>
-                    <div className={`w-56 h-[340px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
+                    <div className={`w-56 h-[380px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
                       {/* Subtle matte texture */}
                       <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                       
                       {/* Silver foil shimmer effect on hover */}
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-30 animate-[shimmer_3s_infinite]' : ''}`}></div>
                       
-                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-serif text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                       
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-serif font-semibold flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-brush-kr flex flex-col items-center justify-center gap-0 py-2 leading-[0.9]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
-                                <span key={i} className="mb-[-4px]">{char}</span>
+                                <span key={i} className="mb-1">{char}</span>
                               ))}
                             </div>
                       
@@ -516,16 +523,16 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         
                         <div className="relative z-10 scale-[0.8] -my-10">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
-                          <div className={`w-56 h-[340px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
+                          <div className={`w-56 h-[380px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
                             <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
-                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-serif text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                             
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-serif font-semibold flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-brush-kr flex flex-col items-center justify-center gap-0 py-2 leading-[0.9]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
-                                <span key={i} className="mb-[-4px]">{char}</span>
+                                <span key={i} className="mb-1">{char}</span>
                               ))}
                             </div>
                             
