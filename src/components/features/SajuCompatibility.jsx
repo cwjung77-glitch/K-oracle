@@ -431,25 +431,25 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       {/* Silver foil shimmer effect on hover */}
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-30 animate-[shimmer_3s_infinite]' : ''}`}></div>
                       
-                            <div className={`mt-12 w-16 h-16 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-5xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                            <div className={`mt-24 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                       
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[64px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[140px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
                                 <span key={i} className="mb-0">{char}</span>
                               ))}
                             </div>
                       
                       <div className="relative z-10 w-full flex flex-col items-center mb-8 px-4">
-                        <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
-                        <div className="text-zinc-400 font-bold text-xs tracking-[0.2em] uppercase mb-1">
+                        <div className="w-24 h-[3px] bg-zinc-600/50 mb-6"></div>
+                        <div className="text-zinc-400 font-bold text-3xl tracking-[0.2em] uppercase mb-4">
                           {result.talisman.en}
                         </div>
-                        <div className="text-zinc-500 text-[10px] tracking-wider text-center leading-tight mb-3 opacity-80 uppercase">
+                        <div className="text-zinc-500 text-xl tracking-wider text-center leading-tight mb-6 opacity-80 uppercase">
                           {result.talisman.desc}
                         </div>
-                        <div className={`mt-2 text-[10px] text-zinc-600 font-mono tracking-widest font-bold`}>
+                        <div className={`mt-6 text-xl text-zinc-600 font-mono tracking-widest font-bold`}>
                           {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                         </div>
                       </div>
@@ -536,39 +536,39 @@ export default function SajuCompatibility({ onUnlockPremium }) {
 
                 {/* Hidden IG Story Card for Image Generation */}
                 <div className="fixed top-0 left-[-9999px] z-[-10] pointer-events-none">
-                  <div id="ig-story-card" className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
+                  <div id="ig-story-card" className="w-[1080px] h-[1920px] bg-zinc-950 rounded-3xl border border-zinc-800 p-16 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 via-black to-zinc-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
-                          <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-sm">My Cosmic Soulmate</div>
-                            <div className="text-[28px] md:text-3xl font-black text-white bg-black/80 py-3 px-6 rounded-full inline-block border border-white/10 shadow-lg">
+                          <div className="text-zinc-400 font-bold mb-6 uppercase tracking-widest text-4xl">My Cosmic Soulmate</div>
+                            <div className="text-6xl font-black text-white bg-black/80 py-8 px-16 rounded-full inline-block border border-white/10 shadow-2xl">
                             {userName ? userName.toUpperCase() : 'ME'} ❤️ {selectedIdol.name}
                           </div>
                         </div>
                         
-                        <div className="relative z-10 my-8">
+                        <div className="relative z-10 my-16">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
-                          <div className={`w-[300px] h-[550px] bg-[#0A0A0A] rounded-[2rem] flex flex-col items-center justify-between relative overflow-hidden border-[4px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
+                          <div className={`w-[650px] h-[1100px] bg-[#0A0A0A] rounded-[4rem] border-[8px] flex flex-col items-center justify-between relative overflow-hidden border-[4px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                             <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
-                            <div className={`mt-12 w-16 h-16 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-5xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                            <div className={`mt-24 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                             
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[64px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[140px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
                                 <span key={i} className="mb-0">{char}</span>
                               ))}
                             </div>
                             
                             <div className="relative z-10 w-full flex flex-col items-center mb-8 px-4">
-                              <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
-                              <div className="text-zinc-400 font-bold text-xs tracking-[0.2em] uppercase mb-1">
+                              <div className="w-24 h-[3px] bg-zinc-600/50 mb-6"></div>
+                              <div className="text-zinc-400 font-bold text-3xl tracking-[0.2em] uppercase mb-4">
                                 {result.talisman.en}
                               </div>
-                              <div className="text-zinc-500 text-[10px] tracking-wider text-center leading-tight mb-3 opacity-80 uppercase">
+                              <div className="text-zinc-500 text-xl tracking-wider text-center leading-tight mb-6 opacity-80 uppercase">
                                 {result.talisman.desc}
                               </div>
-                              <div className={`mt-2 text-[10px] text-zinc-600 font-mono tracking-widest font-bold`}>
+                              <div className={`mt-6 text-xl text-zinc-600 font-mono tracking-widest font-bold`}>
                                 {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                               </div>
                             </div>
@@ -576,13 +576,13 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
                         
                         <div className="relative z-10 text-center mb-6">
-                          <div className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-2" style={{ filter: "drop-shadow(0 0 20px rgba(168,85,247,0.5))" }}>{result.score}%</div>
-                          <div className="text-zinc-300 font-bold tracking-widest text-sm uppercase mb-4">
+                          <div className="text-[180px] leading-none font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-6" style={{ filter: "drop-shadow(0 0 20px rgba(168,85,247,0.5))" }}>{result.score}%</div>
+                          <div className="text-zinc-300 font-bold tracking-[0.3em] text-4xl uppercase mb-12">
                             {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
                           </div>
                           
-                          <div className="relative z-10 w-fit mx-auto bg-zinc-900/90 border border-zinc-800 text-zinc-400 py-2 px-6 rounded-full flex items-center justify-center gap-2 font-bold shadow-lg mt-6 text-xs tracking-wider">
-  <Search size={14} className="text-zinc-500" /> k-oracle-omega.vercel.app
+                          <div className="relative z-10 w-fit mx-auto bg-zinc-900/90 border border-zinc-800 text-zinc-300 py-6 px-12 rounded-full flex items-center justify-center gap-4 font-bold shadow-2xl mt-12 text-3xl tracking-widest">
+  <Search size={32} className="text-zinc-500" /> k-oracle-omega.vercel.app
 </div>
                         </div>
 
