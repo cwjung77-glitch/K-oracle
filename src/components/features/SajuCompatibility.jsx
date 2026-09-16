@@ -469,10 +469,17 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <span className="text-xl font-bold">{selectedIdol.name}</span>
                   </div>
 
-                  <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-2" style={{ filter: "drop-shadow(0 0 15px rgba(168,85,247,0.4))" }}>
-                    {result.score}% Match
+                  <div className="flex flex-col items-center justify-center gap-1 mb-4 mt-2">
+                    <div className="text-[3.5rem] sm:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 tracking-tighter leading-none" style={{ filter: "drop-shadow(0 0 15px rgba(168,85,247,0.4))" }}>
+                      {result.score}%
+                    </div>
+                    <div className="text-zinc-400 font-bold text-sm tracking-[0.3em] uppercase">
+                      Cosmic Match
+                    </div>
                   </div>
-                  <div className="text-zinc-300 font-bold mb-6">{result.element}</div>
+                  <div className="inline-flex items-center justify-center px-5 py-2 rounded-full bg-white/5 border border-white/10 text-zinc-200 font-bold text-sm mb-6 shadow-md backdrop-blur-sm">
+                    {result.element}
+                  </div>
                   
                   <p className="text-zinc-300 leading-relaxed mb-8 bg-zinc-800/50 p-6 rounded-xl border border-zinc-700">
                     {result.description}
