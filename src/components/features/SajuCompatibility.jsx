@@ -539,13 +539,13 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <div id="ig-story-card" className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 via-black to-zinc-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
-                          <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
-                            <div className="text-2xl font-black text-white bg-black/80 py-2 px-4 rounded-full inline-block border border-white/10">
+                          <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-sm">My Cosmic Soulmate</div>
+                            <div className="text-[28px] md:text-3xl font-black text-white bg-black/80 py-3 px-6 rounded-full inline-block border border-white/10 shadow-lg">
                             {userName ? userName.toUpperCase() : 'ME'} ❤️ {selectedIdol.name}
                           </div>
                         </div>
                         
-                        <div className="relative z-10 scale-[1.1] my-4">
+                        <div className="relative z-10 scale-[1.35] my-10">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
                           <div className={`w-56 h-[420px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                             <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
