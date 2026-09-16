@@ -524,12 +524,12 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
                     Unlock Deep Chemistry Report ($4.99)
                   </button>
-                  <div className="flex gap-4">
-                    <button onClick={() => { setStep(1); setSearchQuery(''); setIsDropdownOpen(false); }} className="flex-1 py-4 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold">
-                      Try Another Match
-                    </button>
-                    <button onClick={handleDownloadImage} disabled={isDownloading} className="flex-1 py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors disabled:opacity-50 shadow-[0_0_20px_rgba(255,255,255,0.4)]">
+                  <div className="flex flex-col sm:flex-row gap-3">
+                    <button onClick={handleDownloadImage} disabled={isDownloading} className="w-full sm:flex-1 py-4 rounded-2xl bg-zinc-100 text-zinc-900 font-black flex items-center justify-center gap-2 hover:bg-white transition-all disabled:opacity-50 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:scale-[1.02] active:scale-[0.98]">
                       {isDownloading ? "Generating..." : <><Download size={20} /> Download Talisman</>}
+                    </button>
+                    <button onClick={() => { setStep(1); setSearchQuery(''); setIsDropdownOpen(false); }} className="w-full sm:flex-1 py-4 rounded-2xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition-all font-bold hover:border-zinc-600">
+                      Try Another Match
                     </button>
                   </div>
                 </div>
