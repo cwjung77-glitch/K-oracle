@@ -7,7 +7,7 @@ import DeepDiveReport from '../components/features/DeepDiveReport';
 import BeautyDeepDiveReport from '../components/features/BeautyDeepDiveReport';
 import LoginModal from '../components/features/LoginModal';
 import Link from 'next/link';
-import { Sparkles, Moon, Palette, Zap, Lock } from 'lucide-react';
+import { Sparkles, Moon, Palette, Zap, Lock, Globe } from 'lucide-react';
 
 export default function OracleLanding() {
   const [activeTab, setActiveTab] = useState('saju');
@@ -83,7 +83,7 @@ export default function OracleLanding() {
           <div className="flex items-center gap-6">
             <Link href="/blog" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
             {/* Language Toggle */}
-            <div className="flex items-center gap-1 bg-zinc-900 border border-zinc-800 rounded-full p-1">
+            <div className="flex items-center gap-1 bg-zinc-900 border border-zinc-800 rounded-full p-1 pl-3"><Globe size={14} className="text-zinc-500 mr-1" />
               <button 
                 onClick={() => setLang('en')}
                 className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'en' ? 'bg-white text-black' : 'text-zinc-500 hover:text-white'}`}
