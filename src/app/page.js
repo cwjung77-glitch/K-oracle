@@ -7,7 +7,7 @@ import DeepDiveReport from '../components/features/DeepDiveReport';
 import BeautyDeepDiveReport from '../components/features/BeautyDeepDiveReport';
 import LoginModal from '../components/features/LoginModal';
 import Link from 'next/link';
-import { Sparkles, Moon, Palette, Zap, Lock, Globe } from 'lucide-react';
+import { Sparkles, Moon, Palette, Zap, Lock, Globe, Mail } from 'lucide-react';
 
 export default function OracleLanding() {
   const [activeTab, setActiveTab] = useState('saju');
@@ -226,8 +226,8 @@ export default function OracleLanding() {
                     <p className="text-violet-300 font-bold text-sm mt-2 mb-4 tracking-wide">THE ULTIMATE 15-MONTH MASTERPLAN</p>
                     <div className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-fuchsia-400 drop-shadow-md"><span className="text-3xl text-violet-500/80 mr-1">$</span>11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-300 flex-grow">
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Spline Flow Chart</li>
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Full 10-Page VIP PDF</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Energy Flow Heatmap</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Comprehensive VIP PDF</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Hidden Karma & Destiny Analysis</li>
                     </ul>
@@ -241,7 +241,7 @@ export default function OracleLanding() {
                     <div className="text-4xl font-black mb-6 text-zinc-100"><span className="text-2xl text-zinc-500 mr-1">$</span>9.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> 12-Month 2027 Flow</li>
-                      <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Radar Chart</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Deep Love & Wealth Matrix</li>
                     </ul>
                     <button onClick={() => { setSelectedPlan("fullyear"); setShowCheckout(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
                   </div>
@@ -250,7 +250,7 @@ export default function OracleLanding() {
             ) : (
               <>
                 <h2 className="text-3xl md:text-5xl font-black mb-4">Unlock Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 drop-shadow-md">Beauty Blueprint</span></h2>
-                <p className="text-pink-300 font-medium tracking-wide mb-8 text-lg">Get your personalized 30-day styling masterplan, including exact hair dye formulas and VIP shopping lists.</p>
+                <p className="text-pink-300 font-medium tracking-wide mb-8 text-lg">Get your personalized styling masterplan, including exact wardrobe color matching, hair dye recommendations, and makeup strategies.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
                     onClick={() => setShowCheckout(true)}
@@ -268,6 +268,24 @@ export default function OracleLanding() {
           </div>
         )}
       </section>
+
+      {/* Footer Section */}
+      <footer className="mt-20 border-t border-white/10 bg-black py-16 px-6 relative z-10">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+          <div className="flex flex-col items-center md:items-start">
+            <span className="text-2xl font-black tracking-widest text-zinc-100 drop-shadow-md">K-ORACLE</span>
+            <p className="text-zinc-500 text-sm mt-2">© {new Date().getFullYear()} K-Oracle. All rights reserved.</p>
+            <p className="text-zinc-600 text-xs mt-1 max-w-sm text-center md:text-left">Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.</p>
+          </div>
+          
+          <div className="flex flex-col items-center md:items-end text-sm text-zinc-400">
+            <p className="mb-2">Need help decoding your destiny?</p>
+            <a href="mailto:support@k-oracle.com" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors font-bold flex items-center gap-2 bg-fuchsia-400/10 px-4 py-2 rounded-full border border-fuchsia-400/30">
+              <Mail size={16} /> support@k-oracle.com
+            </a>
+          </div>
+        </div>
+      </footer>
 
       <CheckoutModal 
           isOpen={showCheckout} 
