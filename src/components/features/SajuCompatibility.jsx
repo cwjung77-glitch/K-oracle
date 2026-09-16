@@ -1,11 +1,10 @@
 "use client";
 import { idolsDB } from '../../data/idols';
 
-
-
 import React, { useState, useMemo, useRef, useEffect } from 'react';
+import { Heart, Sparkles, RefreshCw, Star, ArrowRight, Download, Share2, Crown, Trophy, Target, Search, Lock } from 'lucide-react';
 import html2canvas from 'html2canvas';
-import { Sparkles, Heart, Star, ArrowRight, Search, Download, Lock } from 'lucide-react';
+import { toPng } from 'html-to-image';
 
 export default function SajuCompatibility({ onUnlockPremium }) {
   const [step, setStep] = useState(1);
@@ -81,34 +80,43 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     if (!card) return;
     setIsDownloading(true);
     try {
-      const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2, useCORS: true, allowTaint: true });
-      canvas.toBlob(async (blob) => {
-        if(!blob) { setIsDownloading(false); return; }
-        
-        const file = new File([blob], 'K-Oracle_Compatibility_IG.png', { type: 'image/png' });
-        let shared = false;
-        
-        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-        if (isMobile && navigator.canShare && navigator.canShare({ files: [file] })) {
-          try {
-            await navigator.share({ files: [file], title: 'My Cosmic Soulmate' });
-            shared = true;
-          } catch (err) { console.error(err); }
-        }
-        
-        if (!shared) {
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.style.display = 'none';
-          a.href = url;
-          a.download = 'K-Oracle_Compatibility_IG.png';
-          document.body.appendChild(a);
-          a.click();
-          setTimeout(() => { try { document.body.removeChild(a); URL.revokeObjectURL(url); } catch(e){} }, 2000);
-        }
-        setIsDownloading(false);
-      }, 'image/png');
-    } catch(e) { console.error(e); setIsDownloading(false); }
+      // Use html-to-image instead of html2canvas for better modern CSS support (like mix-blend-mode and gradients)
+      const dataUrl = await toPng(card, { 
+        cacheBust: true, 
+        pixelRatio: 2,
+        backgroundColor: '#09090b',
+        style: { transform: 'scale(1)', transformOrigin: 'top left' }
+      });
+      
+      // Convert dataUrl to blob for Web Share API
+      const res = await fetch(dataUrl);
+      const blob = await res.blob();
+      const file = new File([blob], 'K-Oracle_Compatibility_IG.png', { type: 'image/png' });
+      let shared = false;
+      
+      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+      if (isMobile && navigator.canShare && navigator.canShare({ files: [file] })) {
+        try {
+          await navigator.share({ files: [file], title: 'My Cosmic Soulmate' });
+          shared = true;
+        } catch (err) { console.error(err); }
+      }
+      
+      if (!shared) {
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = dataUrl;
+        a.download = 'K-Oracle_Compatibility_IG.png';
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => { try { document.body.removeChild(a); } catch(e){} }, 2000);
+      }
+      setIsDownloading(false);
+    } catch(e) { 
+      console.error(e); 
+      setIsDownloading(false); 
+      alert("Failed to save image. Please try again.");
+    }
   };
 
   const handleAnalyze = () => {
