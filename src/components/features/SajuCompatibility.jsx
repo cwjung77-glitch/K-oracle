@@ -395,7 +395,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                 <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
                   {/* High-End Minimalist Digital Talisman Card */}
                   <div className="inline-block relative mb-10 group" style={{ perspective: '1000px' }}>
-                    <div className={`w-56 h-[380px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
+                    <div className={`w-56 h-[420px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                       {/* Subtle matte texture */}
                       <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                       
@@ -412,7 +412,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               ))}
                             </div>
                       
-                      <div className="relative z-10 w-full flex flex-col items-center mb-6 px-4">
+                      <div className="relative z-10 w-full flex flex-col items-center mb-8 px-4">
                         <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
                         <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1">
                           {result.talisman.en}
@@ -523,7 +523,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         
                         <div className="relative z-10 scale-[0.8] -my-10">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
-                          <div className={`w-56 h-[380px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
+                          <div className={`w-56 h-[420px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                             <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
                             <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
@@ -536,7 +536,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               ))}
                             </div>
                             
-                            <div className="relative z-10 w-full flex flex-col items-center mb-6 px-4">
+                            <div className="relative z-10 w-full flex flex-col items-center mb-8 px-4">
                               <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
                               <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1">
                                 {result.talisman.en}
