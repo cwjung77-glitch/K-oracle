@@ -387,9 +387,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <>
                 <style>
                   {`
-                    @import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Nanum+Brush+Script&display=swap');
-                    .font-brush-kr { font-family: 'Nanum Brush Script', cursive; font-size: 1.25em; letter-spacing: -2px; }
-                    .font-brush-cn { font-family: 'Zhi Mang Xing', cursive; font-size: 1.3em; }
+                    @import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Gowun+Batang:wght@700&display=swap');
+                    .font-serif-kr { font-family: 'Gowun Batang', serif; }
+                    .font-brush-cn { font-family: 'Zhi Mang Xing', cursive; }
                   `}
                 </style>
                 <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
@@ -406,9 +406,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                       
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-brush-kr flex flex-col items-center justify-center gap-0 py-2 leading-[0.9]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[52px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
-                                <span key={i} className="mb-1">{char}</span>
+                                <span key={i} className="mb-0">{char}</span>
                               ))}
                             </div>
                       
@@ -530,9 +530,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                             
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-brush-kr flex flex-col items-center justify-center gap-0 py-2 leading-[0.9]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[52px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
-                                <span key={i} className="mb-1">{char}</span>
+                                <span key={i} className="mb-0">{char}</span>
                               ))}
                             </div>
                             
