@@ -117,7 +117,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-6">
             <Flame className="text-zinc-300" size={32} /> The Grand Narrative of {displayYear}
           </h3>
-          <div className="glass-panel p-10 rounded-3xl text-zinc-300 leading-[2.2] tracking-wide text-lg whitespace-pre-wrap font-serif">
+          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2.2] tracking-wide text-lg whitespace-pre-wrap font-serif">
             {isGenerating ? (
               <CosmicLoader isBeauty={false} lang={lang} />
             ) : (

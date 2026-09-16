@@ -244,7 +244,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto glass-panel rounded-3xl p-10 relative">
+    <div className="w-full max-w-2xl mx-auto glass-panel rounded-3xl p-6 sm:p-8 md:p-10 relative">
       
       {/* Background mystical elements - Wrapped in overflow-hidden to keep them inside the card */}
       <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
