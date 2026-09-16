@@ -203,7 +203,7 @@ export default function OracleLanding() {
           <div className="text-center w-full max-w-5xl mx-auto">
             {activeTab === 'saju' ? (
               <div className="max-w-5xl mx-auto w-full px-4">
-                <h2 className="text-3xl md:text-5xl font-black mb-4">Choose Your Destiny Plan</h2>
+                <h2 className="text-3xl md:text-5xl font-black mb-4">Choose Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 drop-shadow-md">Destiny Plan</span></h2>
                 <p className="text-zinc-400 mb-12 text-lg">Select the cosmic blueprint that guides your future. 90% of our VIPs choose the Bundle.</p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
@@ -249,7 +249,7 @@ export default function OracleLanding() {
               </div>
             ) : (
               <>
-                <h2 className="text-3xl md:text-5xl font-black mb-4">Unlock Your Beauty Blueprint</h2>
+                <h2 className="text-3xl md:text-5xl font-black mb-4">Unlock Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 drop-shadow-md">Beauty Blueprint</span></h2>
                 <p className="text-pink-300 font-medium tracking-wide mb-8 text-lg">Get your personalized 30-day styling masterplan, including exact hair dye formulas and VIP shopping lists.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
