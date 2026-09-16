@@ -209,9 +209,9 @@ export default function OracleLanding() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
                   {/* Tier 1: 2026 Q4 */}
                   <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-zinc-400/30 transition-colors">
-                    <h3 className="text-xl font-bold text-zinc-300">2026 Q4 Finale</h3>
+                    <h3 className="text-2xl font-black text-zinc-100">2026 Q4 Finale</h3>
                     <p className="text-zinc-500 text-sm mt-2 mb-6">Navigate the remaining 3 months.</p>
-                    <div className="text-3xl font-black mb-6">$4.99</div>
+                    <div className="text-4xl font-black mb-6 text-zinc-100"><span className="text-2xl text-zinc-500 mr-1">$</span>4.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Oct - Dec Forecast</li>
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Basic 5 Elements</li>
@@ -222,9 +222,9 @@ export default function OracleLanding() {
                   {/* Tier 3: Bundle (Most Popular) */}
                   <div className="bg-gradient-to-b from-zinc-800/40 to-black border-2 border-zinc-400 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-lg shadow-white/10 z-10">
                     <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-zinc-100 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
-                    <h3 className="text-2xl font-bold text-zinc-300">26+27 Bundle</h3>
-                    <p className="text-zinc-400 text-sm mt-2 mb-6">The ultimate 15-month masterplan.</p>
-                    <div className="text-4xl font-black mb-6 text-white">$11.99</div>
+                    <h3 className="text-3xl font-black text-white drop-shadow-md">26+27 Bundle</h3>
+                    <p className="text-violet-300 font-bold text-sm mt-2 mb-4 tracking-wide">THE ULTIMATE 15-MONTH MASTERPLAN</p>
+                    <div className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-fuchsia-400 drop-shadow-md"><span className="text-3xl text-violet-500/80 mr-1">$</span>11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-300 flex-grow">
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Spline Flow Chart</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Full 10-Page VIP PDF</li>
@@ -236,9 +236,9 @@ export default function OracleLanding() {
 
                   {/* Tier 2: 2027 */}
                   <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-zinc-400/30 transition-colors">
-                    <h3 className="text-xl font-bold text-zinc-300">2027 Full Year</h3>
+                    <h3 className="text-2xl font-black text-zinc-100">2027 Full Year</h3>
                     <p className="text-zinc-500 text-sm mt-2 mb-6">Prepare for the new year early.</p>
-                    <div className="text-3xl font-black mb-6">$9.99</div>
+                    <div className="text-4xl font-black mb-6 text-zinc-100"><span className="text-2xl text-zinc-500 mr-1">$</span>9.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> 12-Month 2027 Flow</li>
                       <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Radar Chart</li>
