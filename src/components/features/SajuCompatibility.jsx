@@ -167,21 +167,39 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     };
 
     const talismans = [
+      // Traditional / Mystical
       { text: '액운퇴치', en: "Protection", type: "classic" },
       { text: "평안무사", en: "Peace", type: "classic" },
+      { text: "명예상승", en: "Honor", type: "classic" },
+      { text: "일취월장", en: "Growth", type: "classic" },
+      { text: "재물폭발", en: "Wealth", type: "classic" },
+      { text: "전광석화", en: "Speed", type: "classic" },
+      { text: "무병장수", en: "Longevity", type: "classic" },
+      { text: "소원성취", en: "Wish", type: "classic" },
+      { text: "천생연분", en: "Soulmate", type: "classic" },
+      { text: "백년해로", en: "Eternal Bond", type: "classic" },
+      { text: "만사형통", en: "Success", type: "classic" },
+      { text: "운수대통", en: "Good Luck", type: "classic" },
+      { text: "금상첨화", en: "Perfection", type: "classic" },
+      { text: "기사회생", en: "Revival", type: "classic" },
+      { text: "심기일전", en: "Fresh Start", type: "classic" },
+      
+      // K-Pop / Fandom Modern Vibe
       { text: "인기절정", en: "Superstar", type: "kpop" },
       { text: "매력발산", en: "Potential", type: "kpop" },
       { text: "심쿵주의", en: "Heart Attack", type: "kpop" },
       { text: "시선강탈", en: "Eye Catcher", type: "kpop" },
-      { text: "명예상승", en: "Honor", type: "classic" },
-      { text: "광클성공", en: "Fast Click", type: "kpop" },
+      { text: "광클성공", en: "Ticketing", type: "kpop" },
       { text: "덕질만렙", en: "Pro Fan", type: "kpop" },
-      { text: "일취월장", en: "Growth", type: "classic" },
-      { text: "재물폭발", en: "Money Rain", type: "classic" },
       { text: "매력만점", en: "Charisma", type: "kpop" },
-      { text: "전광석화", en: "Speed", type: "classic" },
       { text: "스밍성공", en: "Stream", type: "kpop" },
-      { text: "본방사수", en: "Live Watch", type: "kpop" }
+      { text: "본방사수", en: "Live Watch", type: "kpop" },
+      { text: "입덕완료", en: "Stan", type: "kpop" },
+      { text: "최애등극", en: "Ultimate Bias", type: "kpop" },
+      { text: "성덕인증", en: "Lucky Fan", type: "kpop" },
+      { text: "포카당첨", en: "Photocard", type: "kpop" },
+      { text: "영앤리치", en: "Young & Rich", type: "kpop" },
+      { text: "폼미쳤다", en: "Crazy Vibe", type: "kpop" }
     ];
 
     setTimeout(() => {
@@ -347,61 +365,57 @@ export default function SajuCompatibility({ onUnlockPremium }) {
           </div>
         ) : (
           (() => {
-            // Dynamic Theme Logic based on User's Element
+            // Minimalist High-End Theme Logic
             const userElement = result.element.split(' ')[0];
             const isUltraRare = result.score >= 95;
+            const currentYear = new Date().getFullYear();
             
+            // In Minimalist Option 3, background is always sleek black leather/matte.
+            // Text is silver/white foil. 
+            // We can add subtle tint based on element for the very faint glow
             const themes = {
-              'Wood': { paper: 'bg-[#064E3B]', ink: 'text-[#34D399]', border: 'border-[#059669]', banner: 'bg-[#047857]', shadow: 'shadow-[0_0_60px_rgba(52,211,153,0.4)]', stroke: '#34D399' },
-              'Fire': { paper: 'bg-[#450A0A]', ink: 'text-[#F87171]', border: 'border-[#DC2626]', banner: 'bg-[#B91C1C]', shadow: 'shadow-[0_0_60px_rgba(248,113,113,0.4)]', stroke: '#F87171' },
-              'Earth': { paper: 'bg-[#422006]', ink: 'text-[#FBBF24]', border: 'border-[#D97706]', banner: 'bg-[#B45309]', shadow: 'shadow-[0_0_60px_rgba(251,191,36,0.4)]', stroke: '#FBBF24' },
-              'Metal': { paper: 'bg-[#171717]', ink: 'text-[#E4E4E7]', border: 'border-[#52525B]', banner: 'bg-[#3F3F46]', shadow: 'shadow-[0_0_60px_rgba(228,228,231,0.4)]', stroke: '#E4E4E7' },
-              'Water': { paper: 'bg-[#082F49]', ink: 'text-[#38BDF8]', border: 'border-[#0284C7]', banner: 'bg-[#0369A1]', shadow: 'shadow-[0_0_60px_rgba(56,189,248,0.4)]', stroke: '#38BDF8' }
+              'Wood': { glow: 'rgba(52,211,153,0.1)' },
+              'Fire': { glow: 'rgba(248,113,113,0.1)' },
+              'Earth': { glow: 'rgba(251,191,36,0.1)' },
+              'Metal': { glow: 'rgba(228,228,231,0.1)' },
+              'Water': { glow: 'rgba(56,189,248,0.1)' }
             };
             
-            const t = themes[userElement] || themes['Earth'];
+            const t = themes[userElement] || themes['Metal'];
             
             return (
               <>
                 <div className="text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
-                  {/* Holographic Cyber-Bujeok Card */}
+                  {/* High-End Minimalist Digital Talisman Card */}
                   <div className="inline-block relative mb-10 group" style={{ perspective: '1000px' }}>
-                    <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden ${t.shadow} transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400 animate-pulse' : ''}`}>
-                      <div className="absolute inset-0 bg-[url('/rice-paper.png')] opacity-30 mix-blend-overlay"></div>
-                      <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-50 animate-[shimmer_2s_infinite]' : ''}`}></div>
-                      <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
+                    <div className={`w-56 h-[340px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
+                      {/* Subtle matte texture */}
+                      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
+                      
+                      {/* Silver foil shimmer effect on hover */}
+                      <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-30 animate-[shimmer_3s_infinite]' : ''}`}></div>
+                      
+                      <div className={`mt-8 w-12 h-12 flex items-center justify-center text-zinc-300 font-serif text-3xl opacity-80 z-10 drop-shadow-md`}>
                         {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                       </div>
-                      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-30 mix-blend-screen pointer-events-none flex items-center justify-center">
-                        <svg viewBox="0 0 100 100" className="w-full h-full animate-[spin_60s_linear_infinite]">
-                          <path d="M50 0 Q 100 0, 100 50 T 50 100 T 0 50 T 50 0" fill="none" stroke={t.stroke} strokeWidth="1"/>
-                          <path d="M50 10 Q 90 10, 90 50 T 50 90 T 10 50 T 50 10" fill="none" stroke={t.stroke} strokeWidth="2"/>
-                          <path d="M20 20 L 80 80 M 20 80 L 80 20" stroke={t.stroke} strokeWidth="1"/>
-                          <circle cx="50" cy="50" r="30" fill="none" stroke={t.stroke} strokeWidth="2" strokeDasharray="5,5"/>
-                        </svg>
-                      </div>
-                      <div className={`relative z-10 ${t.ink} text-4xl font-black flex flex-col items-center justify-center gap-1 py-2 drop-shadow-lg leading-none`}>
+                      
+                      <div className={`relative z-10 text-zinc-100 text-[42px] font-black flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ textShadow: '0 2px 10px rgba(255,255,255,0.2)' }}>
                         {result.talisman.text.split('').map((char, i) => (
                           <span key={i}>{char}</span>
                         ))}
                       </div>
+                      
                       <div className="relative z-10 w-full flex flex-col items-center mb-6">
-                        <div className={`mb-1 px-1.5 py-0.5 border border-white/30 rounded flex items-center gap-1 bg-black/40 backdrop-blur-sm text-[8px] font-bold text-white tracking-widest`}>
-                          {result.talisman.type === 'classic' ? (
-                            <>📜 TRADITIONAL</>
-                          ) : (
-                            <>✨ FANDOM VIBE</>
-                          )}
-                        </div>
-                        <div className={`${t.banner} text-white w-4/5 py-1.5 text-center font-black text-sm tracking-[0.2em] uppercase shadow-lg`}>
+                        <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
+                        <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1">
                           {result.talisman.en}
                         </div>
-                        <div className={`mt-2 text-[9px] ${t.ink} opacity-70 font-mono tracking-widest font-bold`}>
-                          {isUltraRare ? '★ LEGENDARY ★' : 'K-ORACLE // ID:'} {Math.random().toString(36).substring(2, 8).toUpperCase()}
+                        <div className={`mt-1 text-[8px] text-zinc-500 font-mono tracking-widest font-bold`}>
+                          {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                         </div>
                       </div>
                     </div>
-                    <div className={`absolute -inset-4 rounded-[20%] blur-2xl opacity-20 -z-10 ${isUltraRare ? 'bg-gradient-to-r from-yellow-400 via-pink-500 to-cyan-400 animate-pulse' : t.paper}`}></div>
+                    <div className={`absolute -inset-4 rounded-[20%] blur-3xl opacity-30 -z-10 ${isUltraRare ? 'bg-gradient-to-r from-zinc-400 via-zinc-200 to-zinc-400 animate-pulse' : 'bg-black'}`}></div>
                   </div>
                   
                   {isUltraRare && (
@@ -498,35 +512,27 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
                         
                         <div className="relative z-10 scale-[0.8] -my-10">
-                          {/* EXACT MATCH BUJEOK (Shared logic) */}
-                          <div className={`w-56 h-[340px] ${t.paper} rounded-md flex flex-col items-center justify-between relative overflow-hidden shadow-xl border-[6px] border-double ${t.border} ${isUltraRare ? 'ring-4 ring-yellow-400' : ''}`}>
-                            <div className="absolute inset-0 bg-[url('/rice-paper.png')] opacity-30 mix-blend-overlay"></div>
-                            <div className={`mt-6 w-14 h-14 border-4 ${t.border} rounded-full flex items-center justify-center ${t.ink} font-black text-2xl opacity-90 z-10`}>
+                          {/* EXACT MATCH BUJEOK (Minimalist) */}
+                          <div className={`w-56 h-[340px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
+                            <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
+                            
+                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-zinc-300 font-serif text-3xl opacity-80 z-10 drop-shadow-md`}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[150%] h-[150%] opacity-30 mix-blend-screen pointer-events-none flex items-center justify-center">
-                              <svg viewBox="0 0 100 100" className="w-full h-full">
-                                <path d="M50 0 Q 100 0, 100 50 T 50 100 T 0 50 T 50 0" fill="none" stroke={t.stroke} strokeWidth="1"/>
-                                <path d="M50 10 Q 90 10, 90 50 T 50 90 T 10 50 T 50 10" fill="none" stroke={t.stroke} strokeWidth="2"/>
-                                <path d="M20 20 L 80 80 M 20 80 L 80 20" stroke={t.stroke} strokeWidth="1"/>
-                                <circle cx="50" cy="50" r="30" fill="none" stroke={t.stroke} strokeWidth="2" strokeDasharray="5,5"/>
-                              </svg>
-                            </div>
-                            <div className={`relative z-10 ${t.ink} text-4xl font-black flex flex-col items-center justify-center gap-1 py-2 drop-shadow-lg leading-none`}>
+                            
+                            <div className={`relative z-10 text-zinc-100 text-[42px] font-black flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ textShadow: '0 2px 10px rgba(255,255,255,0.2)' }}>
                               {result.talisman.text.split('').map((char, i) => (
                                 <span key={i}>{char}</span>
                               ))}
                             </div>
+                            
                             <div className="relative z-10 w-full flex flex-col items-center mb-6">
-                              <div className={`mb-1 px-1.5 py-0.5 border border-white/30 rounded flex items-center gap-1 bg-black/40 backdrop-blur-sm text-[8px] font-bold text-white tracking-widest`}>
-                                {result.talisman.type === 'classic' ? (
-                                  <>📜 TRADITIONAL</>
-                                ) : (
-                                  <>✨ FANDOM VIBE</>
-                                )}
-                              </div>
-                              <div className={`${t.banner} text-white w-4/5 py-1.5 text-center font-black text-sm tracking-[0.2em] uppercase shadow-lg`}>
+                              <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
+                              <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1">
                                 {result.talisman.en}
+                              </div>
+                              <div className={`mt-1 text-[8px] text-zinc-500 font-mono tracking-widest font-bold`}>
+                                {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                               </div>
                             </div>
                           </div>
