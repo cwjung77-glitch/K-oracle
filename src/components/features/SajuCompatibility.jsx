@@ -465,11 +465,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   
                   <div className="flex items-center justify-center gap-4 mb-4">
                     <span className="text-xl font-bold">{userName || 'You'}</span>
-                    <Heart className={`text-zinc-500 fill-zinc-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} />
+                    <Heart className={`text-red-500 fill-red-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} style={{ filter: "drop-shadow(0 0 10px rgba(239,68,68,0.5))" }} />
                     <span className="text-xl font-bold">{selectedIdol.name}</span>
                   </div>
 
-                  <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600 mb-2">
+                  <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-2" style={{ filter: "drop-shadow(0 0 15px rgba(168,85,247,0.4))" }}>
                     {result.score}% Match
                   </div>
                   <div className="text-zinc-300 font-bold mb-6">{result.element}</div>
@@ -576,7 +576,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
                         
                         <div className="relative z-10 text-center mb-6">
-                          <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600 mb-2 drop-shadow-lg">{result.score}%</div>
+                          <div className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-2" style={{ filter: "drop-shadow(0 0 20px rgba(168,85,247,0.5))" }}>{result.score}%</div>
                           <div className="text-zinc-300 font-bold tracking-widest text-sm uppercase mb-4">
                             {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
                           </div>
