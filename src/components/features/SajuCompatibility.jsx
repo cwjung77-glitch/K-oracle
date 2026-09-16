@@ -479,42 +479,42 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   </p>
 
                   <div className="w-full flex flex-col gap-3 mb-6">
-                    <p className="text-zinc-400 font-bold text-sm text-center mb-2">Deep Chemistry Analysis Includes:</p>
+                    <p className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-400 font-bold text-sm text-center mb-3 uppercase tracking-widest flex items-center justify-center gap-2"><Sparkles size={14}/> Premium Deep Chemistry Analysis <Sparkles size={14}/></p>
                     
-                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
-                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-gradient-to-r from-zinc-900 to-black border border-violet-500/30 rounded-xl p-4 flex items-center justify-between group hover:border-fuchsia-500/60 hover:shadow-[0_0_20px_rgba(217,70,239,0.25)] transition-all transform hover:-translate-y-1">
+                      <div className="absolute inset-0 bg-gradient-to-r from-violet-600/10 to-fuchsia-600/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
-                        <div className="text-white font-bold flex items-center gap-2 text-sm">
-                          <Lock size={14} className="text-zinc-300" />
+                        <div className="text-zinc-200 group-hover:text-white font-bold flex items-center gap-2 text-sm transition-colors">
+                            <Lock size={14} className="text-fuchsia-400 group-hover:text-fuchsia-300 drop-shadow-[0_0_5px_rgba(217,70,239,0.5)]" />
                           The Vibe That Catches {selectedIdol.name}'s Eye
                         </div>
-                        <div className="text-zinc-500 text-xs blur-[2px] select-none">
+                        <div className="text-violet-300/60 text-xs blur-[2.5px] select-none mt-1 group-hover:text-fuchsia-300/80 transition-colors">
                           Based on their chart, they are instinctively drawn to...
                         </div>
                       </div>
                     </div>
 
-                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
-                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-gradient-to-r from-zinc-900 to-black border border-violet-500/30 rounded-xl p-4 flex items-center justify-between group hover:border-fuchsia-500/60 hover:shadow-[0_0_20px_rgba(217,70,239,0.25)] transition-all transform hover:-translate-y-1">
+                      <div className="absolute inset-0 bg-gradient-to-r from-violet-600/10 to-fuchsia-600/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
-                        <div className="text-white font-bold flex items-center gap-2 text-sm">
-                          <Lock size={14} className="text-zinc-300" />
+                        <div className="text-zinc-200 group-hover:text-white font-bold flex items-center gap-2 text-sm transition-colors">
+                            <Lock size={14} className="text-fuchsia-400 group-hover:text-fuchsia-300 drop-shadow-[0_0_5px_rgba(217,70,239,0.5)]" />
                           When Your Cosmic Energies Align
                         </div>
-                        <div className="text-zinc-500 text-xs blur-[2px] select-none">
+                        <div className="text-violet-300/60 text-xs blur-[2.5px] select-none mt-1 group-hover:text-fuchsia-300/80 transition-colors">
                           The specific months where your romantic luck peaks...
                         </div>
                       </div>
                     </div>
 
-                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
-                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-gradient-to-r from-zinc-900 to-black border border-violet-500/30 rounded-xl p-4 flex items-center justify-between group hover:border-fuchsia-500/60 hover:shadow-[0_0_20px_rgba(217,70,239,0.25)] transition-all transform hover:-translate-y-1">
+                      <div className="absolute inset-0 bg-gradient-to-r from-violet-600/10 to-fuchsia-600/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
-                        <div className="text-white font-bold flex items-center gap-2 text-sm">
-                          <Lock size={14} className="text-zinc-300" />
+                        <div className="text-zinc-200 group-hover:text-white font-bold flex items-center gap-2 text-sm transition-colors">
+                            <Lock size={14} className="text-fuchsia-400 group-hover:text-fuchsia-300 drop-shadow-[0_0_5px_rgba(217,70,239,0.5)]" />
                           How to Unlock Their Heart
                         </div>
-                        <div className="text-zinc-500 text-xs blur-[2px] select-none">
+                        <div className="text-violet-300/60 text-xs blur-[2.5px] select-none mt-1 group-hover:text-fuchsia-300/80 transition-colors">
                           To make a lasting impression, you need to appeal to their...
                         </div>
                       </div>
