@@ -84,21 +84,14 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2, useCORS: true, allowTaint: true });
       canvas.toBlob(async (blob) => {
         if(!blob) { setIsDownloading(false); return; }
-        const file = new File([blob], 'K-Oracle_Compatibility_IG.png', { type: 'image/png' });
-        let shared = false;
-        if (navigator.canShare && navigator.canShare({ files: [file] })) {
-          try { await navigator.share({ files: [file], title: 'My Cosmic Soulmate' }); shared = true; } catch (err) {}
-        }
-        if (!shared) {
-          const url = URL.createObjectURL(blob);
-          const a = document.createElement('a');
-          a.style.display = 'none';
-          a.href = url;
-          a.download = 'K-Oracle_Compatibility_IG.png';
-          document.body.appendChild(a);
-          a.click();
-          setTimeout(() => { try { document.body.removeChild(a); } catch(e){} }, 2000);
-        }
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = 'K-Oracle_Compatibility_IG.png';
+        document.body.appendChild(a);
+        a.click();
+        setTimeout(() => { try { document.body.removeChild(a); URL.revokeObjectURL(url); } catch(e){} }, 2000);
         setIsDownloading(false);
       }, 'image/png');
     } catch(e) { setIsDownloading(false); }
@@ -439,7 +432,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
                       </div>
                     </div>
-                    <div className={`absolute -inset-4 rounded-[20%] blur-3xl opacity-30 -z-10 ${isUltraRare ? 'bg-gradient-to-r from-zinc-400 via-zinc-200 to-zinc-400 animate-pulse' : 'bg-black'}`}></div>
+                    <div data-html2canvas-ignore="true" className={`absolute -inset-4 rounded-[20%] blur-3xl opacity-30 -z-10 ${isUltraRare ? 'bg-gradient-to-r from-zinc-400 via-zinc-200 to-zinc-400 animate-pulse' : 'bg-black'}`}></div>
                   </div>
                   
                   {isUltraRare && (
@@ -530,7 +523,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-black to-red-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
-                          <div className="text-2xl font-black text-white bg-black/50 py-2 px-4 rounded-full inline-block border border-white/10 backdrop-blur-sm">
+                            <div className="text-2xl font-black text-white bg-black/80 py-2 px-4 rounded-full inline-block border border-white/10">
                             {userName ? userName.toUpperCase() : 'ME'} ❤️ {selectedIdol.name}
                           </div>
                         </div>
