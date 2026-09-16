@@ -449,8 +449,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div className="text-zinc-500 text-[10px] tracking-wider text-center leading-tight mb-2 opacity-80 uppercase">
                           {result.talisman.desc}
                         </div>
-                        <div className={`mt-1 text-[8px] text-zinc-600 font-mono tracking-widest font-bold`}>
-                          {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
+                        <div className={`mt-1 text-[8px] text-zinc-600 font-mono tracking-widest font-bold whitespace-nowrap`}>
+                          {isUltraRare ? `★ K-ORACLE // ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                         </div>
                       </div>
                     </div>
@@ -576,8 +576,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               <div className="text-zinc-500 text-xl tracking-wider text-center leading-tight mb-6 opacity-80 uppercase">
                                 {result.talisman.desc}
                               </div>
-                              <div className={`mt-6 text-xl text-zinc-600 font-mono tracking-widest font-bold`}>
-                                {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
+                              <div className={`mt-6 text-xl text-zinc-600 font-mono tracking-widest font-bold whitespace-nowrap`}>
+                                {isUltraRare ? `★ K-ORACLE // ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                               </div>
                             </div>
                           </div>
