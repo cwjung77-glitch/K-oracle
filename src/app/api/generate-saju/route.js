@@ -189,7 +189,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
       throw new Error("API_RATE_LIMIT");
     }
 
-    const fullText = (data.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
+    const fullText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
 
     const getBoundaryRegex = (sectionStr) => {
       return "(?:^|\\n)[\\s]*" +
@@ -213,10 +213,23 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
       return null;
     };
     
-    let reportText = extractSection(fullText, 'REPORT') || "Error generating report.";
-    let karmaText = extractSection(fullText, 'KARMA') || "Error generating karma.";
-    let dailyFortune = extractSection(fullText, 'FORTUNE') || "Error generating daily fortune.";
-    let matrixResponse = extractSection(fullText, 'MATRIX') || "{}";
+    let reportText = extractSection(fullText, 'REPORT');
+    let karmaText = extractSection(fullText, 'KARMA');
+    let dailyFortune = extractSection(fullText, 'FORTUNE');
+    let matrixResponse = extractSection(fullText, 'MATRIX');
+
+    // If extraction failed, provide the full text as a fallback
+    if (!reportText && !karmaText) {
+      reportText = fullText ? fullText.replace(/\*\*/g, '') : "Error: Cosmic energies blocked (Safety filter).";
+      karmaText = "Included in the main report.";
+      dailyFortune = "Included in the main report.";
+      matrixResponse = "{}";
+    } else {
+      reportText = (reportText || "Error generating report.").replace(/\*\*/g, '');
+      karmaText = (karmaText || "Error generating karma.").replace(/\*\*/g, '');
+      dailyFortune = (dailyFortune || "Error generating daily fortune.").replace(/\*\*/g, '');
+      matrixResponse = matrixResponse || "{}";
+    }
 
     let matrixData = null;
     try {
@@ -248,3 +261,4 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     }, { status: isRateLimit ? 429 : 500 });
   }
 }
+
