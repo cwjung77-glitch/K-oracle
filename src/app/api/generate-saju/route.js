@@ -150,38 +150,47 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     let success = false;
     let lastError = null;
 
+    const fallbackModels = ['gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-3.6-flash', 'gemini-flash-latest'];
+
     for (let i = 0; i < apiKeys.length; i++) {
       const currentKey = apiKeys[i];
-      try {
-        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.7-flash:generateContent?key=${currentKey}`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ 
-            contents: [{ parts: [{ text: prompt }] }], 
-            generationConfig: { temperature: 0.1, topK: 1 },
-            safetySettings: [
-              { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
-              { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
-              { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_ONLY_HIGH" },
-              { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_ONLY_HIGH" }
-            ]
-          })
-        });
-        
-        if (response.ok) {
-          data = await response.json();
-          if (!data.error) {
-            success = true;
-            break; // Success! Break out of the rotation loop
+      for (let j = 0; j < fallbackModels.length; j++) {
+        const currentModel = fallbackModels[j];
+        try {
+          response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${currentKey}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ 
+              contents: [{ parts: [{ text: prompt }] }], 
+              generationConfig: { temperature: 0.1, topK: 1 },
+              safetySettings: [
+                { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
+                { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_ONLY_HIGH" },
+                { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_ONLY_HIGH" }
+              ]
+            })
+          });
+          
+          if (response.ok) {
+            data = await response.json();
+            if (!data.error) {
+              success = true;
+              break; // Success! Break out of model rotation
+            }
           }
+          
+          // If not ok or has error, capture it and let loop continue to next model
+          lastError = await response.text();
+          console.warn(`[API Rotation] Key ${i + 1}, Model ${currentModel} failed. Status: ${response.status}. Trying next...`);
+        } catch (err) {
+          lastError = err.message;
+          console.warn(`[API Rotation] Key ${i + 1}, Model ${currentModel} failed with network error. Trying next...`);
         }
-        
-        // If not ok or has error, capture it and let loop continue to next key
-        lastError = await response.text();
-        console.warn(`[API Rotation] Key ${i + 1} failed. Status: ${response.status}. Trying next key...`);
-      } catch (err) {
-        lastError = err.message;
-        console.warn(`[API Rotation] Key ${i + 1} failed with network error. Trying next key...`);
+      }
+      
+      if (success) {
+        break; // Success! Break out of key rotation
       }
     }
 
