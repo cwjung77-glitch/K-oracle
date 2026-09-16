@@ -431,11 +431,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       {/* Silver foil shimmer effect on hover */}
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-30 animate-[shimmer_3s_infinite]' : ''}`}></div>
                       
-                            <div className={`mt-24 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                       
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[140px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[52px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
                                 <span key={i} className="mb-0">{char}</span>
                               ))}
@@ -463,7 +463,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     </div>
                   )}
                   
-                  <div className="flex items-center justify-center gap-4 mb-4">
+                  <div className="flex flex-col items-center justify-center gap-2 mb-6">
                     <span className="text-xl font-bold">{userName || 'You'}</span>
                     <Heart className={`text-red-500 fill-red-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} style={{ filter: "drop-shadow(0 0 10px rgba(239,68,68,0.5))" }} />
                     <span className="text-xl font-bold">{selectedIdol.name}</span>
@@ -540,17 +540,18 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 via-black to-zinc-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-6 uppercase tracking-widest text-4xl">My Cosmic Soulmate</div>
-                            <div className="text-6xl font-black text-white bg-black/80 py-8 px-16 rounded-full inline-block border border-white/10 shadow-2xl">
-                            {userName ? userName.toUpperCase() : 'ME'} ❤️ {selectedIdol.name}
-                          </div>
+                            <div className="text-[52px] font-black text-white bg-black/80 py-8 px-12 rounded-[3rem] border border-white/10 shadow-2xl flex flex-col items-center justify-center gap-2 w-[900px] mx-auto">
+                              <span>{userName ? userName.toUpperCase() : "ME"} ❤️</span>
+                              <span className="text-zinc-200">{selectedIdol.name}</span>
+                            </div>
                         </div>
                         
-                        <div className="relative z-10 my-16">
+                        <div className="relative z-10 my-10">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
-                          <div className={`w-[650px] h-[1100px] bg-[#0A0A0A] rounded-[4rem] border-[8px] flex flex-col items-center justify-between relative overflow-hidden border-[4px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
+                          <div className={`w-[500px] h-[900px] bg-[#0A0A0A] rounded-[4rem] border-[8px] flex flex-col items-center justify-between relative overflow-hidden border-[4px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                             <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
-                            <div className={`mt-24 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                            <div className={`mt-16 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                             
