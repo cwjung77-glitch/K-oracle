@@ -77,7 +77,7 @@ CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an 
 CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy').
 CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. NEVER suggest breaking the law, reckless financial investments, divorces, or physically dangerous acts. Keep your "tough love" strictly constrained to psychological insights, symbolic aesthetic changes, and general career/relationship prudence. You must eliminate any legal liability.
 
-YOUR TASK: You must generate 4 separate pieces of content wrapped in specific XML tags. Do NOT use markdown for the delimiters. Use exact XML tags: <REPORT> (your report here) </REPORT>, <KARMA> (your karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
+CRITICAL SYSTEM INSTRUCTION: YOU MUST WRAP EACH SECTION IN EXACT XML TAGS. NEVER FORGET CLOSING TAGS. Do NOT use markdown headers instead of XML tags. YOUR ENTIRE RESPONSE MUST BE VALID XML: <REPORT> (report here) </REPORT>, <KARMA> (karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
 
 <REPORT>
 Generate a highly personalized "Deep Cosmic Chemistry" analysis (1000 words).
@@ -113,7 +113,7 @@ CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an 
 
 CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. NEVER suggest breaking the law, reckless financial investments, divorces, or physically dangerous acts. Keep your "tough love" strictly constrained to psychological insights, symbolic aesthetic changes, and general career/relationship prudence. You must eliminate any legal liability.
 
-YOUR TASK: You must generate 4 separate pieces of content wrapped in specific XML tags. Do NOT use markdown for the delimiters. Use exact XML tags: <REPORT> (your report here) </REPORT>, <KARMA> (your karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
+CRITICAL SYSTEM INSTRUCTION: YOU MUST WRAP EACH SECTION IN EXACT XML TAGS. NEVER FORGET CLOSING TAGS. Do NOT use markdown headers instead of XML tags. YOUR ENTIRE RESPONSE MUST BE VALID XML: <REPORT> (report here) </REPORT>, <KARMA> (karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
 ${timeConstraint}
 
 <REPORT>
@@ -202,9 +202,15 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     const fullText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
 
     const extractSection = (text, sectionName) => {
-      const regex = new RegExp(`<${sectionName}>([\\s\\S]*?)</${sectionName}>`, 'i');
-      const match = text.match(regex);
-      return match ? match[1].trim() : null;
+      let regex = new RegExp(`<${sectionName}>([\\s\\S]*?)</${sectionName}>`, 'i');
+      let match = text.match(regex);
+      if (match) return match[1].trim();
+
+      regex = new RegExp(`<${sectionName}>([\\s\\S]*?)(?=<[A-Z]+>|$)`, 'i');
+      match = text.match(regex);
+      if (match) return match[1].trim();
+
+      return null;
     };
     
     let reportText = extractSection(fullText, 'REPORT');

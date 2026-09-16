@@ -117,7 +117,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-6">
             <Flame className="text-zinc-300" size={32} /> The Grand Narrative of {displayYear}
           </h3>
-          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg font-serif text-justify sm:text-left break-keep">
+          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg font-serif text-left">
             {isGenerating ? (
               <CosmicLoader isBeauty={false} lang={lang} />
             ) : (
@@ -222,7 +222,7 @@ export default function DeepDiveReport({ lang = "en" }) {
 
         
           {isCompatibility && (
-            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg font-serif text-justify sm:text-left break-keep">
+            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg font-serif text-left">
               <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-6">
                 <HeartPulse className="text-pink-500" size={32} /> {isKo ? '전생의 인연 (Past Life Karma)' : 'Past Life Connection'}
               </h3>
