@@ -191,20 +191,32 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
 
     const fullText = (data.candidates?.[0]?.content?.parts?.[0]?.text || "").replace(/\*\*/g, '');
 
-    // Parse the sections using the delimiters safely
-    const extractSection = (text, startMarker, endMarker) => {
-      const startIdx = text.indexOf(startMarker);
-      if (startIdx === -1) return null;
-      const contentStart = startIdx + startMarker.length;
-      let endIdx = endMarker ? text.indexOf(endMarker, contentStart) : text.length;
-      if (endIdx === -1) endIdx = text.length;
-      return text.substring(contentStart, endIdx).trim();
+    const getBoundaryRegex = (sectionStr) => {
+      return "(?:^|\\n)[\\s]*" +
+        "(?:" +
+          "--+[^\\n]*?" + sectionStr + "[^\\n]*?(?:--+)?" + "|" +
+          "##+[^\\n]*?" + sectionStr + "[^\\n]*?" + "|" +
+          "\\*\\*[^\\n]*?" + sectionStr + "[^\\n]*?\\*\\*" + "|" +
+          "\\[[^\\n]*?" + sectionStr + "[^\\n]*?\\]" + "|" +
+          sectionStr +
+        ")[\\s]*(?:\\n|$)";
+    };
+
+    const extractSection = (text, sectionName) => {
+      const boundary = getBoundaryRegex(sectionName);
+      const nextBoundary = getBoundaryRegex("(?:REPORT|KARMA|FORTUNE|MATRIX)");
+      const regex = new RegExp(boundary + "([\\s\\S]*?)(?=" + nextBoundary + "|$)", 'i');
+      const match = text.match(regex);
+      if (match) {
+        return match[1].trim();
+      }
+      return null;
     };
     
-    let reportText = extractSection(fullText, '---REPORT---', '---KARMA---') || extractSection(fullText, '---REPORT---', '---FORTUNE---') || "Error generating report.";
-    let karmaText = extractSection(fullText, '---KARMA---', '---FORTUNE---') || extractSection(fullText, '---KARMA---', '---MATRIX---') || "Error generating karma.";
-    let dailyFortune = extractSection(fullText, '---FORTUNE---', '---MATRIX---') || extractSection(fullText, '---FORTUNE---', null) || "Error generating daily fortune.";
-    let matrixResponse = extractSection(fullText, '---MATRIX---', null) || "{}";
+    let reportText = extractSection(fullText, 'REPORT') || "Error generating report.";
+    let karmaText = extractSection(fullText, 'KARMA') || "Error generating karma.";
+    let dailyFortune = extractSection(fullText, 'FORTUNE') || "Error generating daily fortune.";
+    let matrixResponse = extractSection(fullText, 'MATRIX') || "{}";
 
     let matrixData = null;
     try {
