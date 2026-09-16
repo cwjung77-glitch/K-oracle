@@ -168,38 +168,38 @@ export default function SajuCompatibility({ onUnlockPremium }) {
 
     const talismans = [
       // Traditional / Mystical
-      { text: '액운퇴치', en: "Protection", type: "classic" },
-      { text: "평안무사", en: "Peace", type: "classic" },
-      { text: "명예상승", en: "Honor", type: "classic" },
-      { text: "일취월장", en: "Growth", type: "classic" },
-      { text: "재물폭발", en: "Wealth", type: "classic" },
-      { text: "전광석화", en: "Speed", type: "classic" },
-      { text: "무병장수", en: "Longevity", type: "classic" },
-      { text: "소원성취", en: "Wish", type: "classic" },
-      { text: "천생연분", en: "Soulmate", type: "classic" },
-      { text: "백년해로", en: "Eternal Bond", type: "classic" },
-      { text: "만사형통", en: "Success", type: "classic" },
-      { text: "운수대통", en: "Good Luck", type: "classic" },
-      { text: "금상첨화", en: "Perfection", type: "classic" },
-      { text: "기사회생", en: "Revival", type: "classic" },
-      { text: "심기일전", en: "Fresh Start", type: "classic" },
+      { text: '액운퇴치', en: "Protection", desc: "Wards off evil and bad luck", type: "classic" },
+      { text: "평안무사", en: "Peace", desc: "Grants safety and tranquility", type: "classic" },
+      { text: "명예상승", en: "Honor", desc: "Elevates your status and fame", type: "classic" },
+      { text: "일취월장", en: "Growth", desc: "Ensures rapid daily progress", type: "classic" },
+      { text: "재물폭발", en: "Wealth", desc: "Attracts immense fortune", type: "classic" },
+      { text: "전광석화", en: "Speed", desc: "Lightning-fast manifestations", type: "classic" },
+      { text: "무병장수", en: "Longevity", desc: "Brings health and long life", type: "classic" },
+      { text: "소원성취", en: "Wish", desc: "Makes your deepest desires real", type: "classic" },
+      { text: "천생연분", en: "Soulmate", desc: "A match made in heaven", type: "classic" },
+      { text: "백년해로", en: "Eternal Bond", desc: "Lifelong harmony together", type: "classic" },
+      { text: "만사형통", en: "Success", desc: "Everything goes your way", type: "classic" },
+      { text: "운수대통", en: "Good Luck", desc: "A great tide of cosmic luck", type: "classic" },
+      { text: "금상첨화", en: "Perfection", desc: "Adding beauty to what's already good", type: "classic" },
+      { text: "기사회생", en: "Revival", desc: "Bouncing back from the bottom", type: "classic" },
+      { text: "심기일전", en: "Fresh Start", desc: "A renewed mindset and energy", type: "classic" },
       
       // K-Pop / Fandom Modern Vibe
-      { text: "인기절정", en: "Superstar", type: "kpop" },
-      { text: "매력발산", en: "Potential", type: "kpop" },
-      { text: "심쿵주의", en: "Heart Attack", type: "kpop" },
-      { text: "시선강탈", en: "Eye Catcher", type: "kpop" },
-      { text: "광클성공", en: "Ticketing", type: "kpop" },
-      { text: "덕질만렙", en: "Pro Fan", type: "kpop" },
-      { text: "매력만점", en: "Charisma", type: "kpop" },
-      { text: "스밍성공", en: "Stream", type: "kpop" },
-      { text: "본방사수", en: "Live Watch", type: "kpop" },
-      { text: "입덕완료", en: "Stan", type: "kpop" },
-      { text: "최애등극", en: "Ultimate Bias", type: "kpop" },
-      { text: "성덕인증", en: "Lucky Fan", type: "kpop" },
-      { text: "포카당첨", en: "Photocard", type: "kpop" },
-      { text: "영앤리치", en: "Young & Rich", type: "kpop" },
-      { text: "폼미쳤다", en: "Crazy Vibe", type: "kpop" }
+      { text: "인기절정", en: "Superstar", desc: "Reach the peak of popularity", type: "kpop" },
+      { text: "매력발산", en: "Potential", desc: "Unleash irresistible charm", type: "kpop" },
+      { text: "심쿵주의", en: "Heart Attack", desc: "Causes fatal heart flutters", type: "kpop" },
+      { text: "시선강탈", en: "Eye Catcher", desc: "Steals everyone's attention", type: "kpop" },
+      { text: "광클성공", en: "Ticketing", desc: "Blesses your concert ticketing", type: "kpop" },
+      { text: "덕질만렙", en: "Pro Fan", desc: "Master level fandom energy", type: "kpop" },
+      { text: "매력만점", en: "Charisma", desc: "A flawless, charming aura", type: "kpop" },
+      { text: "스밍성공", en: "Stream", desc: "Perfect streaming success", type: "kpop" },
+      { text: "본방사수", en: "Live Watch", desc: "Never miss a live broadcast", type: "kpop" },
+      { text: "입덕완료", en: "Stan", desc: "Officially joining the fandom", type: "kpop" },
+      { text: "최애등극", en: "Ultimate Bias", desc: "Crowning your #1 favorite", type: "kpop" },
+      { text: "성덕인증", en: "Lucky Fan", desc: "A successful, noticed fan", type: "kpop" },
+      { text: "포카당첨", en: "Photocard", desc: "Pull your bias photocard", type: "kpop" },
+      { text: "영앤리치", en: "Young & Rich", desc: "Youthful and wealthy vibes", type: "kpop" },
+      { text: "폼미쳤다", en: "Crazy Vibe", desc: "Absolutely insane form", type: "kpop" }
     ];
 
     setTimeout(() => {
@@ -405,12 +405,15 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         ))}
                       </div>
                       
-                      <div className="relative z-10 w-full flex flex-col items-center mb-6">
+                      <div className="relative z-10 w-full flex flex-col items-center mb-6 px-4">
                         <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
                         <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1">
                           {result.talisman.en}
                         </div>
-                        <div className={`mt-1 text-[8px] text-zinc-500 font-mono tracking-widest font-bold`}>
+                        <div className="text-zinc-500 text-[8px] tracking-wider text-center leading-tight mb-2 opacity-80 uppercase">
+                          {result.talisman.desc}
+                        </div>
+                        <div className={`mt-1 text-[8px] text-zinc-600 font-mono tracking-widest font-bold`}>
                           {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                         </div>
                       </div>
@@ -526,12 +529,15 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               ))}
                             </div>
                             
-                            <div className="relative z-10 w-full flex flex-col items-center mb-6">
+                            <div className="relative z-10 w-full flex flex-col items-center mb-6 px-4">
                               <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
                               <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1">
                                 {result.talisman.en}
                               </div>
-                              <div className={`mt-1 text-[8px] text-zinc-500 font-mono tracking-widest font-bold`}>
+                              <div className="text-zinc-500 text-[8px] tracking-wider text-center leading-tight mb-2 opacity-80 uppercase">
+                                {result.talisman.desc}
+                              </div>
+                              <div className={`mt-1 text-[8px] text-zinc-600 font-mono tracking-widest font-bold`}>
                                 {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                               </div>
                             </div>
