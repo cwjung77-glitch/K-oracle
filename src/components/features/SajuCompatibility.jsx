@@ -395,15 +395,15 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       {/* Silver foil shimmer effect on hover */}
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-30 animate-[shimmer_3s_infinite]' : ''}`}></div>
                       
-                      <div className={`mt-8 w-12 h-12 flex items-center justify-center text-zinc-300 font-serif text-3xl opacity-80 z-10 drop-shadow-md`}>
-                        {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
-                      </div>
+                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-serif text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                              {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
+                            </div>
                       
-                      <div className={`relative z-10 text-zinc-100 text-[42px] font-black flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ textShadow: '0 2px 10px rgba(255,255,255,0.2)' }}>
-                        {result.talisman.text.split('').map((char, i) => (
-                          <span key={i}>{char}</span>
-                        ))}
-                      </div>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-serif font-semibold flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                              {result.talisman.text.split('').map((char, i) => (
+                                <span key={i} className="mb-[-4px]">{char}</span>
+                              ))}
+                            </div>
                       
                       <div className="relative z-10 w-full flex flex-col items-center mb-6 px-4">
                         <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
@@ -519,13 +519,13 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                           <div className={`w-56 h-[340px] bg-[#0A0A0A] rounded-xl flex flex-col items-center justify-between relative overflow-hidden border-[2px] border-zinc-700/50 ${isUltraRare ? 'ring-2 ring-zinc-300 shadow-[0_0_40px_rgba(255,255,255,0.3)]' : 'shadow-2xl'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 20px rgba(0,0,0,1)` }}>
                             <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
-                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-zinc-300 font-serif text-3xl opacity-80 z-10 drop-shadow-md`}>
+                            <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-serif text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                             
-                            <div className={`relative z-10 text-zinc-100 text-[42px] font-black flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ textShadow: '0 2px 10px rgba(255,255,255,0.2)' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[46px] font-serif font-semibold flex flex-col items-center justify-center gap-0 py-2 tracking-widest leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
-                                <span key={i}>{char}</span>
+                                <span key={i} className="mb-[-4px]">{char}</span>
                               ))}
                             </div>
                             
