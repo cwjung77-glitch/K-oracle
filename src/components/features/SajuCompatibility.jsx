@@ -80,7 +80,6 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     if (!card) return;
     setIsDownloading(true);
     try {
-      // Use html-to-image instead of html2canvas for better modern CSS support (like mix-blend-mode and gradients)
       const dataUrl = await toPng(card, { 
         cacheBust: true, 
         pixelRatio: 2,
@@ -88,29 +87,30 @@ export default function SajuCompatibility({ onUnlockPremium }) {
         style: { transform: 'scale(1)', transformOrigin: 'top left' }
       });
       
-      // Convert dataUrl to blob for Web Share API
-      const res = await fetch(dataUrl);
+      const res = await fetch('/api/download-image', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ dataUrl })
+      });
+      
+      if (!res.ok) throw new Error("Failed to generate download");
+      
       const blob = await res.blob();
-      const file = new File([blob], 'K-Oracle_Compatibility_IG.png', { type: 'image/png' });
-      let shared = false;
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = url;
+      a.download = 'K-Oracle_Talisman.png';
+      document.body.appendChild(a);
+      a.click();
       
-      const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-      if (isMobile && navigator.canShare && navigator.canShare({ files: [file] })) {
+      setTimeout(() => {
         try {
-          await navigator.share({ files: [file], title: 'My Cosmic Soulmate' });
-          shared = true;
-        } catch (err) { console.error(err); }
-      }
-      
-      if (!shared) {
-        const a = document.createElement('a');
-        a.style.display = 'none';
-        a.href = dataUrl;
-        a.download = 'K-Oracle_Compatibility_IG.png';
-        document.body.appendChild(a);
-        a.click();
-        setTimeout(() => { try { document.body.removeChild(a); } catch(e){} }, 2000);
-      }
+          document.body.removeChild(a);
+          window.URL.revokeObjectURL(url);
+        } catch(e){}
+      }, 1000);
+
       setIsDownloading(false);
     } catch(e) { 
       console.error(e); 
@@ -528,20 +528,15 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <button onClick={() => { setStep(1); setSearchQuery(''); setIsDropdownOpen(false); }} className="flex-1 py-4 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold">
                       Try Another Match
                     </button>
-                    <button onClick={() => setShowSharePreview(true)} className="flex-1 py-4 rounded-xl bg-gradient-to-r from-[#833AB4] via-[#FD1D1D] to-[#FCAF45] text-white font-black flex items-center justify-center gap-2 hover:opacity-90 transition-opacity shadow-[0_0_20px_rgba(253,29,29,0.4)]">
-                      Share to IG
+                    <button onClick={handleDownloadImage} disabled={isDownloading} className="flex-1 py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors disabled:opacity-50 shadow-[0_0_20px_rgba(255,255,255,0.4)]">
+                      {isDownloading ? "Generating..." : <><Download size={20} /> Download Talisman</>}
                     </button>
                   </div>
                 </div>
 
-                {/* Instagram Share Preview Modal */}
-                {showSharePreview && (
-                  <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/90 backdrop-blur-md animate-in fade-in duration-300">
-                    <div className="relative flex flex-col items-center max-w-sm w-full">
-                      <button onClick={() => setShowSharePreview(false)} className="absolute -top-12 right-0 text-white/50 hover:text-white text-xl font-bold">✕ Close</button>
-                      <p className="text-white/70 text-sm mb-4 font-bold tracking-widest uppercase">Instagram Story Preview</p>
-                      
-                      <div id="ig-story-card" className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
+                {/* Hidden IG Story Card for Image Generation */}
+                <div className="fixed top-0 left-[-9999px] z-[-10] pointer-events-none">
+                  <div id="ig-story-card" className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-black to-red-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
@@ -582,22 +577,17 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         
                         <div className="relative z-10 text-center mb-6">
                           <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2 drop-shadow-lg">{result.score}%</div>
-                          <div className="text-yellow-500 font-bold tracking-widest text-sm uppercase">
+                          <div className="text-yellow-500 font-bold tracking-widest text-sm uppercase mb-4">
                             {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
+                          </div>
+                          
+                          <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg mt-6">
+                            <Search size={16} /> k-oracle-omega.vercel.app
                           </div>
                         </div>
 
-                        <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg">
-                          <Search size={16} /> k-oracle-omega.vercel.app
-                        </div>
-                      </div>
-
-                      <button onClick={handleDownloadImage} disabled={isDownloading} className="mt-6 w-full py-4 rounded-xl bg-white text-black font-black flex items-center justify-center gap-2 hover:bg-zinc-200 transition-colors disabled:opacity-50">
-                        {isDownloading ? "Generating..." : <><Download size={20} /> Save to Camera Roll</>}
-                      </button>
                     </div>
                   </div>
-                )}
               </>
             );
           })()
