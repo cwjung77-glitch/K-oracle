@@ -84,17 +84,31 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       const canvas = await html2canvas(card, { backgroundColor: '#09090b', scale: 2, useCORS: true, allowTaint: true });
       canvas.toBlob(async (blob) => {
         if(!blob) { setIsDownloading(false); return; }
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.style.display = 'none';
-        a.href = url;
-        a.download = 'K-Oracle_Compatibility_IG.png';
-        document.body.appendChild(a);
-        a.click();
-        setTimeout(() => { try { document.body.removeChild(a); URL.revokeObjectURL(url); } catch(e){} }, 2000);
+        
+        const file = new File([blob], 'K-Oracle_Compatibility_IG.png', { type: 'image/png' });
+        let shared = false;
+        
+        const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        if (isMobile && navigator.canShare && navigator.canShare({ files: [file] })) {
+          try {
+            await navigator.share({ files: [file], title: 'My Cosmic Soulmate' });
+            shared = true;
+          } catch (err) { console.error(err); }
+        }
+        
+        if (!shared) {
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.style.display = 'none';
+          a.href = url;
+          a.download = 'K-Oracle_Compatibility_IG.png';
+          document.body.appendChild(a);
+          a.click();
+          setTimeout(() => { try { document.body.removeChild(a); URL.revokeObjectURL(url); } catch(e){} }, 2000);
+        }
         setIsDownloading(false);
       }, 'image/png');
-    } catch(e) { setIsDownloading(false); }
+    } catch(e) { console.error(e); setIsDownloading(false); }
   };
 
   const handleAnalyze = () => {
@@ -404,7 +418,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <div className="inline-block relative mb-10 group" style={{ perspective: '1000px' }}>
                     <div className={`w-56 h-[420px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 group-hover:scale-105 group-hover:rotate-2 border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                       {/* Subtle matte texture */}
-                      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
+                      <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                       
                       {/* Silver foil shimmer effect on hover */}
                       <div className={`absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none z-20 transform -translate-x-full group-hover:translate-x-full ${isUltraRare ? 'opacity-30 animate-[shimmer_3s_infinite]' : ''}`}></div>
@@ -531,7 +545,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div className="relative z-10 scale-[0.8] -my-10">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
                           <div className={`w-56 h-[420px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
-                            <div className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
+                            <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
                             <div className={`mt-8 w-12 h-12 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-4xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
