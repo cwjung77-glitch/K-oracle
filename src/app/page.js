@@ -249,12 +249,12 @@ export default function OracleLanding() {
               </div>
             ) : (
               <>
-                <h2 className="text-3xl font-black mb-4">Unlock Your Beauty Blueprint</h2>
-                <p className="text-zinc-400 mb-8">Get your personalized 30-day styling masterplan, including exact hair dye formulas and VIP shopping lists.</p>
+                <h2 className="text-3xl md:text-5xl font-black mb-4">Unlock Your Beauty Blueprint</h2>
+                <p className="text-pink-300 font-medium tracking-wide mb-8 text-lg">Get your personalized 30-day styling masterplan, including exact hair dye formulas and VIP shopping lists.</p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
                     onClick={() => setShowCheckout(true)}
-                    className="px-8 py-4 rounded-xl border border-pink-500/30 bg-pink-500/10 text-pink-400 font-bold hover:bg-pink-500/20 transition-colors flex items-center justify-center gap-2"
+                    className="px-10 py-5 rounded-2xl bg-gradient-to-r from-pink-600 to-blue-600 hover:from-pink-500 hover:to-blue-500 text-white font-black text-xl transition-all shadow-[0_0_40px_rgba(236,72,153,0.5)] flex items-center justify-center gap-3 transform hover:scale-105"
                   >
                     <Lock size={18} /> Unlock Premium Report ($9.99)
                   </button>
