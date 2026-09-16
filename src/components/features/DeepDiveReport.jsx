@@ -79,7 +79,7 @@ export default function DeepDiveReport({ lang = "en" }) {
   }, [lang]);
 
   return (
-    <div id="premium-report" className="w-full max-w-5xl mx-auto mt-20 relative animate-in fade-in slide-in-from-bottom-10 duration-1000 border border-yellow-500/30 rounded-[3rem] overflow-hidden shadow-[0_0_100px_rgba(234,179,8,0.1)]">
+    <div id="premium-report" className="w-full max-w-5xl mx-auto mt-20 relative animate-in fade-in slide-in-from-bottom-10 duration-1000 border border-zinc-400/30 rounded-[3rem] overflow-hidden shadow-[0_0_100px_rgba(234,179,8,0.1)]">
       
       {/* VIP Header Banner */}
       <div className="bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600 text-black py-6 px-8 flex flex-col md:flex-row items-center justify-between">
@@ -99,10 +99,10 @@ export default function DeepDiveReport({ lang = "en" }) {
           {!isGenerating && reportData?.dailyFortune && (
             <section className="mb-12">
               <div className="bg-gradient-to-r from-yellow-500/10 to-transparent p-1 rounded-2xl">
-                <div className="bg-zinc-900 rounded-2xl p-6 border border-yellow-500/20 shadow-[0_0_30px_rgba(234,179,8,0.05)]">
+                <div className="bg-zinc-900 rounded-2xl p-6 border border-zinc-700/50 shadow-[0_0_30px_rgba(234,179,8,0.05)]">
                   <div className="flex items-center gap-2 mb-3">
-                    <Sparkles className="text-yellow-500" size={20} />
-                    <h4 className="text-yellow-500 font-bold uppercase tracking-widest text-sm">{isCompatibility ? (isKo ? '오늘의 궁합 바이브' : 'Today\'s Chemistry Vibe') : (isKo ? '오늘의 맞춤 운세' : 'Your Daily Cosmic Vibe')}</h4>
+                    <Sparkles className="text-zinc-300" size={20} />
+                    <h4 className="text-zinc-300 font-bold uppercase tracking-widest text-sm">{isCompatibility ? (isKo ? '오늘의 궁합 바이브' : 'Today\'s Chemistry Vibe') : (isKo ? '오늘의 맞춤 운세' : 'Your Daily Cosmic Vibe')}</h4>
                   </div>
                   <p className="text-zinc-200 text-lg leading-relaxed font-serif">
                     {reportData.dailyFortune}
@@ -114,17 +114,17 @@ export default function DeepDiveReport({ lang = "en" }) {
 
           {/* Core Analysis (Dynamic Fetch) */}
         <section>
-          <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-6">
-            <Flame className="text-yellow-500" size={32} /> The Grand Narrative of {displayYear}
+          <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-6">
+            <Flame className="text-zinc-300" size={32} /> The Grand Narrative of {displayYear}
           </h3>
-          <div className="bg-zinc-800/30 p-8 rounded-2xl border border-zinc-800/50 text-zinc-300 leading-loose text-lg whitespace-pre-wrap font-serif">
+          <div className="glass-panel p-10 rounded-3xl text-zinc-300 leading-[2.2] tracking-wide text-lg whitespace-pre-wrap font-serif">
             {isGenerating ? (
               <CosmicLoader isBeauty={false} lang={lang} />
             ) : (
                 <div className="flex flex-col gap-4">
                   <div className="whitespace-pre-wrap">{aiReport}</div>
                   {error && (
-                    <button onClick={fetchReport} className="self-start px-6 py-3 bg-yellow-500 text-black font-bold rounded-xl hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.4)]">
+                    <button onClick={fetchReport} className="self-start px-6 py-3 bg-zinc-100 text-black font-bold rounded-xl hover:bg-white transition-colors shadow-lg shadow-black/50">
                       Retry Generation (Already Paid)
                     </button>
                   )}
@@ -217,8 +217,8 @@ export default function DeepDiveReport({ lang = "en" }) {
 
         
           {isCompatibility && (
-            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-loose text-lg whitespace-pre-wrap font-serif">
-              <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-6">
+            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2.2] tracking-wide text-lg whitespace-pre-wrap font-serif">
+              <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-6">
                 <HeartPulse className="text-pink-500" size={32} /> {isKo ? '전생의 인연 (Past Life Karma)' : 'Past Life Connection'}
               </h3>
               <div className="space-y-4">
@@ -238,7 +238,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           {/* 12-Month Luck Heatmap */}
           {!isCompatibility && (
           <section>
-          <h3 className="text-3xl font-black text-white flex items-center gap-3 mb-8">
+          <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-8">
             <Activity className="text-blue-400" size={32} /> {displayYear} Energy Flow (Heatmap)
           </h3>
           <div className="bg-zinc-800/30 p-8 rounded-3xl border border-zinc-700/50">
@@ -271,7 +271,7 @@ export default function DeepDiveReport({ lang = "en" }) {
                 })()
               ].map((month) => {
                 let barColor = 'bg-zinc-500';
-                if (month.s >= 85) barColor = 'bg-yellow-500 shadow-[0_0_15px_rgba(234,179,8,0.5)]';
+                if (month.s >= 85) barColor = 'bg-zinc-100 shadow-[0_0_15px_rgba(234,179,8,0.5)]';
                 else if (month.s <= 35) barColor = 'bg-red-500';
                 
                 return (
@@ -288,7 +288,7 @@ export default function DeepDiveReport({ lang = "en" }) {
               {/* Heatmap Legend */}
               <div className="flex flex-wrap items-center justify-center gap-6 mt-4 pt-6 border-t border-zinc-700/50">
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-yellow-500 shadow-[0_0_10px_rgba(234,179,8,0.8)]"></div>
+                  <div className="w-3 h-3 rounded-full bg-zinc-100 shadow-[0_0_10px_rgba(234,179,8,0.8)]"></div>
                   <span className="text-sm font-semibold text-zinc-300">{isKo ? '대운 (최고 전성기)' : 'Peak Energy (85%+)'}</span>
                 </div>
                 <div className="flex items-center gap-2">

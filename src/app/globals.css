@@ -15,3 +15,52 @@ body {
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+
+@keyframes aurora-1 {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.5; }
+  50% { transform: translateY(-30px) scale(1.1); opacity: 0.8; }
+}
+@keyframes aurora-2 {
+  0%, 100% { transform: translateX(0) scale(1); opacity: 0.4; }
+  50% { transform: translateX(30px) scale(1.05); opacity: 0.7; }
+}
+
+.aurora-bg {
+  position: relative;
+  overflow: hidden;
+}
+.aurora-bg::before, .aurora-bg::after {
+  content: '';
+  position: absolute;
+  filter: blur(80px);
+  z-index: 0;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.aurora-bg::before {
+  top: -10%; left: -10%;
+  width: 50vw; height: 50vw;
+  background: radial-gradient(circle, rgba(160, 160, 160, 0.15) 0%, rgba(0,0,0,0) 70%);
+  animation: aurora-1 15s ease-in-out infinite;
+}
+.aurora-bg::after {
+  bottom: -10%; right: -10%;
+  width: 60vw; height: 60vw;
+  background: radial-gradient(circle, rgba(200, 200, 200, 0.1) 0%, rgba(0,0,0,0) 70%);
+  animation: aurora-2 20s ease-in-out infinite;
+}
+
+.glass-panel {
+  background: rgba(20, 20, 22, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
+
+.neo-text {
+  background: linear-gradient(135deg, #ffffff 0%, #a0a0a0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

@@ -244,20 +244,20 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto bg-zinc-900/80 backdrop-blur-xl rounded-3xl border border-yellow-500/20 p-8 shadow-[0_0_50px_rgba(234,179,8,0.1)] relative">
+    <div className="w-full max-w-2xl mx-auto glass-panel rounded-3xl p-10 relative">
       
       {/* Background mystical elements - Wrapped in overflow-hidden to keep them inside the card */}
       <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-yellow-500/10 rounded-full blur-[80px]"></div>
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-red-500/10 rounded-full blur-[80px]"></div>
+        <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-[80px]"></div>
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-zinc-500/10 rounded-full blur-[80px]"></div>
       </div>
 
       <div className="relative z-10">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-yellow-500/10 text-yellow-500 text-sm font-bold border border-yellow-500/20 mb-4">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 text-zinc-300 text-sm font-bold border border-zinc-700/50 mb-4">
             <Sparkles size={16} /> K-Destiny Matrix
           </div>
-          <h2 className="text-3xl font-black text-white">Idol Saju Compatibility</h2>
+          <h2 className="text-4xl font-black neo-text tracking-tight">Idol Saju Compatibility</h2>
           <p className="text-zinc-400 mt-2">Discover your cosmic connection based on Korean Astrology.</p>
         </div>
 
@@ -265,14 +265,14 @@ export default function SajuCompatibility({ onUnlockPremium }) {
           <div className="space-y-6">
             <div className="space-y-4">
               <label className="block text-sm font-medium text-zinc-300">1. Enter Your Birth Info</label>
-              <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} placeholder="Your Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 mb-4" />
+              <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} placeholder="Your Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 mb-4" />
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <input type="date" value={dob} onChange={(e) => setDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
-                <input type="time" value={time} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                <input type="date" value={dob} onChange={(e) => setDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
+                <input type="time" value={time} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
                   <select 
                     value={gender} 
                     onChange={(e) => setGender(e.target.value)}
-                    className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 appearance-none cursor-pointer"
+                    className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 appearance-none cursor-pointer"
                   >
                     <option value="female">♀ Female (여성)</option>
                     <option value="male">♂ Male (남성)</option>
@@ -284,18 +284,18 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-2">
                 <label className="text-sm font-medium text-zinc-300">2. Select Your Partner</label>
                 <div className="flex bg-zinc-800 rounded-lg p-1">
-                  <button onClick={() => setMatchType('idol')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'idol' ? 'bg-yellow-500 text-black' : 'text-zinc-400 hover:text-white'}`}>Idol Match</button>
-                  <button onClick={() => setMatchType('custom')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'custom' ? 'bg-yellow-500 text-black' : 'text-zinc-400 hover:text-white'}`}>Custom Match</button>
+                  <button onClick={() => setMatchType('idol')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'idol' ? 'bg-zinc-100 text-black' : 'text-zinc-400 hover:text-white'}`}>Idol Match</button>
+                  <button onClick={() => setMatchType('custom')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'custom' ? 'bg-zinc-100 text-black' : 'text-zinc-400 hover:text-white'}`}>Custom Match</button>
                 </div>
               </div>
               
               {matchType === 'custom' ? (
                 <div className="space-y-3 animate-in fade-in slide-in-from-top-2">
-                  <input type="text" value={customName} onChange={(e) => setCustomName(e.target.value)} placeholder="Partner's Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
+                  <input type="text" value={customName} onChange={(e) => setCustomName(e.target.value)} placeholder="Partner's Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                    <input type="date" value={customDob} onChange={(e) => setCustomDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
-                    <input type="time" value={customTime} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500" />
-                    <select value={customGender} onChange={(e) => setCustomGender(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 appearance-none cursor-pointer">
+                    <input type="date" value={customDob} onChange={(e) => setCustomDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
+                    <input type="time" value={customTime} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
+                    <select value={customGender} onChange={(e) => setCustomGender(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 appearance-none cursor-pointer">
                       <option value="female">♀ Female</option>
                       <option value="male">♂ Male</option>
                     </select>
@@ -305,12 +305,12 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                 <>
                   <div className="flex justify-between items-center mb-1">
                     <span className="text-xs text-zinc-500">Search from K-Pop database</span>
-                    <span onClick={() => setShowRequestIdol(true)} className="text-xs text-yellow-500 cursor-pointer hover:underline">+ Request Missing Idol</span>
+                    <span onClick={() => setShowRequestIdol(true)} className="text-xs text-zinc-300 cursor-pointer hover:underline">+ Request Missing Idol</span>
                   </div>
                             {showRequestIdol && (
-                <div className="mt-2 p-4 bg-zinc-900 border border-yellow-500/30 rounded-xl animate-in fade-in slide-in-from-top-2 mb-4">
+                <div className="mt-2 p-4 bg-zinc-900 border border-zinc-400/30 rounded-xl animate-in fade-in slide-in-from-top-2 mb-4">
                   {requestStatus ? (
-                    <div className="text-yellow-500 text-sm font-bold text-center py-2">{requestStatus}</div>
+                    <div className="text-zinc-300 text-sm font-bold text-center py-2">{requestStatus}</div>
                   ) : (
                     <div className="flex flex-col gap-2">
                       <div className="flex justify-between items-center mb-1">
@@ -318,8 +318,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <button onClick={() => setShowRequestIdol(false)} className="text-xs text-zinc-500 hover:text-zinc-300">Close</button>
                       </div>
                       <div className="flex gap-2">
-                        <input type="text" value={requestName} onChange={(e) => setRequestName(e.target.value)} placeholder="Type Idol and Group Name..." className="flex-1 bg-black border border-zinc-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-yellow-500" />
-                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to K-Oracle! 🚀'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-yellow-400">Send</button>
+                        <input type="text" value={requestName} onChange={(e) => setRequestName(e.target.value)} placeholder="Type Idol and Group Name..." className="flex-1 bg-black border border-zinc-700 rounded-lg px-3 py-2 text-sm text-white focus:outline-none focus:border-zinc-400" />
+                        <button onClick={() => { if(requestName.trim()) { setRequestStatus('Request sent to K-Oracle! 🚀'); setTimeout(() => { setShowRequestIdol(false); setRequestStatus(''); setRequestName(''); }, 3000); } }} className="bg-zinc-100 text-black px-4 py-2 rounded-lg text-sm font-bold hover:bg-white">Send</button>
                       </div>
                     </div>
                   )}
@@ -330,7 +330,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   type="text" 
                   value={searchQuery}
                   placeholder="Idol Name (e.g. Jungkook)"
-                  className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-yellow-500 pl-10" 
+                  className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 pl-10" 
                   onChange={(e) => {
                     setSearchQuery(e.target.value);
                     setIsDropdownOpen(true);
@@ -355,7 +355,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                             setIsDropdownOpen(false);
                           }}
                           className={`w-full text-left px-4 py-3 hover:bg-zinc-700 flex justify-between items-center transition-colors ${
-                            selectedIdol.name === idol.name ? 'bg-yellow-500/10 text-yellow-500' : 'text-zinc-300'
+                            selectedIdol.name === idol.name ? 'bg-white/5 text-zinc-300' : 'text-zinc-300'
                           }`}
                         >
                           <span className="font-bold">{idol.name}</span>
@@ -364,7 +364,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       ))
                     ) : (
                       <div className="px-4 py-4 text-center text-zinc-400 text-sm">
-                        No idol found. <button className="text-yellow-500 underline ml-1">Add them!</button>
+                        No idol found. <button className="text-zinc-300 underline ml-1">Add them!</button>
                       </div>
                     )}
                   </div>
@@ -372,7 +372,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               </div>
               
               {selectedIdol && !isDropdownOpen && (
-                <div className="mt-4 p-3 bg-yellow-500/10 border border-yellow-500/30 rounded-xl text-yellow-500 text-sm flex items-center justify-between animate-in fade-in">
+                <div className="mt-4 p-3 bg-white/5 border border-zinc-400/30 rounded-xl text-zinc-300 text-sm flex items-center justify-between animate-in fade-in">
                   <span>Selected: <strong>{selectedIdol.name}</strong></span>
                 </div>
               )}
@@ -458,7 +458,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   </div>
                   
                   {isUltraRare && (
-                    <div className="inline-block px-4 py-1 bg-yellow-500/20 border border-yellow-500/50 rounded-full text-yellow-500 text-xs font-bold tracking-widest mb-4 animate-bounce">
+                    <div className="inline-block px-4 py-1 bg-zinc-100/20 border border-zinc-400/50 rounded-full text-zinc-300 text-xs font-bold tracking-widest mb-4 animate-bounce">
                       SOULMATE LEVEL UNLOCKED!
                     </div>
                   )}
@@ -472,7 +472,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2">
                     {result.score}% Match
                   </div>
-                  <div className="text-yellow-500 font-bold mb-6">{result.element}</div>
+                  <div className="text-zinc-300 font-bold mb-6">{result.element}</div>
                   
                   <p className="text-zinc-300 leading-relaxed mb-8 bg-zinc-800/50 p-6 rounded-xl border border-zinc-700">
                     {result.description}
@@ -481,11 +481,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <div className="w-full flex flex-col gap-3 mb-6">
                     <p className="text-zinc-400 font-bold text-sm text-center mb-2">Deep Chemistry Analysis Includes:</p>
                     
-                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-yellow-500/50 transition-colors">
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
                         <div className="text-white font-bold flex items-center gap-2 text-sm">
-                          <Lock size={14} className="text-yellow-500" />
+                          <Lock size={14} className="text-zinc-300" />
                           The Vibe That Catches {selectedIdol.name}'s Eye
                         </div>
                         <div className="text-zinc-500 text-xs blur-[2px] select-none">
@@ -494,11 +494,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       </div>
                     </div>
 
-                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-yellow-500/50 transition-colors">
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
                         <div className="text-white font-bold flex items-center gap-2 text-sm">
-                          <Lock size={14} className="text-yellow-500" />
+                          <Lock size={14} className="text-zinc-300" />
                           When Your Cosmic Energies Align
                         </div>
                         <div className="text-zinc-500 text-xs blur-[2px] select-none">
@@ -507,11 +507,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       </div>
                     </div>
 
-                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-yellow-500/50 transition-colors">
+                    <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
                       <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
                         <div className="text-white font-bold flex items-center gap-2 text-sm">
-                          <Lock size={14} className="text-yellow-500" />
+                          <Lock size={14} className="text-zinc-300" />
                           How to Unlock Their Heart
                         </div>
                         <div className="text-zinc-500 text-xs blur-[2px] select-none">
@@ -577,7 +577,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         
                         <div className="relative z-10 text-center mb-6">
                           <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2 drop-shadow-lg">{result.score}%</div>
-                          <div className="text-yellow-500 font-bold tracking-widest text-sm uppercase mb-4">
+                          <div className="text-zinc-300 font-bold tracking-widest text-sm uppercase mb-4">
                             {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
                           </div>
                           

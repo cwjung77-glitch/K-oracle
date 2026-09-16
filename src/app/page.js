@@ -26,7 +26,7 @@ export default function OracleLanding() {
 
   const handleLogoClick = () => {
     if (hasPaid) {
-      if (window.confirm(lang === 'ko' ? "PDF 마스터플랜을 다운로드하셨나요? 지금 메인으로 돌아가면 분석 결과가 영구적으로 삭제됩니다." : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
+      if (window.confirm(lang === 'ko' ? "PDF 마스?�플?�을 ?�운로드?�셨?�요? 지�?메인?�로 ?�아가�?분석 결과가 ?�구?�으�???��?�니??" : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
         localStorage.removeItem("hasPaid");
         setHasPaid(false);
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -60,7 +60,7 @@ export default function OracleLanding() {
   }, [activeTab]);
 
   return (
-    <div className="relative min-h-screen bg-[#050505] text-white font-sans selection:bg-yellow-500 selection:text-black pb-24 overflow-x-hidden">
+    <div className="relative min-h-screen bg-[#050505] text-white aurora-bg font-sans selection:bg-zinc-100 selection:text-black pb-24 overflow-x-hidden">
       
       {/* Premium Cosmic Aurora Background */}
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/20 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '8s' }} />
@@ -78,7 +78,7 @@ export default function OracleLanding() {
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <div className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={handleLogoClick}>
-            <span className="text-yellow-500">K</span>-ORACLE
+            <span className="text-zinc-300">K</span>-ORACLE
           </div>
           <div className="flex items-center gap-6">
             <Link href="/blog" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
@@ -95,7 +95,7 @@ export default function OracleLanding() {
                 className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'es' ? 'bg-white text-black' : 'text-zinc-500 hover:text-white'}`}
               >
                 ES
-              </button>{showKo && <button onClick={() => setLang('ko')} className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'ko' ? 'bg-yellow-500 text-black' : 'text-zinc-500 hover:text-white'}`}>KO</button>}</div><button onClick={() => setShowLogin(true)}
+              </button>{showKo && <button onClick={() => setLang('ko')} className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'ko' ? 'bg-zinc-100 text-black' : 'text-zinc-500 hover:text-white'}`}>KO</button>}</div><button onClick={() => setShowLogin(true)}
               className="px-6 py-2 text-xs font-bold tracking-widest bg-white text-black rounded-full hover:bg-zinc-200 transition-colors uppercase"
             >
               Log In
@@ -107,7 +107,7 @@ export default function OracleLanding() {
       {/* Hero Section */}
       <section className="relative pt-32 md:pt-48 pb-20 px-6 max-w-5xl mx-auto text-center z-10">
         <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-black/40 border border-white/10 text-zinc-300 text-xs font-mono tracking-widest uppercase mb-10 backdrop-blur-md shadow-[0_0_15px_rgba(255,255,255,0.05)]">
-          <Sparkles size={14} className="text-yellow-500 animate-pulse" /> Cyber-Shamanism for the global generation
+          <Sparkles size={14} className="text-zinc-300 animate-pulse" /> Cyber-Shamanism for the global generation
         </div>
         
         <h1 className="text-[11vw] sm:text-6xl md:text-8xl font-black leading-[1.1] tracking-tighter mb-8">
@@ -125,8 +125,8 @@ export default function OracleLanding() {
           {/* Recent History */}
           {!hasPaid && recentHistory.length > 0 && (
             <div className="w-full max-w-sm mx-auto mb-6">
-              <h3 className="text-yellow-500 font-bold text-sm mb-3 flex items-center gap-2 justify-center">
-                <Sparkles size={14} /> {lang === 'ko' ? '최근 열람한 기록' : 'Recent Readings'}
+              <h3 className="text-zinc-300 font-bold text-sm mb-3 flex items-center gap-2 justify-center">
+                <Sparkles size={14} /> {lang === 'ko' ? '최근 ?�람??기록' : 'Recent Readings'}
               </h3>
               <div className="space-y-2">
                 {recentHistory.map((item, idx) => (
@@ -152,7 +152,7 @@ export default function OracleLanding() {
                     className="w-full bg-zinc-900/80 hover:bg-zinc-800 border border-white/5 rounded-xl p-3 flex items-center justify-between transition-colors text-left"
                   >
                     <div>
-                      <div className="font-bold text-zinc-200 text-sm">{item.type === 'saju' && item.plan === 'compatibility' ? `${item.name} ❤️ ${item.idolName}` : item.name}</div>
+                      <div className="font-bold text-zinc-200 text-sm">{item.type === 'saju' && item.plan === 'compatibility' ? `${item.name} ?�️ ${item.idolName}` : item.name}</div>
                       <div className="text-xs text-zinc-500 capitalize">{item.type === 'saju' ? (item.plan === 'compatibility' ? 'Cosmic Chemistry' : 'Saju Masterplan') : 'K-Beauty'}</div>
                     </div>
                     <div className="text-xs text-zinc-500">{item.date}</div>
@@ -168,7 +168,7 @@ export default function OracleLanding() {
             onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
-                ? 'bg-gradient-to-r from-yellow-600/90 to-red-600/90 text-white shadow-[0_0_20px_rgba(234,179,8,0.3)] border border-yellow-500/50' 
+                ? 'bg-gradient-to-r from-yellow-600/90 to-red-600/90 text-white shadow-[0_0_20px_rgba(234,179,8,0.3)] border border-zinc-400/50' 
                 : 'text-zinc-500 hover:text-white border border-transparent hover:bg-white/5'
             }`}
           >
@@ -208,40 +208,40 @@ export default function OracleLanding() {
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
                   {/* Tier 1: 2026 Q4 */}
-                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-500/30 transition-colors">
+                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-zinc-400/30 transition-colors">
                     <h3 className="text-xl font-bold text-zinc-300">2026 Q4 Finale</h3>
                     <p className="text-zinc-500 text-sm mt-2 mb-6">Navigate the remaining 3 months.</p>
                     <div className="text-3xl font-black mb-6">$4.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
-                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Oct - Dec Forecast</li>
-                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Basic 5 Elements</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Oct - Dec Forecast</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Basic 5 Elements</li>
                     </ul>
                     <button onClick={() => { setSelectedPlan("q4"); setShowCheckout(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
                   </div>
 
                   {/* Tier 3: Bundle (Most Popular) */}
-                  <div className="bg-gradient-to-b from-yellow-900/20 to-black border-2 border-yellow-500 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-[0_0_30px_rgba(234,179,8,0.15)] z-10">
-                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
-                    <h3 className="text-2xl font-bold text-yellow-500">26+27 Bundle</h3>
+                  <div className="bg-gradient-to-b from-yellow-900/20 to-black border-2 border-zinc-400 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-[0_0_30px_rgba(234,179,8,0.15)] z-10">
+                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-zinc-100 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
+                    <h3 className="text-2xl font-bold text-zinc-300">26+27 Bundle</h3>
                     <p className="text-zinc-400 text-sm mt-2 mb-6">The ultimate 15-month masterplan.</p>
                     <div className="text-4xl font-black mb-6 text-white">$11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-300 flex-grow">
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> 15-Month Spline Flow Chart</li>
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Full 10-Page VIP PDF</li>
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> K-Pop Idol Compatibility</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Spline Flow Chart</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Full 10-Page VIP PDF</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> K-Pop Idol Compatibility</li>
                     </ul>
-                    <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-yellow-500 text-black font-black hover:bg-yellow-400 transition-colors shadow-[0_0_15px_rgba(234,179,8,0.4)]">Unlock Bundle</button>
+                    <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-zinc-100 text-black font-black hover:bg-white transition-colors shadow-lg shadow-black/50">Unlock Bundle</button>
                   </div>
 
                   {/* Tier 2: 2027 */}
-                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-500/30 transition-colors">
+                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-zinc-400/30 transition-colors">
                     <h3 className="text-xl font-bold text-zinc-300">2027 Full Year</h3>
                     <p className="text-zinc-500 text-sm mt-2 mb-6">Prepare for the new year early.</p>
                     <div className="text-3xl font-black mb-6">$9.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
-                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> 12-Month 2027 Flow</li>
-                      <li className="flex gap-2 items-center"><Zap size={14} className="text-yellow-500 flex-shrink-0" /> Radar Chart</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> 12-Month 2027 Flow</li>
+                      <li className="flex gap-2 items-center"><Zap size={14} className="text-zinc-300 flex-shrink-0" /> Radar Chart</li>
                     </ul>
                     <button onClick={() => { setSelectedPlan("fullyear"); setShowCheckout(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
                   </div>
@@ -292,6 +292,7 @@ export default function OracleLanding() {
     </div>
   );
 }
+
 
 
 
