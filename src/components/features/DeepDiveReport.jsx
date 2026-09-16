@@ -22,12 +22,16 @@ export default function DeepDiveReport({ lang = "en" }) {
       if (cached) {
         try {
           const data = JSON.parse(cached);
-          setError(false);
-          setAiReport(data.reportText); 
-          localStorage.setItem("aiKarma", data.karmaText); 
-          setReportData(data);
-          setIsGenerating(false);
-          return;
+          if (data.karmaText === "Included in the main report." || data.dailyFortune === "Included in the main report.") {
+            localStorage.removeItem(cacheKey);
+          } else {
+            setError(false);
+            setAiReport(data.reportText); 
+            localStorage.setItem("aiKarma", data.karmaText); 
+            setReportData(data);
+            setIsGenerating(false);
+            return;
+          }
         } catch(e) { }
       }
       try {
