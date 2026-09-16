@@ -26,7 +26,7 @@ export default function OracleLanding() {
 
   const handleLogoClick = () => {
     if (hasPaid) {
-      if (window.confirm(lang === 'ko' ? "PDF 마스?�플?�을 ?�운로드?�셨?�요? 지�?메인?�로 ?�아가�?분석 결과가 ?�구?�으�???��?�니??" : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
+      if (window.confirm(lang === "ko" ? "PDF 마스터플랜을 다운로드하셨나요? 지금 메인으로 돌아가면 분석 결과가 영구적으로 삭제됩니다." : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
         localStorage.removeItem("hasPaid");
         setHasPaid(false);
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -126,7 +126,7 @@ export default function OracleLanding() {
           {!hasPaid && recentHistory.length > 0 && (
             <div className="w-full max-w-sm mx-auto mb-6">
               <h3 className="text-zinc-300 font-bold text-sm mb-3 flex items-center gap-2 justify-center">
-                <Sparkles size={14} /> {lang === 'ko' ? '최근 ?�람??기록' : 'Recent Readings'}
+                <Sparkles size={14} /> {lang === "ko" ? "최근 열람 기록" : "Recent Readings"}
               </h3>
               <div className="space-y-2">
                 {recentHistory.map((item, idx) => (
@@ -152,7 +152,7 @@ export default function OracleLanding() {
                     className="w-full bg-zinc-900/80 hover:bg-zinc-800 border border-white/5 rounded-xl p-3 flex items-center justify-between transition-colors text-left"
                   >
                     <div>
-                      <div className="font-bold text-zinc-200 text-sm">{item.type === 'saju' && item.plan === 'compatibility' ? `${item.name} ?�️ ${item.idolName}` : item.name}</div>
+                      <div className="font-bold text-zinc-200 text-sm">{item.type === "saju" && item.plan === "compatibility" ? ${item.name} ❤️  : item.name}</div>
                       <div className="text-xs text-zinc-500 capitalize">{item.type === 'saju' ? (item.plan === 'compatibility' ? 'Cosmic Chemistry' : 'Saju Masterplan') : 'K-Beauty'}</div>
                     </div>
                     <div className="text-xs text-zinc-500">{item.date}</div>
