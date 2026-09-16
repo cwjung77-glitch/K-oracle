@@ -117,12 +117,17 @@ export default function DeepDiveReport({ lang = "en" }) {
           <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-6">
             <Flame className="text-zinc-300" size={32} /> The Grand Narrative of {displayYear}
           </h3>
-          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg whitespace-pre-wrap font-serif">
+          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg font-serif text-justify sm:text-left break-keep">
             {isGenerating ? (
               <CosmicLoader isBeauty={false} lang={lang} />
             ) : (
                 <div className="flex flex-col gap-4">
-                  <div className="whitespace-pre-wrap">{aiReport}</div>
+                  {aiReport.split('\n').map((para, idx) => {
+  const match = para.match(/^\[CATEGORY:\s*(.*?)\]/i);
+  if(match) return <h4 key={idx} className="text-xl font-bold text-zinc-100 mt-6 mb-2">{match[1]}</h4>;
+  if(para.trim().length === 0) return null;
+  return <p key={idx} className="mb-4 leading-relaxed">{para}</p>;
+})}
                   {error && (
                     <button onClick={fetchReport} className="self-start px-6 py-3 bg-zinc-100 text-black font-bold rounded-xl hover:bg-white transition-colors shadow-lg shadow-black/50">
                       Retry Generation (Already Paid)
@@ -217,7 +222,7 @@ export default function DeepDiveReport({ lang = "en" }) {
 
         
           {isCompatibility && (
-            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg whitespace-pre-wrap font-serif">
+            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg font-serif text-justify sm:text-left break-keep">
               <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-6">
                 <HeartPulse className="text-pink-500" size={32} /> {isKo ? '전생의 인연 (Past Life Karma)' : 'Past Life Connection'}
               </h3>
@@ -308,9 +313,9 @@ export default function DeepDiveReport({ lang = "en" }) {
           <button 
             onClick={async () => { const res = await fetch('/api/download-pdf', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ type: "saju", lang, plan, data: { content: aiReport, karma: localStorage.getItem("aiKarma"), dob: localStorage.getItem("userDob") || "1995-10-15" } }) }); const blob = await res.blob(); const url = window.URL.createObjectURL(blob); const a = document.createElement('a'); a.href = url; a.download = 'K_Oracle_Saju_Report.pdf'; a.click(); window.URL.revokeObjectURL(url); }}
           disabled={isGenerating || error}
-          className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex items-center justify-center gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
+          className="w-full py-5 bg-zinc-100 text-zinc-900 rounded-2xl font-black text-lg hover:bg-white flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 transition-colors shadow-[0_0_30px_rgba(255,255,255,0.2)] disabled:opacity-50"
         >
-          <Download size={22} /> Download Premium PDF Masterplan
+          <Download size={22} className="mb-1 sm:mb-0" /> <span className="text-center leading-tight">Download Premium PDF<br className="block sm:hidden"/> Masterplan</span>
         </button>
 
       </div>

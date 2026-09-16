@@ -33,11 +33,11 @@ export default function CosmicLoader({ isBeauty = false, lang = 'en' }) {
     : (lang === 'ko' ? '수천 년의 명리학 데이터를 분석하고 있습니다...' : 'Aligning your Four Pillars with the cosmos...');
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-[400px] w-full gap-8 relative overflow-hidden rounded-3xl p-8 bg-black">
+    <div className="flex flex-col items-center justify-center min-h-[400px] w-full gap-8 relative overflow-hidden rounded-3xl p-4 sm:p-8 bg-black">
       {/* Background radial glow */}
       <div className={`absolute inset-0 bg-gradient-to-t ${isBeauty ? 'from-pink-900/10' : 'from-yellow-900/10'} to-transparent animate-pulse opacity-50`} />
       
-      <div className={`relative flex items-center justify-center w-64 h-64 rounded-full ${theme.glow}`}>
+      <div className={`relative flex items-center justify-center w-64 h-64 rounded-full scale-[0.75] sm:scale-100 ${theme.glow}`}>
         {/* Core pulsing star */}
         <div className={`absolute inset-0 bg-${isBeauty ? 'pink' : 'yellow'}-500/10 rounded-full animate-ping opacity-20`} />
         
@@ -54,7 +54,7 @@ export default function CosmicLoader({ isBeauty = false, lang = 'en' }) {
       </div>
       
       <div className="text-center z-10 space-y-3 mt-8">
-        <h3 className={`text-xl md:text-2xl font-black ${theme.text} uppercase tracking-[0.2em]`}>
+        <h3 className={`text-lg sm:text-xl md:text-2xl font-black tracking-widest px-2  ${theme.text} uppercase tracking-[0.2em]`}>
           {title}{dots}
         </h3>
         <p className="text-zinc-400 font-mono text-xs md:text-sm tracking-wider opacity-80">
