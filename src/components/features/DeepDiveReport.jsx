@@ -72,7 +72,7 @@ export default function DeepDiveReport({ lang = "en" }) {
           }
         } catch (err) {
           console.error("Failed to fetch report", err);
-          setError(true); localStorage.removeItem("aiKarma"); setAiReport("Error generating report. Please check your connection and try again.");
+          setError(true); localStorage.removeItem("aiKarma"); setAiReport("Cosmic interference detected. Please retry the generation.");
         } finally {
         setIsGenerating(false);
       }
@@ -134,7 +134,7 @@ export default function DeepDiveReport({ lang = "en" }) {
 })}
                   {error && (
                     <button onClick={fetchReport} className="self-start px-6 py-3 bg-zinc-100 text-black font-bold rounded-xl hover:bg-white transition-colors shadow-lg shadow-black/50">
-                      Retry Generation (Already Paid)
+                      Retry Generation
                     </button>
                   )}
                 </div>
