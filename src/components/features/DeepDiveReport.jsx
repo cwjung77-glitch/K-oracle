@@ -114,10 +114,10 @@ export default function DeepDiveReport({ lang = "en" }) {
 
           {/* Core Analysis (Dynamic Fetch) */}
         <section>
-          <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-6">
+          <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-6">
             <Flame className="text-zinc-300" size={32} /> The Grand Narrative of {displayYear}
           </h3>
-          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2.2] tracking-wide text-lg whitespace-pre-wrap font-serif">
+          <div className="glass-panel p-6 sm:p-8 md:p-10 rounded-3xl text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg whitespace-pre-wrap font-serif">
             {isGenerating ? (
               <CosmicLoader isBeauty={false} lang={lang} />
             ) : (
@@ -188,7 +188,7 @@ export default function DeepDiveReport({ lang = "en" }) {
               
               return (
                 <div className="grid md:grid-cols-2 gap-8">
-                  <div className="bg-gradient-to-br from-green-900/20 to-zinc-900 border border-green-500/30 p-8 rounded-3xl">
+                  <div className="bg-gradient-to-br from-green-900/20 to-zinc-900 border border-green-500/30 p-6 sm:p-8 rounded-3xl">
                     <div className="w-14 h-14 bg-green-500/10 rounded-2xl flex items-center justify-center mb-6">
                       <TrendingUp className="text-green-400" size={28} />
                     </div>
@@ -199,7 +199,7 @@ export default function DeepDiveReport({ lang = "en" }) {
                     </div>
                   </div>
                   
-                  <div className="bg-gradient-to-br from-pink-900/20 to-zinc-900 border border-pink-500/30 p-8 rounded-3xl">
+                  <div className="bg-gradient-to-br from-pink-900/20 to-zinc-900 border border-pink-500/30 p-6 sm:p-8 rounded-3xl">
                     <div className="w-14 h-14 bg-pink-500/10 rounded-2xl flex items-center justify-center mb-6">
                       <HeartPulse className="text-pink-400" size={28} />
                     </div>
@@ -217,8 +217,8 @@ export default function DeepDiveReport({ lang = "en" }) {
 
         
           {isCompatibility && (
-            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2.2] tracking-wide text-lg whitespace-pre-wrap font-serif">
-              <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-6">
+            <section className="mt-12 bg-zinc-800/30 p-8 rounded-2xl border border-pink-500/30 text-zinc-300 leading-[2] sm:leading-[2.2] tracking-wide text-base sm:text-lg whitespace-pre-wrap font-serif">
+              <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-6">
                 <HeartPulse className="text-pink-500" size={32} /> {isKo ? '전생의 인연 (Past Life Karma)' : 'Past Life Connection'}
               </h3>
               <div className="space-y-4">
@@ -238,10 +238,10 @@ export default function DeepDiveReport({ lang = "en" }) {
           {/* 12-Month Luck Heatmap */}
           {!isCompatibility && (
           <section>
-          <h3 className="text-3xl font-black neo-text tracking-tight flex items-center gap-3 mb-8">
+          <h3 className="text-3xl font-black neo-text tracking-tight flex flex-col sm:flex-row sm:items-center items-start gap-4 sm:gap-3 mb-8">
             <Activity className="text-blue-400" size={32} /> {displayYear} Energy Flow (Heatmap)
           </h3>
-          <div className="bg-zinc-800/30 p-8 rounded-3xl border border-zinc-700/50">
+          <div className="bg-zinc-800/30 p-6 sm:p-8 rounded-3xl border border-zinc-700/50">
             <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-6">
               {[
                 ...(() => { 
