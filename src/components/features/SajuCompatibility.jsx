@@ -257,7 +257,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 text-zinc-300 text-sm font-bold border border-zinc-700/50 mb-4">
             <Sparkles size={16} /> K-Destiny Matrix
           </div>
-          <h2 className="text-4xl font-black neo-text tracking-tight">Idol Saju Compatibility</h2>
+          <h2 className="text-4xl font-black tracking-tight"><span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-fuchsia-400 to-pink-500 drop-shadow-md">Idol Saju</span> <span className="text-zinc-200">Compatibility</span></h2>
           <p className="text-zinc-400 mt-2">Discover your cosmic connection based on Korean Astrology.</p>
         </div>
 

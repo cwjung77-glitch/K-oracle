@@ -250,7 +250,7 @@ export default function PersonalColor() {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-pink-500/10 text-pink-400 text-xs font-bold border border-pink-500/20 mb-4 tracking-widest uppercase">
             <ScanFace size={14} /> Cosmic Tone Scanner
           </div>
-          <h2 className="text-4xl font-black text-white tracking-tight">K-Beauty Personal Color</h2>
+          <h2 className="text-4xl font-black tracking-tight"><span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500 drop-shadow-md">K-Beauty</span> <span className="text-zinc-200">Personal Color</span></h2>
           <p className="text-zinc-200 mt-3 font-medium text-lg">Upload a selfie to decode your exact undertone and discover your K-Pop idol skin twin.</p>
         </div>
 
