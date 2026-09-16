@@ -168,7 +168,7 @@ export default function OracleLanding() {
             onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
-                ? 'bg-zinc-100 text-black shadow-lg shadow-white/5 border border-zinc-400/50' 
+                ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-[0_0_20px_rgba(168,85,247,0.4)] border border-violet-500/50' 
                 : 'text-zinc-500 hover:text-white border border-transparent hover:bg-white/5'
             }`}
           >

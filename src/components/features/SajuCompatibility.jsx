@@ -284,8 +284,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 mb-2">
                 <label className="text-sm font-medium text-zinc-300">2. Select Your Partner</label>
                 <div className="flex bg-zinc-800 rounded-lg p-1">
-                  <button onClick={() => setMatchType('idol')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'idol' ? 'bg-zinc-100 text-black' : 'text-zinc-400 hover:text-white'}`}>Idol Match</button>
-                  <button onClick={() => setMatchType('custom')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'custom' ? 'bg-zinc-100 text-black' : 'text-zinc-400 hover:text-white'}`}>Custom Match</button>
+                  <button onClick={() => setMatchType('idol')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'idol' ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-[0_0_10px_rgba(168,85,247,0.4)]' : 'text-zinc-400 hover:text-white'}`}>Idol Match</button>
+                  <button onClick={() => setMatchType('custom')} className={`px-3 py-1 text-xs font-bold rounded-md transition-colors ${matchType === 'custom' ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-[0_0_10px_rgba(168,85,247,0.4)]' : 'text-zinc-400 hover:text-white'}`}>Custom Match</button>
                 </div>
               </div>
               
