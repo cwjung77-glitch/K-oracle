@@ -553,7 +553,9 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         
                         <div className="relative z-10 text-center mb-6">
                           <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2 drop-shadow-lg">{result.score}%</div>
-                          <div className="text-yellow-500 font-bold tracking-widest text-sm uppercase">Perfect Match</div>
+                          <div className="text-yellow-500 font-bold tracking-widest text-sm uppercase">
+                            {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
+                          </div>
                         </div>
 
                         <div className="relative z-10 w-full bg-white text-black py-3 rounded-xl flex items-center justify-center gap-2 font-bold shadow-lg">
