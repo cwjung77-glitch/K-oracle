@@ -204,11 +204,25 @@ export default function SajuCompatibility({ onUnlockPremium }) {
 
     setTimeout(() => {
       setLoading(false);
+
+      // Filter talismans based on score to prevent semantic contradictions
+      let validTalismans = talismans;
+      if (score >= 90) {
+        validTalismans = talismans.filter(t => ['천생연분', '백년해로', '최애등극', '성덕인증', '만사형통', '운수대통', '영앤리치'].includes(t.text));
+      } else if (score >= 70) {
+        validTalismans = talismans.filter(t => !['천생연분', '백년해로', '기사회생', '액운퇴치'].includes(t.text));
+      } else {
+        // Under 70: Protective, Revival, or general fandom luck
+        validTalismans = talismans.filter(t => ['액운퇴치', '평안무사', '기사회생', '심기일전', '광클성공', '일취월장', '덕질만렙'].includes(t.text));
+      }
+      
+      if (validTalismans.length === 0) validTalismans = talismans; // fallback
+
       setResult({
         score: score,
         element: `${myElem} meets ${theirElem}`,
         description: descriptions[relationship],
-        talisman: talismans[combinedHash % talismans.length]
+        talisman: validTalismans[combinedHash % validTalismans.length]
       });
       setStep(2);
     }, 2000);
