@@ -441,15 +441,15 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                               ))}
                             </div>
                       
-                      <div className="relative z-10 w-full flex flex-col items-center mb-8 px-4">
-                        <div className="w-24 h-[3px] bg-zinc-600/50 mb-6"></div>
-                        <div className="text-zinc-400 font-bold text-3xl tracking-[0.2em] uppercase mb-4">
+                      <div className="relative z-10 w-full flex flex-col items-center mb-6 px-4">
+                        <div className="w-10 h-[1px] bg-zinc-600/50 mb-3"></div>
+                        <div className="text-zinc-400 font-bold text-xs tracking-[0.2em] uppercase mb-1 text-center">
                           {result.talisman.en}
                         </div>
-                        <div className="text-zinc-500 text-xl tracking-wider text-center leading-tight mb-6 opacity-80 uppercase">
+                        <div className="text-zinc-500 text-[10px] tracking-wider text-center leading-tight mb-2 opacity-80 uppercase">
                           {result.talisman.desc}
                         </div>
-                        <div className={`mt-6 text-xl text-zinc-600 font-mono tracking-widest font-bold`}>
+                        <div className={`mt-1 text-[8px] text-zinc-600 font-mono tracking-widest font-bold`}>
                           {isUltraRare ? `★ ${currentYear} LEGENDARY ★` : `K-ORACLE // ${currentYear} COLLECTION`}
                         </div>
                       </div>
@@ -536,7 +536,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
 
                 {/* Hidden IG Story Card for Image Generation */}
                 <div className="fixed top-0 left-[-9999px] z-[-10] pointer-events-none">
-                  <div id="ig-story-card" className="w-[1080px] h-[1920px] bg-zinc-950 rounded-3xl border border-zinc-800 p-16 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
+                  <div id="ig-story-card" className="w-[1080px] h-[1920px] pt-12 pb-16 bg-zinc-950 rounded-3xl border border-zinc-800 p-16 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
                         <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 via-black to-zinc-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-6 uppercase tracking-widest text-4xl">My Cosmic Soulmate</div>
@@ -548,14 +548,14 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         
                         <div className="relative z-10 my-10">
                           {/* EXACT MATCH BUJEOK (Minimalist) */}
-                          <div className={`w-[500px] h-[900px] bg-[#0A0A0A] rounded-[4rem] border-[8px] flex flex-col items-center justify-between relative overflow-hidden border-[4px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
+                          <div className={`w-[540px] h-[1050px] bg-[#0A0A0A] rounded-[4rem] border-[8px] flex flex-col items-center justify-between relative overflow-hidden border-[4px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${isUltraRare ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`} style={{ boxShadow: `0 0 30px ${t.glow}, inset 0 0 30px rgba(0,0,0,1)` }}>
                             <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                             
                             <div className={`mt-16 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
                               {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
                             </div>
                             
-                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[140px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                            <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[120px] sm:text-[130px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                               {result.talisman.text.split('').map((char, i) => (
                                 <span key={i} className="mb-0">{char}</span>
                               ))}
@@ -563,7 +563,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                             
                             <div className="relative z-10 w-full flex flex-col items-center mb-8 px-4">
                               <div className="w-24 h-[3px] bg-zinc-600/50 mb-6"></div>
-                              <div className="text-zinc-400 font-bold text-3xl tracking-[0.2em] uppercase mb-4">
+                              <div className="text-zinc-400 font-bold text-3xl tracking-[0.2em] uppercase mb-4 text-center">
                                 {result.talisman.en}
                               </div>
                               <div className="text-zinc-500 text-xl tracking-wider text-center leading-tight mb-6 opacity-80 uppercase">
