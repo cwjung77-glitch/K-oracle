@@ -26,7 +26,7 @@ export default function OracleLanding() {
 
   const handleLogoClick = () => {
     if (hasPaid) {
-      if (window.confirm(lang === 'ko' ? "PDF 마스?�플?�을 ?�운로드?�셨?�요? 지�?메인?�로 ?�아가�?분석 결과가 ?�구?�으�???��?�니??" : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
+      if (window.confirm(lang === 'ko' ? "PDF 마스?�플?�을 ?�운로드?�셨?�요? 지�?메인?�로 ?�아가�?분석 결과가 ?�구?�으�???��?�니??" : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
         localStorage.removeItem("hasPaid");
         setHasPaid(false);
         window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -64,7 +64,7 @@ export default function OracleLanding() {
       
       {/* Premium Cosmic Aurora Background */}
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/20 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '8s' }} />
-      <div className="absolute top-[10%] right-[-10%] w-[50%] h-[80%] bg-yellow-600/15 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '12s', animationDelay: '2s' }} />
+      <div className="absolute top-[10%] right-[-10%] w-[50%] h-[80%] bg-zinc-600/15 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '12s', animationDelay: '2s' }} />
       <div className="absolute bottom-[-20%] left-[10%] w-[70%] h-[60%] bg-pink-600/15 blur-[150px] rounded-full mix-blend-screen animate-pulse pointer-events-none" style={{ animationDuration: '10s', animationDelay: '4s' }} />
       
       {/* Stardust Effect */}
@@ -112,7 +112,7 @@ export default function OracleLanding() {
         
         <h1 className="text-[11vw] sm:text-6xl md:text-8xl font-black leading-[1.1] tracking-tighter mb-8">
           <span className="block text-zinc-300 font-serif italic font-medium">Decode Your</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 via-yellow-400 to-orange-500 drop-shadow-lg">Destiny</span> 
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-zinc-200 via-zinc-400 to-zinc-500 drop-shadow-lg">Destiny</span> 
           <span className="text-zinc-600 font-sans font-light mx-1 sm:mx-4">&</span> 
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 drop-shadow-lg">Aura</span>
         </h1>
@@ -126,7 +126,7 @@ export default function OracleLanding() {
           {!hasPaid && recentHistory.length > 0 && (
             <div className="w-full max-w-sm mx-auto mb-6">
               <h3 className="text-zinc-300 font-bold text-sm mb-3 flex items-center gap-2 justify-center">
-                <Sparkles size={14} /> {lang === 'ko' ? '최근 ?�람??기록' : 'Recent Readings'}
+                <Sparkles size={14} /> {lang === 'ko' ? '최근 ?�람??기록' : 'Recent Readings'}
               </h3>
               <div className="space-y-2">
                 {recentHistory.map((item, idx) => (
@@ -152,7 +152,7 @@ export default function OracleLanding() {
                     className="w-full bg-zinc-900/80 hover:bg-zinc-800 border border-white/5 rounded-xl p-3 flex items-center justify-between transition-colors text-left"
                   >
                     <div>
-                      <div className="font-bold text-zinc-200 text-sm">{item.type === 'saju' && item.plan === 'compatibility' ? `${item.name} ?�️ ${item.idolName}` : item.name}</div>
+                      <div className="font-bold text-zinc-200 text-sm">{item.type === 'saju' && item.plan === 'compatibility' ? `${item.name} ?�️ ${item.idolName}` : item.name}</div>
                       <div className="text-xs text-zinc-500 capitalize">{item.type === 'saju' ? (item.plan === 'compatibility' ? 'Cosmic Chemistry' : 'Saju Masterplan') : 'K-Beauty'}</div>
                     </div>
                     <div className="text-xs text-zinc-500">{item.date}</div>
@@ -168,11 +168,11 @@ export default function OracleLanding() {
             onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
-                ? 'bg-gradient-to-r from-yellow-600/90 to-red-600/90 text-white shadow-[0_0_20px_rgba(234,179,8,0.3)] border border-zinc-400/50' 
+                ? 'bg-zinc-100 text-black shadow-lg shadow-white/5 border border-zinc-400/50' 
                 : 'text-zinc-500 hover:text-white border border-transparent hover:bg-white/5'
             }`}
           >
-            <Moon size={20} className={activeTab === 'saju' ? 'text-yellow-200' : ''} /> 
+            <Moon size={20} className={activeTab === 'saju' ? 'text-zinc-200' : ''} /> 
             <span className="tracking-wide">K-ASTROLOGY</span>
           </button>
           <button 
@@ -220,7 +220,7 @@ export default function OracleLanding() {
                   </div>
 
                   {/* Tier 3: Bundle (Most Popular) */}
-                  <div className="bg-gradient-to-b from-yellow-900/20 to-black border-2 border-zinc-400 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-[0_0_30px_rgba(234,179,8,0.15)] z-10">
+                  <div className="bg-gradient-to-b from-zinc-800/40 to-black border-2 border-zinc-400 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-lg shadow-white/10 z-10">
                     <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-zinc-100 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
                     <h3 className="text-2xl font-bold text-zinc-300">26+27 Bundle</h3>
                     <p className="text-zinc-400 text-sm mt-2 mb-6">The ultimate 15-month masterplan.</p>

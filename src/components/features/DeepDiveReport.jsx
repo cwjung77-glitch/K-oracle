@@ -82,7 +82,7 @@ export default function DeepDiveReport({ lang = "en" }) {
     <div id="premium-report" className="w-full max-w-5xl mx-auto mt-20 relative animate-in fade-in slide-in-from-bottom-10 duration-1000 border border-zinc-400/30 rounded-[3rem] overflow-hidden shadow-[0_0_100px_rgba(234,179,8,0.1)]">
       
       {/* VIP Header Banner */}
-      <div className="bg-gradient-to-r from-yellow-600 via-yellow-400 to-yellow-600 text-black py-6 px-8 flex flex-col md:flex-row items-center justify-between">
+      <div className="bg-gradient-to-r from-zinc-600 via-zinc-400 to-zinc-600 text-black py-6 px-8 flex flex-col md:flex-row items-center justify-between">
         <div className="flex items-center gap-3 font-black text-xl tracking-tighter">
           <Lock size={20} />
           CONFIDENTIAL DESTINY REPORT
@@ -98,8 +98,8 @@ export default function DeepDiveReport({ lang = "en" }) {
           {/* Daily Fortune */}
           {!isGenerating && reportData?.dailyFortune && (
             <section className="mb-12">
-              <div className="bg-gradient-to-r from-yellow-500/10 to-transparent p-1 rounded-2xl">
-                <div className="bg-zinc-900 rounded-2xl p-6 border border-zinc-700/50 shadow-[0_0_30px_rgba(234,179,8,0.05)]">
+              <div className="bg-gradient-to-r from-zinc-500/10 to-transparent p-1 rounded-2xl">
+                <div className="bg-zinc-900 rounded-2xl p-6 border border-zinc-700/50 shadow-lg shadow-white/10">
                   <div className="flex items-center gap-2 mb-3">
                     <Sparkles className="text-zinc-300" size={20} />
                     <h4 className="text-zinc-300 font-bold uppercase tracking-widest text-sm">{isCompatibility ? (isKo ? '오늘의 궁합 바이브' : 'Today\'s Chemistry Vibe') : (isKo ? '오늘의 맞춤 운세' : 'Your Daily Cosmic Vibe')}</h4>
@@ -272,7 +272,7 @@ export default function DeepDiveReport({ lang = "en" }) {
               ].map((month) => {
                 let barColor = 'bg-zinc-500';
                 if (month.s >= 85) barColor = 'bg-zinc-100 shadow-[0_0_15px_rgba(234,179,8,0.5)]';
-                else if (month.s <= 35) barColor = 'bg-red-500';
+                else if (month.s <= 35) barColor = 'bg-zinc-500';
                 
                 return (
                   <div key={month.m} className="flex flex-col items-center gap-2">
@@ -296,7 +296,7 @@ export default function DeepDiveReport({ lang = "en" }) {
                   <span className="text-sm font-semibold text-zinc-400">{isKo ? '평운 (안정기)' : 'Stable Energy'}</span>
                 </div>
                 <div className="flex items-center gap-2">
-                  <div className="w-3 h-3 rounded-full bg-red-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
+                  <div className="w-3 h-3 rounded-full bg-zinc-500 shadow-[0_0_10px_rgba(239,68,68,0.5)]"></div>
                   <span className="text-sm font-semibold text-zinc-300">{isKo ? '흉운 (주의 구간)' : 'Caution (35%-)'}</span>
                 </div>
               </div>

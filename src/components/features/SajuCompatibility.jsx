@@ -383,7 +383,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
             <button 
               onClick={handleAnalyze}
               disabled={loading}
-              className="w-full py-4 mt-4 bg-gradient-to-r from-yellow-600 to-red-600 hover:from-yellow-500 hover:to-red-500 text-white font-black rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(234,179,8,0.3)] disabled:opacity-50"
+              className="w-full py-4 mt-4 bg-zinc-100 hover:bg-white text-black text-white font-black rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all shadow-lg shadow-white/10 disabled:opacity-50"
             >
               {loading ? (
                 <span className="animate-pulse">Reading the Stars...</span>
@@ -465,11 +465,11 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   
                   <div className="flex items-center justify-center gap-4 mb-4">
                     <span className="text-xl font-bold">{userName || 'You'}</span>
-                    <Heart className={`text-red-500 fill-red-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} />
+                    <Heart className={`text-zinc-500 fill-zinc-500 ${isUltraRare ? 'animate-bounce' : 'animate-pulse'}`} />
                     <span className="text-xl font-bold">{selectedIdol.name}</span>
                   </div>
 
-                  <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2">
+                  <div className="text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600 mb-2">
                     {result.score}% Match
                   </div>
                   <div className="text-zinc-300 font-bold mb-6">{result.element}</div>
@@ -482,7 +482,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <p className="text-zinc-400 font-bold text-sm text-center mb-2">Deep Chemistry Analysis Includes:</p>
                     
                     <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
-                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
                         <div className="text-white font-bold flex items-center gap-2 text-sm">
                           <Lock size={14} className="text-zinc-300" />
@@ -495,7 +495,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     </div>
 
                     <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
-                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
                         <div className="text-white font-bold flex items-center gap-2 text-sm">
                           <Lock size={14} className="text-zinc-300" />
@@ -508,7 +508,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     </div>
 
                     <div onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="cursor-pointer relative overflow-hidden bg-zinc-900 border border-zinc-800 rounded-xl p-4 flex items-center justify-between group hover:border-zinc-400/50 transition-colors">
-                      <div className="absolute inset-0 bg-gradient-to-r from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                      <div className="absolute inset-0 bg-gradient-to-r from-zinc-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                       <div className="flex flex-col gap-1 z-10">
                         <div className="text-white font-bold flex items-center gap-2 text-sm">
                           <Lock size={14} className="text-zinc-300" />
@@ -521,7 +521,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     </div>
                   </div>
 
-                  <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-yellow-500 to-amber-500 hover:from-yellow-400 hover:to-amber-400 text-black font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_40px_rgba(245,158,11,0.5)] hover:scale-[1.02]">
+                  <button onClick={() => { localStorage.setItem('idolName', selectedIdol.name); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-zinc-100 hover:bg-white text-black font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-xl shadow-white/20 hover:scale-[1.02]">
                     Unlock Deep Chemistry Report ($4.99)
                   </button>
                   <div className="flex gap-4">
@@ -537,7 +537,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                 {/* Hidden IG Story Card for Image Generation */}
                 <div className="fixed top-0 left-[-9999px] z-[-10] pointer-events-none">
                   <div id="ig-story-card" className="w-full aspect-[9/16] bg-zinc-950 rounded-3xl border border-zinc-800 p-6 flex flex-col items-center justify-between relative overflow-hidden shadow-2xl">
-                        <div className="absolute inset-0 bg-gradient-to-br from-yellow-500/10 via-black to-red-500/10"></div>
+                        <div className="absolute inset-0 bg-gradient-to-br from-zinc-500/10 via-black to-zinc-500/10"></div>
                         <div className="relative z-10 w-full text-center mt-6">
                           <div className="text-zinc-400 font-bold mb-2 uppercase tracking-widest text-xs">My Cosmic Soulmate</div>
                             <div className="text-2xl font-black text-white bg-black/80 py-2 px-4 rounded-full inline-block border border-white/10">
@@ -576,7 +576,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         </div>
                         
                         <div className="relative z-10 text-center mb-6">
-                          <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-yellow-600 mb-2 drop-shadow-lg">{result.score}%</div>
+                          <div className="text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r from-zinc-400 to-zinc-600 mb-2 drop-shadow-lg">{result.score}%</div>
                           <div className="text-zinc-300 font-bold tracking-widest text-sm uppercase mb-4">
                             {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
                           </div>
