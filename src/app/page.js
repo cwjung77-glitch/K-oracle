@@ -152,7 +152,7 @@ export default function OracleLanding() {
                     className="w-full bg-zinc-900/80 hover:bg-zinc-800 border border-white/5 rounded-xl p-3 flex items-center justify-between transition-colors text-left"
                   >
                     <div>
-                      <div className="font-bold text-zinc-200 text-sm">{item.type === "saju" && item.plan === "compatibility" ? ${item.name} ❤️  : item.name}</div>
+                      <div className="font-bold text-zinc-200 text-sm">{item.type === "saju" && item.plan === "compatibility" ? `${item.name} ❤️ ${item.idolName}` : item.name}</div>
                       <div className="text-xs text-zinc-500 capitalize">{item.type === 'saju' ? (item.plan === 'compatibility' ? 'Cosmic Chemistry' : 'Saju Masterplan') : 'K-Beauty'}</div>
                     </div>
                     <div className="text-xs text-zinc-500">{item.date}</div>
