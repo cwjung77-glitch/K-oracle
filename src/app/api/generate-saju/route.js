@@ -210,6 +210,17 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
       match = text.match(regex);
       if (match) return match[1].trim();
 
+      // Markdown fallback
+      if (sectionName === 'REPORT') regex = /(?:^|\n)(?:##?\s*)?(?:\*\*)?(?:Deep Cosmic Chemistry|Astrology Masterplan|Report)(?:\*\*)?.*?\n([\s\S]*?)(?=\n(?:##?\s*)?(?:\*\*)?(?:Past Life|Karma|Today|Fortune|Matrix)(?:\*\*)?|$)/i;
+      else if (sectionName === 'KARMA') regex = /(?:^|\n)(?:##?\s*)?(?:\*\*)?(?:Past Life|Karma)(?:\*\*)?.*?\n([\s\S]*?)(?=\n(?:##?\s*)?(?:\*\*)?(?:Deep Cosmic Chemistry|Astrology Masterplan|Report|Today|Fortune|Matrix)(?:\*\*)?|$)/i;
+      else if (sectionName === 'FORTUNE') regex = /(?:^|\n)(?:##?\s*)?(?:\*\*)?(?:Today|Fortune)(?:\*\*)?.*?\n([\s\S]*?)(?=\n(?:##?\s*)?(?:\*\*)?(?:Deep Cosmic Chemistry|Astrology Masterplan|Report|Past Life|Karma|Matrix)(?:\*\*)?|$)/i;
+      else if (sectionName === 'MATRIX') regex = /\{[\s\S]*"wealth"[\s\S]*\}/i;
+
+      match = text.match(regex);
+      if (match) {
+        if (sectionName === 'MATRIX') return match[0].trim();
+        return match[1].trim();
+      }
       return null;
     };
     
