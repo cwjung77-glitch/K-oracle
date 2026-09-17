@@ -16,12 +16,16 @@ export default function PersonalColor() {
   const colors = [
     {
       season: "SPRING WARM",
-      kor: "Î¥??úÌÜ§",
+      kor: "ÈÅä??ÏíóÎÑ†",
       theme: "from-orange-200 via-yellow-100 to-amber-200",
       textColor: "text-orange-400",
       cardText: "text-orange-900",
-      femaleIdols: ["Suzy (?òÏ?)", "Sana (?¨ÎÇò - TWICE)", "Joy (Ï°∞Ïù¥ - Red Velvet)", "Nayeon (?òÏó∞ - TWICE)", "Minji (ÎØºÏ? - NewJeans)", "Eunchae (?ÄÏ±?- LE SSERAFIM)", "Rei (?àÏù¥ - IVE)", "Winter (?àÌÑ∞ - aespa)", "Chuu (Ï∏?", "Yuqi (?∞Í∏∞ - (G)I-DLE)", "Yeri (?àÎ¶¨ - Red Velvet)", "Ningning (?ùÎãù - aespa)", "Sakura (?¨Ïø†??- LE SSERAFIM)", "Ryujin (Î•òÏßÑ - ITZY)", "Yujin (ÏµúÏú†Ïß?- Kep1er)", "Jiwon (ÏßÄ??- fromis_9)", "YooA (?†ÏïÑ - Oh My Girl)", "Lia (Î¶¨ÏïÑ - ITZY)", "Dayeon (?§Ïó∞ - Kep1er)", "Tsuki (Ï∏†ÌÇ§ - Billlie)"],
-      maleIdols: ["V (Î∑?- BTS)", "Cha Eunwoo (Ï∞®Ï???- ASTRO)", "Minhyun (?©Î???", "Jungwoo (?ïÏö∞ - NCT)", "Sunoo (?†Ïö∞ - ENHYPEN)", "Soobin (?òÎπà - TXT)", "Jaehyun (?¨ÌòÑ - BOYNEXTDOOR)", "DK (?ÑÍ≤∏ - SEVENTEEN)", "Jeno (?úÎÖ∏ - NCT)", "Doyoung (?ÑÏòÅ - NCT)", "Rowoon (Î°úÏö¥)", "Huening Kai (?¥ÎãùÏπ¥Ïù¥ - TXT)", "Taehyun (?úÌòÑ - TXT)", "Jake (?úÏù¥??- ENHYPEN)", "Anton (?§ÌÜ§ - RIIZE)", "Eunseok (?Ä??- RIIZE)", "Seungkwan (?πÍ? - SEVENTEEN)", "Hoshi (?∏Ïãú - SEVENTEEN)", "Han (??- Stray Kids)", "Seungmin (?πÎ? - Stray Kids)"],
+      femaleIdols: ["Karina (aespa)", "Jisoo (BLACKPINK)", "Chaeyoung (TWICE)", "Hyein (NewJeans)", "Yuna (ITZY)", "Leeseo (IVE)", "Shuhua ((G)I-DLE)", "Kyujin (NMIXX)", "Yoon (STAYC)", "Lily (NMIXX)", "Moonbyul (MAMAMOO)", "Solar (MAMAMOO)", "Eunbi (Kwon Eunbi)", "Liz (IVE)", "Bae (NMIXX)", "Jeongyeon (TWICE)", "Dahyun (TWICE)", "Seoyeon (fromis_9)", "Nakyung (fromis_9)", "Belle (KISS OF LIFE)"],
+        maleIdols: ["Sehun (EXO)", "Taeyong (NCT)", "Felix (Stray Kids)", "Sungchan (RIIZE)", "Lee Know (Stray Kids)", "Suga (BTS)", "Minghao (SEVENTEEN)", "Heeseung (ENHYPEN)", "Shotaro (RIIZE)", "Jin (BTS)", "Ten (WayV)", "Xiaojun (WayV)", "Hendery (WayV)", "Woozi (SEVENTEEN)", "Woonhak (BOYNEXTDOOR)", "Riwoo (BOYNEXTDOOR)", "Jihoon (TREASURE)", "Junkyu (TREASURE)", "Doyoung (TREASURE)", "Jeongwoo (TREASURE)"],,
+        maleIdols: ["Kai (EXO)", "Mingyu (SEVENTEEN)", "Yeonjun (TXT)", "Haechan (NCT)", "Hyunjin (Stray Kids)", "Jimin (BTS)", "Jeonghan (SEVENTEEN)", "Jay (ENHYPEN)", "Jaehyun (NCT)", "Johnny (NCT)", "Yuta (NCT)", "S.Coups (SEVENTEEN)", "Jun (SEVENTEEN)", "Bang Chan (Stray Kids)", "Changbin (Stray Kids)", "RM (BTS)", "J-Hope (BTS)", "Haruto (TREASURE)", "Yoshi (TREASURE)", "Asahi (TREASURE)"],,
+        maleIdols: ["Jungkook (BTS)", "Wonbin (RIIZE)", "Beomgyu (TXT)", "Mark (NCT)", "Taemin (SHINee)", "Baekhyun (EXO)", "Joshua (SEVENTEEN)", "Sunghoon (ENHYPEN)", "Sohee (RIIZE)", "Renjun (NCT)", "Chenle (NCT)", "I.N (Stray Kids)", "Wonwoo (SEVENTEEN)", "Vernon (SEVENTEEN)", "Dino (SEVENTEEN)", "Jungwon (ENHYPEN)", "Ni-ki (ENHYPEN)", "Taesan (BOYNEXTDOOR)", "Leehan (BOYNEXTDOOR)", "Hyunsuk (TREASURE)"],,
+        maleIdols: ["V (BTS)", "Cha Eunwoo (ASTRO)", "Minhyun", "Jungwoo (NCT)", "Sunoo (ENHYPEN)", "Soobin (TXT)", "Jaehyun (BOYNEXTDOOR)", "DK (SEVENTEEN)", "Jeno (NCT)", "Doyoung (NCT)", "Rowoon", "Huening Kai (TXT)", "Taehyun (TXT)", "Jake (ENHYPEN)", "Anton (RIIZE)", "Eunseok (RIIZE)", "Seungkwan (SEVENTEEN)", "Hoshi (SEVENTEEN)", "Han (Stray Kids)", "Seungmin (Stray Kids)"],,
+      maleIdols: ["V (BTS)", "Cha Eunwoo (ASTRO)", "Minhyun (?‚ë∏???", "Jungwoo (NCT)", "Sunoo (ENHYPEN)", "Soobin (TXT)", "Jaehyun (BOYNEXTDOOR)", "DK (SEVENTEEN)", "Jeno (NCT)", "Doyoung (NCT)", "Rowoon", "Huening Kai (TXT)", "Taehyun (TXT)", "Jake (ENHYPEN)", "Anton (RIIZE)", "Eunseok (RIIZE)", "Seungkwan (SEVENTEEN)", "Hoshi (SEVENTEEN)", "Han (Stray Kids)", "Seungmin (Stray Kids)"],
       desc: "Like your idol skin twin! You look glowing in bright, warm, and peachy colors. Your aura is fresh, vibrant, and incredibly lovely.",
       colorPool: [{hex:'#FFB6C1', name:'Light Pink'}, {hex:'#FFA07A', name:'Salmon'}, {hex:'#FFDAB9', name:'Peach'}, {hex:'#F0E68C', name:'Khaki'}, {hex:'#98FB98', name:'Mint'}, {hex:'#FF8C00', name:'Dark Orange'}, {hex:'#FF7F50', name:'Coral'}, {hex:'#FFFFE0', name:'Light Yellow'}, {hex:'#ADFF2F', name:'Green Yellow'}, {hex:'#FF69B4', name:'Hot Pink'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#FFE4B5', name:'Moccasin'}],
       tagPool: [{bg:'bg-orange-500/20', text:'text-orange-400', label:'Peach'}, {bg:'bg-yellow-500/20', text:'text-yellow-400', label:'Coral'}, {bg:'bg-lime-500/20', text:'text-lime-400', label:'Fresh Green'}, {bg:'bg-amber-500/20', text:'text-amber-400', label:'Warm Gold'}],
@@ -42,12 +46,12 @@ export default function PersonalColor() {
     },
     {
       season: "SUMMER COOL",
-      kor: "?¨Î¶Ñ Ïø®ÌÜ§",
+      kor: "?—âÏ´´ Ëçë‚ë¶ÎÑ†",
       theme: "from-pink-200 via-purple-100 to-blue-200",
       textColor: "text-pink-400",
       cardText: "text-indigo-900",
-      femaleIdols: ["Wonyoung (?êÏòÅ - IVE)", "Irene (?ÑÏù¥Î¶?- Red Velvet)", "Chaewon (Ï±ÑÏõê - LE SSERAFIM)", "Hanni (?òÎãà - NewJeans)", "Sullyoon (?§Ïú§ - NMIXX)", "An Yujin (?àÏú†Ïß?- IVE)", "Miyeon (ÎØ∏Ïó∞ - (G)I-DLE)", "Haerin (?¥Î¶∞ - NewJeans)", "Isa (?ÑÏù¥??- STAYC)", "Arin (?ÑÎ¶∞ - Oh My Girl)", "Binnie (?†Îπà - Oh My Girl)", "Wendy (?¨Îîî - Red Velvet)", "Yeseo (?àÏÑú - Kep1er)", "J (?úÏù¥ - STAYC)", "Sieun (?úÏ? - STAYC)", "Xiaoting (?§Ïò§??- Kep1er)", "Jiwoo (ÏßÄ??- NMIXX)", "Haewon (?¥Ïõê - NMIXX)", "Seeun (?∏Ï? - STAYC)", "Natty (?òÎù† - KISS OF LIFE)"],
-      maleIdols: ["Jungkook (?ïÍµ≠ - BTS)", "Wonbin (?êÎπà - RIIZE)", "Beomgyu (Î≤îÍ∑ú - TXT)", "Mark (ÎßàÌÅ¨ - NCT)", "Taemin (?úÎ? - SHINee)", "Baekhyun (Î∞±ÌòÑ - EXO)", "Joshua (Ï°∞Ïäà??- SEVENTEEN)", "Sunghoon (?±Ìõà - ENHYPEN)", "Sohee (?åÌù¨ - RIIZE)", "Renjun (?∞Ï•î - NCT)", "Chenle (Ï≤úÎü¨ - NCT)", "I.N (?ÑÏù¥??- Stray Kids)", "Wonwoo (?êÏö∞ - SEVENTEEN)", "Vernon (Î≤ÑÎÖº - SEVENTEEN)", "Dino (?îÎÖ∏ - SEVENTEEN)", "Jungwon (?ïÏõê - ENHYPEN)", "Ni-ki (?àÌÇ§ - ENHYPEN)", "Taesan (?úÏÇ∞ - BOYNEXTDOOR)", "Leehan (?¥Ìïú - BOYNEXTDOOR)", "Hyunsuk (?ÑÏÑù - TREASURE)"],
+      femaleIdols: ["Wonyoung (IVE)", "Irene (Red Velvet)", "Chaewon (LE SSERAFIM)", "Hanni (NewJeans)", "Sullyoon (NMIXX)", "An Yujin (IVE)", "Miyeon ((G)I-DLE)", "Haerin (NewJeans)", "Isa (STAYC)", "Arin (Oh My Girl)", "Binnie (Oh My Girl)", "Wendy (Red Velvet)", "Yeseo (Kep1er)", "J (STAYC)", "Sieun (STAYC)", "Xiaoting (Kep1er)", "Jiwoo (NMIXX)", "Haewon (NMIXX)", "Seeun (STAYC)", "Natty (KISS OF LIFE)"],
+      maleIdols: ["Jungkook (BTS)", "Wonbin (RIIZE)", "Beomgyu (TXT)", "Mark (NCT)", "Taemin (SHINee)", "Baekhyun (EXO)", "Joshua (SEVENTEEN)", "Sunghoon (ENHYPEN)", "Sohee (RIIZE)", "Renjun (NCT)", "Chenle (NCT)", "I.N (Stray Kids)", "Wonwoo (SEVENTEEN)", "Vernon (SEVENTEEN)", "Dino (SEVENTEEN)", "Jungwon (ENHYPEN)", "Ni-ki (ENHYPEN)", "Taesan (BOYNEXTDOOR)", "Leehan (BOYNEXTDOOR)", "Hyunsuk (TREASURE)"],
       desc: "Like your idol skin twin! Your skin looks flawless with pastel and cool-toned makeup. Your aura is elegant, clear, and sophisticated.",
       colorPool: [{hex:'#E6E6FA', name:'Lavender'}, {hex:'#D8BFD8', name:'Thistle'}, {hex:'#B0E0E6', name:'Powder Blue'}, {hex:'#FFC0CB', name:'Pink'}, {hex:'#E0FFFF', name:'Light Cyan'}, {hex:'#87CEFA', name:'Sky Blue'}, {hex:'#FFB6C1', name:'Light Pink'}, {hex:'#DDA0DD', name:'Plum'}, {hex:'#F0F8FF', name:'Alice Blue'}, {hex:'#E6E6FA', name:'Lavender'}, {hex:'#FFF0F5', name:'Lavender Blush'}, {hex:'#ADD8E6', name:'Light Blue'}],
       tagPool: [{bg:'bg-pink-500/20', text:'text-pink-400', label:'Pastel Pink'}, {bg:'bg-blue-500/20', text:'text-blue-400', label:'Lavender'}, {bg:'bg-indigo-500/20', text:'text-indigo-400', label:'Mute Blue'}, {bg:'bg-fuchsia-500/20', text:'text-fuchsia-400', label:'Cool Berry'}],
@@ -68,12 +72,12 @@ export default function PersonalColor() {
     },
     {
       season: "AUTUMN WARM",
-      kor: "Í∞Ä???úÌÜ§",
+      kor: "Â™õ¬Ä???ÏíóÎÑ†",
       theme: "from-amber-700 via-orange-800 to-red-900",
       textColor: "text-amber-500",
       cardText: "text-amber-100",
-      femaleIdols: ["Jennie (?úÎãà - BLACKPINK)", "Seulgi (?¨Í∏∞ - Red Velvet)", "Kazuha (Ïπ¥Ï¶à??- LE SSERAFIM)", "Danielle (?§Îãà??- NewJeans)", "Giselle (ÏßÄ??- aespa)", "Ros√© (Î°úÏ†ú - BLACKPINK)", "Hwasa (?îÏÇ¨ - MAMAMOO)", "Gaeul (Í∞Ä??- IVE)", "Yeji (?àÏ? - ITZY)", "Minnie (ÎØºÎãà - (G)I-DLE)", "Soyeon (?åÏó∞ - (G)I-DLE)", "Lisa (Î¶¨ÏÇ¨ - BLACKPINK)", "Yunjin (?§ÏßÑ - LE SSERAFIM)", "Chaeryeong (Ï±ÑÎ†π - ITZY)", "Momo (Î™®Î™® - TWICE)", "Mina (ÎØ∏ÎÇò - TWICE)", "Tzuyu (ÏØîÏúÑ - TWICE)", "Jihyo (ÏßÄ??- TWICE)", "Sumin (?òÎ? - STAYC)", "Julie (Ï•¥Î¶¨ - KISS OF LIFE)"],
-      maleIdols: ["Kai (Ïπ¥Ïù¥ - EXO)", "Mingyu (ÎØºÍ∑ú - SEVENTEEN)", "Yeonjun (?∞Ï? - TXT)", "Haechan (?¥Ï∞¨ - NCT)", "Hyunjin (?ÑÏßÑ - Stray Kids)", "Jimin (ÏßÄÎØ?- BTS)", "Jeonghan (?ïÌïú - SEVENTEEN)", "Jay (?úÏù¥ - ENHYPEN)", "Jaehyun (?¨ÌòÑ - NCT)", "Johnny (?àÎãà - NCT)", "Yuta (?†Ì? - NCT)", "S.Coups (?êÏä§Ïø±Ïä§ - SEVENTEEN)", "Jun (Ï§Ä - SEVENTEEN)", "Bang Chan (Î∞©Ï∞¨ - Stray Kids)", "Changbin (Ï∞ΩÎπà - Stray Kids)", "RM (?åÏó† - BTS)", "J-Hope (?úÏù¥??- BTS)", "Haruto (?òÎ£®??- TREASURE)", "Yoshi (?îÏãú - TREASURE)", "Asahi (?ÑÏÇ¨??- TREASURE)"],
+      femaleIdols: ["Jennie (BLACKPINK)", "Seulgi (Red Velvet)", "Kazuha (LE SSERAFIM)", "Danielle (NewJeans)", "Giselle (aespa)", "RosÏ±ï (BLACKPINK)", "Hwasa (MAMAMOO)", "Gaeul (IVE)", "Yeji (ITZY)", "Minnie ((G)I-DLE)", "Soyeon ((G)I-DLE)", "Lisa (BLACKPINK)", "Yunjin (LE SSERAFIM)", "Chaeryeong (ITZY)", "Momo (TWICE)", "Mina (TWICE)", "Tzuyu (TWICE)", "Jihyo (TWICE)", "Sumin (STAYC)", "Julie (KISS OF LIFE)"],
+      maleIdols: ["Kai (EXO)", "Mingyu (SEVENTEEN)", "Yeonjun (TXT)", "Haechan (NCT)", "Hyunjin (Stray Kids)", "Jimin (BTS)", "Jeonghan (SEVENTEEN)", "Jay (ENHYPEN)", "Jaehyun (NCT)", "Johnny (NCT)", "Yuta (NCT)", "S.Coups (SEVENTEEN)", "Jun (SEVENTEEN)", "Bang Chan (Stray Kids)", "Changbin (Stray Kids)", "RM (BTS)", "J-Hope (BTS)", "Haruto (TREASURE)", "Yoshi (TREASURE)", "Asahi (TREASURE)"],
       desc: "Like your idol skin twin! You rock deep, rich, and earthy tones. Your aura is luxurious, chic, and effortlessly cool.",
       colorPool: [{hex:'#8B4513', name:'Saddle Brown'}, {hex:'#A0522D', name:'Sienna'}, {hex:'#D2691E', name:'Chocolate'}, {hex:'#CD853F', name:'Peru'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#D2B48C', name:'Tan'}, {hex:'#DEB887', name:'Burlywood'}, {hex:'#BC8F8F', name:'Rosy Brown'}, {hex:'#F5DEB3', name:'Wheat'}, {hex:'#800000', name:'Maroon'}, {hex:'#A52A2A', name:'Brown'}, {hex:'#DAA520', name:'Goldenrod'}],
       tagPool: [{bg:'bg-amber-500/20', text:'text-amber-400', label:'Brick Red'}, {bg:'bg-orange-900/20', text:'text-orange-400', label:'Mute Brown'}, {bg:'bg-yellow-700/20', text:'text-yellow-600', label:'Deep Gold'}, {bg:'bg-red-800/20', text:'text-red-400', label:'Chili'}],
@@ -94,12 +98,12 @@ export default function PersonalColor() {
     },
     {
       season: "WINTER COOL",
-      kor: "Í≤®Ïö∏ Ïø®ÌÜ§",
+      kor: "ÂØÉ‚ë•Ïä± Ëçë‚ë¶ÎÑ†",
       theme: "from-fuchsia-900 via-purple-900 to-indigo-950",
       textColor: "text-fuchsia-400",
       cardText: "text-fuchsia-100",
-      femaleIdols: ["Karina (Ïπ¥Î¶¨??- aespa)", "Jisoo (ÏßÄ??- BLACKPINK)", "Chaeyoung (Ï±ÑÏòÅ - TWICE)", "Hyein (?úÏù∏ - NewJeans)", "Yuna (?†ÎÇò - ITZY)", "Leeseo (?¥ÏÑú - IVE)", "Shuhua (?àÌôî - (G)I-DLE)", "Kyujin (Í∑úÏßÑ - NMIXX)", "Yoon (??- STAYC)", "Lily (Î¶¥Î¶¨ - NMIXX)", "Moonbyul (Î¨∏Î≥Ñ - MAMAMOO)", "Solar (?îÎùº - MAMAMOO)", "Eunbi (Í∂åÏ?Îπ?", "Liz (Î¶¨Ï¶à - IVE)", "Bae (Î∞∞Ïù¥ - NMIXX)", "Jeongyeon (?ïÏó∞ - TWICE)", "Dahyun (?§ÌòÑ - TWICE)", "Seoyeon (?úÏó∞ - fromis_9)", "Nakyung (?¥ÎÇòÍ≤?- fromis_9)", "Belle (Î≤?- KISS OF LIFE)"],
-      maleIdols: ["Sehun (?∏Ìõà - EXO)", "Taeyong (?úÏö© - NCT)", "Felix (?ÑÎ¶≠??- Stray Kids)", "Sungchan (?±Ï∞¨ - RIIZE)", "Lee Know (Î¶¨ÎÖ∏ - Stray Kids)", "Suga (?àÍ? - BTS)", "Minghao (?îÏóê??- SEVENTEEN)", "Heeseung (?¨Ïäπ - ENHYPEN)", "Shotaro (?ºÌ?Î°?- RIIZE)", "Jin (Ïß?- BTS)", "Ten (??- NCT)", "Xiaojun (?§Ïò§Ï•?- WayV)", "Hendery (?®ÎìúÎ¶?- WayV)", "Woozi (?∞Ï? - SEVENTEEN)", "Woonhak (?¥Ìïô - BOYNEXTDOOR)", "Riwoo (Î¶¨Ïö∞ - BOYNEXTDOOR)", "Jihoon (ÏßÄ??- TREASURE)", "Junkyu (Ï§ÄÍ∑?- TREASURE)", "Doyoung (?ÑÏòÅ - TREASURE)", "Jeongwoo (?ïÏö∞ - TREASURE)"],
+      femaleIdols: ["Karina (aespa)", "Jisoo (BLACKPINK)", "Chaeyoung (TWICE)", "Hyein (NewJeans)", "Yuna (ITZY)", "Leeseo (IVE)", "Shuhua ((G)I-DLE)", "Kyujin (NMIXX)", "Yoon (STAYC)", "Lily (NMIXX)", "Moonbyul (MAMAMOO)", "Solar (MAMAMOO)", "Eunbi (Ê≤ÖÎöØ?ÈçÆ?", "Liz (IVE)", "Bae (NMIXX)", "Jeongyeon (TWICE)", "Dahyun (TWICE)", "Seoyeon (fromis_9)", "Nakyung (fromis_9)", "Belle (KISS OF LIFE)"],
+      maleIdols: ["Sehun (EXO)", "Taeyong (NCT)", "Felix (Stray Kids)", "Sungchan (RIIZE)", "Lee Know (Stray Kids)", "Suga (BTS)", "Minghao (SEVENTEEN)", "Heeseung (ENHYPEN)", "Shotaro (RIIZE)", "Jin (BTS)", "Ten (NCT)", "Xiaojun (WayV)", "Hendery (WayV)", "Woozi (SEVENTEEN)", "Woonhak (BOYNEXTDOOR)", "Riwoo (BOYNEXTDOOR)", "Jihoon (TREASURE)", "Junkyu (TREASURE)", "Doyoung (TREASURE)", "Jeongwoo (TREASURE)"],
       desc: "Like your idol skin twin! High-contrast, icy, and deep colors make your features pop. Your aura is striking, sharp, and intensely charismatic.",
       colorPool: [{hex:'#000000', name:'Black'}, {hex:'#000080', name:'Navy'}, {hex:'#800080', name:'Purple'}, {hex:'#FF00FF', name:'Magenta'}, {hex:'#DC143C', name:'Crimson'}, {hex:'#4B0082', name:'Indigo'}, {hex:'#8B008B', name:'Dark Magenta'}, {hex:'#9400D3', name:'Dark Violet'}, {hex:'#0000CD', name:'Medium Blue'}, {hex:'#C71585', name:'Medium Violet'}, {hex:'#FFFFFF', name:'White'}, {hex:'#00FFFF', name:'Cyan'}],
       tagPool: [{bg:'bg-purple-500/20', text:'text-purple-400', label:'Icy Plum'}, {bg:'bg-fuchsia-900/20', text:'text-fuchsia-400', label:'True Black'}, {bg:'bg-blue-900/20', text:'text-blue-400', label:'Navy'}, {bg:'bg-pink-700/20', text:'text-pink-300', label:'Magenta'}],
@@ -325,7 +329,7 @@ export default function PersonalColor() {
 
             <div className="text-center space-y-4 mt-6">
               <p className="text-sm text-yellow-300 font-bold bg-yellow-500/20 inline-block px-5 py-2.5 rounded-xl border border-yellow-500/50 shadow-[0_0_15px_rgba(234,179,8,0.15)] leading-relaxed">
-                ?†Ô∏è Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
+                ?Ï¢ëÌàò Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
               </p>
               <p className="text-sm text-zinc-400 font-medium tracking-wide">
                 * Photos are processed locally and deleted instantly. We do not store your face data.
