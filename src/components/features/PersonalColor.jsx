@@ -336,7 +336,7 @@ export default function PersonalColor() {
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
             
             {/* The Premium Aura Card */}
-            <div className={`w-full p-6 md:p-10 rounded-3xl bg-gradient-to-br ${result.theme} shadow-2xl relative overflow-hidden mb-8 border border-white/30 ring-1 ring-black/5`}>
+            <div id="aura-card" className={`w-full p-6 md:p-10 rounded-3xl bg-gradient-to-br ${result.theme} shadow-2xl relative overflow-hidden mb-8 border border-white/30 ring-1 ring-black/5`}>
               
               {/* Giant Background Text Watermark */}
               <div className="absolute -bottom-6 -right-4 text-[140px] font-black opacity-10 leading-none select-none tracking-tighter" style={{ color: 'white' }}>
@@ -486,6 +486,7 @@ export default function PersonalColor() {
     </div>
   );
 }
+
 
 
 
