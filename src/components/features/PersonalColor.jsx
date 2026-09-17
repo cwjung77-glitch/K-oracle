@@ -240,7 +240,7 @@ export default function PersonalColor() {
   };
 
   return (
-    <div className="w-full max-w-2xl mx-auto bg-black/60 backdrop-blur-xl rounded-3xl border border-white/10 p-8 shadow-[0_0_50px_rgba(236,72,153,0.05)] relative overflow-hidden">
+    <div className="w-full max-w-md mx-auto bg-black/60 backdrop-blur-xl rounded-3xl border border-white/10 p-8 shadow-[0_0_50px_rgba(236,72,153,0.05)] relative overflow-hidden">
       
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-pink-500/10 rounded-full blur-[100px]"></div>
@@ -373,8 +373,8 @@ export default function PersonalColor() {
                 <div className="w-full h-px bg-gradient-to-r from-transparent via-white/40 to-transparent my-6 md:my-8"></div>
                 
                 <div className="flex flex-col gap-6 md:flex-row md:gap-8 justify-between items-start md:items-end">
-                  <div className="w-full md:flex-1 text-center md:text-left">
-                    <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                  <div className="w-full text-center">
+                    <div className="flex items-center justify-center gap-2 mb-2">
                       <Sparkles className={`${result.cardText} opacity-60`} size={14} />
                       <div className={`${result.cardText} opacity-70 text-xs font-bold tracking-widest uppercase`}>Your Idol Twin</div>
                     </div>
@@ -386,8 +386,8 @@ export default function PersonalColor() {
                     </div>
                   </div>
                   
-                  <div className="w-full md:flex-1 text-center md:text-right">
-                    <div className={`${result.cardText} opacity-70 text-xs font-bold mb-3 tracking-widest uppercase text-center md:text-right`}>Your Palette</div>
+                  <div className="w-full text-center">
+                    <div className={`${result.cardText} opacity-70 text-xs font-bold mb-3 tracking-widest uppercase text-center`}>Your Palette</div>
                     <div className="inline-flex flex-wrap gap-1.5 md:gap-2 p-2 md:p-2.5 rounded-2xl bg-black/10 backdrop-blur-md shadow-inner border border-white/30">
                       {result.bestColors.map((c, i) => (
                         <div key={i} className="w-6 h-6 md:w-8 md:h-8 shrink-0 rounded-full shadow-[0_4px_10px_rgba(0,0,0,0.2)] border-2 md:border-[2.5px] border-white/90 transform hover:scale-110 transition-transform cursor-default" style={{backgroundColor: c.hex}}></div>
@@ -462,7 +462,7 @@ export default function PersonalColor() {
                     <div className={`w-14 h-14 rounded-xl shrink-0 bg-gradient-to-br ${result.theme} opacity-80 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
                       <span className={`${result.cardText} font-black opacity-50`}>0{i+1}</span>
                     </div>
-                    <div className="w-full md:flex-1 text-center md:text-left">
+                    <div className="w-full text-center">
                       <div className="font-bold text-zinc-200 group-hover:text-white">{p.name}</div>
                       <div className="text-sm text-zinc-500 mt-1">{p.shade}</div>
                     </div>
