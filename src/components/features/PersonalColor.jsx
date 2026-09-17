@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Camera, Sparkles, CheckCircle2, ScanFace, Upload, Share2, Palette } from 'lucide-react';
+import { Camera, Sparkles, CheckCircle2, ScanFace, Upload, Share2, Palette, AlertTriangle } from 'lucide-react';
 import html2canvas from 'html2canvas';
 
 export default function PersonalColor() {
@@ -326,7 +326,7 @@ export default function PersonalColor() {
 
             <div className="text-center space-y-4 mt-6">
               <p className="text-sm text-yellow-300 font-bold bg-yellow-500/20 inline-block px-5 py-2.5 rounded-xl border border-yellow-500/50 shadow-[0_0_15px_rgba(234,179,8,0.15)] leading-relaxed">
-                ?좑툘 Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
+                <AlertTriangle size={16} className="inline-block mr-1.5 -mt-0.5" /> Pro Tip: Use a raw, unedited photo under natural daylight.<br/>Beauty filters and artificial lighting will alter your cosmic tone analysis.
               </p>
               <p className="text-sm text-zinc-400 font-medium tracking-wide">
                 * Photos are processed locally and deleted instantly. We do not store your face data.
