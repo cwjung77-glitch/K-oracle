@@ -240,7 +240,7 @@ export default function PersonalColor() {
   };
 
   return (
-    <div className="w-full max-w-md mx-auto bg-black/60 backdrop-blur-xl rounded-3xl border border-white/10 p-8 shadow-[0_0_50px_rgba(236,72,153,0.05)] relative overflow-hidden">
+    <div className="w-full max-w-2xl mx-auto bg-black/60 backdrop-blur-xl rounded-3xl border border-white/10 p-8 shadow-[0_0_50px_rgba(236,72,153,0.05)] relative overflow-hidden">
       
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-64 h-64 bg-pink-500/10 rounded-full blur-[100px]"></div>
@@ -358,12 +358,15 @@ export default function PersonalColor() {
                   <span className="text-[10px] font-black tracking-[0.3em] uppercase">K-Beauty Personal Color Analysis</span>
                 </div>
 
-                <div className="flex flex-col items-center mb-8 w-full text-center">
-                    <h3 className={`text-[2.75rem] leading-[1.1] md:text-5xl font-black md:leading-none ${result.cardText} tracking-tighter drop-shadow-sm`}>
-                      {result.season}
+                {/* Header Container */}
+                  <div className="flex flex-col md:flex-row md:justify-between items-center md:items-start mb-8 w-full text-center md:text-left">
+                    <h3 className={`text-[2.75rem] leading-[1.1] md:text-[5.5rem] font-black md:leading-[0.85] ${result.cardText} tracking-tighter drop-shadow-sm`}>
+                      <span className="md:block">{result.season.split(' ')[0]}</span>
+                      <span className="inline md:hidden"> </span>
+                      <span className="md:block">{result.season.split(' ')[1]}</span>
                     </h3>
-                    <div className="mt-4 w-full flex justify-center">
-                      <div className={`inline-block px-4 py-1.5 bg-white/30 backdrop-blur-md rounded-full text-[11px] md:text-xs font-black ${result.cardText} shadow-sm border border-white/40 uppercase tracking-wider`}>
+                    <div className="mt-4 md:mt-0 md:pt-2 w-full md:w-auto flex justify-center md:justify-end">
+                      <div className={`inline-block px-4 py-1.5 md:px-6 md:py-2 bg-white/30 backdrop-blur-md rounded-full text-[11px] md:text-sm font-black ${result.cardText} shadow-sm border border-white/40 uppercase tracking-wider`}>
                         100% Match
                       </div>
                     </div>
