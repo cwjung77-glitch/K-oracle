@@ -357,12 +357,12 @@ export default function PersonalColor() {
                   <span className="text-[10px] font-black tracking-[0.3em] uppercase">K-Beauty Personal Color Analysis</span>
                 </div>
 
-                <div className="flex justify-between items-start mb-8">
-                  <div className="space-y-1">
-                    <h3 className={`text-4xl md:text-6xl font-black leading-tight md:leading-none ${result.cardText} tracking-tighter drop-shadow-sm leading-none`}>{result.season}</h3>
+                <div className="flex justify-between items-start mb-8 relative">
+                  <div className="space-y-1 pr-20 md:pr-0">
+                    <h3 className={`text-3xl md:text-6xl font-black leading-none md:leading-none ${result.cardText} tracking-tighter drop-shadow-sm leading-none`}>{result.season}</h3>
                     <div className={`${result.cardText} opacity-80 font-bold tracking-[0.2em] text-xs uppercase mt-2`}>{result.kor} ??PERSONAL COLOR</div>
                   </div>
-                  <div className={`px-4 py-1.5 bg-white/30 backdrop-blur-md rounded-full text-xs font-black ${result.cardText} shadow-sm border border-white/40 uppercase tracking-wider`}>
+                  <div className={`absolute top-0 right-0 md:relative px-3 md:px-4 py-1.5 bg-white/30 backdrop-blur-md rounded-full text-[10px] md:text-xs font-black ${result.cardText} shadow-sm border border-white/40 uppercase tracking-wider shrink-0`}>
                     100% Match
                   </div>
                 </div>
@@ -386,9 +386,9 @@ export default function PersonalColor() {
                   
                   <div className="flex-1 md:text-right">
                     <div className={`${result.cardText} opacity-70 text-xs font-bold mb-3 tracking-widest uppercase`}>Your Palette</div>
-                    <div className="inline-flex gap-2 p-2.5 rounded-2xl bg-black/10 backdrop-blur-md shadow-inner border border-white/30">
+                    <div className="inline-flex flex-wrap gap-1.5 md:gap-2 p-2 md:p-2.5 rounded-2xl bg-black/10 backdrop-blur-md shadow-inner border border-white/30">
                       {result.bestColors.map((c, i) => (
-                        <div key={i} className="w-8 h-8 rounded-full shadow-[0_4px_10px_rgba(0,0,0,0.2)] border-[2.5px] border-white/90 transform hover:scale-110 transition-transform cursor-default" style={{backgroundColor: c.hex}}></div>
+                        <div key={i} className="w-6 h-6 md:w-8 md:h-8 shrink-0 rounded-full shadow-[0_4px_10px_rgba(0,0,0,0.2)] border-2 md:border-[2.5px] border-white/90 transform hover:scale-110 transition-transform cursor-default" style={{backgroundColor: c.hex}}></div>
                       ))}
                     </div>
                   </div>
@@ -486,5 +486,6 @@ export default function PersonalColor() {
     </div>
   );
 }
+
 
 
