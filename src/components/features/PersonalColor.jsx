@@ -353,7 +353,7 @@ export default function PersonalColor() {
               
               <div className="relative z-10">
                 {/* Official Branding Header for Social Sharing Context */}
-                <div className={`flex items-center gap-2 mb-6 ${result.cardText} opacity-60`}>
+                <div className={`flex items-center justify-center text-center gap-2 mb-6 ${result.cardText} opacity-60`}>
                   <ScanFace size={14} />
                   <span className="text-[10px] font-black tracking-[0.3em] uppercase">K-Beauty Personal Color Analysis</span>
                 </div>
