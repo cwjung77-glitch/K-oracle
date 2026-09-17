@@ -486,25 +486,7 @@ export default function PersonalColor() {
         )}
       </div>
 
-      {generatedImage && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm">
-          <div className="relative w-full max-w-md flex flex-col items-center">
-            <button 
-              onClick={() => setGeneratedImage(null)}
-              className="absolute -top-12 right-0 text-white font-bold text-xl bg-white/20 w-10 h-10 rounded-full flex items-center justify-center"
-            >
-              ×
-            </button>
-            <div className="bg-white text-black font-black text-center py-2 px-6 rounded-t-2xl w-full">
-              📸 LONG PRESS IMAGE TO SAVE
-            </div>
-            <img src={generatedImage} alt="Your Aura Card" className="w-full rounded-b-2xl shadow-2xl" />
-            <div className="text-white/60 text-sm mt-4 text-center">
-              If long press doesn't work, take a screenshot!
-            </div>
-          </div>
-        </div>
-      )}
+      
     </div>
   );
 }

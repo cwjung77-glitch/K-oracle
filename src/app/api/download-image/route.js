@@ -1,8 +1,8 @@
-import { NextResponse } from 'next/server';
+﻿import { NextResponse } from 'next/server';
 
 export async function POST(req) {
   try {
-    const { dataUrl } = await req.json();
+    const { dataUrl, filename = "K-Oracle_Card.png" } = await req.json();
     
     if (!dataUrl) {
       return NextResponse.json({ error: "Missing dataUrl" }, { status: 400 });
@@ -14,7 +14,7 @@ export async function POST(req) {
     return new NextResponse(buffer, {
       headers: {
         'Content-Type': 'image/png',
-        'Content-Disposition': 'attachment; filename="K-Oracle_Talisman.png"',
+        'Content-Disposition': `attachment; filename="${filename}"`,
       },
     });
   } catch (error) {
