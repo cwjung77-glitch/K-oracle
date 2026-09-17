@@ -1,10 +1,10 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 
 async function main() {
   const promptTopic = process.argv[2];
   if (!promptTopic) {
-    console.error("Please provide a topic. Example: node generate_blog.js '블랙핑크 제니 사주'");
+    console.error("Please provide a topic. Example: node generate_blog.js '釉붾옓?묓겕 ?쒕땲 ?ъ＜'");
     process.exit(1);
   }
 
@@ -36,7 +36,7 @@ CRITICAL LANGUAGE RULE: No matter what language the Topic is provided in (e.g., 
 Return the result strictly in raw Markdown format with a YAML frontmatter block at the top.
 Do NOT use code block markers (like \`\`\`markdown) around your response.
 
-CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. Also, NEVER output meta-terms like "SEO", "GEO", or "AEO" in the text or headings (e.g., do NOT write "AEO Section"). Keep the language 100% natural and mystical for a human reader. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
+CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. Also, NEVER output meta-terms like "SEO", "GEO", or "AEO" in the text or headings (e.g., do NOT write "AEO Section"). Keep the language 100% natural and mystical for a human reader. HUMAN-LIKE WRITING & ANTI-BOT RULE: Write in a highly engaging, conversational, and passionate tone, as if a real human expert/fan is writing. You MUST completely avoid typical AI transition phrases and filler words (like "In conclusion", "Moreover", "Let us dive into", "It is important to remember"). Use varied sentence lengths and natural pacing to bypass AI detectors. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
 
 CRITICAL FORMATTING RULE: NEVER use ASCII art boxes, raw text diagrams, or preformatted text blocks (like +---+ or |...|) to draw tables or diagrams. If you want to present structured data (like Saju element maps or breakdowns), you MUST use standard Markdown Tables (using | and -) or bulleted lists. ASCII art tables will break the layout and render improperly on mobile devices.
 
@@ -61,7 +61,7 @@ CRITICAL INSTRUCTION 2: You MUST append the following exact disclaimer as italic
   
   for (let i = 0; i < keys.length; i++) {
     const currentKey = keys[i];
-    console.log(`[🔑 Key ${i+1}/${keys.length}] 시도 중...`);
+    console.log(`[?뵎 Key ${i+1}/${keys.length}] ?쒕룄 以?..`);
     
     try {
       const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
@@ -86,13 +86,13 @@ CRITICAL INSTRUCTION 2: You MUST append the following exact disclaimer as italic
       const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
       fs.writeFileSync(outPath, text);
       
-      console.log(`✅ Successfully generated and saved to ${outPath}`);
+      console.log(`??Successfully generated and saved to ${outPath}`);
       success = true;
       break; // Stop looping if successful
     } catch (err) {
-      console.error(`⚠️ Key ${i+1} 실패: ${err.message}`);
+      console.error(`?좑툘 Key ${i+1} ?ㅽ뙣: ${err.message}`);
       if (i === keys.length - 1) {
-        console.error("❌ 모든 API 키가 소진되었거나 에러가 발생했습니다.");
+        console.error("??紐⑤뱺 API ?ㅺ? ?뚯쭊?섏뿀嫄곕굹 ?먮윭媛 諛쒖깮?덉뒿?덈떎.");
         process.exit(1);
       }
     }
