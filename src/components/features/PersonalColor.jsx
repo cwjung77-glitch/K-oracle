@@ -23,7 +23,7 @@ export default function PersonalColor() {
       femaleIdols: ["Suzy", "Sana (TWICE)", "Joy (Red Velvet)", "Nayeon (TWICE)", "Minji (NewJeans)", "Eunchae (LE SSERAFIM)", "Rei (IVE)", "Winter (aespa)", "Chuu", "Yuqi ((G)I-DLE)", "Yeri (Red Velvet)", "Ningning (aespa)", "Sakura (LE SSERAFIM)", "Ryujin (ITZY)", "Yujin (Kep1er)", "Jiwon (fromis_9)", "YooA (Oh My Girl)", "Lia (ITZY)", "Dayeon (Kep1er)", "Tsuki (Billlie)"],
         maleIdols: ["V (BTS)", "Cha Eunwoo (ASTRO)", "Minhyun", "Jungwoo (NCT)", "Sunoo (ENHYPEN)", "Soobin (TXT)", "Jaehyun (BOYNEXTDOOR)", "DK (SEVENTEEN)", "Jeno (NCT)", "Doyoung (NCT)", "Rowoon", "Huening Kai (TXT)", "Taehyun (TXT)", "Jake (ENHYPEN)", "Anton (RIIZE)", "Eunseok (RIIZE)", "Seungkwan (SEVENTEEN)", "Hoshi (SEVENTEEN)", "Han (Stray Kids)", "Seungmin (Stray Kids)"],
         desc: "Like your idol skin twin! You look glowing in bright, warm, and peachy colors. Your aura is fresh, vibrant, and incredibly lovely.",
-      colorPool: [{hex:'#FFB6C1', name:'Light Pink'}, {hex:'#FFA07A', name:'Salmon'}, {hex:'#FFDAB9', name:'Peach'}, {hex:'#F0E68C', name:'Khaki'}, {hex:'#98FB98', name:'Mint'}, {hex:'#FF8C00', name:'Dark Orange'}, {hex:'#FF7F50', name:'Coral'}, {hex:'#FFFFE0', name:'Light Yellow'}, {hex:'#ADFF2F', name:'Green Yellow'}, {hex:'#FF69B4', name:'Hot Pink'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#FFE4B5', name:'Moccasin'}],
+      colorPool: [{hex:'#FFB6C1', name:'Light Pink'}, {hex:'#FFA07A', name:'Salmon'}, {hex:'#FFDAB9', name:'Peach'}, {hex:'#F0E68C', name:'Khaki'}, {hex:'#98FB98', name:'Mint'}, {hex:'#FF8C00', name:'Dark Orange'}, {hex:'#FF7F50', name:'Coral'}, {hex:'#FFFFE0', name:'Light Yellow'}, {hex:'#ADFF2F', name:'Green Yellow'}, {hex:'#FF69B4', name:'Hot Pink'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#FFE4B5', name:'Moccasin'}, {hex:'#FFA500', name:'Orange'}, {hex:'#FF4500', name:'Orange Red'}, {hex:'#FFD700', name:'Gold'}, {hex:'#BDB76B', name:'Dark Khaki'}, {hex:'#32CD32', name:'Lime Green'}, {hex:'#00FA9A', name:'Medium Spring Green'}, {hex:'#FF1493', name:'Deep Pink'}, {hex:'#FFC0CB', name:'Pink'}, {hex:'#FFEFD5', name:'Papaya Whip'}, {hex:'#FFE4C4', name:'Bisque'}, {hex:'#FFDAB9', name:'Peach Puff'}, {hex:'#FFDEAD', name:'Navajo White'}],
       tagPool: [{bg:'bg-orange-500/20', text:'text-orange-400', label:'Peach'}, {bg:'bg-yellow-500/20', text:'text-yellow-400', label:'Coral'}, {bg:'bg-lime-500/20', text:'text-lime-400', label:'Fresh Green'}, {bg:'bg-amber-500/20', text:'text-amber-400', label:'Warm Gold'}],
       femaleProducts: [
         {name: "Rom&nd Juicy Lasting Tint", shade: "#09 Litchi Coral", price: "$11.99"},
@@ -49,7 +49,7 @@ export default function PersonalColor() {
       femaleIdols: ["Wonyoung (IVE)", "Irene (Red Velvet)", "Chaewon (LE SSERAFIM)", "Hanni (NewJeans)", "Sullyoon (NMIXX)", "An Yujin (IVE)", "Miyeon ((G)I-DLE)", "Haerin (NewJeans)", "Isa (STAYC)", "Arin (Oh My Girl)", "Binnie (Oh My Girl)", "Wendy (Red Velvet)", "Yeseo (Kep1er)", "J (STAYC)", "Sieun (STAYC)", "Xiaoting (Kep1er)", "Jiwoo (NMIXX)", "Haewon (NMIXX)", "Seeun (STAYC)", "Natty (KISS OF LIFE)"],
       maleIdols: ["Jungkook (BTS)", "Wonbin (RIIZE)", "Beomgyu (TXT)", "Mark (NCT)", "Taemin (SHINee)", "Baekhyun (EXO)", "Joshua (SEVENTEEN)", "Sunghoon (ENHYPEN)", "Sohee (RIIZE)", "Renjun (NCT)", "Chenle (NCT)", "I.N (Stray Kids)", "Wonwoo (SEVENTEEN)", "Vernon (SEVENTEEN)", "Dino (SEVENTEEN)", "Jungwon (ENHYPEN)", "Ni-ki (ENHYPEN)", "Taesan (BOYNEXTDOOR)", "Leehan (BOYNEXTDOOR)", "Hyunsuk (TREASURE)"],
       desc: "Like your idol skin twin! Your skin looks flawless with pastel and cool-toned makeup. Your aura is elegant, clear, and sophisticated.",
-      colorPool: [{hex:'#E6E6FA', name:'Lavender'}, {hex:'#D8BFD8', name:'Thistle'}, {hex:'#B0E0E6', name:'Powder Blue'}, {hex:'#FFC0CB', name:'Pink'}, {hex:'#E0FFFF', name:'Light Cyan'}, {hex:'#87CEFA', name:'Sky Blue'}, {hex:'#FFB6C1', name:'Light Pink'}, {hex:'#DDA0DD', name:'Plum'}, {hex:'#F0F8FF', name:'Alice Blue'}, {hex:'#E6E6FA', name:'Lavender'}, {hex:'#FFF0F5', name:'Lavender Blush'}, {hex:'#ADD8E6', name:'Light Blue'}],
+      colorPool: [{hex:'#E6E6FA', name:'Lavender'}, {hex:'#D8BFD8', name:'Thistle'}, {hex:'#B0E0E6', name:'Powder Blue'}, {hex:'#FFC0CB', name:'Pink'}, {hex:'#E0FFFF', name:'Light Cyan'}, {hex:'#87CEFA', name:'Sky Blue'}, {hex:'#FFB6C1', name:'Light Pink'}, {hex:'#DDA0DD', name:'Plum'}, {hex:'#F0F8FF', name:'Alice Blue'}, {hex:'#FFF0F5', name:'Lavender Blush'}, {hex:'#ADD8E6', name:'Light Blue'}, {hex:'#B0C4DE', name:'Light Steel Blue'}, {hex:'#8A2BE2', name:'Blue Violet'}, {hex:'#9370DB', name:'Medium Purple'}, {hex:'#483D8B', name:'Dark Slate Blue'}, {hex:'#4682B4', name:'Steel Blue'}, {hex:'#5F9EA0', name:'Cadet Blue'}, {hex:'#AFEEEE', name:'Pale Turquoise'}, {hex:'#40E0D0', name:'Turquoise'}, {hex:'#00CED1', name:'Dark Turquoise'}, {hex:'#E0B0FF', name:'Mauve'}, {hex:'#D8BFD8', name:'Thistle'}, {hex:'#C8A2C8', name:'Lilac'}, {hex:'#CCCCFF', name:'Periwinkle'}],
       tagPool: [{bg:'bg-pink-500/20', text:'text-pink-400', label:'Pastel Pink'}, {bg:'bg-blue-500/20', text:'text-blue-400', label:'Lavender'}, {bg:'bg-indigo-500/20', text:'text-indigo-400', label:'Mute Blue'}, {bg:'bg-fuchsia-500/20', text:'text-fuchsia-400', label:'Cool Berry'}],
       femaleProducts: [
         {name: "Rom&nd Juicy Lasting Tint", shade: "#25 Bare Grape", price: "$11.99"},
@@ -75,7 +75,7 @@ export default function PersonalColor() {
       femaleIdols: ["Jennie (BLACKPINK)", "Seulgi (Red Velvet)", "Kazuha (LE SSERAFIM)", "Danielle (NewJeans)", "Giselle (aespa)", "Ros챕 (BLACKPINK)", "Hwasa (MAMAMOO)", "Gaeul (IVE)", "Yeji (ITZY)", "Minnie ((G)I-DLE)", "Soyeon ((G)I-DLE)", "Lisa (BLACKPINK)", "Yunjin (LE SSERAFIM)", "Chaeryeong (ITZY)", "Momo (TWICE)", "Mina (TWICE)", "Tzuyu (TWICE)", "Jihyo (TWICE)", "Sumin (STAYC)", "Julie (KISS OF LIFE)"],
       maleIdols: ["Kai (EXO)", "Mingyu (SEVENTEEN)", "Yeonjun (TXT)", "Haechan (NCT)", "Hyunjin (Stray Kids)", "Jimin (BTS)", "Jeonghan (SEVENTEEN)", "Jay (ENHYPEN)", "Jaehyun (NCT)", "Johnny (NCT)", "Yuta (NCT)", "S.Coups (SEVENTEEN)", "Jun (SEVENTEEN)", "Bang Chan (Stray Kids)", "Changbin (Stray Kids)", "RM (BTS)", "J-Hope (BTS)", "Haruto (TREASURE)", "Yoshi (TREASURE)", "Asahi (TREASURE)"],
       desc: "Like your idol skin twin! You rock deep, rich, and earthy tones. Your aura is luxurious, chic, and effortlessly cool.",
-      colorPool: [{hex:'#8B4513', name:'Saddle Brown'}, {hex:'#A0522D', name:'Sienna'}, {hex:'#D2691E', name:'Chocolate'}, {hex:'#CD853F', name:'Peru'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#D2B48C', name:'Tan'}, {hex:'#DEB887', name:'Burlywood'}, {hex:'#BC8F8F', name:'Rosy Brown'}, {hex:'#F5DEB3', name:'Wheat'}, {hex:'#800000', name:'Maroon'}, {hex:'#A52A2A', name:'Brown'}, {hex:'#DAA520', name:'Goldenrod'}],
+      colorPool: [{hex:'#8B4513', name:'Saddle Brown'}, {hex:'#A0522D', name:'Sienna'}, {hex:'#D2691E', name:'Chocolate'}, {hex:'#CD853F', name:'Peru'}, {hex:'#F4A460', name:'Sandy Brown'}, {hex:'#D2B48C', name:'Tan'}, {hex:'#DEB887', name:'Burlywood'}, {hex:'#BC8F8F', name:'Rosy Brown'}, {hex:'#F5DEB3', name:'Wheat'}, {hex:'#800000', name:'Maroon'}, {hex:'#A52A2A', name:'Brown'}, {hex:'#DAA520', name:'Goldenrod'}, {hex:'#B8860B', name:'Dark Goldenrod'}, {hex:'#CD5C5C', name:'Indian Red'}, {hex:'#8B0000', name:'Dark Red'}, {hex:'#556B2F', name:'Dark Olive Green'}, {hex:'#6B8E23', name:'Olive Drab'}, {hex:'#808000', name:'Olive'}, {hex:'#BDB76B', name:'Dark Khaki'}, {hex:'#D2B48C', name:'Tan'}, {hex:'#F0E68C', name:'Khaki'}, {hex:'#EEE8AA', name:'Pale Goldenrod'}, {hex:'#FF8C00', name:'Dark Orange'}, {hex:'#FF7F50', name:'Coral'}],
       tagPool: [{bg:'bg-amber-500/20', text:'text-amber-400', label:'Brick Red'}, {bg:'bg-orange-900/20', text:'text-orange-400', label:'Mute Brown'}, {bg:'bg-yellow-700/20', text:'text-yellow-600', label:'Deep Gold'}, {bg:'bg-red-800/20', text:'text-red-400', label:'Chili'}],
       femaleProducts: [
         {name: "Peripera Ink Velvet", shade: "#23 Nutty Nude", price: "$9.99"},
@@ -101,7 +101,7 @@ export default function PersonalColor() {
       femaleIdols: ["Karina (aespa)", "Jisoo (BLACKPINK)", "Chaeyoung (TWICE)", "Hyein (NewJeans)", "Yuna (ITZY)", "Leeseo (IVE)", "Shuhua ((G)I-DLE)", "Kyujin (NMIXX)", "Yoon (STAYC)", "Lily (NMIXX)", "Moonbyul (MAMAMOO)", "Solar (MAMAMOO)", "Eunbi (沅뚯?鍮?", "Liz (IVE)", "Bae (NMIXX)", "Jeongyeon (TWICE)", "Dahyun (TWICE)", "Seoyeon (fromis_9)", "Nakyung (fromis_9)", "Belle (KISS OF LIFE)"],
       maleIdols: ["Sehun (EXO)", "Taeyong (NCT)", "Felix (Stray Kids)", "Sungchan (RIIZE)", "Lee Know (Stray Kids)", "Suga (BTS)", "Minghao (SEVENTEEN)", "Heeseung (ENHYPEN)", "Shotaro (RIIZE)", "Jin (BTS)", "Ten (NCT)", "Xiaojun (WayV)", "Hendery (WayV)", "Woozi (SEVENTEEN)", "Woonhak (BOYNEXTDOOR)", "Riwoo (BOYNEXTDOOR)", "Jihoon (TREASURE)", "Junkyu (TREASURE)", "Doyoung (TREASURE)", "Jeongwoo (TREASURE)"],
       desc: "Like your idol skin twin! High-contrast, icy, and deep colors make your features pop. Your aura is striking, sharp, and intensely charismatic.",
-      colorPool: [{hex:'#000000', name:'Black'}, {hex:'#000080', name:'Navy'}, {hex:'#800080', name:'Purple'}, {hex:'#FF00FF', name:'Magenta'}, {hex:'#DC143C', name:'Crimson'}, {hex:'#4B0082', name:'Indigo'}, {hex:'#8B008B', name:'Dark Magenta'}, {hex:'#9400D3', name:'Dark Violet'}, {hex:'#0000CD', name:'Medium Blue'}, {hex:'#C71585', name:'Medium Violet'}, {hex:'#FFFFFF', name:'White'}, {hex:'#00FFFF', name:'Cyan'}],
+      colorPool: [{hex:'#000000', name:'Black'}, {hex:'#000080', name:'Navy'}, {hex:'#800080', name:'Purple'}, {hex:'#FF00FF', name:'Magenta'}, {hex:'#DC143C', name:'Crimson'}, {hex:'#4B0082', name:'Indigo'}, {hex:'#8B008B', name:'Dark Magenta'}, {hex:'#9400D3', name:'Dark Violet'}, {hex:'#0000CD', name:'Medium Blue'}, {hex:'#C71585', name:'Medium Violet'}, {hex:'#FFFFFF', name:'White'}, {hex:'#00FFFF', name:'Cyan'}, {hex:'#0000FF', name:'Blue'}, {hex:'#00BFFF', name:'Deep Sky Blue'}, {hex:'#1E90FF', name:'Dodger Blue'}, {hex:'#4169E1', name:'Royal Blue'}, {hex:'#8A2BE2', name:'Blue Violet'}, {hex:'#9932CC', name:'Dark Orchid'}, {hex:'#FF1493', name:'Deep Pink'}, {hex:'#C71585', name:'Medium Violet Red'}, {hex:'#800000', name:'Maroon'}, {hex:'#8B0000', name:'Dark Red'}, {hex:'#B22222', name:'Firebrick'}, {hex:'#F5F5F5', name:'White Smoke'}],
       tagPool: [{bg:'bg-purple-500/20', text:'text-purple-400', label:'Icy Plum'}, {bg:'bg-fuchsia-900/20', text:'text-fuchsia-400', label:'True Black'}, {bg:'bg-blue-900/20', text:'text-blue-400', label:'Navy'}, {bg:'bg-pink-700/20', text:'text-pink-300', label:'Magenta'}],
       femaleProducts: [
         {name: "Clio Dewy Syrup Tint", shade: "#04 Plum Noir", price: "$14.99"},
@@ -120,6 +120,24 @@ export default function PersonalColor() {
     }
   ];
 
+  const seededRandom = (seed) => {
+    let x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+  };
+
+  const seededShuffle = (array, seed) => {
+    let arr = [...array];
+    let m = arr.length, t, i;
+    let s = seed;
+    while (m) {
+      i = Math.floor(seededRandom(s++) * m--);
+      t = arr[m];
+      arr[m] = arr[i];
+      arr[i] = t;
+    }
+    return arr;
+  };
+  
   const shuffle = (array) => [...array].sort(() => 0.5 - Math.random());
   
   const [uploadedFile, setUploadedFile] = useState(null);
