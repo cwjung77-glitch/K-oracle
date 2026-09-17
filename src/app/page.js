@@ -17,6 +17,7 @@ export default function OracleLanding() {
   const [showLogin, setShowLogin] = useState(false);
   const [lang, setLang] = useState('en'); const [logoClicks, setLogoClicks] = useState(0); const [showKo, setShowKo] = useState(false);
   const [recentHistory, setRecentHistory] = useState([]);
+  const [resetKey, setResetKey] = useState(0);
   useEffect(() => {
     try {
       const hist = JSON.parse(localStorage.getItem('kOracleHistory') || '[]');
@@ -29,9 +30,11 @@ export default function OracleLanding() {
       if (window.confirm(lang === "ko" ? "PDF 마스터플랜을 다운로드하셨나요? 지금 메인으로 돌아가면 분석 결과가 영구적으로 삭제됩니다." : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
         localStorage.removeItem("hasPaid");
         setHasPaid(false);
+        setResetKey(k => k + 1);
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }
     } else {
+      setResetKey(k => k + 1);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     setLogoClicks(p => p + 1);
@@ -165,7 +168,7 @@ export default function OracleLanding() {
           {/* Custom Tab Switcher */}
         <div className="grid grid-cols-2 bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg w-full max-w-sm mx-auto">
           <button 
-            onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); }}
+            onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); setResetKey(k => k + 1); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
                 ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-[0_0_20px_rgba(168,85,247,0.4)] border border-violet-500/50' 
@@ -176,7 +179,7 @@ export default function OracleLanding() {
             <span className="tracking-wide">K-ASTROLOGY</span>
           </button>
           <button 
-            onClick={() => { setActiveTab('beauty'); localStorage.setItem('purchasedProduct', 'beauty'); setHasPaid(false); }}
+            onClick={() => { setActiveTab('beauty'); localStorage.setItem('purchasedProduct', 'beauty'); setHasPaid(false); setResetKey(k => k + 1); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'beauty' 
                 ? 'bg-gradient-to-r from-pink-500/90 to-blue-500/90 text-white shadow-[0_0_20px_rgba(236,72,153,0.3)] border border-pink-500/50' 
@@ -192,7 +195,7 @@ export default function OracleLanding() {
       {/* Active Feature Area */}
       <section className="px-6 relative">
         <div className="max-w-4xl mx-auto">
-          {activeTab === 'saju' ? <SajuCompatibility onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} /> : <PersonalColor />}
+          {activeTab === 'saju' ? <SajuCompatibility key={`saju-${resetKey}`} onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} /> : <PersonalColor key={`beauty-${resetKey}`} />}
         </div>
       </section>
 
