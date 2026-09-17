@@ -127,6 +127,7 @@ export default function PersonalColor() {
 
   
   const [isDownloading, setIsDownloading] = useState(false);
+  const [generatedImage, setGeneratedImage] = useState(null);
   const handleShareInstagram = async () => {
     const card = document.getElementById('aura-card');
     if (!card) return;
@@ -357,11 +358,11 @@ export default function PersonalColor() {
                   <span className="text-[10px] font-black tracking-[0.3em] uppercase">K-Beauty Personal Color Analysis</span>
                 </div>
 
-                <div className="flex flex-col items-start md:items-start mb-8 w-full">
+                <div className="flex flex-col items-center mb-8 w-full text-center">
                     <h3 className={`text-[2.75rem] leading-[1.1] md:text-5xl font-black md:leading-none ${result.cardText} tracking-tighter drop-shadow-sm`}>
                       {result.season}
                     </h3>
-                    <div className="mt-4 w-full">
+                    <div className="mt-4 w-full flex justify-center">
                       <div className={`inline-block px-4 py-1.5 bg-white/30 backdrop-blur-md rounded-full text-[11px] md:text-xs font-black ${result.cardText} shadow-sm border border-white/40 uppercase tracking-wider`}>
                         100% Match
                       </div>
@@ -484,11 +485,26 @@ export default function PersonalColor() {
           </div>
         )}
       </div>
+
+      {generatedImage && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm">
+          <div className="relative w-full max-w-md flex flex-col items-center">
+            <button 
+              onClick={() => setGeneratedImage(null)}
+              className="absolute -top-12 right-0 text-white font-bold text-xl bg-white/20 w-10 h-10 rounded-full flex items-center justify-center"
+            >
+              ×
+            </button>
+            <div className="bg-white text-black font-black text-center py-2 px-6 rounded-t-2xl w-full">
+              📸 LONG PRESS IMAGE TO SAVE
+            </div>
+            <img src={generatedImage} alt="Your Aura Card" className="w-full rounded-b-2xl shadow-2xl" />
+            <div className="text-white/60 text-sm mt-4 text-center">
+              If long press doesn't work, take a screenshot!
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
-
-
-
-
-
