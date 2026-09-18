@@ -26,11 +26,9 @@ Saju balances five core elements: Wood, Fire, Earth, Metal, and Water. The exact
 
 Every Saju chart revolves around the **Day Master**—the ultimate blueprint of the soul. Eunwoo was born on a **Geng-Chen (庚辰)** day, making his central element **Yang Metal**.
 
-  +-------------------------------------------------------+
-  |              CHA EUNWOO'S DAY MASTER                  |
-  |                Geng Metal (庚金)                       |
-  |    Symbol: The Refined Sword / The Celestial Jewel    |
-  +-------------------------------------------------------+
+> **CHA EUNWOO'S DAY MASTER**
+> **Geng Metal (庚金)**
+> *Symbol: The Refined Sword / The Celestial Jewel*
 
 ### Key Attributes of Geng Metal:
 * **Visual Sharpness and Structure**: Yang Metal carries the raw energy of pristine blades and unbreakable symmetry. Physical result? That razor-sharp jawline, killer proportions, and a naturally commanding physical presence.
