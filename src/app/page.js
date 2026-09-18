@@ -5,6 +5,8 @@ import PersonalColor from '../components/features/PersonalColor';
 import CheckoutModal from '../components/features/CheckoutModal';
 import DeepDiveReport from '../components/features/DeepDiveReport';
 import BeautyDeepDiveReport from '../components/features/BeautyDeepDiveReport';
+import DailyFortune from '../components/features/DailyFortune';
+
 import LoginModal from '../components/features/LoginModal';
 import Link from 'next/link';
 import { Sparkles, Moon, Palette, Zap, Lock, Globe, Mail } from 'lucide-react';
@@ -127,7 +129,7 @@ export default function OracleLanding() {
         
           {/* Recent History */}
           {!hasPaid && recentHistory.length > 0 && (
-            <div className="w-full max-w-sm mx-auto mb-6">
+            <div className="w-full max-w-md mx-auto mb-6">
               <h3 className="text-zinc-300 font-bold text-sm mb-3 flex items-center gap-2 justify-center">
                 <Sparkles size={14} /> {lang === "ko" ? "최근 열람 기록" : "Recent Readings"}
               </h3>
@@ -166,7 +168,19 @@ export default function OracleLanding() {
           )}
 
           {/* Custom Tab Switcher */}
-        <div className="grid grid-cols-2 bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg w-full max-w-sm mx-auto">
+        <div className="grid grid-cols-3 bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg w-full max-w-md mx-auto">
+            <button 
+              onClick={() => { setActiveTab('daily'); localStorage.setItem('purchasedProduct', 'daily'); setHasPaid(false); setResetKey(k => k + 1); }}
+              className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
+                activeTab === 'daily' 
+                  ? 'bg-gradient-to-r from-emerald-500/90 to-teal-500/90 text-white shadow-[0_0_20px_rgba(16,185,129,0.3)] border border-emerald-500/50' 
+                  : 'hover:bg-white/5 text-zinc-400'
+              }`}
+            >
+              <Zap size={18} className={activeTab === 'daily' ? 'text-emerald-200' : 'opacity-50'} />
+              <span className="tracking-wide">DAILY</span>
+            </button>
+
           <button 
             onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); setResetKey(k => k + 1); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
