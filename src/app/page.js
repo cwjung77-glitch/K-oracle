@@ -106,10 +106,11 @@ export default function OracleLanding() {
               >
                 ES
               </button>{showKo && <button onClick={() => setLang('ko')} className={`px-3 py-1 text-xs font-bold rounded-full transition-all ${lang === 'ko' ? 'bg-zinc-100 text-black' : 'text-zinc-500 hover:text-white'}`}>KO</button>}</div><button onClick={() => setShowLogin(true)}
-              className="px-2 sm:px-6 py-1.5 sm:py-2 text-[10px] sm:text-xs font-bold tracking-widest bg-white text-black rounded-full hover:bg-zinc-200 transition-colors uppercase whitespace-nowrap"
-            >
-              Log In
-            </button>
+                className="w-8 h-8 sm:w-auto sm:h-auto sm:px-6 sm:py-2 flex items-center justify-center text-[10px] sm:text-xs font-bold tracking-widest bg-white text-black rounded-full hover:bg-zinc-200 transition-colors uppercase whitespace-nowrap"
+              >
+                <span className="hidden sm:inline">Log In</span>
+                <User size={14} className="sm:hidden" />
+              </button>
           </div>
         </div>
       </nav>
