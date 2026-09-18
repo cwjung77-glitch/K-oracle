@@ -1,4 +1,4 @@
-export const maxDuration = 60;
+﻿export const maxDuration = 60;
 import { NextResponse } from 'next/server';
 
 export async function POST(req) {
@@ -46,17 +46,34 @@ export async function POST(req) {
       }
     };
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${GEMINI_API_KEY}`;
-    
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(requestBody)
-    });
+    const fallbackModels = ['gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-3.6-flash', 'gemini-flash-latest'];
+    let lastError = null;
+    let data = null;
+    let response = null;
 
-    const data = await response.json();
-    if (!response.ok) {
-        throw new Error(`Gemini API error: ${JSON.stringify(data)}`);
+    for (const currentModel of fallbackModels) {
+      try {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${GEMINI_API_KEY}`;
+        response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(requestBody)
+        });
+        data = await response.json();
+        
+        if (response.ok) {
+          lastError = null;
+          break; // success
+        } else {
+          lastError = data;
+        }
+      } catch (err) {
+        lastError = err;
+      }
+    }
+
+    if (!response || !response.ok) {
+        throw new Error(`Gemini API error after retries: ${JSON.stringify(lastError)}`);
     }
     
     const textOutput = data.candidates[0].content.parts[0].text;
