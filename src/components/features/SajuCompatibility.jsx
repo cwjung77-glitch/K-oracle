@@ -271,10 +271,10 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <input type="date" value={dob} onChange={(e) => setDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
                 <div className="flex flex-col gap-2">
-                    <input type={timeUnknown ? "text" : "time"} value={timeUnknown ? (lang === 'es' ? "Desconocida" : "Unknown") : time} disabled={timeUnknown} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 disabled:opacity-50" />
+                    <input type={timeUnknown ? "text" : "time"} value={timeUnknown ? "Unknown" : time} disabled={timeUnknown} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 disabled:opacity-50" />
                     <label className="flex items-center gap-2 text-xs text-zinc-400 cursor-pointer w-max">
                       <input type="checkbox" checked={timeUnknown} onChange={(e) => setTimeUnknown(e.target.checked)} className="accent-violet-500 w-3 h-3" />
-                      {lang === 'es' ? 'No sé la hora' : "I don't know my birth time"}
+                      "Time Unknown (시간 모름)"
                     </label>
                   </div>
                   <select 
@@ -303,10 +303,10 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <input type="date" value={customDob} onChange={(e) => setCustomDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
                     <div className="flex flex-col gap-2">
-                        <input type={customTimeUnknown ? "text" : "time"} value={customTimeUnknown ? (lang === 'es' ? "Desconocida" : "Unknown") : customTime} disabled={customTimeUnknown} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 disabled:opacity-50" />
+                        <input type={customTimeUnknown ? "text" : "time"} value={customTimeUnknown ? "Unknown" : customTime} disabled={customTimeUnknown} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 disabled:opacity-50" />
                         <label className="flex items-center gap-2 text-xs text-zinc-400 cursor-pointer w-max">
                           <input type="checkbox" checked={customTimeUnknown} onChange={(e) => setCustomTimeUnknown(e.target.checked)} className="accent-violet-500 w-3 h-3" />
-                          {lang === 'es' ? 'No sé la hora' : "I don't know the birth time"}
+                          "Time Unknown (시간 모름)"
                         </label>
                       </div>
                     <select value={customGender} onChange={(e) => setCustomGender(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 appearance-none cursor-pointer">
