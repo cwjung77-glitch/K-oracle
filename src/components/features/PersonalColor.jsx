@@ -417,9 +417,9 @@ export default function PersonalColor() {
                   
                   <div className="w-full text-center">
                     <div className={`${result.cardText} opacity-70 text-xs font-bold mb-3 tracking-widest uppercase text-center`}>Your Palette</div>
-                    <div className="inline-flex flex-wrap gap-1.5 md:gap-2 p-2 md:p-2.5 rounded-2xl bg-black/10 backdrop-blur-md shadow-inner border border-white/30">
+                    <div className="inline-flex flex-wrap gap-2 md:gap-3 p-3 md:p-4 rounded-2xl bg-zinc-900 shadow-xl border border-zinc-800">
                       {result.bestColors.slice(0, 3).map((c, i) => (
-                        <div key={i} className="w-6 h-6 md:w-8 md:h-8 shrink-0 rounded-full shadow-[0_4px_10px_rgba(0,0,0,0.2)] border-2 md:border-[2.5px] border-white/90 transform hover:scale-110 transition-transform cursor-default" style={{backgroundColor: c.hex}}></div>
+                        <div key={i} className="w-8 h-8 md:w-10 md:h-10 shrink-0 rounded-full shadow-[0_4px_15px_rgba(0,0,0,0.3)] border-2 border-white/20 transform hover:scale-110 transition-transform cursor-default" style={{backgroundColor: c.hex}}></div>
                       ))}
                     </div>
                   </div>
