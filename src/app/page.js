@@ -9,7 +9,7 @@ import DailyFortune from '../components/features/DailyFortune';
 
 import LoginModal from '../components/features/LoginModal';
 import Link from 'next/link';
-import { Sparkles, Moon, Palette, Zap, Lock, Globe, Mail } from 'lucide-react';
+import { Sparkles, Moon, Palette, Zap, Lock, Globe, Mail, User } from 'lucide-react';
 
 export default function OracleLanding() {
   const [activeTab, setActiveTab] = useState('saju');
