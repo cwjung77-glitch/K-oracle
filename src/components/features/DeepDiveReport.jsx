@@ -17,6 +17,15 @@ export default function DeepDiveReport({ lang = "en" }) {
 
   const fetchReport = async () => {
       setIsGenerating(true);
+      
+      let dailyVibe = "";
+      try {
+        const cachedDaily = localStorage.getItem('daily_result');
+        if (cachedDaily) {
+           dailyVibe = JSON.parse(cachedDaily).data.vibe;
+        }
+      } catch(e) {}
+      
       const cacheKey = `saju_${plan}_${localStorage.getItem("userDob")}_${localStorage.getItem("userName")}_${localStorage.getItem("idolName")}`;
       const cached = localStorage.getItem(cacheKey);
       if (cached) {
@@ -38,7 +47,7 @@ export default function DeepDiveReport({ lang = "en" }) {
         const res = await fetch('/api/generate-saju', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan"), idolName: localStorage.getItem("idolName"), userName: localStorage.getItem("userName") || "The Client" || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang })
+          body: JSON.stringify({ plan: localStorage.getItem("purchasedPlan"), idolName: localStorage.getItem("idolName"), userName: localStorage.getItem("userName") || "The Client" || "bundle", birthData: (localStorage.getItem("userDob") || "1995-10-15") + " " + (localStorage.getItem("userTime") || "12:00"), gender: localStorage.getItem("userGender") || "female", lang, dailyVibe })
         });
         const data = await res.json();
           if (data.success) {

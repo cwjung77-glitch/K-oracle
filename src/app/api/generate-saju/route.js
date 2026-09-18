@@ -4,7 +4,7 @@ import { NextResponse } from 'next/server';
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { birthData, gender, lang, plan, userName, idolName: bodyIdolName } = body;
+    const { birthData, gender, lang, plan, userName, idolName: bodyIdolName, dailyVibe } = body;
     const isEs = lang === 'es';
 
     const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
