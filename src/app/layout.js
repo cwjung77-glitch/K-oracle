@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
-        <meta name="fo-verify" content="a3dbfbf2-262f-4ef6-9a39-4937464bd3d2">
+        <meta name="fo-verify" content="a3dbfbf2-262f-4ef6-9a39-4937464bd3d2" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5395815436840186" crossOrigin="anonymous"></script>
       </head>
       <body className="min-h-full flex flex-col">
