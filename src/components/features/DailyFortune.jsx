@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Sparkles, Star, Target, Palette, Zap, Check, Lock, ChevronRight } from 'lucide-react';
 import Link from 'next/link';
 
@@ -161,7 +161,7 @@ export default function DailyFortune({ lang, onGoToPremium }) {
             <Lock size={24} className="text-violet-300 mx-auto mb-3" />
             <h3 className="text-xl font-black text-white mb-2">{lang === 'es' ? 'Desbloquea Tu Destino Completo' : 'Unlock Your Full Destiny'}</h3>
             <p className="text-zinc-400 text-sm mb-5 max-w-md mx-auto">
-              {lang === 'es' ? '¿Quieres saber qué te deparan los próximos 15 meses? Obtén tu reporte Saju detallado de 30 páginas por $9.99.' : 'Want to know what the next 15 months hold? Get your detailed 30-page Saju report for $9.99.'}
+              {lang === 'es' ? '¿Quieres saber qué te deparan los próximos 15 meses? Obtén tu reporte Saju detallado de 30 páginas por $11.99.' : 'Want to know what the next 15 months hold? Get your detailed 30-page Saju report for $11.99.'}
             </p>
             <button className="bg-white text-black font-black px-6 py-3 rounded-full text-sm hover:scale-105 transition-transform">
               {lang === 'es' ? 'Ver Planes Premium' : 'View Premium Plans'}
