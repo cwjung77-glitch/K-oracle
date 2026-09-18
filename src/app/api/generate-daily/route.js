@@ -11,7 +11,7 @@ export async function POST(req) {
     if (apiKeys.length === 0 || !apiKeys[0]) {
       return NextResponse.json({ success: false, message: "No Gemini API key found" }, { status: 500 });
     }
-    const GEMINI_API_KEY = apiKeys[0]; // just use the first one
+    // Keys will be rotated below
 
     const todayStr = new Date().toISOString().split('T')[0];
     
@@ -66,24 +66,28 @@ export async function POST(req) {
     let data = null;
     let response = null;
 
-    for (const currentModel of fallbackModels) {
-      try {
-        const url = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${GEMINI_API_KEY}`;
-        response = await fetch(url, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(requestBody)
-        });
-        data = await response.json();
-        
-        if (response.ok) {
-          lastError = null;
-          break; // success
-        } else {
-          lastError = data;
+    // API Key rotation + model fallback
+    for (const currentKey of apiKeys) {
+      if (response && response.ok) break;
+      for (const currentModel of fallbackModels) {
+        try {
+          const url = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${currentKey}`;
+          response = await fetch(url, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(requestBody)
+          });
+          data = await response.json();
+          
+          if (response.ok) {
+            lastError = null;
+            break; // success
+          } else {
+            lastError = data;
+          }
+        } catch (err) {
+          lastError = err;
         }
-      } catch (err) {
-        lastError = err;
       }
     }
 
