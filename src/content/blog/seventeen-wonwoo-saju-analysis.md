@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Wonwoo", "SEVENTEEN", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born July 17, 1996, SEVENTEEN’s Wonwoo carries the **Xin Metal (辛金)** Day Master in Korean Saju (Four Pillars of Destiny). Think of Xin Metal as a finely polished gemstone or a delicate surgical scalpel—it makes his core energy introspective, insanely meticulous, and surprisingly tough. Backed by powerful Wood (Wealth/Result) and Water (Expression) elements, his cosmic setup gifts him deep lyricism, laser focus, visual creativity, and that quiet, magnetic aura fans can't take their eyes off of.
 
 ---

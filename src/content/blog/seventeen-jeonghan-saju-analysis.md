@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 **What does Seventeen Jeonghan's Saju reveal about his destiny?**
 
 Born October 4, 1995, Jeonghan’s entire chart rests on the **Gye-Chuk (Yin Water Ox)** Day Pillar. Think of it as a quiet morning mist covering a mountain of raw, unstoppable endurance. His blueprint strikes a stunning balance between **Wood** (pure creative expression) and **Metal** (sharp, strategic intellect). That exact elemental harmony explains his famous duality: the soft, caring "Angel" fans adore, and the absolute game-theory genius who runs the show in SEVENTEEN.

@@ -9,6 +9,9 @@ tags: ["Stray Kids", "Felix", "Saju", "Four Pillars of Destiny", "K-Pop Astrolog
 
 ## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 In Korean Saju (Four Pillars of Destiny), Stray Kids' Felix (born September 15, 2000) is guided by a **Fire Day Master** surrounded by intense **Metal** energy. This unique cosmic structure explains his striking duality: a radiant, warm presence (Fire) paired with a razor-sharp artistic precision and deep, resonant vocal gravity (Metal). In East Asian metaphysics, Metal governs the lungs, throat, and sound waves, directly aligning with his famous deep bass voice. His Saju reflects an unstoppable global luck cycle, driven by adaptability, refined discipline, and immense magnetic attraction.
 
 ---

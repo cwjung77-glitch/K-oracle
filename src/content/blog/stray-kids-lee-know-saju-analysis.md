@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---## TL;DR (Quick Answer): The Mystical Energy of Lee Know
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Ever wondered what makes Stray Kids' Lee Know (born October 25, 1998) so insanely magnetic on stage? It all boils down to his **Yi Si (Wood Snake)** Day Pillar. His core Day Master element is **Yi Wood (乙木)**—think resilient, adaptable, ivy-like flexibility—sitting right on top of the fiery **Si Fire (巳火)** pillar. That Si Fire is pure stage presence, blinding charisma, and laser-sharp focus. Put them together, and you get Lee Know: surgically precise, wildly intuitive, and walking that legendary line between ice-cold detachment and pure, unadulterated passion.
 
 ---

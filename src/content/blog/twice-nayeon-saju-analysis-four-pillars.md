@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 TWICE’s Nayeon was born to command the stage—her Saju chart practically screams main-character energy. Powered by the **Bing Fire (丙火)** Day Master, she embodies the blazing, unfiltered radiance of the midday Sun. Couple that with a powerful **Rooster (酉)** in her month pillar unleashing the legendary **Peach Blossom Star (Dao Hua)** charm, and you get an absolute powerhouse of visual magnetism, crisp vocal precision, and serious wealth energy. Throw in nourishing Wood to keep her creative fire burning and Water to push her influence across borders, and her Four Pillars reveal a cosmic setup designed for iconic, long-lasting global stardom.
 
 ---

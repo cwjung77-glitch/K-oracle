@@ -6,6 +6,9 @@ excerpt: "Unlock the cosmic secrets of BTS star Jungkook through Korean Saju (Fo
 author: "K-Oracle"
 tags: ["BTS Jungkook", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology", "Korean Saju"]
 ---## TL;DR (Quick Answer)
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
 BTS's Jeon Jungkook (born September 1, 1997) carries an absolutely explosive **Bing Wu (丙午) - Fire Horse** Day Master in his Korean Saju (Four Pillars of Destiny) chart. Think of Bing Fire as the blinding midday Sun: raw, unstoppable star power, endless stamina, and pure artistic talent. Backed by heavy Earth (creative drive) and Metal (wealth and massive global achievements), his birth chart is literally custom-built for an international superstar. That's not luck—that's the cosmic blueprint behind the "Golden Maknae."
 
 ---

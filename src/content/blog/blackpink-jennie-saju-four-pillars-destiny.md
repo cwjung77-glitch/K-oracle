@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BLACKPINK Jennie", "Saju Analysis", "Four Pillars of Destiny", "Korean Astrology", "K-Pop Metaphysics"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Look at BLACKPINK Jennie’s birth chart in **Korean Saju (Four Pillars of Destiny)** and you’ll find she was born under the **Im-In (Water Tiger)** Day Pillar. Her core energy—the Day Master—is **Im Water (壬水)**, which carries the boundless, magnetic force of the deep ocean. Paired with the **Tiger (In Wood)** beneath her, her chart sparks a massive creative engine known as *Sik-sang* (Expression/Output). That exact cosmic setup gives her an unbelievable natural talent for setting global trends, dominating stages, and blending high-fashion elegance with pure artistic authenticity.
 
 ---

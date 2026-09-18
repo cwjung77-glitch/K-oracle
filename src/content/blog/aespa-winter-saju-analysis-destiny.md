@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Aespa", "Winter", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Look at Aespa’s Winter (Kim Min-jeong, born January 1, 2001) through the lens of Saju, and everything about her talent suddenly makes complete sense. She is governed by the **Shin-sa (辛巳)** Day Pillar—the **White Metal Snake**. That puts **Yin Metal (Shin)** directly on top of **Yang Fire (Sa)**. It’s a remarkable cosmic combination. That exact alchemy gives her razor-sharp vocal precision, an icy yet magnetic aura, and an insane ability to switch between calm composure and blistering stage charisma. Her chart is literally a rare jewel forged in celestial fire, built from day one for global stardom.
 
 ---

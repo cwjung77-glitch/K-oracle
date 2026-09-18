@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BangChan", "StrayKids", "Saju Analysis", "Korean Astrology", "KPop Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Look at Bang Chan's chart through traditional **Saju (Four Pillars of Destiny)** and everything about Stray Kids' ultimate leader suddenly makes sense. Born on a **Gui Si (Water Snake)** day within an Earth Rooster month and Fire Ox year, his core spiritual identity is **Gui Water (癸水)**—think gentle rain, quiet intuition, boundless adaptability, and emotional depth that runs miles deep. 
 
 Quick insights from his cosmic map:

@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born September 12, 1994, BTS’s legendary leader Kim Nam-joon carries the **Yin Wood Ox (Yi Chou)** Day Pillar in his Korean Saju chart. His Four Pillars strike an incredible dynamic balance: adaptable Yin Wood, commanding Autumn Metal authority, and vast Water intellect. It’s a rare, powerful elemental mix. That’s precisely where he gets his razor-sharp eloquence, quiet authority, deep philosophical mind, and the insane creative resilience it takes to guide a global music revolution.
 
 ---

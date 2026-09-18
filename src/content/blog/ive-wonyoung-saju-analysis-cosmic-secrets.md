@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master Element:** **Yang Water (Im-Su)** — think vast, unstoppable, deeply wise, and infinitely adaptable. She’s the entire ocean, not just a splash.
 * **Core Cosmic Strengths:** Loaded with **Resource (Metal)** and **Self (Water)** energy. That gives her terrifyingly fast skill pickup, elite mental resilience, and pure flexibility on stage.
 * **Star Indicators:** Packed with **Peach Blossom Stars (Dohwa-Sal)** and **Crown Stars**. Translation? Off-the-charts charisma, hypnotizing public appeal, and absolute natural authority.

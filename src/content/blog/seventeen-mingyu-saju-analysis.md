@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["SEVENTEEN", "Mingyu", "Saju Analysis", "K-Pop Astrology", "Korean Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 SEVENTEEN’s powerhouse **Mingyu** carries the **Ji Earth (己土)** Day Master in Korean Saju—the ultimate symbol of rich, fertile, nurturing soil. This specific energy makes him endlessly adaptable, effortlessly elevating everyone and everything in his orbit. His birth chart sparkles with a dynamic blend of **Wood** and **Fire**, fusing an unwavering sense of duty with pure star power. The legendary **Peach Blossom Star (Taohua)** completes his cosmic setup, giving us that signature Mingyu magic: killer visuals, magnetic warmth, and a fierce protective instinct over the people he loves.
 
 ---

@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Rose", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---## TL;DR: Quick Destiny Insights for Blackpink's Rosé
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Core Essence (Day Master):** Rosé was born under **Bing Fire (Yang Fire)**, representing the brilliant Sun. This endows her with warmth, charisma, artistic passion, and a shining presence on stage.
 * **Artistic Engine:** Her chart features strong **Earth elements (Output Stars)**, which govern musical expression, vocal tone, emotional storytelling, and effortless artistic flow.
 * **Global Radiance:** The presence of **Ren Water (Yang Water)** alongside her Sun Fire creates a legendary harmony known as *Sun Reflecting over Ocean*, signaling world-renowned fame and international resonance.

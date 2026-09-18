@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 *   **Day Master**: **Gyeong Metal (庚金)** — representing forged steel, surgical precision, and absolute determination.
 *   **Day Pillar**: **Gyeong-In (Metal Tiger)** — bestows bold leadership, high ambition, and dynamic stage energy.
 *   **Key Elemental Balance**: Strong Metal energy balanced by Water (expression) and Wood (results and achievement), forming an exceptionally balanced chart for performance arts.

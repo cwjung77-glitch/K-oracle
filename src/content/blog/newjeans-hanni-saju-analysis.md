@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Saju", "K-pop", "NewJeans", "Hanni", "Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Hanni's Saju chart reveals a breathtaking synergy between **Yin Water (Gui Water)** energy and dynamic **Wood** talent stars. Anchored by an unmistakable **Peach Blossom Star (Do-hwa-sal)**, her energetic blueprint drives her insane public charisma, effortless charm, and rich vocal agility. From an ancient metaphysical lens, her elements favor pure adaptability, creative fluency, and massive international pull—making her meteoric rise with NewJeans look practically written in the stars.
 
 ---

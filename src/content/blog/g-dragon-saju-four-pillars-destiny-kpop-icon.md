@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 **G-Dragon’s Saju (Four Pillars of Destiny)** reads like the birth chart of an absolute creative force. Born under the **Eul Mok (Yin Wood)** Day Master, his chart packs an explosive balance between **Fire (Expression/Sik-sang)** and **Metal (Authority/Gwan-seong)**. That rare combination fuels his legendary artistic instincts, razor-sharp perfectionism, and massive cultural footprint.
 
 * **Day Master**: Yin Wood (Eul Mok) – Adaptable, intuitive, born with an artistic soul.

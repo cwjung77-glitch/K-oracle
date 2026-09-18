@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Ningning", "Aespa", "Saju Analysis", "K-Pop Metaphysics", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master Element**: Ji Earth (己土) — Flexible, nourishing, artistic, and deeply intuitive.
 * **Dominant Energetic Forces**: A harmonious balance of Fire (Resource Star / Presence) and Metal (Output Star / Vocal Precision).
 * **Vocal Talent Source**: The Metal element represents her sharp, pristine vocal tone, while Fire provides the emotional resonance and passion that captivates global audiences.

@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 **SEVENTEEN’s Hoshi (Kwon Soonyoung, born June 15, 1996)** is powered by a **Yin Wood (Yi Wood)** Day Master anchored in explosive **Fire** and grounded by deep **Water**. His chart triggers a notorious **Rat-Horse Clash (Zi-Wu Clash)**—a high-voltage cosmic collision that sparks non-stop creative friction, insane energy, and undeniable stage brilliance. It’s the exact reason behind his legendary work ethic, hypnotic presence, and steady leadership of SEVENTEEN’s performance unit.
 
 ---

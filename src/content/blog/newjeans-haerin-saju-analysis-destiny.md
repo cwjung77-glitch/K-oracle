@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Ever wondered why NewJeans' Haerin projects such an intoxicating, quiet mystery? Her Four Pillars (Saju) chart holds the answer. Born under the **Ren-Yin (Water Tiger)** Day Pillar, her core element is **Ren Water**—the vast, deep ocean. It gives her that famous observant composure. Right underneath, the **Yin Wood (Tiger)** drives her electric artistic expression and signature cat-like aura. Top it off with a surge of Fire energy across her chart, and you get pure global star power, hypnotic visual magnetism, and massive early success.
 
 ---

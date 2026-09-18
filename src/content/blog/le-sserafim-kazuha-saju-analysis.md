@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Kazuha", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Take one look at Kazuha on stage, and you're seeing a rare cosmic recipe in action: a **Gi Earth (己土)** Day Master born right in the heart of peak **Metal energy (庚申)**. It is the ultimate blend of deep, grounded composure and terrifyingly sharp physical precision. That heavy Metal energy gives her the intense discipline of an elite classical ballerina, while the **Water element (癸水)** in her chart acts as the ultimate conductor—effortlessly channeling her raw talent straight into global fame, respect, and unstoppable momentum.
 
 ---

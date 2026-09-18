@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "Jimin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born October 13, 1995, BTS’s Park Ji-min commands the rare and captivating **Jeong-Chuk (丁丑) Day Pillar**—the legendary **Fire Ox** of Korean astrology. Look inside his chart and you'll find a stunning dance between the mesmerizing warmth of **Jeong Fire** and the grounded, unshakeable power of cold **Chuk Earth**. He's an absolute perfectionist. Pure emotional raw depth mixed with an insane work ethic. Jimin’s Saju shows a quiet, burning spirit whose spellbinding stage presence is built to shine globally for a very long time.
 
 ---

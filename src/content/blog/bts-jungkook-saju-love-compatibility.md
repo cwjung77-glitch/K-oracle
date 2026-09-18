@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "Jungkook", "Saju", "Four Pillars of Destiny", "Love Compatibility", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 BTS’s Jungkook is a pure **Yang Fire Horse (Byeong-Wu, 丙午)**, which explains *everything* about his presence. His core Saju energy is basically the midday sun at peak performance—blazing, unstoppable, and impossible to look away from. Add a Monkey Month Branch into the mix, and his chart gets a massive boost of laser focus, raw drive, and heavy Wealth energy. Romance-wise? He can't do lukewarm. He needs a partner who gets his intense work ethic—someone carrying soothing Yin Water or gentle Wood energy to balance his heat without smothering his creative fire.
 
 ---

@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 **TWICE’s Sana** isn't just ridiculously charming by accident—her Korean Saju (Four Pillars of Destiny) birth chart reveals a powerhouse mix of deep Water and illuminating Fire, anchored by an incredible dose of **Peach Blossom Luck (*Doshwasal*)**. Born in the Year of the Fire Rat (*Bing-Zi*), her chart basically screams warmth, instant adaptability, and magnetic star power. That viral cuteness, undeniable stage aura, and global hold on ONCE? It's all written in her stars: a glowing Fire Day Master fueled by fluid Water elements that draw people in without her even trying.
 
 ---

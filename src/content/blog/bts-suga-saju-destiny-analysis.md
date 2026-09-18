@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "SUGA", "Agust D", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born March 9, 1993, Min Yoon-gi carries the **Gi-Chuk (己丑) Day Pillar**—giving him the unshakeable, relentless energy of the **Earth Ox**. Rooted in deep, fertile earth, his chart grants him monstrous mental endurance, profound emotional depth, and an endlessly creative mind. Yoon-gi’s Saju reveals a soul built to weather the absolute worst storms, quietly cultivating masterpieces out of cold, unyielding soil. This goes way beyond a typical idol chart. It’s the cosmic signature of a legendary producer, philosopher, and musical genius who transmutes raw pain into timeless art.
 
 ---

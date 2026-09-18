@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Eunchae", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Hong Eunchae’s Saju reveals a stunning, rare blend: **Xin Metal (Jewel/Polished Metal)** fueled by deep Water and Wood. Born in the Fire Dog year and Earth Pig month, her natal chart locks together surgical artistic precision, magnetic Peach Blossom (*Dohwa-sal*) charisma, and an effortlessly adaptable warmth. That cosmic blueprint isn't just luck—it’s the exact reason for her explosive rise as Le Sserafim's iconic *maknae* and go-to TV host. Expect long-term creative evolution, endless public adoration, and massive career longevity.
 
 ---

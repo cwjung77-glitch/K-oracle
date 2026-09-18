@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master (Core Identity):** *Eul Wood* (Yin Wood)—think of a graceful flower, climbing ivy, or a resilient vine. It brings deep empathy, pure resilience, aesthetic elegance, and gentle adaptability.
 * **Day Branch (Inner Self):** The Snake (*Sa Fire*)—endows him with explosive stage presence, creative warmth, artistic brilliance, and raw, passionate expression.
 * **Elemental Duality:** Heavy Metal influence (structure, discipline, razor-sharp focus) colliding with Fire energy builds his famous signature contrast: an ethereal, angelic visual matched with an impossibly deep, thunderous voice.

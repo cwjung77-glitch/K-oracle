@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Danielle", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master (Core Element)**: **Yi Wood (乙木)** – Think blooming spring flowers and resilient vines. She’s flexible, deeply artistic, warm, and radiates natural elegance.
 * **Key Cosmic Stars**: Packed with the **Peach Blossom Star (도화살)** and dominant **Expression Stars (식상)**. That’s the magic formula behind her insane stage presence, infectious vocal charm, and sheer storytelling power.
 * **Elemental Dynamic**: A rich, grounded mix of Wood, Earth, and Metal. It balances her raw creative freedom with the hardcore discipline needed for top-tier idol life.

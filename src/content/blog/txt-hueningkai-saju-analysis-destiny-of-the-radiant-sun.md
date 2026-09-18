@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Hueningkai", "Saju", "Kpop", "Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born under the **Bing Fire (丙火)** Day Master, TXT’s Hueningkai is pure sunshine incarnate. His Saju chart paints a vivid picture of a deeply gifted, inherently warm star. Stacked with strong Metal and Water elements, his energetic grid pairs magnetic stage presence with quiet emotional depth and unreal musical instincts. The charts point to massive long-term global impact, lasting artistic growth, and a rare aura that genuinely lifts people up.
 
 ---

@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Miyawaki Sakura", "LE SSERAFIM", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Miyawaki Sakura’s Saju chart is driven by the **Xin Metal (Yin Metal)** Day Master—the ultimate archetype of a rare gemstone that shines brighter every single time it faces heat and pressure. Powered by intense Wood energy (raw ambition and constant forward momentum) and anchored by sturdy Earth energy (mental fortitude and insane discipline), her Four Pillars map out exactly how she managed to successfully debut three distinct times across Japan and Korea (HKT48, IZ*ONE, and LE SSERAFIM). Her chart reveals a brilliant mix of quiet perfectionism, insane adaptability, and global magnetic star power that turns every industry reset into a historical triumph.
 
 ---

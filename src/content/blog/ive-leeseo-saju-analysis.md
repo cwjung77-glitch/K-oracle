@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Ever wonder how IVE's youngest member commands the stage like a ten-year veteran? **IVE's Leeseo (born February 21, 2007)** was born on a **Geng Yin (Metal Tiger)** day in Saju. Her Day Master element is **Geng Metal (庚金)**—think raw ore, heavy iron, or a razor-sharp sword. That gives her terrifyingly sharp focus, raw courage, and zero stage fright. Add in a birth month packed with early spring vitality (Yin Wood) plus balanced **Fire (Fame)** and **Metal (Self)**, and you get an absolute powerhouse. That cosmic setup is precisely why this *maknae* stands shoulder-to-shoulder with her older members without flinching.
 
 ---

@@ -5,7 +5,11 @@ date: "2026-09-15"
 excerpt: "Unveil the ancient Four Pillars of Destiny reading for ATEEZ's Choi San. Discover how his Yin Fire Day Master and Peach Blossom star forge his breathtaking stage duality."
 author: "K-Oracle"
 tags: ["ATEEZ", "Choi San", "Saju Reading", "K-Pop Destiny", "Four Pillars"]
----# TL;DR (Quick Answer)
+---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+# TL;DR (Quick Answer)
 
 * **Day Master**: *Ding Fire* (丁火) — A steady, concentrated, deeply passionate flame that turns intense raw emotion into high-level performance art.
 * **Core Pillar**: *Ding You* (Fire Rooster) — Combines refined fire with pure Rooster metal, granting him an innate **Peach Blossom Star** (Do Hwa Sal) and **Nobleman Star** (Cheon-eul Gwi-in).

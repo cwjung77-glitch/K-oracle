@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Rei", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "K-Oracle"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 IVE's Rei is a **Yin Earth (Ji Earth)** Day Master, meaning she carries the rich, nurturing energy of fertile soil built to grow stunning flowers and gardens. Her Saju birth chart reveals a brilliant mix of deep artistic intuition, emotional resonance, and unshakeable inner resilience. Packed with vibrant Wood and fluid Water elements, her cosmic layout drives her distinct musical flow, endless creative adaptability, and magnetic star power. That exact astrological balance explains why she completely commands the stage as IVE's main rapper and vocalist while setting global fashion trends.
 
 ---

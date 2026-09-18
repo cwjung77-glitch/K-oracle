@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born on December 5, 2000, **TXT (TOMORROW X TOGETHER) leader Soobin** carries the cosmic signature of the **Im Water (壬水)** Day Master. Think of his core energy as a deep, boundless ocean—tranquil on the surface, but holding insane emotional depth and quiet flexibility underneath. Backed by heavy **Metal** (logic, structure) and **Water** (fluidity, wisdom) elements, Soobin’s chart practically guarantees long-haul global success, razor-sharp EQ, and the kind of gentle leadership that keeps a top-tier boy group completely anchored.
 
 ---

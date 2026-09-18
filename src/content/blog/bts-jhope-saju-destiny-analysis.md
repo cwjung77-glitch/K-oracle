@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "J-Hope", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Jung Ho-seok (born February 18, 1994) carries the **Eul-Hae (乙亥) Day Pillar**—the legendary **Wood Pig**. This cosmic setup merges the flexible, unstoppable creativity of **Eul Wood** with the deep, intuitive ocean of **Hae Water**. You get a fiercely disciplined, insanely adaptable creative force. J-Hope's "sunshine" persona isn't just a gimmick; his exact chart reveals a perfectionist leader whose artistic drive and emotional intelligence lock in his status as a forever icon.
 
 ---

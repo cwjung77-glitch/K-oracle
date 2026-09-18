@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Gaeul", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master**: **Ding Fire (丁火)** sitting on **Si Fire (巳火)** — representing the radiant **Fire Snake**.
 * **Dominant Elements**: Refined **Fire** grounded by strong **Autumn Metal (酉金)** and balanced by **Water (壬水)**.
 * **Core Personality**: Calm composure, hidden inner fire, sharp focus, immense artistic stamina, and a protective, elder-sister warmth.

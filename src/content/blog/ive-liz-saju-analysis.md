@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 IVE’s vocal powerhouse Liz (Kim Ji-won), born November 21, 2004, carries the **Ren Water (壬水)** Day Master—the energy of a deep, endless ocean. Look at her Four Pillars of Destiny (Saju) and you’ll see an overwhelming rush of Water and Wood elements. That exact dynamic fuels her rich vocal tone, deep emotional sensitivity, and magnetic stage presence. Her chart reveals a brilliant mix of flexibility and raw inner resilience, pointing toward a long, massive international career.
 
 ---

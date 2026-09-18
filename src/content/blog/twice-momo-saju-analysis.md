@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Momo", "Kpop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 TWICE’s Momo is a absolute powerhouse anchored by **Yang Earth (Mountain Energy)** and supercharged by dynamic **Fire and Water elements**. Her Day Master gives her that jaw-dropping physical stamina, unshakeable work ethic, and quiet grit that pushed her to legendary status as K-Pop's dancing machine. Backed by Fire for star quality and Water for wealth and adaptability, Momo’s Four Pillars prove she was born for lifelong creative dominance.
 
 ---

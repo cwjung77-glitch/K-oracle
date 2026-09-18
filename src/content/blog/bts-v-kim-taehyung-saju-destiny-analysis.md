@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["BTS V", "Kim Taehyung", "Korean Saju", "Four Pillars of Destiny", "Celebrity Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Kim Taehyung carries the ultimate creative sign in Korean Saju: the **Eul Wood (乙木)** Day Master, rooted in the warm, fertile soil of **Mi (未)**. Born in the icy depths of winter (Ja Water month), his chart strikes a breathtaking balance between profound emotional depth and fluid, expressive artistry. V’s Saju reveals a rare storm of creative brilliance, effortless magnetism, and intense empathy. With strong resource and wealth elements standing behind him, his footprint across music, fashion, and visual arts is built for real, long-term longevity.
 
 ---

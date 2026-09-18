@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born on a **Yang Fire Horse (Bing-Wu)** day, **IVE's An Yujin** carries the intense, blinding energy of the mid-day **Sun (Bing Fire)**. Think warmth, raw charisma, and inescapable presence. Her Saju chart locks together an elite trifecta: **Fire (Self/Expressiveness)**, **Metal (Wealth/Execution)**, and **Water (Authority/Public Honor)**. That exact cosmic synergy is why she steals every stage, dominates variety television, and commands respect as one of the sharpest leaders in 4th Gen K-pop.
 
 ---

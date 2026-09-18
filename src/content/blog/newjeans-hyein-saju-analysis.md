@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Hyein", "Saju Reading", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Born April 21, 2008, NewJeans' powerhouse maknae Hyein carries the mesmerizing **Jeong-Hae (Fire Pig)** Day Pillar in her Saju chart. At her core sits **Jeong Fire (丁火)**—not a wild blaze, but an intimate, flickering flame radiating pure artistic intuition and magnetism. Paired with a potent interplay of Water and Earth, her cosmic blueprint reveals exactly why this young star holds such stunning emotional depth, soulful vocal tone, and effortlessly magnetic stage presence.
 
 ---

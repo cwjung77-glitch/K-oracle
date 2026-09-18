@@ -9,6 +9,9 @@ tags: ["TXT", "Taehyun", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Dest
 
 ## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 **TXT’s Taehyun (born February 5, 2002)** possesses a Saju chart characterized by a rare harmony between intense passion and razor-sharp intellect. Rooted in strong Earth and Fire energy balanced by liquid Water element dynamics, his chart reveals a natural perfectionist who combines logical precision with an unstoppable work ethic. This unique elemental signature explains his formidable vocal technique, athletic discipline, and steady, unwavering leadership within Tomorrow X Together.
 
 ---

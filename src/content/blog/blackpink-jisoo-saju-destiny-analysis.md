@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Jisoo", "Saju Analysis", "KPop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 Look at Blackpink Jisoo's birth chart in Korean Saju, and you instantly see why she's the rock-solid backbone of the group. She was born under a powerful **Earth Day Master**, giving her a deeply grounded, patient, and ultra-reliable foundation. Layer that with vibrant **Fire energy** for sheer stage charisma and structured **Wood energy** for relentless discipline, and you get a textbook blueprint for a steady, unstoppable rise. Her chart reveals the secret behind her dual dominance as a global pop star and an effortless actress: raw star power locked to an unbreakable core.
 
 ---

@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Tzuyu", "TWICE", "Saju Reading", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master**: Yin Fire (*Jeong Fire* - 丁火) sitting on the Water Pig (*Hae* - 亥).
 * **Core Temperament**: Soft like a warm candle flame, deeply polite, composed, resilient, and effortlessly magnetic.
 * **Key Cosmic Blessing**: Blessed with the *Tian Yi Gui Ren* (Heavenly Noble Star)—a rare sign bringing massive public love, divine protection, and global charisma.

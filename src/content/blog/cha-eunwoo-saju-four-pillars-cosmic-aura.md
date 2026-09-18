@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Cha Eunwoo", "ASTRO", "Saju", "K-Pop Destiny", "Four Pillars"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 * **Day Master**: **Geng Metal (庚金)** – Picture a flawless, razor-sharp sword or a radiant celestial jewel. It's the secret behind those unreal visuals, fierce inner discipline, and undeniable royalty.
 * **Key Stars**: A god-tier combo of **Dohwasal (Peach Blossom Star)** and **Cheon-eul Gwi-in (Heavenly Noble Star)**—the exact reason the entire world is obsessed with him, wrapped in lifetime cosmic armor.
 * **Elemental Harmony**: A stunningly balanced blend of **Yang Metal**, **Spring Wood**, and **Nourishing Earth**, turning him into an artistic shape-shifter who stays completely grounded.

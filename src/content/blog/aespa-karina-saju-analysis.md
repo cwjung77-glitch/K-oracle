@@ -7,6 +7,9 @@ author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 If you've ever wondered how Aespa's leader **Karina** (born April 11, 2000) pulls off that striking, AI-like perfection on stage, her Saju chart holds the secret. She was born under the **Ji Earth (己土)** Day Master and carries the intense energy of the **Metal Dragon (Geng Chen)**. It’s a breathtaking cosmic blueprint. You get the nurturing, grounded discipline of rich soil paired with the sharp brilliance and regal aura of pure Metal. That exact balance is why she dances with insane precision, leads Aespa with true grace, and holds the global K-Pop world in the palm of her hand.
 
 ---
