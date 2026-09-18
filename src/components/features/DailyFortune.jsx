@@ -113,7 +113,7 @@ export default function DailyFortune({ lang, onGoToPremium }) {
               <Sparkles className="text-white w-6 h-6 animate-pulse" />
             </div>
           </div>
-          <p className="text-zinc-300 font-bold animate-pulse">{lang === 'es' ? 'Leyendo las estrellas...' : 'Reading the stars...'}</p>
+          <p className="text-zinc-300 font-bold animate-pulse">{lang === 'es' ? 'Descifrando tu destino...' : 'Decoding your destiny...'}</p>
         </div>
       )}
 

@@ -386,7 +386,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               className="w-full py-4 mt-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black rounded-xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all shadow-[0_0_20px_rgba(168,85,247,0.4)] disabled:opacity-50"
             >
               {loading ? (
-                <span className="animate-pulse">Reading the Stars...</span>
+                <span className="animate-pulse">Decoding your destiny...</span>
               ) : (
                 <>Analyze Cosmic Bond <ArrowRight size={20} /></>
               )}
