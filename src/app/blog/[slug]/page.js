@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
+import BlogEngagement from '@/components/features/BlogEngagement';
 import { ArrowLeft } from 'lucide-react';
 
 export async function generateStaticParams() {
@@ -140,6 +141,8 @@ export default async function BlogPost({ params }) {
             <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
           </div>
         </article>
+
+        <BlogEngagement title={data.title} slug={params.slug} />
 
         <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-yellow-500/30 rounded-3xl text-center">
           <h3 className="text-2xl font-black mb-4">Discover Your Own Cosmic Blueprint</h3>
