@@ -5,6 +5,13 @@ import { Shirt, Scissors, ShoppingBag, Download, Star, Sparkles, Loader2, Check,
 import CosmicLoader from '../ui/CosmicLoader';
 
 export default function BeautyDeepDiveReport({ lang = "en" }) {
+  const [userPalette, setUserPalette] = useState([]);
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('k_vibe_user_palette');
+      if (stored) setUserPalette(JSON.parse(stored));
+    } catch(e) {}
+  }, []);
   const [isGenerating, setIsGenerating] = useState(true);
   const [reportData, setReportData] = useState(null);
   const [pdfUrl, setPdfUrl] = useState("");

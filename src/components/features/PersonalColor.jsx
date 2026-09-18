@@ -243,6 +243,7 @@ export default function PersonalColor() {
         const randomProducts = shuffle(productsPool).slice(0, 5);
 
         const randomPalette = shuffle(seasonData.colorPool).slice(0, 9);
+          if (typeof window !== 'undefined') localStorage.setItem('k_vibe_user_palette', JSON.stringify(randomPalette));
         const randomTags = shuffle(seasonData.tagPool).slice(0, 2);
 
         setResult({ 
