@@ -81,13 +81,17 @@ export default function OracleLanding() {
       
       {/* Navbar */}
       <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 h-16 flex items-center justify-between gap-1 sm:gap-2">
-          <div className="text-[17px] sm:text-[17px] sm:text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap flex-shrink-0 flex-shrink-0" onClick={handleLogoClick}>
-            <span className="text-violet-400">K</span>-ORACLE
-          </div>
-          <div className="flex items-center gap-1.5 sm:gap-6 flex-shrink-0">
-            <Link href="/idols" className="text-xs sm:text-xs sm:text-sm font-bold text-yellow-500 hover:text-yellow-400 transition-colors mr-2">Idols</Link>
-              <Link href="/blog" className="text-xs sm:text-xs sm:text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
+        <div className="max-w-7xl mx-auto px-3 sm:px-6 h-16 flex items-center justify-between gap-2">
+            <div className="flex items-center gap-4 sm:gap-8 flex-shrink-0">
+              <div className="text-[17px] sm:text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap" onClick={handleLogoClick}>
+                <span className="text-violet-400">K</span>-ORACLE
+              </div>
+              <nav className="flex items-center gap-3 sm:gap-6">
+                <Link href="/idols" className="text-xs sm:text-sm font-bold text-yellow-500 hover:text-yellow-400 transition-colors">Idols</Link>
+                <Link href="/blog" className="text-xs sm:text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
+              </nav>
+            </div>
+            <div className="flex items-center gap-2 sm:gap-4 flex-shrink-0">
             {/* Language Toggle */}
             <div className="flex items-center gap-0.5 sm:gap-1 bg-zinc-900 border border-zinc-800 rounded-full p-1 pl-2 sm:pl-3"><Globe size={14} className="text-zinc-500 mr-1" />
               <button 
