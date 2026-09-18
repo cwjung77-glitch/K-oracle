@@ -1,34 +1,55 @@
 ﻿'use client';
 
 import { useState, useEffect } from 'react';
-import { Share2, Heart, Flame, Sparkles, MessageCircleWarning } from 'lucide-react';
+import { Share2 } from 'lucide-react';
+
+// Simple deterministic hash function based on a string
+function getHash(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return Math.abs(hash);
+}
 
 export default function BlogEngagement({ title, slug }) {
   const [reactions, setReactions] = useState({ heart: 0, fire: 0, sparkle: 0, shock: 0 });
-  const [hasReacted, setHasReacted] = useState(false);
+  const [userReaction, setUserReaction] = useState(null); // 'heart', 'fire', 'sparkle', 'shock', or null
 
   useEffect(() => {
-    const saved = localStorage.getItem(`reactions_${slug}`);
-    if (saved) {
-      setHasReacted(true);
-      // We don't load the numbers from local storage as real global numbers, 
-      // but we can mock a random initial number for social proof
+    // 1. Generate consistent fake numbers based on the article's slug
+    const hash = getHash(slug || 'default');
+    
+    // Use modulo to keep numbers in realistic ranges
+    const baseReactions = {
+      heart: 120 + (hash % 50),     // 120 ~ 169
+      fire: 80 + ((hash * 2) % 30), // 80 ~ 109
+      sparkle: 90 + ((hash * 3) % 40), // 90 ~ 129
+      shock: 20 + ((hash * 4) % 15)    // 20 ~ 34
+    };
+
+    // 2. Check if this specific user has reacted to this specific post before
+    const savedReaction = localStorage.getItem(`reaction_${slug}`);
+    
+    if (savedReaction) {
+      setUserReaction(savedReaction);
+      // Add +1 to the base number for the reaction they chose
+      baseReactions[savedReaction] += 1;
     }
     
-    // Mock global reactions for visual appeal
-    setReactions({
-      heart: Math.floor(Math.random() * 50) + 120,
-      fire: Math.floor(Math.random() * 30) + 80,
-      sparkle: Math.floor(Math.random() * 40) + 90,
-      shock: Math.floor(Math.random() * 10) + 20
-    });
+    setReactions(baseReactions);
   }, [slug]);
 
   const handleReact = (type) => {
-    if (hasReacted) return;
+    // If they already reacted, don't let them spam click
+    if (userReaction) return;
+
+    // Immediately increment the clicked reaction
     setReactions(prev => ({ ...prev, [type]: prev[type] + 1 }));
-    setHasReacted(true);
-    localStorage.setItem(`reactions_${slug}`, 'true');
+    setUserReaction(type);
+    
+    // Save to browser so it remembers if they refresh
+    localStorage.setItem(`reaction_${slug}`, type);
   };
 
   const handleShare = async (platform) => {
@@ -39,14 +60,6 @@ export default function BlogEngagement({ title, slug }) {
       window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(url)}`, '_blank');
     } else if (platform === 'facebook') {
       window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
-    } else if (platform === 'threads') {
-      // Threads doesn't have a direct share URL yet, use native share if available
-      if (navigator.share) {
-        navigator.share({ title, text: shareText, url });
-      } else {
-        navigator.clipboard.writeText(url);
-        alert('Link copied to clipboard to share on Threads!');
-      }
     } else if (platform === 'native') {
       if (navigator.share) {
         navigator.share({ title, text: shareText, url });
@@ -65,21 +78,21 @@ export default function BlogEngagement({ title, slug }) {
         <div className="flex flex-col items-center md:items-start gap-3">
           <span className="text-zinc-400 font-bold text-sm uppercase tracking-wider">React to this analysis</span>
           <div className="flex gap-4">
-            <button onClick={() => handleReact('heart')} className="flex flex-col items-center gap-1 group">
-              <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:border-red-500 transition-all">❤️</div>
-              <span className="text-xs text-zinc-500 font-mono">{reactions.heart}</span>
+            <button onClick={() => handleReact('heart')} className={`flex flex-col items-center gap-1 group transition-all ${userReaction === 'heart' ? 'scale-110' : userReaction ? 'opacity-50 grayscale' : 'hover:scale-110'}`}>
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center text-2xl transition-all ${userReaction === 'heart' ? 'bg-red-500/20 border-red-500 border-2' : 'bg-zinc-900 border border-zinc-800 group-hover:border-red-500'}`}>❤️</div>
+              <span className={`text-xs font-mono ${userReaction === 'heart' ? 'text-red-400 font-bold' : 'text-zinc-500'}`}>{reactions.heart}</span>
             </button>
-            <button onClick={() => handleReact('fire')} className="flex flex-col items-center gap-1 group">
-              <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:border-orange-500 transition-all">🔥</div>
-              <span className="text-xs text-zinc-500 font-mono">{reactions.fire}</span>
+            <button onClick={() => handleReact('fire')} className={`flex flex-col items-center gap-1 group transition-all ${userReaction === 'fire' ? 'scale-110' : userReaction ? 'opacity-50 grayscale' : 'hover:scale-110'}`}>
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center text-2xl transition-all ${userReaction === 'fire' ? 'bg-orange-500/20 border-orange-500 border-2' : 'bg-zinc-900 border border-zinc-800 group-hover:border-orange-500'}`}>🔥</div>
+              <span className={`text-xs font-mono ${userReaction === 'fire' ? 'text-orange-400 font-bold' : 'text-zinc-500'}`}>{reactions.fire}</span>
             </button>
-            <button onClick={() => handleReact('sparkle')} className="flex flex-col items-center gap-1 group">
-              <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:border-yellow-500 transition-all">✨</div>
-              <span className="text-xs text-zinc-500 font-mono">{reactions.sparkle}</span>
+            <button onClick={() => handleReact('sparkle')} className={`flex flex-col items-center gap-1 group transition-all ${userReaction === 'sparkle' ? 'scale-110' : userReaction ? 'opacity-50 grayscale' : 'hover:scale-110'}`}>
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center text-2xl transition-all ${userReaction === 'sparkle' ? 'bg-yellow-500/20 border-yellow-500 border-2' : 'bg-zinc-900 border border-zinc-800 group-hover:border-yellow-500'}`}>✨</div>
+              <span className={`text-xs font-mono ${userReaction === 'sparkle' ? 'text-yellow-400 font-bold' : 'text-zinc-500'}`}>{reactions.sparkle}</span>
             </button>
-            <button onClick={() => handleReact('shock')} className="flex flex-col items-center gap-1 group">
-              <div className="w-12 h-12 rounded-full bg-zinc-900 border border-zinc-800 flex items-center justify-center text-2xl group-hover:scale-110 group-hover:border-blue-500 transition-all">😲</div>
-              <span className="text-xs text-zinc-500 font-mono">{reactions.shock}</span>
+            <button onClick={() => handleReact('shock')} className={`flex flex-col items-center gap-1 group transition-all ${userReaction === 'shock' ? 'scale-110' : userReaction ? 'opacity-50 grayscale' : 'hover:scale-110'}`}>
+              <div className={`w-12 h-12 rounded-full flex items-center justify-center text-2xl transition-all ${userReaction === 'shock' ? 'bg-blue-500/20 border-blue-500 border-2' : 'bg-zinc-900 border border-zinc-800 group-hover:border-blue-500'}`}>😲</div>
+              <span className={`text-xs font-mono ${userReaction === 'shock' ? 'text-blue-400 font-bold' : 'text-zinc-500'}`}>{reactions.shock}</span>
             </button>
           </div>
         </div>
