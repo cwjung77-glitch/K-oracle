@@ -1,4 +1,4 @@
-﻿export const maxDuration = 60;
+export const maxDuration = 60;
 import { NextResponse } from 'next/server';
 
 export async function POST(req) {
@@ -60,7 +60,13 @@ export async function POST(req) {
     }
     
     const textOutput = data.candidates[0].content.parts[0].text;
-    const result = JSON.parse(textOutput);
+    let result;
+    try {
+      const cleanText = textOutput.replace(/```json/gi, '').replace(/```/g, '').trim();
+      result = JSON.parse(cleanText);
+    } catch(e) {
+      throw new Error(`Failed to parse JSON: ${e.message}. Text was: ${textOutput}`);
+    }
     
     return NextResponse.json({ success: true, data: result });
   } catch (error) {
