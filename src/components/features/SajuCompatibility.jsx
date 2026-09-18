@@ -14,6 +14,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   const [userName, setUserName] = useState('');
   const [dob, setDob] = useState('');
   const [time, setTime] = useState('12:00');
+  const [timeUnknown, setTimeUnknown] = useState(false);
   const [gender, setGender] = useState('female');
   const [showRequestIdol, setShowRequestIdol] = useState(false);
   const [requestName, setRequestName] = useState('');
@@ -22,6 +23,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   const [customName, setCustomName] = useState('');
   const [customDob, setCustomDob] = useState('');
   const [customTime, setCustomTime] = useState('12:00');
+  const [customTimeUnknown, setCustomTimeUnknown] = useState(false);
   const [customGender, setCustomGender] = useState('male');
   useEffect(() => {
     if(typeof window !== 'undefined') {
@@ -135,7 +137,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       setSelectedIdol(targetPerson);
     }
     
-    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userTime', time); localStorage.setItem('userGender', gender); localStorage.setItem('userName', userName || "You");
+    setLoading(true); localStorage.setItem('userDob', dob); localStorage.setItem('userTime', timeUnknown ? 'Unknown' : time); localStorage.setItem('userGender', gender); localStorage.setItem('userName', userName || "You");
     
     // 1. User's Element (Fixed based on DOB)
     let userHash = 0;
@@ -268,7 +270,13 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <input type="text" value={userName} onChange={(e) => setUserName(e.target.value)} placeholder="Your Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 mb-4" />
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <input type="date" value={dob} onChange={(e) => setDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
-                <input type="time" value={time} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
+                <div className="flex flex-col gap-2">
+                    <input type={timeUnknown ? "text" : "time"} value={timeUnknown ? (lang === 'es' ? "Desconocida" : "Unknown") : time} disabled={timeUnknown} onChange={(e) => setTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 disabled:opacity-50" />
+                    <label className="flex items-center gap-2 text-xs text-zinc-400 cursor-pointer w-max">
+                      <input type="checkbox" checked={timeUnknown} onChange={(e) => setTimeUnknown(e.target.checked)} className="accent-violet-500 w-3 h-3" />
+                      {lang === 'es' ? 'No sé la hora' : "I don't know my birth time"}
+                    </label>
+                  </div>
                   <select 
                     value={gender} 
                     onChange={(e) => setGender(e.target.value)}
@@ -294,7 +302,13 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                   <input type="text" value={customName} onChange={(e) => setCustomName(e.target.value)} placeholder="Partner's Name" className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <input type="date" value={customDob} onChange={(e) => setCustomDob(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
-                    <input type="time" value={customTime} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400" />
+                    <div className="flex flex-col gap-2">
+                        <input type={customTimeUnknown ? "text" : "time"} value={customTimeUnknown ? (lang === 'es' ? "Desconocida" : "Unknown") : customTime} disabled={customTimeUnknown} onChange={(e) => setCustomTime(e.target.value)} style={{ colorScheme: "dark" }} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 disabled:opacity-50" />
+                        <label className="flex items-center gap-2 text-xs text-zinc-400 cursor-pointer w-max">
+                          <input type="checkbox" checked={customTimeUnknown} onChange={(e) => setCustomTimeUnknown(e.target.checked)} className="accent-violet-500 w-3 h-3" />
+                          {lang === 'es' ? 'No sé la hora' : "I don't know the birth time"}
+                        </label>
+                      </div>
                     <select value={customGender} onChange={(e) => setCustomGender(e.target.value)} className="w-full bg-zinc-800 border border-zinc-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-zinc-400 appearance-none cursor-pointer">
                       <option value="female">♀ Female</option>
                       <option value="male">♂ Male</option>
