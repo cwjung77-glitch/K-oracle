@@ -167,22 +167,26 @@ export default function OracleLanding() {
             </div>
           )}
 
-          {/* Custom Tab Switcher */}
-        <div className="grid grid-cols-3 bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg w-full max-w-md mx-auto">
+          
+          {/* Daily Fortune Standalone Banner */}
+          <div className="max-w-sm mx-auto mb-6">
             <button 
               onClick={() => { setActiveTab('daily'); localStorage.setItem('purchasedProduct', 'daily'); setHasPaid(false); setResetKey(k => k + 1); }}
-              className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
+              className={`w-full py-4 rounded-2xl font-black flex items-center justify-center gap-3 text-lg transition-all duration-300 shadow-xl ${
                 activeTab === 'daily' 
-                  ? 'bg-gradient-to-r from-emerald-500/90 to-teal-500/90 text-white shadow-[0_0_20px_rgba(16,185,129,0.3)] border border-emerald-500/50' 
-                  : 'hover:bg-white/5 text-zinc-400'
+                  ? 'bg-gradient-to-r from-emerald-500 to-teal-500 text-white shadow-[0_0_30px_rgba(16,185,129,0.5)] border border-emerald-400' 
+                  : 'bg-zinc-900 border border-emerald-500/30 text-emerald-300 hover:bg-emerald-900/30 hover:border-emerald-500/60 hover:text-emerald-200'
               }`}
             >
-              <Zap size={18} className={activeTab === 'daily' ? 'text-emerald-200' : 'opacity-50'} />
-              <span className="tracking-wide">DAILY</span>
+              <Zap size={22} className={activeTab === 'daily' ? 'text-emerald-100 animate-pulse' : 'text-emerald-400'} />
+              {lang === 'es' ? 'Fortuna Diaria Gratis' : 'FREE DAILY FORTUNE'}
             </button>
+          </div>
 
-          <button 
-            onClick={() => { setActiveTab('saju'); localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); setResetKey(k => k + 1); }}
+{/* Custom Tab Switcher */}
+        <div className="grid grid-cols-2 bg-black/50 p-1.5 rounded-2xl border border-white/10 shadow-[0_0_30px_rgba(0,0,0,0.5)] backdrop-blur-lg w-full max-w-sm mx-auto">
+            <button 
+              onClick={() => { setActiveTab('saju');; localStorage.setItem('purchasedProduct', 'saju'); setHasPaid(false); setResetKey(k => k + 1); }}
             className={`w-full py-3 sm:py-4 rounded-xl font-bold flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-3 text-xs sm:text-base transition-all duration-300 ${
               activeTab === 'saju' 
                 ? 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-[0_0_20px_rgba(168,85,247,0.4)] border border-violet-500/50' 
@@ -209,12 +213,29 @@ export default function OracleLanding() {
       {/* Active Feature Area */}
       <section className="px-6 relative">
         <div className="max-w-4xl mx-auto">
-          {activeTab === 'saju' ? <SajuCompatibility key={`saju-${resetKey}`} onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} /> : <PersonalColor key={`beauty-${resetKey}`} />}
+          
+            {activeTab === 'daily' && (
+              <DailyFortune 
+                key={`daily-${resetKey}`}
+                lang={lang}
+                onGoToPremium={() => {
+                  setActiveTab('saju');
+                  localStorage.setItem('purchasedProduct', 'saju');
+                  setTimeout(() => {
+                    document.getElementById('premium-report')?.scrollIntoView({ behavior: 'smooth' });
+                  }, 100);
+                }}
+              />
+            )}
+            {activeTab === 'saju' && <SajuCompatibility key={`saju-${resetKey}`} onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} />}
+            {activeTab === 'beauty' && <PersonalColor key={`beauty-${resetKey}`} />}
+
         </div>
       </section>
 
       {/* Monetization / Upsell Section */}
-      <section className="mt-32 border-t border-white/5 bg-zinc-950/50 py-24 px-6 relative" id="premium-report">
+      {activeTab !== 'daily' && (
+        <section className="mt-32 border-t border-white/5 bg-zinc-950/50 py-24 px-6 relative" id="premium-report">
         
         {!hasPaid ? (
           <div className="text-center w-full max-w-5xl mx-auto">
@@ -285,6 +306,8 @@ export default function OracleLanding() {
           </div>
         )}
       </section>
+
+            )}
 
       {/* Footer Section */}
       <footer className="mt-20 border-t border-white/10 bg-black py-16 px-6 relative z-10">
