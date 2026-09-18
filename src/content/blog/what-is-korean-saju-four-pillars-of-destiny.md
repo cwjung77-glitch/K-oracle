@@ -36,7 +36,7 @@ Every pillar stacks two distinct energetic symbols:
 * **Heavenly Stems (Cheongan):** The upper characters. They reflect cosmic energy, active goals, and visible actions.
 * **Earthly Branches (Jiji):** The lower characters. They represent physical earth energy, subtle emotions, real-world conditions, and the 12 Zodiac animals.
 
-$4 \text{ Pillars} \times 2 \text{ Characters} = 8 \text{ Cosmic Characters (Palja)}$
+**4 Pillars × 2 Characters = 8 Cosmic Characters (Palja)**
 
 ---
 
