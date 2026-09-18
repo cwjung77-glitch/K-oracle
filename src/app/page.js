@@ -86,7 +86,8 @@ export default function OracleLanding() {
             <span className="text-violet-400">K</span>-ORACLE
           </div>
           <div className="flex items-center gap-1.5 sm:gap-6 flex-shrink-0">
-            <Link href="/blog" className="text-xs sm:text-xs sm:text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
+            <Link href="/idols" className="text-xs sm:text-xs sm:text-sm font-bold text-yellow-500 hover:text-yellow-400 transition-colors mr-2">Idols</Link>
+              <Link href="/blog" className="text-xs sm:text-xs sm:text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
             {/* Language Toggle */}
             <div className="flex items-center gap-0.5 sm:gap-1 bg-zinc-900 border border-zinc-800 rounded-full p-1 pl-2 sm:pl-3"><Globe size={14} className="text-zinc-500 mr-1" />
               <button 
