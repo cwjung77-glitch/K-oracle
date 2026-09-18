@@ -29,7 +29,7 @@ When you calculate Soyeon’s Three Pillars (born August 26, 1998), her cosmic s
 
 
 [Hidden layers, pure firepower: Earth feeding colossal Metal.]
-```
+
 
 Right away, any seasoned Korean Saju master will see two massive thematic engines dominating her destiny: **uncontrollable creative genius (Metal Siksin)** and **the battle-ready Tiger-Monkey Clash (寅申沖)**. 
 
