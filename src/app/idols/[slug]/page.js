@@ -15,7 +15,9 @@ export async function generateStaticParams() {
 
 // 2. Dynamic SEO Metadata
 export async function generateMetadata({ params }) {
-  const idolData = idolsDB.find(i => parseIdolName(i.name).slug === params.slug);
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
+  const idolData = idolsDB.find(i => parseIdolName(i.name).slug === slug);
   if (!idolData) return { title: 'Not Found' };
   
   const { member, group } = parseIdolName(idolData.name);
@@ -25,9 +27,11 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export default function IdolProfilePage({ params }) {
+export default async function IdolProfilePage({ params }) {
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug;
   // Find idol
-  const idolData = idolsDB.find(i => parseIdolName(i.name).slug === params.slug);
+  const idolData = idolsDB.find(i => parseIdolName(i.name).slug === slug);
   
   if (!idolData) {
     notFound();
@@ -38,7 +42,19 @@ export default function IdolProfilePage({ params }) {
 
   return (
     <div className="min-h-screen bg-black text-white pt-24 pb-20">
-      <main className="max-w-3xl mx-auto px-6">
+      
+        {/* Simple Global Nav */}
+        <div className="absolute top-0 left-0 w-full p-6 flex justify-between items-center max-w-3xl mx-auto right-0 z-50">
+          <Link href="/" className="text-2xl font-black tracking-tighter text-white hover:text-yellow-500 transition-colors">
+            K-<span className="text-yellow-500">Oracle</span>
+          </Link>
+          <div className="flex gap-6 items-center">
+            <Link href="/" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Home</Link>
+            <Link href="/blog" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
+          </div>
+        </div>
+
+      <main className="max-w-3xl mx-auto px-6 relative z-10 pt-8">
         
         {/* Breadcrumb */}
         <div className="mb-10 text-zinc-500 text-sm font-bold uppercase tracking-wider">
@@ -119,7 +135,7 @@ export default function IdolProfilePage({ params }) {
         )}
 
         {/* Engagement */}
-        <BlogEngagement title={`${member}'s Saju`} slug={params.slug} />
+        <BlogEngagement title={`${member}'s Saju`} slug={slug} />
 
         {/* Massive Funnel CTA */}
         <div className="mt-16 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-zinc-800 via-black to-black p-10 rounded-3xl border border-yellow-500/30 text-center relative overflow-hidden">

@@ -24,7 +24,19 @@ export default function IdolsDirectory() {
 
   return (
     <div className="min-h-screen bg-black text-white pt-24 pb-20">
-      <main className="max-w-5xl mx-auto px-6">
+      
+        {/* Simple Global Nav */}
+        <div className="absolute top-0 left-0 w-full p-6 flex justify-between items-center max-w-5xl mx-auto right-0 z-50">
+          <Link href="/" className="text-2xl font-black tracking-tighter text-white hover:text-yellow-500 transition-colors">
+            K-<span className="text-yellow-500">Oracle</span>
+          </Link>
+          <div className="flex gap-6 items-center">
+            <Link href="/" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Home</Link>
+            <Link href="/blog" className="text-sm font-bold text-zinc-400 hover:text-white transition-colors">Blog</Link>
+          </div>
+        </div>
+
+      <main className="max-w-5xl mx-auto px-6 relative z-10 pt-8">
         <header className="mb-16 text-center">
           <h1 className="text-4xl md:text-6xl font-black mb-6 tracking-tighter">
             Idol <span className="text-yellow-500">Pokedex</span>
