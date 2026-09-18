@@ -142,7 +142,7 @@ export default async function BlogPost({ params }) {
           </div>
         </article>
 
-        <BlogEngagement title={data.title} slug={params.slug} />
+        <BlogEngagement title={data.title} slug={slug} />
 
         <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-yellow-500/30 rounded-3xl text-center">
           <h3 className="text-2xl font-black mb-4">Discover Your Own Cosmic Blueprint</h3>
