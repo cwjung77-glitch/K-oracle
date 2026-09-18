@@ -15,11 +15,19 @@ export async function POST(req) {
 
     const todayStr = new Date().toISOString().split('T')[0];
     
-    // Pick random idol and cosmetic brand for variety
+    // Deterministic selection based on birthData + todayStr to build trust (no pure randomness)
     const idols = ["Jungkook (BTS)", "Lisa (BLACKPINK)", "Felix (Stray Kids)", "Karina (aespa)", "Eunwoo (ASTRO)", "Wonyoung (IVE)"];
     const cosmetics = ["Rom&nd", "Clio", "3CE", "Peripera", "ETUDE", "Unleashia"];
-    const randomIdol = idols[Math.floor(Math.random() * idols.length)];
-    const randomBrand = cosmetics[Math.floor(Math.random() * cosmetics.length)];
+    
+    const hashStr = birthData + todayStr;
+    let hash = 0;
+    for (let i = 0; i < hashStr.length; i++) {
+      hash = hashStr.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    hash = Math.abs(hash);
+    
+    const randomIdol = idols[hash % idols.length];
+    const randomBrand = cosmetics[(hash >> 2) % cosmetics.length];
 
     const systemPrompt = `You are an expert Korean Saju master and K-Beauty stylist.
     The user (${userName}, gender: ${gender}, born: ${birthData}) wants a quick daily fortune for today (${todayStr}).
