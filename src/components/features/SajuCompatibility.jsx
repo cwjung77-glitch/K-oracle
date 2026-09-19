@@ -289,7 +289,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       {isDropdownOpen && (
                         <div className="absolute top-full left-0 right-0 mt-2 bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden shadow-2xl z-50 max-h-60 overflow-y-auto">
                           {filteredIdols.length > 0 ? filteredIdols.map(idol => (
-                            <div key={idol.id} onClick={() => { setSelectedIdol(idol); setIsDropdownOpen(false); setSearchQuery(''); }} className="px-4 py-3 hover:bg-zinc-800 cursor-pointer flex justify-between items-center transition-colors border-b border-zinc-800/50 last:border-0">
+                            <div key={idol.id} onMouseDown={(e) => { e.preventDefault(); setSelectedIdol(idol); setIsDropdownOpen(false); setSearchQuery(''); }} className="px-4 py-3 hover:bg-zinc-800 cursor-pointer flex justify-between items-center transition-colors border-b border-zinc-800/50 last:border-0">
                               <div className="flex items-center gap-3">
                                 <div className="w-8 h-8 rounded-full bg-gradient-to-br from-zinc-700 to-zinc-800 flex items-center justify-center text-xs font-bold border border-zinc-600">{idol.name.charAt(0)}</div>
                                 <div>
