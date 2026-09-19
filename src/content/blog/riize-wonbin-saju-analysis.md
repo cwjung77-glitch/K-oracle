@@ -81,15 +81,12 @@ What does romance look like for a Geng Xu Kui Gang master?
 2. **The "Ride-or-Die" Lover:** Once someone earns his trust, his Geng Metal loyalty activates. He is protective, deeply attentive behind closed doors, and values private, drama-free devotion over flashy public declarations.
 3. **Cosmic Chemistry:** Because his chart runs intensely hot with Fire and dynamic with Water, he is most compatible with grounded **Yin Earth (Ji Earth)** or calming **Gui Water** energies—partners who provide emotional peace, mental stimulation, and an anchor away from the chaotic spotlight.
 
----
 
-## Conclusion
+## Key Takeaways of RIIZE Wonbin's Cosmic Destiny
 
-Wonbin’s cosmic chart isn’t about beginner's luck or quick fame. It is the architectural blueprint of an elite performer who was cosmically forged to withstand the heat of the biggest stages in the world. 
-
-With the indomitable will of the **Geng Xu Kui Gang**, the unmatched stage magnetism of the **San He Fire Alliance**, and the expressive artistry of **Ren Water**, Wonbin is living proof that true star power is equal parts cosmic alignment and relentless, iron-willed dedication.
-
-Keep your eyes on him—this blade has only just begun to strike.
+* **Forged to Withstand Pressure:** The Geng Xu Kui Gang configuration means Wonbin doesn't crack under spotlight pressure — he sharpens. Every major obstacle is coded to refine him, not break him.
+* **Fire-Fueled Stage Magnetism:** The San He Fire Alliance isn't subtle. It's why Wonbin commands attention in group formations without trying. His chart was literally built for center energy.
+* **Still Just Getting Started:** His luck pillars indicate that his current fame is the *baseline*, not the peak. The cosmic heavy-hitter phases haven't even landed yet.
 
 ---
 
