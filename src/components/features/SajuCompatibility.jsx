@@ -101,54 +101,96 @@ export default function SajuCompatibility({ onUnlockPremium }) {
     if (matchType === 'custom' && (!customDob || !customName)) { alert("Please enter their name and birth date."); return; }
 
     setLoading(true);
-    let targetName = matchType === 'idol' ? selectedIdol.name : customName;
-    let targetDob = matchType === 'idol' ? selectedIdol.dob : customDob;
+    localStorage.setItem('userDob', dob);
+    localStorage.setItem('userTime', timeUnknown ? 'Unknown' : time);
+    localStorage.setItem('userGender', gender);
+    localStorage.setItem('userName', userName || "You");
     
-    // Simulate API delay for magical effect
-    setTimeout(async () => {
-      try {
-        const res = await fetch('/api/generate-saju', {
-          method: 'POST', headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ userDob: dob, targetDob: targetDob })
-        });
-        const data = await res.json();
-        
-        let combinedHash = 0;
-        const hashStr = userName + targetName + dob + targetDob;
-        for (let i = 0; i < hashStr.length; i++) {
-          combinedHash = hashStr.charCodeAt(i) + ((combinedHash << 5) - combinedHash);
-        }
-        combinedHash = Math.abs(combinedHash);
-        
-        const talismans = [
-          { text: '천생연분', en: 'Match made in heaven', desc: 'Destined soulmates across multiple past lives' },
-          { text: '백년해로', en: 'A century together', desc: 'A stable, enduring relationship that stands the test of time' },
-          { text: '기사회생', en: 'Revival of love', desc: 'Overcoming obstacles to find deep connection' },
-          { text: '최애등극', en: 'Ultimate bias', desc: 'An undeniable magnetic attraction to each other' },
-          { text: '성덕인증', en: 'Successful fan', desc: 'A dreamlike connection that brings immense joy' },
-          { text: '평안무사', en: 'Peaceful journey', desc: 'A calm, supportive relationship free of drama' },
-          { text: '심기일전', en: 'Fresh start', desc: 'A relationship that brings new positive energy' },
-          { text: '만사형통', en: 'Everything flows', desc: 'Perfect synergy where everything just works' },
-          { text: '운수대통', en: 'Great fortune', desc: 'Together, you attract massive luck and wealth' },
-          { text: '영앤리치', en: 'Young & Rich', desc: 'A powerful duo destined for success and glamour' },
-          { text: '광클성공', en: 'Perfect timing', desc: 'Meeting at the exact right moment in the universe' },
-          { text: '덕질만렙', en: 'Max level devotion', desc: 'Unwavering loyalty and intense mutual admiration' },
-          { text: '일취월장', en: 'Growing together', desc: 'Inspiring each other to become the best versions of yourselves' },
-          { text: '액운퇴치', en: 'Ward off bad luck', desc: 'Your bond protects each other from negative energy' }
-        ];
-        
-        let validTalismans = talismans;
-        if (data.score >= 90) validTalismans = talismans.filter(t => ['천생연분', '백년해로', '최애등극', '성덕인증', '만사형통', '운수대통', '영앤리치'].includes(t.text));
-        else if (data.score >= 70) validTalismans = talismans.filter(t => !['천생연분', '백년해로', '기사회생', '액운퇴치'].includes(t.text));
-        else validTalismans = talismans.filter(t => ['액운퇴치', '평안무사', '기사회생', '심기일전', '광클성공', '일취월장', '덕질만렙'].includes(t.text));
-        if (validTalismans.length === 0) validTalismans = talismans;
-        
-        setResult({ ...data, talisman: validTalismans[combinedHash % validTalismans.length] });
-        setStep(2);
-      } catch (err) {
-        console.error(err);
-        alert("Failed to analyze compatibility.");
-      }
+    let targetPerson = matchType === 'idol' ? selectedIdol : { name: customName, dob: customDob };
+    let targetName = targetPerson.name;
+    let targetDob = targetPerson.dob;
+
+    // 1. User's Element (Fixed based on DOB)
+    let userHash = 0;
+    for (let i = 0; i < dob.length; i++) userHash = dob.charCodeAt(i) + ((userHash << 5) - userHash);
+    userHash = Math.abs(userHash);
+    
+    // 2. Target's Element (Fixed based on Name + DOB)
+    let idolHash = 0;
+    const targetStr = targetName + (targetDob || '');
+    for (let i = 0; i < targetStr.length; i++) idolHash = targetStr.charCodeAt(i) + ((idolHash << 5) - idolHash);
+    idolHash = Math.abs(idolHash);
+    
+    const elements = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
+    const myElem = elements[userHash % 5];
+    const theirElem = elements[idolHash % 5];
+    
+    // 3. Compatibility Logic (Base score based on element interaction)
+    // Saju generating cycle: Wood->Fire->Earth->Metal->Water->Wood
+    const elementCycle = { 'Wood': 0, 'Fire': 1, 'Earth': 2, 'Metal': 3, 'Water': 4 };
+    const myIndex = elementCycle[myElem];
+    const theirIndex = elementCycle[theirElem];
+    
+    let baseScore = 70;
+    let relationship = "Neutral";
+    
+    if (myIndex === theirIndex) {
+      baseScore = 80; relationship = "Similar Souls";
+    } else if ((myIndex + 1) % 5 === theirIndex || (theirIndex + 1) % 5 === myIndex) {
+      baseScore = 95; relationship = "Destined Supporters";
+    } else {
+      baseScore = 65; relationship = "Passionate Clash";
+    }
+    
+    const combinedHash = Math.abs(userHash ^ idolHash);
+    const score = Math.min(99, baseScore + (combinedHash % 10) - 5);
+
+    const descriptions = {
+      'Similar Souls': 'You both share the same elemental energy. According to ancient Saju, you reflect each other\'s deepest thoughts.',
+      'Destined Supporters': 'A perfect match! You create a generating cycle — a soulmate-level synergy written in the Four Pillars.',
+      'Passionate Clash': 'This is a dynamic, magnetic relationship. Though you have opposite energies, it creates an intense, passionate bond.',
+      'Neutral': 'A balanced connection with potential for growth. Your energies complement each other in unexpected ways.'
+    };
+
+    const dynamics = {
+      chemistry: score >= 85 ? 'High natural chemistry — magnetic attraction' : score >= 70 ? 'Good chemistry with growing spark' : 'Moderate — builds over time',
+      communication: score >= 80 ? 'Deep intuitive understanding' : score >= 65 ? 'Natural flow with minor gaps' : 'Moderate — requires patience',
+      passion: score >= 90 ? 'Strong volcanic intensity' : score >= 75 ? 'Good warm energy exchange' : 'Moderate steady flame',
+      trust: score >= 85 ? 'High unshakable foundation' : score >= 70 ? 'Good solid ground' : 'Moderate — grows with effort'
+    };
+
+    const talismans = [
+      { text: '천생연분', en: 'Soulmate', desc: 'A match made in heaven' },
+      { text: '백년해로', en: 'Eternal Bond', desc: 'Lifelong harmony together' },
+      { text: '기사회생', en: 'Revival', desc: 'Bouncing back from the bottom' },
+      { text: '최애등극', en: 'Ultimate Bias', desc: 'An undeniable magnetic attraction' },
+      { text: '성덕인증', en: 'Lucky Fan', desc: 'A dreamlike connection bringing joy' },
+      { text: '평안무사', en: 'Peace', desc: 'A calm relationship free of drama' },
+      { text: '심기일전', en: 'Fresh Start', desc: 'A renewed mindset and energy' },
+      { text: '만사형통', en: 'Everything Flows', desc: 'Perfect synergy that just works' },
+      { text: '운수대통', en: 'Great Fortune', desc: 'Together you attract massive luck' },
+      { text: '영앤리치', en: 'Young & Rich', desc: 'A powerful duo destined for success' },
+      { text: '광클성공', en: 'Perfect Timing', desc: 'Meeting at the right cosmic moment' },
+      { text: '덕질만렙', en: 'Max Devotion', desc: 'Unwavering loyalty and admiration' },
+      { text: '일취월장', en: 'Growing Together', desc: 'Inspiring each other to grow' },
+      { text: '액운퇴치', en: 'Protection', desc: 'Your bond wards off negative energy' }
+    ];
+    
+    let validTalismans = talismans;
+    if (score >= 90) validTalismans = talismans.filter(t => ['천생연분', '백년해로', '최애등극', '성덕인증', '만사형통', '운수대통', '영앤리치'].includes(t.text));
+    else if (score >= 70) validTalismans = talismans.filter(t => !['천생연분', '백년해로', '기사회생', '액운퇴치'].includes(t.text));
+    else validTalismans = talismans.filter(t => ['액운퇴치', '평안무사', '기사회생', '심기일전', '광클성공', '일취월장', '덕질만렙'].includes(t.text));
+    if (validTalismans.length === 0) validTalismans = talismans;
+
+    setTimeout(() => {
+      setResult({
+        score,
+        summary: descriptions[relationship],
+        userElement: myElem,
+        dynamics,
+        talisman: validTalismans[combinedHash % validTalismans.length]
+      });
+      setStep(2);
       setLoading(false);
     }, 2000);
   };
@@ -184,8 +226,8 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <Sparkles size={24} className="text-white animate-pulse" />
             </div>
             <div className="text-center">
-              <h3 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-pink-400 mb-2 animate-pulse">Reading the Stars...</h3>
-              <p className="text-zinc-400 text-sm tracking-widest uppercase">Calculating elemental synergy</p>
+              <h3 className="text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-pink-400 mb-2 animate-pulse">Decoding Saju...</h3>
+              <p className="text-zinc-400 text-sm tracking-widest uppercase">Analyzing Four Pillars of Destiny</p>
             </div>
           </div>
         ) : step === 1 ? (
