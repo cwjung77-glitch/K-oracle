@@ -462,7 +462,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
             </div>
 
             <button onClick={() => { localStorage.setItem('idolName', matchType === 'idol' ? selectedIdol.name : customName); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
-              <Lock size={20} className="text-white/80" /> Unlock Deep Saju Reading ($11.99)
+              <Lock size={20} className="text-white/80" /> Unlock Deep Chemistry Report ($4.99)
             </button>
             <div className="flex flex-col sm:flex-row gap-3">
               <button onClick={handleDownloadImage} disabled={isDownloading} className="w-full sm:flex-1 py-4 rounded-2xl bg-zinc-100 text-zinc-900 font-black flex items-center justify-center gap-2 hover:bg-white transition-all disabled:opacity-50 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:scale-[1.02] active:scale-[0.98]">
