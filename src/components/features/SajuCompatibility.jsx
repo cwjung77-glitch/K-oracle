@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { idolsDB } from '../../data/idols';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Heart, Sparkles, RefreshCw, Star, ArrowRight, Download, Share2, Crown, Trophy, Target, Search, Lock } from 'lucide-react';
@@ -204,6 +204,14 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <input type="date" value={dob} onChange={e => setDob(e.target.value)} className="w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-violet-500 transition-colors [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert" />
                   </div>
                   <div>
+                    <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">Birth Time</label>
+                    <input type="time" value={time} onChange={e => setTime(e.target.value)} disabled={timeUnknown} className={`w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-violet-500 transition-colors [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert ${timeUnknown ? 'opacity-40 cursor-not-allowed' : ''}`} />
+                    <label className="flex items-center gap-2 mt-2 cursor-pointer group">
+                      <input type="checkbox" checked={timeUnknown} onChange={e => setTimeUnknown(e.target.checked)} className="w-4 h-4 rounded border-zinc-600 bg-zinc-900 accent-violet-500 cursor-pointer" />
+                      <span className="text-zinc-400 text-xs group-hover:text-zinc-300 transition-colors">I don't know my birth time</span>
+                    </label>
+                  </div>
+                  <div>
                     <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">Gender</label>
                     <div className="grid grid-cols-2 gap-2">
                       <button onClick={() => setGender('female')} className={`py-3 rounded-xl border font-bold text-sm transition-all ${gender === 'female' ? 'bg-violet-600/20 border-violet-500 text-violet-300' : 'bg-zinc-900 border-white/5 text-zinc-400'}`}>Female</button>
@@ -281,6 +289,14 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <div>
                       <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">Their Birth Date</label>
                       <input type="date" value={customDob} onChange={e => setCustomDob(e.target.value)} className="w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-pink-500 transition-colors [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert" />
+                    </div>
+                    <div>
+                      <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">Their Birth Time</label>
+                      <input type="time" value={customTime} onChange={e => setCustomTime(e.target.value)} disabled={customTimeUnknown} className={`w-full bg-zinc-900 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-pink-500 transition-colors [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert ${customTimeUnknown ? 'opacity-40 cursor-not-allowed' : ''}`} />
+                      <label className="flex items-center gap-2 mt-2 cursor-pointer group">
+                        <input type="checkbox" checked={customTimeUnknown} onChange={e => setCustomTimeUnknown(e.target.checked)} className="w-4 h-4 rounded border-zinc-600 bg-zinc-900 accent-pink-500 cursor-pointer" />
+                        <span className="text-zinc-400 text-xs group-hover:text-zinc-300 transition-colors">I don't know their birth time</span>
+                      </label>
                     </div>
                     <div>
                       <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">Their Gender</label>
