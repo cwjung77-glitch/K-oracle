@@ -419,12 +419,54 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               })}
             </div>
 
+            {/* ===== VIRAL TALISMAN CARD (Visible on screen) ===== */}
+            <style>{`
+              @import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&family=Gowun+Batang:wght@700&display=swap');
+              .font-serif-kr { font-family: 'Gowun Batang', serif; }
+              .font-brush-cn { font-family: 'Zhi Mang Xing', cursive; }
+            `}</style>
+            <div className="bg-zinc-950 rounded-3xl p-6 border border-white/10 text-center animate-in fade-in duration-700">
+              <div className="text-zinc-400 font-bold text-xs uppercase tracking-[0.3em] mb-4">My Cosmic Soulmate</div>
+              <div className="bg-black/80 py-3 px-6 rounded-2xl border border-white/10 inline-flex flex-col items-center mb-6 gap-1">
+                <span className="text-white font-black text-lg">{userName ? userName.toUpperCase() : "YOU"} ❤️</span>
+                <span className="text-zinc-300 font-bold text-lg">{matchType === 'idol' ? selectedIdol?.name : customName}</span>
+              </div>
+
+              {/* Talisman card */}
+              <div className="flex justify-center mb-6">
+                <div className={`w-44 h-[330px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 hover:scale-105 hover:rotate-1 border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${result.score >= 95 ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`}>
+                  <div className="mt-6 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-3xl font-bold opacity-90 z-10" style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
+                    {result.userElement === 'Fire' ? '火' : result.userElement === 'Water' ? '水' : result.userElement === 'Wood' ? '木' : result.userElement === 'Metal' ? '金' : '土'}
+                  </div>
+                  <div className="relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[52px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]" style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
+                    {result.talisman.text.split('').map((char, i) => (
+                      <span key={i}>{char}</span>
+                    ))}
+                  </div>
+                  <div className="relative z-10 w-full flex flex-col items-center mb-4 px-3">
+                    <div className="w-12 h-[2px] bg-zinc-600/50 mb-3"></div>
+                    <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1 text-center">{result.talisman.en}</div>
+                    <div className="text-zinc-500 text-[9px] tracking-wider text-center leading-tight opacity-80 uppercase">{result.talisman.desc}</div>
+                    <div className="mt-3 text-[8px] text-zinc-600 font-mono tracking-widest font-bold whitespace-nowrap">
+                      {result.score >= 95 ? `✨K-ORACLE // ${new Date().getFullYear()} LEGENDARY✨` : `K-ORACLE // ${new Date().getFullYear()} COLLECTION`}
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-1" style={{ filter: "drop-shadow(0 0 15px rgba(168,85,247,0.5))" }}>{result.score}%</div>
+              <div className="text-zinc-300 font-bold tracking-[0.2em] text-sm uppercase mb-2">
+                {result.score >= 90 ? 'Soulmate Level' : result.score >= 80 ? 'Perfect Match' : result.score >= 70 ? 'Great Synergy' : result.score >= 60 ? 'Magnetic Bond' : 'Karmic Lesson'}
+              </div>
+              <div className="text-zinc-500 text-xs font-mono tracking-widest">thekoracle.com</div>
+            </div>
+
             <button onClick={() => { localStorage.setItem('idolName', matchType === 'idol' ? selectedIdol.name : customName); if(onUnlockPremium) onUnlockPremium(); else alert('Premium feature unavailable.'); }} className="w-full mb-4 py-5 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black rounded-2xl text-lg sm:text-xl flex items-center justify-center gap-2 transition-all shadow-[0_0_30px_rgba(168,85,247,0.4)] hover:scale-[1.02]">
               <Lock size={20} className="text-white/80" /> Unlock Deep Saju Reading ($11.99)
             </button>
             <div className="flex flex-col sm:flex-row gap-3">
               <button onClick={handleDownloadImage} disabled={isDownloading} className="w-full sm:flex-1 py-4 rounded-2xl bg-zinc-100 text-zinc-900 font-black flex items-center justify-center gap-2 hover:bg-white transition-all disabled:opacity-50 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:scale-[1.02] active:scale-[0.98]">
-                {isDownloading ? "Generating..." : <><Download size={20} /> Download Result</>}
+                {isDownloading ? "Generating..." : <><Download size={20} /> Download Card</>}
               </button>
               <button onClick={() => { setStep(1); setSearchQuery(''); setIsDropdownOpen(false); }} className="w-full sm:flex-1 py-4 rounded-2xl bg-zinc-900 border border-zinc-800 text-zinc-400 hover:text-zinc-200 hover:bg-zinc-800 transition-all font-bold hover:border-zinc-600">
                 Try Another Match
