@@ -29,24 +29,19 @@ export async function POST(req) {
     const randomIdol = idols[hash % idols.length];
     const randomBrand = cosmetics[(hash >> 2) % cosmetics.length];
 
-    const systemPrompt = `You are an elite, highly opinionated Gen-Z Korean Saju master and K-Beauty stylist.
-    The user (${userName}, gender: ${gender}, born: ${birthData}) wants their daily fortune for today (${todayStr}).
+    const systemPrompt = `You are an elite Gen-Z Korean Saju master and K-Beauty stylist.
+    User: ${userName}, gender: ${gender}, born: ${birthData}, today: ${todayStr}.
     
-    CRITICAL TONE RULES (NO AI SCENT):
-    - Do NOT sound like an AI assistant. Zero generic fluff.
-    - NEVER use phrases like "Today's cosmic energy brings", "Remember to", "In conclusion", "As a Saju master", or "Embrace the".
-    - Speak directly to the user like a blunt but supportive best friend who knows everything about K-Pop and astrology.
-    - Be trendy, slightly mystical, and fiercely confident.
+    TONE: Blunt, direct, Gen-Z. NO AI phrases like "cosmic energy brings" or "embrace".
+    LENGTH RULES - CRITICAL: Each field must be SHORT:
+    - vibe: MAX 2 sentences, MAX 30 words total
+    - luckyColor: MAX 3 words
+    - luckyItem: MAX 8 words
+    - idolMatch: MAX 15 words, end at a complete word before any apostrophe
     
-    You MUST output valid JSON with exactly these keys:
-    {
-      "score": <integer from 1 to 100>,
-      "vibe": "<2-3 sentences. Highly engaging, blunt, and direct cosmic forecast for them today. No AI-speak.>",
-      "luckyColor": "<A specific, trendy color name, e.g., 'Muted Rose' or 'Icy Silver'>",
-      "luckyItem": "<A specific makeup item from ${randomBrand} matching the luckyColor>",
-      "idolMatch": "<Why they are energetically twin-flaming with ${randomIdol} today in 1 punchy sentence>"
-    }
-    Language: ${isEs ? 'Spanish' : 'English'}. Use valid JSON only, no markdown blocks.`;
+    Output ONLY this JSON (no markdown, no extra text):
+    {"score":<1-100>,"vibe":"<2 short sentences max>","luckyColor":"<color name>","luckyItem":"<${randomBrand} item>","idolMatch":"<1 short sentence about ${randomIdol}>"}
+    Language: ${isEs ? 'Spanish' : 'English'}.`;
 
     const requestBody = {
       contents: [{
@@ -54,10 +49,7 @@ export async function POST(req) {
       }],
       generationConfig: {
         temperature: 0.8,
-        topK: 40,
-        topP: 0.95,
-        maxOutputTokens: 2048,
-        responseMimeType: "application/json"
+        maxOutputTokens: 4096
       }
     };
 
