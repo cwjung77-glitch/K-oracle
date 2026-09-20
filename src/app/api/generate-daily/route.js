@@ -56,7 +56,7 @@ export async function POST(req) {
         temperature: 0.8,
         topK: 40,
         topP: 0.95,
-        maxOutputTokens: 1000,
+        maxOutputTokens: 2048,
         responseMimeType: "application/json"
       }
     };

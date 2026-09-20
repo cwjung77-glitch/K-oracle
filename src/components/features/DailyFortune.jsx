@@ -127,7 +127,8 @@ export default function DailyFortune({ lang, onGoToPremium }) {
         localStorage.setItem('daily_date', todayStr);
         localStorage.setItem('daily_result', JSON.stringify(data.data));
       } else {
-        alert("Failed to generate fortune.");
+        alert(`Failed to generate fortune: ${data.message || 'Unknown error'}`);
+        console.error("Fortune error:", data);
       }
     } catch(err) {
       console.error(err);
