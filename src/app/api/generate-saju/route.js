@@ -151,7 +151,7 @@ Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this f
     let success = false;
     let lastError = null;
 
-    const fallbackModels = ['gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-3.6-flash', 'gemini-flash-latest'];
+    const fallbackModels = ['gemini-2.5-flash', 'gemini-3.6-flash', 'gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-flash-latest'];
 
     for (let i = 0; i < apiKeys.length; i++) {
       const currentKey = apiKeys[i];

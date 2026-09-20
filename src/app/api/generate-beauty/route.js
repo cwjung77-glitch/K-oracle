@@ -46,12 +46,15 @@ CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 
 
     for (let i = 0; i < apiKeys.length; i++) {
       const currentKey = apiKeys[i];
-      try {
-        response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
-        });
+      const beautyModels = ['gemini-2.5-flash', 'gemini-3.6-flash', 'gemini-3.7-flash', 'gemini-3.8-flash'];
+      for (const currentModel of beautyModels) {
+        if (success) break;
+        try {
+          response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${currentKey}`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] })
+          });
         
         if (response.ok) {
           aiResult = await response.json();
@@ -63,12 +66,13 @@ CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 
         
         // If not ok or has error, capture it and let loop continue to next key
         lastError = await response.text();
-        console.warn(`[API Rotation] Key ${i + 1} failed. Status: ${response.status}. Trying next key...`);
-      } catch (err) {
-        lastError = err.message;
-        console.warn(`[API Rotation] Key ${i + 1} failed with network error. Trying next key...`);
-      }
-    }
+        console.warn(`[API Rotation] Model ${currentModel} failed. Status: ${response.status}. Trying next...`);
+        } catch (err) {
+          lastError = err.message;
+          console.warn(`[API Rotation] Model ${currentModel} failed with network error. Trying next...`);
+        }
+      } // end for currentModel
+    } // end for apiKeys
 
     if (!success) {
       throw new Error("API_RATE_LIMIT");
