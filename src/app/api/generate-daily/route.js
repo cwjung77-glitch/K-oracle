@@ -33,8 +33,9 @@ export async function POST(req) {
     User: ${userName}, gender: ${gender}, born: ${birthData}, today: ${todayStr}.
     
     TONE: Blunt, direct, Gen-Z. NO AI phrases like "cosmic energy brings" or "embrace".
+    TERMINOLOGY: MUST use Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye), NOT Chinese pinyin (like Gui, Jia, Bing).
     LENGTH RULES - CRITICAL: Each field must be SHORT:
-    - vibe: MAX 3 sentences. 1st: Identify their Day Master (e.g. "As a Yang Fire Day Master..."). 2nd: Note a positive trend. 3rd: Add a CLIFFHANGER WARNING (e.g. "...but a sudden clash tonight could ruin things."). Make them curious!
+    - vibe: MAX 3 sentences. 1st: Identify Day Master using KOREAN terms (e.g. "As a Gye (Yin Water) Day Master..."). 2nd: Note a positive trend. 3rd: Add a CLIFFHANGER WARNING (e.g. "...but a sudden clash tonight could ruin things."). Make them curious!
     - luckyColor: MAX 3 words
     - luckyItem: MAX 8 words
     - idolMatch: MAX 15 words, end at a complete word before any apostrophe
