@@ -7,12 +7,11 @@ author: "K-Oracle"
 tags: ["BTS", "Jin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Born on December 4, 1992, BTS’s eldest member Kim Seok-jin carries the **Im-Shin (壬申) Day Pillar**, making him a classic **Water Monkey**. His chart is heavily flooded with **Water** and **Metal**, where Metal constantly feeds Water to create a vast, endless ocean of effortless charm, deep intellect, and striking visuals. Saju shows us a man who is incredibly pragmatic, mentally rock-solid, and an absolute grounding force for everyone around him. Bottom line? His chart guarantees an unstoppable career, long-term wealth, and endless public love.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of BTS Jin (Kim Seok-jin)
 
@@ -81,5 +80,7 @@ Jin is running through a remarkably strong ten-year luck pillar (*Daeun* right n
 * **Dominant Elements:** Metal and Water — Delivering top-tier visuals, stable vocals, and formidable mental toughness.
 * **Role in Dynamics:** The quiet anchor who diffuses drama and lifts up everyone around him.
 * **Destiny Path:** Massive, enduring superstardom backed by real internal wisdom and exceptional financial luck.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

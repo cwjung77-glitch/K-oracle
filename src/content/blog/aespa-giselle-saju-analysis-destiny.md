@@ -9,10 +9,6 @@ tags: ["Giselle", "Aespa", "Saju Analysis", "K-Pop Destiny"]
 
 ## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Aespa's Giselle possesses a dynamic Saju chart rooted in the powerful synergy of **Metal**, **Fire**, and **Earth** elements. Born under the Year of the Metal Dragon (2000), her cosmic reading reveals an innate linguistic genius, sharp mental agility, and a refined, chic magnetic energy. Her chart balances fierce artistic drive with grounded emotional stability, explaining her swift ascension in the music industry and her distinctive aura as a global performer.
 
 ---
 
@@ -83,5 +79,7 @@ Her chart indicates a preference for partners who offer mental stimulation, hone
 
 ### How does her cosmic chart interact with her bandmates?
 Giselle brings a balancing, stabilizing Earth and Metal energy to her group's collective aura. She serves as an anchor during chaotic moments while providing a clean, sleek contrast to the overall performance balance.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

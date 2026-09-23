@@ -7,13 +7,6 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-* **Day Master Element:** **Yang Water (Im-Su)** — think vast, unstoppable, deeply wise, and infinitely adaptable. She’s the entire ocean, not just a splash.
-* **Core Cosmic Strengths:** Loaded with **Resource (Metal)** and **Self (Water)** energy. That gives her terrifyingly fast skill pickup, elite mental resilience, and pure flexibility on stage.
-* **Star Indicators:** Packed with **Peach Blossom Stars (Dohwa-Sal)** and **Crown Stars**. Translation? Off-the-charts charisma, hypnotizing public appeal, and absolute natural authority.
-* **Key Mindset Secret:** Her famous "Lucky Vicky" optimism isn't just an act. It’s driven by a massive **Resource Element** that instantly rewires pressure into pure luck and personal power.
 
 ---
 
@@ -78,5 +71,7 @@ Without a doubt. Her chart relies on a smooth, constant flow between Metal (Reso
 
 ### What element best balances Wonyoung's cosmic energy?
 Even oceans need balance! Because her chart packs so much Water and Metal, she benefits immensely from **Wood (Expression & Creativity)** and **Warm Fire (Warmth & Joy)**. Pouring her soul into performance arts, creative direction, and keeping warm, genuine personal connections brings her intense fluid energy into perfect harmony.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

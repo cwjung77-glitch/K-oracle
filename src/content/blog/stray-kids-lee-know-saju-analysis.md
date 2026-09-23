@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---## TL;DR (Quick Answer): The Mystical Energy of Lee Know
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Ever wondered what makes Stray Kids' Lee Know (born October 25, 1998) so insanely magnetic on stage? It all boils down to his **Yi Si (Wood Snake)** Day Pillar. His core Day Master element is **Yi Wood (乙木)**—think resilient, adaptable, ivy-like flexibility—sitting right on top of the fiery **Si Fire (巳火)** pillar. That Si Fire is pure stage presence, blinding charisma, and laser-sharp focus. Put them together, and you get Lee Know: surgically precise, wildly intuitive, and walking that legendary line between ice-cold detachment and pure, unadulterated passion.
 
 ---
 
@@ -18,14 +14,14 @@ Ever wondered what makes Stray Kids' Lee Know (born October 25, 1998) so insanel
 
 Want to unlock Lee Know’s true personality? Look straight at his **Day Master (Il-ju)**. This is the absolute core of his Saju chart—the energetic blueprint of his soul.
 
-* **Day Master:** Yi Wood (乙木) – The Wind, Ivy, and Blooming Flower
-* **Branch Element:** Si Fire (巳火) – The Blazing Sun and Snake Energy
+* **Day Master:** Eul Wood (乙木) – The Wind, Ivy, and Blooming Flower
+* **Branch Element:** Sa Fire (巳火) – The Blazing Sun and Snake Energy
 * **Core Symbol:** A lush, vibrant flower blooming brightly under the blazing sun.
 
 ### Key Personality Traits of Yi Si (Wood Snake)
-* **Precision and Flexibility:** Yi Wood gives him insane adaptability and that signature effortless grace. Like ivy creeping up a wall, Lee Know naturally adapts, survives, and eventually dominates any space he steps into through sheer perseverance.
+* **Precision and Flexibility:** Eul Wood gives him insane adaptability and that signature effortless grace. Like ivy creeping up a wall, Lee Know naturally adapts, survives, and eventually dominates any space he steps into through sheer perseverance.
 * **Sharp Intuition:** That Snake branch brings lethal observational skills, lightning-fast reflexes, and a total air of mystery. He reads the room in a microsecond, throwing out that iconic sharp, unpredictable wit before anyone else even catches on.
-* **Hidden Flame:** People call him cool, calm, or a little tsundere, but underneath that chill exterior burns Si Fire. It’s an obsessive internal drive that erupts the second the lights hit him on stage.
+* **Hidden Flame:** People call him cool, calm, or a little tsundere, but underneath that chill exterior burns Sa Fire. It’s an obsessive internal drive that erupts the second the lights hit him on stage.
 
 ---
 
@@ -34,7 +30,7 @@ Want to unlock Lee Know’s true personality? Look straight at his **Day Master 
 As a Saju reader, the first thing I check for a main dancer is the **Shik-sang (Expression Stars)**. Lee Know’s chart is practically a blueprint for performance genius.
 
 ### 1. Fire Energy: The Spotlight Star
-That **Si Fire** parked right in his day pillar acts like a permanent, built-in spotlight. Fire in Saju governs visibility, explosive self-expression, and physical mastery. It’s the exact energy giving Lee Know that clinical body control, terrifyingly sharp dance execution, and an eye contact that practically burns through the camera lens.
+That **Sa Fire** parked right in his day pillar acts like a permanent, built-in spotlight. Fire in Saju governs visibility, explosive self-expression, and physical mastery. It’s the exact energy giving Lee Know that clinical body control, terrifyingly sharp dance execution, and an eye contact that practically burns through the camera lens.
 
 ### 2. Earth and Tiger Energy: Grounded Discipline
 Born in the year of the **Earth Tiger (Wu Yin)**, Lee Know has an unshakeable iron spine. Tigers carry raw authority, natural command, and ferocious determination. That's why he's legendary for his relentless practice ethic, his raw athletic power, and that quiet, fiercely protective big-brother energy he holds over the rest of Stray Kids.
@@ -57,15 +53,17 @@ That Wood Snake combo creates one of the most fascinating personality paradoxes 
 ## Frequently Asked Questions About Lee Know's Saju
 
 ### What is Lee Know's primary Saju element?
-Lee Know’s core Day Master element is **Yi Wood (乙木)**—a flexible, artistic, and deeply resilient energy. Because it sits right on top of Fire, his mind instantly translates creative inspiration into dynamic physical action.
+Lee Know’s core Day Master element is **Eul Wood (乙木)**—a flexible, artistic, and deeply resilient energy. Because it sits right on top of Fire, his mind instantly translates creative inspiration into dynamic physical action.
 
 ### Why is Lee Know such an exceptional dancer according to Saju?
-His Day Pillar holds **Si Fire (巳火)**, the ultimate element for physical artistry, spatial awareness, and stage command. Sitting directly on a Fire branch basically acts as a cheat code for bodily expression, making elite-level dancing his natural destiny.
+His Day Pillar holds **Sa Fire (巳火)**, the ultimate element for physical artistry, spatial awareness, and stage command. Sitting directly on a Fire branch basically acts as a cheat code for bodily expression, making elite-level dancing his natural destiny.
 
 ### What does the Snake energy mean in Lee Know's chart?
 Snake energy in Saju brings razor-sharp intellect, incredible aesthetic instincts, lightning-fast reflexes, and an irresistible aura of mystery. It's the reason behind his razor-witted humor and his terrifying level of focus.
 
 ### How does Lee Know's Saju reflect his personality in Stray Kids?
 His chart brings together the raw power of the Tiger (Year), the ironclad loyalty of the Dog (Month), and the lethal grace of the Snake (Day). Together, they turn him into Stray Kids' unbeatable anchor—fiercely protective, masterclass-level skilled, and quietly essential.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

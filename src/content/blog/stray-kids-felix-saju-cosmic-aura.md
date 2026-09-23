@@ -9,10 +9,6 @@ tags: ["Stray Kids", "Felix", "Saju", "Four Pillars of Destiny", "K-Pop Astrolog
 
 ## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-In Korean Saju (Four Pillars of Destiny), Stray Kids' Felix (born September 15, 2000) is guided by a **Fire Day Master** surrounded by intense **Metal** energy. This unique cosmic structure explains his striking duality: a radiant, warm presence (Fire) paired with a razor-sharp artistic precision and deep, resonant vocal gravity (Metal). In East Asian metaphysics, Metal governs the lungs, throat, and sound waves, directly aligning with his famous deep bass voice. His Saju reflects an unstoppable global luck cycle, driven by adaptability, refined discipline, and immense magnetic attraction.
 
 ---
 
@@ -23,12 +19,12 @@ The ancient system of Four Pillars maps the cosmic energy present at the exact t
 | Pillar | Heavenly Stem | Earthly Branch | Primary Element Dynamics |
 | :--- | :--- | :--- | :--- |
 | **Year Pillar** | Yang Metal (Geng) | Dragon (Chen) | Metal & Earth (Structure, Vision) |
-| **Month Pillar** | Yin Wood (Yi) | Rooster (You) | Wood & Metal (Artistry, Sharpened Skill) |
+| **Month Pillar** | In Wood (Yi) | Rooster (You) | Wood & Metal (Artistry, Sharpened Skill) |
 | **Day Pillar** | Yin Fire (Ding) | Rabbit (Mao) | Fire & Wood (Warmth, Intuition, Charisma) |
 
-### The Core Nature: Yin Fire (Ding Fire)
+### The Core Nature: Yin Fire (Jeong Fire)
 
-Felix's self-element (Day Master) is **Yin Fire (Ding Fire)**. Unlike Yang Fire, which represents the overwhelming brilliance of the midday sun, Yin Fire is likened to:
+Felix's self-element (Day Master) is **Yin Fire (Jeong Fire)**. Unlike Yang Fire, which represents the overwhelming brilliance of the midday sun, Yin Fire is likened to:
 
 *   A steady candle flame illuminating a dark room
 *   A flickering star guiding travelers through the night
@@ -62,7 +58,7 @@ One of Felix's most distinctive traits is the striking contrast between his deli
 Felix is world-renowned for his "fairy-like" or "angelic" aesthetics combined with intense stage dynamics. His Four Pillars reveal a captivating harmony of opposing forces:
 
 ### 1. Wood and Fire (The Gentle Creator)
-*   **Yin Wood (Yi)** and **Yin Fire (Ding)** provide warmth, aesthetic appreciation, kindness, and spiritual sensitivity.
+*   **In Wood (Yi)** and **Yin Fire (Ding)** provide warmth, aesthetic appreciation, kindness, and spiritual sensitivity.
 *   This grants him his compassionate personality, deep affection for fans, and delicate personal style.
 
 ### 2. Metal and Dragon/Rooster Clashes (The Tempered Blade)
@@ -87,10 +83,12 @@ In Saju analysis, life unfolds in ten-year luck pillars (*Daewun*). Felix's path
 In East Asian elemental theory, the Metal element governs sound, tone, and the respiratory system. Felix's chart contains powerful Metal energies (Rooster month branch and Metal heavenly stems), granting his voice extraordinary depth, density, and resonance.
 
 ### What makes Felix's stage presence so charismatic?
-His Day Master is Yin Fire (Ding Fire). Yin Fire acts like a spotlight or star in the dark—it captures attention through focus, emotional temperature, and hypnotic charm rather than sheer force.
+His Day Master is Yin Fire (Jeong Fire). Yin Fire acts like a spotlight or star in the dark—it captures attention through focus, emotional temperature, and hypnotic charm rather than sheer force.
 
 ### Does Felix's chart favor global success?
 Yes. The combination of Wood (adaptability), Metal (structure/sound), and Fire (fame/visibility) creates a harmonious balance that easily translates across different cultures and international borders.
+
+---
 
 ---
 

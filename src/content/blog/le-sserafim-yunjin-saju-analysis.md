@@ -7,15 +7,11 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Yunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-* **Day Master**: Yang Fire (丙 Fire / *Byeong-Hwa*), symbolizing the radiant Sun—unyielding, warm, highly expressive, and naturally captivating.
-* **Core Element Balance**: A dynamic synergy between Yang Fire and refined Metal, granting her exceptional vocal strength, songwriting precision, and artistic authenticity.
-* **Destiny Trajectory**: Born to break industry molds. Her four pillars reveal an innate magnetic pull toward global audiences, self-expression, and leadership in creative arts.
-* **Personality Signature**: Warmhearted, fiercely independent, intellectually sharp, and emotionally fearless.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of LE SSERAFIM’s Huh Yunjin
 
@@ -83,5 +79,7 @@ Expect a long, powerhouse career that constantly evolves. As her major luck cycl
 * **Solar Charisma**: That Yang Fire energy guarantees she shines brightest under the spotlight, constantly inspiring everyone around her.
 * **Creative Autonomy**: Her destiny demands self-written tracks, artistic independence, and raw personal storytelling.
 * **International Resonance**: Cosmic travel stars lock in her position as a true cross-cultural icon with worldwide impact.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

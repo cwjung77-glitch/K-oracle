@@ -7,11 +7,6 @@ author: "K-Oracle"
 tags: ["NewJeans", "Minji", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-**What does Saju reveal about NewJeans' Minji?**  
-Minji was born under the **Jeong Fire (丁火)** Day Master sitting on the Rooster branch, giving her the insanely prestigious **Jeong-Yu (丁酉)** Day Pillar. That rare setup blesses her with the **Heavenly Nobleman (Cheoneul Gwiin)** star—literally a cosmic badge of protection, high-class elegance, and massive public love. Her chart boasts a gorgeous flow between **Fire (Inner Drive & Warmth)**, **Earth (Artistic Expression)**, and **Metal (Discipline & Fortune)**. That's the exact blueprint behind her role as NewJeans' calm, articulate anchor and timeless trendsetter.
 
 ---
 
@@ -97,5 +92,7 @@ In Saju's Five Elements system, **Metal** controls clear, resonant acoustics and
 
 ### What kind of leader is Minji according to her birth energy?
 Minji leads quietly by example. Her warm *Jeong Fire* paired with firm *Metal* structure allows her to keep her team calm, organized, and focused under high industry pressure.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

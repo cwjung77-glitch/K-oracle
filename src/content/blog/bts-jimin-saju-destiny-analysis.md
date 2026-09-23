@@ -7,12 +7,11 @@ author: "K-Oracle"
 tags: ["BTS", "Jimin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Born October 13, 1995, BTS’s Park Ji-min commands the rare and captivating **Jeong-Chuk (丁丑) Day Pillar**—the legendary **Fire Ox** of Korean astrology. Look inside his chart and you'll find a stunning dance between the mesmerizing warmth of **Jeong Fire** and the grounded, unshakeable power of cold **Chuk Earth**. He's an absolute perfectionist. Pure emotional raw depth mixed with an insane work ethic. Jimin’s Saju shows a quiet, burning spirit whose spellbinding stage presence is built to shine globally for a very long time.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of BTS Jimin (Park Ji-min)
 
@@ -32,7 +31,7 @@ Honestly, as a reader, Jimin’s chart is an absolute dream to analyze. It's one
 Your Day Pillar in Saju tells us who you *really* are at your core when the stage lights go down. Jimin carries **Jeong-Chuk**, a fascinating dynamic that seats delicate, hyper-focused **Jeong Fire** directly on top of the deep, enduring bedrock of **Chuk Earth**.
 
 ### 1. Jeong Fire: The Captivating Starlight
-Forget the blinding midday sun—that's Bing Fire. **Jeong Fire** is something far more delicate and intoxicating. Picture a single candle glowing in a pitch-black room, a warm fireplace on a freezing night, or distant starlight. It’s intimate. Focused. Deeply mysterious. 
+Forget the blinding midday sun—that's Byeong Fire. **Jeong Fire** is something far more delicate and intoxicating. Picture a single candle glowing in a pitch-black room, a warm fireplace on a freezing night, or distant starlight. It’s intimate. Focused. Deeply mysterious. 
 
 When someone is blessed with Jeong Fire, you instantly feel these undeniable qualities:
 * **Magnetic Aura:** An irresistible pull. Jeong Fire is that warm light you naturally gravitate toward in the dark without even realizing it.
@@ -42,3 +41,7 @@ When someone is blessed with Jeong Fire, you instantly feel these undeniable qua
 Watch Jimin perform for two seconds and you see this exact energy alive. A subtle turn of his head or a single soft glance can make an entire stadium stop breathing. It’s personal, subtle, and completely hypnotizing.
 
 ### 2.
+
+---
+
+*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

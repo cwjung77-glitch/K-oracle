@@ -7,9 +7,6 @@ author: "K-Oracle"
 tags: ["BTS Jungkook", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology", "Korean Saju"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-BTS's Jeon Jungkook (born September 1, 1997) carries an absolutely explosive **Bing Wu (丙午) - Fire Horse** Day Master in his Korean Saju (Four Pillars of Destiny) chart. Think of Bing Fire as the blinding midday Sun: raw, unstoppable star power, endless stamina, and pure artistic talent. Backed by heavy Earth (creative drive) and Metal (wealth and massive global achievements), his birth chart is literally custom-built for an international superstar. That's not luck—that's the cosmic blueprint behind the "Golden Maknae."
 
 ---
 
@@ -35,7 +32,7 @@ Let's look directly at his core birth date: **September 1, 1997**.
 | Ox (Chou) | Monkey (Shen) | Horse (Wu) |
 
 ### 1. The Day Master: Bing Wu (Yang Fire on Horse)
-Jungkook's core soul signature—his **Day Master**—is **Bing Fire (丙火)**. Bing Fire is the Sun itself. Radiating, fierce, wildly generous with its heat, and completely impossible to ignore. 
+Jungkook's core soul signature—his **Day Master**—is **Byeong Fire (丙火)**. Byeong Fire is the Sun itself. Radiating, fierce, wildly generous with its heat, and completely impossible to ignore. 
 
 He sits directly on **Wu (午 - Horse)**, an equally blazing Fire branch. This makes his daily pillar **Bing Wu (Fire Horse)**. Ask any Saju reader, and they'll tell you this specific combination creates absolute powerhouses defined by:
 * **Explosive Passion & Energy:** An almost obsessive drive to master whatever catches his interest.
@@ -68,7 +65,7 @@ That famous nickname—"Golden Maknae"—isn't just a fun K-pop idol title. It's
 
 So, how does this intense elemental balance play out in love?
 
-* **Passionate Yet Direct:** Bing Fire doesn't play subtle mind games. He approaches romance with total warmth, total sincerity, and straightforward honesty.
+* **Passionate Yet Direct:** Byeong Fire doesn't play subtle mind games. He approaches romance with total warmth, total sincerity, and straightforward honesty.
 * **Ideal Partner Energy:** Because his internal fire burns so insanely hot, he needs strong **Water** element energy to cool his heat and offer emotional depth, alongside soft **Wood** to keep his spirit comfortably nurtured.
 * **Relationship Style:** Fiercely protective and intensely loyal. That said, he needs someone who truly respects his relentless personal autonomy and burning ambition.
 
@@ -93,6 +90,8 @@ His chart forms an uninterrupted production chain: Fire (passion) feeds Earth (e
 
 ### Q3: What elements balance Jungkook's chart best?
 With so much intense Fire and expressive Earth, he thrives most with **Water** (bringing calm focus and emotional clarity) and **Wood** (providing steady, long-term personal nourishment).
+
+---
 
 ---
 

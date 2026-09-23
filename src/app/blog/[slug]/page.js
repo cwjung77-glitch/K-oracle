@@ -65,7 +65,7 @@ export default async function BlogPost({ params }) {
     );
   }
 
-  
+  // Article Schema
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -73,10 +73,30 @@ export default async function BlogPost({ params }) {
     description: data.excerpt,
     author: {
       '@type': 'Organization',
-      name: data.author,
+      name: data.author || 'K-Oracle',
     },
     datePublished: data.date,
   };
+
+  // Extract FAQs for AEO (Answer Engine Optimization) & GEO FAQPage Schema
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: []
+  };
+
+  // Simple regex to extract Q&A from "### Q1: ... \n Answer..." format
+  const faqMatches = [...content.matchAll(/### (Q\d*:?[^\n]+)\n([^#]+)/g)];
+  faqMatches.forEach(match => {
+    faqSchema.mainEntity.push({
+      '@type': 'Question',
+      name: match[1].replace(/^Q\d*:\s*/, '').trim(),
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: match[2].trim()
+      }
+    });
+  });
 
   return (
     <div className="relative min-h-screen bg-[#050505] text-white font-sans selection:bg-yellow-500 selection:text-black pb-24 overflow-hidden">
@@ -85,6 +105,12 @@ export default async function BlogPost({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      {faqSchema.mainEntity.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       {/* Lite Cosmic Aurora Background for Blog (Optimized for Reading) */}
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/5 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />
       <div className="absolute top-[10%] right-[-10%] w-[50%] h-[80%] bg-yellow-600/5 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />

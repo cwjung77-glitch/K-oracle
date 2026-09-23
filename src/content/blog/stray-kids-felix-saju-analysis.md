@@ -7,15 +7,11 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-* **Day Master (Core Identity):** *Eul Wood* (Yin Wood)—think of a graceful flower, climbing ivy, or a resilient vine. It brings deep empathy, pure resilience, aesthetic elegance, and gentle adaptability.
-* **Day Branch (Inner Self):** The Snake (*Sa Fire*)—endows him with explosive stage presence, creative warmth, artistic brilliance, and raw, passionate expression.
-* **Elemental Duality:** Heavy Metal influence (structure, discipline, razor-sharp focus) colliding with Fire energy builds his famous signature contrast: an ethereal, angelic visual matched with an impossibly deep, thunderous voice.
-* **Career Trajectory:** Blessed with powerful Star of Popularity (*Dowha*) energy and strong authority pillars, ensuring long-lasting global stardom, high-fashion influence, and endless artistic growth.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Felix (Lee Yong-bok)
 
@@ -29,7 +25,7 @@ Look beneath the surface, and Felix's energy reveals a fascinating dialogue betw
 
 Your **Day Master** forms the bedrock of who you are in Saju. Felix’s chart centers on **Eul Wood (乙木)** sitting directly over the **Snake (巳火)**—a striking daily pillar combination known as *Eul-Sa (乙巳)*.
 
-* **Eul Wood (Yin Wood):** Forget giant oak trees (*Gap Wood*). Yin Wood operates like a blossoming flower, a vibrant vine, or a delicate wildflower. It adapts naturally, feels intuitively, appreciates fine art, and holds surprising strength. Flowers don't fight the wind; they bend, flex, and bloom anyway.
+* **Eul Wood (In Wood):** Forget giant oak trees (*Gap Wood*). In Wood operates like a blossoming flower, a vibrant vine, or a delicate wildflower. It adapts naturally, feels intuitively, appreciates fine art, and holds surprising strength. Flowers don't fight the wind; they bend, flex, and bloom anyway.
 * **The Snake (Sa Fire):** Sitting right underneath his Day Master is the Snake, a blazing Fire element tied to the **Hurting Officer (Sik-Sang)** star. This specific placement drives dynamic outward expression, performance talent, vocal art, and electric charisma.
 * **The Synergy:** Picture an *Eul Wood* flower blooming under intense sunlight. That's *Eul-Sa*. It gives him an ethereal, luminous visual grace wrapped around an inner well of burning performance energy that effortlessly commands any stage.
 
@@ -56,7 +52,7 @@ We all know the jaw-dropping contrast that makes Felix so captivating: the warm,
 Felix's chart glows with powerhouse cultural and artistic stars. The Snake on his day pillar and the Rooster on his month pillar interact to form a partial Metal combination, massively amplifying his authority and global magnetic pull. This exact alignment commands deep audience loyalty, international prestige, and massive high-fashion appeal.
 
 ### Pure Empathy and Group Loyalty
-Driven by Yin Wood, Felix thrives on collective synergy over solo dominance. He instinctively treasures his bandmates, functioning as the emotional glue keeping Stray Kids anchored. His reading shows a soul born to heal people through artistic expression, generous acts, and quiet, thoughtful kindness.
+Driven by In Wood, Felix thrives on collective synergy over solo dominance. He instinctively treasures his bandmates, functioning as the emotional glue keeping Stray Kids anchored. His reading shows a soul born to heal people through artistic expression, generous acts, and quiet, thoughtful kindness.
 
 ### Career Longevity and Future Path
 Because his pillars bridge high-octane Fire (creative output) directly into solid Metal (enduring structure and success), Felix is wired for a long-haul career that will easily outlast typical idol timelines. As his life luck cycles turn, expect his artistic footprint to expand far beyond the stage—into high fashion modeling, global philanthropy, deep sound production, and creative direction.
@@ -66,12 +62,14 @@ Because his pillars bridge high-octane Fire (creative output) directly into soli
 ## Frequently Asked Questions About Felix's Saju Chart
 
 ### What is Felix's Day Master in Korean Saju?
-Felix’s Day Master is **Eul Wood (Yin Wood)**. Picture a graceful flower or a flexible climbing vine—it grants him gentle charm, artistic intuition, deep resilience, and a natural gift for creating harmony wherever he goes.
+Felix’s Day Master is **Eul Wood (In Wood)**. Picture a graceful flower or a flexible climbing vine—it grants him gentle charm, artistic intuition, deep resilience, and a natural gift for creating harmony wherever he goes.
 
 ### Why does Felix have such a striking voice according to his birth chart?
 His chart packs a massive amount of **Metal element energy** interacting with his **Fire energy** (the Hurting Officer star). Because Metal controls sound, acoustic resonance, and precision, it gives his voice that famous low-frequency rumble, while Fire injects the emotional warmth that makes every line iconic.
 
 ### What does the ancient system predict for his future role in Stray Kids?
 The ancient system spots him as the ultimate energetic balancer for the group. His Wood-Fire combo keeps everyone inspired and emotionally lifted, while his heavy Metal energy delivers grounded focus and sheer stamina. He will always remain a crucial global ambassador and artistic anchor for Stray Kids.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

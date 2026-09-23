@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-**SEVENTEEN’s Hoshi (Kwon Soonyoung, born June 15, 1996)** is powered by a **Yin Wood (Yi Wood)** Day Master anchored in explosive **Fire** and grounded by deep **Water**. His chart triggers a notorious **Rat-Horse Clash (Zi-Wu Clash)**—a high-voltage cosmic collision that sparks non-stop creative friction, insane energy, and undeniable stage brilliance. It’s the exact reason behind his legendary work ethic, hypnotic presence, and steady leadership of SEVENTEEN’s performance unit.
 
 ---
 
@@ -18,16 +14,16 @@ tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars 
 
 Saju charts reveal how the five elements—Wood, Fire, Earth, Metal, and Water—shape our deepest instincts and talents. Hoshi’s natal map pulls off a stunning cosmic trick: it pairs high adaptability with blistering heat and quiet, emotional depth.
 
-* **Day Master (Core Self):** Yin Wood (乙 - Yi Wood)
+* **Day Master (Core Self):** In Wood (乙 - Eul Wood)
 * **Year Pillar:** Yang Fire Rat (丙子 - Bing Zi)
 * **Month Pillar:** Yang Wood Horse (甲午 - Jia Wu)
 * **Dominant Stars:** Expression Stars (*Sik-sang*) and Artistic Stars (*Do-hwa*)
 
 ### The Delicate Vine and the Radiant Sun
 
-**Yin Wood (Yi Wood)** forms Hoshi's core nature. Think of Yi Wood as ivy, a delicate flower, or a flexible willow branch—it's all about pure adaptability, aesthetic grace, and sheer tenacity. Rigid trunks snap under pressure; vines bend, pivot, and keep growing. That's why Hoshi shifts styles so effortlessly and masters insane choreography without missing a beat.
+**In Wood (Eul Wood)** forms Hoshi's core nature. Think of Eul Wood as ivy, a delicate flower, or a flexible willow branch—it's all about pure adaptability, aesthetic grace, and sheer tenacity. Rigid trunks snap under pressure; vines bend, pivot, and keep growing. That's why Hoshi shifts styles so effortlessly and masters insane choreography without missing a beat.
 
-Vines need sunlight to thrive, though. His chart explodes with **Fire (Bing Fire and Wu Fire)**—the element of heart, visibility, passion, and artistic vision. Fire lights up his Wood energy, sparking an instinctual, almost compulsory urge to step into the spotlight and command the stage.
+Vines need sunlight to thrive, though. His chart explodes with **Fire (Byeong Fire and O Fire)**—the element of heart, visibility, passion, and artistic vision. Fire lights up his Wood energy, sparking an instinctual, almost compulsory urge to step into the spotlight and command the stage.
 
 ---
 
@@ -57,10 +53,10 @@ Hoshi’s chart runs heavy on **Sik-shin (Eating God) and Sang-gwan (Hurting Off
 ## Frequently Asked Questions: Hoshi's Saju Insights
 
 ### Q: Why is Hoshi so passionate about dance and performance?
-**Answer:** Hoshi’s Yin Wood Day Master craves an outlet, and **Fire** (Expression) is his ultimate release valve. Dancing isn't just a job or a hobby for him—it's an energetic requirement to burn off his internal heat and stay balanced.
+**Answer:** Hoshi’s In Wood Day Master craves an outlet, and **Fire** (Expression) is his ultimate release valve. Dancing isn't just a job or a hobby for him—it's an energetic requirement to burn off his internal heat and stay balanced.
 
 ### Q: What role does his Saju play in his leadership of the Performance Unit?
-**Answer:** Fire gives him a bold, infectious vision, but his **Yin Wood** nature makes him a deeply empathetic leader. Yin Wood winds around obstacles and lifts others up, letting him showcase every member’s unique strengths without hogging the spotlight.
+**Answer:** Fire gives him a bold, infectious vision, but his **In Wood** nature makes him a deeply empathetic leader. In Wood winds around obstacles and lifts others up, letting him showcase every member’s unique strengths without hogging the spotlight.
 
 ### Q: Which elements are most important for Hoshi's well-being?
 **Answer:** With so much intense Fire and clash energy, **Water** (rest, emotional processing, solitude) and **Earth** (grounding, solid routines) are critical to stop him from burning out. He stays healthy when he steps away from the bright lights to recharge in peace.
@@ -69,11 +65,13 @@ Hoshi’s chart runs heavy on **Sik-shin (Eating God) and Sang-gwan (Hurting Off
 
 ## Summary of Cosmic Strengths
 
-* **Adaptable Brilliance:** Yin Wood drives non-stop artistic evolution.
+* **Adaptable Brilliance:** In Wood drives non-stop artistic evolution.
 * **Magnetic Stage Presence:** Heavy Fire plus Peach Blossom stars build an irresistible aura.
 * **Relentless Drive:** The Rat-Horse clash turns internal friction into insane creative stamina.
 * **Empathetic Leadership:** Wood energy builds deep harmony and collective growth.
 
 Looking at his chart, Hoshi carries the unmistakable blueprint of a master performer. He was quite literally born to set the stage on fire with unmatched passion, sharp discipline, and unforgettable energy.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

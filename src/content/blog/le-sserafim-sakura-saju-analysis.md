@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["Miyawaki Sakura", "LE SSERAFIM", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Miyawaki Sakura’s Saju chart is driven by the **Xin Metal (Yin Metal)** Day Master—the ultimate archetype of a rare gemstone that shines brighter every single time it faces heat and pressure. Powered by intense Wood energy (raw ambition and constant forward momentum) and anchored by sturdy Earth energy (mental fortitude and insane discipline), her Four Pillars map out exactly how she managed to successfully debut three distinct times across Japan and Korea (HKT48, IZ*ONE, and LE SSERAFIM). Her chart reveals a brilliant mix of quiet perfectionism, insane adaptability, and global magnetic star power that turns every industry reset into a historical triumph.
 
 ---
 
@@ -22,11 +18,11 @@ When you look at her path through the lens of **Saju**—the ancient Four Pillar
 
 ---
 
-## The Core Identity: Xin Metal (Yin Metal) Day Master
+## The Core Identity: Sin Metal (Yin Metal) Day Master
 
-In Saju analysis, your Day Master is your core identity—the primary energy governing your spirit and fundamental character. Sakura was born on a **Xin Metal** day.
+In Saju analysis, your Day Master is your core identity—the primary energy governing your spirit and fundamental character. Sakura was born on a **Sin Metal** day.
 
-### What Xin Metal Reveals About Sakura:
+### What Sin Metal Reveals About Sakura:
 * **The Refined Gemstone:** Unlike heavy Yang Metal, which acts like unrefined iron ore or a massive broadsword, Yin Metal is a polished jewel, a sparkling diamond, or a finely crafted blade. This energy naturally craves the spotlight—it needs to be seen, appreciated, and illuminated to reveal its true brilliance.
 * **Perfectionism Under Pressure:** Diamonds aren't formed in safe spaces; they take brutal heat and intense pressure. Sakura’s path was never destined to be easy or effortlessly handed to her. Her chart demands relentless practice, brutal self-examination, and continuous self-forgery.
 * **Inner Resilience Behind Soft Exterior:** Behind that elegant, soft visual presence lies a core made of literal steel. Yin Metal individuals possess a quiet, unbreakable inner strength that lets them survive brutal environments without ever losing their luster.
@@ -78,5 +74,7 @@ Saju readers look for specific elemental interactions to explain why certain art
 | **Fire (Fame)** | Authority & Public Light| Natural charisma, global spotlight, stage presence |
 
 Sakura’s career is a masterclass in living out the Yin Metal archetype. No matter how tough the pressure gets, no matter how many times she resets her entire path, she doesn't break. She simply polishes herself until she shines brighter than before.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

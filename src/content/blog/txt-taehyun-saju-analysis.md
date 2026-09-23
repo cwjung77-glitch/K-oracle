@@ -9,10 +9,6 @@ tags: ["TXT", "Taehyun", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Dest
 
 ## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-**TXT’s Taehyun (born February 5, 2002)** possesses a Saju chart characterized by a rare harmony between intense passion and razor-sharp intellect. Rooted in strong Earth and Fire energy balanced by liquid Water element dynamics, his chart reveals a natural perfectionist who combines logical precision with an unstoppable work ethic. This unique elemental signature explains his formidable vocal technique, athletic discipline, and steady, unwavering leadership within Tomorrow X Together.
 
 ---
 
@@ -21,9 +17,9 @@ tags: ["TXT", "Taehyun", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Dest
 In Korean Saju (the Four Pillars of Destiny), a person's birth chart acts as a cosmic map outlining their natural talents, temperament, and life trajectory. Born at the very beginning of spring—right around *Lichun* (the start of the solar year)—Taehyun’s chart carries the invigorating vitality of awakening nature.
 
 ### Primary Elemental Profile:
-* **Day Master (Core Identity):** **Ji Earth (己土)** — Symbolizing fertile soil, cultivating spirit, and practical wisdom. Ji Earth individuals are known for being observant, highly adaptable, logical, and quietly determined.
-* **Month Branch (Seasonal Power):** **Yin Wood (寅木)** — The energy of early spring. It provides Taehyun with exponential growth, high ambition, and the relentless desire to master his craft.
-* **Year Branch (Foundation):** **Wu Fire (午火)** — A powerful flame of passion, vitality, and charisma that illuminates his artistic presence on stage.
+* **Day Master (Core Identity):** **Gi Earth (己土)** — Symbolizing fertile soil, cultivating spirit, and practical wisdom. Gi Earth individuals are known for being observant, highly adaptable, logical, and quietly determined.
+* **Month Branch (Seasonal Power):** **In Wood (寅木)** — The energy of early spring. It provides Taehyun with exponential growth, high ambition, and the relentless desire to master his craft.
+* **Year Branch (Foundation):** **O Fire (午火)** — A powerful flame of passion, vitality, and charisma that illuminates his artistic presence on stage.
 
 ---
 
@@ -42,7 +38,7 @@ Taehyun is widely recognized by fans for his hyper-logical, analytical mindset. 
 With strong Fire energy anchored in his foundation, Taehyun possesses an internal furnace of ambition. This burning inner light explains his famous grit—whether mastering complex choreography, conquering high vocal registers, or maintaining extreme physical fitness. In K-Oracle readings, this constellation signals someone who turns pressure into fuel.
 
 ### 3. The Power of Flowing Water (Vocal Resonance & Emotional Intelligence)
-The presence of Water elements (*Ren Water* and *Hai Water*) in his chart balances the heat of his Fire energy. Water governs communication, deep sound, and emotional fluidity. This allows Taehyun to deliver vocal performances that feel both technically precise and deeply resonant, bridging the gap between intellect and heart.
+The presence of Water elements (*Im Water* and *Hae Water*) in his chart balances the heat of his Fire energy. Water governs communication, deep sound, and emotional fluidity. This allows Taehyun to deliver vocal performances that feel both technically precise and deeply resonant, bridging the gap between intellect and heart.
 
 ---
 
@@ -62,7 +58,9 @@ Taehyun is entering an exceptionally prosperous luck pillar phase. As his chart 
 ## Major Life & Career Themes in Taehyun's Chart
 
 * **The Perfectionist's Path:** His Saju naturally rejects dynamic chaos in favor of structured growth. He thrives when given clear goals and rigorous standards.
-* **Deep Loyalty and Brotherhood:** Ji Earth individuals naturally hold space for others. Within TXT, Taehyun serves as an intellectual anchor and a reliable pillar of support for his bandmates.
+* **Deep Loyalty and Brotherhood:** Gi Earth individuals naturally hold space for others. Within TXT, Taehyun serves as an intellectual anchor and a reliable pillar of support for his bandmates.
 * **Enduring Success:** Because his chart possesses an optimal balance of elemental generation—Water nourishing Wood, Wood fueling Fire, and Fire enriching Earth—his talent will continue to mature gracefully like fine wine.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

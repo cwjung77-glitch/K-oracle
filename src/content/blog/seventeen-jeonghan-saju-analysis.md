@@ -7,12 +7,6 @@ author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-**What does Seventeen Jeonghan's Saju reveal about his destiny?**
-
-Born October 4, 1995, Jeonghan’s entire chart rests on the **Gye-Chuk (Yin Water Ox)** Day Pillar. Think of it as a quiet morning mist covering a mountain of raw, unstoppable endurance. His blueprint strikes a stunning balance between **Wood** (pure creative expression) and **Metal** (sharp, strategic intellect). That exact elemental harmony explains his famous duality: the soft, caring "Angel" fans adore, and the absolute game-theory genius who runs the show in SEVENTEEN.
 
 ---
 
@@ -32,7 +26,7 @@ Put those two together, and you get someone who looks delicate, calm, and imposs
 Looking at the cosmic layout for October 4, 1995, his energy map shows a fascinating, balanced interplay across time:
 
 *   **Year Pillar (Eul-Hae / Wood Pig):** Gives him magnetic charisma, easy social adaptability, and a naturally warm vibe that pulls people in for life.
-*   **Month Pillar (Eul-Yoo / Wood Rooster):** Fuses artistic, fluid creativity (Yin Wood) right alongside razor-sharp, detail-oriented precision (Yin Metal).
+*   **Month Pillar (Eul-Yoo / Wood Rooster):** Fuses artistic, fluid creativity (In Wood) right alongside razor-sharp, detail-oriented precision (Yin Metal).
 *   **Day Pillar (Gye-Chuk / Water Ox):** His core identity—highly analytical, incredibly observant, steady as a rock, and masterfully strategic.
 
 ---
@@ -47,8 +41,8 @@ Ask any K-Pop fan—Jeonghan is the undisputed brain behind SEVENTEEN’s chaoti
 
 He maps out complex social dynamics in the blink of an eye, running scenarios in his head while keeping that totally innocent smile on his face.
 
-### 2. The Gentle "Angel" Persona: The Softening Touch of Yin Wood
-Look deeper into his chart, and you'll find heavy **Yin Wood (Eul 乙)** in both his Year and Month pillars. Yin Wood acts like winding ivy or delicate flowers—flexible, stunningly aesthetic, and naturally tender. 
+### 2. The Gentle "Angel" Persona: The Softening Touch of In Wood
+Look deeper into his chart, and you'll find heavy **In Wood (Eul 乙)** in both his Year and Month pillars. In Wood acts like winding ivy or delicate flowers—flexible, stunningly aesthetic, and naturally tender. 
 
 *   It endows him with effortless visual beauty, vocal sweetness, and innate artistic grace.
 *   It tempers his sharp tactical mind, wrapping his cunning intelligence in genuine, big-brotherly warmth for his members.
@@ -75,6 +69,8 @@ It seamlessly weaves the fluid adaptability of Yin Water with the crisp executio
 His main anchor is **Yin Water (Gye)**, grounded firmly by **Earth (Ox)** and energized by powerful **Wood** and **Metal** placements. The result? Mind power that flows right around obstacles without ever losing its solid foundation.
 
 ### How does Saju explain Jeonghan's nickname "Angel"?
-That ethereal "Angel" aura comes straight from his prominent **Yin Wood** elements, which bring refined visuals, vocal delicacy, and a soft, empathetic vibe. Paired with his calming Yin Water Day Master, he projects a peaceful, healing presence wherever he goes.
+That ethereal "Angel" aura comes straight from his prominent **In Wood** elements, which bring refined visuals, vocal delicacy, and a soft, empathetic vibe. Paired with his calming Yin Water Day Master, he projects a peaceful, healing presence wherever he goes.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

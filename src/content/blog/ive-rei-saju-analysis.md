@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["IVE Rei", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "K-Oracle"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-IVE's Rei is a **Yin Earth (Ji Earth)** Day Master, meaning she carries the rich, nurturing energy of fertile soil built to grow stunning flowers and gardens. Her Saju birth chart reveals a brilliant mix of deep artistic intuition, emotional resonance, and unshakeable inner resilience. Packed with vibrant Wood and fluid Water elements, her cosmic layout drives her distinct musical flow, endless creative adaptability, and magnetic star power. That exact astrological balance explains why she completely commands the stage as IVE's main rapper and vocalist while setting global fashion trends.
 
 ---
 
@@ -26,7 +22,7 @@ Saju—the ancient Korean Four Pillars of Destiny system—reads the cosmic snap
 
 Her astrological profile reveals the core pillars behind her unique creative engine:
 
-*   **Day Master (Core Self):** Yin Earth (己土 - Ji Earth)
+*   **Day Master (Core Self):** Yin Earth (己土 - Gi Earth)
 *   **Birth Month (Social & Career Energy):** Wood / Earth transition month (Ox Month)
 *   **Birth Year (Ancestral & Global Energy):** Gui-Wei (Water Goat)
 *   **Dominant Elements:** Earth, Wood, Water
@@ -78,7 +74,7 @@ Rei's chart relies heavily on what Saju masters call the **Eating God / Hurting 
 ## Frequently Asked Questions (Q&A)
 
 ### What is IVE Rei's Saju Day Master?
-Rei's Day Master is **Yin Earth (Ji Earth)**. This elemental archetype represents rich, fertile soil, endowing her with an adaptable, gentle, and deeply imaginative artistic spirit.
+Rei's Day Master is **Yin Earth (Gi Earth)**. This elemental archetype represents rich, fertile soil, endowing her with an adaptable, gentle, and deeply imaginative artistic spirit.
 
 ### Why is Rei so talented at languages and rapping according to Saju?
 Her birth chart holds a strong, balanced dynamic between **Water and Wood elements**. Water powers verbal intuition, emotional depth, and fast learning, while Wood governs structured rhythm and creative output. That combination makes rap cadences and foreign languages feel second nature to her.
@@ -88,5 +84,7 @@ Rei carries strong **artistic stars (Sik-Sang)** in her chart, fueling a deep in
 
 ### What lies ahead in Rei's cosmic energy path?
 With her core Earth foundation supported by oncoming favorable elemental cycles, Rei is entering an extended period of creative expansion and artistic maturity that will solidify her status as a standout powerhouse across music, fashion, and performance.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

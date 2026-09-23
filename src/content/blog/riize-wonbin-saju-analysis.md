@@ -2,7 +2,7 @@
 title: "Decoding RIIZE Wonbin's Saju: Cosmic Secrets Behind the K-Pop Star"
 slug: "riize-wonbin-saju-analysis"
 date: "2026-09-19"
-excerpt: "Discover the fierce cosmic blueprint of RIIZE's center Wonbin, from his rare Geng Metal Day Master to the ultimate Fire Alliance driving his superstar aura."
+excerpt: "Discover the fierce cosmic blueprint of RIIZE's center Wonbin, from his rare Gyeong Metal Day Master to the ultimate Fire Alliance driving his superstar aura."
 author: "K-Oracle"
 tags: ["RIIZE", "Wonbin", "Saju Analysis", "K-Pop Astrology"]
 ---
@@ -11,9 +11,11 @@ tags: ["RIIZE", "Wonbin", "Saju Analysis", "K-Pop Astrology"]
 
 RIIZE Wonbin was born under the sign of **Geng Xu (庚戌, Yang Metal Dog)**—a rare, uncompromising pillar known in Korean Saju as a *Kui Gang (괴강)* star. This gives him razor-sharp focus, a commanding presence, and unmatched stage magnetism. Powered by a full **Three Harmony Fire Alliance (삼합 화국)** in his earthly branches, his chart is a relentless cosmic furnace that refines raw iron into a legendary blade. Backed by dual Water stems that supercharge his artistry and expression, Wonbin isn’t just lucky—his astrological blueprint was forged strictly for industry domination.
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of RIIZE Wonbin: An Overview
 
@@ -29,19 +31,19 @@ Take one look at the bottom row (the Earthly Branches): **Yin (Tiger) + Wu (Hors
 
 In Saju, Fire represents **Gwan-seong (관성 - Officer/Fame/Spotlight/Discipline)**. When all three animals unite, they ignite an all-consuming blaze. For an ordinary person, this amount of Fire could bring overwhelming stress or burnout. But for Wonbin, whose Day Master is raw, unyielding Metal, this intense heat is the exact cosmic engine required to smelt raw iron into an untouchable masterpiece.
 
-On top of this fiery foundation, his heavenly stems are washed in double **Ren Water (壬水)**, the star of artistic output (*Shik-sang* / 식상). He has the fiery drive of a warrior combined with the fluid, effortless cool of deep ocean water.
+On top of this fiery foundation, his heavenly stems are washed in double **Im Water (壬水)**, the star of artistic output (*Shik-sang* / 식상). He has the fiery drive of a warrior combined with the fluid, effortless cool of deep ocean water.
 
 ---
 
 ## The Day Master: Geng Xu (Yang Metal Dog)
 
-Wonbin’s core identity is **Geng Metal (庚金)**. 
+Wonbin’s core identity is **Gyeong Metal (庚金)**. 
 
-Geng Metal is not delicate jewelry or soft silver. Geng Metal is raw iron ore, a warrior’s sword, an anvil, a heavy blade. People born under Geng Metal are naturally resilient, blunt, fiercely loyal, and uncompromisingly perfectionistic. They do not bend under pressure; they thrive on friction. If you've ever watched Wonbin practice until his moves are frame-by-frame flawless, that is pure Geng Metal tenacity at work.
+Gyeong Metal is not delicate jewelry or soft silver. Gyeong Metal is raw iron ore, a warrior’s sword, an anvil, a heavy blade. People born under Gyeong Metal are naturally resilient, blunt, fiercely loyal, and uncompromisingly perfectionistic. They do not bend under pressure; they thrive on friction. If you've ever watched Wonbin practice until his moves are frame-by-frame flawless, that is pure Gyeong Metal tenacity at work.
 
 ### The Power of Kui Gang (괴강살)
 
-Wonbin doesn’t just have any Geng Metal pillar—he sits on **Geng Xu**, which is one of the revered and feared **Kui Gang (괴강)** pillars in Eastern metaphysics. 
+Wonbin doesn’t just have any Gyeong Metal pillar—he sits on **Geng Xu**, which is one of the revered and feared **Kui Gang (괴강)** pillars in Eastern metaphysics. 
 
 Historically, Kui Gang is the energy of supreme generals, leaders, and pioneers. It bestows:
 * **Extreme Aura:** A quiet, magnetic gravitas that commands attention without saying a word.
@@ -50,9 +52,9 @@ Historically, Kui Gang is the energy of supreme generals, leaders, and pioneers.
 
 Sitting on **Xu (Dog / Earth)**, Wonbin’s Metal Day Master is continuously supported and stabilized. The Dog acts as an energetic fortress, giving him a grounded, unshakeable core beneath his ethereal, visual exterior. He is not fragile. Behind the soft styling and doe-eyed center visuals lies an immovable pillar of steel.
 
-### The Double Ren Water: Flow and Artistic Genius
+### The Double Im Water: Flow and Artistic Genius
 
-While his core is solid iron, his upper stems feature two massive **Ren Water (壬水)** stars. In Saju, Water for a Metal Day Master represents the **Output Star (식신/상관 - Eating God / Hurting Officer)**.
+While his core is solid iron, his upper stems feature two massive **Im Water (壬水)** stars. In Saju, Water for a Metal Day Master represents the **Output Star (식신/상관 - Eating God / Hurting Officer)**.
 
 * Output stars govern dance, musicality, speech, vocal tone, and visual allure.
 * Water acts as the cooling, polishing river that washes the forged blade, giving Wonbin his signature fluid dance textures, expressive facial shifts, and effortless guitar talent.
@@ -78,8 +80,8 @@ The complete Fire Alliance (Tiger-Horse-Dog) directly fuels his **Gwan (Fame & A
 What does romance look like for a Geng Xu Kui Gang master?
 
 1. **Extremely High Standards:** Wonbin does not fall easily. His chart lacks chaotic, messy romance stars. He evaluates potential partners through a lens of deep respect, loyalty, and character integrity.
-2. **The "Ride-or-Die" Lover:** Once someone earns his trust, his Geng Metal loyalty activates. He is protective, deeply attentive behind closed doors, and values private, drama-free devotion over flashy public declarations.
-3. **Cosmic Chemistry:** Because his chart runs intensely hot with Fire and dynamic with Water, he is most compatible with grounded **Yin Earth (Ji Earth)** or calming **Gui Water** energies—partners who provide emotional peace, mental stimulation, and an anchor away from the chaotic spotlight.
+2. **The "Ride-or-Die" Lover:** Once someone earns his trust, his Gyeong Metal loyalty activates. He is protective, deeply attentive behind closed doors, and values private, drama-free devotion over flashy public declarations.
+3. **Cosmic Chemistry:** Because his chart runs intensely hot with Fire and dynamic with Water, he is most compatible with grounded **Yin Earth (Gi Earth)** or calming **Gye Water** energies—partners who provide emotional peace, mental stimulation, and an anchor away from the chaotic spotlight.
 
 
 ## Key Takeaways of RIIZE Wonbin's Cosmic Destiny
@@ -87,6 +89,8 @@ What does romance look like for a Geng Xu Kui Gang master?
 * **Forged to Withstand Pressure:** The Geng Xu Kui Gang configuration means Wonbin doesn't crack under spotlight pressure — he sharpens. Every major obstacle is coded to refine him, not break him.
 * **Fire-Fueled Stage Magnetism:** The San He Fire Alliance isn't subtle. It's why Wonbin commands attention in group formations without trying. His chart was literally built for center energy.
 * **Still Just Getting Started:** His luck pillars indicate that his current fame is the *baseline*, not the peak. The cosmic heavy-hitter phases haven't even landed yet.
+
+---
 
 ---
 

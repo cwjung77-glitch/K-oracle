@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Born February 9, 2004, ENHYPEN’s remarkable leader Jungwon carries the exact energy of **Jeong Fire (丁火)**—think of a warm, steady candle flame quietly lighting up a dark room. Grounded by strong Earth (the Ox) and fed by harmonious Wood and Metal energies, his Saju chart practically screams intuitive strength, calm discipline, and bulletproof resilience. Love-wise? He isn't looking for flashy drama. He wants quiet devotion, real sincerity, and emotional safety, making him an ideal match for anyone bringing strong **Wood** or **Soft Earth** energy into his life.
 
 ---
 
@@ -79,6 +75,8 @@ It's all about that rare blend: Jeong Fire warmth, Chuk Earth grounding, and Woo
 
 ### What type of partner is most compatible with Jungwon's energy?
 He thrives best alongside someone rich in **Wood** or **Soft Earth** energies. He needs a partner who is mature, emotionally stable, deeply loyal, and able to build a peaceful, grounded world together.
+
+---
 
 ---
 

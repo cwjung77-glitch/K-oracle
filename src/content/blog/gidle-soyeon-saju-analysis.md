@@ -11,6 +11,9 @@ tags: ["(G)I-DLE", "Soyeon", "Saju Analysis", "K-Pop Astrology"]
 
 (G)I-DLE’s Jeon Soyeon is a **Yang Earth (Mu Earth)** Day Master standing tall on the **Dragon (Chen)**, loaded with an absurdly intense **Metal Output Star (Sik-Sang)**. Translation? She was literally built by the universe to dominate, write her own history, and tear down every formulaic K-Pop rule. Her chart shows an unshakeable leader sitting on a mountain of raw, unapologetic creative fire, fueled by a high-voltage cosmic clash that makes her an unstoppable producer.
 
+
+
+
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of (G)I-DLE Soyeon: An Overview
@@ -79,5 +82,7 @@ Her chart is built for longevity. Because her primary driver is creative output 
 * **The Unmovable Mountain:** Born under the Yang Earth Dragon (Mu Chen) pillar, Soyeon possesses unshakeable core strength, executive leadership, and deep resilience under intense pressure.
 * **Unmatched Creative Engine:** Her Month Pillar of Metal Monkey creates a powerful Sik-Sang (Output) star, making her an extraordinary songwriter, producer, and conceptual genius who reshapes industry standards.
 * **Driven by High-Voltage Friction:** The Tiger-Monkey clash in her chart injects an infinite stream of radical energy, ensuring she continuously disrupts K-Pop and evolves as an artist for decades to come.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

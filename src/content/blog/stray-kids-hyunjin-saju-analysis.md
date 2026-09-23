@@ -7,15 +7,11 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Hyunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-* **Core Essence:** Hyunjin came into this world on a **Yang Wood on Dragon (Gap-Jin)** day right in the heart of Spring, pictured as a tall, radiant tree rooted deep in rich, water-fed soil.
-* **Artistic Engine:** That lethal mix of **Expressive Star energy (Sik-sang)** and the famous **Peach Blossom Star (Do-hwa-sal)** fuels his spellbinding visual pull, ridiculously fluid dance lines, and multi-disciplinary talent across painting, writing, and performing.
-* **Inner Drive:** Behind those delicate stage visuals lies an absolute fortress of an inner core. He takes heavy emotional depth and turns it straight into creative fuel.
-* **Future Outlook:** His energy chart points to incredible longevity in creative spaces, smoothly bridging the gap from top-tier idol dancer to high-art painter and global fashion powerhouse.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Stray Kids' Hyunjin
 
@@ -100,5 +96,7 @@ His presence on stage is driven by **Fire arising from Wood (Mok-Hwa-Tong-Myeong
 
 ### How does Hyunjin handle stress according to his energy profile?
 When pressure hits redline levels, Hyunjin activates his **Earth and Water storage energies** by stepping back into solitary creative spaces. Fine art painting, quiet music composition, and dancing alone late at night serve as his natural elemental rituals to clear out bad energy and reset his system.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

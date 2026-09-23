@@ -7,12 +7,11 @@ author: "K-Oracle"
 tags: ["BTS", "Jungkook", "Saju", "Four Pillars of Destiny", "Love Compatibility", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-BTS’s Jungkook is a pure **Yang Fire Horse (Byeong-Wu, 丙午)**, which explains *everything* about his presence. His core Saju energy is basically the midday sun at peak performance—blazing, unstoppable, and impossible to look away from. Add a Monkey Month Branch into the mix, and his chart gets a massive boost of laser focus, raw drive, and heavy Wealth energy. Romance-wise? He can't do lukewarm. He needs a partner who gets his intense work ethic—someone carrying soothing Yin Water or gentle Wood energy to balance his heat without smothering his creative fire.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint: Understanding Jungkook's Day Master
 
@@ -63,11 +62,11 @@ A chart blazing with this much Fire demands specific elemental forces to stay ba
 [ Intense Fire Energy (Jungkook) ]  <--->  [ Soft Water / Gentle Wood (Ideal Partner) ]
             (Passionate Sun)                         (Cooling Rain & Nurturing Tree)
 
-### 1. The Cooling Water Element (Yin Water / *Gui Water*)
+### 1. The Cooling Water Element (Yin Water / *Gye Water*)
 * **Why it works:** Picture a soft summer rain calming down the blazing high noon sun. Yin Water tempers the roaring heat of the Fire Horse effortlessly.
 * **Dynamics:** A Water-heavy partner offers him a quiet sanctuary—a place of deep emotional grounding away from the noise of global fame.
 
-### 2. The Grounding Wood Element (Yin Wood / *Eul Wood*)
+### 2. The Grounding Wood Element (In Wood / *Eul Wood*)
 * **Why it works:** Wood fuels Fire naturally, sustaining the flame without causing an explosive burnout.
 * **Dynamics:** Someone rich in Wood energy brings infinite patience, deep intellectual grounding, and steady emotional backup to keep his creative motor running smooth.
 
@@ -87,6 +86,8 @@ Fire energy is totally direct. No mind games, no passive-aggressive silent treat
 
 ### What kind of aura attracts Jungkook according to ancient destiny reading?
 He responds best to a relaxed, self-assured vibe. His ideal match needs enough independence to handle his chaotic schedule and let him do his thing, alongside a gentle, mature presence that serves as a calm safe haven away from the chaos of idol life.
+
+---
 
 ---
 

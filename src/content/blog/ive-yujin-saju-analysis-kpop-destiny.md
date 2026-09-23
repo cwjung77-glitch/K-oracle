@@ -7,20 +7,16 @@ author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Born on a **Yang Fire Horse (Bing-Wu)** day, **IVE's An Yujin** carries the intense, blinding energy of the mid-day **Sun (Bing Fire)**. Think warmth, raw charisma, and inescapable presence. Her Saju chart locks together an elite trifecta: **Fire (Self/Expressiveness)**, **Metal (Wealth/Execution)**, and **Water (Authority/Public Honor)**. That exact cosmic synergy is why she steals every stage, dominates variety television, and commands respect as one of the sharpest leaders in 4th Gen K-pop.
 
 ---
 
-## The Radiant Sun: An Yujin's Core Day Master (Bing Fire)
+## The Radiant Sun: An Yujin's Core Day Master (Byeong Fire)
 
-Your **Day Master** is the true blueprint of your spirit. Yujin's happens to be **Yang Fire (Bing Fire 丙火)**—the literal Sun radiating at high noon. 
+Your **Day Master** is the true blueprint of your spirit. Yujin's happens to be **Yang Fire (Byeong Fire 丙火)**—the literal Sun radiating at high noon. 
 
 * **Blazing Charisma:** You can't hide the sun. Yang Fire energy commands attention without even trying, making her an immediate magnet every time the camera turns on.
 * **Warmth and Generosity:** Her light isn't destructive; it lifts people up. That natural warmth shines through in how she anchors her members and connects with fans.
-* **Passionate Energy:** Stack Bing Fire with the Horse (Wu), and you get relentless drive. Her stage presence never falters because her inner furnace never stops burning.
+* **Passionate Energy:** Stack Byeong Fire with the Horse (Wu), and you get relentless drive. Her stage presence never falters because her inner furnace never stops burning.
 
 ---
 
@@ -55,12 +51,14 @@ Some leaders are made through training, but Yujin’s leadership was carved stra
 ## Frequently Asked Questions
 
 ### What is An Yujin's primary Saju element?
-Her core Day Master element is **Yang Fire (Bing Fire)**. It embodies the high-noon Sun, endless enthusiasm, crystal-clear vision, and genuine warmth.
+Her core Day Master element is **Yang Fire (Byeong Fire)**. It embodies the high-noon Sun, endless enthusiasm, crystal-clear vision, and genuine warmth.
 
 ### Why is Yujin so successful in K-pop and television programs?
 Her chart fuses brilliant **Yang Fire** (unmissable star quality) with heavy **Metal** (steel-like discipline and strategy). That rare mix gives her dynamic stage charisma paired with the fast mental processing needed to rule variety TV and live broadcasts.
 
 ### What does the ancient system predict for her long-term career?
 With a strong **Metal Wealth Star** backed by **Water Authority**, her star power won't burn out. The chart predicts a decades-long career spanning way past idol life—think acting, hosting, high-level brand deals, and executive production management.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

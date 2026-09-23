@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-IVE’s vocal powerhouse Liz (Kim Ji-won), born November 21, 2004, carries the **Ren Water (壬水)** Day Master—the energy of a deep, endless ocean. Look at her Four Pillars of Destiny (Saju) and you’ll see an overwhelming rush of Water and Wood elements. That exact dynamic fuels her rich vocal tone, deep emotional sensitivity, and magnetic stage presence. Her chart reveals a brilliant mix of flexibility and raw inner resilience, pointing toward a long, massive international career.
 
 ---
 
@@ -28,12 +24,12 @@ Her chart surges with **Water** and feeds directly into lush **Wood**. In Korean
 
 ---
 
-## Day Master Analysis: The Deep Ocean Spirit of Ren Water
+## Day Master Analysis: The Deep Ocean Spirit of Im Water
 
-Your **Day Master** is the heart of your Saju chart—it’s who you are at your core. Liz carries **Ren Water (壬水)**, the element of the vast, open sea.
+Your **Day Master** is the heart of your Saju chart—it’s who you are at your core. Liz carries **Im Water (壬水)**, the element of the vast, open sea.
 
-### Core Personality Traits of Ren Water:
-* **Emotional Depth:** Ocean energy goes deep. Ren Water individuals hold immense emotional reserves, giving Liz that incredibly soulful, comforting vocal tone and genuine warmth.
+### Core Personality Traits of Im Water:
+* **Emotional Depth:** Ocean energy goes deep. Im Water individuals hold immense emotional reserves, giving Liz that incredibly soulful, comforting vocal tone and genuine warmth.
 * **Adaptability:** Water flows around obstacles without losing momentum. Liz holds a quiet, easygoing charm backed by a quiet toughness that helps her navigate the high-stakes idol world.
 * **Mystical Magnetism:** Ocean energy commands respect without shouting. She projects a calm, grounding presence that naturally draws people in.
 
@@ -70,15 +66,17 @@ Looking at K-Oracle readings, Liz's elemental dynamics point to incredible, last
 ## Frequently Asked Questions About IVE Liz's Saju
 
 ### What is IVE Liz's main element in Saju?
-Liz’s core element is **Ren Water (壬水)**, matching the boundless ocean. Her chart pairs this with rich Wood and Earth elements to power her art and keep her grounded.
+Liz’s core element is **Im Water (壬水)**, matching the boundless ocean. Her chart pairs this with rich Wood and Earth elements to power her art and keep her grounded.
 
 ### How does Saju explain Liz's exceptional singing talent?
 Water (her self element) constantly feeds Wood (her Output Star). The Output Star governs voice, performance, and creative expression. This seamless flow is why her vocal delivery feels effortless, perfectly pitched, and deeply emotional.
 
 ### What kind of personality does Liz have according to her birth chart?
-Her Ren Water Day Master alongside the Pig and Dragon branches points to a thoughtful, calm, and deeply gentle soul. She adapts quickly, treats others kindly, and holds immense inner resilience underneath her quiet exterior.
+Her Im Water Day Master alongside the Pig and Dragon branches points to a thoughtful, calm, and deeply gentle soul. She adapts quickly, treats others kindly, and holds immense inner resilience underneath her quiet exterior.
 
 ### What does the future hold for Liz's music career?
 Long-term, sustainable success. The dynamic harmony between her Water and Wood energy prevents artistic burnout. Expect her to expand beyond group releases into songwriting, solo work, and a lasting global music presence.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

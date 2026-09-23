@@ -7,14 +7,6 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-*   **Day Master**: **Gyeong Metal (庚金)** — representing forged steel, surgical precision, and absolute determination.
-*   **Day Pillar**: **Gyeong-In (Metal Tiger)** — bestows bold leadership, high ambition, and dynamic stage energy.
-*   **Key Elemental Balance**: Strong Metal energy balanced by Water (expression) and Wood (results and achievement), forming an exceptionally balanced chart for performance arts.
-*   **Leadership Style**: Calm, decisive, and resilient—embodying a true "antifragile" mindset under pressure.
-*   **Artistic Essence**: Sharp vocal discipline blended with expressive emotional fluidity and undeniable stage presence.
 
 ---
 
@@ -76,5 +68,7 @@ Her **Gye Water (癸水)** element unleashes the dense Metal energy inside her. 
 ## Cosmic Outlook: The Destiny of an Antifragile Star
 
 Chaewon's life force literally gets stronger when challenged. High expectations don't crush her; her chart is built to thrive under immense pressure. That powerful internal alignment of Metal, Water, and Wood points to incredible career longevity, expanding international reach, and a long-lasting legacy as one of modern K-Pop's absolute finest leaders.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

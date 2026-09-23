@@ -11,7 +11,6 @@ tags: ["ITZY", "Ryujin", "Saju Analysis", "K-Pop Astrology"]
 
 ITZY’s iconic center Shin Ryujin isn't just blessed with elite performance genetics—her birth chart is a literal blueprint for effortless dominance. Born as a **Sin Metal (辛金)** Day Master sitting on pure performative Water energy, her Saju reveals a hyper-refined, razor-sharp personality that refuses to play by standard K-Pop rules. With a heavy flow of *Sik-Sang* (artistic expression) washed by pristine streams of Water, Ryujin’s viral aura, unmatched chill, and lethal stage presence were written in the stars long before she ever hit a shoulder-dance routine.
 
-> 🔮 **New to Korean Astrology?** Read our [Ultimate Guide to Korean Saju](/blog/what-is-korean-saju-four-pillars-of-destiny)
 
 ---
 
@@ -98,6 +97,8 @@ Because Ryujin’s chart is heavily dominated by cool Metal and fluid Water, her
 * **The Refined Silver Blade:** Ryujin’s Sin Metal Day Master makes her sharp, fiercely independent, and effortlessly visual—a diamond washed constantly by pristine Water energy.
 * **Dynamic Friction Drives Her Success:** The Sa-Hae Clash in her chart gives her explosive, viral energy and an innate refusal to conform to conventional girl-group stereotypes.
 * **Built for Longevity:** Driven by powerful *Sik-Sang* output and moving into grounding luck cycles, Ryujin’s career trajectory extends far beyond standard group activities into solo artistry, acting, and iconic fashion dominance.
+
+---
 
 ---
 

@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["Saju Analysis", "TXT Yeonjun", "K-pop Astrology", "Korean Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Yeonjun didn't just stumble into becoming K-pop’s "4th Gen IT Boy"—his celestial alignment made it inevitable. Born on an **Im-O (Water Horse)** day during an Earth Rabbit year and Water Rooster month, his birth chart carries a breathtaking **Double Peach Blossom Star (Do-hwa)**. That means raw magnetism, effortless high-fashion energy, and insane artistic instinct are literally hardwired into his blueprint. Stack deep Water energy on top of roaring Fire wealth stars, and you get an explosive force destined for global stardom from day one.
 
 ---
 
@@ -70,5 +66,7 @@ The Horse in his Day Pillar houses intense Fire energy, unlocking his **Jae-Seon
 ## Cosmic Summary: The Ocean That Holds the Sun
 
 Choi Yeonjun’s chart is a stunning masterpiece: deep ocean waters reflecting a brilliant sun. His unreal talent across dance, vocals, rap, and fashion isn't an accident or a stroke of luck. It is the breathtaking alignment of double Peach Blossom stars working in perfect sync with balanced elemental energy. Through the ancient lens of Saju, Yeonjun stands as the ultimate blueprint of an ace—a star whose celestial path was paved for global stardom from the moment he was born.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

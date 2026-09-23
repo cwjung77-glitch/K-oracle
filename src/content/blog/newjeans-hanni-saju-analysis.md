@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["Saju", "K-pop", "NewJeans", "Hanni", "Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-Hanni's Saju chart reveals a breathtaking synergy between **Yin Water (Gui Water)** energy and dynamic **Wood** talent stars. Anchored by an unmistakable **Peach Blossom Star (Do-hwa-sal)**, her energetic blueprint drives her insane public charisma, effortless charm, and rich vocal agility. From an ancient metaphysical lens, her elements favor pure adaptability, creative fluency, and massive international pull—making her meteoric rise with NewJeans look practically written in the stars.
 
 ---
 
@@ -26,7 +22,7 @@ Saju, Korea's traditional Four Pillars of Destiny system, maps out a person's li
 
 Look at any Saju chart, and your eyes should go straight to the **Day Master**—the Heavenly Stem of the birth day. It represents a person's core essence, spiritual signature, and true self.
 
-* **Elemental Essence: Yin Water (Gui Water)**
+* **Elemental Essence: Yin Water (Gye Water)**
   * **Characteristics:** Morning mist, gentle rain, quiet streams, and razor-sharp intuition.
   * **Personality Traits:** Fluidly adaptable, deeply empathetic, intellectually sharp, and naturally artistic.
 * **Symbolic Meaning:** Water bends to fit any container without ever losing its identity. That’s Hanni in a nutshell. Whether she’s sliding into Y2K nostalgia, dark R&B, or bright pop, she morphs seamlessly into any concept without losing her personal warmth.
@@ -42,7 +38,7 @@ That Yin Water core gives her performance style a subtle, profound emotional dep
 | Jia Shen (Yang Wood / Monkey) | Jia Xu (Yang Wood / Dog) | Gui Wei (Yin Water / Goat) |
 
 ### 1. The Expression Star (Sik-sang): Pure Creative Flow
-Stacking right above her foundation, you'll spot heavy **Wood elements** (Jia Wood). In Saju, when a Water Day Master produces Wood, it activates the ultimate performer asset: the **Expression Star** (*Sik-sin* and *Sang-gwan*).
+Stacking right above her foundation, you'll spot heavy **Wood elements** (Gap Wood). In Saju, when a Water Day Master produces Wood, it activates the ultimate performer asset: the **Expression Star** (*Sik-sin* and *Sang-gwan*).
 * **Vocal Tone and Musicality:** The Expression Star rules the throat, performance, and raw artistic output. Her abundant Wood energy acts like a blooming spring garden fed by her inner Water core, letting her musical talents burst forth effortlessly.
 * **Linguistic Gift:** Water feeding Wood builds incredible mental agility. It's no surprise she comfortably bridges Vietnamese, English, and Korean cultures with zero friction.
 
@@ -81,5 +77,7 @@ Her Year Pillar features the **Monkey (Shen)** branch—a sign tied to high mobi
 ## Summary of Hanni's Cosmic Energy
 
 Hanni’s Four Pillars paint the portrait of a born artist: adaptable like clear water, vibrant like spring branches, and universally adored under her Peach Blossom placement. As her internal energy deepens over time, her artistic influence across the global entertainment landscape will only hit greater heights.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -7,10 +7,6 @@ author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-**TWICE’s Sana** isn't just ridiculously charming by accident—her Korean Saju (Four Pillars of Destiny) birth chart reveals a powerhouse mix of deep Water and illuminating Fire, anchored by an incredible dose of **Peach Blossom Luck (*Doshwasal*)**. Born in the Year of the Fire Rat (*Bing-Zi*), her chart basically screams warmth, instant adaptability, and magnetic star power. That viral cuteness, undeniable stage aura, and global hold on ONCE? It's all written in her stars: a glowing Fire Day Master fueled by fluid Water elements that draw people in without her even trying.
 
 ---
 
@@ -25,9 +21,9 @@ If you've ever wondered how someone can be so naturally endearing, you have to l
 *Quick heads-up: while the hour pillar refines a person's private motives, the Year, Month, and Day pillars give us a front-row seat to their public destiny and raw talents.*
 
 ### Key Elemental Characteristics:
-* **Day Master (Yin Fire - *Ding Fire*):** Think of a cozy candle flame or a sparkling star against the night sky. Yin Fire personalities are polite, deeply empathetic, and possess a gentle, flickering radiance that instantly draws people close.
+* **Day Master (Yin Fire - *Jeong Fire*):** Think of a cozy candle flame or a sparkling star against the night sky. Yin Fire personalities are polite, deeply empathetic, and possess a gentle, flickering radiance that instantly draws people close.
 * **Dominant Water Element (*Zi* Rat Branches):** Deep Water is all about sharp intellect, quick adaptability, fluid movement, and effortless communication. This is precisely what powers her insanely fast language skills and unmatched social smarts.
-* **Metal Resource Stars (*Geng Metal*):** Metal feeds and supports Water in Saju, giving her incredible discipline behind the scenes, sharp professional instincts, and a steel-like resilience when the pressure builds up.
+* **Metal Resource Stars (*Gyeong Metal*):** Metal feeds and supports Water in Saju, giving her incredible discipline behind the scenes, sharp professional instincts, and a steel-like resilience when the pressure builds up.
 
 ---
 
@@ -54,7 +50,7 @@ Look past the sparkling stage persona and you'll find a chart built for serious 
 ## Frequently Asked Questions: Sana's Saju Insights
 
 ### What makes Sana's personality so uniquely loved according to her Saju?
-Sana’s core identity is defined by her **Yin Fire (*Ding Fire*)** Day Master, radiating soft warmth and emotional depth. Combined with flexible Water elements driving her communication skills, she effortlessly shifts into any social setting, leaving people feeling immediately seen, comfortable, and valued.
+Sana’s core identity is defined by her **Yin Fire (*Jeong Fire*)** Day Master, radiating soft warmth and emotional depth. Combined with flexible Water elements driving her communication skills, she effortlessly shifts into any social setting, leaving people feeling immediately seen, comfortable, and valued.
 
 ### What elemental energies best complement Sana in personal relationships?
 Because she's a Yin Fire Day Master swimming in cool Water and grounded by Metal, Sana naturally thrives when balanced by **Wood energy** (which feeds her inner flame) and grounding **Earth energy** (which holds all that deep Water in check). Anyone with a stable Earth or Wood-heavy chart provides the calming, secure anchor her soul instinctively looks for.
@@ -73,5 +69,7 @@ Absolutely. Her birth blueprint packs strong resource stars alongside rich self-
 | **Day Pillar** | Yin Fire / Pig (*Ding-Hai*) | Warm heart, intuitive performance talent, deep elegance |
 
 Sana’s Saju proves her spot at the top of the K-pop world was practically written in the stars. Her chart blends fierce artistic talent, high-level emotional intelligence, and a rare cosmic glow that will keep lighting up stages worldwide for years to come.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

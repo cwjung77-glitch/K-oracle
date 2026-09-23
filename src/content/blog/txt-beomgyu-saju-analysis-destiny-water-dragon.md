@@ -7,12 +7,11 @@ author: "K-Oracle"
 tags: ["TXT", "Beomgyu", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
 
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
-
-
-**TXT’s Beomgyu** carries the rare power of **Im-Jin (壬辰) — the Water Dragon**. In Four Pillars of Destiny (Saju), this soul chart creates a wildly intuitive, electric performer with deep emotional depth. Fueled by explosive **Wood energy (Spring Rabbit)** in his birth month, his chart practically screams raw artistic genius, quick-witted humor, and musical instincts. Meanwhile, his **Metal energy** adds sharp discipline, perfectionism, and lightning-fast skill learning. He's a born star who effortlessly switches from commanding the stage to melting hearts off-camera.
 
 ---
+
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of TXT Beomgyu
 
@@ -86,5 +85,7 @@ The Dragon (*Jin*) brings star power, theatrical impact, and strong inner pride.
 
 ### What kind of environment brings balance to his energy?
 With heavy Water, Wood, and Metal present, he thrives when given room to create without stifling restrictions. Emotional honesty, artistic outlets, and quiet moments in nature or near water keep his energy balanced.
+
+---
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*
