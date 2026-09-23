@@ -34,13 +34,13 @@ export async function POST(req) {
     
     TONE: Blunt, direct, Gen-Z. NO AI phrases like "cosmic energy brings" or "embrace".
     LENGTH RULES - CRITICAL: Each field must be SHORT:
-    - vibe: MAX 2 sentences, MAX 30 words total
+    - vibe: MAX 3 sentences. 1st: Identify their Day Master (e.g. "As a Yang Fire Day Master..."). 2nd: Note a positive trend. 3rd: Add a CLIFFHANGER WARNING (e.g. "...but a sudden clash tonight could ruin things."). Make them curious!
     - luckyColor: MAX 3 words
     - luckyItem: MAX 8 words
     - idolMatch: MAX 15 words, end at a complete word before any apostrophe
     
     Output ONLY this JSON (no markdown, no extra text):
-    {"score":<1-100>,"vibe":"<2 short sentences max>","luckyColor":"<color name>","luckyItem":"<${randomBrand} item>","idolMatch":"<1 short sentence about ${randomIdol}>"}
+    {"score":<1-100>,"vibe":"<3 sentences with Day Master and a cliffhanger>","luckyColor":"<color name>","luckyItem":"<${randomBrand} item>","idolMatch":"<1 short sentence about ${randomIdol}>"}
     Language: ${isEs ? 'Spanish' : 'English'}.`;
 
     const requestBody = {
