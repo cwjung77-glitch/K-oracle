@@ -6,12 +6,7 @@ excerpt: "Explore the ancient Saju reading for SUGA (Min Yoon-gi) of BTS. Discov
 author: "K-Oracle"
 tags: ["BTS", "SUGA", "Agust D", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of BTS SUGA (Min Yoon-gi)
 
@@ -25,6 +20,8 @@ Yoon-gi's profile? It's easily one of the most resilient, brilliantly gifted set
 * **Supporting Element:** Chuk Earth (丑土) — The Winter Earth
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## SUGA's Day Pillar: Gi-Chuk (The Earth Ox)
 

@@ -6,8 +6,6 @@ excerpt: "An in-depth Korean Saju analysis of IVE's Rei. Discover her elemental 
 author: "K-Oracle"
 tags: ["IVE Rei", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "K-Oracle"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction to IVE Rei and Her Cosmic Destiny
@@ -17,6 +15,8 @@ Rei (Naoi Rei) took the K-Pop world by storm the second she debuted with IVE und
 Saju—the ancient Korean Four Pillars of Destiny system—reads the cosmic snapshot of the exact year, month, day, and hour someone is born. Decoding those celestial alignments unlocks a person's core elemental blueprint, hidden gifts, and true life purpose. Looking into Rei's chart shows the exact energetic forces steering her talent, personality, and incredible rise in the music world.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Four Pillars Breakdown of IVE Rei
 

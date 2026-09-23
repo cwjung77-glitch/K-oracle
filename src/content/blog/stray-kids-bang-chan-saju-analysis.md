@@ -6,12 +6,7 @@ excerpt: "Explore the cosmic birth chart of Stray Kids' leader Bang Chan through
 author: "K-Oracle"
 tags: ["BangChan", "StrayKids", "Saju Analysis", "Korean Astrology", "KPop Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Bang Chan
 
@@ -20,6 +15,8 @@ In **Saju**, your exact birth energy weaves the Five Elements—Wood, Fire, Eart
 Bang Chan (born October 3, 1997) isn't just Stray Kids' founder, producer, and leader by chance. His birth chart reads like the ultimate blueprint for a protective guardian, a tireless creator, and a global icon.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Element: Gye Water (癸水) – The Nurturing Rain
 

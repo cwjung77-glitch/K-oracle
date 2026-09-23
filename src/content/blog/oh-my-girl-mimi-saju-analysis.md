@@ -15,7 +15,7 @@ Yeah, you heard me. We're talking Saju, baby. Korean astrology, Four Pillars of 
 
 Okay, for those of you who want the bullet points before the deep dive, here’s the lowdown: Mimi’s Saju is giving **Yin Fire Day Master** energy, grounded by strong **Earth** and fueled by vibrant **Wood**. This combination screams creativity, warmth, and a surprisingly grounded, adaptable spirit despite her fiery stage presence. She's intuitive, a natural storyteller, and has an uncanny ability to connect with people on a super authentic level. Basically, her Saju proves what we already knew: Mimi is built for stardom, not just as a performer, but as a genuine personality. She’s got that soft power, but with a serious edge.
 
-
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Cosmic Blueprint: Mimi's Four Pillars Laid Bare
 
@@ -70,6 +70,8 @@ A3: Her Saju absolutely supports a diverse career path! Her strong Wood (express
 *   Mimi's Jeong Fire Day Master makes her an intuitive, warm, and artistically brilliant individual, drawing people in with her unique, reflective glow.
 *   Her strong Wood and Earth elements are the cosmic cheat codes for her incredible creativity, distinctive performance style, and unwavering work ethic, making her a powerhouse in both artistry and reliability.
 *   She's destined for a life of significant expression and connection, thriving in environments where her authenticity and sharp wit can shine brightest, whether on stage or on screen.
+
+---
 
 ---
 

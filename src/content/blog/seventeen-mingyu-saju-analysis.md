@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Korean Saju destiny chart of SEVENTEEN's Mingyu. D
 author: "K-Oracle"
 tags: ["SEVENTEEN", "Mingyu", "Saju Analysis", "K-Pop Astrology", "Korean Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Four Pillars: Mingyu’s Cosmic Blueprint
@@ -24,6 +22,8 @@ Mingyu’s chart for April 6, 1997, reveals a stunning display of elemental bala
 | Resource & Earth | Power & Earth | Self & Power |
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Core Element: Gi Earth (己土) – The Golden Soil
 

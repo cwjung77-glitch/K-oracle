@@ -6,8 +6,6 @@ excerpt: "Discover the hidden destiny of K-pop star and actor Cha Eunwoo through
 author: "K-Oracle"
 tags: ["Cha Eunwoo", "ASTRO", "Saju", "K-Pop Destiny", "Four Pillars"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Mystical Destiny of Cha Eunwoo
@@ -17,6 +15,8 @@ One look at Cha Eunwoo makes you wonder if the universe spent extra time hand-sc
 Saju balances five core elements: Wood, Fire, Earth, Metal, and Water. The exact year, month, day, and hour of birth lock this map in place. Eunwoo's chart reveals the actual spiritual engine driving his meteoric rise, his insane work ethic, and a career built to outlast us all.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Identity: Gyeong Metal (庚金) Day Master
 

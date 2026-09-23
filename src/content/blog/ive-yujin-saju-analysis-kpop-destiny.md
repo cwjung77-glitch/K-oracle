@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Four Pillars of Destiny reading for IVE's leader, 
 author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Radiant Sun: An Yujin's Core Day Master (Byeong Fire)
@@ -19,6 +17,8 @@ Your **Day Master** is the true blueprint of your spirit. Yujin's happens to be 
 * **Passionate Energy:** Stack Byeong Fire with the Horse (Wu), and you get relentless drive. Her stage presence never falters because her inner furnace never stops burning.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Four Pillars Chart Breakdown for IVE's Yujin
 

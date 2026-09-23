@@ -6,8 +6,6 @@ excerpt: "Explore the Four Pillars of Destiny for Blackpink's Lisa. Uncover how 
 author: "K-Oracle"
 tags: ["Saju Analysis", "Blackpink Lisa", "Celebrity Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Core Identity: Day Master Mu Earth (Yang Earth)
@@ -19,6 +17,8 @@ Think of the Day Master as your cosmic soul print. Lisa's chart centers around *
 *   **Resilience and Leadership**: Mountains stand strong through brutal weather. That same energy gives Lisa rock-solid emotional resilience, letting her handle the insane pressure of global mega-stardom without crumbling.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Stars of Magnetism: Peach Blossom Power (Do-Hwa)
 

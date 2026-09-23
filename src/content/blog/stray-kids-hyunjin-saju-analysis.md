@@ -6,12 +6,7 @@ excerpt: "Discover the cosmic blueprint of Stray Kids' Hyunjin through Korean Sa
 author: "K-Oracle"
 tags: ["Stray Kids", "Hyunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Stray Kids' Hyunjin
 
@@ -20,6 +15,8 @@ Hwang Hyunjin doesn't just step onto a stage; he completely takes ownership of i
 Looking closely at Hyunjin’s chart through the Saju lens, everything makes complete sense. This is the blueprint of a born artist whose destiny literally demands creative output and public admiration.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Elemental Breakdown: The Archetype of the Majestic Tree
 

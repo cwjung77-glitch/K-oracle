@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Four Pillars of Destiny for BTS V (Kim Taehyung). 
 author: "K-Oracle"
 tags: ["BTS V", "Kim Taehyung", "Korean Saju", "Four Pillars of Destiny", "Celebrity Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Sacred Energetic Blueprint of Kim Taehyung
@@ -23,6 +21,8 @@ At the absolute heart of V's identity sits **Eul Wood**. Rigid elements like Gye
 * **Natural Charm:** There is zero force behind Eul Wood’s magnetism. It draws people in organically with a soft, intriguing presence that demands your attention.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Elemental Balance: Water, Earth, and Fire
 

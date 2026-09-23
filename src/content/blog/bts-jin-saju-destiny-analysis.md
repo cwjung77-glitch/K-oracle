@@ -6,12 +6,7 @@ excerpt: "Explore the ancient Saju reading for Jin (Kim Seok-jin) of BTS. Discov
 author: "K-Oracle"
 tags: ["BTS", "Jin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of BTS Jin (Kim Seok-jin)
 
@@ -25,6 +20,8 @@ Looking at Jin's chart? Honestly, it's one of the most balanced, wildly powerful
 * **Supporting Element:** Shin Metal (申金) — The Polished Catalyst
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Jin's Day Pillar: Im-Shin (The Water Monkey)
 

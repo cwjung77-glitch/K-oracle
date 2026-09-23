@@ -6,8 +6,6 @@ excerpt: "Explore the Saju chart of BTS leader RM (Kim Nam-joon). Discover how t
 author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Core Element: In Wood (Yi Chou) Day Master
@@ -20,6 +18,8 @@ In Korean Saju, your Day Master is the absolute root of who you are—your core 
 That's how he stands on the UN stage or navigates chaotic global stardom while staying totally reflective, humble, and real.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Metal and Water Energies: The Mind of a Philosophical Leader
 

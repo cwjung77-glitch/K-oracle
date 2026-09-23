@@ -6,8 +6,6 @@ excerpt: "Unveil the ancient Four Pillars of Destiny reading for ATEEZ's Choi Sa
 author: "K-Oracle"
 tags: ["ATEEZ", "Choi San", "Saju Reading", "K-Pop Destiny", "Four Pillars"]
 ---
-
-
 ---
 
 ## The Dual Nature of ATEEZ’s Choi San
@@ -17,6 +15,8 @@ Anyone who has watched Choi San on stage knows the feeling. One second he’s a 
 Born on July 10, 1999, San’s chart reveals a wild, fascinating mix of hidden heat, sharp metal, and pure emotional depth. 
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Element: Jeong Fire (丁火) – The Sacred Flame
 

@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Saju (Four Pillars of Destiny) chart of ENHYPEN's 
 author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Elemental Blueprint of ENHYPEN's Jungwon
@@ -22,6 +20,8 @@ Open up a Saju chart, and you're looking at a deeply personal blueprint mapped a
 | **Clarity & Structure Energy** | Metal (Sin) | Sharp Precision, Analytical Discipline |
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Understanding Jungwon's Day Master: Jeong Fire (丁火)
 

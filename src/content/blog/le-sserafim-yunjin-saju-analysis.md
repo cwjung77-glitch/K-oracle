@@ -6,12 +6,7 @@ excerpt: "Discover the four pillars of destiny behind LE SSERAFIM's Huh Yunjin. 
 author: "K-Oracle"
 tags: ["Le Sserafim", "Yunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of LE SSERAFIM’s Huh Yunjin
 
@@ -20,6 +15,8 @@ Korean Saju (the Four Pillars of Destiny) translates a person's birth year, mont
 She famously declared her intent to change the idol industry, and her energy backs it up completely. Her chart isn't just rare; it's tailor-made for a game-changer. Here is how the five elements and cosmic branches shape her path.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master Analysis: The Radiant Sun (*Byeong Fire*)
 

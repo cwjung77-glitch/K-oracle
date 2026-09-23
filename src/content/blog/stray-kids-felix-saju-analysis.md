@@ -6,12 +6,7 @@ excerpt: "Discover the ancient Korean Saju birth chart analysis of Stray Kids' F
 author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Felix (Lee Yong-bok)
 
@@ -20,6 +15,8 @@ Saju—the ancient Korean system mapping life energy through the Four Pillars of
 Look beneath the surface, and Felix's energy reveals a fascinating dialogue between delicate Wood, roaring Fire, and refined Metal. Let's break down the energetic blueprint behind his massive global pull and undeniable creative genius.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master Analysis: Eul Wood Sitting on the Radiant Snake
 

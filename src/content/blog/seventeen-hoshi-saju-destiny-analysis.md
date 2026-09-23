@@ -6,8 +6,6 @@ excerpt: "Discover the profound Korean Saju astrological analysis of SEVENTEEN's
 author: "K-Oracle"
 tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Four Pillars Blueprint of Kwon Soonyoung
@@ -26,6 +24,8 @@ Saju charts reveal how the five elements—Wood, Fire, Earth, Metal, and Water�
 Vines need sunlight to thrive, though. His chart explodes with **Fire (Byeong Fire and O Fire)**—the element of heart, visibility, passion, and artistic vision. Fire lights up his Wood energy, sparking an instinctual, almost compulsory urge to step into the spotlight and command the stage.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Secret Behind the "Tiger Energy": Elemental Tension
 

@@ -6,8 +6,6 @@ excerpt: "Discover the hidden Saju energy of NewJeans' anchor, Minji. Explore ho
 author: "K-Oracle"
 tags: ["NewJeans", "Minji", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Sacred Four Pillars: Minji's Cosmic Blueprint
@@ -21,6 +19,8 @@ In Saju—the ancient Korean Four Pillars of Destiny—your birth date and time 
 | **Day Pillar (Self)** | **Yin Fire (丁)** | **Yin Metal / Rooster (酉)** | **Fire & Metal** |
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Day Master: Jeong Fire (丁火) — The Warm Candle in the Night
 

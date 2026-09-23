@@ -6,8 +6,6 @@ excerpt: "Discover the cosmic destiny of TXT's Hueningkai through Korean Saju. U
 author: "K-Oracle"
 tags: ["TXT", "Hueningkai", "Saju", "Kpop", "Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Radiant Sun of TXT: Hueningkai’s Energetic Blueprint
@@ -15,6 +13,8 @@ tags: ["TXT", "Hueningkai", "Saju", "Kpop", "Astrology", "Four Pillars of Destin
 Anyone who has watched Hueningkai perform knows he lights up a room instantly. Look at his Korean birth chart—his Saju, rooted in the Four Pillars of Destiny—and that natural magnetism makes total sense. Born August 14, 2002, his cosmic setup maps out how the Five Elements (Wood, Fire, Earth, Metal, and Water) interact at his moment of birth. Sitting right at the center of it all is the **Byeong Fire (丙火)** Day Master. He is, quite literally, the daytime Sun.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master Analysis: Byeong Fire (丙火) – The Shining Light
 

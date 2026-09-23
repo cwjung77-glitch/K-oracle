@@ -6,8 +6,6 @@ excerpt: "Discover the cosmic blueprint of Aespa's Ningning. Explore how her Saj
 author: "K-Oracle"
 tags: ["Ningning", "Aespa", "Saju Analysis", "K-Pop Metaphysics", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction to Ningning's Cosmic Blueprint
@@ -17,6 +15,8 @@ Ningning isn't just Aespa’s powerhouse main vocal; she's a complete force on s
 The interaction between the five elements—Wood, Fire, Earth, Metal, and Water—lays out the exact foundation for her pristine vocal technique, chameleon-like fashion sense, and raw creative drive.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Energetic Pillar: Gi Earth Day Master
 

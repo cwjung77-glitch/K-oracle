@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Four Pillars of Destiny analysis of IVE's Wonyoung
 author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Cosmic Profile: Jang Wonyoung's Four Pillars of Destiny
@@ -23,6 +21,8 @@ If you’ve ever wondered why IVE’s iconic center feels almost supernatural on
 Look closely at the **Monkey (Shen)** in her Month Pillar teaming up with the **Dragon (Jin)** in her Day Pillar. They trigger a partial **Water Element Combination**. That’s an insane cosmic setup. It builds an endless reservoir of raw presence, deep intuition, and magnetic public aura.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Power of Yang Water (Im-Su Day Master)
 

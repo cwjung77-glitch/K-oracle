@@ -6,8 +6,6 @@ excerpt: "Explore the Four Pillars of Destiny for Blackpink's Rosé. Discover ho
 author: "K-Oracle"
 tags: ["Blackpink", "Rose", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---## TL;DR: Quick Destiny Insights for Blackpink's Rosé
-
-
 ---
 
 ## The Core Element: Byeong Fire (The Radiant Sun)
@@ -22,6 +20,8 @@ Byeong Fire doesn't act like a flicker of candle flame. It radiates outward natu
 * **Uncompromising Vision:** Byeong Fire seeks to illuminate the dark, giving her a relentless artistic drive to perfect her craft and stay true to her aesthetic identity.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Elemental Blueprint: Earth, Wood, and Water
 

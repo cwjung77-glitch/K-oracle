@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Korean Saju destiny reading of TWICE's Sana. Disco
 author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Elemental Blueprint of TWICE Sana
@@ -26,6 +24,8 @@ If you've ever wondered how someone can be so naturally endearing, you have to l
 * **Metal Resource Stars (*Gyeong Metal*):** Metal feeds and supports Water in Saju, giving her incredible discipline behind the scenes, sharp professional instincts, and a steel-like resilience when the pressure builds up.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Secret to Her Viral Magnetism: The Peach Blossom Star (*Doshwasal*)
 

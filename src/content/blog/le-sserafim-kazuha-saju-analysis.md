@@ -6,8 +6,6 @@ excerpt: "Unveil the ancient Saju destiny reading of Le Sserafim's Kazuha. Explo
 author: "K-Oracle"
 tags: ["Le Sserafim", "Kazuha", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Elemental Blueprint of Kazuha (Nakamura Kazuha)
@@ -19,6 +17,8 @@ Everyone knows Le Sserafim’s Kazuha has an intoxicating, magnetizing presence�
 * **Year Pillar (Ancestral & Social World):** Water Sheep (癸未) – Soft rain soaking into the earth, bringing high emotional intelligence and pure social magnetic pull.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Core Saju Dynamics: Why Kazuha Shines
 

@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Four Pillars of Destiny behind Kim Chaewon, the ca
 author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Day Master: The Refined Blade of Yang Metal (Gyeong-In)
@@ -23,6 +21,8 @@ Pairing that steel core with the **Tiger (In)** branch in her Day Pillar fuels a
 *   **Quiet Authority**: She doesn't need to shout to command respect. Her leadership comes from deep inner strength, steady consistency, and an unshakeable sense of duty.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Four Pillars Breakdown: Decoding Chaewon’s Cosmic Blueprint
 

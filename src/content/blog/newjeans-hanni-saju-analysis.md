@@ -6,8 +6,6 @@ excerpt: "Explore the Saju chart of NewJeans' Hanni. Discover how her Four Pilla
 author: "K-Oracle"
 tags: ["Saju", "K-pop", "NewJeans", "Hanni", "Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction: The Cosmic Blueprint of NewJeans' Hanni
@@ -17,6 +15,8 @@ Ever wonder why Hanni Pham effortlessly commands every stage she steps on? Born 
 Saju, Korea's traditional Four Pillars of Destiny system, maps out a person's life code using the exact year, month, day, and hour of birth. By breaking down how the Five Elements (Wood, Fire, Earth, Metal, and Water) interact in her chart, we can decode Hanni’s intrinsic character, artistic drive, and massive global trajectory.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Element: Hanni's Day Master Energy
 

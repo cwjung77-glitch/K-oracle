@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Saju chart of Stray Kids' Lee Know. Uncover his Wo
 author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---## TL;DR (Quick Answer): The Mystical Energy of Lee Know
-
-
 ---
 
 ## The Core Pillar: Lee Know’s Day Master (Yi Si - Wood Snake)
@@ -24,6 +22,8 @@ Want to unlock Lee Know’s true personality? Look straight at his **Day Master 
 * **Hidden Flame:** People call him cool, calm, or a little tsundere, but underneath that chill exterior burns Sa Fire. It’s an obsessive internal drive that erupts the second the lights hit him on stage.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Elements of Genius: Why Lee Know Dominates the Stage
 

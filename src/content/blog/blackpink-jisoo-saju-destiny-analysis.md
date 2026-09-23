@@ -6,8 +6,6 @@ excerpt: "Discover the Four Pillars of Destiny for Blackpink's Jisoo. Unveil how
 author: "K-Oracle"
 tags: ["Blackpink", "Jisoo", "Saju Analysis", "KPop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Who is Blackpink Jisoo in Eastern Astrology?
@@ -22,6 +20,8 @@ In Saju, we look at how five core elements—Wood, Fire, Earth, Metal, and Water
 *   **Primary Destiny archetype:** The Grounded Mountain with Radiant Light
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Element: Grounded Earth and Radiant Fire
 

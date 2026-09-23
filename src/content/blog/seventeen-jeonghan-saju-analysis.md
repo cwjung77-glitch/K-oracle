@@ -6,8 +6,6 @@ excerpt: "Discover the Korean Saju chart of Seventeen's Jeonghan. Explore how hi
 author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Understanding Jeonghan's Day Master: The Yin Water Ox (Gye-Chuk)
@@ -20,6 +18,8 @@ In Saju, your Day Pillar is your soul's true DNA. Jeonghan was born under **Gye-
 Put those two together, and you get someone who looks delicate, calm, and impossibly soft on the surface, but harbors an unyielding ocean of wisdom underneath. Like mist rolling over a winter valley, Jeonghan naturally reads every room, senses emotions instantly, and calculates his moves long before anyone else even realizes the game started.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Four Pillars Breakdown for Jeonghan
 

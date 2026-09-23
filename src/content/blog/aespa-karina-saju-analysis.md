@@ -6,12 +6,7 @@ excerpt: "Explore the Four Pillars of Destiny (Saju) chart of Aespa's Karina. Di
 author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Karina: An Overview
 
@@ -26,6 +21,8 @@ In Korean **Saju** (the Four Pillars of Destiny), your birth chart maps out your
 | **Primary Elements** | Earth (Foundation), Metal (Talent/Precision), Fire (Support/Wisdom) |
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Key Elemental Forces in Karina's Four Pillars
 

@@ -6,8 +6,6 @@ excerpt: "Explore the Saju chart of IVE's powerhouse vocalist Liz. Uncover how h
 author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Elemental Blueprint of IVE's Golden Vocalist
@@ -23,6 +21,8 @@ Born on November 21, 2004, Liz operates on a stunningly balanced energy chart:
 Her chart surges with **Water** and feeds directly into lush **Wood**. In Korean metaphysics, Water drives intellect, emotional depth, and raw auditory output, while Wood takes all that internal energy and blooms it outward into performance and creative growth.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master Analysis: The Deep Ocean Spirit of Im Water
 

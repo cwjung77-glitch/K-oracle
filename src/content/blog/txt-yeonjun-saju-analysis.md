@@ -6,8 +6,6 @@ excerpt: "Discover the ancient Korean Saju destiny reading of TXT's Yeonjun. Exp
 author: "K-Oracle"
 tags: ["Saju Analysis", "TXT Yeonjun", "K-pop Astrology", "Korean Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Cosmic Architecture of Choi Yeonjun: Im-O Water Horse
@@ -20,6 +18,8 @@ Saju zeroes in on the Day Master—the heavenly stem and earthly branch of your 
 Stack vast ocean water right on top of scorching midday fire and pure magic happens. You get a fiercely cool, composed mind operating underneath an explosive stage presence. That is why Yeonjun can execute complex choreography with icy precision one second and set the entire venue ablaze the next.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Dual Peach Blossom Clash: Secret Behind His Irresistible Charisma
 

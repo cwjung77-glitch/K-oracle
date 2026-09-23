@@ -6,12 +6,7 @@ excerpt: "Explore the cosmic blueprint of TXT's Beomgyu through the ancient Kore
 author: "K-Oracle"
 tags: ["TXT", "Beomgyu", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of TXT Beomgyu
 
@@ -25,6 +20,8 @@ His March 13, 2001 birth date places him right at the absolute peak of Spring Wo
 * **Primary Dominant Elements:** Water, Wood, and Metal
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master Analysis: The Im-Jin (Water Dragon) Force
 

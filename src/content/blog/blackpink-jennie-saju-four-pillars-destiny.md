@@ -6,8 +6,6 @@ excerpt: "Explore the hidden cosmic blueprint behind BLACKPINK Jennie's unmatche
 author: "K-Oracle"
 tags: ["BLACKPINK Jennie", "Saju Analysis", "Four Pillars of Destiny", "Korean Astrology", "K-Pop Metaphysics"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Metaphysical Blueprint of an Icon: Jennie's Saju Chart
@@ -23,6 +21,8 @@ Saju reads the exact Year, Month, Day, and Hour of your birth to break down your
 * **Dominant Energy (Sik-sang / Expression):** Heavy **Wood** energy fueled directly by her Water Day Master. It takes everything inside her mind and projects it outward into the world with insane force.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## 3 Core Secrets Behind Jennie's Stardom Revealed by Saju
 

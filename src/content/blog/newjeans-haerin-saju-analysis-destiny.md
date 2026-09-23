@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Saju reading of NewJeans' Haerin. Discover how her
 author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Core Element: Im Water (The Deep Ocean)
@@ -19,6 +17,8 @@ In Saju reading, your birth day reveals your **Day Master** (Il-ju)—the undeni
 * **Adaptability and Fluidity**: Water bends, flows, and conquers any container it enters. Haerin absorbs brutal choreography and tricky vocal lines effortlessly because her spirit is naturally fluid.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Feline Archetype: In Wood (The Mystical Tiger)
 

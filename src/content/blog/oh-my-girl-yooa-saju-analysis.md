@@ -15,7 +15,7 @@ Forget basic zodiac signs. We're talking Saju, baby—the ancient Korean system 
 
 Okay, for those of you who just want the highlights before diving deep: Yooa is a **Yin Metal Day Master** born in the vibrant energy of autumn. Think precious jewel – refined, sharp, alluring, but also needs careful handling. Her chart is absolutely *packed* with **Water and Metal energy**, which means she’s a natural-born performer with insane expressive power and a sharp, intuitive mind. She’s got that delicate strength, that ethereal grace, but don't get it twisted, she's resilient. Her artistry? Pure cosmic flow.
 
-
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Cosmic Blueprint
 
@@ -77,6 +77,8 @@ A3: While her chart is packed with expressive power, the relative absence of str
 *   Yooa is a **Yin Metal Day Master**, embodying refinement, precision, and an enchanting, precious jewel-like aura. Her dedication to perfection is rooted here.
 *   Her Saju is dominated by **Metal and Water elements**, making her an incredibly expressive and intuitive artist with a natural flair for performance, especially dance and emotional storytelling. She's got that undeniable cosmic *flow*.
 *   Her chart suggests a journey of continuous self-refinement and artistic growth, where her unique blend of delicate strength and fluid expression ensures she remains a captivating force in the K-Pop universe. She's always evolving, always slaying.
+
+---
 
 ---
 

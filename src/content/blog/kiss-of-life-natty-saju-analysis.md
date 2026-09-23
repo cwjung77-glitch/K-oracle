@@ -15,7 +15,7 @@ Yeah, we're diving deep into Natty’s Saju, her Four Pillars of Destiny, to une
 
 Natty’s Saju is giving main character energy, *periodt*. Her chart screams "resilient firecracker" with a Day Master like the freaking Sun, fueled by ambition and blessed with a magnetic charm. She's got that "thrives under pressure" vibe, making her a natural-born performer who ain't afraid to take risks. Basically, the universe said: "Go forth and slay."
 
-
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Cosmic Blueprint
 
@@ -96,6 +96,8 @@ A: Her Byeong Fire Day Master (the Sun!) is the biggest clue. Byeong Fire people
 *   **Resilience is Her Superpower:** Natty's strong 7 Killings presence means she thrives under pressure, turning every challenge into fuel for her journey.
 *   **Born to Shine:** With a Byeong Fire Day Master, she's a natural magnetic force, destined for the spotlight and radiating undeniable charisma.
 *   **Unconventional Path to Stardom:** Her Saju highlights unique creativity and a strong independent streak, ensuring she'll forge her own distinctive and impactful career.
+
+---
 
 ---
 

@@ -6,12 +6,7 @@ excerpt: "Explore BTS Jungkook's Saju chart based on the ancient Korean Four Pil
 author: "K-Oracle"
 tags: ["BTS", "Jungkook", "Saju", "Four Pillars of Destiny", "Love Compatibility", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint: Understanding Jungkook's Day Master
 
@@ -28,6 +23,8 @@ Think of the **Day Master** as the absolute core of a Saju chart. It reveals som
 * **Raw, Unfiltered Independence:** Fire Horses suffocate under micro-management. He operates best when given full freedom to trust his instincts, run wild, and stay completely true to himself.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Five Elements Breakdown of Jungkook's Destiny Chart
 

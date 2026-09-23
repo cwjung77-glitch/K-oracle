@@ -11,7 +11,7 @@ tags: ["EXO", "Baekhyun", "Saju Analysis", "K-Pop Astrology"]
 
 Byun Baekhyun isn't just blessed with angel vocals by accident—his Saju birth chart is a terrifyingly powerful combination of fertile Earth energy, explosive performance fire, and cold-hard business strategy. Born as a resilient Gi Earth (己土) Day Master supported by heavy Fire and Metal elements, Baekhyun was cosmically wired to command the stage, dominate the charts, and build his own empire.
 
-
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Cosmic Blueprint: The Four Pillars of Byun Baekhyun
 
@@ -76,6 +76,8 @@ His chart features a perfect harmony between **Fire (Direct Resource)** and **Me
 
 ### Does Baekhyun's Saju support his transition to running his own company?
 Yes, absolutely. His Year Pillar holds a strong **Hurting Officer producing Wealth** combination (Sin Metal generating Im Water). This energy makes
+
+---
 
 ---
 

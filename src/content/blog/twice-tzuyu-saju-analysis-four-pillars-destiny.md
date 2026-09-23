@@ -6,8 +6,6 @@ excerpt: "Discover the ancient Saju reading of TWICE's Tzuyu. Explore how her Yi
 author: "K-Oracle"
 tags: ["Tzuyu", "TWICE", "Saju Reading", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## The Mystical Architecture of Tzuyu’s Four Pillars
@@ -20,6 +18,8 @@ How does a shy 16-year-old trainee from Taiwan transform into one of the most ic
 | **Earthly Branch** | Wood Rabbit (*Mao* - 卯) | Fire Horse (*Wu* - 午) | **Water Pig (*Hae* - 亥)** |
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Inner Flame: Tzuyu’s Day Master (Yin Fire)
 

@@ -6,8 +6,6 @@ excerpt: "Discover the cosmic secret behind TWICE Nayeon's magnetic charisma thr
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction: The Radiant Destiny of TWICE's Center
@@ -17,6 +15,8 @@ Step into any concert venue when Nayeon walks out, and the air instantly shifts.
 By breaking down her **Saju** (the Four Pillars of Destiny)—an ancient Eastern tradition reading the cosmic energy of one's birth year, month, day, and hour—we can decode the exact elemental forces driving her explosive career, unmatched idol aura, and unstoppable momentum.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## 1. The Core Element: Byeong Fire (丙火) Day Master
 

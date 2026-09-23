@@ -6,8 +6,6 @@ excerpt: "Explore the ancient Four Pillars of Destiny (Saju) chart of BIGBANG's 
 author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction: Decoding Kwon Ji-yong's Cosmic Blueprint
@@ -17,6 +15,8 @@ Look at modern K-Pop, and you see Kwon Ji-yong's fingerprints everywhere. BIGBAN
 Saju reads the exact energetic alignment at someone's moment of birth through the Five Elements (Wood, Fire, Earth, Metal, Water) and the Twelve Zodiac Animals. Break down G-Dragon’s four pillars, and you immediately see why this guy was always destined to flip the entertainment world on its head.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Key Cosmic Elements of G-Dragon's Saju Chart
 

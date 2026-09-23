@@ -6,8 +6,6 @@ excerpt: "Discover the cosmic blueprint of Le Sserafim's youngest member, Hong E
 author: "K-Oracle"
 tags: ["Le Sserafim", "Eunchae", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction to Hong Eunchae’s Energetic Blueprint
@@ -15,6 +13,8 @@ tags: ["Le Sserafim", "Eunchae", "Saju Analysis", "K-Pop Astrology", "Four Pilla
 Let's be real—watching Le Sserafim’s beloved *maknae* grab the global spotlight with her bright joy and mind-blowing performance glow-ups is a daily highlight for any K-Pop fan. But behind that magnetic stage presence lies something even more fascinating. The ancient wisdom of **Saju** (the Four Pillars of Destiny) maps out the exact cosmic blueprint of who she is at her core. Decoding her birth date through the classic five elements—Wood, Fire, Earth, Metal, and Water—uncovers the hidden energetic engines powering her meteoric rise, her magnetic personality, and her bright future.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Pillars: Element Breakdown & Personality Traits
 

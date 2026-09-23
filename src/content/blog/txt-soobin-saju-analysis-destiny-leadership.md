@@ -6,8 +6,6 @@ excerpt: "Explore the Four Pillars of Destiny for TXT leader Soobin. Unveil his 
 author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## What is TXT Soobin's Saju Chart Structure?
@@ -22,6 +20,8 @@ Step into the Four Pillars of Destiny, and Soobin’s blueprint instantly reveal
 With Metal and Water heavily steering the ship, Soobin is built with serious emotional stamina, quick-witted intelligence, and a rare type of empathy that instantly puts everyone around him at ease.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Im Water Day Master: The Essence of Soobin's Energy
 

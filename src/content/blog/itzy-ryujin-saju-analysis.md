@@ -14,6 +14,8 @@ ITZY’s iconic center Shin Ryujin isn't just blessed with elite performance gen
 
 ---
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
 ## Cosmic Blueprint
 
 To understand Shin Ryujin, you have to look past the surface-level idol polish and look straight at her elemental structure. Born on April 17, 2001, Ryujin’s core three pillars (Year, Month, and Day) establish a insanely dynamic, high-voltage energy matrix.
@@ -97,6 +99,8 @@ Because Ryujin’s chart is heavily dominated by cool Metal and fluid Water, her
 * **The Refined Silver Blade:** Ryujin’s Sin Metal Day Master makes her sharp, fiercely independent, and effortlessly visual—a diamond washed constantly by pristine Water energy.
 * **Dynamic Friction Drives Her Success:** The Sa-Hae Clash in her chart gives her explosive, viral energy and an innate refusal to conform to conventional girl-group stereotypes.
 * **Built for Longevity:** Driven by powerful *Sik-Sang* output and moving into grounding luck cycles, Ryujin’s career trajectory extends far beyond standard group activities into solo artistry, acting, and iconic fashion dominance.
+
+---
 
 ---
 

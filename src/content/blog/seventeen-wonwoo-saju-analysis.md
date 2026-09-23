@@ -6,12 +6,7 @@ excerpt: "Discover the hidden destiny of SEVENTEEN's Wonwoo through Korean Saju.
 author: "K-Oracle"
 tags: ["Wonwoo", "SEVENTEEN", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---## TL;DR (Quick Answer)
-
-
 ---
-
-
-> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Cosmic Blueprint of Wonwoo (SEVENTEEN)
 
@@ -24,6 +19,8 @@ Ever wondered why SEVENTEEN’s Wonwoo pulls you in with that sharp, quiet inten
 * **Day Pillar:** Metal Rabbit (辛卯)
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master: Sin Metal — The Polished Gem
 

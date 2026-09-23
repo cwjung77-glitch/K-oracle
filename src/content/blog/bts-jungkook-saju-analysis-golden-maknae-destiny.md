@@ -6,8 +6,6 @@ excerpt: "Unlock the cosmic secrets of BTS star Jungkook through Korean Saju (Fo
 author: "K-Oracle"
 tags: ["BTS Jungkook", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology", "Korean Saju"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Introduction: The Cosmic Destiny of BTS's "Golden Maknae"
@@ -17,6 +15,8 @@ We all know Jeon Jungkook as BTS's unstoppable all-rounder—the vocal powerhous
 Saju—the ancient East Asian system of reading the Four Pillars of Destiny—decodes the exact blend of Wood, Fire, Earth, Metal, and Water present at the exact minute of birth. Unpacking Jungkook's chart reveals the raw cosmic engine fueling his legendary drive, insane magnetism, and history-making career.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Decoding Jungkook's Four Pillars: Elemental Chart Breakdown
 

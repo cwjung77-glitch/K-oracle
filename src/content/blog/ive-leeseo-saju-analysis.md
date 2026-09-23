@@ -6,8 +6,6 @@ excerpt: "Explore the Saju chart of IVE's youngest star, Leeseo. Discover how he
 author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---## TL;DR (Quick Answer)
-
-
 ---
 
 ## Understanding Leeseo's Saju Chart Structure
@@ -26,6 +24,8 @@ Saju acts as an energetic blueprint carved out the exact moment you take your fi
 ```
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Core Archetype: Gyeong Metal Day Master (庚金)
 
