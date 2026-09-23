@@ -5,17 +5,15 @@ date: "2026-08-24"
 excerpt: "Explore the ancient Four Pillars of Destiny (Saju) chart of BIGBANG's G-Dragon. Discover how In Wood, Fire expression, and Metal authority created K-Pop's ultimate trendsetter."
 author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
----## TL;DR (Quick Answer)
 ---
+
+## TL;DR
 
 ## Introduction: Decoding Kwon Ji-yong's Cosmic Blueprint
 
 Look at modern K-Pop, and you see Kwon Ji-yong's fingerprints everywhere. BIGBANG’s leader didn't just join the industry—he rebuilt it in his own image. Songwriter. Global style icon. Cultural trendsetter. But his legendary status wasn't a random twist of fate. His trajectory was locked into his **Saju (사주)** the second he was born. 
 
 Saju reads the exact energetic alignment at someone's moment of birth through the Five Elements (Wood, Fire, Earth, Metal, Water) and the Twelve Zodiac Animals. Break down G-Dragon’s four pillars, and you immediately see why this guy was always destined to flip the entertainment world on its head.
-
----
-
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Key Cosmic Elements of G-Dragon's Saju Chart
@@ -41,9 +39,6 @@ Tucked into his Day Branch is **Sa Fire (Snake)**, driving his *Sik-sang*—the 
 His Month Pillar heavy-hits with massive **Metal (Gyeong Shin)** energy.
 * **Perfectionism & Discipline**: Metal cuts sharp. It demands absolute precision, iron discipline, and relentless high standards. Ask anyone who worked with him in the studio—his push for perfection is notorious.
 * **Regal Fame**: Strong Metal builds authority. It turns a talent into an institution, earning him quiet respect across the entire global music industry.
-
----
-
 ## Why G-Dragon Became a Global Trendsetter
 
 When a Saju chart balances massive **Output (Fire)** with heavy **Control (Metal)**, you get a rare beast: a wild creative mind backed by the discipline to actually execute those ideas.
@@ -51,9 +46,6 @@ When a Saju chart balances massive **Output (Fire)** with heavy **Control (Metal
 1. **Revolutionary Style**: His In Wood sensitivity spots artistic potential where others see nothing, while his Fire element gives him zero hesitation to wear it, try it, or drop it out of nowhere.
 2. **Enduring Commercial Power**: Earth elements act as his Wealth Stars. They capture that chaotic creative energy and turn it into lasting business equity, iconic brand deals, and multi-generational royalty streams.
 3. **Resilience in Adversity**: Public scandals? Industry pressure? Years out of the spotlight? Like ivy pushing up through concrete cracks, his Eul Mok spirit absorbs the hit, adapts, and blooms again.
-
----
-
 ## Frequently Asked Questions (AEO/Q&A)
 
 ### What element is G-Dragon in Korean Saju?
@@ -64,9 +56,4 @@ His chart drops a potent **Sik-sang (Expression Star)** powered by Fire right ne
 
 ### What makes G-Dragon's Saju chart so rare?
 Most people lean heavily toward either pure creativity or pure structure. G-Dragon carries explosive artistic output (Fire) matched by extreme discipline and authority (Metal). He can run wild in the studio at 3 AM and handle high-stakes business negotiations the next afternoon.
-
----
-
----
-
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -5,8 +5,9 @@ date: "2026-09-11"
 excerpt: "Discover the ancient Korean Saju destiny reading of TXT's Yeonjun. Explore his Water Horse day pillar, powerful Peach Blossom charisma, and cosmic secret behind his legendary star power."
 author: "K-Oracle"
 tags: ["Saju Analysis", "TXT Yeonjun", "K-pop Astrology", "Korean Destiny"]
----## TL;DR (Quick Answer)
 ---
+
+## TL;DR
 
 ## The Cosmic Architecture of Choi Yeonjun: Im-O Water Horse
 
@@ -16,9 +17,6 @@ Saju zeroes in on the Day Master—the heavenly stem and earthly branch of your 
 * **Earthly Branch: O Fire (午火)** — Think of the blazing midday sun. Raw passion, high speed, and blinding visibility.
 
 Stack vast ocean water right on top of scorching midday fire and pure magic happens. You get a fiercely cool, composed mind operating underneath an explosive stage presence. That is why Yeonjun can execute complex choreography with icy precision one second and set the entire venue ablaze the next.
-
----
-
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Dual Peach Blossom Clash: Secret Behind His Irresistible Charisma
@@ -35,9 +33,6 @@ In everyday Saju, a clash between Rabbit (Wood) and Rooster (Metal) brings frict
 * **Unstoppable Visual Magnetism**: You physically cannot look away. His aura demands absolute visual focus.
 * **Flawless Precision**: Metal energy builds sharp, mathematical execution into his dancing, giving him unmatched control over every beat.
 * **Multifaceted Charm**: He seamlessly flips a switch between soft, endearing sweetness (Rabbit) and lethal, high-fashion sophistication (Rooster).
-
----
-
 ## From 'Legendary Trainee' to Global Icon: Wealth, Expression, and Drive
 
 Before debuting, Yeonjun ranked first in vocals, rap, and dance simultaneously at Big Hit, earning his legendary title as "Big Hit's Legendary Trainee." Look at his chart, and that triple-threat dominance makes total sense.
@@ -47,9 +42,6 @@ Wood in Yeonjun's chart represents his **Shik-Sang** (Star of Expression and Tal
 
 ### 2. The Direct Wealth Star (Jae-Seong)
 The Horse in his Day Pillar houses intense Fire energy, unlocking his **Jae-Seong** (Wealth and Results Star). In Saju, Water controlling Fire represents absolute mastery over tangible success and massive international reach. He doesn't just create art for the sake of it; his creative drive converts directly into real-world achievements, global ambassadorships, and undeniable commercial power.
-
----
-
 ## Frequently Asked Questions: Yeonjun's Destiny Unlocked
 
 ### Q1: Why is Yeonjun called the "4th Gen IT Boy" according to his Saju?
@@ -60,13 +52,8 @@ The Horse in his Day Pillar houses intense Fire energy, unlocking his **Jae-Seon
 
 ### Q3: What does the ancient system reveal about his long-term career?
  Because Yeonjun’s Day Pillar rests on a stable Direct Wealth star (Horse Fire), his star power is built on endurance, not a fleeting peak. As he transitions into his late 20s and 30s, his Water energy will mature into creative direction, music production, fashion design, and long-standing authority in the industry.
-
----
-
 ## Cosmic Summary: The Ocean That Holds the Sun
 
 Choi Yeonjun’s chart is a stunning masterpiece: deep ocean waters reflecting a brilliant sun. His unreal talent across dance, vocals, rap, and fashion isn't an accident or a stroke of luck. It is the breathtaking alignment of double Peach Blossom stars working in perfect sync with balanced elemental energy. Through the ancient lens of Saju, Yeonjun stands as the ultimate blueprint of an ace—a star whose celestial path was paved for global stardom from the moment he was born.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

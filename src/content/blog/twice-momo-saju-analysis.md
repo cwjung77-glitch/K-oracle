@@ -5,17 +5,15 @@ date: "2026-09-12"
 excerpt: "Explore the ancient Saju reading of TWICE's main dancer, Momo. Uncover the elemental forces driving her extraordinary work ethic, magnetic stage presence, and long-term success."
 author: "K-Oracle"
 tags: ["TWICE", "Momo", "Kpop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
----## TL;DR (Quick Answer)
 ---
+
+## TL;DR
 
 ## The Ancient Chart of TWICE's Main Dancer
 
 Born on November 9, 1996, Momo Hirai stands as one of the most formidable dance icons in modern music. Look closely through the lens of K-Oracle and Saju (the Four Pillars of Destiny), and you'll see her natural genius isn't luck—it's written right in her energy. 
 
 Saju maps out the delicate interplay of the Five Elements: Wood, Fire, Earth, Metal, and Water. Momo struck gold with a rare chart that pairs deep physical grounding with blinding stage presence and effortless adaptability.
-
----
-
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Elemental Breakdown: Momo's Birth Energy Profile
@@ -31,9 +29,6 @@ Saju maps out the delicate interplay of the Five Elements: Wood, Fire, Earth, Me
 *   **Fire Element (Passion & Recognition):** The engine behind her stage presence. Fire sparks that electric warmth, magnetic charm, and the ability to command the spotlight every time she steps on stage.
 *   **Water Element (Flow & Prosperity):** Grants deep emotional intuition, versatility, and steady wealth-building power that keeps her career thriving for the long haul.
 *   **Metal & Wood Elements (Precision & Structure):** The technical secret. These elements deliver incredible spatial awareness, fine motor control, and an obsessive drive for flawless execution.
-
----
-
 ## Key Destiny Traits Revealed by K-Oracle
 
 ### 1. The Mountain's Endurance: Why Her Dance Is Peerless
@@ -49,9 +44,6 @@ Momo’s chart features a fascinating split personality between total chill and 
 
 *   **Off-Stage Calm:** Grounded Earth keeps her private life low-key, genuine, and deeply affectionate. She prefers simple pleasures, good food, and real connections over high-drama attention.
 *   **On-Stage Ignition:** Drop the needle, and her latent **Fire energy** instantly catches. She transforms on the spot, dominating the venue with undeniable, high-voltage star power.
-
----
-
 ## Frequently Asked Questions About Momo's Saju
 
 ### What is TWICE Momo's core element in Saju?
@@ -65,13 +57,8 @@ Momo meshes best with partners who bring **Wood** (direction, structure, and pro
 
 ### Does Momo's chart show long-term success?
 Yes. The Earth and Water alignment in her birth chart guarantees lasting wealth and creative longevity. She isn't a short-lived trend; her chart supports a decades-long career in dance, performance, and creative direction.
-
----
-
 ## Future Energy Cycles: The Next Chapter
 
 As Momo navigates her current ten-year energy cycle, her Four Pillars show a natural shift from pure front-line performance toward creative leadership and mentorship. That constant balance of Earth and Water points to bigger artistic ventures, high-value global collabs, and permanent respect across the global dance community.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

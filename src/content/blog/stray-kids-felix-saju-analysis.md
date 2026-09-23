@@ -5,17 +5,15 @@ date: "2026-09-07"
 excerpt: "Discover the ancient Korean Saju birth chart analysis of Stray Kids' Felix. Unveil the elemental secrets behind his iconic voice, magnetic charisma, and global destiny."
 author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
----## TL;DR (Quick Answer)
 ---
+
+## TL;DR
 
 ## The Cosmic Blueprint of Felix (Lee Yong-bok)
 
 Saju—the ancient Korean system mapping life energy through the Four Pillars of Destiny—reads a person's birth year, month, and day to uncover the natural forces driving their soul. Born on September 15, 2000, Stray Kids' Felix carries a birth chart packed with unbelievable balance, breathtaking duality, and sheer artistic radiance.
 
 Look beneath the surface, and Felix's energy reveals a fascinating dialogue between delicate Wood, roaring Fire, and refined Metal. Let's break down the energetic blueprint behind his massive global pull and undeniable creative genius.
-
----
-
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Day Master Analysis: Eul Wood Sitting on the Radiant Snake
@@ -25,9 +23,6 @@ Your **Day Master** forms the bedrock of who you are in Saju. Felix’s chart ce
 * **Eul Wood (In Wood):** Forget giant oak trees (*Gap Wood*). In Wood operates like a blossoming flower, a vibrant vine, or a delicate wildflower. It adapts naturally, feels intuitively, appreciates fine art, and holds surprising strength. Flowers don't fight the wind; they bend, flex, and bloom anyway.
 * **The Snake (Sa Fire):** Sitting right underneath his Day Master is the Snake, a blazing Fire element tied to the **Hurting Officer (Sik-Sang)** star. This specific placement drives dynamic outward expression, performance talent, vocal art, and electric charisma.
 * **The Synergy:** Picture an *Eul Wood* flower blooming under intense sunlight. That's *Eul-Sa*. It gives him an ethereal, luminous visual grace wrapped around an inner well of burning performance energy that effortlessly commands any stage.
-
----
-
 ## Elemental Harmony: The Mystery Behind His Iconic Voice and Duality
 
 We all know the jaw-dropping contrast that makes Felix so captivating: the warm, sunshine-bright personality and angelic face paired with a voice that hits like sub-bass thunder. Seeing this exact dynamic written right into his elemental chart gives a clear explanation for his charm.
@@ -40,9 +35,6 @@ We all know the jaw-dropping contrast that makes Felix so captivating: the warm,
 * Felix was born in the month of the **Yoo Metal (Rooster)**, supported in his birth year by **Gyeong Metal** alongside the **Dragon (Jin)**. 
 * In Saju, Metal rules the lungs, throat, acoustics, structural alignment, and sharp precision. Heavy Metal pounding against Wood creates incredible weight and resonance in vocal pitch.
 * That heavy Metal presence also endows him with unshakeable self-discipline, a perfectionist work ethic, and the grit to refine his craft through every early obstacle.
-
----
-
 ## Key Saju Insights into Felix's Destiny
 
 ### The Star of Global Popularity (*Dowha*)
@@ -53,9 +45,6 @@ Driven by In Wood, Felix thrives on collective synergy over solo dominance. He i
 
 ### Career Longevity and Future Path
 Because his pillars bridge high-octane Fire (creative output) directly into solid Metal (enduring structure and success), Felix is wired for a long-haul career that will easily outlast typical idol timelines. As his life luck cycles turn, expect his artistic footprint to expand far beyond the stage—into high fashion modeling, global philanthropy, deep sound production, and creative direction.
-
----
-
 ## Frequently Asked Questions About Felix's Saju Chart
 
 ### What is Felix's Day Master in Korean Saju?
@@ -66,7 +55,5 @@ His chart packs a massive amount of **Metal element energy** interacting with hi
 
 ### What does the ancient system predict for his future role in Stray Kids?
 The ancient system spots him as the ultimate energetic balancer for the group. His Wood-Fire combo keeps everyone inspired and emotionally lifted, while his heavy Metal energy delivers grounded focus and sheer stamina. He will always remain a crucial global ambassador and artistic anchor for Stray Kids.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

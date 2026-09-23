@@ -5,8 +5,9 @@ date: "2026-09-16"
 excerpt: "Explore the ancient Saju reading for Jimin of BTS. Discover how his Jeong-Chuk Day Pillar shapes his captivating stage presence, emotional depth, and relentless perfectionism."
 author: "K-Oracle"
 tags: ["BTS", "Jimin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
----## TL;DR (Quick Answer)
 ---
+
+## TL;DR
 
 ## The Cosmic Blueprint of BTS Jimin (Park Ji-min)
 
@@ -18,9 +19,6 @@ Honestly, as a reader, Jimin’s chart is an absolute dream to analyze. It's one
 * **Day Pillar (Ilju):** Jeong-Chuk (丁丑 / Fire Ox)
 * **Main Element:** Jeong Fire (丁火) — Starlight / Candle Flame
 * **Supporting Element:** Chuk Earth (丑土) — Winter Soil
-
----
-
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## Jimin's Day Pillar: Jeong-Chuk (The Fire Ox)
@@ -38,7 +36,5 @@ When someone is blessed with Jeong Fire, you instantly feel these undeniable qua
 Watch Jimin perform for two seconds and you see this exact energy alive. A subtle turn of his head or a single soft glance can make an entire stadium stop breathing. It’s personal, subtle, and completely hypnotizing.
 
 ### 2.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

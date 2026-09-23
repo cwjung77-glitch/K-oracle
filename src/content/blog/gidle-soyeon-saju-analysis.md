@@ -7,7 +7,7 @@ author: "K-Oracle"
 tags: ["(G)I-DLE", "Soyeon", "Saju Analysis", "K-Pop Astrology"]
 ---
 
-## TL;DR (Quick Answer)
+## TL;DR
 
 (G)I-DLE’s Jeon Soyeon is a **Yang Earth (Mu Earth)** Day Master standing tall on the **Dragon (Chen)**, loaded with an absurdly intense **Metal Output Star (Sik-Sang)**. Translation? She was literally built by the universe to dominate, write her own history, and tear down every formulaic K-Pop rule. Her chart shows an unshakeable leader sitting on a mountain of raw, unapologetic creative fire, fueled by a high-voltage cosmic clash that makes her an unstoppable producer.
 
@@ -21,7 +21,7 @@ Was this pure luck? Absolutely not. Look at her birth chart for August 26, 1998,
 
 Her Saju structure is a masterclass in elemental balance and destructive creation:
 * **Day Pillar:** Yang Earth Dragon (戊辰 - Mu Chen)
-* **Month Pillar:** Metal Monkey (庚申 - Geng Shen)
+* **Month Pillar:** Metal Monkey (庚申 - Gyeong Sin)
 * **Year Pillar:** Earth Tiger (戊寅 - Mu In)
 
 In Korean Saju, your **Day Master** represents your core self, while your **Month Pillar** dictates your environment, talents, and societal impact. Soyeon’s birth chart is dominated by a heavy **Earth-to-Metal transformation**. Heavy Earth gives her ironclad resilience, while massive Metal endows her with a razor-sharp mind, unmatched artistic execution, and zero patience for corporate nonsense. 
@@ -79,7 +79,5 @@ Her chart is built for longevity. Because her primary driver is creative output 
 * **The Unmovable Mountain:** Born under the Yang Earth Dragon (Mu Chen) pillar, Soyeon possesses unshakeable core strength, executive leadership, and deep resilience under intense pressure.
 * **Unmatched Creative Engine:** Her Month Pillar of Metal Monkey creates a powerful Sik-Sang (Output) star, making her an extraordinary songwriter, producer, and conceptual genius who reshapes industry standards.
 * **Driven by High-Voltage Friction:** The Tiger-Monkey clash in her chart injects an infinite stream of radical energy, ensuring she continuously disrupts K-Pop and evolves as an artist for decades to come.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -19,9 +19,9 @@ Let’s get one thing straight: you don't become a million-seller soloist, the v
 
 When you pull up Baekhyun’s Saju chart based on his birth date (May 6, 1992), the four pillars reveal an intricate web of elements working in absolute sync:
 
-*   **Year Pillar (Birth Year):** Ren Shen (壬申 - Yang Water over Metal Monkey)
-*   **Month Pillar (Birth Month):** Yi Si (乙巳 - In Wood over Fire Snake)
-*   **Day Pillar (Day Master):** Ji Wei (己未 - Yin Earth over Earth Sheep)
+*   **Year Pillar (Birth Year):** Im Sin (壬申 - Yang Water over Metal Monkey)
+*   **Month Pillar (Birth Month):** Eul Sa (乙巳 - In Wood over Fire Snake)
+*   **Day Pillar (Day Master):** Gi Mi (己未 - Yin Earth over Earth Sheep)
 
 In Korean Saju, your **Day Master (일간)** represents your core soul, while the month and year pillars dictate your environment, societal perception, and hidden talents. Baekhyun’s chart isn't a sleepy, peaceful landscape. It’s a nutrient-rich, volcanic field equipped with its own irrigation system and gold mines. 
 
@@ -29,7 +29,7 @@ He possesses a rare balance where every single element feeds into the next. His 
 
 ## Day Master: Gi Earth (己土) – The Unshakeable Soil of K-Pop Royalty
 
-Baekhyun’s core identity is **Gi Earth (己土)**, specifically sitting on the Sheep branch (**Ji Wei - 己未**). 
+Baekhyun’s core identity is **Gi Earth (己土)**, specifically sitting on the Sheep branch (**Gi Mi - 己未**). 
 
 If Yang Earth (Mu Earth) is a giant, immovable mountain, Yin Earth (Gi Earth) is cultivated garden soil—rich, highly adaptable, intuitive, and immensely creative. Gi Earth individuals are famous for their social intelligence. They know how to read the room instantly, charm anyone within a ten-mile radius, and make complex skills look completely effortless. That "Genius Idol" title isn't PR spin; it's a literal manifestation of Gi Earth flexibility.
 
@@ -69,16 +69,11 @@ As a **Gi Earth** male, his Wealth element (Water) represents romantic partners.
 ## FAQ
 
 ### What is Baekhyun's Day Master in Saju?
-Baekhyun's Day Master is **Gi Earth (己土)**, specifically the **Ji Wei (己未)** pillar. This represents warm, highly fertile soil backed by strong inner conviction, adaptability, and social intelligence.
+Baekhyun's Day Master is **Gi Earth (己土)**, specifically the **Gi Mi (己未)** pillar. This represents warm, highly fertile soil backed by strong inner conviction, adaptability, and social intelligence.
 
 ### Why is Baekhyun called the "Genius Idol" according to his Saju?
 His chart features a perfect harmony between **Fire (Direct Resource)** and **Metal (Hurting Officer)** elements. Fire gives him rapid learning ability and emotional intelligence, while Metal provides supreme artistic expression and vocal precision, allowing him to master complex talents effortlessly.
 
 ### Does Baekhyun's Saju support his transition to running his own company?
 Yes, absolutely. His Year Pillar holds a strong **Hurting Officer producing Wealth** combination (Sin Metal generating Im Water). This energy makes
-
----
-
----
-
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -5,8 +5,9 @@ date: "2026-09-05"
 excerpt: "Discover the Korean Saju chart of Seventeen's Jeonghan. Explore how his Yin Water Day Master, dual elemental energies, and innate wisdom shape his K-pop legacy."
 author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
----## TL;DR (Quick Answer)
 ---
+
+## TL;DR
 
 ## Understanding Jeonghan's Day Master: The Yin Water Ox (Gye-Chuk)
 
@@ -16,9 +17,6 @@ In Saju, your Day Pillar is your soul's true DNA. Jeonghan was born under **Gye-
 *   **The Ox (Chuk 丑):** Imagine the heavy, frozen earth of late winter. It brings grounding energy, insane patience, unbeatable stamina, and massive hidden grit.
 
 Put those two together, and you get someone who looks delicate, calm, and impossibly soft on the surface, but harbors an unyielding ocean of wisdom underneath. Like mist rolling over a winter valley, Jeonghan naturally reads every room, senses emotions instantly, and calculates his moves long before anyone else even realizes the game started.
-
----
-
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
 ## The Four Pillars Breakdown for Jeonghan
@@ -28,9 +26,6 @@ Looking at the cosmic layout for October 4, 1995, his energy map shows a fascina
 *   **Year Pillar (Eul-Hae / Wood Pig):** Gives him magnetic charisma, easy social adaptability, and a naturally warm vibe that pulls people in for life.
 *   **Month Pillar (Eul-Yoo / Wood Rooster):** Fuses artistic, fluid creativity (In Wood) right alongside razor-sharp, detail-oriented precision (Yin Metal).
 *   **Day Pillar (Gye-Chuk / Water Ox):** His core identity—highly analytical, incredibly observant, steady as a rock, and masterfully strategic.
-
----
-
 ## Key Cosmic Traits in Jeonghan's Saju Chart
 
 ### 1. The Strategy Master: Sharp Metal Meets Adaptable Water
@@ -47,9 +42,6 @@ Look deeper into his chart, and you'll find heavy **In Wood (Eul 乙)** in both 
 *   It endows him with effortless visual beauty, vocal sweetness, and innate artistic grace.
 *   It tempers his sharp tactical mind, wrapping his cunning intelligence in genuine, big-brotherly warmth for his members.
 *   It builds that iconic "Angel" duality: deeply affectionate and protective, yet delightfully mischievous when it's time to play.
-
----
-
 ## Love and Relationships in Jeonghan's Saju
 
 In the Four Pillars system, checking how the Day Master interacts with the Earth element inside the Ox tells us everything about how someone approaches love.
@@ -57,9 +49,6 @@ In the Four Pillars system, checking how the Day Master interacts with the Earth
 *   **Loyalty and Depth:** Superficial fluff doesn't work for him. Jeonghan needs deep, quiet, genuine emotional bonds. His Water Ox essence demands total trust and psychological safety.
 *   **Seeking Warmth:** Because his chart runs cool and moist (heavy on Water and chilly Winter Earth), he naturally craves partners packed with **Fire energy**—vibrant, warm, openly expressive people who light up his world.
 *   **Protective Instincts:** The moment you cross into his inner circle, that Ox endurance flips on. He becomes fiercely loyal, deeply supportive, and unconditionally devoted.
-
----
-
 ## Frequently Asked Questions About Jeonghan's Saju
 
 ### What makes Jeonghan's Saju chart unique?
@@ -70,7 +59,5 @@ His main anchor is **Yin Water (Gye)**, grounded firmly by **Earth (Ox)** and en
 
 ### How does Saju explain Jeonghan's nickname "Angel"?
 That ethereal "Angel" aura comes straight from his prominent **In Wood** elements, which bring refined visuals, vocal delicacy, and a soft, empathetic vibe. Paired with his calming Yin Water Day Master, he projects a peaceful, healing presence wherever he goes.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

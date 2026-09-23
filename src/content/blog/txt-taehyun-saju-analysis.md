@@ -7,8 +7,7 @@ author: "K-Oracle"
 tags: ["TXT", "Taehyun", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR (Quick Answer)
----
+## TL;DR
 
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
@@ -20,9 +19,6 @@ In Korean Saju (the Four Pillars of Destiny), a person's birth chart acts as a c
 * **Day Master (Core Identity):** **Gi Earth (己土)** — Symbolizing fertile soil, cultivating spirit, and practical wisdom. Gi Earth individuals are known for being observant, highly adaptable, logical, and quietly determined.
 * **Month Branch (Seasonal Power):** **In Wood (寅木)** — The energy of early spring. It provides Taehyun with exponential growth, high ambition, and the relentless desire to master his craft.
 * **Year Branch (Foundation):** **O Fire (午火)** — A powerful flame of passion, vitality, and charisma that illuminates his artistic presence on stage.
-
----
-
 ## Saju Blueprint: Key Personality Traits Revealed
 
 ```
@@ -39,9 +35,6 @@ With strong Fire energy anchored in his foundation, Taehyun possesses an interna
 
 ### 3. The Power of Flowing Water (Vocal Resonance & Emotional Intelligence)
 The presence of Water elements (*Im Water* and *Hae Water*) in his chart balances the heat of his Fire energy. Water governs communication, deep sound, and emotional fluidity. This allows Taehyun to deliver vocal performances that feel both technically precise and deeply resonant, bridging the gap between intellect and heart.
-
----
-
 ## Frequently Asked Questions About Taehyun's Saju
 
 ### What makes Taehyun's vocal talents so powerful according to Saju?
@@ -52,15 +45,10 @@ Yes. His Saju carries the imprint of early spring Wood energy, which instinctive
 
 ### What does Taehyun's long-term career outlook look like?
 Taehyun is entering an exceptionally prosperous luck pillar phase. As his chart transitions through complementary Metal and Water cycles, his international authority, musical composition talents, and global star power will expand significantly. His grounded Earth nature ensures long-term longevity in the entertainment industry rather than short-lived fame.
-
----
-
 ## Major Life & Career Themes in Taehyun's Chart
 
 * **The Perfectionist's Path:** His Saju naturally rejects dynamic chaos in favor of structured growth. He thrives when given clear goals and rigorous standards.
 * **Deep Loyalty and Brotherhood:** Gi Earth individuals naturally hold space for others. Within TXT, Taehyun serves as an intellectual anchor and a reliable pillar of support for his bandmates.
 * **Enduring Success:** Because his chart possesses an optimal balance of elemental generation—Water nourishing Wood, Wood fueling Fire, and Fire enriching Earth—his talent will continue to mature gracefully like fine wine.
-
----
 
 *Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

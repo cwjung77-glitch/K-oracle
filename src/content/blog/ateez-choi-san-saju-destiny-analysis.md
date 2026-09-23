@@ -8,7 +8,7 @@ tags: ["ATEEZ", "Choi San", "Saju Reading", "K-Pop Destiny", "Four Pillars"]
 ---
 ---
 
-## The Dual Nature of ATEEZ’s Choi San
+## TL;DR
 
 Anyone who has watched Choi San on stage knows the feeling. One second he’s a sweet, dimpled sweetheart off-camera, and the next, he’s practically devouring the stage. That insane level of energy isn't just luck or endless rehearsal hours. Look at his Four Pillars of Destiny (Saju), and you'll see it right there—coded straight into his birth elements.
 
