@@ -20,16 +20,16 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
     price = "$9.99";
   } else {
     if (selectedPlan === 'q4') {
-      productName = "2026 Q4 Finale Report";
+      productName = "2026 Q4 Finale";
       price = "$4.99";
     } else if (selectedPlan === 'compatibility') {
       productName = "Deep Chemistry & Compatibility Report";
       price = "$4.99";
     } else if (selectedPlan === 'fullyear') {
-      productName = "2027 Full Year Report";
+      productName = "2027 Full Year";
       price = "$9.99";
     } else {
-      productName = "26+27 Bundle Report";
+      productName = "26+27 VIP Masterplan";
       price = "$11.99";
     }
   }

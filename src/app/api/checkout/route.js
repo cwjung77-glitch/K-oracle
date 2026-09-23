@@ -21,7 +21,7 @@ export async function POST(req) {
     } else {
       if (productId === 'q4') {
         variantId = "2103661"; // $4.99
-        customName = "2026 Q4 Finale Report";
+        customName = "2026 Q4 Finale";
       }
       else if (productId === 'compatibility') {
         variantId = "2127402"; // $4.99
@@ -33,7 +33,7 @@ export async function POST(req) {
       }
       else {
         variantId = "2103672"; // $11.99
-        customName = "26+27 Bundle Report";
+        customName = "26+27 VIP Masterplan";
       }
     }
 
