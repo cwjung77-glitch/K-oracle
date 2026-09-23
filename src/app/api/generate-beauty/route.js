@@ -72,6 +72,7 @@ CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 
           console.warn(`[API Rotation] Model ${currentModel} failed with network error. Trying next...`);
         }
       } // end for currentModel
+      if (success) break;
     } // end for apiKeys
 
     if (!success) {
