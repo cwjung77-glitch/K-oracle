@@ -199,6 +199,23 @@ export default function SajuCompatibility({ onUnlockPremium }) {
   const isUltraRare = result?.score >= 90;
   const currentYear = new Date().getFullYear();
 
+
+  const getGroupColors = (group) => {
+    if(!group) return { bg: 'from-pink-500/20 to-orange-500/20', border: 'border-pink-500/30', text: 'text-pink-400' };
+    const g = group.toUpperCase();
+    if(g.includes('BTS')) return { bg: 'from-purple-500/20 to-fuchsia-500/20', border: 'border-purple-500/30', text: 'text-purple-400' };
+    if(g.includes('BLACKPINK')) return { bg: 'from-pink-500/20 to-rose-500/20', border: 'border-pink-500/30', text: 'text-pink-400' };
+    if(g.includes('TWICE')) return { bg: 'from-orange-400/20 to-pink-400/20', border: 'border-orange-400/30', text: 'text-orange-400' };
+    if(g.includes('STRAY KIDS')) return { bg: 'from-red-500/20 to-rose-500/20', border: 'border-red-500/30', text: 'text-red-400' };
+    if(g.includes('SEVENTEEN')) return { bg: 'from-rose-400/20 to-blue-400/20', border: 'border-rose-400/30', text: 'text-rose-400' };
+    if(g.includes('AESPA')) return { bg: 'from-indigo-500/20 to-purple-500/20', border: 'border-indigo-500/30', text: 'text-indigo-400' };
+    if(g.includes('NEWJEANS')) return { bg: 'from-blue-500/20 to-cyan-500/20', border: 'border-blue-500/30', text: 'text-blue-400' };
+    if(g.includes('ENHYPEN')) return { bg: 'from-red-600/20 to-orange-600/20', border: 'border-red-600/30', text: 'text-red-500' };
+    if(g.includes('TXT') || g.includes('TOMORROW X TOGETHER')) return { bg: 'from-cyan-400/20 to-blue-400/20', border: 'border-cyan-400/30', text: 'text-cyan-400' };
+    if(g.includes('NCT')) return { bg: 'from-green-500/20 to-emerald-500/20', border: 'border-green-500/30', text: 'text-green-400' };
+    return { bg: 'from-pink-500/20 to-orange-500/20', border: 'border-pink-500/30', text: 'text-pink-400' };
+  };
+
   return (
     <div className="w-full max-w-4xl mx-auto glass-panel rounded-3xl p-6 sm:p-8 md:p-10 relative mt-8">
       <div className="absolute inset-0 overflow-hidden rounded-3xl pointer-events-none">
@@ -265,7 +282,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
 
               <div className="flex items-center justify-center -my-4 md:my-0 md:-mx-4 z-10 relative">
                 <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-zinc-950 border-[4px] border-zinc-900 flex items-center justify-center shadow-xl">
-                  <span className="text-xl md:text-2xl font-black italic text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-orange-400">VS</span>
+                  <span className="text-2xl md:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-orange-400">&amp;</span>
                 </div>
               </div>
 
