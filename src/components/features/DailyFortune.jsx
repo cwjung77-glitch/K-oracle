@@ -7,7 +7,7 @@ const dailyTalismans = [
   // Wealth & Money (10)
   { id: 'wealth_1', ko: '재물폭발', en: 'Wealth Explosion', desc: 'Attracts money and unexpected windfalls today', icon: '💰', bg: 'bg-yellow-900/50', border: 'border-yellow-500/50', text: 'text-yellow-400' },
   { id: 'wealth_2', ko: '벼락부자', en: 'Sudden Wealth', desc: 'Luck for lotteries and sudden financial gains', icon: '💸', bg: 'bg-yellow-800/50', border: 'border-yellow-400/50', text: 'text-yellow-300' },
-  { id: 'wealth_3', ko: '영앤리치', en: 'Young & Rich', desc: 'Manifest a luxurious and abundant lifestyle', icon: '💎', bg: 'bg-cyan-900/50', border: 'border-cyan-500/50', text: 'text-cyan-400' },
+  { id: 'wealth_3', ko: '돈길만걷자', en: 'Young & Rich', desc: 'Manifest a luxurious and abundant lifestyle', icon: '💎', bg: 'bg-cyan-900/50', border: 'border-cyan-500/50', text: 'text-cyan-400' },
   { id: 'wealth_4', ko: '지름신퇴치', en: 'No Impulse Buys', desc: 'Protects your wallet from unnecessary shopping', icon: '🛑', bg: 'bg-red-900/50', border: 'border-red-500/50', text: 'text-red-400' },
   { id: 'wealth_5', ko: '월급루팡', en: 'Salary Lupin', desc: 'Getting paid while doing the absolute minimum', icon: '🥷', bg: 'bg-stone-900/50', border: 'border-stone-500/50', text: 'text-stone-400' },
   { id: 'wealth_6', ko: '소확행', en: 'Small Joys', desc: 'Finding great happiness in small purchases', icon: '☕', bg: 'bg-orange-900/50', border: 'border-orange-500/50', text: 'text-orange-400' },
@@ -33,7 +33,7 @@ const dailyTalismans = [
   { id: 'love_2', ko: '철벽방어', en: 'Iron Shield', desc: 'Protect your peace from toxic people', icon: '🛡️', bg: 'bg-slate-900/50', border: 'border-slate-500/50', text: 'text-slate-400' },
   { id: 'love_3', ko: '구남친퇴치', en: 'Ex Repellent', desc: 'Keep unwanted past lovers far away', icon: '👻', bg: 'bg-zinc-900/50', border: 'border-red-500/50', text: 'text-red-400' },
   { id: 'love_4', ko: '썸남썸녀', en: 'Flirting Success', desc: 'Sparks fly with your crush today', icon: '🥰', bg: 'bg-rose-900/50', border: 'border-rose-400/50', text: 'text-rose-300' },
-  { id: 'love_5', ko: '천생연분', en: 'Soulmate Alert', desc: 'High chance of meeting someone special', icon: '🎀', bg: 'bg-pink-800/50', border: 'border-pink-400/50', text: 'text-pink-200' },
+  { id: 'love_5', ko: '운명적만남', en: 'Soulmate Alert', desc: 'High chance of meeting someone special', icon: '🎀', bg: 'bg-pink-800/50', border: 'border-pink-400/50', text: 'text-pink-200' },
   { id: 'love_6', ko: '심쿵유발', en: 'Heart Flutter', desc: 'You will make someones heart skip a beat', icon: '💓', bg: 'bg-fuchsia-900/50', border: 'border-fuchsia-500/50', text: 'text-fuchsia-400' },
   { id: 'love_7', ko: '인기폭발', en: 'Main Character', desc: 'Everyone wants your attention today', icon: '👑', bg: 'bg-yellow-900/50', border: 'border-yellow-500/50', text: 'text-yellow-400' },
   { id: 'love_8', ko: '눈치백단', en: 'Mind Reader', desc: 'Easily understand what others are feeling', icon: '👀', bg: 'bg-indigo-900/50', border: 'border-indigo-500/50', text: 'text-indigo-400' },
@@ -50,18 +50,18 @@ const dailyTalismans = [
   { id: 'health_7', ko: '피부미인', en: 'Glowing Skin', desc: 'Your aura and complexion are flawless today', icon: '✨', bg: 'bg-rose-900/50', border: 'border-rose-300/50', text: 'text-rose-200' },
   { id: 'health_8', ko: '교통체증패스', en: 'Green Lights', desc: 'No traffic jams or train delays on your commute', icon: '🚦', bg: 'bg-emerald-900/50', border: 'border-emerald-500/50', text: 'text-emerald-400' },
   { id: 'health_9', ko: '분실물방지', en: 'Item Keeper', desc: 'You wont lose your keys or phone today', icon: '🔑', bg: 'bg-amber-900/50', border: 'border-amber-500/50', text: 'text-amber-400' },
-  { id: 'health_10', ko: '만사형통', en: 'Perfect Day', desc: 'General good luck and smooth sailing', icon: '🍀', bg: 'bg-emerald-900/50', border: 'border-emerald-400/50', text: 'text-emerald-300' },
+  { id: 'health_10', ko: '무사무탈', en: 'Perfect Day', desc: 'General good luck and smooth sailing', icon: '🍀', bg: 'bg-emerald-900/50', border: 'border-emerald-400/50', text: 'text-emerald-300' },
 
   // K-Pop & Fandom (10)
   { id: 'kpop_1', ko: '티켓팅성공', en: 'Ticketing Win', desc: 'Secure front-row VIP seats for the concert', icon: '🎫', bg: 'bg-purple-900/50', border: 'border-purple-500/50', text: 'text-purple-400' },
-  { id: 'kpop_2', ko: '광클성공', en: 'God Speed Click', desc: 'Fastest internet connection for merch drops', icon: '🖱️', bg: 'bg-cyan-900/50', border: 'border-cyan-500/50', text: 'text-cyan-400' },
+  { id: 'kpop_2', ko: '금손광클', en: 'God Speed Click', desc: 'Fastest internet connection for merch drops', icon: '🖱️', bg: 'bg-cyan-900/50', border: 'border-cyan-500/50', text: 'text-cyan-400' },
   { id: 'kpop_3', ko: '최애영접', en: 'Meeting Bias', desc: 'High chance of a lucky encounter with your idol', icon: '😭', bg: 'bg-pink-900/50', border: 'border-pink-500/50', text: 'text-pink-400' },
   { id: 'kpop_4', ko: '덕계못파괴', en: 'Lucky Fan', desc: 'Your comment gets read during a live stream', icon: '📱', bg: 'bg-indigo-900/50', border: 'border-indigo-500/50', text: 'text-indigo-400' },
   { id: 'kpop_5', ko: '포카교환', en: 'Photocard Luck', desc: 'Pull your bias from the random album album', icon: '🃏', bg: 'bg-rose-900/50', border: 'border-rose-500/50', text: 'text-rose-400' },
   { id: 'kpop_6', ko: '컴백대박', en: 'Perfect Comeback', desc: 'Your favorite group breaks all the records', icon: '🏆', bg: 'bg-yellow-900/50', border: 'border-yellow-500/50', text: 'text-yellow-400' },
-  { id: 'kpop_7', ko: '성덕인증', en: 'Noticed by Senpai', desc: 'Your idol replies to your post or fan-letter', icon: '💌', bg: 'bg-red-900/50', border: 'border-red-500/50', text: 'text-red-400' },
+  { id: 'kpop_7', ko: '아이돌픽', en: 'Noticed by Senpai', desc: 'Your idol replies to your post or fan-letter', icon: '💌', bg: 'bg-red-900/50', border: 'border-red-500/50', text: 'text-red-400' },
   { id: 'kpop_8', ko: '시야확보', en: 'Clear View', desc: 'No tall people blocking your view at the show', icon: '👀', bg: 'bg-sky-900/50', border: 'border-sky-500/50', text: 'text-sky-400' },
-  { id: 'kpop_9', ko: '운수대통', en: 'Golden Hands', desc: 'Win the fan-sign raffle event', icon: '✍️', bg: 'bg-amber-900/50', border: 'border-amber-500/50', text: 'text-amber-400' },
+  { id: 'kpop_9', ko: '금손강림', en: 'Golden Hands', desc: 'Win the fan-sign raffle event', icon: '✍️', bg: 'bg-amber-900/50', border: 'border-amber-500/50', text: 'text-amber-400' },
   { id: 'kpop_10', ko: '어덕행덕', en: 'Happy Fangirl', desc: 'Stress-free, pure joy in loving your idol', icon: '💖', bg: 'bg-pink-800/50', border: 'border-pink-400/50', text: 'text-pink-300' }
 ];
 
