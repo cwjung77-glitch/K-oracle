@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { idolsDB } from '../../data/idols';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Heart, Sparkles, RefreshCw, Star, ArrowRight, Download, Share2, Crown, Trophy, Target, Search, Lock } from 'lucide-react';
@@ -147,59 +147,59 @@ export default function SajuCompatibility({ onUnlockPremium }) {
 
     const descriptions = {
       'Similar Souls': 'You both share the same elemental energy. According to ancient Saju, you reflect each other\'s deepest thoughts.',
-      'Destined Supporters': 'A perfect match! You create a generating cycle — a soulmate-level synergy written in the Four Pillars.',
+      'Destined Supporters': 'A perfect match! You create a generating cycle ??a soulmate-level synergy written in the Four Pillars.',
       'Passionate Clash': 'This is a dynamic, magnetic relationship. Though you have opposite energies, it creates an intense, passionate bond.',
       'Neutral': 'A balanced connection with potential for growth. Your energies complement each other in unexpected ways.'
     };
 
     const dynamics = {
-      chemistry: score >= 85 ? 'High natural chemistry — magnetic attraction' : score >= 70 ? 'Good chemistry with growing spark' : 'Moderate — builds over time',
-      communication: score >= 80 ? 'Deep intuitive understanding' : score >= 65 ? 'Natural flow with minor gaps' : 'Moderate — requires patience',
+      chemistry: score >= 85 ? 'High natural chemistry ??magnetic attraction' : score >= 70 ? 'Good chemistry with growing spark' : 'Moderate ??builds over time',
+      communication: score >= 80 ? 'Deep intuitive understanding' : score >= 65 ? 'Natural flow with minor gaps' : 'Moderate ??requires patience',
       passion: score >= 90 ? 'Strong volcanic intensity' : score >= 75 ? 'Good warm energy exchange' : 'Moderate steady flame',
-      trust: score >= 85 ? 'High unshakable foundation' : score >= 70 ? 'Good solid ground' : 'Moderate — grows with effort'
+      trust: score >= 85 ? 'High unshakable foundation' : score >= 70 ? 'Good solid ground' : 'Moderate ??grows with effort'
     };
 
     const talismans = [
       // Fan & Idol Chemistry
-      { text: '최애등극', en: 'Ultimate Bias', desc: 'An undeniable magnetic attraction' },
-      { text: '성덕인증', en: 'Lucky Fan', desc: 'A dreamlike connection bringing joy' },
-      { text: '덕질만렙', en: 'Max Devotion', desc: 'Unwavering loyalty and admiration' },
-      { text: '덕통사고', en: 'Instant Crush', desc: 'A sudden, overpowering connection' },
-      { text: '광클성공', en: 'Perfect Timing', desc: 'Meeting at the right cosmic moment' },
-      { text: '쌍방구원', en: 'Mutual Salvation', desc: 'Saving each other through your bond' },
-      { text: '환상호흡', en: 'Dream Team', desc: 'Perfect synergy in everything you do' },
-      { text: '절대지지', en: 'Absolute Support', desc: 'A pillar of strength for each other' },
+      { text: '理쒖븷?깃레', en: 'Ultimate Bias', desc: 'An undeniable magnetic attraction' },
+      { text: '?깅뜒?몄쬆', en: 'Lucky Fan', desc: 'A dreamlike connection bringing joy' },
+      { text: '?뺤쭏留뚮젟', en: 'Max Devotion', desc: 'Unwavering loyalty and admiration' },
+      { text: '?뺥넻?ш퀬', en: 'Instant Crush', desc: 'A sudden, overpowering connection' },
+      { text: '愿묓겢?깃났', en: 'Perfect Timing', desc: 'Meeting at the right cosmic moment' },
+      { text: '?띾갑援ъ썝', en: 'Mutual Salvation', desc: 'Saving each other through your bond' },
+      { text: '?섏긽?명씉', en: 'Dream Team', desc: 'Perfect synergy in everything you do' },
+      { text: '?덈?吏吏', en: 'Absolute Support', desc: 'A pillar of strength for each other' },
       // Soulmate & Destiny
-      { text: '천생연분', en: 'Soulmate', desc: 'A match made in heaven' },
-      { text: '백년해로', en: 'Eternal Bond', desc: 'Lifelong harmony together' },
-      { text: '운명공동', en: 'Shared Destiny', desc: 'Your paths are cosmically intertwined' },
-      { text: '찰떡궁합', en: 'Perfect Match', desc: 'Fitting together like puzzle pieces' },
-      { text: '이심전심', en: 'Telepathy', desc: 'Understanding without speaking' },
-      { text: '수어지교', en: 'Water & Fish', desc: 'An essential, life-giving connection' },
-      { text: '지음지기', en: 'True Soulmate', desc: 'Someone who knows your true song' },
-      { text: '금상첨화', en: 'Perfect Harmony', desc: 'Making each other shine brighter' },
+      { text: '泥쒖깮?곕텇', en: 'Soulmate', desc: 'A match made in heaven' },
+      { text: '諛깅뀈?대줈', en: 'Eternal Bond', desc: 'Lifelong harmony together' },
+      { text: '?대챸怨듬룞', en: 'Shared Destiny', desc: 'Your paths are cosmically intertwined' },
+      { text: '李곕뼞沅곹빀', en: 'Perfect Match', desc: 'Fitting together like puzzle pieces' },
+      { text: '?댁떖?꾩떖', en: 'Telepathy', desc: 'Understanding without speaking' },
+      { text: '?섏뼱吏援?, en: 'Water & Fish', desc: 'An essential, life-giving connection' },
+      { text: '吏?뚯?湲?, en: 'True Soulmate', desc: 'Someone who knows your true song' },
+      { text: '湲덉긽泥⑦솕', en: 'Perfect Harmony', desc: 'Making each other shine brighter' },
       // Growth & Peace
-      { text: '상호보완', en: 'Mutual Synergy', desc: 'Balancing each other flawlessly' },
-      { text: '빛과소금', en: 'Light & Salt', desc: 'Essential and irreplaceable to one another' },
-      { text: '유일무이', en: 'One and Only', desc: 'A connection that cannot be replicated' },
-      { text: '동고동락', en: 'Thick & Thin', desc: 'Standing together through all times' },
-      { text: '평생동반', en: 'Lifelong', desc: 'A companion for the long journey' },
-      { text: '불가분의', en: 'Inseparable', desc: 'Bound by invisible red threads' },
-      { text: '평안무사', en: 'Peaceful', desc: 'A calm relationship free of drama' },
-      { text: '일취월장', en: 'Growing Together', desc: 'Inspiring each other to evolve' },
+      { text: '?곹샇蹂댁셿', en: 'Mutual Synergy', desc: 'Balancing each other flawlessly' },
+      { text: '鍮쏄낵?뚭툑', en: 'Light & Salt', desc: 'Essential and irreplaceable to one another' },
+      { text: '?좎씪臾댁씠', en: 'One and Only', desc: 'A connection that cannot be replicated' },
+      { text: '?숆퀬?숇씫', en: 'Thick & Thin', desc: 'Standing together through all times' },
+      { text: '?됱깮?숇컲', en: 'Lifelong', desc: 'A companion for the long journey' },
+      { text: '遺덇?遺꾩쓽', en: 'Inseparable', desc: 'Bound by invisible red threads' },
+      { text: '?됱븞臾댁궗', en: 'Peaceful', desc: 'A calm relationship free of drama' },
+      { text: '?쇱랬?붿옣', en: 'Growing Together', desc: 'Inspiring each other to evolve' },
       // Fun & Cosmic 
-      { text: '전생인연', en: 'Past Life', desc: 'Lovers or best friends in a past life' },
-      { text: '우주대통', en: 'Cosmic Link', desc: 'The universe aligned for you two' },
-      { text: '음양조화', en: 'Yin & Yang', desc: 'Perfect elemental balance' },
-      { text: '자석끌림', en: 'Magnetic', desc: 'Opposites attracting fiercely' },
-      { text: '운명개척', en: 'Destiny Makers', desc: 'Rewriting the stars together' },
-      { text: '꽃길만걷', en: 'Flower Path', desc: 'Only beautiful days ahead together' }
+      { text: '?꾩깮?몄뿰', en: 'Past Life', desc: 'Lovers or best friends in a past life' },
+      { text: '?곗＜???, en: 'Cosmic Link', desc: 'The universe aligned for you two' },
+      { text: '?뚯뼇議고솕', en: 'Yin & Yang', desc: 'Perfect elemental balance' },
+      { text: '?먯꽍?뚮┝', en: 'Magnetic', desc: 'Opposites attracting fiercely' },
+      { text: '?대챸媛쒖쿃', en: 'Destiny Makers', desc: 'Rewriting the stars together' },
+      { text: '苑껉만留뚭굣', en: 'Flower Path', desc: 'Only beautiful days ahead together' }
     ];
     
     let validTalismans = talismans;
-    if (score >= 90) validTalismans = talismans.filter(t => ['천생연분', '백년해로', '최애등극', '성덕인증', '만사형통', '운수대통', '영앤리치'].includes(t.text));
-    else if (score >= 70) validTalismans = talismans.filter(t => !['천생연분', '백년해로', '기사회생', '액운퇴치'].includes(t.text));
-    else validTalismans = talismans.filter(t => ['액운퇴치', '평안무사', '기사회생', '심기일전', '광클성공', '일취월장', '덕질만렙'].includes(t.text));
+    if (score >= 90) validTalismans = talismans.filter(t => ['泥쒖깮?곕텇', '諛깅뀈?대줈', '理쒖븷?깃레', '?깅뜒?몄쬆', '留뚯궗?뺥넻', '?댁닔???, '?곸븻由ъ튂'].includes(t.text));
+    else if (score >= 70) validTalismans = talismans.filter(t => !['泥쒖깮?곕텇', '諛깅뀈?대줈', '湲곗궗?뚯깮', '?≪슫?댁튂'].includes(t.text));
+    else validTalismans = talismans.filter(t => ['?≪슫?댁튂', '?됱븞臾댁궗', '湲곗궗?뚯깮', '?ш린?쇱쟾', '愿묓겢?깃났', '?쇱랬?붿옣', '?뺤쭏留뚮젟'].includes(t.text));
     if (validTalismans.length === 0) validTalismans = talismans;
 
     setTimeout(() => {
@@ -426,7 +426,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               </div>
               
               <h2 className="text-3xl font-black text-white mb-2">
-                {result.score >= 90 ? 'Soulmate Level 🔮' : result.score >= 80 ? 'Perfect Match 💖' : result.score >= 70 ? 'Great Synergy ✨' : result.score >= 60 ? 'Magnetic Bond 🌟' : 'Karmic Lesson ⏳'}
+                {result.score >= 90 ? 'Soulmate Level ?뵰' : result.score >= 80 ? 'Perfect Match ?뮇' : result.score >= 70 ? 'Great Synergy ?? : result.score >= 60 ? 'Magnetic Bond ?뙚' : 'Karmic Lesson ??}
               </h2>
               <p className="text-zinc-300 max-w-md mx-auto">{result.summary}</p>
             </div>
@@ -470,7 +470,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
             <div className="bg-zinc-950 rounded-3xl p-6 border border-white/10 text-center animate-in fade-in duration-700">
               <div className="text-zinc-400 font-bold text-xs uppercase tracking-[0.3em] mb-4">My Cosmic Soulmate</div>
               <div className="bg-black/80 py-3 px-6 rounded-2xl border border-white/10 inline-flex flex-col items-center mb-6 gap-1">
-                <span className="text-white font-black text-lg">{userName ? userName.toUpperCase() : "YOU"} ❤️</span>
+                <span className="text-white font-black text-lg">{userName ? userName.toUpperCase() : "YOU"} ?ㅿ툘</span>
                 <span className="text-zinc-300 font-bold text-lg">{matchType === 'idol' ? selectedIdol?.name : customName}</span>
               </div>
 
@@ -478,7 +478,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               <div className="flex justify-center mb-6">
                 <div className={`w-44 h-[330px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 hover:scale-105 hover:rotate-1 border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${result.score >= 95 ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`}>
                   <div className="mt-6 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-3xl font-bold opacity-90 z-10" style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
-                    {result.userElement === 'Fire' ? '火' : result.userElement === 'Water' ? '水' : result.userElement === 'Wood' ? '木' : result.userElement === 'Metal' ? '金' : '土'}
+                    {result.userElement === 'Fire' ? '?? : result.userElement === 'Water' ? '麗? : result.userElement === 'Wood' ? '?? : result.userElement === 'Metal' ? '?? : '??}
                   </div>
                   <div className="relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[52px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]" style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
                     {result.talisman.text.split('').map((char, i) => (
@@ -490,7 +490,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1 text-center">{result.talisman.en}</div>
                     <div className="text-zinc-500 text-[9px] tracking-wider text-center leading-tight opacity-80 uppercase">{result.talisman.desc}</div>
                     <div className="mt-3 text-[8px] text-zinc-600 font-mono tracking-widest font-bold whitespace-nowrap">
-                      {result.score >= 95 ? `✨K-ORACLE // ${new Date().getFullYear()} LEGENDARY✨` : `K-ORACLE // ${new Date().getFullYear()} COLLECTION`}
+                      {result.score >= 95 ? `?쭷-ORACLE // ${new Date().getFullYear()} LEGENDARY?? : `K-ORACLE // ${new Date().getFullYear()} COLLECTION`}
                     </div>
                   </div>
                 </div>
@@ -527,7 +527,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                     <div className="relative z-10 w-full text-center mt-6">
                       <div className="text-zinc-400 font-bold mb-6 uppercase tracking-widest text-4xl">My Cosmic Soulmate</div>
                         <div className="text-[52px] font-black text-white bg-black/80 py-8 px-12 rounded-[3rem] border border-white/10 shadow-2xl flex flex-col items-center justify-center gap-2 w-[900px] mx-auto">
-                          <span>{userName ? userName.toUpperCase() : "ME"} ⚔️</span>
+                          <span>{userName ? userName.toUpperCase() : "ME"} ?뷂툘</span>
                           <span className="text-zinc-200">{matchType === 'idol' ? selectedIdol.name : customName}</span>
                         </div>
                     </div>
@@ -537,7 +537,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                         <div data-html2canvas-ignore="true" className="absolute inset-0 bg-[url('/noise.png')] opacity-20 mix-blend-overlay"></div>
                         
                         <div className={`mt-16 w-32 h-32 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-8xl font-bold opacity-90 z-10`} style={{ filter: 'drop-shadow(0px 2px 2px rgba(0,0,0,0.8))' }}>
-                          {userElement === 'Fire' ? '火' : userElement === 'Water' ? '水' : userElement === 'Wood' ? '木' : userElement === 'Metal' ? '金' : '土'}
+                          {userElement === 'Fire' ? '?? : userElement === 'Water' ? '麗? : userElement === 'Wood' ? '?? : userElement === 'Metal' ? '?? : '??}
                         </div>
                         
                         <div className={`relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[120px] sm:text-[130px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]`} style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.8)) drop-shadow(0px 1px 1px rgba(255,255,255,0.3))' }}>
@@ -555,7 +555,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                             {result.talisman.desc}
                           </div>
                           <div className={`mt-6 text-xl text-zinc-600 font-mono tracking-widest font-bold whitespace-nowrap`}>
-                            {isUltraRare ? `✨K-ORACLE // ${currentYear} LEGENDARY ✨` : `K-ORACLE // ${currentYear} COLLECTION`}
+                            {isUltraRare ? `?쭷-ORACLE // ${currentYear} LEGENDARY ?? : `K-ORACLE // ${currentYear} COLLECTION`}
                           </div>
                         </div>
                       </div>
@@ -568,7 +568,7 @@ export default function SajuCompatibility({ onUnlockPremium }) {
                       </div>
                       
                       <div className="relative z-10 w-fit mx-auto bg-zinc-900/90 border border-zinc-800 text-zinc-300 py-6 px-12 rounded-full flex items-center justify-center gap-4 font-bold shadow-2xl mt-12 text-3xl tracking-widest">
-                        <Search size={32} className="text-zinc-500" /> k-oracle-omega.vercel.app
+                        <Search size={32} className="text-zinc-500" /> k-oracle.vercel.app
                       </div>
                     </div>
                 </div>
