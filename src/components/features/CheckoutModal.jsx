@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 "use client";
 
@@ -46,7 +46,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
       const email = e.target && e.target.email ? e.target.email.value : 'cwjung77@gmail.com';
       localStorage.setItem('purchasedProduct', activeTab);
       localStorage.setItem('purchasedPlan', selectedPlan);
-      // Call our Next.js API Route for Lemon Squeezy integration
+      // Call our Next.js API Route for Gumroad integration
       const response = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -60,7 +60,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
       const data = await response.json();
 
       if (data.success) {
-        console.log("Redirecting to Lemon Squeezy Checkout URL:", data.checkoutUrl);
+        console.log("Redirecting to Gumroad Checkout URL:", data.checkoutUrl);
         window.location.href = data.checkoutUrl;
         setIsProcessing(false);
         // onSuccess();
@@ -82,7 +82,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
         <div className="bg-zinc-900/50 p-6 border-b border-zinc-800">
           <div className="flex justify-between items-center mb-4">
             <h2 className="text-xl font-bold text-white">K-ORACLE Premium</h2>
-            <button onClick={onClose} className="text-zinc-500 hover:text-white transition-colors">✕</button>
+            <button onClick={onClose} className="text-zinc-500 hover:text-white transition-colors">??/button>
           </div>
           <div className="flex justify-between items-end">
             <div>
@@ -96,7 +96,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
         <form onSubmit={handlePay} className="p-6">
           <div className="space-y-4 animate-in fade-in duration-300">
             <p className="text-sm text-zinc-400 leading-relaxed mb-4">
-              To ensure the highest level of security and global compliance, your payment will be processed securely by our official merchant of record, <strong className="text-white">Lemon Squeezy</strong>.
+              To ensure the highest level of security and global compliance, your payment will be processed securely by our official merchant of record, <strong className="text-white">Gumroad</strong>.
             </p>
             
             <div>
