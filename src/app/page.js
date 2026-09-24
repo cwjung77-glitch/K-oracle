@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect } from 'react';
 import SajuCompatibility from '../components/features/SajuCompatibility';
 import PersonalColor from '../components/features/PersonalColor';
@@ -29,7 +29,7 @@ export default function OracleLanding() {
 
   const handleLogoClick = () => {
     if (hasPaid) {
-      if (window.confirm(lang === "ko" ? "PDF 마스터플랜을 다운로드하셨나요? 지금 메인으로 돌아가면 분석 결과가 영구적으로 삭제됩니다." : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
+      if (window.confirm(lang === "ko" ? "PDF 留덉뒪?고뵆?쒖쓣 ?ㅼ슫濡쒕뱶?섏뀲?섏슂? 吏湲?硫붿씤?쇰줈 ?뚯븘媛硫?遺꾩꽍 寃곌낵媛 ?곴뎄?곸쑝濡???젣?⑸땲??" : "Did you download your PDF Masterplan? Leaving now will permanently erase your results.")) {
         localStorage.removeItem("hasPaid");
         setHasPaid(false);
         setResetKey(k => k + 1);
@@ -137,7 +137,7 @@ export default function OracleLanding() {
           {!hasPaid && recentHistory.length > 0 && (
             <div className="w-full max-w-md mx-auto mb-6">
               <h3 className="text-zinc-300 font-bold text-sm mb-3 flex items-center gap-2 justify-center">
-                <Sparkles size={14} /> {lang === "ko" ? "최근 열람 기록" : "Recent Readings"}
+                <Sparkles size={14} /> {lang === "ko" ? "理쒓렐 ?대엺 湲곕줉" : "Recent Readings"}
               </h3>
               <div className="space-y-2">
                 {recentHistory.map((item, idx) => (
@@ -163,7 +163,7 @@ export default function OracleLanding() {
                     className="w-full bg-zinc-900/80 hover:bg-zinc-800 border border-white/5 rounded-xl p-3 flex items-center justify-between transition-colors text-left"
                   >
                     <div>
-                      <div className="font-bold text-zinc-200 text-sm">{item.type === "saju" && item.plan === "compatibility" ? `${item.name} ❤️ ${item.idolName}` : item.name}</div>
+                      <div className="font-bold text-zinc-200 text-sm">{item.type === "saju" && item.plan === "compatibility" ? `${item.name} ?ㅿ툘 ${item.idolName}` : item.name}</div>
                       <div className="text-xs text-zinc-500 capitalize">{item.type === 'saju' ? (item.plan === 'compatibility' ? 'Cosmic Chemistry' : 'Saju Masterplan') : 'K-Beauty'}</div>
                     </div>
                     <div className="text-xs text-zinc-500">{item.date}</div>
@@ -224,13 +224,7 @@ export default function OracleLanding() {
               <DailyFortune 
                 key={`daily-${resetKey}`}
                 lang={lang}
-                onGoToPremium={() => {
-                  setActiveTab('saju');
-                  localStorage.setItem('purchasedProduct', 'saju');
-                  setTimeout(() => {
-                    document.getElementById('premium-report')?.scrollIntoView({ behavior: 'smooth' });
-                  }, 100);
-                }}
+                onGoToPremium={() => { setSelectedPlan('daily'); setShowCheckout(true); }}
               />
             )}
             {activeTab === 'saju' && <SajuCompatibility key={`saju-${resetKey}`} onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} />}
@@ -276,7 +270,7 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Comprehensive VIP PDF Report</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Hidden Karma & Destiny Matrix</li>
-                      <li className="flex gap-2 items-start font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-yellow-300 mt-3 border border-white/10 p-2 rounded-lg bg-black/40"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> 🎁 Exclusive 2027 Protection Amulet</li>
+                      <li className="flex gap-2 items-start font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-yellow-300 mt-3 border border-white/10 p-2 rounded-lg bg-black/40"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> ?럞 Exclusive 2027 Protection Amulet</li>
                     </ul>
                     <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black transition-colors shadow-[0_0_30px_rgba(168,85,247,0.5)]">Unlock Masterplan</button>
                   </div>
@@ -325,7 +319,7 @@ export default function OracleLanding() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col items-center md:items-start">
             <span className="text-2xl font-black tracking-widest text-zinc-100 drop-shadow-md">K-ORACLE</span>
-            <p className="text-zinc-500 text-sm mt-2">© {new Date().getFullYear()} K-Oracle. All rights reserved.</p>
+            <p className="text-zinc-500 text-sm mt-2">짤 {new Date().getFullYear()} K-Oracle. All rights reserved.</p>
             <p className="text-zinc-600 text-xs mt-1 max-w-sm text-center md:text-left">Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.</p>
           </div>
           
