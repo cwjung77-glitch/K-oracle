@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import React, { useState } from 'react';
 import { Lock, ShieldCheck, Loader2, CreditCard, Smartphone } from 'lucide-react';
@@ -12,27 +12,27 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
   const isDaily = activeTab === 'daily';
   
   let productName = "2026 Full Destiny Report";
-  let price = ".99";
+  let price = "$4.99";
   
   if (isBeauty) {
     productName = "K-Beauty Deep Dive Report";
-    price = ".99";
+    price = "$9.99";
   } else if (isDaily || selectedPlan === 'daily') {
     productName = "Daily Cosmic Fortune";
-    price = ".99";
+    price = "$0.99";
   } else {
     if (selectedPlan === 'q4') {
       productName = "2026 Q4 Finale";
-      price = ".99";
+      price = "$4.99";
     } else if (selectedPlan === 'compatibility') {
       productName = "Deep Chemistry & Compatibility Report";
-      price = ".99";
+      price = "$4.99";
     } else if (selectedPlan === 'fullyear') {
       productName = "2027 Full Year";
-      price = ".99";
+      price = "$9.99";
     } else {
       productName = "26+27 VIP Masterplan";
-      price = ".99";
+      price = "$11.99";
     }
   }
 
@@ -98,7 +98,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
           </div>
           
           <div className="mt-4">
-            <p className={\	ext-sm font-black uppercase tracking-wider \\}>
+            <p className={`text-sm font-black uppercase tracking-wider ${themeColor}`}>
               {productName}
             </p>
             <div className="mt-1 flex items-baseline gap-1">
@@ -132,7 +132,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
             <button
               type="submit"
               disabled={isProcessing}
-              className={\w-full flex items-center justify-center gap-2 \ text-zinc-900 font-black text-lg py-4 px-6 rounded-xl \ transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_0_20px_rgba(234,179,8,0.2)]\}
+              className={`w-full flex items-center justify-center gap-2 ${bgTheme} text-zinc-900 font-black text-lg py-4 px-6 rounded-xl ${hoverTheme} transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_0_20px_rgba(234,179,8,0.2)]`}
             >
               {isProcessing ? (
                 <Loader2 size={24} className="animate-spin" />
