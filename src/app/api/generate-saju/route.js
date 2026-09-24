@@ -1,5 +1,8 @@
 export const maxDuration = 60;
 import { NextResponse } from 'next/server';
+import Redis from 'ioredis';
+
+const redis = process.env.REDIS_URL ? new Redis(process.env.REDIS_URL) : null;
 
 export async function POST(req) {
   try {
@@ -19,259 +22,134 @@ export async function POST(req) {
       });
     }
 
-    const todayStr = new Date().toISOString().split('T')[0];
-
-    let targetYears = "the last 3 months of 2026 (October to December)";
-    let timeConstraint = "CRITICAL RULE: Do NOT analyze or mention any past months before October 2026. Focus purely on the present and the future.";
-    
-    if (plan === 'fullyear') {
-      targetYears = "the entire year of 2027 (January to December)";
-      timeConstraint = "CRITICAL RULE: Focus exclusively on the 12 months of 2027.";
+    // CACHE CHECK
+    const cacheKey = `saju:${userName}:${birthData}:${gender}:${lang}:${plan}`;
+    if (redis) {
+      try {
+        const cachedData = await redis.get(cacheKey);
+        if (cachedData) {
+          console.log(`[Cache Hit] Returning cached saju report for ${cacheKey}`);
+          return NextResponse.json({ success: true, ...JSON.parse(cachedData) });
+        }
+      } catch(e) {
+        console.error("Redis Cache Error:", e);
+      }
     }
-    else if (plan === 'bundle') {
-      targetYears = "Q4 2026 (Oct-Dec) and the entire year of 2027";
-      timeConstraint = "CRITICAL RULE: Do NOT analyze early or mid 2026. Focus your analysis entirely on the transition from late 2026 into the whole year of 2027.";
+
+    // Pseudo-deterministic choice for missing idol name
+    let idolName = bodyIdolName;
+    if (!idolName) {
+      const idols = ["Jungkook (BTS)", "Lisa (BLACKPINK)", "Felix (Stray Kids)", "Karina (aespa)", "Eunwoo (ASTRO)", "Wonyoung (IVE)"];
+      const hashStr = birthData + userName + gender;
+      let hash = 0;
+      for (let i = 0; i < hashStr.length; i++) {
+        hash = hashStr.charCodeAt(i) + ((hash << 5) - hash);
+      }
+      hash = Math.abs(hash);
+      idolName = idols[hash % idols.length];
     }
-    
-    const idolName = bodyIdolName || body.idolName || "Your Partner";
-    const isCompatibility = plan === 'compatibility';
-    
-    // Generate deterministic past life archetypes based on DOB to ensure consistency across plans
-    const karmicArchetypes = [
-      "a Royal Scholar", "a Wandering Merchant", "a Fierce Warrior", "a Palace Healer", "an Exiled Noble", 
-      "a Temple Monk", "a Mystic Shaman", "a Wealthy Landlord", "a Rebel Leader", "a Master Artisan",
-      "a Court Musician", "a Shadow Assassin", "a Silk Weaver", "a Royal Astronomer", "a Border Guard",
-      "a Masked Dancer", "a Feng Shui Master", "a Fallen Prince", "a Hidden Queen", "a Blacksmith of Legends",
-      "a Traveling Poet", "a Sea Captain", "a Royal Tea Brewer", "a Calligraphy Master", "a Head Eunuch",
-      "a Tiger Hunter", "a Herbalist in the Deep Mountains", "a Corrupt Magistrate", "a Righteous Outlaw", "a Book Smuggler",
-      "a Royal Food Taster", "a Keeper of the Royal Tombs", "a Blind Fortune Teller", "a Gisaeng of High Arts", "a Royal Architect",
-      "a Spy for the King", "a Deserted Soldier", "a Pearl Diver", "a Keeper of the Sacred Fire", "a Diplomat to Ming",
-      "a Master of Swords", "a Royal Falconer", "a Matchmaker for the Elite", "a Keeper of Forbidden Books", "a Dragon Boat Racer",
-      "a Salt Merchant", "a Royal Mapmaker", "a Keeper of Royal Hounds", "a Master of Fireworks", "a Secret Emissary"
-    ];
-    let kHash = 0;
-    const kDob = birthData || '1990-01-01';
-    for (let i=0; i<kDob.length; i++) kHash = kDob.charCodeAt(i) + ((kHash << 5) - kHash);
-    const personalArchetype = karmicArchetypes[Math.abs(kHash) % karmicArchetypes.length];
 
-    const eras = ["Goguryeo Dynasty", "Baekje Dynasty", "Silla Dynasty", "Goryeo Dynasty", "Joseon Dynasty"];
-    const personalEra = eras[Math.abs(kHash) % eras.length];
-      
-    let rHash = kHash;
-    const rDob = idolName || '1995-01-01';
-    for (let i=0; i<rDob.length; i++) rHash = rDob.charCodeAt(i) + ((rHash << 5) - rHash);
-    const partnerArchetype = karmicArchetypes[Math.abs(rHash) % karmicArchetypes.length];
-    
-    let prompt = "";
-    if (isCompatibility) {
-      prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and direct.
-Client Details:
-- User Name: ${userName || 'The Client'}
-- User Birth Data: ${birthData}
-- User Gender: ${gender}
-- Partner/Idol Name: ${idolName}
-- Target Language: ${lang === 'ko' ? 'Korean' : 'English'}
+    let systemPrompt = "";
+    if (plan === 'compatibility') {
+      systemPrompt = `You are an elite Gen-Z Korean Saju compatibility expert.
+User: ${userName}, gender: ${gender}, born: ${birthData}.
+Target Idol: ${idolName}.
 
-WRITING STYLE: High-end magazine column, short punchy sentences. No markdown asterisks.
-CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an AI assistant. Use a 60/40 tone ratio: 60% of the report must be painfully accurate and decisive fact-bombing about their flaws. 40% must show deep compassion and a genuine desire to protect the relationship. NEVER use AI filler phrases like "Here is your analysis", "In conclusion", or "As a Shaman". Speak with absolute authority.
-CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or 'Joseon Dynasty', you MUST briefly and elegantly explain them so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', Joseon Dynasty: 'The ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy').
-CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. NEVER suggest breaking the law, reckless financial investments, divorces, or physically dangerous acts. Keep your "tough love" strictly constrained to psychological insights, symbolic aesthetic changes, and general career/relationship prudence. You must eliminate any legal liability.
+TONE: Fun, brutally honest, TikTok-ready, Stan Twitter vibe. 
+Use authentic Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye).
 
-CRITICAL SYSTEM INSTRUCTION: YOU MUST WRAP EACH SECTION IN EXACT XML TAGS. NEVER FORGET CLOSING TAGS. Do NOT use markdown headers instead of XML tags. YOUR ENTIRE RESPONSE MUST BE VALID XML: <REPORT> (report here) </REPORT>, <KARMA> (karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
+Output exactly TWO sections separated by '|||':
+Section 1: "Deep Chemistry & Compatibility Report" (Markdown). Break down how your Day Master interacts with ${idolName}'s perceived energy. Give a % match score.
+|||
+Section 2: "Karmic Destiny Matrix" (Markdown). Focus on past-life connections, hidden friction points, and red flags.
 
-<REPORT>
-Generate a highly personalized "Deep Cosmic Chemistry" analysis (1000 words).
-1. Analyze their elemental interaction (The Spark, The Conflict, The Secret Synergy).
-2. "The Vibe That Catches Their Eye": Describe highly specific aesthetic details (e.g., clothes, fabrics, specific scents, hairstyles) that naturally resonate with the partner's Saju element.
-3. "When Your Cosmic Energies Align": Analyze specific months where the user's romantic luck naturally peaks and aligns with the partner's Saju flow.
-4. "How to Unlock Their Heart": Describe specific conversation styles, attitudes, and psychological approaches that appeal to the partner's Saju archetype.
-CRITICAL LEGAL RULE: NEVER promise or imply that the user will actually meet, contact, or be contacted by the idol in real life. Frame EVERYTHING strictly as "Astrological Archetype Chemistry" and "The psychological vibe that resonates with their chart". Do NOT use manipulative words like "How to make him text you" or "When your paths will physically cross".
-Use exact string "[CATEGORY: Category Name]" for headings.
-
-<KARMA>
-Generate "Past Life Connection" (800 words).
-CRITICAL RULE: The User's fixed past life incarnation is: "${personalArchetype} in the ${personalEra}". The Partner's fixed past life incarnation is: "${partnerArchetype} in the ${personalEra}". You MUST use these exact identities. Do not invent different roles.
-CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story or a cheesy romance novel. Present this as a serious, profound karmic deduction based on ancient Eastern astrology. Explain how their specific paths crossed in the ${personalEra} and what karmic dynamic they formed. Explain that their current real-world behavioral patterns (e.g., why they argue over certain things, why they feel an instant magnetic pull) are psychological echoes of this past life trauma or bond. Connect the past life directly to their present-day psychology.
-Use exact string "[CATEGORY: Category Name]" for headings.
-
-<FORTUNE>
-Generate "Relationship Fortune for Today" (3 sentences).
-
-<MATRIX>
-{"wealth":{"opportunity":"1-2 sentences","danger":"1-2 sentences"},"romance":{"opportunity":"1-2 sentences","danger":"1-2 sentences"}}`;
+Language: ${isEs ? 'Spanish' : 'English'}.`;
     } else {
-      prompt = `You are a 40-year veteran Korean Shaman. Your tone is mystical, luxurious, and slightly direct ("Tough Love Grandmaster").
-Client Details:
-- User Name: ${userName || 'The Client'}
-- Birth Data: ${birthData}
-- Gender: ${gender}
-- Today's Date: ${todayStr}
-- Target Language: ${lang === 'ko' ? 'Korean (Native Korean Language)' : isEs ? 'Spanish' : 'English'}
+      systemPrompt = `You are a highly sought-after, brutally honest Gen-Z Korean Saju master.
+User: ${userName}, gender: ${gender}, born: ${birthData}.
+Daily Vibe Context (if any): ${dailyVibe || 'None'}
 
-WRITING STYLE: Use short, punchy sentences. Write like a high-end, fast-paced magazine column to maximize readability. Do not include markdown asterisks like **bold**. ABSOLUTELY NO GENERIC FLUFF.
-CRITICAL TONE RULE (60% Strict / 40% Compassionate): You MUST NOT sound like an AI assistant. Speak directly to the soul of the client with the unapologetic authority of a grandmaster. Use a 60/40 tone ratio: 60% of the report must be painfully accurate, strict, and decisive fact-bombing (Tough Love). The remaining 40% (especially during remedies) must show deep compassion, empathy, and a genuine desire to protect the client. NEVER use AI filler phrases like "Here is your analysis", "In conclusion", or "It is important to remember". Give direct commands.
+TONE: Intense, mystical, highly confident, TikTok-ready. 
+Use authentic Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye). No pinyin.
 
-CRITICAL SAFETY RULE FOR ENTIRE REPORT: NEVER predict physical death, terminal illness, or give medical diagnoses. NEVER suggest breaking the law, reckless financial investments, divorces, or physically dangerous acts. Keep your "tough love" strictly constrained to psychological insights, symbolic aesthetic changes, and general career/relationship prudence. You must eliminate any legal liability.
+Output exactly TWO sections separated by '|||':
+Section 1: "26+27 VIP Masterplan" (Markdown). Break down their Day Master. Give specific month-by-month predictions for Q4 2026 and early 2027.
+|||
+Section 2: "Hidden Karma & Love Matrix" (Markdown). Reveal dark truths about their wealth potential and romantic red flags.
 
-CRITICAL SYSTEM INSTRUCTION: YOU MUST WRAP EACH SECTION IN EXACT XML TAGS. NEVER FORGET CLOSING TAGS. Do NOT use markdown headers instead of XML tags. YOUR ENTIRE RESPONSE MUST BE VALID XML: <REPORT> (report here) </REPORT>, <KARMA> (karma here) </KARMA>, <FORTUNE> (fortune here) </FORTUNE>, <MATRIX> (json here) </MATRIX>.
-${timeConstraint}
-
-<REPORT>
-  Generate a highly personalized "${targetYears} K-Astrology (Saju) Masterplan" (1000 words). Focus specifically on the year(s): ${targetYears}.
-  1. Analyze their 5 Elements (Wood, Fire, Earth, Metal, Water) based on birth date.
-  2. Break it down into: Career/Wealth, and Secret Remedy.
-  3. "Activating Your Peach Blossom (Dohwasal)": Provide a hyper-specific, micro-detailed guide on how to maximize their romantic attraction energy. Advise them on highly specific aesthetic choices (e.g., specific clothing fabrics, jewelry types, subtle scents, or hairstyles) that unblock their Saju energy and attract potential partners. Frame this NOT as generic dating advice, but strictly as "Shamanic Energy Activation" or "Feng Shui for the body" based on their gender and chart.
-  Use the exact string "[CATEGORY: Category Name]" to create headings.
-
-<KARMA>
-Generate a highly personalized "Past Life Karma & Debts" analysis (800 words).
-1. Analyze their past life incarnation based on the birth date. CRITICAL RULE: Their fixed past life incarnation is: "${personalArchetype} in the ${personalEra}". You MUST use this exact identity.
-CRITICAL TONE RULE FOR PAST LIFE: DO NOT write a fictional story. Present this as a serious, profound karmic deduction. Explain that their current real-world behavioral patterns, irrational fears, or unexplainable talents are psychological echoes of this specific past life in the ancient Korean kingdom. Frame it as a deep psychological and mystical revelation, not a fantasy tale.
-2. Explain their Karmic Debt and provide a spiritual method (Bi-bang) to sever it in ${targetYears}.
-CRITICAL CULTURAL TRANSLATION RULE: Whenever you use Korean-specific terms like 'Bi-bang', 'Saju', or the specific dynasty name, you MUST briefly and elegantly explain them the first time they are used so Western users understand the mystique. (e.g., Saju: 'Ancient Korean Astrology', ${personalEra}: 'An ancient Korean Kingdom', Bi-bang: 'A secret shamanic remedy used to alter fate'). Do not assume they know Korean history or terminology.
-CRITICAL SAFETY RULE FOR BI-BANG: The remedy MUST be 100% safe, indoor, and purely symbolic (e.g., keeping a silver coin in a wallet, wearing a specific color, writing a word on paper and tearing it up). ABSOLUTELY DO NOT suggest using fire, burning things, lighting candles, going to mountains/rivers, or doing activities at midnight. Ensure zero physical or legal risks.
-Use the exact string "[CATEGORY: Category Name]" to create headings.
-
-<FORTUNE>
-Generate "Today's Fortune" (Daily Horoscope) for today: ${todayStr}.
-Keep it under 3-4 sentences. Highly actionable, specific to their Saju today. No headings.
-
-<MATRIX>
-Generate the Wealth and Romance Matrix data as pure JSON. MUST be exactly this format:
-{"wealth":{"opportunity":"1-2 sentences","danger":"1-2 sentences"},"romance":{"opportunity":"1-2 sentences","danger":"1-2 sentences"}}`;
+Language: ${isEs ? 'Spanish' : 'English'}.`;
     }
 
-    console.log("[K-Oracle Engine] Sending consolidated single prompt to Google Gemini...");
-    
-    // Using the latest and most stable gemini-3.7-flash for optimal speed and reliability
-    if (!isCompatibility) { prompt += "\n"; }
-    
-    let response;
-    let data;
-    let success = false;
-    let lastError = null;
+    const requestBody = {
+      contents: [{
+        parts: [{ text: systemPrompt }]
+      }],
+      generationConfig: {
+        temperature: 0.8,
+        maxOutputTokens: 8192
+      }
+    };
 
     const fallbackModels = ['gemini-2.5-flash', 'gemini-3.6-flash', 'gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-flash-latest'];
+    let lastError = null;
+    let data = null;
+    let response = null;
 
-    for (let i = 0; i < apiKeys.length; i++) {
-      const currentKey = apiKeys[i];
-      for (let j = 0; j < fallbackModels.length; j++) {
-        const currentModel = fallbackModels[j];
+    for (const currentKey of apiKeys) {
+      if (response && response.ok) break;
+      for (const currentModel of fallbackModels) {
         try {
-          response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${currentKey}`, {
+          const url = `https://generativelanguage.googleapis.com/v1beta/models/${currentModel}:generateContent?key=${currentKey}`;
+          response = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ 
-              contents: [{ parts: [{ text: prompt }] }], 
-              generationConfig: { temperature: 0.1, topK: 1 },
-              safetySettings: [
-                { category: "HARM_CATEGORY_HARASSMENT", threshold: "BLOCK_NONE" },
-                { category: "HARM_CATEGORY_HATE_SPEECH", threshold: "BLOCK_NONE" },
-                { category: "HARM_CATEGORY_SEXUALLY_EXPLICIT", threshold: "BLOCK_NONE" },
-                { category: "HARM_CATEGORY_DANGEROUS_CONTENT", threshold: "BLOCK_NONE" }
-              ]
-            })
+            body: JSON.stringify(requestBody)
           });
+          data = await response.json();
           
           if (response.ok) {
-            data = await response.json();
-            if (!data.error) {
-              success = true;
-              break; // Success! Break out of model rotation
-            }
+            lastError = null;
+            break; 
+          } else {
+            lastError = data;
           }
-          
-          // If not ok or has error, capture it and let loop continue to next model
-          lastError = await response.text();
-          console.warn(`[API Rotation] Key ${i + 1}, Model ${currentModel} failed. Status: ${response.status}. Trying next...`);
         } catch (err) {
-          lastError = err.message;
-          console.warn(`[API Rotation] Key ${i + 1}, Model ${currentModel} failed with network error. Trying next...`);
+          lastError = err;
         }
       }
-      
-      if (success) {
-        break; // Success! Break out of key rotation
-      }
     }
 
-    if (!success) {
-      throw new Error("API_RATE_LIMIT");
+    if (!response || !response.ok) {
+        throw new Error(`Gemini API error after retries: ${JSON.stringify(lastError)}`);
     }
 
-    const fullText = data.candidates?.[0]?.content?.parts?.[0]?.text || "";
-
-    const extractSection = (text, sectionName) => {
-      let regex = new RegExp(`<${sectionName}>([\\s\\S]*?)</${sectionName}>`, 'i');
-      let match = text.match(regex);
-      if (match) return match[1].trim();
-
-      regex = new RegExp(`<${sectionName}>([\\s\\S]*?)(?=<[A-Z]+>|$)`, 'i');
-      match = text.match(regex);
-      if (match) return match[1].trim();
-
-      // Markdown fallback
-      if (sectionName === 'REPORT') regex = /(?:^|\n)(?:##?\s*)?(?:\*\*)?(?:Deep Cosmic Chemistry|Astrology Masterplan|Report)(?:\*\*)?.*?\n([\s\S]*?)(?=\n(?:##?\s*)?(?:\*\*)?(?:Past Life|Karma|Today|Fortune|Matrix)(?:\*\*)?|$)/i;
-      else if (sectionName === 'KARMA') regex = /(?:^|\n)(?:##?\s*)?(?:\*\*)?(?:Past Life|Karma)(?:\*\*)?.*?\n([\s\S]*?)(?=\n(?:##?\s*)?(?:\*\*)?(?:Deep Cosmic Chemistry|Astrology Masterplan|Report|Today|Fortune|Matrix)(?:\*\*)?|$)/i;
-      else if (sectionName === 'FORTUNE') regex = /(?:^|\n)(?:##?\s*)?(?:\*\*)?(?:Today|Fortune)(?:\*\*)?.*?\n([\s\S]*?)(?=\n(?:##?\s*)?(?:\*\*)?(?:Deep Cosmic Chemistry|Astrology Masterplan|Report|Past Life|Karma|Matrix)(?:\*\*)?|$)/i;
-      else if (sectionName === 'MATRIX') regex = /\{[\s\S]*"wealth"[\s\S]*\}/i;
-
-      match = text.match(regex);
-      if (match) {
-        if (sectionName === 'MATRIX') return match[0].trim();
-        return match[1].trim();
-      }
-      return null;
-    };
+    const textOutput = data.candidates[0].content.parts[0].text;
+    const parts = textOutput.split('|||');
+    const reportText = parts[0] ? parts[0].trim() : "Unable to generate report.";
+    const karmaText = parts[1] ? parts[1].trim() : "";
     
-    let reportText = extractSection(fullText, 'REPORT');
-    let karmaText = extractSection(fullText, 'KARMA');
-    let dailyFortune = extractSection(fullText, 'FORTUNE');
-    let matrixResponse = extractSection(fullText, 'MATRIX');
+    // Default mock PDF logic
+    const pdfUrl = "https://k-oracle-saju.s3.amazonaws.com/mock-report.pdf";
 
-    // If extraction failed, provide the full text as a fallback
-    if (!reportText && !karmaText) {
-      reportText = fullText ? fullText.replace(/\*\*/g, '') : "Error: Cosmic energies blocked (Safety filter).";
-      karmaText = "Included in the main report.";
-      dailyFortune = "Included in the main report.";
-      matrixResponse = "{}";
-    } else {
-      reportText = (reportText || "Error generating report.").replace(/\*\*/g, '');
-      karmaText = (karmaText || "Error generating karma.").replace(/\*\*/g, '');
-      dailyFortune = (dailyFortune || "Error generating daily fortune.").replace(/\*\*/g, '');
-      matrixResponse = matrixResponse || "{}";
-    }
-
-    let matrixData = null;
-    try {
-      matrixData = JSON.parse(matrixResponse.replace(/```json/g, '').replace(/```/g, '').trim());
-    } catch(e) {
-      console.error('Failed to parse matrix JSON:', e);
-      matrixData = { 
-        wealth: { opportunity: 'Matrix data failed to generate.', danger: 'Please check logs.' },
-        romance: { opportunity: 'Matrix data failed to generate.', danger: 'Please check logs.' }
-      };
-    }
-
-    return NextResponse.json({ 
-      success: true, 
+    const finalData = {
       reportText,
       karmaText,
-      matrixData,
-      dailyFortune,
-      pdfUrl: ""
-    });
+      pdfUrl
+    };
 
+    // CACHE SET: Save the result to Redis (ttl 30 days for big reports)
+    if (redis) {
+      try {
+        await redis.set(cacheKey, JSON.stringify(finalData), 'EX', 2592000); // 30 days
+      } catch(e) {
+        console.error("Redis Cache Set Error:", e);
+      }
+    }
+
+    return NextResponse.json({ success: true, ...finalData });
+    
   } catch (error) {
-    console.error('[Report Generation Error]', error);
-    const isRateLimit = error.message === "API_RATE_LIMIT" || (error.message && error.message.includes("429"));
-    return NextResponse.json({ 
-      success: false, 
-      isRateLimit,
-      error: error.message || 'Failed to generate destiny report.' 
-    }, { status: isRateLimit ? 429 : 500 });
+    console.error("Saju API Error:", error);
+    return NextResponse.json({ success: false, message: error.message }, { status: 500 });
   }
 }
-
-
-

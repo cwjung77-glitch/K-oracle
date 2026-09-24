@@ -1,5 +1,8 @@
 export const maxDuration = 60;
 import { NextResponse } from 'next/server';
+import Redis from 'ioredis';
+
+const redis = process.env.REDIS_URL ? new Redis(process.env.REDIS_URL) : null;
 
 export async function POST(req) {
   try {
@@ -11,15 +14,28 @@ export async function POST(req) {
     if (apiKeys.length === 0 || !apiKeys[0]) {
       return NextResponse.json({ success: false, message: "No Gemini API key found" }, { status: 500 });
     }
-    // Keys will be rotated below
 
     const todayStr = new Date().toISOString().split('T')[0];
     
-    // Deterministic selection based on birthData + todayStr to build trust (no pure randomness)
+    // 1. CACHE CHECK: BirthData + Time + Gender + UserName + Date
+    const cacheKey = `daily:${userName}:${birthData}:${gender}:${lang}:${todayStr}`;
+    if (redis) {
+      try {
+        const cachedData = await redis.get(cacheKey);
+        if (cachedData) {
+          console.log(`[Cache Hit] Returning cached daily fortune for ${cacheKey}`);
+          return NextResponse.json({ success: true, data: JSON.parse(cachedData) });
+        }
+      } catch(e) {
+        console.error("Redis Cache Error:", e);
+      }
+    }
+    
+    // Deterministic selection based on birthData + userName + todayStr to build trust
     const idols = ["Jungkook (BTS)", "Lisa (BLACKPINK)", "Felix (Stray Kids)", "Karina (aespa)", "Eunwoo (ASTRO)", "Wonyoung (IVE)"];
     const cosmetics = ["Rom&nd", "Clio", "3CE", "Peripera", "ETUDE", "Unleashia"];
     
-    const hashStr = birthData + todayStr;
+    const hashStr = birthData + userName + todayStr;
     let hash = 0;
     for (let i = 0; i < hashStr.length; i++) {
       hash = hashStr.charCodeAt(i) + ((hash << 5) - hash);
@@ -102,6 +118,15 @@ export async function POST(req) {
       throw new Error(`Failed to parse JSON: ${e.message}. Text was: ${textOutput}`);
     }
     
+    // 2. CACHE SET: Save the result to Redis for 24 hours (86400 seconds)
+    if (redis) {
+      try {
+        await redis.set(cacheKey, JSON.stringify(result), 'EX', 86400);
+      } catch(e) {
+        console.error("Redis Cache Set Error:", e);
+      }
+    }
+
     return NextResponse.json({ success: true, data: result });
   } catch (error) {
     console.error("Daily API Error:", error);
