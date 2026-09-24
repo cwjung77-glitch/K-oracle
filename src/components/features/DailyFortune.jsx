@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, Star, Target, Palette, Zap, Check, Lock, ChevronRight } from 'lucide-react';
+import { Sparkles, Star, Target, Palette, Zap, Check, Lock, ChevronRight, Download } from 'lucide-react';
+import { toPng } from 'html-to-image';
 import Link from 'next/link';
 
 
@@ -101,6 +102,37 @@ export default function DailyFortune({ lang, onGoToPremium, hasPaid }) {
       }
     }
   }, []);
+
+
+  const [isDownloading, setIsDownloading] = useState(false);
+  const handleDownloadImage = async () => {
+    const card = document.getElementById('daily-talisman-card');
+    if (!card) return;
+    setIsDownloading(true);
+    try {
+      const dataUrl = await toPng(card, { 
+        cacheBust: true, pixelRatio: 3, backgroundColor: '#09090b',
+        style: { transform: 'scale(1)', transformOrigin: 'top left' }
+      });
+      const res = await fetch('/api/download-image', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ dataUrl })
+      });
+      if (!res.ok) throw new Error("Failed to generate download");
+      const blob = await res.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `daily-amulet.jpg`;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+    } catch (err) {
+      console.error(err);
+      alert("Failed to download image. Try again.");
+    } finally {
+      setIsDownloading(false);
+    }
+  };
 
   const handleGenerate = async () => {
     if(!dob || !name) {
@@ -234,14 +266,18 @@ export default function DailyFortune({ lang, onGoToPremium, hasPaid }) {
                   <div className="absolute inset-0 bg-[url('/noise.png')] opacity-30 mix-blend-overlay"></div>
                   <div className="relative z-10 flex flex-col items-center">
                     <h3 className="text-yellow-400 font-bold tracking-widest text-sm mb-4 uppercase">{lang === 'es' ? 'Tu Amuleto Exclusivo de Hoy' : 'Your Exclusive Daily Amulet'}</h3>
-                    <div className="w-48 h-64 bg-zinc-900 rounded-2xl flex flex-col items-center justify-center p-4 border border-yellow-500/50 mb-4 shadow-xl relative overflow-hidden">
+                                        <div id="daily-talisman-card" className="w-48 h-64 bg-zinc-900 rounded-2xl flex flex-col items-center justify-center p-4 border border-yellow-500/50 mb-4 shadow-xl relative overflow-hidden">
                       <div className="absolute top-2 left-2 right-2 bottom-2 border border-yellow-500/20 rounded-xl"></div>
                       <div className="text-5xl mb-4">{getDailyTalisman(name || 'User', new Date().toISOString().split('T')[0]).icon}</div>
                       <div className="text-2xl font-serif-kr text-yellow-100 font-bold tracking-widest mb-1">{getDailyTalisman(name || 'User', new Date().toISOString().split('T')[0]).ko}</div>
                       <div className="text-xs text-yellow-500 font-bold tracking-widest uppercase mb-1">{getDailyTalisman(name || 'User', new Date().toISOString().split('T')[0]).en}</div>
                       <div className="text-[10px] text-zinc-400 text-center leading-tight">{getDailyTalisman(name || 'User', new Date().toISOString().split('T')[0]).desc}</div>
                     </div>
-                    <p className="text-zinc-300 text-sm text-center">
+                    <button onClick={handleDownloadImage} disabled={isDownloading} className="px-6 py-2.5 bg-yellow-500/20 hover:bg-yellow-500/40 text-yellow-500 border border-yellow-500/50 rounded-full font-bold flex items-center gap-2 transition-all shadow-[0_0_15px_rgba(234,179,8,0.2)] disabled:opacity-50">
+                      {isDownloading ? <Sparkles className="animate-spin" size={16} /> : <Download size={16} />}
+                      {lang === 'es' ? 'Descargar' : 'Download Amulet'}
+                    </button>
+                    <p className="text-zinc-400 text-xs text-center mt-4 max-w-[200px]">
                       {lang === 'es' ? 'Guarda esta imagen en tu celular para atraer buena suerte hoy.' : 'Save this amulet to your phone to attract luck today.'}
                     </p>
                   </div>
