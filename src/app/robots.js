@@ -1,9 +1,9 @@
-﻿export default function robots() {
+export default function robots() {
   return {
     rules: {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://k-oracle.vercel.app/sitemap.xml', // Change to actual production URL later
+    sitemap: 'https://thekoracle.com/sitemap.xml', // Change to actual production URL later
   };
 }
