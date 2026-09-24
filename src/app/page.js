@@ -222,10 +222,11 @@ export default function OracleLanding() {
           
             {activeTab === 'daily' && (
               <DailyFortune 
-                key={`daily-${resetKey}`}
-                lang={lang}
-                onGoToPremium={() => { setSelectedPlan('daily'); setShowCheckout(true); }}
-              />
+                  key={`daily-${resetKey}`}
+                  lang={lang}
+                  hasPaid={hasPaid}
+                  onGoToPremium={() => { setSelectedPlan('daily'); setShowCheckout(true); }}
+                />
             )}
             {activeTab === 'saju' && <SajuCompatibility key={`saju-${resetKey}`} onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} />}
             {activeTab === 'beauty' && <PersonalColor key={`beauty-${resetKey}`} />}
