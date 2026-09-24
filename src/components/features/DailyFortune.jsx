@@ -75,7 +75,7 @@ function getDailyTalisman(name, dateStr) {
   return dailyTalismans[index];
 }
 
-export default function DailyFortune({ lang, onGoToPremium }) {
+export default function DailyFortune({ lang, onGoToPremium, hasPaid }) {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [dob, setDob] = useState('');

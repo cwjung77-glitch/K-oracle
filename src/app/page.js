@@ -307,7 +307,7 @@ export default function OracleLanding() {
           </div>
         ) : (
           <div className="max-w-4xl mx-auto">
-            {activeTab === 'saju' ? <DeepDiveReport lang={lang} /> : <BeautyDeepDiveReport lang={lang} />}
+            {activeTab === 'saju' ? <DeepDiveReport lang={lang} /> : activeTab === 'beauty' ? <BeautyDeepDiveReport lang={lang} /> : null}
           </div>
         )}
       </section>
