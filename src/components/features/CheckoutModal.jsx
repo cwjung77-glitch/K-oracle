@@ -1,10 +1,11 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from 'react';
-import { Lock, ShieldCheck, Loader2, CreditCard, Smartphone } from 'lucide-react';
+import { Lock, ShieldCheck, Loader2, CreditCard, Smartphone, AlertCircle } from 'lucide-react';
 
 export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, selectedPlan }) {
   const [isProcessing, setIsProcessing] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
   
   if (!isOpen) return null;
 
@@ -12,27 +13,27 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
   const isDaily = activeTab === 'daily';
   
   let productName = "2026 Full Destiny Report";
-  let price = "$4.99";
+  let price = ".99";
   
   if (isBeauty) {
     productName = "K-Beauty Deep Dive Report";
-    price = "$9.99";
+    price = ".99";
   } else if (isDaily || selectedPlan === 'daily') {
     productName = "Daily Cosmic Fortune";
-    price = "$0.99";
+    price = ".99";
   } else {
     if (selectedPlan === 'q4') {
       productName = "2026 Q4 Finale";
-      price = "$4.99";
+      price = ".99";
     } else if (selectedPlan === 'compatibility') {
       productName = "Deep Chemistry & Compatibility Report";
-      price = "$4.99";
+      price = ".99";
     } else if (selectedPlan === 'fullyear') {
       productName = "2027 Full Year";
-      price = "$9.99";
+      price = ".99";
     } else {
       productName = "26+27 VIP Masterplan";
-      price = "$11.99";
+      price = ".99";
     }
   }
 
@@ -43,12 +44,20 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
   const handlePay = async (e) => {
     e.preventDefault();
     setIsProcessing(true);
+    setErrorMsg("");
     
     try {
       const email = e.target && e.target.email ? e.target.email.value : 'cwjung77@gmail.com';
-      localStorage.setItem('purchasedProduct', activeTab);
-      localStorage.setItem('purchasedPlan', selectedPlan);
-      // Call our Next.js API Route for Gumroad integration
+      try {
+        localStorage.setItem('purchasedProduct', activeTab);
+        localStorage.setItem('purchasedPlan', selectedPlan || 'bundle');
+      } catch(e) {
+        console.warn("localStorage disabled", e);
+      }
+      
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 8000);
+
       const response = await fetch('/api/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -56,21 +65,27 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
           productId: selectedPlan || 'bundle',
           email,
           activeTab
-        })
+        }),
+        signal: controller.signal
       });
       
+      clearTimeout(timeoutId);
+      
+      if (!response.ok) {
+        throw new Error(\Server error: \\);
+      }
+
       const data = await response.json();
 
-      if (data.success) {
-        console.log("Redirecting to Gumroad Checkout URL:", data.checkoutUrl);
+      if (data.success && data.checkoutUrl) {
         window.location.href = data.checkoutUrl;
       } else {
-        alert("Failed to initialize checkout. Please try again.");
+        setErrorMsg("Failed to initialize checkout. Please try again.");
         setIsProcessing(false);
       }
     } catch (err) {
-      console.error(err);
-      alert("Something went wrong with the payment request.");
+      console.error("Payment error:", err);
+      setErrorMsg(err.name === 'AbortError' ? "Request timed out. Please try again." : "Something went wrong. Please check your connection.");
       setIsProcessing(false);
     }
   };
@@ -98,7 +113,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
           </div>
           
           <div className="mt-4">
-            <p className={`text-sm font-black uppercase tracking-wider ${themeColor}`}>
+            <p className={\	ext-sm font-black uppercase tracking-wider \\}>
               {productName}
             </p>
             <div className="mt-1 flex items-baseline gap-1">
@@ -113,6 +128,13 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
               To ensure the highest level of security and global compliance, your payment will be processed securely by our official merchant of record, <strong className="text-white">Gumroad</strong>.
             </p>
             
+            {errorMsg && (
+              <div className="bg-red-500/10 border border-red-500/50 text-red-400 p-3 rounded-lg text-sm flex gap-2 items-center">
+                <AlertCircle size={16} />
+                {errorMsg}
+              </div>
+            )}
+
             <div>
               <label className="block text-xs font-bold text-zinc-400 uppercase tracking-wider mb-2">
                 EMAIL FOR RECEIPT & ACCESS
@@ -132,7 +154,7 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
             <button
               type="submit"
               disabled={isProcessing}
-              className={`w-full flex items-center justify-center gap-2 ${bgTheme} text-zinc-900 font-black text-lg py-4 px-6 rounded-xl ${hoverTheme} transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_0_20px_rgba(234,179,8,0.2)]`}
+              className={\w-full flex items-center justify-center gap-2 \ text-zinc-900 font-black text-lg py-4 px-6 rounded-xl \ transition-colors disabled:opacity-50 disabled:cursor-not-allowed shadow-[0_0_20px_rgba(234,179,8,0.2)]\}
             >
               {isProcessing ? (
                 <Loader2 size={24} className="animate-spin" />
