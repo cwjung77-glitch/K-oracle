@@ -18,7 +18,7 @@ export default function PrivacyPolicyPage() {
   <h2 className="text-2xl font-bold text-white mt-8 mb-4">3. Third-Party Advertising (Google AdSense)</h2>
   <p className="mb-4">We use Google AdSense to display ads on our site. Google, as a third-party vendor, uses cookies to serve ads on our site based on prior visits. Users may opt-out of personalized advertising by visiting Google's Ads Settings.</p>
   <h2 className="text-2xl font-bold text-white mt-8 mb-4">4. Contact Us</h2>
-  <p className="mb-4">If you have questions about this policy, you can contact us at cwjung77@gmail.com.</p>
+  <p className="mb-4">If you have questions about this policy, you can contact us at support@thekoracle.com.</p>
 
         </div>
       </div>

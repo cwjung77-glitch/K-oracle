@@ -13,7 +13,7 @@ export default function ContactUsPage() {
           
   <h2 className="text-2xl font-bold text-white mt-8 mb-4">Get in Touch</h2>
   <p className="mb-4">If you have any questions, business inquiries, or feedback regarding your premium reports, please contact our support team.</p>
-  <p className="mb-4"><strong>Email:</strong> cwjung77@gmail.com</p>
+  <p className="mb-4"><strong>Email:</strong> support@thekoracle.com</p>
   <p className="mb-4">We aim to respond to all inquiries within 24-48 hours.</p>
 
         </div>
