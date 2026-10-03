@@ -7,7 +7,7 @@ const redis = process.env.REDIS_URL ? new Redis(process.env.REDIS_URL) : null;
 export async function POST(req) {
   try {
     const body = await req.json();
-    const { birthData, gender, lang, userName } = body;
+    const { birthData, gender, lang, userName, todayStr: clientDate } = body;
     const isEs = lang === 'es';
 
     const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
@@ -15,7 +15,7 @@ export async function POST(req) {
       return NextResponse.json({ success: false, message: "No Gemini API key found" }, { status: 500 });
     }
 
-    const todayStr = new Date().toISOString().split('T')[0];
+    const todayStr = clientDate || new Date().toISOString().split('T')[0];
     
     // 1. CACHE CHECK: BirthData + Time + Gender + UserName + Date
     const cacheKey = `daily:${userName}:${birthData}:${gender}:${lang}:${todayStr}`;

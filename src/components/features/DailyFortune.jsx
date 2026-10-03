@@ -76,7 +76,7 @@ function getDailyTalisman(name, dateStr) {
   return dailyTalismans[index];
 }
 
-export default function DailyFortune({ lang, onGoToPremium, hasPaid }) {
+export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {\n  const getLocalDateStr = () => { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); }; lang, onGoToPremium, hasPaid }) {
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [dob, setDob] = useState('');
@@ -91,7 +91,7 @@ export default function DailyFortune({ lang, onGoToPremium, hasPaid }) {
       setGender(localStorage.getItem('userGender') || 'female');
       
       // Check cache for today
-      const todayStr = new Date().toISOString().split('T')[0];
+      const todayStr = getLocalDateStr();
       const savedDate = localStorage.getItem('daily_date');
       if (savedDate === todayStr) {
         const cached = localStorage.getItem('daily_result');
@@ -150,12 +150,12 @@ export default function DailyFortune({ lang, onGoToPremium, hasPaid }) {
       const res = await fetch('/api/generate-daily', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ birthData: dob, gender, lang, userName: name })
+        body: JSON.stringify({ birthData: dob, gender, lang, userName: name, todayStr })
       });
       const data = await res.json();
       if (data.success) {
         setResult(data.data);
-        const todayStr = new Date().toISOString().split('T')[0];
+        const todayStr = getLocalDateStr();
         localStorage.setItem('daily_date', todayStr);
         localStorage.setItem('daily_result', JSON.stringify(data.data));
       } else {
