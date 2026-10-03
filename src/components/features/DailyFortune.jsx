@@ -76,7 +76,8 @@ function getDailyTalisman(name, dateStr) {
   return dailyTalismans[index];
 }
 
-export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {\n  const getLocalDateStr = () => { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); }; lang, onGoToPremium, hasPaid }) {
+export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
+  const getLocalDateStr = () => { const d = new Date(); return d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0') + '-' + String(d.getDate()).padStart(2,'0'); };
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
   const [dob, setDob] = useState('');
