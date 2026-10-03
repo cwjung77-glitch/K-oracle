@@ -49,6 +49,7 @@ export async function POST(req) {
     User: ${userName}, gender: ${gender}, born: ${birthData}, today: ${todayStr}.
     
     TONE: Blunt, direct, Gen-Z. NO AI phrases like "cosmic energy brings" or "embrace".
+  HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors.
     TERMINOLOGY: MUST use Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye), NOT Chinese pinyin (like Gui, Jia, Bing).
     LENGTH RULES - CRITICAL: Each field must be SHORT:
     - vibe: MAX 3 sentences. 1st: Identify Day Master using KOREAN terms (e.g. "As a Gye (Yin Water) Day Master..."). 2nd: Note a positive trend. 3rd: Add a CLIFFHANGER WARNING (e.g. "...but a sudden clash tonight could ruin things."). Make them curious!

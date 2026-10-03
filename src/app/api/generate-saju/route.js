@@ -55,7 +55,8 @@ export async function POST(req) {
 User: ${userName}, gender: ${gender}, born: ${birthData}.
 Target Idol: ${idolName}.
 
-TONE: Fun, brutally honest, TikTok-ready, Stan Twitter vibe. 
+TONE: Fun, brutally honest, TikTok-ready, Stan Twitter vibe.
+  HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors. 
 Use authentic Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye).
 
 Output exactly TWO sections separated by '|||':
@@ -69,7 +70,8 @@ Language: ${isEs ? 'Spanish' : 'English'}.`;
 User: ${userName}, gender: ${gender}, born: ${birthData}.
 Daily Vibe Context (if any): ${dailyVibe || 'None'}
 
-TONE: Intense, mystical, highly confident, TikTok-ready. 
+TONE: Intense, mystical, highly confident, TikTok-ready.
+  HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors. 
 Use authentic Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye). No pinyin.
 
 Output exactly TWO sections separated by '|||':
