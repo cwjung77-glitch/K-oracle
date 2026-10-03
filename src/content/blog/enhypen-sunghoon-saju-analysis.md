@@ -1,7 +1,7 @@
 ---
 title: "Decoding ENHYPEN Sunghoon's Saju: Cosmic Secrets Behind the Star"
 slug: "enhypen-sunghoon-saju-analysis"
-date: "2026-09-23"
+date: "2026-10-02"
 excerpt: "Unpacking ENHYPEN's 'Ice Prince' Sunghoon through the lens of Korean Saju reveals a destiny carved from deep water and elegant ambition. Get ready for a cosmic deep dive into the real Park Sunghoon."
 author: "K-Oracle"
 tags: ["ENHYPEN", "ENHYPEN Sunghoon", "Saju Analysis", "Korean Astrology"]
