@@ -1,7 +1,7 @@
 ---
 title: "Red Velvet Wendy Saju Analysis: Destiny of a Resilient Vocal Queen"
 slug: "red-velvet-wendy-saju-analysis"
-date: "2026-10-04"
+date: "2026-09-28"
 excerpt: "Explore the ancient Korean Saju birth chart of Red Velvet's main vocalist, Wendy. Uncover how her Yin Earth energy, radiant Fire presence, and unshakable willpower define her world-class talent and resilience."
 author: "K-Oracle"
 tags: ["RedVelvet", "Wendy", "Saju", "KPopDestiny", "KoreanAstrology"]

@@ -1,7 +1,7 @@
 ---
 title: "Red Velvet Joy Saju Analysis: Destiny of the Radiant Mountain"
 slug: "red-velvet-joy-saju-analysis"
-date: "2026-10-04"
+date: "2026-09-28"
 excerpt: "Explore the Korean Saju chart of Red Velvet's Joy. Unveil how her Yang Earth Day Master and radiant Fire energy power her magnetic stage presence and acting talent."
 author: "K-Oracle"
 tags: ["Red Velvet", "Joy", "Saju Analysis", "Korean Astrology", "K-Pop Destiny"]
