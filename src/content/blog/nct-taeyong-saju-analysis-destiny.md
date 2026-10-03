@@ -1,11 +1,11 @@
 ---
-    title: "Cosmic Fire & Unstoppable Passion: Decoding NCT Taeyong's Saju Chart"
-    slug: "nct-taeyong-saju-analysis-destiny"
-    date: "2026-09-25"
-    excerpt: "Discover the cosmic blueprint of NCT's visionary leader Taeyong. Explore how his intense Yang Fire Day Master fuels his mesmerizing stage presence, creative genius, and steadfast leadership."
-    author: "K-Oracle"
-    tags: ["Taeyong", "NCT", "Saju", "K-Pop Saju", "Four Pillars of Destiny"]
-    ---
+title: "Cosmic Fire & Unstoppable Passion: Decoding NCT Taeyong's Saju Chart"
+slug: "nct-taeyong-saju-analysis-destiny"
+date: "2026-09-25"
+excerpt: "Discover the cosmic blueprint of NCT's visionary leader Taeyong. Explore how his intense Yang Fire Day Master fuels his mesmerizing stage presence, creative genius, and steadfast leadership."
+author: "K-Oracle"
+tags: ["Taeyong", "NCT", "Saju", "K-Pop Saju", "Four Pillars of Destiny"]
+---
 
 ## TL;DR (Quick Answer)
 

@@ -1,11 +1,11 @@
 ---
-    title: "ENHYPEN Ni-ki Saju Reading: The Cosmic Blueprint of a Dance Prodigy"
-    slug: "enhypen-niki-saju-analysis"
-    date: "2026-10-03"
-    excerpt: "Uncover the secret elemental dynamics behind ENHYPEN's Ni-ki. Discover how his Saju birth chart reveals his genius movement, magnetic charisma, and global destiny."
-    author: "K-Oracle"
-    tags: ["ENHYPEN", "Ni-ki", "Saju", "K-pop Astrology", "Four Pillars of Destiny"]
-    ---
+title: "ENHYPEN Ni-ki Saju Reading: The Cosmic Blueprint of a Dance Prodigy"
+slug: "enhypen-niki-saju-analysis"
+date: "2026-10-03"
+excerpt: "Uncover the secret elemental dynamics behind ENHYPEN's Ni-ki. Discover how his Saju birth chart reveals his genius movement, magnetic charisma, and global destiny."
+author: "K-Oracle"
+tags: ["ENHYPEN", "Ni-ki", "Saju", "K-pop Astrology", "Four Pillars of Destiny"]
+---
 
 ## TL;DR (Quick Answer)
 

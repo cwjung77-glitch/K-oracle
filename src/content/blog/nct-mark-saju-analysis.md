@@ -4,7 +4,7 @@ slug: "nct-mark-saju-analysis"
 date: "2026-09-23"
 excerpt: "Ever wondered what makes NCT's Mark Lee such a multifaceted powerhouse? We're diving deep into his Saju chart to uncover the cosmic blueprint of this iconic idol."
 author: "K-Oracle"
-tags: "[NCT]", "NCT Mark", "Saju Analysis", "Korean Astrology"
+tags: ["NCT", "NCT Mark", "Saju Analysis", "Korean Astrology"]
 ---
 What’s up, cosmic fam? Your K-Oracle is back, ready to spill the celestial tea on one of K-Pop's most legendary all-rounders: NCT’s Mark Lee. Seriously, the man breathes talent, charm, and a seemingly endless supply of good vibes. But is it just raw talent, or is the universe low-key manifesting his multi-hyphenate king status? You know the drill. We’re pulling out the Saju chart, because the stars never lie. Let’s get into the deep-end of Mark’s destiny.
 
