@@ -13,6 +13,9 @@ NCT leader Taeyong was born on a **Yang Fire Horse (丙午, Byeong-Oh)** day, gi
 
 ---
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 ## The Cosmic Flame: Taeyong’s Core Element
 
 To understand Lee Taeyong’s magnetic stage presence and untamed artistic spirit, one must look at his Day Master—the foundational energy of a Saju chart. Born on July 1, 1995, Taeyong’s core identity is **Yang Fire (丙, Byeong)** sitting atop the **Horse (午, Oh)**. 

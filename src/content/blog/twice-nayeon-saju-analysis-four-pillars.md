@@ -24,7 +24,7 @@ Think of the Day Master as the soul’s core operating system in Saju. Nayeon wa
 * **Infectious Joy and Warmth:** Just like natural sunlight lifts your mood, Byeong Fire energy radiates pure optimism. That iconic smile and the instant burst of energy she brings to every camera cue are pure Sun energy at work.
 * **Natural Leadership:** On stage, this blazing heat transforms into an effortless, magnetic presence that anchors TWICE’s energetic identity.
 
-Her Day Branch sits on **Xu (Dog / Earth)**—a warm, fertile soil that catches the heat of her fire. It grounds her raw passion into remarkable stamina, absolute loyalty to her group, and an unbeatable work ethic.
+Her Day Branch sits on **Sul (Dog / Earth)**—a warm, fertile soil that catches the heat of her fire. It grounds her raw passion into remarkable stamina, absolute loyalty to her group, and an unbeatable work ethic.
 ## 2. The Power of the Month Pillar: Peach Blossom & Metal Energy
 
 Your Month Pillar lays out your career trajectory, social magnetism, and raw talent. Nayeon entered the world during the Month of the **Rooster (乙酉 - Eul Yu)**, loading her chart with intense, highly refined **Metal element** dynamics.

@@ -32,7 +32,7 @@ Your Day Master is the heart of your chart. Karina’s core self is **Gi Earth**
 ### 2. The Metal Dragon Synergy: Double Gyeong Jin (庚辰)
 Having a double **Metal Dragon** combo in her Year and Month pillars takes her chart to a whole new level.
 * **Gyeong Metal (庚金)**: Think forged steel, sharp swords, and flawless gems. This element grants her those sharp physical proportions, incredible dance rhythm, laser focus, and an aura of untouchable perfection.
-* **Chen Dragon (辰土)**: A wet earth branch storing water that keeps excessive heat in check. Dragons bring natural authority, massive presence, and innate stage instincts. Performing isn't just a job for her—it's in her DNA.
+* **Jin Dragon (辰土)**: A wet earth branch storing water that keeps excessive heat in check. Dragons bring natural authority, massive presence, and innate stage instincts. Performing isn't just a job for her—it's in her DNA.
 ## Five Elements Breakdown & Stage Presence
 
 ```

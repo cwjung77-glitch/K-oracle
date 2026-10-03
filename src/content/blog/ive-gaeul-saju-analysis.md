@@ -16,7 +16,7 @@ IVE’s Gaeul (Kim Gaeul) has this undeniable, steady magnetism. On stage, her d
 Turn to the ancient system of **Saju** (the Four Pillars of Destiny), and her entire presence makes total sense. By reading the precise elemental alignment of the birth year, month, day, and hour, Saju pulls back the curtain on a person's core spirit. Born on **September 24, 2002**, Gaeul carries a stunning cosmic synergy between her birth name, her birth season, and her internal fire element.
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
-## The Core Pillar: Ding-Si (丁巳) — The Fire Snake
+## The Core Pillar: Ding-Sa (丁巳) — The Fire Snake
 
 At the center of Gaeul's chart sits her **Day Master**, the core energy signature representing her soul.
 
@@ -32,7 +32,7 @@ Branch: O Fire (午)    Yu Metal (酉)   Sa Fire (巳)
 * **Artist Spirit**: Jeong Fire souls thrive in visual arts, precise choreography, and intricate performances. Their energy naturally zeroes in on fine details that others miss completely.
 
 ### 2. The Power of the Sa Fire Branch (巳火)
-* Gaeul sits directly on **Sa Fire**, forming the formidable **Ding-Si (Fire Snake)** pillar. 
+* Gaeul sits directly on **Sa Fire**, forming the formidable **Ding-Sa (Fire Snake)** pillar. 
 * This gives her chart an insanely strong root system. She may present a gentle, soft-spoken exterior, but her internal core is built on pure resilience, immense stamina, and quiet competitive drive.
 * High-pressure situations won't crush her. That hidden internal fire keeps her grounded and unyielding through high-stress idol schedules.
 ## The Cosmic Alignment: Born in the Peak of Autumn
@@ -64,7 +64,7 @@ That heavy Metal star sitting in her month pillar ensures excellent money sense,
 ## Frequently Asked Questions About Gaeul's Saju
 
 ### What is IVE Gaeul's Day Master in Saju?
-Gaeul’s Day Master is **Jeong Fire (丁火)**, rooted directly on the **Sa Fire (巳火)** branch. This forms the **Ding-Si (Fire Snake)** pillar, pointing to refined intellect, subtle artistic elegance, and massive inner resilience.
+Gaeul’s Day Master is **Jeong Fire (丁火)**, rooted directly on the **Sa Fire (巳火)** branch. This forms the **Ding-Sa (Fire Snake)** pillar, pointing to refined intellect, subtle artistic elegance, and massive inner resilience.
 
 ### Why is Gaeul known for her calm and balanced vibe?
 In her chart, her strong internal Fire is balanced out by the cool, structured weight of Autumn Metal (**Yu Metal**). This dynamic tempers impulsive reactions and gives her that composed, grounded presence fans call "Gaeul Sunbae."

@@ -30,7 +30,7 @@ Add in a spicy cosmic clash between her Year element (Tiger) and Month element (
 
 ## The Day Master: Yang Earth (Mu Earth)
 
-Soyeon’s core essence is **Yang Earth (戊土 / Mu Earth)**, specifically sitting on the **Dragon (辰)** to form the formidable **Mu Chen (戊辰)** Day Pillar. 
+Soyeon’s core essence is **Yang Earth (戊土 / Mu Earth)**, specifically sitting on the **Dragon (辰)** to form the formidable **Mu Jin (戊辰)** Day Pillar. 
 
 In Saju, Yang Earth is symbolized by a massive, towering mountain. We aren't talking about a cute garden hill here; we are talking about Mount Everest. People born under Yang Earth are inherently grounded, stubborn, intensely protective, and command attention just by existing in a room. They possess an innate "boss energy" that cannot be taught. 
 

@@ -11,6 +11,9 @@ tags: ["Korean Saju", "Four Pillars of Destiny", "Saju Reading", "Eastern Astrol
 
 ---
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 ## What is Korean Saju (Four Pillars of Destiny)?
 
 Long before psychological tests took over our feeds, scholars across East Asia spent centuries mapping how universe dynamics shape human lives. In Korea, that study grew into **Saju** (사주, meaning "Four Pillars").

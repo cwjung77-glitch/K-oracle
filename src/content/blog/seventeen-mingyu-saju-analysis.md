@@ -35,7 +35,7 @@ Mingyu's core energy rests on **Gi Earth (己土)**. Unlike the harsh, unyieldin
 
 Ever wonder why it's impossible to take your eyes off him? Blame the **Peach Blossom Star (도화살 - Taohua)**. In Saju, this is the ultimate cosmic signature for head-turning charm, insane visual pull, and undeniable social magnetism.
 
-Mingyu’s Day Branch sits on the **Mao Rabbit (卯木)**, releasing a concentrated blast of pure Wood energy that supercharges his Peach Blossom placement.
+Mingyu’s Day Branch sits on the **Myo Rabbit (卯木)**, releasing a concentrated blast of pure Wood energy that supercharges his Peach Blossom placement.
 
 * **Irresistible Stage Presence:** Raw Myo Wood colliding with Gi Earth creates wild dynamic tension on stage. Grounded power meets razor-sharp, fluid movement. Good luck looking anywhere else.
 * **Natural Affection and Likability:** His aura radiates pure, approachable warmth. He gives off instant best-friend energy while casually commanding sold-out stadiums.

@@ -21,6 +21,9 @@ By reading her Four Pillars of Destiny—the ancient Korean system of Saju—we 
 
 ---
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 ## The Core Archetype: Refined Fire (Jeong Fire)
 
 In Saju, the Day Master represents the true self. Yeji was born on a **Jeong-Chuk (Yin Fire Ox)** day. 

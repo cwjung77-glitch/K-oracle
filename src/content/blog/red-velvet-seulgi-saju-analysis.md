@@ -9,14 +9,17 @@ tags: ["Red Velvet", "Seulgi", "Saju Analysis", "K-pop Astrology", "Four Pillars
 
 ## TL;DR (Quick Answer): Seulgi’s Destiny at a Glance
 
-* **Day Master (Self Element):** **Yang Water (Ren Water / 壬水)** — Like a vast, unstoppable ocean or a powerful river, giving her adaptable intelligence, calm focus, and immense artistic depth.
+* **Day Master (Self Element):** **Yang Water (Im Water / 壬水)** — Like a vast, unstoppable ocean or a powerful river, giving her adaptable intelligence, calm focus, and immense artistic depth.
 * **Dominant Elements:** **Wood (Output/Creativity)** and **Fire (Wealth/Fame)**. This combination turns her inner emotional fluid into electric performance and captivating warmth on stage.
 * **Core Career Secret:** Strong **Wood energy** fuels her relentless creative drive and physical expression (dance), while strong **Fire energy** illuminates her before the world, transforming long-term discipline into massive public recognition.
 * **Perseverance Factor:** Her Earth element in the Year Pillar provided the grounded grit needed to survive seven intense years as a trainee before taking the global stage.
 
 ---
 
-## The Core Element: Yang Water (Ren Water) Day Master
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
+## The Core Element: Yang Water (Im Water) Day Master
 
 In the ancient system of Saju, the Day Master represents the core soul and fundamental character of an individual. Born on a Yang Water day, Seulgi embodies the expansive, deep nature of ocean waters. 
 
@@ -35,8 +38,8 @@ To understand her rise as one of K-pop’s premier all-rounders, we look at the 
 | Pillar | Celestial Stem & Earthly Branch | Elemental Essence | Life Impact & Manifestation |
 | :--- | :--- | :--- | :--- |
 | **Day Pillar (Self)** | Yang Water sitting on Wu Fire / Yin Wood | Water & Fire/Wood | Deep intellect balancing vibrant, magnetic performance energy. |
-| **Month Pillar (Career & Youth)** | Bing Yin (Fire Tiger) | Fire & Wood | A blazing sun illuminating a flourishing forest; creates instant stage presence and artistic passion. |
-| **Year Pillar (Ancestry & Foundation)** | Jia Xu (Wood Dog) | Wood & Earth | Sturdy root energy that built her discipline, loyalty, and endurance through 7 years of training. |
+| **Month Pillar (Career & Youth)** | Bing In (Fire Tiger) | Fire & Wood | A blazing sun illuminating a flourishing forest; creates instant stage presence and artistic passion. |
+| **Year Pillar (Ancestry & Foundation)** | Jia Sul (Wood Dog) | Wood & Earth | Sturdy root energy that built her discipline, loyalty, and endurance through 7 years of training. |
 
 ### The Power of the Wood-Fire Combination
 

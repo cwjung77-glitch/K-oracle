@@ -18,7 +18,7 @@ Saju balances five core elements: Wood, Fire, Earth, Metal, and Water. The exact
 
 ## The Core Identity: Gyeong Metal (庚金) Day Master
 
-Every Saju chart revolves around the **Day Master**—the ultimate blueprint of the soul. Eunwoo was born on a **Geng-Chen (庚辰)** day, making his central element **Yang Metal**.
+Every Saju chart revolves around the **Day Master**—the ultimate blueprint of the soul. Eunwoo was born on a **Geng-Jin (庚辰)** day, making his central element **Yang Metal**.
 
 > **CHA EUNWOO'S DAY MASTER**
 > **Gyeong Metal (庚金)**
@@ -29,16 +29,16 @@ Every Saju chart revolves around the **Day Master**—the ultimate blueprint of 
 * **Unwavering Integrity**: Gyeong Metal types don't cut corners. He's hardwired with iron self-discipline, fierce moral values, and an intense sense of duty to his craft and fans.
 * **Resilience Under Heat**: Raw metal only turns into a masterwork blade under intense heat and friction. Eunwoo actually thrives under pressure, turning grueling schedules and heavy acting roles into pure gold.
 
-His Day Master sits directly on top of the **Chen (Dragon)** Earth element, feeding his Metal core with endless nourishment from below. Earth naturally feeds Metal in Saju dynamics. That gives him an unshakeable inner core, genuine humility, and remarkable mental stability, no matter how wild global stardom gets.
+His Day Master sits directly on top of the **Jin (Dragon)** Earth element, feeding his Metal core with endless nourishment from below. Earth naturally feeds Metal in Saju dynamics. That gives him an unshakeable inner core, genuine humility, and remarkable mental stability, no matter how wild global stardom gets.
 ## Elemental Map: Cha Eunwoo's Four Pillars Breakdown
 
 Checking the flow of elements across his chart explains how his energy plays out in real life:
 
 | Pillar | Heavenly Stem | Terrestrial Branch | Primary Element | Cosmic Role & Influence |
 | :--- | :--- | :--- | :--- | :--- |
-| **Year Pillar** | **Ding (丁)** - Yin Fire | **Chou (丑)** - Yin Earth | Fire / Earth | Deep roots, early career recognition, and faultless public manners |
-| **Month Pillar** | **Gui (癸)** - Yin Water | **Mao (卯)** - In Wood | Water / Wood | Fluid creative output, deep artistic expression, and rich emotional layers |
-| **Day Pillar** | **Geng (庚)** - Yang Metal | **Chen (辰)** - Yang Earth | Metal / Earth | Inner true self, natural magnetic pull, resilience, and core physical aura |
+| **Year Pillar** | **Jeong (丁)** - Yin Fire | **Chuk (丑)** - Yin Earth | Fire / Earth | Deep roots, early career recognition, and faultless public manners |
+| **Month Pillar** | **Gye (癸)** - Yin Water | **Myo (卯)** - In Wood | Water / Wood | Fluid creative output, deep artistic expression, and rich emotional layers |
+| **Day Pillar** | **Gyeong (庚)** - Yang Metal | **Jin (辰)** - Yang Earth | Metal / Earth | Inner true self, natural magnetic pull, resilience, and core physical aura |
 
 ### The Flow of Five Elements
 1. **Water (Gui) Cleanses the Metal**: Classic Saju lore teaches that raw Metal needs Water to scrub away dust so it can shine. His Month Stem holds **Gye Water (Yin Water/Mist)**, acting as a constant polish for his Gyeong Metal. This powers his articulate speech, delicate acting nuances, and surprisingly deep emotional intuition.

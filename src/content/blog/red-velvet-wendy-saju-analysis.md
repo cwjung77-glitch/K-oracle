@@ -9,22 +9,25 @@ tags: ["RedVelvet", "Wendy", "Saju", "KPopDestiny", "KoreanAstrology"]
 
 ## TL;DR (Quick Answer)
 
-* **Day Master**: Yin Earth (*Ji Earth* / 己土) — Symbolizes rich, fertile soil. She possesses a gentle, highly empathetic, and naturally nurturing personality.
+* **Day Master**: Yin Earth (*Gi Earth* / 己土) — Symbolizes rich, fertile soil. She possesses a gentle, highly empathetic, and naturally nurturing personality.
 * **Dominant Elements**: Strong **Fire** (Passion, Brightness, Spotlight) balanced with **Wood** (Discipline, Structure, Honor).
 * **Vocal Genius**: The intense Fire element in her chart illuminates her talent, while Metal nuances provide precision, clarity, and legendary vocal control.
 * **Key Strength**: Extraordinary resilience. Her Earth foundation combined with supportive Resource energy (*In-seong*) gives her the physical and mental fortitude to overcome massive obstacles and emerge stronger.
 
 ---
 
-## The Core Element: Yin Earth (*Ji Earth*) and Her Nurturing Soul
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
-Born under the sign of **Yin Earth (*Ji Earth*)**, Wendy's fundamental essence mirrors moist, nutrient-rich soil capable of growing flourishing life. Unlike the majestic mountain represented by Yang Earth (*Wu Earth*), Yin Earth is gentle, adaptable, and deeply compassionate. 
+
+## The Core Element: Yin Earth (*Gi Earth*) and Her Nurturing Soul
+
+Born under the sign of **Yin Earth (*Gi Earth*)**, Wendy's fundamental essence mirrors moist, nutrient-rich soil capable of growing flourishing life. Unlike the majestic mountain represented by Yang Earth (*Mu Earth*), Yin Earth is gentle, adaptable, and deeply compassionate. 
 
 People with a Yin Earth Day Master often put others first. In the context of K-Pop, Wendy’s reputation as one of the kindest, most attentive idols in the industry directly stems from this fundamental energy. She is the grounding force within Red Velvet, offering quiet strength and unwavering support to those around her.
 
 | Saju Aspect | Element / Archetype | Impact on Her Personality & Career |
 | :--- | :--- | :--- |
-| **Day Master** | Yin Earth (*Ji Earth*) | Empathetic, adaptable, deeply caring, stable |
+| **Day Master** | Yin Earth (*Gi Earth*) | Empathetic, adaptable, deeply caring, stable |
 | **Primary Resource** | Fire (*In-seong*) | Brilliant artistic instinct, warmth, loving fan support |
 | **Authority** | Wood (*Gwan-seong*) | High self-discipline, work ethic, strong sense of duty |
 | **Expression** | Metal (*Sik-sang*) | Precise vocal technique, linguistic dexterity, musicality |

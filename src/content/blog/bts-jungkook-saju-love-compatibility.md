@@ -11,7 +11,7 @@ tags: ["BTS", "Jungkook", "Saju", "Four Pillars of Destiny", "Love Compatibility
 
 ## The Cosmic Blueprint: Understanding Jungkook's Day Master
 
-Think of the **Day Master** as the absolute core of a Saju chart. It reveals someone's raw spirit, natural gifts, and ultimate drive. Born September 1, 1997, Jungkook holds one of the most insanely powerful charts in the entire system: the **Byeong-Wu (Yang Fire Horse)** Day Pillar.
+Think of the **Day Master** as the absolute core of a Saju chart. It reveals someone's raw spirit, natural gifts, and ultimate drive. Born September 1, 1997, Jungkook holds one of the most insanely powerful charts in the entire system: the **Byeong-Oh (Yang Fire Horse)** Day Pillar.
 
 * **Core Element:** Yang Fire (丙 - *Byeong*)
 * **Animal Sign of the Day:** Horse (午 - *Wu*)
@@ -65,7 +65,7 @@ A chart blazing with this much Fire demands specific elemental forces to stay ba
 ## Frequently Asked Questions (Q&A)
 
 ### What makes Jungkook's Byeong-Wu Day Pillar so special?
-Out of the entire 60-pillar cycle, **Byeong-Wu (Fire Horse)** ranks as one of the absolute most potent combinations. It packs raw talent, crazy athletic drive, and an undeniable personal aura. You see this pillar show up in legendary artists and generational icons who simply refuse to settle for second best.
+Out of the entire 60-pillar cycle, **Byeong-Oh (Fire Horse)** ranks as one of the absolute most potent combinations. It packs raw talent, crazy athletic drive, and an undeniable personal aura. You see this pillar show up in legendary artists and generational icons who simply refuse to settle for second best.
 
 ### How does Jungkook handle relationship conflicts according to Saju?
 Fire energy is totally direct. No mind games, no passive-aggressive silent treatments. He respects straightforward, clear communication. While he doesn't hold long-term grudges, he needs personal space and mutual respect to vent off steam. A cool-headed partner who stays grounded under pressure brings out his absolute best side.

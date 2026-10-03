@@ -19,21 +19,21 @@ Let’s be real for a second: when Wonhee dropped onto the survival show *R U Ne
 
 Born on June 26, 2007, Wonhee’s cosmic blueprint looks like this:
 
-*   **Year Pillar:** Ding-Hai (丁亥) — Fire Pig
-*   **Month Pillar:** Bing-Wu (丙午) — Fire Horse
-*   **Day Pillar:** Ji-Mao (己卯) — Earth Rabbit
+*   **Year Pillar:** Ding-Hae (丁亥) — Fire Pig
+*   **Month Pillar:** Bing-Oh (丙午) — Fire Horse
+*   **Day Pillar:** Ji-Myo (己卯) — Earth Rabbit
 
 ```
 +-------------------------------------------------------+
 |  Year Pillar   |   Month Pillar   |    Day Pillar     |
 |   (Ancestry)   |    (Society)     |      (Self)       |
 +----------------+------------------+-------------------+
-|   Ding (Fire)  |   Bing (Fire)    |   Ji (Yin Earth)  |
-|   Hai (Water)  |   Wu (Fire)      |   Mao (In Wood)  |
+|   Jeong (Fire)  |   Byeong (Fire)    |   Gi (Yin Earth)  |
+|   Hae (Water)  |   Oh (Fire)      |   Myo (In Wood)  |
 +----------------+------------------+-------------------+
 ```
 
-Look at that Month Pillar: **Bing-Wu (丙午)**. That is pure, unadulterated, blinding summer Fire. In Korean Saju, the element that generates your Day Master is called **In-seong (인성 / Resource Star)**. Because Wonhee is a Gi Earth element, Fire is her Resource. 
+Look at that Month Pillar: **Bing-Oh (丙午)**. That is pure, unadulterated, blinding summer Fire. In Korean Saju, the element that generates your Day Master is called **In-seong (인성 / Resource Star)**. Because Wonhee is a Gi Earth element, Fire is her Resource. 
 
 When your chart is overflowing with Fire like hers, it means you possess an insanely powerful *Resource Star*. In the entertainment world, a dominant Resource Star translates directly into three things: **unconditional public affection, rapid absorption of skills, and cosmic plot armor.** It’s the energy of being the "nation's daughter" or the visual who gets loved simply for existing. While other trainees grind for six years in underground basements refining their vocals, Wonhee walked into a room, blinked at a camera, and had millions of people ready to fight in the comment section for her. That is the raw, terrifying power of a blazing Fire Month in Saju.
 ## Day Master: Gi Earth Sitting on a Sword (Ji-Mao)
@@ -44,7 +44,7 @@ Gi Earth is small, fertile, cultivated soil. Unlike Mu Earth (戊土), which rep
 
 But do not let the soft garden aesthetic fool you for a single second. Look at what her Gi Earth is sitting on: **Myo Wood (卯木)**.
 
-In Saju, Ji-Mao (己卯) is a day pillar where Earth sits directly on top of a sharp, unyielding Wood element. This Myo Wood represents **Pyeon-gwan (편관 / Seven Killings Star)**. 
+In Saju, Ji-Myo (己卯) is a day pillar where Earth sits directly on top of a sharp, unyielding Wood element. This Myo Wood represents **Pyeon-gwan (편관 / Seven Killings Star)**. 
 
 What does this mean in plain English? It means under that cute, viral, duck-face visual lies a core of pure steel. Sitting on a Seven Killings Star means your life path is constantly tested by intense scrutiny, sudden crises, high pressure, and ruthless competition. Trainees with weak charts break under that kind of anxiety. But Wonhee’s chart takes that brutal pressure from her Myo Wood (the haters, the survival show anxiety, the immediate scrutiny of debut) and feeds it directly into her Bing-O Fire month, which then nourishes her Gi Earth self. 
 

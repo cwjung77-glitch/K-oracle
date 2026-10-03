@@ -22,7 +22,7 @@ Her astrological profile reveals the core pillars behind her unique creative eng
 
 *   **Day Master (Core Self):** Yin Earth (己土 - Gi Earth)
 *   **Birth Month (Social & Career Energy):** Wood / Earth transition month (Ox Month)
-*   **Birth Year (Ancestral & Global Energy):** Gui-Wei (Water Goat)
+*   **Birth Year (Ancestral & Global Energy):** Gui-Mi (Water Goat)
 *   **Dominant Elements:** Earth, Wood, Water
 
 ### The Archetype: Nurturing Soil (Yin Earth)

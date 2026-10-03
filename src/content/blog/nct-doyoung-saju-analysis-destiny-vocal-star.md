@@ -14,6 +14,9 @@ According to the ancient Four Pillars system, Doyoung is driven by a grounded **
 
 ---
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 ## The Cosmic Blueprint of NCT's Golden Voice
 
 Kim Do-young, widely celebrated as the emotional anchor and lead vocalist of NCT, possesses a voice that lingers long after the music stops. Behind his delicate vocal phrasing, soaring high notes, and steady leadership lies an extraordinary energetic alignment encoded at birth.

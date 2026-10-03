@@ -37,7 +37,7 @@ Imagine a massive, towering mountain standing tall against the horizon. That is 
 
 However, a mountain alone can be dry or static. What turns Ahyeon from just a stable talent into a global idol is the Earth Branch sitting directly beneath her Day Master: **Ja Water (子水)**.
 
-In Saju, **Zi (the Rat)** represents pure, concentrated Water element. It is also one of the four legendary **Peach Blossom Stars (도화살 - Dohwa-sal)**. Peach Blossom energy creates an irresistible, almost hypnotic pull on other people. When a Day Master sits directly on a Peach Blossom star like Ja Water, it means her inherent aura radiates raw magnetism. 
+In Saju, **Ja (the Rat)** represents pure, concentrated Water element. It is also one of the four legendary **Peach Blossom Stars (도화살 - Dohwa-sal)**. Peach Blossom energy creates an irresistible, almost hypnotic pull on other people. When a Day Master sits directly on a Peach Blossom star like Ja Water, it means her inherent aura radiates raw magnetism. 
 
 Furthermore, in her chart's internal element system, Water represents her **Wealth Star (재성 - Jae-seong)**. Having the Wealth star sitting right in her Day Pillar means she naturally attracts resources, massive fan loyalty, and commercial success. 
 

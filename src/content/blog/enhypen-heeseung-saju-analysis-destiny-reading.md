@@ -9,9 +9,12 @@ tags: ["ENHYPEN", "Heeseung", "Saju", "K-Pop Astrology", "Four Pillars"]
 
 ## TL;DR (Quick Answer)
 
-ENHYPEN’s Heeseung was born under the **Yin Wood (Yi Wood)** Day Master on a Rooster branch, a rare cosmic alignment resembling a delicate, vibrant orchid flourishing atop a sharp, refined blade. His Four Pillars reveal an exceptional balance of strong **Metal** (discipline, pitch perfection, and absolute focus) and **Fire** (artistic stage presence and warm vocal warmth). This unique energetic fingerprint creates his legendary "Ace" status: quiet elegance hiding an untamed inner drive for artistic mastery.
+ENHYPEN’s Heeseung was born under the **Yin Wood (Eul Wood)** Day Master on a Rooster branch, a rare cosmic alignment resembling a delicate, vibrant orchid flourishing atop a sharp, refined blade. His Four Pillars reveal an exceptional balance of strong **Metal** (discipline, pitch perfection, and absolute focus) and **Fire** (artistic stage presence and warm vocal warmth). This unique energetic fingerprint creates his legendary "Ace" status: quiet elegance hiding an untamed inner drive for artistic mastery.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
 
 ## The Cosmic Energy Behind ENHYPEN's Ace
 
@@ -35,7 +38,7 @@ Below is the energetic blueprint derived from Heeseung's birth date (October 15,
 
 ## The Delicate Strength of Yin Wood
 
-At the heart of Heeseung's Saju chart lies the **Yin Wood (Yi Wood)** Day Master. In traditional Eastern philosophy, Yin Wood is symbolized by ivy, wild blossoms, or bamboo. Unlike a massive oak tree that stands rigid against high winds, Yin Wood bends gracefully, adapting to every environment while remaining deeply rooted.
+At the heart of Heeseung's Saju chart lies the **Yin Wood (Eul Wood)** Day Master. In traditional Eastern philosophy, Yin Wood is symbolized by ivy, wild blossoms, or bamboo. Unlike a massive oak tree that stands rigid against high winds, Yin Wood bends gracefully, adapting to every environment while remaining deeply rooted.
 
 * **Adaptability & Versatility:** This element explains why Heeseung easily masters vastly different performance styles, from powerful hip-hop choreography to delicate vocal ballads.
 * **Resilience Under Pressure:** Yin Wood never breaks easily. Even under immense pressure, it finds a way to climb toward the sun. His journey through fierce competition shows this exact quiet, unrelenting survival spirit.

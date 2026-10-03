@@ -32,7 +32,7 @@ Let's look directly at his core birth date: **September 1, 1997**.
 ### 1. The Day Master: Byeong O (Yang Fire on Horse)
 Jungkook's core soul signature—his **Day Master**—is **Byeong Fire (丙火)**. Byeong Fire is the Sun itself. Radiating, fierce, wildly generous with its heat, and completely impossible to ignore. 
 
-He sits directly on **Wu (午 - Horse)**, an equally blazing Fire branch. This makes his daily pillar **Byeong O (Fire Horse)**. Ask any Saju reader, and they'll tell you this specific combination creates absolute powerhouses defined by:
+He sits directly on **Oh (午 - Horse)**, an equally blazing Fire branch. This makes his daily pillar **Byeong O (Fire Horse)**. Ask any Saju reader, and they'll tell you this specific combination creates absolute powerhouses defined by:
 * **Explosive Passion & Energy:** An almost obsessive drive to master whatever catches his interest.
 * **Natural Charisma:** A brilliant internal light that pulls millions of eyes directly to him.
 * **Relentless Focus:** Brutal perfectionism when it comes to vocal control, stage movement, and physical training.
@@ -46,7 +46,7 @@ Jungkook's chart stacks heavy Earth energy across his Month and Year pillars. Th
 * **Deep Humility:** Heavy Earth absorbs and balances out blazing Fire, keeping him remarkably humble, sweet, and grounded despite earth-shattering fame.
 
 ### 3. Metal Element: Wealth, Results, and Global Reach
-Right in his Month Branch sits **Shen Monkey (Metal)**. In Saju mechanics, Metal acts as the Wealth (*Jae-seong*) and concrete results pillar for Fire. Because this sits dead-center in his Month pillar—the exact house governing career and societal status—Jungkook was always destined to convert his raw creative fire into towering, measurable, global achievement.
+Right in his Month Branch sits **Sin Monkey (Metal)**. In Saju mechanics, Metal acts as the Wealth (*Jae-seong*) and concrete results pillar for Fire. Because this sits dead-center in his Month pillar—the exact house governing career and societal status—Jungkook was always destined to convert his raw creative fire into towering, measurable, global achievement.
 ## Why Jungkook Is Called the "Golden Maknae": A Saju Perspective
 
 That famous nickname—"Golden Maknae"—isn't just a fun K-pop idol title. It's an exact literal description of his Saju mechanics.

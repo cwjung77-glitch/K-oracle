@@ -32,7 +32,7 @@ Byeong Fire is like the roaring midday sun, bright and blazing for everyone to s
 
 ## The Pillar of Charisma: Fire Rooster (丁酉) and the Peach Blossom Star
 
-San’s birth day falls under **Ding You (丁酉)**, the Fire Rooster. Ask any Saju reader—this specific pillar is legendary for producing people with rare beauty, razor-sharp precision, and unstoppable magnetic pull.
+San’s birth day falls under **Ding Yu (丁酉)**, the Fire Rooster. Ask any Saju reader—this specific pillar is legendary for producing people with rare beauty, razor-sharp precision, and unstoppable magnetic pull.
 
 ### 1. The Peach Blossom Star (Do Hwa Sal)
 The Rooster (酉) is one of the four classic **Peach Blossom Stars** in Eastern destiny reading. It gives a person an effortless, mesmerizing charm that pulls people in without even trying. In San’s chart, this star grants him:

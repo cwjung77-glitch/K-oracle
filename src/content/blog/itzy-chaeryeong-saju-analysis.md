@@ -9,12 +9,15 @@ tags: ["ITZY", "Chaeryeong", "Saju Analysis", "K-Pop Destinies", "Four Pillars o
 
 ## TL;DR (Quick Answer)
 
-* **Day Master Element**: Yin Earth (己 土 - Ji Earth), symbolizing rich, fertile soil, high adaptability, meticulous precision, and gentle grace.
+* **Day Master Element**: Yin Earth (己 土 - Gi Earth), symbolizing rich, fertile soil, high adaptability, meticulous precision, and gentle grace.
 * **Core Energetic Dynamics**: High Metal influence fuels her surgical dance execution, while Fire provides intense passion, charisma, and center-stage radiance.
 * **Key Character Traits**: Exceptional quiet resilience, deep empathy, perfectionism, and an innate instinct to refine her craft beyond human boundaries.
 * **Destiny Trajectory**: Long-lasting fame built on discipline and authentic artistic depth rather than sudden hype.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
 
 ## The Gentle Strength of ITZY's Main Dancer
 
@@ -38,7 +41,7 @@ In the ancient system, your Day Master represents your core self, while the surr
 
 ## Yin Earth: The Nurturing Garden
 
-Chaeryeong’s core identity rests on **Yin Earth (Ji Earth)**. Unlike Yang Earth, which resembles towering mountain peaks or vast boulders, Yin Earth is the rich, dark soil of a thriving garden. 
+Chaeryeong’s core identity rests on **Yin Earth (Gi Earth)**. Unlike Yang Earth, which resembles towering mountain peaks or vast boulders, Yin Earth is the rich, dark soil of a thriving garden. 
 
 * **Meticulous Precision**: Garden soil works invisibly below the surface to yield beautiful flowers. Chaeryeong possesses a quiet work ethic that pays attention to the subtle details others miss. Every hand gesture, facial shift, and dance angle is refined through intense focus.
 * **Flexibility and Adaptability**: Yin Earth easily absorbs moisture and adapts to whatever seeds are planted in it. This makes Chaeryeong immensely versatile across musical genres and concept changes.
@@ -75,7 +78,7 @@ Because her chart heavily favors skill development and output over cheap sensati
 ## Frequently Asked Questions
 
 ### What is Chaeryeong's primary Saju Day Master?
-Chaeryeong is a Yin Earth (Ji Earth) Day Master. This element reflects a nature that is patient, detail-oriented, adaptable, and softly resilient.
+Chaeryeong is a Yin Earth (Gi Earth) Day Master. This element reflects a nature that is patient, detail-oriented, adaptable, and softly resilient.
 
 ### How does her Saju explain her world-class dancing abilities?
 Her chart features a potent combination of Metal and Fire elements. Metal bestows sharp spatial awareness, rhythm, and exact bodily control, while Fire supplies the expressive passion and stage presence needed to captivatingly communicate each movement.

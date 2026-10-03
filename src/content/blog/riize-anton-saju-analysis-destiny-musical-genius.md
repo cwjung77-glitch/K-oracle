@@ -8,9 +8,12 @@ tags: ["RIIZE", "Anton", "Saju", "Korean Astrology", "K-Pop"]
 ---
 
 ### TL;DR (Quick Answer)
-Anton from RIIZE is born under the **Ren Water (壬水)** Day Master—a cosmic signature that mirrors a deep, expansive ocean full of adaptability and boundless emotional depth. His birth chart reveals a rich harmony of Wood (creative output) and Fire (charisma and wealth), anchored by strong Metal foundations. This unique elemental blend explains his seamless transition from competitive swimming to high-level music production and global K-pop stardom.
+Anton from RIIZE is born under the **Im Water (壬水)** Day Master—a cosmic signature that mirrors a deep, expansive ocean full of adaptability and boundless emotional depth. His birth chart reveals a rich harmony of Wood (creative output) and Fire (charisma and wealth), anchored by strong Metal foundations. This unique elemental blend explains his seamless transition from competitive swimming to high-level music production and global K-pop stardom.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
 
 ## The Cosmic Blueprint of RIIZE's Anton
 
@@ -20,9 +23,9 @@ Anton's chart offers a fascinating look into a young artist who carries both leg
 
 ---
 
-## The Core Element: Ren Water (The Ocean Master)
+## The Core Element: Im Water (The Ocean Master)
 
-At the heart of Anton's Saju chart is his Day Master, **Ren Water (壬水)**. Representing large bodies of water like the ocean, grand rivers, or sweeping tides, Ren Water individuals carry specific traits:
+At the heart of Anton's Saju chart is his Day Master, **Im Water (壬水)**. Representing large bodies of water like the ocean, grand rivers, or sweeping tides, Im Water individuals carry specific traits:
 
 *   **Fluid Adaptability:** Able to navigate changing environments effortless, moving from Boston and New Jersey to the fast-paced idol world in Seoul.
 *   **Deep Reserve:** A soft, gentle exterior masking an ocean of inner strength, passion, and ambition.
@@ -38,9 +41,9 @@ To understand how Anton channels his oceanic energy into art, we examine the bal
 
 | Pillar | Celestial Stem | Terrestrial Branch | Dominant Energy |
 | :--- | :--- | :--- | :--- |
-| **Year** | Jia (Yang Wood) | Shen (Yang Metal) | Creative Ambition & Structure |
-| **Month** | Ding (Yin Fire) | Mao (Yin Wood) | Artistry, Warmth & Expressive Talent |
-| **Day** | Ren (Yang Water) | Wu (Yin Fire) | Emotional Intuition & Fame/Wealth |
+| **Year** | Gap (Yang Wood) | Sin (Yang Metal) | Creative Ambition & Structure |
+| **Month** | Jeong (Yin Fire) | Myo (Yin Wood) | Artistry, Warmth & Expressive Talent |
+| **Day** | Im (Yang Water) | Oh (Yin Fire) | Emotional Intuition & Fame/Wealth |
 
 ### The Spark of Artistic Output (Wood & Fire)
 Water alone can be cold and boundless, but Anton's chart features vibrant **Wood** and **Fire** elements. 
@@ -54,7 +57,7 @@ Water alone can be cold and boundless, but Anton's chart features vibrant **Wood
 
 Being the son of legendary producer Yoon Sang and renowned actress Shim Hye-jin, many wonder if genius is inherited or written in the stars. The ancient system shows it is both.
 
-Anton's month pillar contains **Ding Mao (Fire over Wood)**, an extraordinary pairing for pure artistic craftsmanship and emotional expression. This configuration gives him an innate ear for sound engineering, chord progressions, and subtle emotional textures. He does not merely perform music; he builds it from the ground up.
+Anton's month pillar contains **Ding Myo (Fire over Wood)**, an extraordinary pairing for pure artistic craftsmanship and emotional expression. This configuration gives him an innate ear for sound engineering, chord progressions, and subtle emotional textures. He does not merely perform music; he builds it from the ground up.
 
 His **Shen Metal** in the year pillar adds structural discipline. Metal sharpens Water, giving him the patience to spend countless hours practicing the cello, refining beats, and polishing his vocals.
 
@@ -73,13 +76,13 @@ The coming years bring powerful cosmic shifts into Anton's personal decade cycle
 ## Frequently Asked Questions
 
 ### What is Anton's primary Saju element?
-Anton's primary element is **Ren Water (壬水)**, which represents the open sea. It brings vast emotional depth, adaptability, and natural musical intuition.
+Anton's primary element is **Im Water (壬水)**, which represents the open sea. It brings vast emotional depth, adaptability, and natural musical intuition.
 
 ### How does his Saju explain his shift from swimming to music?
 Water governs fluid physical movement, making athletic swimming a natural early outlet for his energy. As his creative Wood and Fire elements matured during adolescence, that same disciplined energy shifted into instrumental performance and song production.
 
 ### What makes Anton's birth chart unique for a musical artist?
-His chart balances raw emotional depth (Ren Water) with creative expression (Wood) and high public magnetism (Fire). Coupled with Metal's structural discipline, he possesses both the artistic sensitivity to create music and the dedication required to master complex instruments.
+His chart balances raw emotional depth (Im Water) with creative expression (Wood) and high public magnetism (Fire). Coupled with Metal's structural discipline, he possesses both the artistic sensitivity to create music and the dedication required to master complex instruments.
 
 ---
 

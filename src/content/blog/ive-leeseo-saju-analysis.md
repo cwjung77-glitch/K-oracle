@@ -20,8 +20,8 @@ Saju acts as an energetic blueprint carved out the exact moment you take your fi
 * **Day Pillar:** Gyeong In (Metal Tiger / 庚寅) – *The Self Archetype (Day Master)*
 
 ```
-[Heavenly Stems]   Ding (Fire)   |   Ren (Water)   |   Geng (Metal - SELF)
-[Earthly Branches]  Hai (Pig)    |   Yin (Tiger)   |   Yin (Tiger)
+[Heavenly Stems]   Jeong (Fire)   |   Im (Water)   |   Gyeong (Metal - SELF)
+[Earthly Branches]  Hae (Pig)    |   In (Tiger)   |   In (Tiger)
 ```
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
@@ -35,7 +35,7 @@ Leeseo's true self is governed by **Gyeong Metal**. In classical Four Pillars re
 ## Key Elemental Dynamics in Leeseo's Destiny Chart
 
 ### 1. The Power of the Spring Tiger (In Wood)
-Notice the **Yin Tiger (寅木)** sitting in both her Day and Month branches. Tigers represent the explosive, unstoppable momentum of early spring. Growth. Vitality. Pure forward movement.
+Notice the **In Tiger (寅木)** sitting in both her Day and Month branches. Tigers represent the explosive, unstoppable momentum of early spring. Growth. Vitality. Pure forward movement.
 
 * **Dominant Wealth Star (Pian Cai):** In Saju, Metal chopped into Wood generates the "Wealth Star"—the force behind real-world success and massive opportunity. Double Tigers create an insane, overflowing engine for commercial success.
 * **Natural Stage Magnetism:** Metal carving dense Wood represents raw material transformed into art. She naturally shapes her raw talent into undeniable, high-value performance.
@@ -56,7 +56,7 @@ Her chart explains every iconic moment fans keep talking about:
 Gyeong Metal carries warrior energy. Female idols with this placement possess incredible endurance, sharp instincts, and a magnetic "girl crush" vibe that naturally pulls in both male and female fanbases.
 
 ### How does Leeseo's birth month impact her career path?
-Born during the Yin Tiger month, her chart draws directly from peak spring renewal. This grants her long-lasting career vitality (*Long Life Energy*), building strong resistance against burnout and keeping her career trajectory rising over the long haul.
+Born during the In Tiger month, her chart draws directly from peak spring renewal. This grants her long-lasting career vitality (*Long Life Energy*), building strong resistance against burnout and keeping her career trajectory rising over the long haul.
 
 ### What element brings the best fortune to Leeseo?
 Since her chart stacks massive Wood (Wealth) and dynamic Water (Expression), she thrives when grounded by **Earth (Resource/Support)** and **Metal (Self-Strength)**. Structured team environments, strong agency support, and personal grounding routines keep her luck cycles at maximum power.

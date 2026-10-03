@@ -9,19 +9,22 @@ tags: ["ENHYPEN", "Ni-ki", "Saju", "K-pop Astrology", "Four Pillars of Destiny"]
 
 ## TL;DR (Quick Answer)
 
-According to ancient Eastern Saju reading, ENHYPEN's Ni-ki was born on December 9, 2005, under the powerful **Ren Water (壬水)** Day Master—symbolizing a deep, adaptable ocean of innate instinct. His chart features a extraordinary synergy between **Metal** (precision, razor-sharp discipline) and **Water** (fluidity, emotional depth), activated by a potent Output Star (*Sik-sang*). This unique cosmic configuration grants him unmatched physical rhythm, bodily intelligence, and an enigmatic stage aura that commands global attention effortlessly.
+According to ancient Eastern Saju reading, ENHYPEN's Ni-ki was born on December 9, 2005, under the powerful **Im Water (壬水)** Day Master—symbolizing a deep, adaptable ocean of innate instinct. His chart features a extraordinary synergy between **Metal** (precision, razor-sharp discipline) and **Water** (fluidity, emotional depth), activated by a potent Output Star (*Sik-sang*). This unique cosmic configuration grants him unmatched physical rhythm, bodily intelligence, and an enigmatic stage aura that commands global attention effortlessly.
 
 ---
+
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
 
 ## The Mystic Blueprint: Ni-ki's Saju Birth Chart
 
 In the traditional Four Pillars of Destiny—the ancient system known as Saju—a person's birth chart acts as a cosmic map of elemental forces. For Nishimura Riki, known to millions as Ni-ki, his birth chart explains why his dance moves appear almost supernatural.
 
-Ni-ki is rooted in the **Ren Water** Day Master. Ren Water represents the boundless ocean: heavy, deep, adaptable, and perpetually in motion. Just as water shifts shape without losing its strength, Ni-ki adapts to any choreographic style with mesmerizing grace. Underneath that fluid exterior lies a bedrock of strong **Metal** energy, which acts like a container shaping the roaring waves into absolute precision.
+Ni-ki is rooted in the **Im Water** Day Master. Im Water represents the boundless ocean: heavy, deep, adaptable, and perpetually in motion. Just as water shifts shape without losing its strength, Ni-ki adapts to any choreographic style with mesmerizing grace. Underneath that fluid exterior lies a bedrock of strong **Metal** energy, which acts like a container shaping the roaring waves into absolute precision.
 
 | Pillar Aspect | Element / Star | Cosmic Influence | Manifested Trait |
 | :--- | :--- | :--- | :--- |
-| **Day Master (Core Soul)** | Ren Water (壬水) | Vast Ocean, Adaptability | Natural flow, deep intuition, quiet charisma |
+| **Day Master (Core Soul)** | Im Water (壬水) | Vast Ocean, Adaptability | Natural flow, deep intuition, quiet charisma |
 | **Supporting Element** | Heavy Metal (酉 / 申) | Blade, Sword, Refinement | Perfectionism, sharp lines, endless practice ethics |
 | **Output Star (*Sik-sang*)** | Wood & Water Harmony | Creative Expression, Artistry | Instinctive rhythm, physical genius, performance mastery |
 
@@ -45,7 +48,7 @@ Ni-ki's chart shows a rare combination of **Instinctive Intelligence** and **Phy
 
 Key cosmic traits driving his career:
 *   **The Silent Observer:** His Water energy makes him an intense observer. He absorbs detail instantly, learning complex routines after seeing them just once.
-*   **Unflappable Presence:** Ren Water naturally runs deep. This gives him a calm, mysterious aura off-stage, which suddenly transforms into an overwhelming flood of passion the second the lights hit him.
+*   **Unflappable Presence:** Im Water naturally runs deep. This gives him a calm, mysterious aura off-stage, which suddenly transforms into an overwhelming flood of passion the second the lights hit him.
 *   **Youthful Mastery:** His early start in the performance industry was foretold by the early activation of his creative stars, setting him apart as a prodigy long before adulthood.
 
 ---
@@ -64,7 +67,7 @@ This shift indicates that Ni-ki will gradually evolve beyond being recognized so
 Ni-ki's chart is primarily driven by **Water** and supported by **Metal**. The Water element provides his natural fluid movement and emotional intuition, while Metal yields the sharp discipline, control, and perfectionism needed for his high-level dance execution.
 
 ### How does Ni-ki's birth chart reflect his talent as a dance prodigy?
-In the ancient system, Ni-ki possesses a prominent **Output Star (*Sik-sang*)**, which governs bodily self-expression, artistic talents, and rhythm. Coupled with his Ren Water Day Master, this grants him the rare ability to translate music into effortless, intuitive physical movement.
+In the ancient system, Ni-ki possesses a prominent **Output Star (*Sik-sang*)**, which governs bodily self-expression, artistic talents, and rhythm. Coupled with his Im Water Day Master, this grants him the rare ability to translate music into effortless, intuitive physical movement.
 
 ### What lies in the future for Ni-ki according to his elemental cycles?
 As his chart transitions through upcoming decade cycles, the influence of Earth and Fire elements increases. This suggests a broader artistic footprint—moving from performing into artistic leadership, solo creative endeavors, global fashion endeavors, and personal brand building.

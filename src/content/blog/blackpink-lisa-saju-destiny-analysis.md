@@ -14,7 +14,7 @@ tags: ["Saju Analysis", "Blackpink Lisa", "Celebrity Saju", "Four Pillars of Des
 Think of the Day Master as your cosmic soul print. Lisa's chart centers around **Mu Earth (戊土)**—and it explains *everything* about her aura.
 
 *   **The Majestic Mountain**: Mu Earth isn't just plain soil; it's a giant, unshakeable mountain. People with this placement carry an innate grandeur. Lisa doesn't need to shout to be noticed—she walks into a room, and her sheer presence holds space effortlessly.
-*   **The Fire Horse Foundation**: Lisa’s Day Master rests directly on the **Wu Horse (午火)** branch. Fire feeds Earth in elemental astrology. This gives her an endless fuel tank of raw self-confidence, physical stamina, and explosive creative drive.
+*   **The Fire Horse Foundation**: Lisa’s Day Master rests directly on the **Oh Horse (午火)** branch. Fire feeds Earth in elemental astrology. This gives her an endless fuel tank of raw self-confidence, physical stamina, and explosive creative drive.
 *   **Resilience and Leadership**: Mountains stand strong through brutal weather. That same energy gives Lisa rock-solid emotional resilience, letting her handle the insane pressure of global mega-stardom without crumbling.
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
 
@@ -31,7 +31,7 @@ Look deeper into her chart's elemental mechanics, and you'll see why her career 
 
 ### The Wu-Gui Harmony Combination
 Lisa’s **Mu Earth** Day Master locks into a powerful energetic union with the **Gye Water (癸水)** in her Month Pillar. 
-*   **Transformation into Fame**: When Wu (Yang Earth) joins Gui (Yin Water), they merge to form **Fire energy**. Fire in Saju translates to public spotlight, total visibility, and global fame. Her raw destiny literally cooks up spotlight energy out of thin air.
+*   **Transformation into Fame**: When Oh (Yang Earth) joins Gye (Yin Water), they merge to form **Fire energy**. Fire in Saju translates to public spotlight, total visibility, and global fame. Her raw destiny literally cooks up spotlight energy out of thin air.
 *   **Flowing Wealth**: Gye Water represents her Direct Wealth star. Because this water links straight to her Day Master, massive financial opportunities and top-tier brand deals flow into her life without stopping.
 
 ### The Officer Star of Discipline
@@ -42,7 +42,7 @@ Tucked inside her Month Pillar sits **Myo Wood (卯木)**, acting as her Officer
 ## Frequently Asked Questions About Lisa’s Saju
 
 ### What is Lisa's Day Master in Saju?
-Lisa is a **Mu Earth (Yang Earth)** Day Master, specifically on the **Wu-Wu (Earth Horse)** pillar. Think of her as a mighty mountain charged by an intense underground fire—grounded, brilliant, and deeply passionate.
+Lisa is a **Mu Earth (Yang Earth)** Day Master, specifically on the **Wu-Oh (Earth Horse)** pillar. Think of her as a mighty mountain charged by an intense underground fire—grounded, brilliant, and deeply passionate.
 
 ### Why is Lisa so famous internationally according to Saju?
 It boils down to her double **Do-Hwa (Peach Blossom) Stars** in the Rabbit and Horse, combined with that rare Wu-Gui stem union. That element combo constantly converts her baseline energy into blazing Fire, the cosmic engine behind worldwide fame and spotlight.

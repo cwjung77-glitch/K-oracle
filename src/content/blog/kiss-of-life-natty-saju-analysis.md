@@ -17,19 +17,19 @@ Natty’s Saju is giving main character energy, *periodt*. Her chart screams "re
 
 Okay, real talk, we don't have Natty's exact birth *hour*, which is like missing the final boss level in Saju. It adds crucial nuance, painting the full picture of personality, children, and late-life fortune. But even with the known three pillars (Year, Month, Day), her chart is already giving elite vibes. Based on her birth date, May 30, 2002, here's the rundown:
 
-**Year Pillar: Ren-Wu (壬午) – Yang Water on Yang Fire**
+**Year Pillar: Ren-Oh (壬午) – Yang Water on Yang Fire**
 Hold up, we're starting with a clash! Yang Water (壬) wants to extinguish Yang Fire (午). This isn't necessarily bad; it’s a dynamic tension. This pillar represents her early life, family background, and how she's perceived by the wider world.
 *   **Im Water (壬):** Big, flowing ocean water. Think grand, ambitious, adaptable, but also deep and sometimes unpredictable.
 *   **O Fire (午 - Horse):** Fiery, energetic, free-spirited, and loves attention. Horses are performers, always on the move.
 This combo means Natty likely stood out from an early age. She’s got a rebellious spirit, unafraid to challenge norms, and a natural performer's flair. This pillar screams someone who doesn't fit into a tiny box; she's expansive and always moving towards something bigger.
 
-**Month Pillar: Ren-Shen (壬申) – Yang Water on Yang Metal**
+**Month Pillar: Ren-Sin (壬申) – Yang Water on Yang Metal**
 This pillar rules her career, social circle, and adult self. Here, Yang Metal (申) produces Yang Water (壬). This is a harmonious, supportive relationship.
 *   **Im Water (壬):** Again with the powerful water!
 *   **Sin Metal (申 - Monkey):** Smart, witty, highly adaptable, innovative, and often restless. Monkeys are quick learners and problem-posers/solvers.
 This is where Natty's intelligence and resourcefulness come in. This pillar gives her a sharp mind, excellent communication skills, and the ability to adapt to changing environments – super crucial for someone who navigated multiple survival shows. She’s a strategic thinker, quick on her feet, and can charm her way through anything. It also hints at a knack for networking and a magnetic social presence.
 
-**Day Pillar: Bing-Yin (丙寅) – Yang Fire on Yang Wood**
+**Day Pillar: Bing-In (丙寅) – Yang Fire on Yang Wood**
 This is the core of who Natty is! Her Day Master (Heavenly Stem of the Day Pillar) is Byeong Fire (丙), sitting on In Wood (寅). This is a powerful, supportive combo.
 *   **Byeong Fire (丙):** This is the **Day Master**, representing the Sun. More on this in a bit, but just know it's a huge deal.
 *   **In Wood (寅 - Tiger):** Strong, brave, ambitious, adventurous, and a natural leader. Tigers are all about courage and forging their own path.
@@ -41,7 +41,7 @@ Here, the Yang Wood (Yin) feeds the Yang Fire (Bing), making her Day Master incr
 *   **Water:** Two dominant presences (Ren in Year Stem, Ren in Month Stem). This brings intelligence, adaptability, and a powerful drive.
 *   **Wood:** One strong presence (Yin in Day Branch). This feeds her fire, providing growth, creativity, and endurance.
 *   **Metal:** One strong presence (Shen in Month Branch). This produces water, adding sharpness, logic, and resourcefulness.
-*   **Earth:** While not explicit in the main stems/branches, Earth elements are hidden within Wu (Horse), Shen (Monkey), and Yin (Tiger). This provides grounding and stability, preventing the Fire and Water from being *too* chaotic.
+*   **Earth:** While not explicit in the main stems/branches, Earth elements are hidden within Oh (Horse), Sin (Monkey), and In (Tiger). This provides grounding and stability, preventing the Fire and Water from being *too* chaotic.
 
 **Ten Gods Vibe Check:**
 
@@ -70,7 +70,7 @@ Okay, let's get into the nitty-gritty of how Natty's Saju influences her life pa
 
 **Career:** Her chart is practically screaming "PERFORMER!" The Byeong Fire Day Master means she's meant to shine, to be seen, to bring light and warmth to others. The In Wood (Tiger) feeding her Fire gives her the drive and courage to pursue her ambitions, no matter how tough the path. We've seen her endure *years* of intense training and competition; that's the 7 Killings (Im Water) at play, making her incredibly resilient and a true survivor. She thrives under pressure, turning obstacles into stepping stones.
 
-The Ren-Shen (Monkey) pillar indicates intelligence, adaptability, and a knack for communication, all crucial for navigating the K-Pop industry. She's not just a pretty face; she's smart, can pivot, and is constantly learning and evolving. Her Indirect Wealth (Sin Metal) suggests she's resourceful, perhaps even a shrewd businesswoman in the making, able to generate income through diverse avenues related to her craft. She's likely to build a lasting and impactful career, potentially venturing beyond just music into other creative or entrepreneurial fields. She's a game-changer, not just a player.
+The Ren-Sin (Monkey) pillar indicates intelligence, adaptability, and a knack for communication, all crucial for navigating the K-Pop industry. She's not just a pretty face; she's smart, can pivot, and is constantly learning and evolving. Her Indirect Wealth (Sin Metal) suggests she's resourceful, perhaps even a shrewd businesswoman in the making, able to generate income through diverse avenues related to her craft. She's likely to build a lasting and impactful career, potentially venturing beyond just music into other creative or entrepreneurial fields. She's a game-changer, not just a player.
 
 **Relationships:** With the strong presence of 7 Killings (Im Water) in her chart, Natty is likely drawn to powerful, ambitious, and perhaps intense partners. She needs someone who can match her drive and doesn't shy away from a challenge. This energy can also manifest as relationships that teach her tough lessons but ultimately lead to significant personal growth. She values independence and might find traditional relationship dynamics a bit stifling. She's not one for passive partners; she needs someone who can stand strong beside her, respecting her fire and supporting her unique path. Friendship-wise, her Companion element (O Fire) means she values her inner circle and likely has a strong support system among peers, but ultimately she’s fiercely independent.
 

@@ -13,6 +13,9 @@ NCT's Haechan (born June 6, 2000) was born under the **Yang Fire (Byeong Fire)**
 
 ---
 
+> 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
+
+
 ## The Cosmic Architecture of Haechan's Four Pillars
 
 In Eastern metaphysics, a person's birth chart consists of four distinct pillars representing the Year, Month, Day, and Hour of birth. Each pillar holds two sacred Chinese characters—the Heavenly Stem and the Earthly Branch—reflecting the natural energies present at the exact moment of birth.

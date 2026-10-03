@@ -23,8 +23,8 @@ Stack vast ocean water right on top of scorching midday fire and pure magic happ
 
 Ask any Saju reader what turns a performer into a cultural phenomenon, and they'll check for the **Do-hwa Star (Peach Blossom Star)**. It's the cosmic magnet for obsession, fame, and artistic charm. Yeonjun carries a rare, high-octane setup that makes his presence almost intoxicating.
 
-* **Year Branch: Mao Rabbit (卯木)** — Soft Wood energy. It rules delicate aesthetics, fluid movement, and pure artistic grace.
-* **Month Branch: You Rooster (酉金)** — Sharp Metal energy. It brings razor-sharp precision, striking visual angles, and trendsetting personal style.
+* **Year Branch: Myo Rabbit (卯木)** — Soft Wood energy. It rules delicate aesthetics, fluid movement, and pure artistic grace.
+* **Month Branch: Yu Rooster (酉金)** — Sharp Metal energy. It brings razor-sharp precision, striking visual angles, and trendsetting personal style.
 
 ### Why His Star Energy Is So Explosive
 

@@ -23,7 +23,7 @@ Born on **March 2, 2002**, Wonbin’s Three Pillars reveal an astonishing, high-
 * **Month Pillar:** Im In (壬寅, Yang Water Tiger)
 * **Day Pillar:** Gyeong Sul (庚戌, Yang Metal Dog)
 
-Take one look at the bottom row (the Earthly Branches): **Yin (Tiger) + Wu (Horse) + Xu (Dog)**. In Four Pillars astrology, this creates a complete **San He (Three Harmony) Fire Alliance (삼합 화국)**. 
+Take one look at the bottom row (the Earthly Branches): **In (Tiger) + Oh (Horse) + Sul (Dog)**. In Four Pillars astrology, this creates a complete **San He (Three Harmony) Fire Alliance (삼합 화국)**. 
 
 In Saju, Fire represents **Gwan-seong (관성 - Officer/Fame/Spotlight/Discipline)**. When all three animals unite, they ignite an all-consuming blaze. For an ordinary person, this amount of Fire could bring overwhelming stress or burnout. But for Wonbin, whose Day Master is raw, unyielding Metal, this intense heat is the exact cosmic engine required to smelt raw iron into an untouchable masterpiece.
 
@@ -43,7 +43,7 @@ Historically, Goegang is the energy of supreme generals, leaders, and pioneers. 
 * **Perfectionism:** A relentless internal standard where "good enough" feels like failure.
 * **Unyielding Willpower:** The ability to endure brutal pressure and emerge entirely unfazed.
 
-Sitting on **Xu (Dog / Earth)**, Wonbin’s Metal Day Master is continuously supported and stabilized. The Dog acts as an energetic fortress, giving him a grounded, unshakeable core beneath his ethereal, visual exterior. He is not fragile. Behind the soft styling and doe-eyed center visuals lies an immovable pillar of steel.
+Sitting on **Sul (Dog / Earth)**, Wonbin’s Metal Day Master is continuously supported and stabilized. The Dog acts as an energetic fortress, giving him a grounded, unshakeable core beneath his ethereal, visual exterior. He is not fragile. Behind the soft styling and doe-eyed center visuals lies an immovable pillar of steel.
 
 ### The Double Im Water: Flow and Artistic Genius
 
