@@ -1,7 +1,7 @@
 ---
 title: "Red Velvet Seulgi Saju Analysis: The Cosmic Force Behind Her Stage Presence"
 slug: "red-velvet-seulgi-saju-analysis"
-date: "2026-09-28"
+date: "2026-10-04"
 excerpt: "Uncover the Korean Saju (Four Pillars of Destiny) reading for Red Velvet's Seulgi. Discover how her Yang Water nature and vibrant Wood-Fire energy create her legendary discipline, dance mastery, and artistic staying power."
 author: "K-Oracle"
 tags: ["Red Velvet", "Seulgi", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]

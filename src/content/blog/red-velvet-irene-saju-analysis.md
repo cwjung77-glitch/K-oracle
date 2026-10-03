@@ -1,7 +1,7 @@
 ---
 title: "Red Velvet Irene Saju Analysis: The Hidden Destiny of K-Pop's Iconic Visual"
 slug: "red-velvet-irene-saju-analysis"
-date: "2026-09-28"
+date: "2026-10-04"
 excerpt: "Explore the ancient Four Pillars chart of Red Velvet's Irene. Uncover how the interplay of majestic Wood and sharp Metal defines her breathtaking aesthetics, intense perfectionism, and enduring resilience."
 author: "K-Oracle"
 tags: ["RedVelvet", "Irene", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
