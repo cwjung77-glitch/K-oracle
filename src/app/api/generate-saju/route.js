@@ -59,7 +59,7 @@ TONE: Fun, brutally honest, TikTok-ready, Stan Twitter vibe.
   HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors. 
 Use authentic Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye).
 
-Output exactly TWO sections separated by '|||':
+Output exactly TWO sections separated by '|||': CRITICAL: You must complete your response fully. Limit each section to around 300-400 words so it does not get cut off mid-sentence. DO NOT exceed this length. Ensure the ||| separator is always present.
 Section 1: "Deep Chemistry & Compatibility Report" (Markdown). Break down how your Day Master interacts with ${idolName}'s perceived energy. Give a % match score.
 |||
 Section 2: "Karmic Destiny Matrix" (Markdown). Focus on past-life connections, hidden friction points, and red flags.
@@ -74,7 +74,7 @@ TONE: Intense, mystical, highly confident, TikTok-ready.
   HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors. 
 Use authentic Korean Saju terms (Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye). No pinyin.
 
-Output exactly TWO sections separated by '|||':
+Output exactly TWO sections separated by '|||': CRITICAL: You must complete your response fully. Limit each section to around 300-400 words so it does not get cut off mid-sentence. DO NOT exceed this length. Ensure the ||| separator is always present.
 Section 1: "26+27 VIP Masterplan" (Markdown). Break down their Day Master. Give specific month-by-month predictions for Q4 2026 and early 2027.
 |||
 Section 2: "Hidden Karma & Love Matrix" (Markdown). Reveal dark truths about their wealth potential and romantic red flags.

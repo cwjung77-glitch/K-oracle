@@ -65,7 +65,7 @@ export async function POST(req) {
               doc.font(fontSerifBold).fillColor(primaryColor).fontSize(16).text(match[1], { align: 'left' });
               doc.moveDown(0.5);
             } else if (line.trim().length > 0) {
-              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'justify' });
+              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'left' });
             }
           });
         };
@@ -237,7 +237,7 @@ export async function POST(req) {
               doc.font(fontSerifBold).fillColor(beautyColor).fontSize(16).text(match[1], { align: 'left' });
               doc.moveDown(0.5);
             } else if (line.trim().length > 0) {
-              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'justify' });
+              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'left' });
             }
           });
         };
