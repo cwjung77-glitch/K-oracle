@@ -320,13 +320,18 @@ export default function OracleLanding() {
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex flex-col items-center md:items-start">
             <span className="text-2xl font-black tracking-widest text-zinc-100 drop-shadow-md">K-ORACLE</span>
-            <p className="text-zinc-500 text-sm mt-2">짤 {new Date().getFullYear()} K-Oracle. All rights reserved.</p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 mt-4 mb-2 text-zinc-400 text-sm font-semibold">
+                <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
+                <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
+                <Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link>
+              </div>
+              <p className="text-zinc-500 text-sm mt-2">&copy; {new Date().getFullYear()} K-Oracle. All rights reserved.</p>
             <p className="text-zinc-600 text-xs mt-1 max-w-sm text-center md:text-left">Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.</p>
           </div>
           
           <div className="flex flex-col items-center md:items-end text-sm text-zinc-400">
             <p className="mb-2">Need help decoding your destiny?</p>
-            <a href="mailto:cwjung77@gmail.com" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors font-bold flex items-center gap-2 bg-fuchsia-400/10 px-4 py-2 rounded-full border border-fuchsia-400/30">
+            <a href="mailto:support@thekoracle.com" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors font-bold flex items-center gap-2 bg-fuchsia-400/10 px-4 py-2 rounded-full border border-fuchsia-400/30">
               <Mail size={16} /> support@thekoracle.com
             </a>
           </div>
