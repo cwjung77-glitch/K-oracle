@@ -33,4 +33,20 @@ When you look at Jaehyun's calm demeanor, precise vocal control, and effortless 
 
 Here is the underlying energetic breakdown of Jaehyun’s birth chart based on public records:
 
-| Pillar | Celestial
+| Pillar | Year Pillar | Month Pillar | Day Pillar |
+|---|---|---|---|
+| **Heavenly Stems** | Jeong Fire | Im Water | Gyeong Metal |
+| **Earthly Branches** | Chuk Ox | In Tiger | Ja Rat |
+
+## Deep Dive: The Core Energy
+
+Jaehyun has a powerful and refined aura, governed by structured Metal and deep Water. He possesses quiet confidence and exceptional aesthetic sensibilities.
+
+## The Path to Destiny
+
+He is destined for steady, long-lasting success rather than sudden, fleeting fame.
+
+## Frequently Asked Questions
+
+### Why is Jaehyun known for his classic visuals and aura?
+His Day Master gives him a dignified, timeless presence that naturally commands attention without being loud.

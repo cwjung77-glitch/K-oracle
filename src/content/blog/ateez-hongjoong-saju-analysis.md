@@ -34,4 +34,19 @@ This explains why Hongjoong's energy on stage is intensely captivating. He does 
 
 | Pillar | Year Pillar | Month Pillar | Day Pillar (Self) |
 |---|---|---|---|
-|
+| **Heavenly Stems** | Gyeong Metal | Jeong Fire | Gi Earth |
+| **Earthly Branches** | In Tiger | Yu Rooster | Chuk Ox |
+| **Primary Energy** | Yang Metal | Yin Fire & Metal | Yin Earth & Metal |
+
+## Deep Dive: The Core Energy
+
+Hongjoong is driven by immense passion and discipline. The combination of Fire and Metal makes him an extraordinary leader who can organize and inspire.
+
+## The Path to Destiny
+
+His current and upcoming Daewoon cycles will continue to bolster his artistic influence globally.
+
+## Frequently Asked Questions
+
+### Why is Hongjoong such a great leader?
+His Saju chart possesses a rare mix of charismatic Fire and structured Metal, allowing him to enforce discipline while radiating warmth.

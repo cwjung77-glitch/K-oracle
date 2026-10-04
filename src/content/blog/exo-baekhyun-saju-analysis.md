@@ -75,4 +75,7 @@ Baekhyun's Day Master is **Gi Earth (己土)**, specifically the **Gi Mi (己未
 His chart features a perfect harmony between **Fire (Direct Resource)** and **Metal (Hurting Officer)** elements. Fire gives him rapid learning ability and emotional intelligence, while Metal provides supreme artistic expression and vocal precision, allowing him to master complex talents effortlessly.
 
 ### Does Baekhyun's Saju support his transition to running his own company?
-Yes, absolutely. His Year Pillar holds a strong **Hurting Officer producing Wealth** combination (Sin Metal generating Im Water). This energy makes
+Yes, absolutely. His Year Pillar holds a strong **Hurting Officer producing Wealth** combination (Sin Metal generating Im Water). This energy makes him an exceptional entrepreneur. It signifies taking one's creative talents and directly monetizing them into a successful business empire.
+
+### What elements balance Baekhyun's chart best?
+He thrives with Earth to stabilize his energetic output and Wood to provide continuous inspiration for his Fire energy.

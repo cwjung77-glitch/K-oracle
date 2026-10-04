@@ -24,4 +24,16 @@ To understand the core energy guiding Zhang Hao, we look at the cosmic energies 
 | :--- | :--- | :--- | :--- | :--- |
 | **Heavenly Stems** | Gyeong Metal (庚) | Gye Water (癸) | Mu Earth (戊) | *Time Unknown* |
 | **Earthly Branches** | Jin Dragon (辰) | Mi Goat (未) | Ja Rat (子) | *Time Unknown* |
-| **Primary Energy** | Yang Metal & Earth | Yin Water & Earth
+| **Primary Energy** | Yang Metal & Earth | Yin Water & Earth | Yang Earth & Water | *Time Unknown* |
+
+## Deep Dive: The Core Energy
+
+Zhang Hao is guided by an immense core energy that blends profound emotional depth with sturdy leadership. He is naturally charismatic and excels in bringing harmony to complex environments.
+
+## Frequently Asked Questions
+
+### Why is Zhang Hao a born center?
+His Earth-Water balance allows him to remain completely unbothered and grounded while radiating deep talent.
+
+### What elements balance him?
+He benefits from Wood energy to continue growing his global influence.
