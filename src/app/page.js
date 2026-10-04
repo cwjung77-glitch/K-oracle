@@ -294,7 +294,38 @@ export default function OracleLanding() {
               ) : (
               <>
                 <h2 className="text-3xl md:text-5xl font-black mb-4">Unlock Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 drop-shadow-md">Beauty Blueprint</span></h2>
-                <p className="text-pink-300 font-medium tracking-wide mb-8 text-lg">Get your personalized styling masterplan, including exact wardrobe color matching, hair dye recommendations, and makeup strategies.</p>
+                <p className="text-pink-300 font-medium tracking-wide mb-6 text-lg">Get your personalized styling masterplan, including exact wardrobe color matching, hair dye recommendations, and makeup strategies.</p>
+                  
+                  {/* Premium Value Props */}
+                  <div className="max-w-2xl mx-auto mb-10 bg-black/40 border border-pink-500/20 rounded-2xl p-6 md:p-8 text-left shadow-[0_0_20px_rgba(236,72,153,0.05)]">
+                    <div className="flex justify-between items-end border-b border-pink-500/10 pb-4 mb-4">
+                      <div>
+                        <div className="text-sm text-pink-400 font-bold tracking-widest uppercase mb-1">Premium PDF Report</div>
+                        <h3 className="text-2xl font-black text-white">Full Personal Color Analysis</h3>
+                      </div>
+                      <div className="text-right">
+                        <div className="text-sm text-zinc-500 line-through mb-1">$29.99</div>
+                        <div className="text-3xl font-black text-white">$9.99</div>
+                      </div>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-6 mt-6">
+                      {[
+                        'Exact 12-Season Classification',
+                        'Best & Worst Color Swatches',
+                        'K-Beauty Makeup Strategies',
+                        'Jewelry & Hair Color Guide',
+                        'Your K-Pop Celebrity Twin'
+                      ].map((item, i) => (
+                        <div key={i} className="flex items-center gap-3 text-sm md:text-base text-zinc-300 font-medium">
+                          <svg className="w-5 h-5 text-pink-500 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
+                          </svg>
+                          {item}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
                     onClick={() => setShowCheckout(true)}
