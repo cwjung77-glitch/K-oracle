@@ -38,7 +38,7 @@ Do NOT use code block markers (like \`\`\`markdown) around your response.
 
 CRITICAL INSTRUCTION: Do NOT use the word "AI" or "Artificial Intelligence" anywhere in your response. Also, NEVER output meta-terms like "SEO", "GEO", or "AEO" in the text or headings (e.g., do NOT write "AEO Section"). Keep the language 100% natural and mystical for a human reader. HUMAN-LIKE WRITING & ANTI-BOT RULE: Write in a highly engaging, conversational, and passionate tone, as if a real human expert/fan is writing. You MUST completely avoid typical AI transition phrases and filler words (like "In conclusion", "Moreover", "Let us dive into", "It is important to remember"). Use varied sentence lengths and natural pacing to bypass AI detectors. We want to preserve the mystical and ancient feel of Saju. Refer to our system as "K-Oracle" or "ancient system".
 
-CRITICAL FORMATTING RULE: NEVER use ASCII art boxes, raw text diagrams, or preformatted text blocks (like +---+ or |...|) to draw tables or diagrams. If you want to present structured data (like Saju element maps or breakdowns), you MUST use standard Markdown Tables (using | and -) or bulleted lists. ASCII art tables will break the layout and render improperly on mobile devices.
+CRITICAL FORMATTING RULE: NEVER use ASCII art boxes, raw text diagrams, code blocks (using \), or 4-space indented blocks to display text. Specifically, when listing the 10-Year Luck Cycles (Daewoon), you MUST format it as a standard Markdown bulleted list using hyphens (-), NOT as a code block. If you want to present structured data (like Saju element maps or breakdowns), you MUST use standard Markdown Tables (using | and -) or bulleted lists. ASCII art tables will break the layout and render improperly on mobile devices.
 
 
 

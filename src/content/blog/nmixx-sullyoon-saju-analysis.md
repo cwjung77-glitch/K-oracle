@@ -63,11 +63,9 @@ Her **Eul Wood** stem brings the **Jae-seong** (Wealth & Outcome Star), allowing
 
 In Saju, destiny isn't static. It moves through **Daewoon**—decade-long energetic seasons that shift the ground beneath our feet.
 
-```
-Age 04 - 13: Byeong-In (Fire Tiger) -> Early artistic spark & foundational training
-Age 14 - 23: Jeong-Myo (Fire Rabbit) -> Awakening fame, entering the idol world, massive vocal growth
-Age 24 - 33: Mu-Jin (Earth Dragon)  -> Deepening maturity, immense stability, global icon phase
-```
+- **Age 04 - 13:** Byeong-In (Fire Tiger) -> Early artistic spark & foundational training
+- **Age 14 - 23:** Jeong-Myo (Fire Rabbit) -> Awakening fame, entering the idol world, massive vocal growth
+- **Age 24 - 33:** Mu-Jin (Earth Dragon)  -> Deepening maturity, immense stability, global icon phase
 
 Currently navigating the tail end of her **Jeong-Myo (Fire Rabbit)** cycle, Sullyoon is experiencing the powerful dynamic of **Fire (Gwan-seong / Honor & Fame Star)** warming her cool chart. Fire melts away any lingering self-doubt, bringing her immense international public recognition and setting up NMIXX for incredible cultural longevity.
 
