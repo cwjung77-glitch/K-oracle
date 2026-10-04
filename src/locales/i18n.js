@@ -251,10 +251,7 @@ export const translations = {
     deep_report: 'Báo Cáo Chuyên Sâu + Bùa Tặng Kèm',
     unlock_desc: 'Mở khóa vận mệnh chi tiết của bạn & nhận hình nền may mắn.',
     unlock_btn: 'Mở Khóa Cả Hai ($0.99)',
-  }
-};
-
-
+  },
   fr: {
     free_daily_fortune: 'HOROSCOPE QUOTIDIEN GRATUIT',
     beauty_blueprint: 'Votre Plan de Beauté',
@@ -277,7 +274,9 @@ export const translations = {
     deep_report: 'Rapport Détaillé + Amulette Bonus',
     unlock_desc: 'Déverrouillez votre destin détaillé et obtenez un fond d\'écran porte-bonheur.',
     unlock_btn: 'Déverrouiller les Deux ($0.99)',
-  },
+  }
+};
+
 export function t(key, lang = 'en') {
   if (!translations[lang]) return translations['en'][key] || key;
   return translations[lang][key] || translations['en'][key] || key;
