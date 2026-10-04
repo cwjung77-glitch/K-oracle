@@ -33,15 +33,15 @@ Forget roaring wildfires or blinding sunlight. Yin Fire is starlight. It's a can
 
 ### 1. The Day Pillar (*Jeong-Hae*): The Water Pig and Divine Favor
 Tzuyu’s Day Pillar is **Jeong-Hae**—Yin Fire sitting directly on top of the Water Pig. This is pure dynamic harmony between opposite forces.
-* **The Heavenly Noble Star**: Her Water Pig carries the ultimate cosmic blessing: the *Tian Yi Gui Ren* (Heavenly Nobleman Star). It acts as a divine shield. It attracts influential mentors, constant public goodwill, and an undeniable global pull.
+* **The Heavenly Noble Star**: Her Water Pig carries the ultimate cosmic blessing: the *Cheon Eul Gwi In* (Heavenly Nobleman Star). It acts as a divine shield. It attracts influential mentors, constant public goodwill, and an undeniable global pull.
 * **Refined Composure**: Deep Water cools the Fire, saving Tzuyu from burnout. It gives her that famous, royalty-like poise under pressure.
 
-### 2. The Month Pillar (*Geng-Wu*): Peak Summer Passion
+### 2. The Month Pillar (*Gyeong-Wu*): Peak Summer Passion
 Born in June—the month of the Fire Horse (*Wu*)—Tzuyu gets a massive blast of peak summer heat straight into her chart.
 * **High Visibility**: This intense Horse energy fuels her candle flame, turning it into a light bright enough to shine across global stadiums.
 * **Artistic Drive**: Metal (*Geng*) sitting right above the Fire Horse represents her wealth and creative engine. It points directly to massive financial rewards built through high-tier artistic performance.
 
-### 3. The Year Pillar (*Ji-Mao*): Roots of Humility and Modesty
+### 3. The Year Pillar (*Gi-Mao*): Roots of Humility and Modesty
 Her foundational energy relies on Earth (*Ji*) and Wood (*Mao*).
 * **Modest Demeanor**: Earth keeps her deeply grounded despite worldwide fame. Wood feeds the Fire, driving her relentless practice schedule, dance discipline, and foreign language mastery.
 ## Cosmic Q&A: Secrets of Tzuyu’s Destiny

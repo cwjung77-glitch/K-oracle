@@ -37,7 +37,7 @@ To understand her rise as one of K-pop’s premier all-rounders, we look at the 
 
 | Pillar | Celestial Stem & Earthly Branch | Elemental Essence | Life Impact & Manifestation |
 | :--- | :--- | :--- | :--- |
-| **Day Pillar (Self)** | Yang Water sitting on Wu Fire / Yin Wood | Water & Fire/Wood | Deep intellect balancing vibrant, magnetic performance energy. |
+| **Day Pillar (Self)** | Yang Water sitting on Mu Fire / Yin Wood | Water & Fire/Wood | Deep intellect balancing vibrant, magnetic performance energy. |
 | **Month Pillar (Career & Youth)** | Bing In (Fire Tiger) | Fire & Wood | A blazing sun illuminating a flourishing forest; creates instant stage presence and artistic passion. |
 | **Year Pillar (Ancestry & Foundation)** | Jia Sul (Wood Dog) | Wood & Earth | Sturdy root energy that built her discipline, loyalty, and endurance through 7 years of training. |
 

@@ -46,7 +46,7 @@ One of Felix's most distinctive traits is the striking contrast between his deli
 ### How Metal Dictates Vocal Energy
 *   **Acoustic Resonance:** In traditional five-element metaphysics, **Metal** rules the lungs, vocal cords, sound waves, and structural resonance. Strong Metal in a chart creates clarity, metallic power, and deep reverberation.
 *   **Precision and Impact:** Metal represents sharp boundaries and weight. When Felix delivers his iconic line drops, the heavy Metal influence in his chart allows him to pierce through the musical arrangement with grounding authority.
-## Angelic Visuals Meets Fierce Energy: The Yin-Yang Duality
+## Angelic Visuals Meets Fierce Energy: The In-Yang Duality
 
 Felix is world-renowned for his "fairy-like" or "angelic" aesthetics combined with intense stage dynamics. His Four Pillars reveal a captivating harmony of opposing forces:
 

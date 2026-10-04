@@ -24,14 +24,14 @@ Yujin entered the world on September 1, 2003. Pulling back the layers of her bir
 
 | Pillar | Heavenly Stem | Earthly Branch | Elemental Harmony | Spiritual Meaning |
 | :--- | :--- | :--- | :--- | :--- |
-| **Day (Self)** | Yang Fire (Bing) | Horse (Wu - Fire) | Fire / Fire | Core Identity, Personal Magnetism |
-| **Month (Career)** | Yang Metal (Geng) | Monkey (Shen - Metal) | Metal / Metal | Talent, Wealth Creation, Work Ethic |
-| **Year (Public)** | Yin Water (Gui) | Sheep (Wei - Earth) | Water / Earth | Fame, Public Recognition, Ancestral Fortune |
+| **Day (Self)** | Yang Fire (Bing) | Horse (Mu - Fire) | Fire / Fire | Core Identity, Personal Magnetism |
+| **Month (Career)** | Yang Metal (Geng) | Monkey (Sin - Metal) | Metal / Metal | Talent, Wealth Creation, Work Ethic |
+| **Year (Public)** | Yin Water (Gui) | Sheep (Mi - Earth) | Water / Earth | Fame, Public Recognition, Ancestral Fortune |
 
 ### Key Elemental Insights:
 
 1. **Fire Fueling Stage Presence:** Her explosive Fire core creates instant artistic magnetism, expressive emotional performance, and electric passion.
-2. **Metal Creating Practical Wisdom:** Sitting in her Month Pillar, Metal (Geng-Shen) serves as her "Wealth Star" (Jae-seong). It gives her razor-sharp focus, quick-witted humor, business intelligence, and a flawless work ethic.
+2. **Metal Creating Practical Wisdom:** Sitting in her Month Pillar, Metal (Gyeong-Shen) serves as her "Wealth Star" (Jae-seong). It gives her razor-sharp focus, quick-witted humor, business intelligence, and a flawless work ethic.
 3. **Water Granting Authority:** The Water in her Year Pillar acts as her "Officer Star" (Gwan-seong), handing her the discipline, dignity, and natural respect needed to anchor a titan group like IVE.
 ## Why An Yujin Was Born to Be a Leader
 

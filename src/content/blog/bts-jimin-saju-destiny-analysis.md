@@ -9,7 +9,7 @@ tags: ["BTS", "Jimin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Des
 
 ## TL;DR
 
-## The Cosmic Blueprint of BTS Jimin (Park Ji-min)
+## The Cosmic Blueprint of BTS Jimin (Park Gi-min)
 
 Saju—Korea’s ancient Four Pillars system—isn't just astrology; it’s the literal energetic blueprint of a person's spirit. When we look at how the Five Elements (Wood, Fire, Earth, Metal, Water) clashed and aligned the exact second Jimin was born, his soul's entire architecture unfolds. His hidden instincts, raw emotional intensity, ultimate path—it's all written right there.
 

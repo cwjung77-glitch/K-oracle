@@ -9,9 +9,9 @@ tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astr
 
 ## TL;DR
 
-## Introduction: Decoding Kwon Ji-yong's Cosmic Blueprint
+## Introduction: Decoding Kwon Gi-yong's Cosmic Blueprint
 
-Look at modern K-Pop, and you see Kwon Ji-yong's fingerprints everywhere. BIGBANG’s leader didn't just join the industry—he rebuilt it in his own image. Songwriter. Global style icon. Cultural trendsetter. But his legendary status wasn't a random twist of fate. His trajectory was locked into his **Saju (사주)** the second he was born. 
+Look at modern K-Pop, and you see Kwon Gi-yong's fingerprints everywhere. BIGBANG’s leader didn't just join the industry—he rebuilt it in his own image. Songwriter. Global style icon. Cultural trendsetter. But his legendary status wasn't a random twist of fate. His trajectory was locked into his **Saju (사주)** the second he was born. 
 
 Saju reads the exact energetic alignment at someone's moment of birth through the Five Elements (Wood, Fire, Earth, Metal, Water) and the Twelve Zodiac Animals. Break down G-Dragon’s four pillars, and you immediately see why this guy was always destined to flip the entertainment world on its head.
 > 🔮 **New to Korean Astrology?** If terms like *Day Master* or *Ten Gods* sound confusing, don't worry! Read our [Ultimate Guide to Korean Saju (Four Pillars of Destiny)](/blog/what-is-korean-saju-four-pillars-of-destiny) to quickly decode the cosmic language before diving into the analysis.
@@ -27,7 +27,7 @@ Born on **August 18, 1988**, G-Dragon carries a raw, electric elemental mix.
 
 ### 1. The Day Master: In Wood (Eul Mok 乙木)
 Your Day Master is your core spirit. G-Dragon sits on **Eul Mok**, represented by winding vines, wildflowers, and flexible plants.
-* **Adaptability & Grace**: Big Oak trees (Yang Wood) snap under heavy winds. In Wood bends, wraps around obstacles, and keeps growing. That’s Ji-yong. He morphs through genres, eras, and aesthetics effortlessly.
+* **Adaptability & Grace**: Big Oak trees (Yang Wood) snap under heavy winds. In Wood bends, wraps around obstacles, and keeps growing. That’s Gi-yong. He morphs through genres, eras, and aesthetics effortlessly.
 * **Aesthetic Sensitivity**: Eul Mok souls have a built-in radar for beauty. Color, line, flow, sound—it comes naturally to them. They don't just make art; they inhabit it.
 
 ### 2. The Expression Star (Sik-sang): The Fire of the Snake (Sa 火)

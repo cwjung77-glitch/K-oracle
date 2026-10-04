@@ -11,7 +11,7 @@ tags: ["BLACKPINK Jennie", "Saju Analysis", "Four Pillars of Destiny", "Korean A
 
 ## The Metaphysical Blueprint of an Icon: Jennie's Saju Chart
 
-Everyone knows BLACKPINK’s Jennie Kim as a trendsetter, a powerhouse performer, and a global style icon. But raw talent and work ethic aside, her birth chart reveals a stunning alignment of elemental forces (*Yin-Yang and the Five Elements*) that basically mapped out her rise to stardom.
+Everyone knows BLACKPINK’s Jennie Kim as a trendsetter, a powerhouse performer, and a global style icon. But raw talent and work ethic aside, her birth chart reveals a stunning alignment of elemental forces (*In-Yang and the Five Elements*) that basically mapped out her rise to stardom.
 
 Saju reads the exact Year, Month, Day, and Hour of your birth to break down your life path, inner drives, hidden talents, and major luck shifts.
 

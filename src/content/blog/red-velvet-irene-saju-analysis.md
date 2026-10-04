@@ -68,7 +68,7 @@ Born in the vibrant spring month of the Rabbit (Mao), Irene possesses a deeply h
 ## Frequently Asked Questions About Irene's Saju
 
 ### What makes Irene's visual presence so distinct according to her chart?
-Her visual presence is defined by the direct interaction between **Gap Wood** and **Xin/Shen Metal**. Wood brings natural life and stature, while Metal adds razor-sharp precision and flawless symmetry. This elemental combination creates a timeless, dignified beauty rather than a transient trend.
+Her visual presence is defined by the direct interaction between **Gap Wood** and **Sin/Shen Metal**. Wood brings natural life and stature, while Metal adds razor-sharp precision and flawless symmetry. This elemental combination creates a timeless, dignified beauty rather than a transient trend.
 
 ### How does her chart influence her leadership style in Red Velvet?
 As a Gap Wood personality sitting on an Officer element (Metal), her leadership is grounded in silent responsibility, structured order, and protective care. She prefers to lead by example, maintaining firm personal boundaries while quietly shielding her team from background stress.

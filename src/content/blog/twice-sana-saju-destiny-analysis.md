@@ -53,9 +53,9 @@ Absolutely. Her birth blueprint packs strong resource stars alongside rich self-
 
 | Cosmic Pillar | Primary Element | Key Destiny Attribute |
 | :--- | :--- | :--- |
-| **Year Pillar (1996)** | Yang Fire / Rat (*Bing-Zi*) | Global reach, immediate social recognition |
-| **Month Pillar** | Yang Metal / Rat (*Geng-Zi*) | Professional discipline, strong Peach Blossom charisma |
-| **Day Pillar** | Yin Fire / Pig (*Ding-Hai*) | Warm heart, intuitive performance talent, deep elegance |
+| **Year Pillar (1996)** | Yang Fire / Rat (*Byeong-Zi*) | Global reach, immediate social recognition |
+| **Month Pillar** | Yang Metal / Rat (*Gyeong-Zi*) | Professional discipline, strong Peach Blossom charisma |
+| **Day Pillar** | Yin Fire / Pig (*Jeong-Hai*) | Warm heart, intuitive performance talent, deep elegance |
 
 Sana’s Saju proves her spot at the top of the K-pop world was practically written in the stars. Her chart blends fierce artistic talent, high-level emotional intelligence, and a rare cosmic glow that will keep lighting up stages worldwide for years to come.
 

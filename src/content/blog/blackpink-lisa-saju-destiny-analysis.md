@@ -29,7 +29,7 @@ Ask any Saju reader about **Do-Hwa (the Peach Blossom Star)**, and their eyes wi
 
 Look deeper into her chart's elemental mechanics, and you'll see why her career trajectory looks so unstoppable.
 
-### The Wu-Gui Harmony Combination
+### The Mu-Gui Harmony Combination
 Lisa’s **Mu Earth** Day Master locks into a powerful energetic union with the **Gye Water (癸水)** in her Month Pillar. 
 *   **Transformation into Fame**: When Oh (Yang Earth) joins Gye (Yin Water), they merge to form **Fire energy**. Fire in Saju translates to public spotlight, total visibility, and global fame. Her raw destiny literally cooks up spotlight energy out of thin air.
 *   **Flowing Wealth**: Gye Water represents her Direct Wealth star. Because this water links straight to her Day Master, massive financial opportunities and top-tier brand deals flow into her life without stopping.
@@ -42,10 +42,10 @@ Tucked inside her Month Pillar sits **Myo Wood (卯木)**, acting as her Officer
 ## Frequently Asked Questions About Lisa’s Saju
 
 ### What is Lisa's Day Master in Saju?
-Lisa is a **Mu Earth (Yang Earth)** Day Master, specifically on the **Wu-Oh (Earth Horse)** pillar. Think of her as a mighty mountain charged by an intense underground fire—grounded, brilliant, and deeply passionate.
+Lisa is a **Mu Earth (Yang Earth)** Day Master, specifically on the **Mu-Oh (Earth Horse)** pillar. Think of her as a mighty mountain charged by an intense underground fire—grounded, brilliant, and deeply passionate.
 
 ### Why is Lisa so famous internationally according to Saju?
-It boils down to her double **Do-Hwa (Peach Blossom) Stars** in the Rabbit and Horse, combined with that rare Wu-Gui stem union. That element combo constantly converts her baseline energy into blazing Fire, the cosmic engine behind worldwide fame and spotlight.
+It boils down to her double **Do-Hwa (Peach Blossom) Stars** in the Rabbit and Horse, combined with that rare Mu-Gui stem union. That element combo constantly converts her baseline energy into blazing Fire, the cosmic engine behind worldwide fame and spotlight.
 
 ### What element brings balance to Lisa's Saju chart?
 With so much Earth and Fire pulsing through her chart, **Metal (Expression)** and **Water (Wealth)** act as her key balancing forces. Metal gives her an outlet to channel that internal heat into iconic choreography and sharp creative output, while Water transforms that drive into enduring legacy and long-term wealth.

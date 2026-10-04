@@ -11,7 +11,7 @@ tags: ["TXT", "Beomgyu", "Saju Analysis", "K-Pop Astrology", "Four Pillars of De
 
 ## The Cosmic Blueprint of TXT Beomgyu
 
-Anyone who watches Beomgyu on stage knows his presence commands the room. Saju explains the exact mechanics behind that star quality by mapping the Five Elements (*Yin-Yang and O-Haeng*): Wood, Fire, Earth, Metal, and Water. 
+Anyone who watches Beomgyu on stage knows his presence commands the room. Saju explains the exact mechanics behind that star quality by mapping the Five Elements (*In-Yang and O-Haeng*): Wood, Fire, Earth, Metal, and Water. 
 
 His March 13, 2001 birth date places him right at the absolute peak of Spring Wood energy. In reading charts, spring represents pure creation, rapid growth, and unstoppable evolution.
 

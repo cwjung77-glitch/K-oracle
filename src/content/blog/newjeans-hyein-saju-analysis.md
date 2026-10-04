@@ -13,8 +13,8 @@ tags: ["NewJeans", "Hyein", "Saju Reading", "K-Pop Saju", "Four Pillars of Desti
 
 Saju reads the exact timestamp of your birth across four pillars—Year, Month, Day, and Hour—translating them into the Five Elements (Wood, Fire, Earth, Metal, Water) to unlock your innate talent and path. Looking at Hyein's chart, you immediately spot something extraordinary for someone so young: an old soul's depth wrapped in high-level artistic flair.
 
-* **Year Pillar:** Wu-Ja (Earth Rat - 戊子)
-* **Month Pillar:** Bing-Jin (Fire Dragon - 丙辰)
+* **Year Pillar:** Mu-Ja (Earth Rat - 戊子)
+* **Month Pillar:** Byeong-Jin (Fire Dragon - 丙辰)
 * **Day Pillar:** Jeong-Hae (Fire Pig - 丁亥)
 
 This dynamic lineup hits a rare harmony of warmth, depth, and raw creative power. 

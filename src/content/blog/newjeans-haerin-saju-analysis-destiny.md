@@ -11,7 +11,7 @@ tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 
 ## The Core Element: Im Water (The Deep Ocean)
 
-In Saju reading, your birth day reveals your **Day Master** (Il-ju)—the undeniable core of who you are. Haerin’s chart centers on a **Ren-Yin** day, making her Day Master **Im Water (壬水)**.
+In Saju reading, your birth day reveals your **Day Master** (Il-ju)—the undeniable core of who you are. Haerin’s chart centers on a **Im-Yin** day, making her Day Master **Im Water (壬水)**.
 
 * **Vast and Deep Mind**: Im Water isn't a splash in a cup; it's the boundless ocean, a midnight lake, a surging river. People with this placement carry incredible depth, sharp intuition, and a quiet emotional wisdom that runs miles deep.
 * **Observant Silence**: She doesn't scream for the spotlight. She scans the room, reads the energy, and strikes when the moment is right. That famous, unshakeable composure you see in interviews? Classic Im Water energy.

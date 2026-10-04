@@ -9,7 +9,7 @@ tags: ["ZEROBASEONE", "ZhangHao", "Saju", "Kpop", "FourPillars"]
 
 ## TL;DR (Quick Answer)
 
-Born on July 25, 2000, ZEROBASEONE’s Zhang Hao carries the cosmic signature of a **Mu Earth (戊土)** Day Master—a majestic, unshakable mountain sitting above deep subterranean streams (**Wu Zi / 戊子**). His Four Pillars reading shows a balanced harmony between Earth (resilience and magnetism), Water (wealth and intellectual depth), and Metal (artistic refining and violin virtuosity). This rare celestial combination explains his historical rise as the first foreign center in K-pop audition history, his flawless musical pitch, and his dignified composure under immense global spotlight.
+Born on July 25, 2000, ZEROBASEONE’s Zhang Hao carries the cosmic signature of a **Mu Earth (戊土)** Day Master—a majestic, unshakable mountain sitting above deep subterranean streams (**Wu Ja / 戊子**). His Four Pillars reading shows a balanced harmony between Earth (resilience and magnetism), Water (wealth and intellectual depth), and Metal (artistic refining and violin virtuosity). This rare celestial combination explains his historical rise as the first foreign center in K-pop audition history, his flawless musical pitch, and his dignified composure under immense global spotlight.
 
 ---
 

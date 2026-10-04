@@ -49,7 +49,7 @@ To understand how Anton channels his oceanic energy into art, we examine the bal
 Water alone can be cold and boundless, but Anton's chart features vibrant **Wood** and **Fire** elements. 
 
 *   **Wood (Creation):** Wood represents expressiveness, songwriting, and instrumental talent. It acts as the pipeline through which his inner ocean of emotion flows outward into melodies.
-*   **Fire (Charisma and Wealth):** The Fire element in his day pillar (Wu Fire) gives him an inviting aura, striking visual appeal, and strong star power. In Saju, Fire beneath a Water Day Master also represents the "Wealth Star," indicating high commercial success and prosperity earned through personal effort.
+*   **Fire (Charisma and Wealth):** The Fire element in his day pillar (Mu Fire) gives him an inviting aura, striking visual appeal, and strong star power. In Saju, Fire beneath a Water Day Master also represents the "Wealth Star," indicating high commercial success and prosperity earned through personal effort.
 
 ---
 

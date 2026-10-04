@@ -15,8 +15,8 @@ If you’ve ever wondered why IVE’s iconic center feels almost supernatural on
 
 | Cosmic Pillar | Heavenly Stem | Earthly Branch | Hidden Energies |
 | :--- | :--- | :--- | :--- |
-| **Year Pillar** | Yang Wood (Jia) | Monkey (Shen / Metal) | Metal, Water, Earth |
-| **Month Pillar** | Yang Water (Ren) | Monkey (Shen / Metal) | Metal, Water, Earth |
+| **Year Pillar** | Yang Wood (Jia) | Monkey (Sin / Metal) | Metal, Water, Earth |
+| **Month Pillar** | Yang Water (Ren) | Monkey (Sin / Metal) | Metal, Water, Earth |
 | **Day Pillar (Self)** | Yang Water (Ren) | Dragon (Jin / Earth) | Earth, Water, Wood |
 
 Look closely at the **Monkey (Shen)** in her Month Pillar teaming up with the **Dragon (Jin)** in her Day Pillar. They trigger a partial **Water Element Combination**. That’s an insane cosmic setup. It builds an endless reservoir of raw presence, deep intuition, and magnetic public aura.
@@ -24,7 +24,7 @@ Look closely at the **Monkey (Shen)** in her Month Pillar teaming up with the **
 
 ## The Power of Yang Water (Im-Su Day Master)
 
-In traditional Saju reading, your **Day Master** is the absolute core of who you are. Wonyoung entered this world on a **Yang Water (Ren-Su)** day, perched right on top of the mighty **Dragon (Jin)** branch.
+In traditional Saju reading, your **Day Master** is the absolute core of who you are. Wonyoung entered this world on a **Yang Water (Im-Su)** day, perched right on top of the mighty **Dragon (Jin)** branch.
 
 ### 1. Vast Influence and Fluidity
 * **The Majestic Ocean:** Yang Water isn't a quiet stream—it's the roaring ocean, a sweeping river, a tidal wave. People carrying this energy move with unstoppable ambition and effortless grace. Swaying thousands of fans at once comes as naturally to her as breathing.
@@ -42,7 +42,7 @@ Auxiliary stars reveal how a person captivates the world around them. Wonyoung�
 * **Trendsetting Presence:** She isn't just following beauty standards or cultural shifts. Her cosmic chart literally commands her to set them.
 
 ### The Noble Dragon Energy (Baek-Ho & Crown Stars)
-* Sitting atop the **Water Dragon (Ren-Jin)** endows Wonyoung with an unmistakable, almost regal dignity.
+* Sitting atop the **Water Dragon (Im-Jin)** endows Wonyoung with an unmistakable, almost regal dignity.
 * That placement is raw star power. It gives her a subtle aura of authority, commanding instant respect from industry veterans, peers, and global crowds the moment she walks into a room.
 ## "Lucky Vicky" Mindset: The Saju Behind Her Optimism
 

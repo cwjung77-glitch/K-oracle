@@ -18,7 +18,7 @@ Saju balances five core elements: Wood, Fire, Earth, Metal, and Water. The exact
 
 ## The Core Identity: Gyeong Metal (庚金) Day Master
 
-Every Saju chart revolves around the **Day Master**—the ultimate blueprint of the soul. Eunwoo was born on a **Geng-Jin (庚辰)** day, making his central element **Yang Metal**.
+Every Saju chart revolves around the **Day Master**—the ultimate blueprint of the soul. Eunwoo was born on a **Gyeong-Jin (庚辰)** day, making his central element **Yang Metal**.
 
 > **CHA EUNWOO'S DAY MASTER**
 > **Gyeong Metal (庚金)**

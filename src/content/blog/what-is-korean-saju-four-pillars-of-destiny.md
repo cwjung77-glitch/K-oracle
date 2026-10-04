@@ -7,7 +7,7 @@ author: "K-Oracle"
 tags: ["Korean Saju", "Four Pillars of Destiny", "Saju Reading", "Eastern Astrology", "K-Oracle"]
 ---## TL;DR (Quick Answer)
 
-**Korean Saju (사주)**—the **Four Pillars of Destiny**—is an ancient Eastern system that decodes your core personality, hidden talents, and life trajectory using four exact details: your birth **Year, Month, Day, and Hour**. Each pillar holds two stacked symbols—a Heavenly Stem and an Earthly Branch—creating **Eight Characters (Palja)**. By reading how **Yin-Yang** and the **Five Elements** (Wood, Fire, Earth, Metal, Water) interact inside those characters, Saju lays out your natural tendencies, career fit, romance potential, and the best timing for major life leaps.
+**Korean Saju (사주)**—the **Four Pillars of Destiny**—is an ancient Eastern system that decodes your core personality, hidden talents, and life trajectory using four exact details: your birth **Year, Month, Day, and Hour**. Each pillar holds two stacked symbols—a Heavenly Stem and an Earthly Branch—creating **Eight Characters (Palja)**. By reading how **In-Yang** and the **Five Elements** (Wood, Fire, Earth, Metal, Water) interact inside those characters, Saju lays out your natural tendencies, career fit, romance potential, and the best timing for major life leaps.
 
 ---
 
@@ -43,9 +43,9 @@ Every pillar stacks two distinct energetic symbols:
 
 ---
 
-## The Engine of Saju: Yin-Yang and the Five Elements
+## The Engine of Saju: In-Yang and the Five Elements
 
-At its core, every calculation runs on **Eum-Yang Ohaeng (Yin-Yang and the Five Elements)**. Each stem and branch in your chart maps directly back to one of five elemental energies:
+At its core, every calculation runs on **Eum-Yang Ohaeng (In-Yang and the Five Elements)**. Each stem and branch in your chart maps directly back to one of five elemental energies:
 
 * **Wood (목 - Mok):** Growth, ambition, kindness, creative vision, and fresh starts.
 * **Fire (화 - Hwa):** Passion, self-expression, high visibility, enthusiasm, and sudden shifts.

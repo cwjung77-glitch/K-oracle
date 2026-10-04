@@ -11,7 +11,7 @@ tags: ["Blackpink", "Jisoo", "Saju Analysis", "KPop Astrology", "Four Pillars of
 
 ## Who is Blackpink Jisoo in Eastern Astrology?
 
-Kim Ji-soo came into this world on January 3, 1995, with a chart built on balance, warmth, and unyielding strength. Sure, millions know her as a global fashion icon, lead vocalist, and captivating actress. But as a Saju reader, I look straight at her cosmic blueprint to understand *how* she maintains that legendary composure under the world's brightest spotlight.
+Kim Gi-soo came into this world on January 3, 1995, with a chart built on balance, warmth, and unyielding strength. Sure, millions know her as a global fashion icon, lead vocalist, and captivating actress. But as a Saju reader, I look straight at her cosmic blueprint to understand *how* she maintains that legendary composure under the world's brightest spotlight.
 
 In Saju, we look at how five core elements—Wood, Fire, Earth, Metal, and Water—interact across four distinct pillars of time. Jisoo's elemental lineup is a masterclass in stability.
 
