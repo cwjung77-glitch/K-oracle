@@ -282,12 +282,9 @@ export default function PersonalColor() {
               <div className="bg-white/5 p-1 rounded-full inline-flex border border-white/10 shadow-inner">
                 <button 
                   onClick={handleScan}
-                  className="w-full py-4 rounded-xl flex justify-center items-center gap-3 bg-gradient-to-r from-pink-500 to-blue-500 text-white font-black tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:opacity-90 transition-opacity"
+                  className="w-full py-4 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:opacity-90 transition-opacity"
                 >
-                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
-                  </svg>
-                  Unlock Premium Report ($9.99)
+                  START COSMIC ANALYSIS
                 </button>
             )}
 
