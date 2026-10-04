@@ -331,8 +331,8 @@ export default function OracleLanding() {
           
           <div className="flex flex-col items-center md:items-end text-sm text-zinc-400">
             <p className="mb-2">Need help decoding your destiny?</p>
-            <a href="mailto:support@thekoracle.com" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors font-bold flex items-center gap-2 bg-fuchsia-400/10 px-4 py-2 rounded-full border border-fuchsia-400/30">
-              <Mail size={16} /> support@thekoracle.com
+            <a href="mailto:koraclesupport@gmail.com" className="text-fuchsia-400 hover:text-fuchsia-300 transition-colors font-bold flex items-center gap-2 bg-fuchsia-400/10 px-4 py-2 rounded-full border border-fuchsia-400/30">
+              <Mail size={16} /> koraclesupport@gmail.com
             </a>
           </div>
         </div>
