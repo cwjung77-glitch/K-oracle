@@ -1,3 +1,4 @@
+import { t } from '../../locales/i18n';
 import React, { useState, useEffect } from 'react';
 import { Sparkles, Star, Target, Palette, Zap, Check, Lock, ChevronRight, Download } from 'lucide-react';
 import { toPng } from 'html-to-image';
@@ -187,11 +188,11 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
 
           <div className="space-y-4">
             <div>
-              <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">{lang === 'es' ? 'Nombre' : 'Name'}</label>
+              <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">{t('name', lang)}</label>
               <input type="text" value={name} onChange={e => setName(e.target.value)} className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-violet-500 transition-colors" placeholder="e.g. Sarah" />
             </div>
             <div>
-              <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">{lang === 'es' ? 'Fecha de Nacimiento' : 'Birth Date'}</label>
+              <label className="block text-xs font-bold text-zinc-400 uppercase tracking-widest mb-1.5">{t('birth_date', lang)}</label>
               <input type="date" value={dob} onChange={e => setDob(e.target.value)} className="w-full bg-black/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-violet-500 transition-colors [&::-webkit-calendar-picker-indicator]:filter [&::-webkit-calendar-picker-indicator]:invert" />
             </div>
             <div>
@@ -206,7 +207,7 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
               onClick={handleGenerate}
               className="w-full mt-6 py-4 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black text-lg transition-all shadow-[0_0_30px_rgba(168,85,247,0.4)] flex items-center justify-center gap-2"
             >
-              <Sparkles size={18} /> {lang === 'es' ? 'Ver Mi Fortuna' : 'Reveal My Fortune'}
+              <Sparkles size={18} /> {t('reveal_fortune', lang)}
             </button>
           </div>
         </div>
@@ -220,7 +221,7 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
               <Sparkles className="text-white w-6 h-6 animate-pulse" />
             </div>
           </div>
-          <p className="text-zinc-300 font-bold animate-pulse">{lang === 'es' ? 'Descifrando tu destino...' : 'Decoding your destiny...'}</p>
+          <p className="text-zinc-300 font-bold animate-pulse">{t('decoding', lang)}</p>
         </div>
       )}
 
@@ -242,7 +243,7 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
               <div className="bg-black/50 border border-white/5 p-5 rounded-2xl">
                 <div className="flex items-center gap-2 mb-3">
                   <Palette size={16} className="text-pink-400" />
-                  <h4 className="font-bold text-zinc-300 text-sm uppercase tracking-widest">{lang === 'es' ? 'Color de la Suerte' : 'Lucky Color'}</h4>
+                  <h4 className="font-bold text-zinc-300 text-sm uppercase tracking-widest">{t('lucky_color', lang)}</h4>
                 </div>
                 <div className="text-xl font-black text-white mb-2">{result.luckyColor}</div>
                 <p className="text-zinc-400 text-sm mb-4">Enhance your aura today with <strong className="text-pink-300">{result.luckyItem}</strong>.</p>
@@ -266,7 +267,7 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
                 <div className="mt-6 border border-yellow-500/30 rounded-2xl p-6 bg-black relative overflow-hidden shadow-[0_0_40px_rgba(234,179,8,0.2)]">
                   <div className="absolute inset-0 bg-[url('/noise.png')] opacity-30 mix-blend-overlay"></div>
                   <div className="relative z-10 flex flex-col items-center">
-                    <h3 className="text-yellow-400 font-bold tracking-widest text-sm mb-4 uppercase">{lang === 'es' ? 'Tu Amuleto Exclusivo de Hoy' : 'Your Exclusive Daily Amulet'}</h3>
+                    <h3 className="text-yellow-400 font-bold tracking-widest text-sm mb-4 uppercase">{t('exclusive_amulet', lang)}</h3>
                                         <div id="daily-talisman-card" className="w-48 h-64 bg-zinc-900 rounded-2xl flex flex-col items-center justify-center p-4 border border-yellow-500/50 mb-4 shadow-xl relative overflow-hidden">
                       <div className="absolute top-2 left-2 right-2 bottom-2 border border-yellow-500/20 rounded-xl"></div>
                       <div className="text-5xl mb-4">{getDailyTalisman(name || 'User', new Date().toISOString().split('T')[0]).icon}</div>
@@ -276,10 +277,10 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
                     </div>
                     <button onClick={handleDownloadImage} disabled={isDownloading} className="px-6 py-2.5 bg-yellow-500/20 hover:bg-yellow-500/40 text-yellow-500 border border-yellow-500/50 rounded-full font-bold flex items-center gap-2 transition-all shadow-[0_0_15px_rgba(234,179,8,0.2)] disabled:opacity-50">
                       {isDownloading ? <Sparkles className="animate-spin" size={16} /> : <Download size={16} />}
-                      {lang === 'es' ? 'Descargar' : 'Download Amulet'}
+                      {t('download_amulet', lang)}
                     </button>
                     <p className="text-zinc-400 text-xs text-center mt-4 max-w-[200px]">
-                      {lang === 'es' ? 'Guarda esta imagen en tu celular para atraer buena suerte hoy.' : 'Save this amulet to your phone to attract luck today.'}
+                      {t('save_amulet', lang)}
                     </p>
                   </div>
                 </div>

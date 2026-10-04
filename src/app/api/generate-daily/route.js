@@ -8,7 +8,24 @@ export async function POST(req) {
   try {
     const body = await req.json();
     const { birthData, gender, lang, userName, todayStr: clientDate } = body;
-    const isEs = lang === 'es';
+    
+const langMap = {
+  en: 'English',
+  es: 'Spanish',
+  th: 'Thai',
+  id: 'Indonesian',
+  ja: 'Japanese',
+  de: 'German',
+  it: 'Italian',
+  pt: 'Portuguese',
+  pl: 'Polish',
+  ru: 'Russian',
+  vi: 'Vietnamese',
+  fr: 'French',
+  ko: 'Korean'
+};
+const targetLanguage = langMap[lang] || 'English';
+
 
     const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
     if (apiKeys.length === 0 || !apiKeys[0]) {
@@ -59,7 +76,7 @@ export async function POST(req) {
     
     Output ONLY this JSON (no markdown, no extra text):
     {"score":<1-100>,"vibe":"<3 sentences with Day Master and a cliffhanger>","luckyColor":"<color name>","luckyItem":"<${randomBrand} item>","idolMatch":"<1 short sentence about ${randomIdol}>"}
-    Language: ${isEs ? 'Spanish' : 'English'}.`;
+    Language: ${targetLanguage}.`;
 
     const requestBody = {
       contents: [{

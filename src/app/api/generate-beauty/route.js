@@ -8,7 +8,24 @@ export async function POST(req) {
   try {
     const body = await req.json();
     const { tone, lang } = body;
-    const isEs = lang === 'es';
+    
+const langMap = {
+  en: 'English',
+  es: 'Spanish',
+  th: 'Thai',
+  id: 'Indonesian',
+  ja: 'Japanese',
+  de: 'German',
+  it: 'Italian',
+  pt: 'Portuguese',
+  pl: 'Polish',
+  ru: 'Russian',
+  vi: 'Vietnamese',
+  fr: 'French',
+  ko: 'Korean'
+};
+const targetLanguage = langMap[lang] || 'English';
+
 
     const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
 
@@ -48,7 +65,7 @@ Structure the report exactly like this:
 Which K-Pop idols or actresses share this exact skin tone and aesthetic? Give 3 examples and explain their signature styling secrets.
 
 [CATEGORY: Signature Color Palette]
-List Top 3 must-wear colors and Top 3 worst colors.
+List exactly 9 Best (Must-wear) colors and 3 Worst (Avoid) colors.
 IMPORTANT: Next to every color name, you MUST provide its exact hex code in this format: [HEX: #FFB6C1]. Example: - Best 1: [HEX: #E6E6FA] Lavender.
 
 [CATEGORY: Makeup Blueprint]
@@ -59,7 +76,7 @@ IMPORTANT: Next to every color name, you MUST provide its exact hex code in this
 [CATEGORY: Accessory & Hair]
 Silver, gold, or rose gold? Best hair dye color?
 
-Language: ${isEs ? 'Spanish' : 'English'}.
+Language: ${targetLanguage}.
 CRITICAL: Limit each section to 250 words so it fits perfectly on the PDF pages. Make it sound expensive and extremely actionable.`;
 
     const requestBody = {

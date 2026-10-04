@@ -8,7 +8,24 @@ export async function POST(req) {
   try {
     const body = await req.json();
     const { birthData, gender, lang, plan, userName, idolName: bodyIdolName, dailyVibe } = body;
-    const isEs = lang === 'es';
+    
+const langMap = {
+  en: 'English',
+  es: 'Spanish',
+  th: 'Thai',
+  id: 'Indonesian',
+  ja: 'Japanese',
+  de: 'German',
+  it: 'Italian',
+  pt: 'Portuguese',
+  pl: 'Polish',
+  ru: 'Russian',
+  vi: 'Vietnamese',
+  fr: 'French',
+  ko: 'Korean'
+};
+const targetLanguage = langMap[lang] || 'English';
+
 
     const apiKeys = process.env.GEMINI_API_KEY ? process.env.GEMINI_API_KEY.split(',').map(k => k.trim()) : [];
 
@@ -64,7 +81,7 @@ Section 1: "Deep Chemistry & Compatibility Report" (Markdown). Break down how yo
 |||
 Section 2: "Karmic Destiny Matrix" (Markdown). Focus on past-life connections, hidden friction points, and red flags.
 
-Language: ${isEs ? 'Spanish' : 'English'}.`;
+Language: ${targetLanguage}.`;
     } else {
       systemPrompt = `You are a highly sought-after, brutally honest Gen-Z Korean Saju master.
 User: ${userName}, gender: ${gender}, born: ${birthData}.
@@ -85,7 +102,7 @@ Section 1: "26+27 VIP Masterplan" (Markdown). Break down their Day Master. Give 
 |||
 Section 2: "Hidden Karma & Love Matrix" (Markdown). Reveal dark truths about their wealth potential and romantic red flags.
 
-Language: ${isEs ? 'Spanish' : 'English'}.`;
+Language: ${targetLanguage}.`;
     }
 
     const requestBody = {

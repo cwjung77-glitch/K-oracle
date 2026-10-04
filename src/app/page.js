@@ -1,4 +1,5 @@
 ﻿"use client";
+import { t } from '../locales/i18n';
 import React, { useState, useEffect } from 'react';
 import SajuCompatibility from '../components/features/SajuCompatibility';
 import PersonalColor from '../components/features/PersonalColor';
@@ -185,7 +186,7 @@ export default function OracleLanding() {
               }`}
             >
               <Zap size={22} className={activeTab === 'daily' ? 'text-emerald-100 animate-pulse' : 'text-emerald-400'} />
-              {lang === 'es' ? 'Fortuna Diaria Gratis' : 'FREE DAILY FORTUNE'}
+              {t('free_daily_fortune', lang)}
             </button>
           </div>
 

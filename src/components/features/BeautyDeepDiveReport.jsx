@@ -1,5 +1,6 @@
 "use client";
 
+import { t } from '../../locales/i18n';
 import React, { useState, useEffect } from 'react';
 import { Shirt, Scissors, ShoppingBag, Download, Star, Sparkles, Loader2, Check, X, AlertCircle } from 'lucide-react';
 import CosmicLoader from '../ui/CosmicLoader';
@@ -112,7 +113,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
               <Star size={14} className="text-yellow-400" /> Premium Unlocked
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-white tracking-tighter">
-              {lang === 'es' ? 'Tu Plan de Belleza' : 'Your Beauty Blueprint'}
+              {t('beauty_blueprint', lang)}
             </h2>
             <p className="text-zinc-300 mt-2 font-medium">
               {lang === 'es' ? 'El plan maestro de estilo de 30 días.' : 'The ultimate 30-day styling masterplan.'}
@@ -130,7 +131,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
         <section className="bg-zinc-900/50 p-8 rounded-3xl border border-pink-500/30">
           <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
             <Sparkles className="text-pink-400" size={28} />
-            {lang === 'es' ? 'Analisis de Estilo de Cheongdam' : 'Cheongdam Styling Analysis'}
+            {t('cheongdam_analysis', lang)}
           </h3>
           <div className="space-y-6">
             {(reportData.reportText || "Styling report is being generated...").split('\n').map((line, idx) => {
@@ -236,7 +237,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
                 <div className="w-10 h-10 bg-zinc-800 rounded-lg flex items-center justify-center text-xl">💄</div>
                 <div>
                   <div className="text-white font-bold">{lang === 'es' ? 'Kit de Maquillaje K-Beauty (YesStyle)' : 'K-Beauty Makeup Kit (YesStyle)'}</div>
-                  <div className="text-zinc-500 text-sm">{lang === 'es' ? 'Compra con descuento VIP aplicado' : 'Shop with VIP discount applied'}</div>
+                  <div className="text-zinc-500 text-sm">{t('vip_discount', lang)}</div>
                 </div>
               </div>
               <div className="px-4 py-2 bg-green-500/10 text-green-400 rounded-lg font-bold text-sm">Open Link</div>
@@ -249,7 +250,7 @@ export default function BeautyDeepDiveReport({ lang = "en" }) {
                 <div className="w-10 h-10 bg-zinc-800 rounded-lg flex items-center justify-center text-xl">✨</div>
                 <div>
                   <div className="text-white font-bold">{lang === 'es' ? 'Cuidado de Piel Coreano (YesStyle)' : 'Korean Skincare Essentials (YesStyle)'}</div>
-                  <div className="text-zinc-500 text-sm">{lang === 'es' ? 'Compra con descuento VIP aplicado' : 'Shop with VIP discount applied'}</div>
+                  <div className="text-zinc-500 text-sm">{t('vip_discount', lang)}</div>
                 </div>
               </div>
               <div className="px-4 py-2 bg-green-500/10 text-green-400 rounded-lg font-bold text-sm">Open Link</div>
