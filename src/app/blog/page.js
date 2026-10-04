@@ -3,6 +3,8 @@ import path from 'path';
 import matter from 'gray-matter';
 import Link from 'next/link';
 
+import BlogFilter from '@/components/features/BlogFilter';
+
 // SEO Metadata for the main blog page
 export const metadata = {
   title: 'K-Oracle Blog - Saju, Destiny, & K-Culture Insights',
@@ -70,35 +72,7 @@ export default function BlogIndex() {
           </p>
         </div>
 
-        {posts.length === 0 ? (
-          <div className="text-center text-zinc-500 py-12">No posts found.</div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {posts.map((post) => (
-              <Link href={`/blog/${post.slug}`} key={post.slug} className="group block">
-                <div className="bg-zinc-900/40 border border-white/10 rounded-3xl p-8 h-full hover:bg-zinc-800/60 hover:border-yellow-500/50 transition-all duration-300">
-                  <div className="flex gap-2 mb-4 flex-wrap">
-                    {post.tags?.map(tag => (
-                      <span key={tag} className="px-3 py-1 bg-white/5 rounded-full text-xs font-bold text-yellow-500 tracking-wider uppercase">
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                  <h2 className="text-2xl font-black mb-3 group-hover:text-yellow-400 transition-colors line-clamp-2">
-                    {post.title}
-                  </h2>
-                  <p className="text-zinc-400 mb-6 line-clamp-3 leading-relaxed">
-                    {post.excerpt}
-                  </p>
-                  <div className="flex items-center justify-between text-sm font-bold text-zinc-500">
-                    <span>{post.author}</span>
-                    <span>{post.date}</span>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        )}
+        <BlogFilter posts={posts} />
       </main>
     </div>
   );
