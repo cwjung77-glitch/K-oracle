@@ -31,6 +31,35 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 import Script from 'next/script';
 
+
+export const jsonLd = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': 'https://thekoracle.com/#website',
+      'url': 'https://thekoracle.com/',
+      'name': 'K-Oracle & K-Beauty',
+      'description': 'Premium Korean Saju Astrology and Personal Color Analysis.',
+    },
+    {
+      '@type': 'SoftwareApplication',
+      '@id': 'https://thekoracle.com/#software',
+      'name': 'K-Oracle Personal Color AI',
+      'url': 'https://thekoracle.com/',
+      'applicationCategory': 'LifestyleApplication',
+      'applicationSubCategory': 'Beauty',
+      'operatingSystem': 'Web',
+      'description': 'AI Korean 12-season personal color analysis from a selfie. Find your perfect makeup and K-Pop celebrity twin.',
+      'offers': {
+        '@type': 'Offer',
+        'price': '4.99',
+        'priceCurrency': 'USD'
+      }
+    }
+  ]
+};
+
 export default function RootLayout({ children }) {
   return (
     <html
