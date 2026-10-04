@@ -53,7 +53,7 @@ export const jsonLd = {
       'description': 'AI Korean 12-season personal color analysis from a selfie. Find your perfect makeup and K-Pop celebrity twin.',
       'offers': {
         '@type': 'Offer',
-        'price': '4.99',
+        'price': '9.99',
         'priceCurrency': 'USD'
       }
     }
