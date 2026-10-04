@@ -281,66 +281,14 @@ export default function PersonalColor() {
             <div className="flex justify-center mb-6">
               <div className="bg-white/5 p-1 rounded-full inline-flex border border-white/10 shadow-inner">
                 <button 
-                  onClick={() => setGender('F')}
-                  className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${gender === 'F' ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-lg scale-105' : 'text-zinc-500 hover:text-zinc-300'}`}
+                  onClick={handleScan}
+                  className="w-full py-4 rounded-xl flex justify-center items-center gap-3 bg-gradient-to-r from-pink-500 to-blue-500 text-white font-black tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:opacity-90 transition-opacity"
                 >
-                  Female
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                  </svg>
+                  Unlock Premium Report ($9.99)
                 </button>
-                <button 
-                  onClick={() => setGender('M')}
-                  className={`px-8 py-2.5 rounded-full text-sm font-bold transition-all duration-300 ${gender === 'M' ? 'bg-gradient-to-r from-blue-500 to-cyan-500 text-white shadow-lg scale-105' : 'text-zinc-500 hover:text-zinc-300'}`}
-                >
-                  Male
-                </button>
-              </div>
-            </div>
-
-            <input 
-              type="file" 
-              id="camera-upload" 
-              accept="image/*" 
-              className="hidden" 
-              onChange={handleImageUpload} 
-            />
-            
-            <label 
-              htmlFor="camera-upload"
-              className="w-full h-72 border border-zinc-800 rounded-2xl relative overflow-hidden bg-[#0a0a0a] flex flex-col items-center justify-center cursor-pointer group shadow-inner block"
-            >
-              {/* Viewfinder UI */}
-              <div className="absolute top-6 left-6 w-10 h-10 border-t-2 border-l-2 border-pink-500/40 transition-all group-hover:border-pink-400 group-hover:scale-110 z-20" />
-              <div className="absolute top-6 right-6 w-10 h-10 border-t-2 border-r-2 border-pink-500/40 transition-all group-hover:border-pink-400 group-hover:scale-110 z-20" />
-              <div className="absolute bottom-6 left-6 w-10 h-10 border-b-2 border-l-2 border-pink-500/40 transition-all group-hover:border-pink-400 group-hover:scale-110 z-20" />
-              <div className="absolute bottom-6 right-6 w-10 h-10 border-b-2 border-r-2 border-pink-500/40 transition-all group-hover:border-pink-400 group-hover:scale-110 z-20" />
-              
-              {imagePreview ? (
-                <img src={imagePreview} alt="Selfie preview" className="absolute inset-0 w-full h-full object-cover opacity-60" />
-              ) : (
-                <div className="relative z-10 flex flex-col items-center">
-                  <div className="w-16 h-16 bg-pink-500/10 rounded-full flex items-center justify-center mb-4 group-hover:bg-pink-500/20 transition-colors">
-                    <Upload className="text-pink-400" size={28} />
-                  </div>
-                  <p className="text-zinc-300 font-bold text-lg mb-1">Upload Bare-Face Selfie</p>
-                  <p className="text-zinc-600 text-sm">Tap to browse or take a photo</p>
-                </div>
-              )}
-
-              {/* Scanning Overlay (Active during loading) */}
-              {loading && (
-                <div className="absolute inset-0 bg-pink-500/20 flex flex-col items-center justify-center z-30 backdrop-blur-sm">
-                  <div className="w-full h-1 bg-gradient-to-r from-transparent via-pink-500 to-transparent absolute top-1/2 -translate-y-1/2 animate-scan shadow-[0_0_15px_rgba(236,72,153,1)]" />
-                  <span className="text-white font-mono tracking-widest text-sm font-bold mt-16 animate-pulse drop-shadow-md">ANALYZING MELANIN LEVELS...</span>
-                </div>
-              )}
-            </label>
-            
-            {imagePreview && !loading && (
-              <button 
-                onClick={handleScan}
-                className="w-full py-4 rounded-xl bg-gradient-to-r from-pink-500 to-purple-600 text-white font-black tracking-wide shadow-[0_0_20px_rgba(236,72,153,0.3)] hover:opacity-90 transition-opacity"
-              >
-                START COSMIC ANALYSIS
-              </button>
             )}
 
             <div className="text-center space-y-4 mt-6">
