@@ -184,7 +184,7 @@ export default async function BlogPost({ params }) {
               <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-pink-500/30 rounded-3xl text-center">
                 <h3 className="text-2xl font-black mb-4">Find Your K-Pop Celebrity Twin</h3>
                 <p className="text-zinc-400 mb-6">Upload a selfie and get your premium 12-season Korean Personal Color Analysis.</p>
-                <Link href="/personal-color" className="inline-block px-8 py-4 bg-pink-500 text-white font-black rounded-xl hover:bg-pink-400 transition-colors shadow-[0_0_20px_rgba(236,72,153,0.3)]">
+                <Link href="/?tab=beauty" className="inline-block px-8 py-4 bg-pink-500 text-white font-black rounded-xl hover:bg-pink-400 transition-colors shadow-[0_0_20px_rgba(236,72,153,0.3)]">
                   Start Analysis ($9.99)
                 </Link>
               </div>
