@@ -12,6 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
+  metadataBase: new URL('https://thekoracle.com'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: "K-Oracle Saju | Ancient Korean Astrology & Cosmic Blueprint",
     template: "%s | K-Oracle Saju"
