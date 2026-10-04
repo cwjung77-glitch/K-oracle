@@ -73,8 +73,7 @@ tags: ["Tag1", "Tag2", "Tag3"]
 
 Body of the markdown goes here. Use ## for headings, bullet points, and bold text. Do NOT add any concluding calls to action (CTAs) encouraging users to visit the app, analyze their Saju, or "click here", because the website UI template already automatically renders a beautiful CTA box at the bottom of every post.
 
-CRITICAL INSTRUCTION 2: You MUST append the following exact disclaimer as italic text at the very bottom of the article:
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*`;
+`;
 
   // API Key Rotation Logic
   const keys = apiKey.split(',').map(k => k.trim());

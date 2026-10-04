@@ -50,4 +50,3 @@ Look to his dominant Metal element for that answer—it represents duty, structu
 
 ### Which element fuels RM's passion for art and lyricism?
 Water, without a doubt. Water pours directly into his In Wood core, feeding his creative spirit. In Saju, Water rules introspective thought, artistic memory, profound emotion, and philosophy. You hear it in every verse he writes and see it in his deep love for fine art.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -43,4 +43,3 @@ Being Byeong Fire makes him the absolute hearth of the group. His light breaks u
 
 ### What does the ancient system predict for his future career?
 With heavy Metal (raw technical skill and structure) backed by Water (flow and wisdom), his chart points toward massive long-term artistic power. Expect him to evolve into a deeply respected composer, producer, and legendary multi-instrumentalist for years to come.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

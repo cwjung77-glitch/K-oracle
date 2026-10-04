@@ -79,5 +79,3 @@ His presence on stage is driven by **Fire arising from Wood (Mok-Hwa-Tong-Myeong
 
 ### How does Hyunjin handle stress according to his energy profile?
 When pressure hits redline levels, Hyunjin activates his **Earth and Water storage energies** by stepping back into solitary creative spaces. Fine art painting, quiet music composition, and dancing alone late at night serve as his natural elemental rituals to clear out bad energy and reset his system.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

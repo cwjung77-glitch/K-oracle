@@ -85,5 +85,3 @@ In Saju, strong Metal influence creates a passion for order, symmetry, and preci
 His Byeong Fire Day Master craves expressive output, while his Metal element cuts through the performance with sharp accuracy. When music plays, his Fire element blazes through his facial expressions while Metal guides his precise movements, resulting in a mesmerizing theatrical performance.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

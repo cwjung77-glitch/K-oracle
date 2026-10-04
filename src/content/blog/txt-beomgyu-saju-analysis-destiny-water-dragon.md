@@ -71,5 +71,3 @@ The Dragon (*Jin*) brings star power, theatrical impact, and strong inner pride.
 
 ### What kind of environment brings balance to his energy?
 With heavy Water, Wood, and Metal present, he thrives when given room to create without stifling restrictions. Emotional honesty, artistic outlets, and quiet moments in nature or near water keep his energy balanced.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

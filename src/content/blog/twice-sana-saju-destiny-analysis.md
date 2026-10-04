@@ -58,5 +58,3 @@ Absolutely. Her birth blueprint packs strong resource stars alongside rich self-
 | **Day Pillar** | Yin Fire / Pig (*Jeong-Hai*) | Warm heart, intuitive performance talent, deep elegance |
 
 Sana’s Saju proves her spot at the top of the K-pop world was practically written in the stars. Her chart blends fierce artistic talent, high-level emotional intelligence, and a rare cosmic glow that will keep lighting up stages worldwide for years to come.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

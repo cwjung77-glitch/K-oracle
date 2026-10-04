@@ -79,5 +79,3 @@ Her chart is built for longevity. Because her primary driver is creative output 
 * **The Unmovable Mountain:** Born under the Yang Earth Dragon (Mu Chen) pillar, Soyeon possesses unshakeable core strength, executive leadership, and deep resilience under intense pressure.
 * **Unmatched Creative Engine:** Her Month Pillar of Metal Monkey creates a powerful Sik-Sang (Output) star, making her an extraordinary songwriter, producer, and conceptual genius who reshapes industry standards.
 * **Driven by High-Voltage Friction:** The Tiger-Monkey clash in her chart injects an infinite stream of radical energy, ensuring she continuously disrupts K-Pop and evolves as an artist for decades to come.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

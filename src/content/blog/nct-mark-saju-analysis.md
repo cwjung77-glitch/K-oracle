@@ -86,5 +86,3 @@ A: While the Hour Pillar reveals finer details about late life, children, and hi
 *   **Born for the Stage**: Mark’s Jeong Fire Day Master and strong Siksin energy make him a natural, versatile performer with immense stage presence and a deep need for creative expression.
 *   **Dynamic Wealth & Influence**: His Pyeonjae (Indirect Wealth) indicates significant earnings from broad public appeal and social interaction, solidifying his status as a global idol.
 *   **Resilience & Adaptability**: Rooted in a strong Fire Day Pillar, Mark possesses incredible resilience and adaptability, allowing him to thrive in demanding environments and take on diverse roles.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

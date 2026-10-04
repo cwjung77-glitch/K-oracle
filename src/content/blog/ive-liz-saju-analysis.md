@@ -65,5 +65,3 @@ Her Im Water Day Master alongside the Pig and Dragon branches points to a though
 
 ### What does the future hold for Liz's music career?
 Long-term, sustainable success. The dynamic harmony between her Water and Wood energy prevents artistic burnout. Expect her to expand beyond group releases into songwriting, solo work, and a lasting global music presence.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

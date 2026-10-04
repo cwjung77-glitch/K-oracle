@@ -62,5 +62,3 @@ Expect a long, powerhouse career that constantly evolves. As her major luck cycl
 * **Solar Charisma**: That Yang Fire energy guarantees she shines brightest under the spotlight, constantly inspiring everyone around her.
 * **Creative Autonomy**: Her destiny demands self-written tracks, artistic independence, and raw personal storytelling.
 * **International Resonance**: Cosmic travel stars lock in her position as a true cross-cultural icon with worldwide impact.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

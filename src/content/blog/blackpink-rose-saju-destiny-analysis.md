@@ -67,4 +67,3 @@ Byeong Fire represents aesthetic beauty, light, and visual elegance. Combined wi
 
 ### What element should Rosé surround herself with for maximum harmony?
 To maintain peak energy and emotional balance, maintaining a balance of calming Water and grounding Earth energies helps soothe her intense Fire, keeping her centered amidst demanding global schedules.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -59,4 +59,3 @@ Strong **Metal** (Wealth star) combined with dominant **Fire** (Self star) means
 Tzuyu’s chart proves you don't have to scream to be heard. Powered by elegant Yin Fire and protected by top-tier noble stars, her trajectory relies on quiet warmth, relentless work ethic, and real intrinsic grace.
 
 Her elemental energy matures year by year into something even more commanding. Chou Tzuyu isn't a temporary flare—she's an enduring fixture in Asian entertainment.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -76,5 +76,3 @@ It’s a mix of insane timing and high adaptability. Her chart shows an overwhel
 
 ### Q2: What elements should Wonhee surround herself with for good energy?
 She desperately needs **Water (수)** and **Metal (금)**. Water represents wealth, emotional calmness, and flexibility for her, while Metal represents her voice, performance, and self-expression. Wearing black/blue/silver, staying near water, and practicing focused vocal training are literally karmic remedies for her chart.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

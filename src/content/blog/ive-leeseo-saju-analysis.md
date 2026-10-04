@@ -63,5 +63,3 @@ Since her chart stacks massive Wood (Wealth) and dynamic Water (Expression), she
 ## Summary of Leeseo's Cosmic Energy
 
 Leeseo's chart fuses **unyielding inner steel (Gyeong Metal)** with the **explosive creative impulse of early spring (In Wood Tiger)**. She was literally built for high-stakes performance, constant skill evolution, and massive global reach. As her luck cycles mature, that inner blade will only get sharper, making her an absolute force in the industry for years to come.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -66,5 +66,3 @@ Jin is running through a remarkably strong ten-year luck pillar (*Daeun* right n
 * **Dominant Elements:** Metal and Water — Delivering top-tier visuals, stable vocals, and formidable mental toughness.
 * **Role in Dynamics:** The quiet anchor who diffuses drama and lifts up everyone around him.
 * **Destiny Path:** Massive, enduring superstardom backed by real internal wisdom and exceptional financial luck.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

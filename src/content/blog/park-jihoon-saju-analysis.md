@@ -70,5 +70,3 @@ A3: Bet. The combination of his adaptable Im Water Day Master, powerful expressi
 *   **Natural Born Performer:** Park Gi-hoon's Saju is loaded with powerful Wood energies (Sik Sin & Sang Gwan) making him a natural talent powerhouse with an undeniable ability to express himself and captivate audiences.
 *   **Charismatic & Disciplined Leader:** His Im Water Day Master combined with prominent Officer elements (Jeong Gwan & Pyeon Gwan) makes him both deeply charismatic and inherently disciplined, able to lead and navigate public life with poise.
 *   **Dynamic & Wealth-Oriented:** With all five elements present and strong Pyeon Jae energy, he's not only adaptable and resilient but also possesses significant potential for wealth generation and a knack for seizing lucrative opportunities.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

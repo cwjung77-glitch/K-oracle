@@ -74,4 +74,3 @@ His Day Master is Yin Fire (Jeong Fire). Yin Fire acts like a spotlight or star 
 
 ### Does Felix's chart favor global success?
 Yes. The combination of Wood (adaptability), Metal (structure/sound), and Fire (fame/visibility) creates a harmonious balance that easily translates across different cultures and international borders.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

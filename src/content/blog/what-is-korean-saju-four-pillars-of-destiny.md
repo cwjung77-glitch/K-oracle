@@ -99,5 +99,3 @@ Knowing your Saju gives you a serious upper hand: you know when to strike, when 
 Put this powerful system to work right now with **K-Oracle**. Uncover your Four Pillars, pinpoint your true Day Master, and get radical clarity on your career, wealth, love, and life trajectory today.
 
 👉 **[Discover Your Saju Chart on the K-Oracle App Now](#)**
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

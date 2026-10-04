@@ -75,5 +75,3 @@ As Ahyeon navigates her current 10-year luck cycle (*Daewoon*), her Fire and Met
 BABYMONSTER Ahyeon isn't just lucky—she is cosmically engineered for greatness. Her **Mu Ja** Day Master provides an unshakable base infused with irresistible Peach Blossom charm, while her **7 Killings** star fuels a fierce, relentless work ethic that guarantees elite performance every time she step onto a stage. 
 
 As the cosmic energies align over the coming years, expect Ahyeon to break even more records, push artistic boundaries, and solidify her spot as one of the defining faces of 5th Generation K-Pop. The mountain has already risen, and the world is simply watching it shine.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

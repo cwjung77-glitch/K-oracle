@@ -60,5 +60,3 @@ Yes. The Earth and Water alignment in her birth chart guarantees lasting wealth 
 ## Future Energy Cycles: The Next Chapter
 
 As Momo navigates her current ten-year energy cycle, her Four Pillars show a natural shift from pure front-line performance toward creative leadership and mentorship. That constant balance of Earth and Water points to bigger artistic ventures, high-value global collabs, and permanent respect across the global dance community.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

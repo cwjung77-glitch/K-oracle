@@ -65,4 +65,3 @@ Yes. Eul Wood individuals are visual naturals with an eye for tone, mood, and fr
 
 ### How does V's Saju interact with the rest of BTS?
 His flexible Wood energy serves as a vital bridge within the team. Because Eul Wood adapts so easily, V naturally connects the high-intensity Fire and Metal energies of the rap line with the fluid, harmonious Water and Wood elements of the vocal line.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

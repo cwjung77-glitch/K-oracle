@@ -68,5 +68,3 @@ Her chart features a strong **Wood** element (*Gwan-seong*), which governs rules
 She serves as the emotional anchor and harmonic catalyst. Her Yin Earth absorbs the chaotic dynamic energies of her group members and stabilizes them into a unified, melodic powerhouse.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

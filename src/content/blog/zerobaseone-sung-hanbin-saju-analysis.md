@@ -76,5 +76,3 @@ The presence of Metal (precision and technique) combined with Fire (emotion and 
 Because his chart is warmly supported by Fire and anchored by Earth, his career energy is steady and enduring rather than short-lived. As he navigates his 20s, his artistic versatility will likely expand into hosting, acting, and individual creative direction.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

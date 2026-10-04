@@ -92,5 +92,3 @@ His chart features a harmonious relationship between **Yin Earth** and strong **
 Yes. His grounded Earth foundation, combined with strong Wood (discipline) and Water (vocal talent), creates a exceptionally balanced chart built for artistic longevity rather than brief popularity.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

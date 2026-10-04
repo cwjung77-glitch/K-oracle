@@ -56,4 +56,3 @@ His chart drops a potent **Sik-sang (Expression Star)** powered by Fire right ne
 
 ### What makes G-Dragon's Saju chart so rare?
 Most people lean heavily toward either pure creativity or pure structure. G-Dragon carries explosive artistic output (Fire) matched by extreme discipline and authority (Metal). He can run wild in the studio at 3 AM and handle high-stakes business negotiations the next afternoon.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

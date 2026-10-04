@@ -90,5 +90,3 @@ Her **Jeong Fire** (Seven Killings) star grants her dramatic flair and stage pre
 As a Sin Metal Day Master with active Wood-Metal tension, subtle **Water** energy (*Sik-Sang* / Output) provides a beautiful bridge. Water washes the Sin Metal gemstone clean and nurtures the Wood wealth star, bringing maximum peace, creative flow, and physical wellness.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

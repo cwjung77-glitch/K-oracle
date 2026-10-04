@@ -60,5 +60,3 @@ Hoshi’s chart runs heavy on **Sik-shin (Eating God) and Sang-gwan (Hurting Off
 * **Empathetic Leadership:** Wood energy builds deep harmony and collective growth.
 
 Looking at his chart, Hoshi carries the unmistakable blueprint of a master performer. He was quite literally born to set the stage on fire with unmatched passion, sharp discipline, and unforgettable energy.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

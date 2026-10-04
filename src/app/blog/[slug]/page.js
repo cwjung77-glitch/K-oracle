@@ -168,6 +168,10 @@ export default async function BlogPost({ params }) {
           </div>
         </article>
 
+        <div className="mt-12 pt-8 border-t border-white/10 text-sm text-zinc-500 italic">
+          Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.
+        </div>
+
         <BlogEngagement title={data.title} slug={slug} />
 
         <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-yellow-500/30 rounded-3xl text-center">

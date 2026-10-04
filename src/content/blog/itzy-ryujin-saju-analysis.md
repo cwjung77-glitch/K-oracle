@@ -83,4 +83,3 @@ Because Ryujin’s chart is heavily dominated by cool Metal and fluid Water, her
 * **The Refined Silver Blade:** Ryujin’s Sin Metal Day Master makes her sharp, fiercely independent, and effortlessly visual—a diamond washed constantly by pristine Water energy.
 * **Dynamic Friction Drives Her Success:** The Sa-Hae Clash in her chart gives her explosive, viral energy and an innate refusal to conform to conventional girl-group stereotypes.
 * **Built for Longevity:** Driven by powerful *Sik-Sang* output and moving into grounding luck cycles, Ryujin’s career trajectory extends far beyond standard group activities into solo artistry, acting, and iconic fashion dominance.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

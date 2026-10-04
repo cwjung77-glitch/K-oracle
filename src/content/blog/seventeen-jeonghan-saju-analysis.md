@@ -59,5 +59,3 @@ His main anchor is **Yin Water (Gye)**, grounded firmly by **Earth (Ox)** and en
 
 ### How does Saju explain Jeonghan's nickname "Angel"?
 That ethereal "Angel" aura comes straight from his prominent **In Wood** elements, which bring refined visuals, vocal delicacy, and a soft, empathetic vibe. Paired with his calming Yin Water Day Master, he projects a peaceful, healing presence wherever he goes.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

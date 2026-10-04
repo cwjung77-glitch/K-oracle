@@ -56,5 +56,3 @@ Her primary core is **Byeong Fire (Sun)**, constantly fueled by **Wood** (Resour
 
 ### What do the ancient pillars reveal about her solo career longevity?
 Her chart holds robust **Metal Wealth Stars** locked in sync with resilient **Wood Resources**. That level of structural balance proves her solo power isn't a quick trend. Expect her to transition effortlessly into creative direction, high fashion, and executive business ventures as her career matures.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

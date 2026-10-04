@@ -100,5 +100,3 @@ Absolutely, no cap! His Saju contains strong self-support (Eul Myo), powerful ex
 *   Byeon Woo-seok's **Eul Wood Day Master** makes him adaptable, charming, and a natural at connecting with people.
 *   His chart boasts a powerful **Food God (Jeong Fire)** for magnetic expression and a **strong Earth presence** for stable wealth and groundedness, perfectly suited for a beloved actor.
 *   Despite challenges, his Saju shows immense **resilience and growth potential**, indicating a long and impactful career ahead.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

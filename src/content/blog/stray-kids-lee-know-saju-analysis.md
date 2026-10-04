@@ -55,5 +55,3 @@ Snake energy in Saju brings razor-sharp intellect, incredible aesthetic instinct
 
 ### How does Lee Know's Saju reflect his personality in Stray Kids?
 His chart brings together the raw power of the Tiger (Year), the ironclad loyalty of the Dog (Month), and the lethal grace of the Snake (Day). Together, they turn him into Stray Kids' unbeatable anchor—fiercely protective, masterclass-level skilled, and quietly essential.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

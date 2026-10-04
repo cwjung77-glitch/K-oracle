@@ -40,5 +40,3 @@ Mingyu’s Day Branch sits on the **Myo Rabbit (卯木)**, releasing a concentra
 * **Irresistible Stage Presence:** Raw Myo Wood colliding with Gi Earth creates wild dynamic tension on stage. Grounded power meets razor-sharp, fluid movement. Good luck looking anywhere else.
 * **Natural Affection and Likability:** His aura radiates pure, approachable warmth. He gives off instant best-friend energy while casually commanding sold-out stadiums.
 * **Artistic Refinement:** Rabbit energy carries quiet sophistication. It gives him killer aesthetic instincts, effortless physical poise, and a sharp eye for detail.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

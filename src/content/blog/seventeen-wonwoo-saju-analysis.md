@@ -70,5 +70,3 @@ His chart runs on a powerful synergy between **Metal**, **Wood**, and **Water**.
 
 ### What kind of personality traits are revealed by his Four Pillars?
 His chart shows someone thoughtful, highly loyal, surprisingly gentle, and deeply analytical. He might come across as quiet, but underneath lies incredible stamina, artistic grit, and a huge heart for his inner circle.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

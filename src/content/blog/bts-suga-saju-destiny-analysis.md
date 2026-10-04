@@ -64,5 +64,3 @@ That combination of Gi Earth and Chuk means Yoon-gi naturally absorbs both pain 
 * **Dominant Elements:** Earth — Grants him an insane work ethic, grounded logic, and the rare gift of structuring raw pain into fine art.
 * **Role in Dynamics:** The unshakeable, practical protector working behind the scenes.
 * **Destiny Path:** A decades-long creative trajectory, smoothly evolving from a powerhouse performer into a legendary producer and industry titan.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

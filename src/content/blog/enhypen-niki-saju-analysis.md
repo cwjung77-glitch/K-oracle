@@ -73,5 +73,3 @@ In the ancient system, Ni-ki possesses a prominent **Output Star (*Sik-sang*)**,
 As his chart transitions through upcoming decade cycles, the influence of Earth and Fire elements increases. This suggests a broader artistic footprint—moving from performing into artistic leadership, solo creative endeavors, global fashion endeavors, and personal brand building.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

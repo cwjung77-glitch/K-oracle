@@ -53,5 +53,3 @@ Hyein is blessed with incredible protective luck and sustained favor from the pu
 ## Summary of Hyein's Destiny
 
 NewJeans Hyein’s Saju chart is a masterclass in balance—blending delicate fire, deep ocean wisdom, and disciplined creative output. Guided by the flickering light of Jeong Fire and sustained by Hae Water, she is fundamentally built for iconic artistic longevity and a deep, timeless connection with fans worldwide.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

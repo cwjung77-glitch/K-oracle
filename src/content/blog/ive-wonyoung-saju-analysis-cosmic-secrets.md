@@ -60,5 +60,3 @@ Without a doubt. Her chart relies on a smooth, constant flow between Metal (Reso
 
 ### What element best balances Wonyoung's cosmic energy?
 Even oceans need balance! Because her chart packs so much Water and Metal, she benefits immensely from **Wood (Expression & Creativity)** and **Warm Fire (Warmth & Joy)**. Pouring her soul into performance arts, creative direction, and keeping warm, genuine personal connections brings her intense fluid energy into perfect harmony.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -72,4 +72,3 @@ Fire energy is totally direct. No mind games, no passive-aggressive silent treat
 
 ### What kind of aura attracts Jungkook according to ancient destiny reading?
 He responds best to a relaxed, self-assured vibe. His ideal match needs enough independence to handle his chaotic schedule and let him do his thing, alongside a gentle, mature presence that serves as a calm safe haven away from the chaos of idol life.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

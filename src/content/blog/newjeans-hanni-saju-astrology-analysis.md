@@ -62,5 +62,3 @@ Her **Chuk Ox** Day Branch holds the primary creative star, giving her innate rh
 
 ### Which cosmic elements help maintain her balance?
 **Wood** (Resource energy) and supportive **Fire** keep her Jeong Fire flame steady. Surrounding herself with warm creative collaborators and keeping structured rest routines protects her vitality during intense global tours.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

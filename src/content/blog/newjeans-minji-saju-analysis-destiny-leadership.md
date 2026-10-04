@@ -75,5 +75,3 @@ In Saju's Five Elements system, **Metal** controls clear, resonant acoustics and
 
 ### What kind of leader is Minji according to her birth energy?
 Minji leads quietly by example. Her warm *Jeong Fire* paired with firm *Metal* structure allows her to keep her team calm, organized, and focused under high industry pressure.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

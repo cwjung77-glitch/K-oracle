@@ -58,5 +58,3 @@ Karina entered a brilliant shift in her luck cycles in her early twenties. With 
 * **Unearthly Visuals & Precision**: Driven by heavy Gyeong Metal, giving her sharp aesthetic presence and strict discipline on stage.
 * **Grounded Leadership**: Rooted in Gi Earth, making her a deeply caring, reliable, and protective leader for Aespa.
 * **Enduring Stardom**: Double Dragon branches give her chart rare grandeur and resilience, setting her up for a long, massive career on the world stage.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

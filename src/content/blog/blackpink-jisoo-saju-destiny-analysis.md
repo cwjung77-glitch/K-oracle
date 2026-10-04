@@ -58,4 +58,3 @@ It comes down to her vibrant Fire energy, which governs visibility, warmth, and 
 
 ### What are Jisoo's greatest natural strengths?
 Unshakeable mental toughness, intense self-discipline, fierce loyalty, and an almost supernatural ability to stay totally calm when everything around her is chaotic.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

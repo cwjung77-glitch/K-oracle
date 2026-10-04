@@ -66,4 +66,3 @@ A3: Her Saju absolutely supports a diverse career path! Her strong Wood (express
 *   Mimi's Jeong Fire Day Master makes her an intuitive, warm, and artistically brilliant individual, drawing people in with her unique, reflective glow.
 *   Her strong Wood and Earth elements are the cosmic cheat codes for her incredible creativity, distinctive performance style, and unwavering work ethic, making her a powerhouse in both artistry and reliability.
 *   She's destined for a life of significant expression and connection, thriving in environments where her authenticity and sharp wit can shine brightest, whether on stage or on screen.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

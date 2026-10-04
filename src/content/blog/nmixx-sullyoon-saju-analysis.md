@@ -81,5 +81,3 @@ She combines the perfectionism of **Sin Metal** with the deeply caring, reflecti
 
 ### What elements bring her the best cosmic harmony?
 Because her chart carries cool, moist energy (Water and Earth in winter), **Fire (Byeong / Jeong)** and warm **Wood (Gap / Eul)** bring ultimate balance to her life. Bright sunlight, warm climates, and passionate environments boost her spirit and overall vitality.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

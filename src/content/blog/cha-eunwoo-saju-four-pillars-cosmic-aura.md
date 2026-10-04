@@ -62,4 +62,3 @@ Gyeong Metal fuels his near-superhuman focus and discipline. It's the silent mot
 
 ### What lies ahead in his long-term cosmic trajectory?
 Anchoring his Day Pillar in the Yang Earth Dragon means Eunwoo’s fame isn't a temporary trend—it's carved into bedrock. As his major life luck cycles move into deeper Fire and Earth periods, his energy will effortlessly transition from youthful idol perfection into a legendary, commanding force across global cinema and media.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

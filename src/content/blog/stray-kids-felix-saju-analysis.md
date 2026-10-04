@@ -55,5 +55,3 @@ His chart packs a massive amount of **Metal element energy** interacting with hi
 
 ### What does the ancient system predict for his future role in Stray Kids?
 The ancient system spots him as the ultimate energetic balancer for the group. His Wood-Fire combo keeps everyone inspired and emotionally lifted, while his heavy Metal energy delivers grounded focus and sheer stamina. He will always remain a crucial global ambassador and artistic anchor for Stray Kids.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

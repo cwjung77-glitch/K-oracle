@@ -50,5 +50,3 @@ Her chart fuses brilliant **Yang Fire** (unmissable star quality) with heavy **M
 
 ### What does the ancient system predict for her long-term career?
 With a strong **Metal Wealth Star** backed by **Water Authority**, her star power won't burn out. The chart predicts a decades-long career spanning way past idol life—think acting, hosting, high-level brand deals, and executive production management.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

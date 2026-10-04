@@ -70,5 +70,3 @@ His Day Master sits on a Metal branch, which emphasizes introspection, boundary-
 Yes. The strong Earth and Metal combination in his month and day pillars gives him exceptional foresight, authority, and durability. As time moves forward, his energy shifts toward mentorship, songwriting, and deep creative control over his artistic destiny.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

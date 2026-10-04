@@ -79,5 +79,3 @@ The Four Pillars reveal that Haechan is currently navigating a highly favorable 
 Haechan's life story is written in the language of light. So long as the Sun rises, his cosmic drive to sing, dance, and illuminate the world will remain unshakeable.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

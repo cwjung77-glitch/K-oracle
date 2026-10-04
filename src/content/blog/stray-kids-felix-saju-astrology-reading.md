@@ -77,5 +77,3 @@ Felix's chart features a strong combination of **Yu Metal** and **Hae Water**. T
 
 ### What element brings balance to Felix's energy?
 Since Felix has an abundance of powerful Metal energy, elements of **Fire** (for warmth, visibility, and passion) and **Wood** (for long-term wealth, goal orientation, and growth) bring harmony to his chart, keeping his intense drive grounded and healthy.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -36,5 +36,3 @@ When someone is blessed with Jeong Fire, you instantly feel these undeniable qua
 Watch Jimin perform for two seconds and you see this exact energy alive. A subtle turn of his head or a single soft glance can make an entire stadium stop breathing. It’s personal, subtle, and completely hypnotizing.
 
 ### 2.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

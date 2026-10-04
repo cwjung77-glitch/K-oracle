@@ -69,5 +69,3 @@ His chart naturally craves total creative autonomy. The double Horse branches st
 In the ancient system, life unfolds in ten-year luck cycles (Daewoon). Taeyong’s current cycles bring a grounding balance of Earth and Metal energies to his chart. Earth calms his burning Fire into tangible creation (albums, fashion lines, long-term artistic legacies), while Metal introduces structural wealth and lasting stability. 
 
 Rather than fading, his cosmic flame is refining itself from an intense wildfire into a focused, steady laser beam. Fans can expect his post-military return to be marked by even greater maturity, elevated artistic control, and international prestige.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

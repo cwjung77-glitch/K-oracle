@@ -52,5 +52,3 @@ Her chart possesses insane elemental flexibility. A Gi Earth Day Master absorbs 
 ## The Cosmic Vision for Kazuha's Journey
 
 Think of Kazuha’s chart as raw ore constantly being forged into a stunning, lethal blade or delicate, high-end jewelry. Her grounded Gi Earth core keeps her anchored against industry burnout, while her roaring Water and Metal flow guarantee her artistic mark will ripple across the global stage for a long, long time.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

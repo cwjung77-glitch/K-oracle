@@ -93,5 +93,3 @@ Her chart features a strong flow from Fire to Earth (the Sik-Sang star). This st
 Yes. Her chart holds strong **Metal stars (Jae-Seong)** in her early pillars, representing wealth, practical achievement, and long-term career stability in creative and public industries.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

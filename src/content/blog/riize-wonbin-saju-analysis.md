@@ -78,4 +78,3 @@ Wonbin’s cosmic chart isn’t about beginner's luck or quick fame. It is the a
 With the indomitable will of the **Gyeong Sul Goegang**, the unmatched stage magnetism of the **San He Fire Alliance**, and the expressive artistry of **Im Water**, Wonbin is living proof that true star power is equal parts cosmic alignment and relentless, iron-willed dedication.
 
 Keep your eyes on him—this blade has only just begun to strike.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

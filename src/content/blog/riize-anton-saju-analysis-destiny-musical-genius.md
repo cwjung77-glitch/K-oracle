@@ -85,5 +85,3 @@ Water governs fluid physical movement, making athletic swimming a natural early 
 His chart balances raw emotional depth (Im Water) with creative expression (Wood) and high public magnetism (Fire). Coupled with Metal's structural discipline, he possesses both the artistic sensitivity to create music and the dedication required to master complex instruments.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

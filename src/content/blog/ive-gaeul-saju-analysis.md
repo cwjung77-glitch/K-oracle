@@ -76,5 +76,3 @@ To keep her Jeong Fire burning consistently while shaping her heavy Autumn Metal
 * **Inner Strength**: Soft moonlight on the outside, unbreakable forged steel on the inside.
 * **Destiny Alignment**: Born in Autumn with a chart overflowing with Autumn Metal, perfectly living out her birth name *Gaeul*.
 * **Artistic Mastery**: Driven by the classic engine of Fire forging Metal, ensuring long-term evolution as a top-tier performer.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

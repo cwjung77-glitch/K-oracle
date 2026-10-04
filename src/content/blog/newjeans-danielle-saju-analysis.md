@@ -54,5 +54,3 @@ Her chart pairs heavy **Expression Stars** with a prominent **Peach Blossom Star
 
 ### What does Saju reveal about her future growth?
 Because Eul Wood thrives on continuous growth and new creative space, her chart signals endless artistic evolution. Expect her to expand deep into songwriting, visual arts, top-tier global fashion ambassadorships, and genre-bending creative projects for years to come.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

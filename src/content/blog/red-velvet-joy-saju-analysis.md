@@ -66,5 +66,3 @@ Early in her career, her bright Fire energy took center stage, giving her an bub
 Because her chart carries strong Fire and Earth, subtle touches of Water energy keep her intuitive flow sharp, helping her maintain personal peace amidst a high-demand celebrity lifestyle.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -93,5 +93,3 @@ A3: From a Saju perspective, this was a power move, period. His chart is burstin
 *   **The "Ice Prince" is real:** Sunghoon's Saju is dominated by Water elements, particularly his Gye Water Day Master, which perfectly explains his elegant, intuitive, and composed persona, along with his deep artistic sensibility and grace.
 *   **Understated Ambition:** Despite his calm exterior, the clash between Water and Fire in his chart reveals a powerful, underlying drive for achievement and recognition. This dynamic tension is a key engine for his career growth and success.
 *   **Rooted & Resilient:** The grounding influence of Chuk Earth balances his watery nature, providing the discipline, practicality, and resilience needed for him to master complex skills, navigate challenges, and build a lasting career.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

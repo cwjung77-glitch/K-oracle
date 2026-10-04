@@ -61,5 +61,3 @@ Yes, down to the last detail. His calm vibe, deep love for staying home, insane 
 
 ### What colors or habits bring energetic balance to Soobin?
 With so much Water and Metal in his system, he thrives when tapping into **Fire** energy (vibrant reds, warm lighting, passion projects) for spark, alongside grounding **Earth** energy (yellows, structured routines, steady habits) to keep his profile perfectly balanced.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

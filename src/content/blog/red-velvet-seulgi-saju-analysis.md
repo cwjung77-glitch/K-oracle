@@ -71,5 +71,3 @@ Seulgi’s Fire element shines brightest when given individual space. As her cha
 While her stage persona is electric and sharp, her Yang Water nature makes her off-stage personality gentle, thoughtful, and deeply considerate of others. Water flows downward, keeping her humble and grounded despite her superstar status.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -64,4 +64,3 @@ It's all about that rare blend: Jeong Fire warmth, Chuk Earth grounding, and Woo
 
 ### What type of partner is most compatible with Jungwon's energy?
 He thrives best alongside someone rich in **Wood** or **Soft Earth** energies. He needs a partner who is mature, emotionally stable, deeply loyal, and able to build a peaceful, grounded world together.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

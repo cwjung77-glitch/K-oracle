@@ -73,4 +73,3 @@ A3: While her chart is packed with expressive power, the relative absence of str
 *   Yooa is a **Yin Metal Day Master**, embodying refinement, precision, and an enchanting, precious jewel-like aura. Her dedication to perfection is rooted here.
 *   Her Saju is dominated by **Metal and Water elements**, making her an incredibly expressive and intuitive artist with a natural flair for performance, especially dance and emotional storytelling. She's got that undeniable cosmic *flow*.
 *   Her chart suggests a journey of continuous self-refinement and artistic growth, where her unique blend of delicate strength and fluid expression ensures she remains a captivating force in the K-Pop universe. She's always evolving, always slaying.
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

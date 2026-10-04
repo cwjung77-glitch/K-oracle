@@ -74,5 +74,3 @@ San’s chart features strong self-refining elements (Fire forging Metal) alongs
 ---
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

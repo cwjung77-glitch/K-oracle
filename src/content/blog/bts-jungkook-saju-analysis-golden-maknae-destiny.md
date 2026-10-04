@@ -76,4 +76,3 @@ His chart forms an uninterrupted production chain: Fire (passion) feeds Earth (e
 
 ### Q3: What elements balance Jungkook's chart best?
 With so much intense Fire and expressive Earth, he thrives most with **Water** (bringing calm focus and emotional clarity) and **Wood** (providing steady, long-term personal nourishment).
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

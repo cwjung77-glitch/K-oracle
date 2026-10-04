@@ -55,5 +55,3 @@ The Horse in his Day Pillar houses intense Fire energy, unlocking his **Jae-Seon
 ## Cosmic Summary: The Ocean That Holds the Sun
 
 Choi Yeonjun’s chart is a stunning masterpiece: deep ocean waters reflecting a brilliant sun. His unreal talent across dance, vocals, rap, and fashion isn't an accident or a stroke of luck. It is the breathtaking alignment of double Peach Blossom stars working in perfect sync with balanced elemental energy. Through the ancient lens of Saju, Yeonjun stands as the ultimate blueprint of an ace—a star whose celestial path was paved for global stardom from the moment he was born.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

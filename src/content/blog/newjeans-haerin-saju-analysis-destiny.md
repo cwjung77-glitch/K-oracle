@@ -56,5 +56,3 @@ Her Day Master sits atop **In Wood (寅木)**, the branch belonging to the Tiger
 
 ### What does Saju reveal about Haerin's future success?
 Her chart showcases an unbroken elemental circuit from Water to Wood to Fire. Because her energy flows without blockages, she's built for long-haul career longevity, exploding financial growth, and expanding international stardom for years to come.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -77,5 +77,3 @@ As a Gap Wood personality sitting on an Officer element (Metal), her leadership 
 The strong presence of Metal directly controlling her Day Master wood indicates high internal stress, anxiety, and self-criticism. Her primary life lesson centers on learning to grant herself grace, releasing unnecessary burdens of perfectionism, and protecting her inner energy from exhaustion.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -57,5 +57,3 @@ Her **Gye Water (癸水)** element unleashes the dense Metal energy inside her. 
 ## Cosmic Outlook: The Destiny of an Antifragile Star
 
 Chaewon's life force literally gets stronger when challenged. High expectations don't crush her; her chart is built to thrive under immense pressure. That powerful internal alignment of Metal, Water, and Wood points to incredible career longevity, expanding international reach, and a long-lasting legacy as one of modern K-Pop's absolute finest leaders.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

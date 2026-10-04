@@ -63,5 +63,3 @@ Her Year Pillar features the **Monkey (Shen)** branch—a sign tied to high mobi
 ## Summary of Hanni's Cosmic Energy
 
 Hanni’s Four Pillars paint the portrait of a born artist: adaptable like clear water, vibrant like spring branches, and universally adored under her Peach Blossom placement. As her internal energy deepens over time, her artistic influence across the global entertainment landscape will only hit greater heights.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

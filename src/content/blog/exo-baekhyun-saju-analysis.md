@@ -76,4 +76,3 @@ His chart features a perfect harmony between **Fire (Direct Resource)** and **Me
 
 ### Does Baekhyun's Saju support his transition to running his own company?
 Yes, absolutely. His Year Pillar holds a strong **Hurting Officer producing Wealth** combination (Sin Metal generating Im Water). This energy makes
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

@@ -66,5 +66,3 @@ Being a **Gi Earth (己土)** Day Master makes Ningning warm, adaptable, and nat
 
 ### Why was Ningning destined for international success outside her home country?
 Her chart combines a prominent **Traveling Horse Star** with **Water energy**. In K-Oracle Saju readings, this precise blend points directly to major career triumphs abroad, rapid language acquisition, and massive international appeal.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

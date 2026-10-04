@@ -51,5 +51,3 @@ Look at her upcoming ten-year fortune cycles (Daewoon) and you’ll see non-stop
 * **Creative Intuition:** Heavy Water and Wood energy gift her insane learning speed, freakishly sharp muscle memory for choreography, and effortless musicality.
 * **Universal Charm:** Potent Dohwa-sal guarantees she'll hold the public's heart forever, backing her up with immense support from industry seniors.
 * **Enduring Success:** A beautifully balanced chart points to sheer resilience, rich self-expression, and a powerhouse career spanning decades.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

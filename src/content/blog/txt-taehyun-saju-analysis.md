@@ -50,5 +50,3 @@ Taehyun is entering an exceptionally prosperous luck pillar phase. As his chart 
 * **The Perfectionist's Path:** His Saju naturally rejects dynamic chaos in favor of structured growth. He thrives when given clear goals and rigorous standards.
 * **Deep Loyalty and Brotherhood:** Gi Earth individuals naturally hold space for others. Within TXT, Taehyun serves as an intellectual anchor and a reliable pillar of support for his bandmates.
 * **Enduring Success:** Because his chart possesses an optimal balance of elemental generation—Water nourishing Wood, Wood fueling Fire, and Fire enriching Earth—his talent will continue to mature gracefully like fine wine.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

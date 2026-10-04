@@ -85,5 +85,3 @@ The Yin Earth Day Master thrives on structured routine while remaining adaptable
 Her chart shows a powerful expansion into individual branding. As her mid-twenties unlock stronger Wood element cycles, expect her to take on major solo creative ventures, global ambassador roles, and potentially entry into acting or hosting endeavors.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

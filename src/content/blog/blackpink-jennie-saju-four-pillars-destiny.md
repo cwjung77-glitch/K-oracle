@@ -55,7 +55,3 @@ Jennie's chart shows what happens when your inner blueprint lines up with your o
 Are you running on the deep intuition of Water, the fiery heat of Fire, or the grounded stability of Earth?
 
 **Explore your personalized Saju chart today on K-Oracle** and see what the ancient stars have written for your story.
-
-*Disclaimer: This analysis relies on publicly available birth data and is intended for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

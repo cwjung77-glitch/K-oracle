@@ -87,5 +87,3 @@ Her chart features a potent combination of Metal and Fire elements. Metal bestow
 Yin Earth grants her a gentle, polite, and considerate personality in daily life. However, her birth chart contains rich summer Fire energy that activates fully when under the spotlight, revealing an intense, passionate artist when performing.
 
 ---
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*

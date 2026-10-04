@@ -37,5 +37,3 @@ Since Metal acts as the **Resource Element** for Gye Water, this massive power-u
 * **Meticulous Perfectionism:** Metal is all about sharp edges, structure, and absolute precision. His obsessive ear for sonic detail, mixing, and arrangement comes straight from this overflowing Metal presence.
 * **Unyielding Mental Endurance:** Soft water needs a solid structure to direct its flow. Metal gives Chan the indestructible mental stamina required to spend endless nights in the studio without burning out.
 * **Mastery over Craft:** A dominant Resource element marks a born master—someone who soaks up skills relentlessly and refines raw talent into absolute artistic perfection.
-
-*Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.*
