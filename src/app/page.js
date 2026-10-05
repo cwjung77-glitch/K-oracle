@@ -190,7 +190,7 @@ export default function OracleLanding() {
             }`}
           >
             <Moon size={20} className={activeTab === 'saju' ? 'text-zinc-200' : ''} /> 
-            <span className="tracking-wide">K-ASTROLOGY</span>
+            <span className="tracking-wide">{t('k_astrology', lang) || 'K-ASTROLOGY'}</span>
           </button>
           <button 
             onClick={() => { setActiveTab('beauty'); localStorage.setItem('purchasedProduct', 'beauty'); setHasPaid(false); setResetKey(k => k + 1); }}
@@ -201,7 +201,7 @@ export default function OracleLanding() {
             }`}
           >
             <Palette size={20} className={activeTab === 'beauty' ? 'text-pink-200' : ''} /> 
-            <span className="tracking-wide">K-BEAUTY</span>
+            <span className="tracking-wide">{t('k_beauty', lang) || 'K-BEAUTY'}</span>
           </button>
         </div>
       </section>
@@ -232,14 +232,14 @@ export default function OracleLanding() {
           <div className="text-center w-full max-w-5xl mx-auto">
             {activeTab === 'saju' ? (
               <div className="max-w-5xl mx-auto w-full px-4">
-                <h2 className="text-3xl md:text-5xl font-black mb-4">Choose Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 drop-shadow-md">Destiny Plan</span></h2>
-                <p className="text-zinc-400 mb-12 text-lg">Select the cosmic blueprint that guides your future. 90% of our VIPs choose the Bundle.</p>
+                <h2 className="text-3xl md:text-5xl font-black mb-4">{t('choose_destiny', lang) || 'Choose Your'} <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 drop-shadow-md">{t('destiny_plan', lang) || 'Destiny Plan'}</span></h2>
+                <p className="text-zinc-400 mb-12 text-lg">{t('select_cosmic', lang) || 'Select the cosmic blueprint that guides your future. 90% of our VIPs choose the Bundle.'}</p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
                   {/* Tier 1: 2026 Q4 */}
                   <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-zinc-400/30 transition-colors">
-                    <h3 className="text-2xl font-black text-zinc-100">2026 Q4 Finale</h3>
-                    <p className="text-zinc-500 text-sm mt-2 mb-6">Navigate the remaining 3 months.</p>
+                    <h3 className="text-2xl font-black text-zinc-100">{t('q4_finale', lang) || '2026 Q4 Finale'}</h3>
+                    <p className="text-zinc-500 text-sm mt-2 mb-6">{t('nav_3_months', lang) || 'Navigate the remaining 3 months.'}</p>
                     <div className="text-4xl font-black mb-6 text-zinc-100"><span className="text-2xl text-zinc-500 mr-1">$</span>4.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-start"><Zap size={14} className="text-zinc-300 flex-shrink-0 mt-1" /> Oct - Dec 2026 Forecast</li>
@@ -247,14 +247,14 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-start text-zinc-600 line-through decoration-zinc-700 mt-2"><Zap size={14} className="text-zinc-700 flex-shrink-0 mt-1" /> PDF Report Download</li>
                       <li className="flex gap-2 items-start text-zinc-600 line-through decoration-zinc-700"><Zap size={14} className="text-zinc-700 flex-shrink-0 mt-1" /> Premium 2027 Amulet</li>
                     </ul>
-                    <button onClick={() => { setSelectedPlan("q4"); setShowCheckout(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">Select Plan</button>
+                    <button onClick={() => { setSelectedPlan("q4"); setShowCheckout(true); }} className="w-full py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800 transition-colors font-bold text-zinc-300">{t('select_plan', lang) || 'Select Plan'}</button>
                   </div>
 
                   {/* Tier 3: Bundle (Most Popular) */}
                   <div className="bg-gradient-to-b from-zinc-800/40 to-black border-2 border-zinc-400 rounded-2xl p-6 flex flex-col relative transform md:-translate-y-4 shadow-lg shadow-white/10 z-10">
-                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-zinc-100 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">MOST POPULAR</div>
-                    <h3 className="text-3xl font-black text-white drop-shadow-md">26+27 VIP Masterplan</h3>
-                    <p className="text-violet-300 font-bold text-sm mt-2 mb-4 tracking-wide">THE ULTIMATE 15-MONTH MASTERPLAN</p>
+                    <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-zinc-100 text-black text-xs font-black px-4 py-1 rounded-full whitespace-nowrap">{t('most_popular', lang) || 'MOST POPULAR'}</div>
+                    <h3 className="text-3xl font-black text-white drop-shadow-md">{t('vip_masterplan', lang) || '26+27 VIP Masterplan'}</h3>
+                    <p className="text-violet-300 font-bold text-sm mt-2 mb-4 tracking-wide">{t('ult_15_months', lang) || 'THE ULTIMATE 15-MONTH MASTERPLAN'}</p>
                     <div className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-fuchsia-400 drop-shadow-md"><span className="text-3xl text-violet-500/80 mr-1">$</span>11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-200 flex-grow">
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Energy Flow (Q4 '26 + 2027)</li>
@@ -263,13 +263,13 @@ export default function OracleLanding() {
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Hidden Karma & Destiny Matrix</li>
                       <li className="flex gap-2 items-start font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-yellow-300 mt-3 border border-white/10 p-2 rounded-lg bg-black/40"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Exclusive 2027 Protection Amulet</li>
                     </ul>
-                    <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black transition-colors shadow-[0_0_30px_rgba(168,85,247,0.5)]">Unlock Masterplan</button>
+                    <button onClick={() => { setSelectedPlan("bundle"); setShowCheckout(true); }} className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-black transition-colors shadow-[0_0_30px_rgba(168,85,247,0.5)]">{t('unlock_masterplan', lang) || 'Unlock Masterplan'}</button>
                   </div>
 
                   {/* Tier 2: 2027 */}
                   <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-zinc-400/30 transition-colors">
-                    <h3 className="text-2xl font-black text-zinc-100">2027 Full Year</h3>
-                    <p className="text-zinc-500 text-sm mt-2 mb-6">Prepare for the new year early.</p>
+                    <h3 className="text-2xl font-black text-zinc-100">{t('full_year', lang) || '2027 Full Year'}</h3>
+                    <p className="text-zinc-500 text-sm mt-2 mb-6">{t('prep_new_year', lang) || 'Prepare for the new year early.'}</p>
                     <div className="text-4xl font-black mb-6 text-zinc-100"><span className="text-2xl text-zinc-500 mr-1">$</span>9.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-400 flex-grow">
                       <li className="flex gap-2 items-start"><Zap size={14} className="text-zinc-300 flex-shrink-0 mt-1" /> 12-Month 2027 Flow</li>
@@ -283,15 +283,15 @@ export default function OracleLanding() {
                 </div>
               ) : (
               <>
-                <h2 className="text-3xl md:text-5xl font-black mb-4">Unlock Your <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 drop-shadow-md">Beauty Blueprint</span></h2>
-                <p className="text-pink-300 font-medium tracking-wide mb-6 text-lg">Get your personalized styling masterplan, including exact wardrobe color matching, hair dye recommendations, and makeup strategies.</p>
+                <h2 className="text-3xl md:text-5xl font-black mb-4">{t('unlock_your', lang) || 'Unlock Your'} <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-blue-500 drop-shadow-md">{t('beauty_blueprint_title', lang) || 'Beauty Blueprint'}</span></h2>
+                <p className="text-pink-300 font-medium tracking-wide mb-6 text-lg">{t('get_personalized', lang) || 'Get your personalized styling masterplan, including exact wardrobe color matching, hair dye recommendations, and makeup strategies.'}</p>
                   
                   {/* Premium Value Props */}
                   <div className="max-w-2xl mx-auto mb-10 bg-black/40 border border-pink-500/20 rounded-2xl p-6 md:p-8 text-left shadow-[0_0_20px_rgba(236,72,153,0.05)]">
                     <div className="flex justify-between items-end border-b border-pink-500/10 pb-4 mb-4">
                       <div>
                         <div className="text-sm text-pink-400 font-bold tracking-widest uppercase mb-1">Premium PDF Report</div>
-                        <h3 className="text-2xl font-black text-white">Full Personal Color Analysis</h3>
+                        <h3 className="text-2xl font-black text-white">{t('full_analysis', lang) || 'Full Personal Color Analysis'}</h3>
                       </div>
                       <div className="text-right">
                         <div className="text-sm text-zinc-500 line-through mb-1">$29.99</div>
