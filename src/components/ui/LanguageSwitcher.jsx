@@ -58,6 +58,7 @@ export default function LanguageSwitcher({ lang, setLang, showKo }) {
               key={l.code}
               onClick={() => {
                 setLang(l.code);
+                localStorage.setItem('kOracleLang', l.code);
                 setIsOpen(false);
               }}
               className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-bold transition-colors ${lang === l.code ? 'bg-zinc-800 text-white' : 'text-zinc-400 hover:bg-zinc-800 hover:text-white'}`}

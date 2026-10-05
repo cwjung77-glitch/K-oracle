@@ -1,15 +1,37 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
 export default function BlogFilter({ posts }) {
   const [filter, setFilter] = useState('All');
+  const [userLang, setUserLang] = useState('en');
+
+  useEffect(() => {
+    const saved = localStorage.getItem('kOracleLang');
+    if (saved) setUserLang(saved);
+  }, []);
+
+  // Filter out multi-language duplicates so we only show 1 card per base slug
+  const languageFilteredPosts = [];
+  const baseMap = new Map();
+
+  posts.forEach(post => {
+    const match = post.slug.match(/(.+)-(en|es|th|id|ja|de|it|pt|pl|ru|vi|fr)$/);
+    const base = match ? match[1] : post.slug;
+    const lang = match ? match[2] : 'en';
+    if (!baseMap.has(base)) baseMap.set(base, {});
+    baseMap.get(base)[lang] = post;
+  });
+
+  for (const [base, variants] of baseMap.entries()) {
+    if (variants[userLang]) languageFilteredPosts.push(variants[userLang]);
+    else if (variants['en']) languageFilteredPosts.push(variants['en']);
+    else languageFilteredPosts.push(Object.values(variants)[0]);
+  }
 
   // Determine categories based on tags. 
-  // If a post has "Personal Color", "Color", or "Beauty" tag, it goes to Personal Color.
-  // Otherwise it goes to Saju.
-  const categorizedPosts = posts.map(post => {
+  const categorizedPosts = languageFilteredPosts.map(post => {
     const isBeauty = post.tags?.some(tag => 
       tag.toLowerCase().includes('color') || tag.toLowerCase().includes('beauty') || tag.toLowerCase().includes('makeup')
     );
@@ -36,7 +58,7 @@ export default function BlogFilter({ posts }) {
                 : 'bg-white/5 border-white/10 text-zinc-400 hover:text-white hover:border-white/30'
             }`}
           >
-            {cat === 'All' ? 'All Posts' : cat === 'Saju' ? '🔮 Saju & Destiny' : '💄 Personal Color'}
+            {cat === 'All' ? 'All Posts' : cat === 'Saju' ? '🔮 Saju & Destiny' : '🎨 Personal Color'}
           </button>
         ))}
       </div>
