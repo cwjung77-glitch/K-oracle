@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
 import BlogEngagement from '@/components/features/BlogEngagement';
+import BlogNavbar from '@/components/features/BlogNavbar';
 import { ArrowLeft } from 'lucide-react';
 
 export async function generateStaticParams() {
@@ -123,17 +124,7 @@ export default async function BlogPost({ params }) {
       {/* Grid Texture Overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff02_1px,transparent_1px),linear-gradient(to_bottom,#ffffff02_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
       
-      <nav className="fixed w-full top-0 z-50 border-b border-white/5 bg-[#050505]/60 backdrop-blur-xl">
-        <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link href="/" className="text-xl md:text-2xl font-black tracking-widest cursor-pointer whitespace-nowrap">
-            <span className="text-yellow-500">K</span>-ORACLE
-          </Link>
-          <div className="flex items-center gap-6 text-sm font-bold">
-            <Link href="/" className="text-zinc-400 hover:text-white transition-colors">App</Link>
-            <Link href="/blog" className="text-yellow-500">Blog</Link>
-          </div>
-        </div>
-      </nav>
+      <BlogNavbar />
 
       <main className="max-w-3xl mx-auto px-6 pt-32 relative z-10">
         <Link href="/blog" className="inline-flex items-center gap-2 text-zinc-400 hover:text-yellow-500 transition-colors mb-12 font-bold text-sm">
