@@ -79,12 +79,12 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
       const key = keys[(currentKeyIndex + i) % keys.length];
       
       try {
-        const res = await fetch(\`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=\${key}\`, {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${key}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             contents: [
-              { role: 'user', parts: [{ text: \`\${systemPrompt}\\n\\nTopic: \${promptTopic}\` }] }
+              { role: 'user', parts: [{ text: `${systemPrompt}\\n\\nTopic: ${promptTopic}` }] }
             ],
             generationConfig: {
               maxOutputTokens: 8192
@@ -94,7 +94,7 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
 
         const data = await res.json();
         if (data.error) {
-          console.error(\`Key error for \${lang.code}:\`, data.error.message);
+          console.error(`Key error for ${lang.code}:`, data.error.message);
           continue; 
         }
 
@@ -105,26 +105,26 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
         let baseSlug = slugMatch ? slugMatch[1].replace(/-(en|es|th|id|ja|de|it|pt|pl|ru|vi|fr)$/, '') : 'beauty-post-' + Date.now();
         
         // Append language suffix
-        const finalSlug = \`\${baseSlug}-\${lang.code}\`;
+        const finalSlug = `${baseSlug}-${lang.code}`;
         
         // Replace the slug inside the markdown text so the file matches
-        const finalMarkdown = text.replace(/^slug:\\s*"?([^"\\n]+)"?/m, \`slug: "\${finalSlug}"\`);
+        const finalMarkdown = text.replace(/^slug:\\s*"?([^"\\n]+)"?/m, `slug: "${finalSlug}"`);
         
-        const outPath = path.join(__dirname, \`../src/content/blog/\${finalSlug}.md\`);
+        const outPath = path.join(__dirname, `../src/content/blog/${finalSlug}.md`);
         fs.writeFileSync(outPath, finalMarkdown);
         
-        console.log(\`✅ Successfully generated \${lang.name} and saved to \${outPath}\`);
+        console.log(`✅ Successfully generated ${lang.name} and saved to ${outPath}`);
         success = true;
         currentKeyIndex = (currentKeyIndex + i + 1) % keys.length; // rotate key
         break; 
         
       } catch (err) {
-        console.error(\`Fetch error for \${lang.code}:\`, err.message);
+        console.error(`Fetch error for ${lang.code}:`, err.message);
       }
     }
 
     if (!success) {
-      console.error(\`❌ Failed to generate for \${lang.name}. Skipping.\`);
+      console.error(`❌ Failed to generate for ${lang.name}. Skipping.`);
     }
   }
   

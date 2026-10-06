@@ -89,46 +89,52 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
 `;
 
   // API Key Rotation Logic
+  const fallbackModels = ['gemini-flash-lite-latest', 'gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-flash-latest'];
   const keys = apiKey.split(',').map(k => k.trim());
   let success = false;
   
   for (let i = 0; i < keys.length; i++) {
     const currentKey = keys[i];
-    console.log(`[?뵎 Key ${i+1}/${keys.length}] ?쒕룄 以?..`);
+    console.log(`[API Key ${i+1}/${keys.length}]`);
     
-    try {
-      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${currentKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [
-            { role: 'user', parts: [{ text: `${systemPrompt}\n\nTopic: ${promptTopic}` }] }
-          ]
-        })
-      });
+    for (const model of fallbackModels) {
+      console.log('  -> Trying model: ' + model);
+      try {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${currentKey}`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [
+              { role: 'user', parts: [{ text: `${systemPrompt}\n\nTopic: ${promptTopic}` }] }
+            ]
+          })
+        });
 
-      const data = await res.json();
-      if (data.error) throw new Error(data.error.message);
-      
-      let text = data.candidates[0].content.parts[0].text;
-      text = text.replace(/^\s*\`\`\`markdown\n/, '').replace(/\n\`\`\`\s*$/, '');
+        const data = await res.json();
+        if (data.error) throw new Error(data.error.message);
+        
+        let text = data.candidates[0].content.parts[0].text;
+        text = text.replace(/^\s*```markdown\n/, '').replace(/\n```\s*$/, '');
 
-      let slugMatch = text.match(/slug:\s*"([^"]+)"/);
-      let slug = slugMatch ? slugMatch[1] : 'blog-post-' + Date.now();
-      
-      const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
-      fs.writeFileSync(outPath, text);
-      
-      console.log(`??Successfully generated and saved to ${outPath}`);
-      success = true;
-      break; // Stop looping if successful
-    } catch (err) {
-      console.error(`?좑툘 Key ${i+1} ?ㅽ뙣: ${err.message}`);
-      if (i === keys.length - 1) {
-        console.error("??紐⑤뱺 API ?ㅺ? ?뚯쭊?섏뿀嫄곕굹 ?먮윭媛 諛쒖깮?덉뒿?덈떎.");
-        process.exit(1);
+        let slugMatch = text.match(/slug:\s*"([^"]+)"/);
+        let slug = slugMatch ? slugMatch[1] : 'blog-post-' + Date.now();
+        
+        const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
+        fs.writeFileSync(outPath, text);
+        
+        console.log(`✅ Successfully generated with ${model} and saved to ${outPath}`);
+        success = true;
+        break;
+      } catch (err) {
+        console.error(`    ❌ Failed ${model}: ${err.message}`);
       }
     }
+    if (success) break;
+  }
+  
+  if (!success) {
+    console.error('❌ All keys and models failed.');
+    process.exit(1);
   }
 }
 

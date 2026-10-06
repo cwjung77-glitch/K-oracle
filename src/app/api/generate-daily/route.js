@@ -88,7 +88,7 @@ const targetLanguage = langMap[lang] || 'English';
       }
     };
 
-    const fallbackModels = ['gemini-2.5-flash', 'gemini-3.6-flash', 'gemini-3.7-flash', 'gemini-3.8-flash', 'gemini-flash-latest'];
+    const fallbackModels = ['gemini-flash-lite-latest', 'gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-flash-latest'];
     let lastError = null;
     let data = null;
     let response = null;
