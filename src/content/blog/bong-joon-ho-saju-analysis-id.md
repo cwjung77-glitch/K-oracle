@@ -42,11 +42,11 @@ Takdir terungkap melalui arus waktu yang bergeser, yang dikenal sebagai Daewoon.
 
 ## Pertanyaan yang Sering Diajukan
 
-Apa elemen Master Harian Bong Joon-ho?
+### Apa elemen Master Harian Bong Joon-ho?
 Master Harian miliknya adalah Air Im, yang menyimbolkan kepribadian yang dalam, cerdas, dan mudah beradaptasi yang mampu menavigasi tema-tema kompleks dan arus emosional.
 
-Bagaimana bagannya memengaruhi gaya pembuatan filmnya?
+### Bagaimana bagannya memengaruhi gaya pembuatan filmnya?
 Kombinasi Air yang mengalir, Logam yang tajam, dan Api yang dramatis menciptakan ketegangan yang seimbang antara penceritaan struktural, kedalaman intelektual, dan momen sinematik yang mencolok secara visual.
 
-Bisakah Saju memprediksi kesuksesan karier di bidang seni?
+### Bisakah Saju memprediksi kesuksesan karier di bidang seni?
 Meskipun bagan kuno tidak menentukan jabatan pekerjaan tertentu, bagan tersebut mengungkap bakat bawaan, distribusi elemental, dan waktu yang optimal. Bagan Bong dengan jelas menyoroti visi artistik yang luar biasa dan ketahanan yang dibutuhkan untuk daya tahan kreatif jangka panjang.

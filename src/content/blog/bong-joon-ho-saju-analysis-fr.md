@@ -42,11 +42,11 @@ La destinée se déroule à travers les courants changeants du temps, connus sou
 
 ## Foire aux questions (FAQ)
 
-Quel est l'élément du Maître du Jour de Bong Joon-ho ?
+### Quel est l'élément du Maître du Jour de Bong Joon-ho ?
 Son Maître du Jour est l'Eau Im, symbolisant une personnalité profonde, intelligente et adaptable, capable de naviguer à travers des thèmes complexes et des courants émotionnels.
 
-Comment son thème influence-t-il son style de réalisation ?
+### Comment son thème influence-t-il son style de réalisation ?
 La combinaison d'Eau fluide, de Métal tranchant et de Feu dramatique crée une tension équilibrée entre narration structurelle, profondeur intellectuelle et moments cinématographiques visuellement saisissants.
 
-Le Saju peut-il prédire le succès professionnel dans les arts ?
+### Le Saju peut-il prédire le succès professionnel dans les arts ?
 Bien que les thèmes anciens ne dictent pas des titres de postes spécifiques, ils révèlent des talents inhérents, des distributions d'éléments et des moments opportuns. Le thème de Bong met clairement en évidence une vision artistique exceptionnelle et la résilience nécessaire pour une endurance créative à long terme.

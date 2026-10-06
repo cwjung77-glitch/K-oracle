@@ -42,11 +42,11 @@ El destino se desarrolla a través de las corrientes cambiantes del tiempo, cono
 
 ## Preguntas Frecuentes
 
-¿Cuál es el elemento del Maestro del Día de Bong Joon-ho?
+### ¿Cuál es el elemento del Maestro del Día de Bong Joon-ho?
 Su Maestro del Día es Agua Im, lo que simboliza una personalidad profunda, inteligente y adaptable, capaz de navegar por temas complejos y corrientes emocionales.
 
-¿Cómo influye su carta en su estilo cinematográfico?
+### ¿Cómo influye su carta en su estilo cinematográfico?
 La combinación de Agua fluida, Metal afilado y Fuego dramático crea una tensión equilibrada entre la narración estructural, la profundidad intelectual y momentos cinematográficos visualmente impactantes.
 
-¿Puede el Saju predecir el éxito profesional en las artes?
+### ¿Puede el Saju predecir el éxito profesional en las artes?
 Si bien las cartas antiguas no dictan títulos de trabajo específicos, revelan talentos inherentes, distribuciones elementales y momentos óptimos. La carta de Bong destaca claramente una visión artística excepcional y la resistencia necesaria para la longevidad creativa.

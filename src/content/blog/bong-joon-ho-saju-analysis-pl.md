@@ -42,11 +42,11 @@ Przeznaczenie rozwija się poprzez zmieniające się prądy czasu, znane jako Da
 
 ## Często zadawane pytania
 
-Jaki jest żywioł Władcy Dnia Bonga Joon-ho?
+### Jaki jest żywioł Władcy Dnia Bonga Joon-ho?
 Jego Władca Dnia to Woda Im, symbolizująca głęboką, inteligentną i adaptacyjną osobowość, zdolną do poruszania się po złożonych tematach i prądach emocjonalnych.
 
-W jaki sposób jego wykres wpływa na jego styl reżyserski?
+### W jaki sposób jego wykres wpływa na jego styl reżyserski?
 Połączenie płynnej Wody, ostrego Metalu i dramatycznego Ognia tworzy zbalansowane napięcie między narracją strukturalną, głębią intelektualną a uderzającymi wizualnie momentami kinowymi.
 
-Czy Saju potrafi przewidzieć sukces zawodowy w sztuce?
+### Czy Saju potrafi przewidzieć sukces zawodowy w sztuce?
 Choć starożytne wykresy nie narzucają konkretnych stanowisk pracy, ujawniają wrodzone talenty, rozkład żywiołów i optymalny timing. Wykres Bonga wyraźnie podkreśla wyjątkową wizję artystyczną i odporność niezbędną do długotrwałej wytrwałości twórczej.

@@ -42,11 +42,11 @@ Il destino si sviluppa attraverso le correnti mutevoli del tempo, note come Daew
 
 ## Domande Frequenti
 
-Qual è l'elemento del Maestro del Giorno di Bong Joon-ho?
+### Qual è l'elemento del Maestro del Giorno di Bong Joon-ho?
 Il suo Maestro del Giorno è l'Acqua Im, che simboleggia una personalità profonda, intelligente e adattabile, capace di navigare in temi complessi e correnti emotive.
 
-In che modo il suo grafico influenza il suo stile cinematografico?
+### In che modo il suo grafico influenza il suo stile cinematografico?
 La combinazione di Acqua fluida, Metallo tagliente e Fuoco drammatico crea una tensione equilibrata tra narrazione strutturale, profondità intellettuale e momenti cinematografici di grande impatto visivo.
 
-Il Saju può prevedere il successo professionale nelle arti?
+### Il Saju può prevedere il successo professionale nelle arti?
 Sebbene gli antichi grafici non dettino titoli di lavoro specifici, rivelano talenti intrinseci, distribuzioni elementali e tempistiche ottimali. Il grafico di Bong evidenzia chiaramente un'eccezionale visione artistica e la resilienza necessaria per una resistenza creativa a lungo termine.

@@ -42,11 +42,11 @@ O destino se desenrola através das correntes mutáveis do tempo, conhecidas com
 
 ## Perguntas Frequentes
 
-Qual é o elemento do Mestre do Dia de Bong Joon-ho?
+### Qual é o elemento do Mestre do Dia de Bong Joon-ho?
 Seu Mestre do Dia é a Água Im, simbolizando uma personalidade profunda, inteligente e adaptável, capaz de navegar por temas complexos e correntes emocionais.
 
-Como o mapa dele influencia seu estilo cinematográfico?
+### Como o mapa dele influencia seu estilo cinematográfico?
 A combinação de Água fluida, Metal cortante e Fogo dramático cria uma tensão equilibrada entre narrativa estrutural, profundidade intelectual e momentos cinematográficos visualmente marcantes.
 
-O Saju pode prever o sucesso na carreira artística?
+### O Saju pode prever o sucesso na carreira artística?
 Embora mapas antigos não ditem cargos específicos, eles revelam talentos inerentes, distribuições elementais e o timing ideal. O mapa de Bong destaca claramente uma visão artística excepcional e a resiliência necessária para a resistência criativa de longo prazo.

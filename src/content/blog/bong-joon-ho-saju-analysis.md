@@ -42,11 +42,11 @@ Destiny unfolds through the shifting currents of time, known as Daewoon. Bong’
 
 ## Frequently Asked Questions
 
-What is Bong Joon-ho's Day Master element?
+### What is Bong Joon-ho's Day Master element?
 His Day Master is Im Water, symbolizing a deep, intelligent, and adaptable personality capable of navigating complex themes and emotional currents.
 
-How does his chart influence his filmmaking style?
+### How does his chart influence his filmmaking style?
 The combination of fluid Water, sharp Metal, and dramatic Fire creates a balanced tension between structural storytelling, intellectual depth, and visually striking cinematic moments.
 
-Can Saju predict career success in the arts?
+### Can Saju predict career success in the arts?
 While ancient charts do not dictate specific job titles, they reveal inherent talents, elemental distributions, and optimal timings. Bong's chart clearly highlights exceptional artistic vision and the resilience needed for long-term creative endurance.
