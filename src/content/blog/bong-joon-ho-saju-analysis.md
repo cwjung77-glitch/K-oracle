@@ -1,6 +1,6 @@
 ---
 title: "Bong Joon-ho Saju Analysis: The Destiny of a Cinematic Mastermind"
-slug: "bong-joon-ho-saju-analysis-en"
+slug: "bong-joon-ho-saju-analysis"
 date: "2026-10-06"
 excerpt: "Discover the hidden cosmic blueprint behind Oscar-winning director Bong Joon-ho through the lens of ancient Korean Saju astrology."
 author: "K-Oracle"
