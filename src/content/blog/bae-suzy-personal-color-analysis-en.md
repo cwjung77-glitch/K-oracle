@@ -1,6 +1,6 @@
 ---
 title: "Bae Suzy Personal Color Analysis: Unlocking the Secret to Her Eternal First Love Glow"
-slug: "bae-suzy-personal-color-analysis"
+slug: "bae-suzy-personal-color-analysis-en"
 date: "2026-10-06"
 excerpt: "Ever wonder how Bae Suzy always looks effortlessly glowing? We dive deep into her personal color analysis to reveal why she is the ultimate K-Beauty muse."
 author: "K-Oracle"

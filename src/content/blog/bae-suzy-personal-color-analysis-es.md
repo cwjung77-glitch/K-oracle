@@ -1,6 +1,6 @@
 ---
 title: "El Secreto de la Eterna Juventud de Bae Suzy: ¿Cuál es su Color Personal K-Beauty?"
-slug: "bae-suzy-personal-color-analysis"
+slug: "bae-suzy-personal-color-analysis-es"
 date: "2026-10-06"
 excerpt: "Descubre el secreto detrás de la piel radiante y el encanto natural de la superestrella Bae Suzy. Analizamos su color personal para revelarte qué tonos de maquillaje y cabello potencian su belleza al máximo."
 author: "K-Oracle"

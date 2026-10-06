@@ -1,6 +1,6 @@
 ---
 title: "ถอดรหัส Personal Color แบซูจี (Bae Suzy): เคล็ดลับความงามแบบฉบับรักแรกแห่งชาติ"
-slug: "bae-suzy-personal-color-analysis"
+slug: "bae-suzy-personal-color-analysis-th"
 date: "2026-10-06"
 excerpt: "มาวิเคราะห์ Personal Color ของแบซูจี (Bae Suzy) ไอดอลสาวฉายารักแรกแห่งชาติ ว่าเธอเหมาะกับโทนสีอะไร ทำไมลุคธรรมชาติถึงสะกดทุกสายตา พร้อมเคล็ดลับแต่งหน้าและทำสีผมแบบจัดเต็ม!"
 author: "K-Oracle"
