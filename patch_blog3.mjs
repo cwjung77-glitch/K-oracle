@@ -1,7 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
-const scriptPath = path.join(__dirname, 'scripts/generate_blog.js');
+const scriptPath = './scripts/generate_blog.js';
 let code = fs.readFileSync(scriptPath, 'utf8');
 
 const oldBody = `body: JSON.stringify({

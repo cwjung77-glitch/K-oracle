@@ -1,9 +1,10 @@
-﻿const fs = require('fs');
-let content = fs.readFileSync('src/components/features/SajuCompatibility.jsx', 'utf8');
-const newStep2 = fs.readFileSync('step2_replacement.txt', 'utf8');
+const fs = require('fs');
+const path = 'src/app/api/generate-saju/route.js';
+let content = fs.readFileSync(path, 'utf8');
 
-const regex = /\) : loading \? \([\s\S]*?\{\/\* Amulet Section \*\//;
-content = content.replace(regex, newStep2);
+content = content.replace(
+  'User: ${userName}, gender: ${gender}, born: ${birthData}.\n  Daily Vibe Context',
+  'User: ${userName}, gender: ${gender}, born: ${birthData}.${exactSajuInfo}\n  Daily Vibe Context'
+);
 
-fs.writeFileSync('src/components/features/SajuCompatibility.jsx', content);
-console.log("Step 2 Overhaul Applied!");
+fs.writeFileSync(path, content);
