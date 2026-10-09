@@ -26,8 +26,8 @@ export default function BlogIndex() {
         const { data } = matter(fileContent);
         
         return {
-          slug: file.replace('.md', ''),
           ...data,
+          slug: file.replace('.md', ''),
         };
       })
       .sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by date descending
