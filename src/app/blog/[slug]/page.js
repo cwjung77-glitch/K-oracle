@@ -159,9 +159,15 @@ export default async function BlogPost({ params }) {
           </div>
         </article>
 
-        <div className="mt-12 pt-8 border-t border-white/10 text-sm text-zinc-500 italic">
-          Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.
-        </div>
+        {(data.tags && (data.tags.some(t => t.includes('Beauty') || t.includes('Color')) || (data.title && (data.title.includes('Color') || data.title.includes('Beauty'))))) ? (
+          <div className="mt-12 pt-8 border-t border-white/10 text-sm text-zinc-500 italic">
+            Disclaimer: This style analysis is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.
+          </div>
+        ) : (
+          <div className="mt-12 pt-8 border-t border-white/10 text-sm text-zinc-500 italic">
+            Disclaimer: This analysis is based on publicly available birth data and is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.
+          </div>
+        )}
 
         <BlogEngagement title={data.title} slug={slug} />
 
