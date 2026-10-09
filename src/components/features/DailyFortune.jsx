@@ -149,6 +149,7 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
     localStorage.setItem('userGender', gender);
 
     try {
+      const todayStr = getLocalDateStr();
       const res = await fetch('/api/generate-daily', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -157,7 +158,6 @@ export default function DailyFortune({ lang, hasPaid, onGoToPremium }) {
       const data = await res.json();
       if (data.success) {
         setResult(data.data);
-        const todayStr = getLocalDateStr();
         localStorage.setItem('daily_date', todayStr);
         localStorage.setItem('daily_result', JSON.stringify(data.data));
       } else {
