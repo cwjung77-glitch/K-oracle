@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Beomgyu", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the cosmic blueprint of TXT's Beomgyu through the ancient Korean Saju system. Discover how his Water Dragon Day Master and strong Wood energy fuel his undeniable charisma and artistic mastery.
 
 ## The Cosmic Blueprint of TXT Beomgyu
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubre la carta Saju coreana de Jeonghan de Seventeen. Explora cómo su Maestro del Día de Agua Yin, sus energías elementales duales y su sabiduría innata moldean su legado en el K-pop.
 
 ## Entendiendo el Maestro del Día de Jeonghan: El Buey de Agua Yin (Gye-Chuk)
 

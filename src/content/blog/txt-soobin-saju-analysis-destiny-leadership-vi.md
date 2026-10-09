@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá Tứ Trụ Định Mệnh của trưởng nhóm TXT Soobin. Hé lộ Nhật Chủ Nhâm Thuỷ (Im Water), sức mạnh lãnh đạo dịu dàng và vận mệnh nghệ thuật thông qua hệ thống cổ xưa của K-Oracle.
 
 ## Cấu trúc Lá số Saju của Soobin (TXT) là gì?
 

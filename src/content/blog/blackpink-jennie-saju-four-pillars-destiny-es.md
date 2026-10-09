@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BLACKPINK Jennie", "Saju Analysis", "Four Pillars of Destiny", "Korean Astrology", "K-Pop Metaphysics"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora el plano cósmico oculto detrás del carisma inigualable y el estrellato global de Jennie de BLACKPINK a través de una lectura detallada de Saju coreano (Cuatro Pilares del Destino).
 
 ## El Plano Metafísico de un Icono: La Carta Saju de Jennie
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Yunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubra os quatro pilares do destino por trás de Huh Yunjin do LE SSERAFIM. Uma análise astrológica oriental aprofundada que revela seu talento cósmico, mestre do dia ardente e destino como artista global.
 
 ## O Projeto Cósmico de Huh Yunjin do LE SSERAFIM
 

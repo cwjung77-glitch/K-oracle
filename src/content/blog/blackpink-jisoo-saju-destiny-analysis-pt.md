@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Jisoo", "Saju Analysis", "KPop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubra os Quatro Pilares do Destino de Jisoo do Blackpink. Revele como seus elementos de nascimento forjam seu carisma radiante, liderança equilibrada e carreira estelar na música e na atuação.
 
 ## Quem é Jisoo do Blackpink na Astrologia Oriental?
 

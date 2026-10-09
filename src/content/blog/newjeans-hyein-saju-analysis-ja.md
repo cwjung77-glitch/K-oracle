@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Hyein", "Saju Reading", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+NewJeansの最年少パワーハウス、ヘインの伝統的な四柱推命（サジュ）を紐解きます。丁亥（ていがい）の日柱と五行の調和が、彼女のボーカルの才能、大人びた魅力、そして世界的な成功をどのように形作っているのかを探ります。
 
 ## ヘインの宇宙の青写真
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Rose", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi Empat Pilar Takdir (Saju) milik Rosé Blackpink. Temukan bagaimana Elemen Penguasa Api, keseimbangan elemen, dan bintang kreatifnya membuka jalan bagi suara ikonik serta ketenaran globalnya.
 
 ## Elemen Inti: Api Byeong (Matahari yang Menyinarkan)
 

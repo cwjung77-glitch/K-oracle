@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi chart Saju dari leader BTS, RM (Kim Nam-joon). Temukan bagaimana konsep kuno Empat Pilar Takdir menjelaskan kejeniusan linguistik, seni yang mendalam, dan kepemimpinan globalnya.
 
 ## Elemen Inti: Kayu Yin (Eul Chuk) Day Master
 

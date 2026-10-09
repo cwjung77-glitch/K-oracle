@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju Analysis", "TXT Yeonjun", "K-pop Astrology", "Korean Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Odkryj starożytną koreańską wróżbę Saju Yeonjuna z TXT. Poznaj jego filar dnia Wodnego Konia, potężną charyzmę Kwiatu Brzoskwini oraz kosmiczny sekret stojący za jego legendarną siłą gwiazdy.
 
 ## Kosmiczna Architektura Choi Yeonjuna: Im-O Wodny Koń
 

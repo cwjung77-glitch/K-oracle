@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore o antigo mapa Saju (Quatro Pilares do Destino) do líder do ENHYPEN, Jungwon. Descubra seu projeto elemental, energia de liderança e compatibilidade romântica.
 
 ## O Projeto Elemental de Jungwon do ENHYPEN
 

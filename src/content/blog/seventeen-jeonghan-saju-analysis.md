@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Discover the Korean Saju chart of Seventeen's Jeonghan. Explore how his Yin Water Day Master, dual elemental energies, and innate wisdom shape his K-pop legacy.
 
 ## Understanding Jeonghan's Day Master: The Yin Water Ox (Gye-Chuk)
 

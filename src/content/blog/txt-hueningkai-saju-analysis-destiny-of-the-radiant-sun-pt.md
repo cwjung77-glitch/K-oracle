@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Hueningkai", "Saju", "Kpop", "Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubra o destino cósmico de Hueningkai do TXT através do Saju coreano. Revele como seu Mestre do Dia Fogo Byeong molda seu gênio artístico, calor e poder estelar global.
 
 ## O Sol Radiante do TXT: O Projeto Energético de Hueningkai
 

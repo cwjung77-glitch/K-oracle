@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Rose", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora los Cuatro Pilares del Destino de Rosé de Blackpink. Descubre cómo su Maestro del Día Fuego, el equilibrio elemental y las estrellas creativas desbloquearon su icónica voz y su estrellato global.
 
 ## El Elemento Central: Fuego Byeong (El Sol Radiante)
 

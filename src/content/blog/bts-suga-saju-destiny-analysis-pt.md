@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "SUGA", "Agust D", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore a leitura Saju ancestral de SUGA (Min Yoon-gi) do BTS. Descubra como seu Pilar do Dia Gi-Chuk molda seu profundo gênio musical, sua resiliência inabalável e seu papel como o pilar estoico do BTS.
 
 ## O Projeto Cósmico de SUGA do BTS (Min Yoon-gi)
 

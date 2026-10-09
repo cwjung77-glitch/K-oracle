@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Erkunde das Saju-Chart von IVE-Stimmwunder Liz. Entdecke, wie ihr Wasser-Tagesmeister und ihre Holzelemente ihr faszinierendes Gesangstalent und ihren Karriereweg prägen.
 
 ## Der elementare Bauplan von IVEs goldenem Gesangstalent
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi analisis kuno Empat Pilar Takdir (Saju) milik Wonyoung IVE. Temukan bagaimana elemen Air Yang miliknya dan kombinasi bintang yang kuat menciptakan ikon lintas generasi.
 
 ## Profil Kosmik: Empat Pilar Takdir Jang Wonyoung
 

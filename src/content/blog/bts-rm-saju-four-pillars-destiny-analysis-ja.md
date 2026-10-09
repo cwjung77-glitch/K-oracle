@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+BTSのリーダーRM（キム・ナムジュン）のサジュ（四柱推命）チャートを徹底解説。古代からの四柱推命が彼の言語の天才性、深い芸術性、そしてグローバルなリーダーシップをどのように説明しているのかを探ります。
 
 ## コアエレメント：乙木（日主）
 

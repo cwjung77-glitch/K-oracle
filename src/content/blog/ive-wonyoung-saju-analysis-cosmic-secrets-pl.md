@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Poznaj starożytną analizę Czterech Filarów Przeznaczenia Wonyoung z IVE. Dowiedz się, jak jej żywioł Wody Yang i potężne kombinacje gwiazd stworzyły ikonę pokolenia.
 
 ## Kosmiczny profil: Cztery Filary Przeznaczenia Jang Wonyoung
 

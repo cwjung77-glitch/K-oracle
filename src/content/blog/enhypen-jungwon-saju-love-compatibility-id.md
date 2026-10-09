@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi bagan Saju (Empat Pilar Takdir) kuno milik pemimpin ENHYPEN, Jungwon. Temukan cetak biru elemen, energi kepemimpinan, dan kecocokan romantisnya.
 
 ## Cetak Biru Elemen Jungwon ENHYPEN
 

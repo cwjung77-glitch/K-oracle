@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "Jin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore a leitura milenar de Saju para Jin (Kim Seok-jin) do BTS. Descubra como seu Pilar do Dia Im-Shin molda sua beleza magnética, resiliência mental e sucesso eterno.
 
 ## O Projeto Cósmico de Jin do BTS (Kim Seok-jin)
 

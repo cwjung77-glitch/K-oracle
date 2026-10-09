@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Poznaj starożytny wykres Saju Lee Know ze Stray Kids. Odkryj jego Mistrza Dnia Drewnianego Węża, równowagę żywiołów, wyrazistą obecność sceniczną i unikalne cechy osobowości.
 
 ## Główny Filar: Mistrz Dnia Lee Know (Eul Sa – Drewniany Wąż)
 

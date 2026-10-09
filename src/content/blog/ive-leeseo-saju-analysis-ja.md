@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+IVEの最年少メンバー、イソの四柱推命（サジュ）チャートを徹底解説。彼女の「庚（金）」の日主と豊かな木のエネルギーが、いかにして物怖じしないステージでの存在感と生まれ持ったカリスマ性を形作っているのかを探ります。
 
 ## イソの四柱推命チャートの構造を読み解く
 

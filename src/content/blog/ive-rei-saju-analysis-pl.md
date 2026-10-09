@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Rei", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "K-Oracle"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Pogłębiona koreańska analiza Saju Rei z IVE. Odkryj jej równowagę żywiołów, unikalne talenty twórcze, cechy osobowości i kosmiczne przeznaczenie poprzez Cztery Finary Losu.
 
 ## Wprowadzenie do Rei z IVE i Jej Kosmicznego Przeznaczenia
 

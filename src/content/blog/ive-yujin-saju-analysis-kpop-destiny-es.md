@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la lectura antigua de los Cuatro Pilares del Destino de la líder de IVE, An Yujin. Descubre cómo su elemento Fuego Yang y su carta natal cósmica revelan su extraordinario carisma, su liderazgo natural y su fortuna profesional a largo plazo.
 
 ## El Sol radiante: El Maestro del Día fundamental de An Yujin (Fuego Byeong)
 

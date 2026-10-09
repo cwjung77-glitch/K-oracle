@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Rei", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "K-Oracle"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+An in-depth Korean Saju analysis of IVE's Rei. Discover her elemental balance, unique creative talents, personality traits, and cosmic destiny through the Four Pillars of Destiny.
 
 ## Introduction to IVE Rei and Her Cosmic Destiny
 

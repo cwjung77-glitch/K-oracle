@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi bagan Empat Pilar Takdir (Saju) milik Karina Aespa. Temukan bagaimana cetak biru elemennya membentuk visual halusnya, kepemimpinan alaminya, dan kebintangannya di kancah global.
 
 ## Cetak Biru Kosmik Karina: Sebuah Gambaran Umum
 

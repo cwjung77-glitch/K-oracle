@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "Jimin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi pembacaan Saju kuno untuk Jimin BTS. Temukan bagaimana Pilar Hari Jeong-Chuk miliknya membentuk kehadiran panggung yang memikat, kedalaman emosional, dan perfeksionisme tanpa henti.
 
 ## Cetak Biru Kosmik BTS Jimin (Park Gi-min)
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Temukan rahasia kosmik di balik karisma magnetis Nayeon TWICE melalui analisis Saju kuno Korea. Jelajahi Master Hari, kekuatan elemen tersembunyi, dan takdir bintangnya.
 
 ## Pendahuluan: Takdir Bercahaya dari Center TWICE
 

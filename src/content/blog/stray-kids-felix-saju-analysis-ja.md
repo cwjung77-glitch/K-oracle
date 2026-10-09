@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Stray Kidsのフィリックスの韓国伝統の四柱推命（サジュ）を分析。彼のアイコニックな声、魅惑的なカリスマ性、そしてグローバルな運命の裏にある五行の秘密を解き明かします。
 
 ## フィリックス（イ・ヨンボク）の宇宙的ブループリント
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+IVEウォニョンを古代の四柱推命で徹底分析。彼女の「壬（陽の水）」のエレメントと強力な星の組み合わせが、どのように世代を超えたアイコンを生み出したのかに迫ります。
 
 ## コズミック・プロフィール：チャン・ウォニョンの四柱推命
 

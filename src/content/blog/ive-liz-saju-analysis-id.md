@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi peta Saju dari vokalis utama IVE, Liz. Temukan bagaimana Elemen Air (Day Master) dan Kayu miliknya membentuk bakat vokal yang memukau serta lintasan kariernya.
 
 ## Cetak Biru Elemental dari Vokalis Emas IVE
 

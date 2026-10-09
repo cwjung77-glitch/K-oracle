@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la carta de los Cuatro Pilares del Destino (Saju) de Karina de Aespa. Descubre cómo su plano elemental da forma a sus visuales etéreos, su liderazgo natural y su estrellato global.
 
 ## El Plano Cósmico de Karina: Una Visión General
 

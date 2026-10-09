@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Odkryj starożytne Cztery Filary Przeznaczenia stojące za Kim Chaewon, urzekającą liderką Le Sserafim. Dowiedz się, jak jej mistrz dnia Yang Metal napędza jej niezachwianą siłę i artystyczny kunszt.
 
 ## Mistrz Dnia: Ostrze Yang Metalu (Gyeong-In)
 

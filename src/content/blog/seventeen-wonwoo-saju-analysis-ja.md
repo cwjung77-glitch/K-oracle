@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Wonwoo", "SEVENTEEN", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+韓国の四柱推命を通して、SEVENTEENウォヌの隠された運命を発見しましょう。日主、五行のバランス、そして古代の宇宙のチャートが、彼の磁力のような才能と静かな強さをどのように形作っているのかを明らかにします。
 
 ## ウォヌ（SEVENTEEN）の宇宙のブループリント
 

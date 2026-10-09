@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore a leitura de destino Saju coreana ancestral de Sana do TWICE. Descubra como seu projeto elemental e sua extraordinária sorte da Flor de Pêssego criaram seu carisma viral e superestrelato global.
 
 ## O Projeto Elemental de Sana do TWICE
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi pembacaan kuno Empat Pilar Takdir (Saju) untuk pemimpin IVE, An Yujin. Temukan bagaimana elemen Api Yang dan peta kosmik kelahirannya mengungkapkan karisma luar biasa, kepemimpinan alami, dan keberuntungan karier jangka panjangnya.
 
 ## Matahari yang Bersinar: Penguasa Hari Inti An Yujin (Api Byeong)
 

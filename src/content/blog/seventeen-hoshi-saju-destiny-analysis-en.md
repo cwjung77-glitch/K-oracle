@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Discover the profound Korean Saju astrological analysis of SEVENTEEN's Hoshi. Unveil how his Four Pillars of Destiny explain his ferocious stage presence, passion, and leadership.
 
 ## The Four Pillars Blueprint of Kwon Soonyoung
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Eunchae", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Odkryj kosmiczny plan najmłodszej członkini Le Sserafim, Hong Eunchae. Poznaj jej równowagę żywiołów, charyzmę i przeznaczenie dzięki starożytnej mądrości koreańskich Czterech Filarów.
 
 ## Wprowadzenie do energetycznego planu Hong Eunchae
 

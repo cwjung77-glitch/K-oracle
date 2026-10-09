@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Minji", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá năng lượng Saju ẩn giấu của trụ cột NewJeans - Minji. Tìm hiểu cách Nhật chủ Đinh Hỏa và sao Thiên Ất Quý Nhân định hình thần thái biểu diễn cuốn hút, khả năng lãnh đạo bẩm sinh và vận mệnh sự nghiệp lâu dài của cô ấy.
 
 ## Bốn trụ linh thiêng: Bản thiết kế vũ trụ của Minji
 

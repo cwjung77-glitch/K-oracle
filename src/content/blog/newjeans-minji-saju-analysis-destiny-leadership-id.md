@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Minji", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Temukan energi Saju tersembunyi dari pilar utama NewJeans, Minji. Pelajari bagaimana Master Hari Api Jeong (Jeong Fire) dan bintang Bangsawan Surgawi membentuk karisma panggungnya, kepemimpinan alami, dan keberuntungan karier jangka panjang.
 
 ## Empat Pilar Sakral: Cetak Biru Kosmik Minji
 

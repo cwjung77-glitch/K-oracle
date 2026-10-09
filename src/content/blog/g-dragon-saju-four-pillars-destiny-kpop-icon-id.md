@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi peta Saju (Empat Pilar Takdir) kuno milik G-Dragon BIGBANG. Temukan bagaimana Kayu In, ekspresi Api, dan otoritas Logam menciptakan trendsetter utama K-Pop.
 
 ## Pendahuluan: Membedah Cetak Biru Kosmik Kwon Ji-yong
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Hyunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubra o mapa cósmico de Hyunjin do Stray Kids através do Saju coreano. Desvende como seus Quatro Pilares governam seu carisma de palco hipnotizante, brilho artístico e destino futuro.
 
 ## O Mapa Cósmico de Hyunjin do Stray Kids
 

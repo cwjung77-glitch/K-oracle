@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la lectura ancestral del destino Saju de Sana de TWICE. Descubre cómo su plano elemental y su extraordinaria suerte de la Flor del Durazno crearon su carisma viral y su superestrellato global.
 
 ## El Plano Elemental de Sana de TWICE
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Temukan bagan Saju Korea dari Jeonghan Seventeen. Jelajahi bagaimana Master Hari Air Yin, energi elemen ganda, dan kebijaksanaan bawaannya membentuk warisan K-pop miliknya.
 
 ## Memahami Master Hari Jeonghan: Kerbau Air Yin (Gye-Chuk)
 

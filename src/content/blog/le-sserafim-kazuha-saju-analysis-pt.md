@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Kazuha", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Desvende a antiga leitura de destino Saju de Kazuha do Le Sserafim. Explore como seu Mestre do Dia Terra Gi e a energia de Metal dominante explicam sua graça de bailarina, ascensão instantânea à fama e força silenciosa.
 
 ## O Plano Elemental de Kazuha (Nakamura Kazuha)
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Four Pillars of Destiny reading for IVE's leader, An Yujin. Discover how her Yang Fire element and natal cosmic chart reveal her extraordinary charisma, natural leadership, and long-term career fortune.
 
 ## The Radiant Sun: An Yujin's Core Day Master (Byeong Fire)
 

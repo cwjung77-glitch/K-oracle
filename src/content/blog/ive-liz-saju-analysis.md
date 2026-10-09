@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Saju chart of IVE's powerhouse vocalist Liz. Uncover how her Water Day Master and Wood elements shape her mesmerizing vocal talent and career trajectory.
 
 ## The Elemental Blueprint of IVE's Golden Vocalist
 

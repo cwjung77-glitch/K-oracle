@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá phân tích Tứ Trụ Định Mệnh cổ xưa của Wonyoung nhóm IVE. Tìm hiểu cách nguyên tố Thủy Dương và sự kết hợp các vì sao mạnh mẽ đã tạo nên một biểu tượng thế hệ.
 
 ## Hồ sơ vũ trụ: Tứ Trụ Định Mệnh của Jang Wonyoung
 

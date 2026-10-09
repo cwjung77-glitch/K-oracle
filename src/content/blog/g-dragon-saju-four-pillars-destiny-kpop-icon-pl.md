@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Poznaj starożytny wykres Czterech Filarów Przeznaczenia (Saju) G-Dragona z grupy BIGBANG. Dowiedz się, jak drewno In, ognista ekspresja i metalowy autorytet stworzyły ostatecznego trendsettera K-Popu.
 
 ## Wstęp: Rozszyfrowanie kosmicznego planu Kwona Ji-yonga
 

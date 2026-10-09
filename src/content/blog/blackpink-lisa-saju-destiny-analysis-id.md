@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju Analysis", "Blackpink Lisa", "Celebrity Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi Empat Pilar Takdir (Four Pillars of Destiny) milik Lisa Blackpink. Ungkap bagaimana Master Hari, keseimbangan elemen kosmik, and bintang Bunga Persik mendorongnya menjadi ratu pop global.
 
 ## Identitas Utama: Master Hari Bumi Mu (Bumi Yang)
 

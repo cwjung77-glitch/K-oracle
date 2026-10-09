@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Entdecke das alte Saju-Diagramm (Vier Säulen des Schicksals) von ENHYPEN-Leader Jungwon. Erfahre mehr über seinen elementaren Bauplan, seine Führungsenergie und seine romantische Kompatibilität.
 
 ## Der elementare Bauplan von ENHYPENs Jungwon
 

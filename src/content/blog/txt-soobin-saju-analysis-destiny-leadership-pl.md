@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Poznaj Cztery Filary Przeznaczenia lidera TXT, Soobina. Odkryj jego Mistrza Dnia Wody Im, łagodną moc przywódczą oraz artystyczną fortunę dzięki starożytnemu systemowi K-Oracle.
 
 ## Jaka jest struktura wykresu Saju Soobina z TXT?
 

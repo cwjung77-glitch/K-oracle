@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju Analysis", "TXT Yeonjun", "K-pop Astrology", "Korean Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubre la lectura ancestral coreana del Saju de Yeonjun de TXT. Explora su pilar de día Caballo de Agua, su poderosa carisma de Flor de Melocotón y el secreto cósmico detrás de su legendario poder estelar.
 
 ## La Arquitectura Cósmica de Choi Yeonjun: Im-O Caballo de Agua
 

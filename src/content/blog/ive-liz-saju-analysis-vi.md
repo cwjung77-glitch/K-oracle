@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá biểu đồ Saju của giọng ca chủ lực nhà IVE - Liz. Tìm hiểu cách Nhật chủ Thủy và các yếu tố Mộc định hình tài năng thanh nhạc mê hoặc cùng sự nghiệp của cô ấy.
 
 ## Bản thiết kế Ngũ hành của Giọng ca Vàng nhóm IVE
 

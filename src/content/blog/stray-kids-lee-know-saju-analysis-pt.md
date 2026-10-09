@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore o antigo mapa de Saju de Lee Know, do Stray Kids. Descubra seu Mestre do Dia Serpente de Madeira, equilíbrio elemental, forte presença de palco e traços de personalidade únicos.
 
 ## O Pilar Central: O Mestre do Dia de Lee Know (Eul Sa - Serpente de Madeira)
 

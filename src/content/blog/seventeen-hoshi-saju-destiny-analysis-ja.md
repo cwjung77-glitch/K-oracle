@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Hoshi", "Saju Analysis", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+SEVENTEENのホシ（HOSHI）に対する深い韓国四柱推命の分析をお届けします。彼の四柱推命が、圧倒的なステージでの存在感、情熱、そしてリーダーシップをどのように説明しているのかを紐解きます。
 
 ## クォン・スンヨンの四柱推命の設計図
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Erkunde die antike Saju-Lesung von NewJeans' Haerin. Entdecke, wie ihr Im-Wasser-Tagesmeister und die Tiger-Energie ihren rätselhaften Charme, ihr künstlerisches Talent und ihren außergewöhnlichen Karriereweg prägen.
 
 ## Das Kernelement: Im-Wasser (Der tiefe Ozean)
 

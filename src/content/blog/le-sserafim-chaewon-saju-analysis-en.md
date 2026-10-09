@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Four Pillars of Destiny behind Kim Chaewon, the captivating leader of Le Sserafim. Uncover how her Yang Metal day master fuels her unwavering strength and stage artistry.
 
 ## The Day Master: The Refined Blade of Yang Metal (Gyeong-In)
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju Analysis", "Blackpink Lisa", "Celebrity Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Four Pillars of Destiny for Blackpink's Lisa. Uncover how her Day Master, cosmic element balance, and Peach Blossom stars propelled her to global pop royalty.
 
 ## The Core Identity: Day Master Mu Earth (Yang Earth)
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi bagan Saju kuno milik Lee Know Stray Kids. Temukan Master Hari Ular Kayu miliknya, keseimbangan elemen, pesona panggung yang tajam, dan sifat kepribadian yang unik.
 
 ## Pilar Utama: Master Hari Lee Know (Eul Sa - Ular Kayu)
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Minji", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Discover the hidden Saju energy of NewJeans' anchor, Minji. Explore how her Jeong Fire Day Master and Heavenly Nobleman stars shape her charismatic stage presence, natural leadership, and long-term career fortune.
 
 ## The Sacred Four Pillars: Minji's Cosmic Blueprint
 

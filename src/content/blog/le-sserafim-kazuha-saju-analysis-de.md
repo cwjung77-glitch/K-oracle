@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Kazuha", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Entdecke das antike Saju-Schicksalshoroskop von Le Sserafim-Mitglied Kazuha. Erfahre, wie ihr Gi-Erde-Tagesmeister und ihre dominante Metall-Energie ihre Ballerina-Anmut, ihren kometenhaften Aufstieg zu Fruch und ihre stille Stärke erklären.
 
 ## Der elementare Bauplan von Kazuha (Nakamura Kazuha)
 

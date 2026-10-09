@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Esplora l'antico grafico dei Quattro Pilastri del Destino (Saju) di G-Dragon dei BIGBANG. Scopri come il Legno Yin, l'espressione di Fuoco e l'autorità di Metallo abbiano creato il trendsetter supremo del K-Pop.
 
 ## Introduzione: Decodificare il Progetto Cosmico di Kwon Ji-yong
 

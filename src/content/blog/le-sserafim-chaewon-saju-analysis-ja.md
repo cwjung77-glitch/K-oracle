@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+LE SSERAFIMの魅惑的なリーダー、キム・チェウォンの隠された「四柱推命」を紐解きます。陽の金（庚）の日主が、いかに彼女の揺るぎない強さとステージ上の芸術性を支えているのかに迫ります。
 
 ## 日主：洗練された陽金の刃（庚寅）
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la ancestral carta Saju (Cuatro Pilares del Destino) del líder de ENHYPEN, Jungwon. Descubre su plano elemental, su energía de liderazgo y su compatibilidad romántica.
 
 ## El plano elemental de Jungwon de ENHYPEN
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Saju chart of BTS leader RM (Kim Nam-joon). Discover how the ancient Four Pillars of Destiny explain his linguistic genius, profound artistry, and global leadership.
 
 ## The Core Element: In Wood (Eul Chuk) Day Master
 

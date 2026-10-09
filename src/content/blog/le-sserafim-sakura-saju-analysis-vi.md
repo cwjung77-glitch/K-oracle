@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Miyawaki Sakura", "LE SSERAFIM", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá bản mệnh Saju cổ xưa của Miyawaki Sakura từ LE SSERAFIM. Tìm hiểu cách Nhật Chủ Tân Kim (Yin Metal) và các yếu tố vũ trụ đã thúc đẩy hành trình vươn lên qua ba lần debut mang tính biểu tượng của cô ấy.
 
 ## Giới thiệu: Hiện tượng Miyawaki Sakura
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi pembacaan takdir Saju Korea kuno milik Sana TWICE. Temukan bagaimana cetak biru elemen dan keberuntungan Bunga Persik (Peach Blossom) yang luar biasa menciptakan karisma viral dan kesuksesan globalnya.
 
 ## Cetak Biru Elemental TWICE Sana
 

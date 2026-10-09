@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Rose", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Poznaj Cztery Filary Przeznaczenia Rosé z Blackpink. Dowiedz się, jak jej Mistrz Dnia Ognia, równowaga żywiołów i gwiazdy twórcze odblokowały jej kultowy głos i globalną sławę.
 
 ## Główny Żywioł: Ogień Byeong (Promienne Słońce)
 

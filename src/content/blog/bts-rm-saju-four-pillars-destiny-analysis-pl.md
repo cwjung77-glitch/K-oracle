@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Poznaj wykres Saju lidera BTS, RM (Kima Nam-joona). Dowiedz się, jak starożytne Cztery Filary Przeznaczenia wyjaśniają jego językowy geniusz, głęboką artystyczną duszę i globalne przywódcywo.
 
 ## Główny Element: Dzień Drzewa Yin (Eul Chuk)
 

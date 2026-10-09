@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Miyawaki Sakura", "LE SSERAFIM", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Изучите древний разбор Саджу Мияваки Сакуры из LE SSERAFIM. Узнайте, как ее Небесный Ствол Инь Металла и космические элементы подпитывали ее взлет в трех культовых дебютах.
 
 ## Введение: Феномен Мияваки Сакуры
 

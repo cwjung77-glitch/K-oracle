@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi Empat Pilar Takdir (Saju) untuk pemimpin TXT, Soobin. Ungkap Penguasa Hari Air Im (Im Water Day Master), kekuatan kepemimpinan yang lembut, dan keberuntungan artistiknya melalui sistem kuno K-Oracle.
 
 ## Bagaimana Struktur Bagan Saju TXT Soobin?
 

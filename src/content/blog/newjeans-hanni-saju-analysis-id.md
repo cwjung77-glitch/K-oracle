@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju", "K-pop", "NewJeans", "Hanni", "Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi grafik Saju milik Hanni NewJeans. Temukan bagaimana Empat Pilar Takdir miliknya mengungkapkan kejeniusan artistiknya, pesona yang tak tertahankan, dan kebangkitannya menuju ketenaran global.
 
 ## Pendahuluan: Cetak Biru Kosmik Hanni NewJeans
 

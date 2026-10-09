@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["G-Dragon", "Saju", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Four Pillars of Destiny (Saju) chart of BIGBANG's G-Dragon. Discover how In Wood, Fire expression, and Metal authority created K-Pop's ultimate trendsetter.
 
 ## Introduction: Decoding Kwon Gi-yong's Cosmic Blueprint
 

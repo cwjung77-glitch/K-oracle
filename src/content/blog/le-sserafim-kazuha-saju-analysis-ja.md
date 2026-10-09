@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Kazuha", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+LE SSERAFIMカズハの古代四柱推命の運命を解き明かす。己土の日主と強い金のエレメントが、どのように彼女のバレリーナのような優雅さ、一躍スターダムに駆け上がった飛躍、そして秘められた強さを説明しているのかを探ります。
 
 ## カズハ（中村一葉）のエレメンタル・ブループリント
 

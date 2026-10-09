@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Wonyoung", "K-Pop Saju", "Four Pillars of Destiny", "Celebrity Saju"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore a antiga análise dos Quatro Pilares do Destino de Wonyoung do IVE. Descubra como seu elemento Água Yang e poderosas combinações de estrelas criaram um ícone geracional.
 
 ## Perfil Cósmico: Os Quatro Pilares do Destino de Jang Wonyoung
 

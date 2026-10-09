@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Jisoo", "Saju Analysis", "KPop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Temukan Empat Pilar Takdir Jisoo Blackpink. Ungkap bagaimana elemen kelahirannya membentuk karisma yang memancar, kepemimpinan yang membumi, serta karier cemerlangnya di dunia musik dan akting.
 
 ## Siapa Blackpink Jisoo dalam Astrologi Timur?
 

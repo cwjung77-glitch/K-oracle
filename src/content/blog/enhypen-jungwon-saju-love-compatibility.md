@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["ENHYPEN", "Jungwon", "Saju", "Four Pillars", "Love Compatibility"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Saju (Four Pillars of Destiny) chart of ENHYPEN's leader Jungwon. Uncover his elemental blueprint, leadership energy, and romantic compatibility.
 
 ## The Elemental Blueprint of ENHYPEN's Jungwon
 

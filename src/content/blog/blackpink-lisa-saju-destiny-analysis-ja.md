@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju Analysis", "Blackpink Lisa", "Celebrity Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+BLACKPINKのリサの四柱推命（サジュ）を徹底解説。日主（Day Master）、五行のバランス、そして彼女を世界的ポップスターへと押し上げた桃花殺（トファサル）の秘密に迫ります。
 
 ## コア・アイデンティティ：日主「戊土（陽の土）」
 

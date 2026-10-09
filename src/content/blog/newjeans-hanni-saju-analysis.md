@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju", "K-pop", "NewJeans", "Hanni", "Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Saju chart of NewJeans' Hanni. Discover how her Four Pillars of Destiny reveal her artistic genius, irresistible charm, and global rise to stardom.
 
 ## Introduction: The Cosmic Blueprint of NewJeans' Hanni
 

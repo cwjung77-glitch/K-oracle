@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Saju", "K-pop", "NewJeans", "Hanni", "Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la carta Saju de Hanni de NewJeans. Descubre cómo sus Cuatro Pilares del Destino revelan su genio artístico, su encanto irresistible y su ascenso global al estrellato.
 
 ## Introducción: El Plano Cósmico de Hanni de NewJeans
 

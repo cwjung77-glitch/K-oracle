@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore os antigos Quatro Pilares do Destino por trás de Kim Chaewon, a cativante líder do Le Sserafim. Descubra como seu Mestre do Dia de Metal Yang alimenta sua força inabalável e sua arte nos palcos.
 
 ## O Mestre do Dia: A Lâmina Refinada de Metal Yang (Gyeong-In)
 

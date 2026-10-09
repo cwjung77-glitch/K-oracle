@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "Jimin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la lectura ancestral del Saju de Jimin de BTS. Descubre cómo su pilar del día Jeong-Chuk moldea su cautivadora presencia escénica, su profundidad emocional y su perfeccionismo implacable.
 
 ## El plano cósmico de Jimin de BTS (Park Ji-min)
 

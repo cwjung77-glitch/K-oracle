@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Erkunde das antike Saju-Chart von Lee Know von Stray Kids. Entdecke sein Holz-Schlange-Tageselement, seine elementare Balance, seine intensive Bühnenpräsenz und seine einzigartigen Persönlichkeitsmerkmale.
 
 ## Die Kernsäule: Lee Knows Tageselement (Eul Sa - Holz-Schlange)
 

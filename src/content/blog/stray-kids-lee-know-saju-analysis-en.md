@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Saju chart of Stray Kids' Lee Know. Uncover his Wood Snake Day Master, elemental balance, sharp stage presence, and unique personality traits.
 
 ## The Core Pillar: Lee Know’s Day Master (Eul Sa - Wood Snake)
 

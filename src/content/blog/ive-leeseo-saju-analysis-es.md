@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explora la carta Saju de la estrella más joven de IVE, Leeseo. Descubre cómo su Maestro del Día Metal Gyeong y su vibrante energía de Madera moldean su intrépida presencia escénica y su carisma natural.
 
 ## Entendiendo la Estructura de la Carta Saju de Leeseo
 

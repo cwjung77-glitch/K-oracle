@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Wonwoo", "SEVENTEEN", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá vận mệnh ẩn giấu của Wonwoo (SEVENTEEN) thông qua Saju Hàn Quốc. Tìm hiểu cách Nhật Chủ (Day Master), sự cân bằng ngũ hành và biểu đồ vũ trụ cổ xưa định hình tài năng cuốn hút cùng nội lực tĩnh lặng của anh.
 
 ## Bản đồ vũ trụ của Wonwoo (SEVENTEEN)
 

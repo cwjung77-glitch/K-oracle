@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Hyunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+韓国の四柱推命（サジュ）を通して、Stray Kidsヒョンジンの宇宙のブループリントを解き明かします。彼の四柱が、圧倒的なパフォーマンスのカリスマ性、芸術的才能、そして未来の運命をどのように支配しているのかに迫ります。
 
 ## Stray Kidsヒョンジンの宇宙的ブループリント
 

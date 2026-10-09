@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Odkryj kosmiczny sekret magnetycznej charyzmy Nayeon z TWICE poprzez starożytną koreańską analizę Saju. Poznaj jej Władcę Dnia, ukrytą moc żywiołów i gwiezdne przeznaczenie.
 
 ## Wstęp: Promienne przeznaczenie center grupy TWICE
 

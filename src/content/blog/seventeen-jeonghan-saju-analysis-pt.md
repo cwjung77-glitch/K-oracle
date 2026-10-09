@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Seventeen", "Jeonghan", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubra o mapa de Saju coreano de Jeonghan do Seventeen. Explore como seu Mestre do Dia de Água Yin, energias elementares duplas e sabedoria inata moldam seu legado no K-pop.
 
 ## Entendendo o Mestre do Dia de Jeonghan: O Boi de Água Yin (Gye-Chuk)
 

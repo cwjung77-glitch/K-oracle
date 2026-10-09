@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Saju reading of NewJeans' Haerin. Discover how her Im Water Day Master and Tiger energy shape her enigmatic charm, artistic talent, and extraordinary career path.
 
 ## The Core Element: Im Water (The Deep Ocean)
 

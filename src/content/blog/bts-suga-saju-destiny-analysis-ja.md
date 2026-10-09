@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "SUGA", "Agust D", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+BTSのSUGA（ミン・ユンギ）の伝統的な四柱推命（サジュ）を徹底解説。己丑（きちゅう）の日柱が、彼の計り知れない音楽の天才性、揺るぎないレジリエンス、そしてBTSの揺るぎない支柱としての役割をどのように形作っているのかを探ります。
 
 ## BTS SUGA（ミン・ユンギ）の宇宙的ブループリント
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Odkryj wykres Saju najmłodszej gwiazdy IVE, Leeseo. Dowiedz się, jak jej Dzień Panujący Metalu Gyeong i tętniąca życiem energia Drzewa kształtują jej nieustraszoną obecność sceniczną oraz naturalną charyzmę.
 
 ## Zrozumienie struktury wykresu Saju Leeseo
 

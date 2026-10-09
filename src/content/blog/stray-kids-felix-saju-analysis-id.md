@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Temukan analisis bagan kelahiran Saju Korea kuno milik Felix Stray Kids. Ungkap rahasia elemental di balik suara ikonisnya, karisma magnetis, dan takdir globalnya.
 
 ## Cetak Biru Kosmik Felix (Lee Yong-bok)
 

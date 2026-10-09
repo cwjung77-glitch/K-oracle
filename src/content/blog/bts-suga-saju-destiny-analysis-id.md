@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "SUGA", "Agust D", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi pembacaan Saju kuno untuk SUGA (Min Yoon-gi) dari BTS. Temukan bagaimana Pilar Hari Gi-Chuk membentuk jenius musiknya yang mendalam, ketahanan yang tak tergoyahkan, dan perannya sebagai pilar stois BTS.
 
 ## Cetak Biru Kosmik SUGA BTS (Min Yoon-gi)
 

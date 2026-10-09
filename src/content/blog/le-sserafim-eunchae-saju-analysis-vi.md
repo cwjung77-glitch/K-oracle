@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Eunchae", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá bản thiết kế vũ trụ của thành viên nhỏ tuổi nhất nhóm Le Sserafim - Hong Eunchae. Hé lộ sự cân bằng ngũ hành, sức hút và vận mệnh của cô thông qua trí tuệ cổ xưa của Tứ Trụ Hàn Quốc.
 
 ## Giới Thiệu Về Bản Thiết Kế Năng Lượng Của Hong Eunchae
 

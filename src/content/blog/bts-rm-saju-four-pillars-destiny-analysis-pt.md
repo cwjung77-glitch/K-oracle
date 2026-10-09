@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS RM", "Saju Analysis", "K-pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore o mapa Saju do líder do BTS, RM (Kim Nam-joon). Descubra como os antigos Quatro Pilares do Destino explicam seu gênio linguístico, sua arte profunda e sua liderança global.
 
 ## O Elemento Central: Mestre do Dia de Madeira Yin (Eul Chuk)
 

@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Beomgyu", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore o mapa cósmico de Beomgyu do TXT através do antigo sistema coreano Saju. Descubra como seu Mestre do Dia Dragão de Água e sua forte energia de Madeira alimentam seu carisma inegável e maestria artística.
 
 ## O Mapa Cósmico de Beomgyu do TXT
 

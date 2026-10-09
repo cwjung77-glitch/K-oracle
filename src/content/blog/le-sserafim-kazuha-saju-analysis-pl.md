@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Kazuha", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Odkryj starożytną prognozę losu Saju Kazuhy z Le Sserafim. Dowiedz się, jak jej Mistrz Dnia Ziemi Gi i dominująca energia Metalu wyjaśniają jej baletową grację, natychmiastową sławę i cichą siłę.
 
 ## Elementarny projekt Kazuhy (Nakamura Kazuha)
 

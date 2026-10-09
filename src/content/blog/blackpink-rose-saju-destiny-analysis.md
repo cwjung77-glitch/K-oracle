@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Rose", "Saju Analysis", "K-Pop Destiny", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Four Pillars of Destiny for Blackpink's Rosé. Discover how her Fire Day Master, elemental balance, and creative stars unlocked her iconic voice and global stardom.
 
 ## The Core Element: Byeong Fire (The Radiant Sun)
 

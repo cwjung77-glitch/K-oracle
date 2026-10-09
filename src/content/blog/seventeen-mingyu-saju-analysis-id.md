@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["SEVENTEEN", "Mingyu", "Saju Analysis", "K-Pop Astrology", "Korean Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi peta takdir Saju Korea kuno milik Mingyu SEVENTEEN. Temukan bagaimana elemen Day Master, bintang Peach Blossom, dan keselarasan kosmiknya yang unik membentuk karisma legendaris serta bakat serbabisanya.
 
 ## Empat Pilar: Cetak Biru Kosmik Mingyu
 

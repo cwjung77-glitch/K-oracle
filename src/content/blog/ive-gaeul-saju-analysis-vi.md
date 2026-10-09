@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Gaeul", "Saju Analysis", "K-pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá bài đọc Saju của Gaeul nhóm IVE. Hé lộ cách Nhật chủ Đinh Hỏa (Jeong-Sa) và năng lượng Kim Mùa Thu định hình phong thái lãnh đạo điềm tĩnh, tài năng nghệ thuật và vận mệnh của cô ấy.
 
 ## Giới Thiệu: Giải Mã Bản Đồ Vũ Trụ Của Gaeul (IVE)
 

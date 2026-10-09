@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+IVEのパワフルなボーカリスト、リズの四柱推命（사주）の命式を解き明かします。水の日主と木の要素が、彼女の魅惑的な歌唱力とキャリアの軌跡をどのように形作っているのかを探ります。
 
 ## IVEの黄金のボーカリストの五行ブループリント
 

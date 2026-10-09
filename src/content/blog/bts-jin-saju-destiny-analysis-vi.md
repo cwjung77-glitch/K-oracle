@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "Jin", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá bài đọc Saju cổ xưa dành cho Jin (Kim Seok-jin) của nhóm BTS. Tìm hiểu cách Trụ ngày Nhâm Thân (Im-Shin) định hình vẻ đẹp cuốn hút, sự kiên cường trong tâm hồn và thành công vĩnh cửu của anh ấy.
 
 ## Bản thiết kế vũ trụ của BTS Jin (Kim Seok-jin)
 

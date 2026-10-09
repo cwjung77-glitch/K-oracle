@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Saju chart of IVE's youngest star, Leeseo. Discover how her Gyeong Metal Day Master and vibrant Wood energy craft her fearless stage presence and natural charisma.
 
 ## Understanding Leeseo's Saju Chart Structure
 

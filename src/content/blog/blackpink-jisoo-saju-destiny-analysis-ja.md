@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Blackpink", "Jisoo", "Saju Analysis", "KPop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+BLACKPINKジスの四柱推命（サジュ）を徹底解説。彼女の生まれ持った五行が、どのようにその圧倒的な魅力、揺るぎないリーダーシップ、そして音楽と演技における輝かしいキャリアを形作っているのかを解き明かします。
 
 ## 東洋占星術におけるBLACKPINKジスとは？
 

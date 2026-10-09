@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore a leitura de Saju ancestral de Haerin do NewJeans. Descubra como seu Mestre do Dia Água Im e sua energia de Tigre moldam seu charme enigmático, talento artístico e trajetória de carreira extraordinária.
 
 ## O Elemento Principal: Água Im (O Oceano Profundo)
 

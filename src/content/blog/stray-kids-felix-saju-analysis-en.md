@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Felix", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Discover the ancient Korean Saju birth chart analysis of Stray Kids' Felix. Unveil the elemental secrets behind his iconic voice, magnetic charisma, and global destiny.
 
 ## The Cosmic Blueprint of Felix (Lee Yong-bok)
 

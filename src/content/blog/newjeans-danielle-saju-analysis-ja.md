@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Danielle", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+NewJeansダニエルの命式（四柱推命）を徹底解剖。古代の出生チャートが明かす、彼女の芸術的天才性、まばゆい魅力、そして世界的なスターダムの秘密に迫ります。
 
 ## NewJeans ダニエルの宇宙の青写真
 

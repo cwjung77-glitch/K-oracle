@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TXT", "Soobin", "Saju Analysis", "Kpop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Esplora i Quattro Pilastri del Destino per il leader dei TXT, Soobin. Scopri il suo Maestro del Giorno Acqua Im, il suo potere di leadership gentile e la sua fortuna artistica attraverso l'antico sistema di K-Oracle.
 
 ## Qual è la struttura del grafico Saju di Soobin dei TXT?
 

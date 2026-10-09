@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["StrayKids", "LeeKnow", "Saju Analysis", "KPop Destiny", "Four Pillars"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Esplora l'antico grafico Saju di Lee Know degli Stray Kids. Scopri il suo Maestro del Giorno Serpente di Legno, l'equilibrio elementale, la forte presenza scenica e i tratti unici della sua personalità.
 
 ## Il Pilastro Centrale: Il Maestro del Giorno di Lee Know (Eul Sa - Serpente di Legno)
 

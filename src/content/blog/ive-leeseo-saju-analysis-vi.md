@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE Leeseo", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny", "Korean Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá biểu đồ Saju của ngôi sao nhỏ tuổi nhất nhóm IVE - Leeseo. Tìm hiểu cách Nhật chủ Canh Kim và năng lượng Mộc rực rỡ tạo nên thần thái sân khấu không sợ hãi cùng sức hút tự nhiên của cô ấy.
 
 ## Hiểu Về Cấu Trúc Biểu Đồ Saju Của Leeseo
 

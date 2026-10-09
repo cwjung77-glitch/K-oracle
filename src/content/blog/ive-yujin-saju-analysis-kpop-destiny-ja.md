@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "An Yujin", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+IVEのリーダー、アン・ユジンの四柱推命を読み解きます。彼女の陽の火（丙火）の要素と出生の宇宙チャートが、いかにして並外れたカリスマ性、天性のリーダーシップ、そして長期的なキャリアの運勢をもたらしているのかを発見してください。
 
 ## 輝く太陽：アン・ユジンの中心となる日主（丙火）
 

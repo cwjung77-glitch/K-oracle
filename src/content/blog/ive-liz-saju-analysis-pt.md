@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["IVE", "Liz", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore o mapa Saju da vocalista principal do IVE, Liz. Descubra como seu Mestre do Dia de Água e seus elementos de Madeira moldam seu talento vocal hipnotizante e sua trajetória de carreira.
 
 ## O Mapa Elemental da Vocalista de Ouro do IVE
 

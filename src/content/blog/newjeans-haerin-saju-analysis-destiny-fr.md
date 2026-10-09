@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["NewJeans", "Haerin", "Saju", "K-Pop", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explorez la lecture Saju ancienne de Haerin de NewJeans. Découvrez comment son Maître du Jour Eau Im et son énergie de Tigre façonnent son charme énigmatique, son talent artistique et sa trajectoire de carrière extraordinaire.
 
 ## L'Élément Principal : Eau Im (L'Océan Profond)
 

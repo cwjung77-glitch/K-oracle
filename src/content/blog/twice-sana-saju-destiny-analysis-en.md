@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["TWICE", "Sana", "Saju", "K-Pop Astrology", "Peach Blossom Luck", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the ancient Korean Saju destiny reading of TWICE's Sana. Discover how her elemental blueprint and extraordinary Peach Blossom luck created her viral charisma and global superstardom.
 
 ## The Elemental Blueprint of TWICE Sana
 

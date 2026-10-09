@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Chaewon", "Saju Analysis", "K-pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Jelajahi Empat Pilar Takdir kuno di balik Kim Chaewon, pemimpin Le Sserafim yang memikat. Temukan bagaimana penguasa hari (Day Master) Logam Yang memicu kekuatan tak tergoyahkan dan seni panggungnya.
 
 ## Penguasa Hari (Day Master): Bilah Logam Yang yang Halus (Gyeong-In)
 

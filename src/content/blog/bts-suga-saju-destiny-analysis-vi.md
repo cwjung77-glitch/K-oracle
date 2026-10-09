@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["BTS", "SUGA", "Agust D", "Saju", "K-Pop", "Korean Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Khám phá bài đọc Saju cổ đại dành cho SUGA (Min Yoon-gi) của nhóm BTS. Khám phá cách Trụ Ngày Kỷ Sửu (Gi-Chuk) định hình thiên tài âm nhạc sâu sắc, sự kiên cường không lay chuyển và vai trò là trụ cột vững chắc của BTS.
 
 ## Bản thiết kế vũ trụ của SUGA (Min Yoon-gi) BTS
 

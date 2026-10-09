@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Explore the Four Pillars of Destiny (Saju) chart of Aespa's Karina. Discover how her elemental blueprint shapes her ethereal visuals, natural leadership, and global stardom.
 
 ## The Cosmic Blueprint of Karina: An Overview
 

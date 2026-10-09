@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Le Sserafim", "Eunchae", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Descubra o mapa cósmico da integrante mais jovem do Le Sserafim, Hong Eunchae. Desvende seu equilíbrio elemental, carisma e destino através da sabedoria ancestral dos Quatro Pilares coreanos.
 
 ## Introdução ao Mapa Energético de Hong Eunchae
 

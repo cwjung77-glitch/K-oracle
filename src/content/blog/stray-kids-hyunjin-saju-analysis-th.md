@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Stray Kids", "Hyunjin", "Saju Analysis", "K-Pop Saju", "Four Pillars of Destiny"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+ค้นพบพิมพ์เขียวแห่งจักรวาลของ ฮยอนจิน Stray Kids ผ่านศาสตร์ซาจูของเกาหลี เจาะลึกว่าเสาหลักทั้งสี่กำหนดเสน่ห์อันน่าหลงใหลบนเวที ความอัจฉริยะทางศิลปะ และโชคชะตาในอนาคตของเขาอย่างไร
 
 ## พิมพ์เขียวแห่งจักรวาลของ ฮยอนจิน Stray Kids
 

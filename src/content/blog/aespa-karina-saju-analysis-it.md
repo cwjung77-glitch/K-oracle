@@ -7,7 +7,9 @@ author: "K-Oracle"
 tags: ["Aespa", "Karina", "Saju Analysis", "Four Pillars of Destiny", "K-Pop Astrology"]
 ---
 
-## TL;DR
+## TL;DR (Quick Answer)
+
+Esplora il grafico dei Quattro Pilastri del Destino (Saju) di Karina delle Aespa. Scopri come il suo progetto elementale modella i suoi visual eterei, la sua leadership naturale e la sua celebrità globale.
 
 ## Il progetto cosmico di Karina: una panoramica
 
