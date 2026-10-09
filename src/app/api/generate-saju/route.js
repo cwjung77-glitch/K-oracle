@@ -163,8 +163,44 @@ Language: ${targetLanguage}.`;
 
     const textOutput = data.candidates[0].content.parts[0].text;
     const parts = textOutput.split('|||');
-    const reportText = parts[0] ? parts[0].trim() : "Unable to generate report.";
+    let reportText = parts[0] ? parts[0].trim() : "Unable to generate report.";
     const karmaText = parts[1] ? parts[1].trim() : "";
+    
+    // Parse structured data from reportText
+    let parsedArchetype = "The Hidden Star";
+    let parsedPoeticHook = "Your destiny is still unfolding. Trust the timing of the universe.";
+    let parsedElements = { Wood: 20, Fire: 20, Earth: 20, Metal: 20, Water: 20 };
+
+    const archetypeMatch = reportText.match(/\[ARCHETYPE:\s*([^\]]+)\]/i);
+    if (archetypeMatch) {
+       parsedArchetype = archetypeMatch[1].trim();
+       reportText = reportText.replace(archetypeMatch[0], '');
+    }
+
+    const hookMatch = reportText.match(/\[POETIC_HOOK:\s*([^\]]+)\]/i);
+    if (hookMatch) {
+       parsedPoeticHook = hookMatch[1].trim();
+       reportText = reportText.replace(hookMatch[0], '');
+    }
+
+    const elementsMatch = reportText.match(/\[ELEMENTS:\s*(.+?)\]/i);
+    if (elementsMatch) {
+       const elStr = elementsMatch[1];
+       const getEl = (name) => {
+          const m = elStr.match(new RegExp(`${name}\\s*(\\d+)%`, 'i'));
+          return m ? parseInt(m[1]) : 0;
+       };
+       parsedElements = {
+         Wood: getEl('Wood'),
+         Fire: getEl('Fire'),
+         Earth: getEl('Earth'),
+         Metal: getEl('Metal'),
+         Water: getEl('Water')
+       };
+       reportText = reportText.replace(elementsMatch[0], '');
+    }
+
+    reportText = reportText.trim();
     
     // Default mock PDF logic
     const pdfUrl = "https://k-oracle-saju.s3.amazonaws.com/mock-report.pdf";
@@ -172,7 +208,10 @@ Language: ${targetLanguage}.`;
     const finalData = {
       reportText,
       karmaText,
-      pdfUrl
+      pdfUrl,
+      archetype: parsedArchetype,
+      poeticHook: parsedPoeticHook,
+      elementalBalance: parsedElements
     };
 
     // CACHE SET: Save the result to Redis (ttl 30 days for big reports)

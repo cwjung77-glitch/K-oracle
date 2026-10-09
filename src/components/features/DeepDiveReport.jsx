@@ -151,6 +151,41 @@ export default function DeepDiveReport({ lang = "en" }) {
         
         
           
+            
+            {/* Element Progress Bars & Poetic Quote (Saju Atelier Benchmark) */}
+            {!isGenerating && !isCompatibility && reportData?.elementalBalance && (
+              <section className="mb-16 flex flex-col items-center text-center">
+                <h2 className="text-3xl md:text-4xl font-serif-en italic text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-600 mb-4 font-bold" style={{ filter: 'drop-shadow(0px 2px 4px rgba(0,0,0,0.5))' }}>
+                   "{reportData.archetype}"
+                </h2>
+                <p className="text-zinc-300 text-lg md:text-xl font-light italic mb-10 max-w-2xl leading-relaxed">
+                   {reportData.poeticHook}
+                </p>
+
+                <div className="w-full max-w-md bg-zinc-900/80 p-8 rounded-[2rem] border border-white/5 shadow-2xl space-y-5">
+                  <h3 className="text-xs font-bold text-zinc-500 uppercase tracking-[0.2em] text-left mb-6 border-b border-white/5 pb-4">Elemental Blueprint</h3>
+                  {[
+                    { name: 'Wood', value: reportData.elementalBalance.Wood, color: 'bg-green-500', shadow: 'shadow-[0_0_10px_rgba(34,197,94,0.5)]' },
+                    { name: 'Fire', value: reportData.elementalBalance.Fire, color: 'bg-red-500', shadow: 'shadow-[0_0_10px_rgba(239,68,68,0.5)]' },
+                    { name: 'Earth', value: reportData.elementalBalance.Earth, color: 'bg-yellow-600', shadow: 'shadow-[0_0_10px_rgba(202,138,4,0.5)]' },
+                    { name: 'Metal', value: reportData.elementalBalance.Metal, color: 'bg-zinc-300', shadow: 'shadow-[0_0_10px_rgba(212,212,216,0.5)]' },
+                    { name: 'Water', value: reportData.elementalBalance.Water, color: 'bg-blue-500', shadow: 'shadow-[0_0_10px_rgba(59,130,246,0.5)]' },
+                  ].map(el => (
+                    <div key={el.name} className="flex items-center gap-4 group">
+                      <div className="w-16 text-left text-xs font-bold text-zinc-400 uppercase tracking-wider group-hover:text-white transition-colors">{el.name}</div>
+                      <div className="flex-1 h-1.5 bg-black rounded-full overflow-hidden relative">
+                         <div 
+                            className={`absolute top-0 left-0 h-full ${el.color} ${el.shadow} transition-all duration-1000 ease-out rounded-full`}
+                            style={{ width: `${el.value}%` }}
+                         />
+                      </div>
+                      <div className="w-12 text-right text-xs font-mono text-zinc-500 group-hover:text-zinc-300 transition-colors">{el.value}%</div>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* Exclusive Personal Amulet */}
             {!isGenerating && !isCompatibility && (
               <section className="mb-12 flex flex-col items-center">
