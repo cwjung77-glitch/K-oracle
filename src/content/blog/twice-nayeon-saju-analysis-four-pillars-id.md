@@ -1,7 +1,7 @@
 ---
 title: "Takdir Saju Nayeon TWICE: Membongkar Empat Pilar Ikon K-Pop"
 slug: "twice-nayeon-saju-analysis-four-pillars-id"
-date: "2026-09-08"
+date: "2026-10-12"
 excerpt: "Temukan rahasia kosmik di balik karisma magnetis Nayeon TWICE melalui analisis Saju kuno Korea. Jelajahi Master Hari, kekuatan elemen tersembunyi, dan takdir bintangnya."
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

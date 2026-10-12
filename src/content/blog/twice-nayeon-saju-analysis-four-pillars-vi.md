@@ -1,7 +1,7 @@
 ---
 title: "Định mệnh Saju của Nayeon (TWICE): Giải mã Tứ Trụ của biểu tượng K-Pop"
 slug: "twice-nayeon-saju-analysis-four-pillars-vi"
-date: "2026-09-08"
+date: "2026-10-12"
 excerpt: "Khám phá bí mật vũ trụ đằng sau sức hút ma mị của Nayeon (TWICE) thông qua phân tích Saju cổ truyền của Hàn Quốc. Khám phá Nhật Chủ, năng lượng nguyên tố ẩn giấu và vận mệnh ngôi sao của cô ấy."
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

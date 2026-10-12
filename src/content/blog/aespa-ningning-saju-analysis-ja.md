@@ -1,7 +1,7 @@
 ---
 title: "aespaニンニンの四柱推命（사주）分析：運命、圧倒的ボーカル力、そして宇宙のエネルギーを読み解く"
 slug: "aespa-ningning-saju-analysis-ja"
-date: "2026-08-26"
+date: "2026-10-12"
 excerpt: "aespaニンニンの宇宙的ブループリントを解き明かす。彼女の日主、旺盛な五行、そして秘められたエネルギーの調和が、いかにして比類なき歌唱力とグローバルなスターダムを支えているのかに迫ります。"
 author: "K-Oracle"
 tags: ["Ningning", "Aespa", "Saju Analysis", "K-Pop Metaphysics", "Four Pillars of Destiny"]

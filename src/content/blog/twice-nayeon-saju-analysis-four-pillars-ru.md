@@ -1,7 +1,7 @@
 ---
 title: "Судьба Саджу Наён из TWICE: расшифровка Четырех столпов иконы K-Pop"
 slug: "twice-nayeon-saju-analysis-four-pillars-ru"
-date: "2026-09-08"
+date: "2026-10-12"
 excerpt: "Узнайте космический секрет магнетической харизмы Наён из TWICE с помощью древнего корейского анализа Саджу. Исследуйте ее Дневного Мастера, скрытую силу элементов и звездную судьбу."
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

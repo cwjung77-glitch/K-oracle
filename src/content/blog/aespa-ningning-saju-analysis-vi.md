@@ -1,7 +1,7 @@
 ---
 title: "Phân tích Saju của Ningning (Aespa): Giải mã định mệnh, sức mạnh giọng hát và năng lượng vũ trụ"
 slug: "aespa-ningning-saju-analysis-vi"
-date: "2026-08-26"
+date: "2026-10-12"
 excerpt: "Khám phá bản thiết kế vũ trụ của Ningning (Aespa). Tìm hiểu cách Thân chủ (Day Master), các hành nguyên tố chủ đạo và sự liên kết năng lượng ẩn giấu trong Saju đã nuôi dưỡng tài năng thanh nhạc vô địch và ngôi sao toàn cầu của cô ấy."
 author: "K-Oracle"
 tags: ["Ningning", "Aespa", "Saju Analysis", "K-Pop Metaphysics", "Four Pillars of Destiny"]

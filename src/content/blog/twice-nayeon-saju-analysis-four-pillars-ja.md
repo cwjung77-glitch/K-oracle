@@ -1,7 +1,7 @@
 ---
 title: "TWICE ナヨンのサジュ（四柱推命）運命：K-POPアイコンの4つの柱を読み解く"
 slug: "twice-nayeon-saju-analysis-four-pillars-ja"
-date: "2026-09-08"
+date: "2026-10-12"
 excerpt: "古代の韓国サジュ分析を通じて、TWICEナヨンの圧倒的なカリスマ性の裏にある宇宙の秘密を発見。日干、隠された五行のパワー、そして輝かしい宿命を紐解きます。"
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

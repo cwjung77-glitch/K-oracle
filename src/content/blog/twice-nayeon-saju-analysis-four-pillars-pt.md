@@ -1,7 +1,7 @@
 ---
 title: "O Destino Saju de Nayeon do TWICE: Decodificando os Quatro Pilares do Ícone do K-Pop"
 slug: "twice-nayeon-saju-analysis-four-pillars-pt"
-date: "2026-09-08"
+date: "2026-10-12"
 excerpt: "Descubra o segredo cósmico por trás do carisma magnético de Nayeon do TWICE através da antiga análise Saju coreana. Explore seu Mestre do Dia, poderes elementais ocultos e destino estelar."
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

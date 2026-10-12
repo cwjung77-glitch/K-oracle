@@ -1,7 +1,7 @@
 ---
 title: "Analisis Saju Ningning Aespa: Membedah Takdir, Kekuatan Vokal, dan Energi Kosmiknya"
 slug: "aespa-ningning-saju-analysis-id"
-date: "2026-08-26"
+date: "2026-10-12"
 excerpt: "Temukan cetak biru kosmik Ningning Aespa. Jelajahi bagaimana Day Master Saju, elemen dominan, dan keselarasan energi tersembunyinya mendukung bakat vokal luar biasa dan status bintang globalnya."
 author: "K-Oracle"
 tags: ["Ningning", "Aespa", "Saju Analysis", "K-Pop Metaphysics", "Four Pillars of Destiny"]

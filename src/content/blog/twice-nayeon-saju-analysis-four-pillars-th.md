@@ -1,7 +1,7 @@
 ---
 title: "ถอดรหัสชะตากรรมซาจู (Saju) ของนายอน TWICE: เจาะลึกดวงชะตา 4 เสาหลักของไอคอนแห่งวงการ K-Pop"
 slug: "twice-nayeon-saju-analysis-four-pillars-th"
-date: "2026-09-08"
+date: "2026-10-12"
 excerpt: "ค้นพบความลับแห่งจักรวาลเบื้องหลังเสน่ห์อันน่าดึงดูดใจของ นายอน TWICE ผ่านการวิเคราะห์ตามหลักซาจู (Saju) โบราณของเกาหลี สำรวจธาตุประจำตัว (Day Master) พลังธาตุที่ซ่อนอยู่ และโชคชะตาแห่งดวงดาวของเธอ"
 author: "K-Oracle"
 tags: ["TWICE", "Nayeon", "Saju Analysis", "K-Pop Astrology", "Four Pillars of Destiny"]

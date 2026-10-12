@@ -1,7 +1,7 @@
 ---
 title: "Analyse Saju de Ningning d'Aespa : Décoder son destin, sa puissance vocale et son énergie cosmique"
 slug: "aespa-ningning-saju-analysis-fr"
-date: "2026-08-26"
+date: "2026-10-12"
 excerpt: "Découvrez le profil cosmique de Ningning d'Aespa. Explorez comment son Maître du Jour Saju, ses éléments dominants et ses alignements énergétiques cachés alimentent son talent vocal inégalé et sa célébrité mondiale."
 author: "K-Oracle"
 tags: ["Ningning", "Aespa", "Saju Analysis", "K-Pop Metaphysics", "Four Pillars of Destiny"]
