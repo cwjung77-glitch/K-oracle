@@ -1,4 +1,4 @@
-﻿const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 
 async function main() {
@@ -116,8 +116,10 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
         let text = data.candidates[0].content.parts[0].text;
         text = text.replace(/^\s*```markdown\n/, '').replace(/\n```\s*$/, '');
 
-        let slugMatch = text.match(/slug:\s*"([^"]+)"/);
-        let slug = slugMatch ? slugMatch[1] : 'blog-post-' + Date.now();
+        let topicClean = promptTopic.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        let slug = topicClean;
+        // Ensure the slug in markdown matches topicClean
+        text = text.replace(/slug:\s*"?[^"\r\n]+"?/i, `slug: "${slug}"`);
         
         const outPath = path.join(__dirname, `../src/content/blog/${slug}.md`);
         fs.writeFileSync(outPath, text);

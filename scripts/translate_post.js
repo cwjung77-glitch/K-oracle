@@ -56,7 +56,10 @@ async function main() {
     if (!fileName.includes('-en.md')) {
       const enContent = originalContent.replace(/^slug:\s*"?([^"\n]+)"?/m, `slug: "${enSlug}"`);
       fs.writeFileSync(path.join(dir, `${enSlug}.md`), enContent);
-      console.log(`✅ Saved base file as ${enSlug}.md`);
+      if (fs.existsSync(filePath) && filePath !== path.join(dir, `${enSlug}.md`)) {
+        try { fs.unlinkSync(filePath); } catch (e) {}
+      }
+      console.log(`✅ Saved base file as ${enSlug}.md and removed unsuffixed original`);
     }
 
     for (const lang of languages) {

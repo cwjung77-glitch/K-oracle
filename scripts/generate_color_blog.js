@@ -100,15 +100,19 @@ Body of the markdown goes here. Use ## for headings, bullet points, and bold tex
 
         const text = data.candidates[0].content.parts[0].text;
         
-        // Extract slug
-        const slugMatch = text.match(/^slug:\\s*"?([^"\\n]+)"?/m);
-        let baseSlug = slugMatch ? slugMatch[1].replace(/-(en|es|th|id|ja|de|it|pt|pl|ru|vi|fr)$/, '') : 'beauty-post-' + Date.now();
+        // Extract slug cleanly with fallback to topic slug
+        const topicClean = promptTopic.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        const slugMatch = text.match(/slug:\s*"?([^"\r\n]+)"?/i);
+        let baseSlug = slugMatch ? slugMatch[1].replace(/-(en|es|th|id|ja|de|it|pt|pl|ru|vi|fr)$/i, '').trim() : '';
+        if (!baseSlug || baseSlug.startsWith('beauty-post')) {
+          baseSlug = topicClean;
+        }
         
         // Append language suffix
         const finalSlug = `${baseSlug}-${lang.code}`;
         
         // Replace the slug inside the markdown text so the file matches
-        const finalMarkdown = text.replace(/^slug:\\s*"?([^"\\n]+)"?/m, `slug: "${finalSlug}"`);
+        const finalMarkdown = text.replace(/slug:\s*"?[^"\r\n]+"?/i, `slug: "${finalSlug}"`);
         
         const outPath = path.join(__dirname, `../src/content/blog/${finalSlug}.md`);
         fs.writeFileSync(outPath, finalMarkdown);
