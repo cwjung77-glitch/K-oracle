@@ -1,8 +1,10 @@
 import fs from 'fs';
 import path from 'path';
+import { idolsDB } from '@/data/idols';
+import { parseIdolName } from '@/utils/slugify';
 
 export default function sitemap() {
-  const baseUrl = 'https://thekoracle.com'; // Change to actual production URL later
+  const baseUrl = 'https://thekoracle.com';
   
   const contentDir = path.join(process.cwd(), 'src/content/blog');
   let blogUrls = [];
@@ -21,6 +23,16 @@ export default function sitemap() {
     // ignore
   }
 
+  const idolUrls = idolsDB.map((idol) => {
+    const { slug } = parseIdolName(idol.name);
+    return {
+      url: `${baseUrl}/idols/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    };
+  });
+
   return [
     {
       url: baseUrl,
@@ -34,6 +46,13 @@ export default function sitemap() {
       changeFrequency: 'daily',
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/idols`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    ...idolUrls,
     ...blogUrls,
   ];
 }

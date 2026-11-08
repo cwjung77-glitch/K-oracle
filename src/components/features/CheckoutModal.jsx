@@ -143,8 +143,8 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
                 type="email" 
                 name="email"
                 required
-                placeholder="cwjung77@gmail.com"
-                defaultValue="cwjung77@gmail.com"
+                placeholder="Enter your email for instant access..."
+                defaultValue=""
                 className="w-full px-4 py-3 bg-zinc-800 border border-zinc-700 text-white rounded-xl focus:ring-2 focus:ring-white focus:border-transparent transition-all outline-none"
               />
             </div>

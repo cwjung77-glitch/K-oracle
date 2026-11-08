@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import { t } from '../locales/i18n';
 import LanguageSwitcher from '../components/ui/LanguageSwitcher';
 import React, { useState, useEffect } from 'react';
@@ -47,7 +47,20 @@ export default function OracleLanding() {
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get('tab');
+      const partnerNameParam = params.get('partnerName');
       const purchased = localStorage.getItem('purchasedProduct');
+      if (tabParam && ['saju', 'beauty', 'daily'].includes(tabParam)) {
+        setActiveTab(tabParam);
+        localStorage.setItem('purchasedProduct', tabParam);
+      } else if (partnerNameParam) {
+        setActiveTab('saju');
+        localStorage.setItem('purchasedProduct', 'saju');
+      } else if (purchased) {
+        setActiveTab(purchased);
+      }
+      if (false) {
       if (purchased) {
         setActiveTab(purchased);
       }
@@ -219,7 +232,7 @@ export default function OracleLanding() {
                 />
             )}
             {activeTab === 'saju' && <SajuCompatibility key={`saju-${resetKey}`} onUnlockPremium={() => { setSelectedPlan('compatibility'); setShowCheckout(true); }} />}
-            {activeTab === 'beauty' && <PersonalColor key={`beauty-${resetKey}`} />}
+            {activeTab === 'beauty' && <PersonalColor key={`beauty-${resetKey}`} onUnlockPremium={() => setShowCheckout(true)} />}
 
         </div>
       </section>

@@ -87,7 +87,7 @@ export default async function BlogPost({ params }) {
   };
 
   // Simple regex to extract Q&A from "### Q1: ... \n Answer..." format
-  const faqMatches = [...content.matchAll(/### (Q\d*:?[^\n]+)\n([^#]+)/g)];
+  const faqMatches = [...content.matchAll(/###\s+((?:Q\d*:?\s*)?[^\n]+[?？])\s*\r?\n+([^#]+)/g)];
   faqMatches.forEach(match => {
     faqSchema.mainEntity.push({
       '@type': 'Question',
@@ -180,7 +180,12 @@ export default async function BlogPost({ params }) {
             return (
               <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-pink-500/30 rounded-3xl text-center">
                 <h3 className="text-2xl font-black mb-4">Find Your K-Pop Celebrity Twin</h3>
-                <p className="text-zinc-400 mb-6">Upload a selfie and get your premium 12-season Korean Personal Color Analysis.</p>
+                <p className="text-zinc-400 mb-6">Upload a selfie and get your premium 12-season Korean Personal Color Analysis, or shop official K-Beauty shades with extra discount code <strong className="text-pink-400">KVIBE777</strong>.</p>
+                <div className="mb-4">
+                  <a href="https://www.yesstyle.com/en/korean-beauty-makeup/list.html/bcc.15478_bpt.46?rco=KVIBE777" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-white text-black font-black rounded-xl hover:bg-pink-100 transition-colors shadow-lg">
+                    Shop K-Beauty on YesStyle (Code: KVIBE777) &rarr;
+                  </a>
+                </div>
                 <Link href="/?tab=beauty" className="inline-block px-8 py-4 bg-pink-500 text-white font-black rounded-xl hover:bg-pink-400 transition-colors shadow-[0_0_20px_rgba(236,72,153,0.3)]">
                   Start Analysis ($9.99)
                 </Link>

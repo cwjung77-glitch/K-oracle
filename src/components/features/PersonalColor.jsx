@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Camera, Sparkles, CheckCircle2, ScanFace, Upload, Share2, Palette, AlertTriangle } from 'lucide-react';
 import html2canvas from 'html2canvas';
 
-export default function PersonalColor() {
+export default function PersonalColor({ onUnlockPremium }) {
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
@@ -462,7 +462,7 @@ export default function PersonalColor() {
                     <p className="text-sm text-zinc-300 text-center font-medium max-w-[250px] mb-4">
                       Unlock your 6 hidden deep aura colors and matching K-Beauty product list in the full report.
                     </p>
-                    <button onClick={() => window.location.href="#pricing"} className="px-6 py-2 bg-white text-black font-bold text-sm rounded-full shadow-[0_0_15px_rgba(255,255,255,0.3)] hover:scale-105 transition-transform">
+                    <button onClick={() => { if (onUnlockPremium) onUnlockPremium(); else document.getElementById('premium-report')?.scrollIntoView({ behavior: 'smooth' }); }} className="px-6 py-2 bg-white text-black font-bold text-sm rounded-full shadow-[0_0_15px_rgba(255,255,255,0.3)] hover:scale-105 transition-transform">
                       Unlock Full Palette ($9.99)
                     </button>
                   </div>

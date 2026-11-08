@@ -33,6 +33,22 @@ export default function SajuCompatibility({ onUnlockPremium }) {
       setDob(localStorage.getItem('userDob') || '');
       setTime(localStorage.getItem('userTime') || '12:00');
       setGender(localStorage.getItem('userGender') || 'female');
+      const params = new URLSearchParams(window.location.search);
+      const partnerName = params.get('partnerName');
+      const partnerDob = params.get('partnerDob');
+      if (partnerName) {
+        const matched = idolsDB.find(
+          i => i.name.toLowerCase() === partnerName.toLowerCase() || i.name.toLowerCase().includes(partnerName.toLowerCase())
+        );
+        if (matched) {
+          setSelectedIdol(matched);
+          setMatchType('idol');
+        } else if (partnerDob) {
+          setMatchType('custom');
+          setCustomName(partnerName);
+          setCustomDob(partnerDob);
+        }
+      }
     }
   }, []);
 
