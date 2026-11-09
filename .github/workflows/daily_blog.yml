@@ -1,0 +1,47 @@
+name: Daily K-Oracle Blog Automation
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC (09:00 AM KST - Korea Standard Time)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+permissions:
+  contents: write
+
+jobs:
+  publish-daily-blogs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'package.json'
+
+      - name: Install Dependencies
+        run: npm install --prefer-offline --no-audit
+
+      - name: Generate 4 Daily Blog Posts (2 Saju + 2 Beauty across 12 languages)
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/daily_auto_blog.js
+
+      - name: Commit and Push New Blog Posts
+        run: |
+          git config --global user.name "K-Oracle Automation Bot"
+          git config --global user.email "bot@thekoracle.com"
+          git add src/content/blog/
+          if git diff --staged --quiet; then
+            echo "No new posts to commit."
+          else
+            TODAY=$(date -u +'%Y-%m-%d')
+            git commit -m "feat(auto-blog): publish 4 daily posts (2 Saju + 2 Beauty) for ${TODAY} [skip ci]"
+            git push origin main
+          fi
