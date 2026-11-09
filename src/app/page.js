@@ -60,17 +60,13 @@ export default function OracleLanding() {
       } else if (purchased) {
         setActiveTab(purchased);
       }
-      if (false) {
-      if (purchased) {
-        setActiveTab(purchased);
-      }
       if (localStorage.getItem('hasPaid') === 'true') {
         setHasPaid(true);
         setTimeout(() => {
           document.getElementById('premium-report')?.scrollIntoView({ behavior: 'smooth' });
         }, 500);
-      }
     }
+      }
   }, []);
 
 

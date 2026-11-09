@@ -2,7 +2,7 @@
 title: "Giải Mã Personal Color Của IU: Nữ Thần Da Sáng Hợp Với Tông Màu Nào Nhất?"
 slug: "iu-personal-color-vi"
 date: "2026-10-06"
-excerpt: "Khám phá bí mật đằng sau vẻ đẹp không tuổi của "em gái quốc dân" IU. Cùng K-Oracle phân tích chi tiết xem IU thuộc mùa Personal Color nào và học lỏm cách phối đồ đỉnh cao từ cô nàng."
+excerpt: "Khám phá bí mật đằng sau vẻ đẹp không tuổi của 'em gái quốc dân' IU. Cùng K-Oracle phân tích chi tiết xem IU thuộc mùa Personal Color nào và học lỏm cách phối đồ đỉnh cao từ cô nàng."
 author: "K-Oracle"
 tags: ["Personal Color", "K-Beauty", "Makeup", "IU"]
 ---

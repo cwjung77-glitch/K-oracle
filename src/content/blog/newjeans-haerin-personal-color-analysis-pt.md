@@ -1,3 +1,4 @@
+---
 title: "Haerin do NewJeans: Desvendando a Radiância Etérea de um Verão Frio"
 slug: "newjeans-haerin-personal-color-analysis-pt"
 date: "2026-11-07"
