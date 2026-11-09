@@ -266,7 +266,7 @@ export default function OracleLanding() {
                     <p className="text-violet-300 font-bold text-sm mt-2 mb-4 tracking-wide">{t('ult_15_months', lang) || 'THE ULTIMATE 15-MONTH MASTERPLAN'}</p>
                     <div className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-fuchsia-400 drop-shadow-md"><span className="text-3xl text-violet-500/80 mr-1">$</span>11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-200 flex-grow">
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Energy Flow (Q4 '26 + 2027)</li>
+                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Energy Flow (Q4 &apos;26 + 2027)</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Comprehensive VIP PDF Report</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Hidden Karma & Destiny Matrix</li>
