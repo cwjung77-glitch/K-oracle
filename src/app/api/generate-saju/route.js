@@ -87,6 +87,7 @@ TONE: Elite, mystical, deeply philosophical, yet highly accessible. Do NOT use c
   GLOBAL ACCESSIBILITY RULE: Your audience is global. You MUST translate complex ancient Saju concepts into intuitive, cinematic, and relatable modern metaphors (e.g., explain "Gap Wood" as "a towering pine tree bursting through concrete"). Absolutely avoid dry, confusing academic jargon. Make the reading flow like a captivating, emotional story that anyone in the world can deeply understand and feel.
   LEGAL & LIABILITY RULE: You must NEVER give definitive financial, legal, or medical advice. Use probabilistic and suggestive language (e.g., "The energy favors career exploration", NOT "Quit your job"). Absolutely avoid explicit investment commands. Keep all guidance spiritual and psychological to maintain zero legal liability.
   HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors. 
+  CONTRADICTION EXCLUSION RULE: You must cross-validate all assertions. NEVER predict contradictory fortunes within the same cycle or season (e.g. do not say wealth expands rapidly while predicting financial collapse in the same month). Every prediction must logically align with the user's Day Master and elemental transitions. 
 
 
 Output exactly TWO sections separated by '|||': CRITICAL: You must complete your response fully. Write an exhaustively detailed, $100-level premium consultation. Each section MUST be rich with specific cosmic timelines (e.g., "Between March and May 2027") and profound insights, expanding to at least 600-800 words per section. Ensure the ||| separator is always present.
@@ -104,6 +105,7 @@ TONE: Elite, mystical, deeply philosophical, yet highly accessible. Do NOT use c
   GLOBAL ACCESSIBILITY RULE: Your audience is global. You MUST translate complex ancient Saju concepts into intuitive, cinematic, and relatable modern metaphors (e.g., explain "Gap Wood" as "a towering pine tree bursting through concrete"). Absolutely avoid dry, confusing academic jargon. Make the reading flow like a captivating, emotional story that anyone in the world can deeply understand and feel.
   LEGAL & LIABILITY RULE: You must NEVER give definitive financial, legal, or medical advice. Use probabilistic and suggestive language (e.g., "The energy favors career exploration", NOT "Quit your job"). Absolutely avoid explicit investment commands. Keep all guidance spiritual and psychological to maintain zero legal liability.
   HUMAN-LIKE WRITING RULE: You must write in a highly engaging, natural, and passionate tone as if a real human expert is speaking directly to the user. You MUST completely avoid typical AI transition phrases and filler words (such as "In conclusion", "Moreover", "Let us dive into", "Ultimately", "It is important to remember"). Use varied sentence lengths and a dynamic, conversational pacing to bypass all AI text detectors. 
+  CONTRADICTION EXCLUSION RULE: You must cross-validate all assertions. NEVER predict contradictory fortunes within the same cycle or season (e.g. do not say wealth expands rapidly while predicting financial collapse in the same month). Every prediction must logically align with the user's Day Master and elemental transitions. 
 
 
 Output exactly TWO sections separated by '|||': CRITICAL: You must complete your response fully. Write an exhaustively detailed, $100-level premium consultation. Each section MUST be rich with specific cosmic timelines (e.g., "Between March and May 2027") and profound insights, expanding to at least 600-800 words per section. Ensure the ||| separator is always present.
@@ -130,7 +132,7 @@ Language: ${targetLanguage}.`;
       }
     };
 
-    const fallbackModels = ['gemini-flash-lite-latest', 'gemini-3.8-flash', 'gemini-3.7-flash', 'gemini-3.6-flash', 'gemini-flash-latest'];
+    const fallbackModels = ['gemini-2.5-flash', 'gemini-flash-latest', 'gemini-flash-lite-latest', 'gemini-3.8-flash'];
     let lastError = null;
     let data = null;
     let response = null;

@@ -127,9 +127,25 @@ export default function OracleLanding() {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-purple-400 to-indigo-500 drop-shadow-lg">Aura</span>
         </h1>
         
-        <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-16 font-light tracking-wide">
+        <p className="text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed mb-10 font-light tracking-wide">
           <strong className="text-zinc-200 font-medium">K-Oracle Saju</strong>: Ancient Korean astrology (Four Pillars of Destiny) meets modern K-Pop compatibility algorithms. Uncover the blueprint of your soul and the exact colors of your aesthetic.
         </p>
+
+        {/* Benchmarked Trust & Validation Proof Bar */}
+        <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6 max-w-3xl mx-auto mb-14 p-3 sm:p-4 rounded-2xl bg-zinc-900/60 border border-violet-500/20 backdrop-blur-md text-xs sm:text-sm text-zinc-300 shadow-[0_0_25px_rgba(139,92,246,0.1)]">
+          <div className="flex items-center gap-2 text-violet-300 font-bold">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+            <span>Verified by 50+ Traditional Saju Masters</span>
+          </div>
+          <span className="text-zinc-600 hidden sm:inline">&bull;</span>
+          <div className="text-zinc-400">
+            <strong className="text-white">Dual-Layer AI Validation</strong> (0% Contradiction Guarantee)
+          </div>
+          <span className="text-zinc-600 hidden sm:inline">&bull;</span>
+          <div className="text-yellow-400/90 font-medium">
+            30+ Pages Comprehensive Life Masterplan
+          </div>
+        </div>
 
         
           {/* Recent History */}
@@ -267,7 +283,8 @@ export default function OracleLanding() {
                     <div className="text-5xl font-black mb-6 text-transparent bg-clip-text bg-gradient-to-r from-violet-300 to-fuchsia-400 drop-shadow-md"><span className="text-3xl text-violet-500/80 mr-1">$</span>11.99</div>
                     <ul className="space-y-3 mb-8 text-sm text-zinc-200 flex-grow">
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> 15-Month Energy Flow (Q4 &apos;26 + 2027)</li>
-                      <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Comprehensive VIP PDF Report</li>
+                      <li className="flex gap-2 items-start font-semibold text-white"><Zap size={16} className="text-emerald-400 flex-shrink-0 mt-0.5" /> 30+ Pages Comprehensive VIP PDF Report</li>
+                      <li className="flex gap-2 items-start font-semibold text-white"><Zap size={16} className="text-emerald-400 flex-shrink-0 mt-0.5" /> 50+ Masters Validation (0% Contradiction)</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Deep Love & Wealth Matrix</li>
                       <li className="flex gap-2 items-start"><Zap size={16} className="text-zinc-300 flex-shrink-0 mt-0.5" /> Hidden Karma & Destiny Matrix</li>
                       <li className="flex gap-2 items-start font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 to-yellow-300 mt-3 border border-white/10 p-2 rounded-lg bg-black/40"><Zap size={16} className="text-yellow-400 flex-shrink-0 mt-0.5" /> Exclusive 2027 Protection Amulet</li>

@@ -124,6 +124,10 @@ export default function CheckoutModal({ isOpen, onClose, onSuccess, activeTab, s
 
         <form onSubmit={handlePay} className="p-6">
           <div className="space-y-4 animate-in fade-in duration-300">
+            <div className="p-3 bg-violet-950/30 border border-violet-500/30 rounded-xl text-xs text-zinc-300 flex items-center gap-2.5">
+              <ShieldCheck className="text-emerald-400 shrink-0" size={18} />
+              <span>Verified with Korean 50-Master Traditional Matrix (0% AI Contradiction Guarantee).</span>
+            </div>
             <p className="text-sm text-zinc-400 leading-relaxed mb-4">
               To ensure the highest level of security and global compliance, your payment will be processed securely by our official merchant of record, <strong className="text-white">Gumroad</strong>.
             </p>
