@@ -112,8 +112,9 @@ async function main() {
   }
 
   if (!apiKeysStr) {
-    console.error("FATAL: GEMINI_API_KEY not found in environment or .env.local");
-    process.exit(1);
+    console.warn("⚠️ [SKIPPED] GEMINI_API_KEY is not configured yet in GitHub Secrets or .env.local.");
+    console.warn("Please add GEMINI_API_KEY to your GitHub Repository Secrets to enable daily automated generation.");
+    process.exit(0);
   }
 
   const keys = apiKeysStr.split(',').map(k => k.trim()).filter(Boolean);
