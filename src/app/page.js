@@ -362,6 +362,50 @@ export default function OracleLanding() {
 
             )}
 
+      {/* Retention: Monthly Cosmic Circle Newsletter */}
+      <section className="py-20 px-6 relative z-10 max-w-4xl mx-auto text-center border-t border-white/5">
+        <div className="p-8 sm:p-12 rounded-3xl bg-gradient-to-b from-zinc-900/80 to-black border border-violet-500/20 backdrop-blur-xl shadow-[0_0_50px_rgba(139,92,246,0.1)]">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-violet-500/10 text-violet-300 text-xs font-bold border border-violet-500/20 mb-4 tracking-widest uppercase">
+            <Sparkles size={14} /> VIP Cosmic Circle
+          </div>
+          <h2 className="text-3xl sm:text-4xl font-black mb-3 text-white">Never Miss Your Cosmic Shifts</h2>
+          <p className="text-zinc-400 max-w-xl mx-auto mb-8 text-sm sm:text-base leading-relaxed">
+            Get personalized monthly Daewoon energy alerts, new K-Pop idol compatibility drops, and exclusive Cheongdam K-Beauty deals delivered directly to your inbox.
+          </p>
+          <form 
+            onSubmit={(e) => {
+              e.preventDefault();
+              const email = e.target.elements.email.value;
+              if (email) {
+                try {
+                  const subscribers = JSON.parse(localStorage.getItem('kOracleSubscribers') || '[]');
+                  subscribers.push({ email, date: new Date().toISOString() });
+                  localStorage.setItem('kOracleSubscribers', JSON.stringify(subscribers));
+                } catch(err) {}
+                alert(lang === 'ko' ? '코스믹 서클 등록이 완료되었습니다! 다음 달 대운 알림을 보내드립니다.' : 'Welcome to the Cosmic Circle! You will receive your monthly energy briefing.');
+                e.target.reset();
+              }
+            }} 
+            className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto"
+          >
+            <input 
+              type="email" 
+              name="email"
+              required 
+              placeholder="Enter your email address..." 
+              className="flex-grow px-5 py-3.5 rounded-xl bg-zinc-800/80 border border-zinc-700 text-white placeholder-zinc-500 text-sm focus:outline-none focus:ring-2 focus:ring-violet-400"
+            />
+            <button 
+              type="submit" 
+              className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-bold text-sm tracking-wide transition-all shadow-lg shrink-0"
+            >
+              Join Free
+            </button>
+          </form>
+          <p className="text-zinc-600 text-xs mt-4">Zero spam. Only authentic astrological alignments & VIP perks.</p>
+        </div>
+      </section>
+
       {/* Footer Section */}
       <footer className="mt-20 border-t border-white/10 bg-black py-16 px-6 relative z-10">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
