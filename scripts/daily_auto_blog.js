@@ -47,7 +47,7 @@ function parseNameAndGroup(rawName) {
 }
 
 async function callGemini(prompt, keys, keyIdxRef) {
-  for (let attempt = 0; attempt < keys.length * 3; attempt++) {
+  for (let attempt = 0; attempt < keys.length * 4; attempt++) {
     const key = keys[keyIdxRef.current % keys.length];
     keyIdxRef.current++;
 
@@ -79,7 +79,7 @@ async function callGemini(prompt, keys, keyIdxRef) {
   throw new Error("All Gemini API keys exhausted or failed.");
 }
 
-function cleanMarkdown(raw) {
+function sanitizeAndRebuildMarkdown(raw, meta) {
   let cleaned = raw.trim();
   if (cleaned.startsWith('```markdown')) {
     cleaned = cleaned.replace(/^```markdown\r?\n/, '').replace(/\r?\n```$/, '');
@@ -90,64 +90,106 @@ function cleanMarkdown(raw) {
   if (!cleaned.startsWith('---')) {
     cleaned = '---\n' + cleaned;
   }
-  return cleaned;
+
+  // First try direct gray-matter parse
+  try {
+    const parsed = matter(cleaned);
+    if (parsed.data && parsed.data.title && parsed.data.slug && parsed.content.trim().length > 100) {
+      // Rebuild frontmatter cleanly to guarantee 100% valid YAML
+      const safeFm = [
+        '---',
+        `title: ${JSON.stringify(String(parsed.data.title).trim())}`,
+        `slug: ${JSON.stringify(meta.slug)}`,
+        `date: ${JSON.stringify(meta.date)}`,
+        `excerpt: ${JSON.stringify(String(parsed.data.excerpt || meta.defaultExcerpt).trim())}`,
+        `author: "K-Oracle"`,
+        `tags: ${JSON.stringify(meta.tags)}`,
+        '---',
+        '',
+        parsed.content.trim()
+      ].join('\n');
+      return safeFm;
+    }
+  } catch (e) {
+    // Fallback regex extraction when inner quotes break YAML
+  }
+
+  // Regex fallback extraction
+  const fmSplit = cleaned.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
+  let body = cleaned;
+  let extractedTitle = meta.defaultTitle;
+  let extractedExcerpt = meta.defaultExcerpt;
+
+  if (fmSplit) {
+    const fmBlock = fmSplit[1];
+    body = fmSplit[2].trim();
+    const tMatch = fmBlock.match(/^title:\s*(.+)$/m);
+    if (tMatch) {
+      extractedTitle = tMatch[1].trim().replace(/^["']|["']$/g, '').replace(/"/g, "'");
+    }
+    const eMatch = fmBlock.match(/^excerpt:\s*(.+)$/m);
+    if (eMatch) {
+      extractedExcerpt = eMatch[1].trim().replace(/^["']|["']$/g, '').replace(/"/g, "'");
+    }
+  }
+
+  return [
+    '---',
+    `title: ${JSON.stringify(extractedTitle)}`,
+    `slug: ${JSON.stringify(meta.slug)}`,
+    `date: ${JSON.stringify(meta.date)}`,
+    `excerpt: ${JSON.stringify(extractedExcerpt)}`,
+    `author: "K-Oracle"`,
+    `tags: ${JSON.stringify(meta.tags)}`,
+    '---',
+    '',
+    body
+  ].join('\n');
 }
 
-async function main() {
-  const todayStr = process.env.AUTO_DATE || getTodayKST();
+async function runForDate(todayStr, keys, keyIdxRef) {
   console.log(`\n=============================================================`);
   console.log(`🤖 K-ORACLE DAILY BLOG AUTO-PUBLISHER`);
   console.log(`📅 Target Date: ${todayStr} (KST)`);
   console.log(`=============================================================`);
 
-  // Load API keys
-  let apiKeysStr = process.env.GEMINI_API_KEY;
-  if (!apiKeysStr) {
-    try {
-      const envPath = path.join(__dirname, '../.env.local');
-      const envContent = fs.readFileSync(envPath, 'utf8');
-      const m = envContent.match(/GEMINI_API_KEY=(.+)/);
-      if (m) apiKeysStr = m[1].trim();
-    } catch (e) {}
-  }
-
-  if (!apiKeysStr) {
-    console.warn("⚠️ [SKIPPED] GEMINI_API_KEY is not configured yet in GitHub Secrets or .env.local.");
-    console.warn("Please add GEMINI_API_KEY to your GitHub Repository Secrets to enable daily automated generation.");
-    process.exit(0);
-  }
-
-  const keys = apiKeysStr.split(',').map(k => k.trim()).filter(Boolean);
-  const keyIdxRef = { current: 0 };
   const blogDir = path.join(__dirname, '../src/content/blog');
   const existingFiles = fs.readdirSync(blogDir).filter(f => f.endsWith('.md'));
-
-  // Load idols DB
   const { idolsDB } = require('../src/data/idols');
 
-  // Select 2 Saju and 2 Beauty idols that haven't been posted yet
   const sajuCandidates = [];
   const beautyCandidates = [];
+  const usedGroupsToday = new Set();
 
+  // Select 2 Saju and 2 Beauty idols with Group Diversity (4 distinct groups per day)
   for (const idol of idolsDB) {
     const { member, group } = parseNameAndGroup(idol.name);
-    const slugPart = `${slugifyName(group)}-${slugifyName(member)}`;
-    const altSlugPart = slugifyName(member);
+    const groupSlug = slugifyName(group);
+    const memberSlug = slugifyName(member);
+    const slugPart = `${groupSlug}-${memberSlug}`;
 
-    const hasSaju = existingFiles.some(f => f.includes('saju') && (f.includes(slugPart) || f.includes(altSlugPart)));
-    const hasBeauty = existingFiles.some(f => (f.includes('personal-color') || f.includes('beauty')) && (f.includes(slugPart) || f.includes(altSlugPart)));
+    const hasSaju = existingFiles.some(
+      f => f.includes('saju') && (f.startsWith(`${slugPart}-`) || (memberSlug.length > 2 && f.includes(`-${memberSlug}-saju`)))
+    );
+    const hasBeauty = existingFiles.some(
+      f => (f.includes('personal-color') || f.includes('beauty')) && (f.startsWith(`${slugPart}-`) || (memberSlug.length > 2 && f.includes(`-${memberSlug}-personal-color`)))
+    );
 
-    if (!hasSaju && sajuCandidates.length < 2) {
+    if (!hasSaju && sajuCandidates.length < 2 && !usedGroupsToday.has(group)) {
       sajuCandidates.push(idol);
+      usedGroupsToday.add(group);
+      continue;
     }
-    if (!hasBeauty && beautyCandidates.length < 2 && !sajuCandidates.some(s => s.name === idol.name)) {
+    if (!hasBeauty && beautyCandidates.length < 2 && !usedGroupsToday.has(group) && !sajuCandidates.some(s => s.name === idol.name)) {
       beautyCandidates.push(idol);
+      usedGroupsToday.add(group);
+      continue;
     }
 
     if (sajuCandidates.length >= 2 && beautyCandidates.length >= 2) break;
   }
 
-  console.log(`\nSelected Today's 4 Lineup:`);
+  console.log(`\nSelected ${todayStr} 4-Idol Diverse Lineup:`);
   console.log(`  [Saju 1]:   ${sajuCandidates[0].name} (${sajuCandidates[0].dob})`);
   console.log(`  [Saju 2]:   ${sajuCandidates[1].name} (${sajuCandidates[1].dob})`);
   console.log(`  [Beauty 1]: ${beautyCandidates[0].name}`);
@@ -155,7 +197,6 @@ async function main() {
 
   const tasks = [];
 
-  // 1. Saju Posts
   for (const idol of sajuCandidates) {
     const { member, group } = parseNameAndGroup(idol.name);
     const slugBase = `${slugifyName(group)}-${slugifyName(member)}-saju-analysis`;
@@ -170,12 +211,11 @@ async function main() {
     });
   }
 
-  // 2. Beauty Posts
   for (let bIdx = 0; bIdx < beautyCandidates.length; bIdx++) {
     const idol = beautyCandidates[bIdx];
     const { member, group } = parseNameAndGroup(idol.name);
     const slugBase = `${slugifyName(group)}-${slugifyName(member)}-personal-color-analysis`;
-    const seasonObj = seasonPresets[(bIdx + tasks.length) % seasonPresets.length];
+    const seasonObj = seasonPresets[(bIdx + todayStr.charCodeAt(todayStr.length - 1)) % seasonPresets.length];
     tasks.push({
       type: 'beauty',
       idol: `${group} ${member}`,
@@ -189,27 +229,31 @@ async function main() {
   }
 
   let successCount = 0;
+  const CONCURRENCY = 3;
 
   for (let tIdx = 0; tIdx < tasks.length; tIdx++) {
     const task = tasks[tIdx];
-    console.log(`\n[${tIdx + 1}/4] Processing ${task.type.toUpperCase()}: ${task.idol}...`);
+    console.log(`\n[${todayStr}] [${tIdx + 1}/4] Processing ${task.type.toUpperCase()}: ${task.idol}...`);
 
-    for (const lang of languages) {
-      const fileName = `${task.slugBase}-${lang.code}.md`;
-      const filePath = path.join(blogDir, fileName);
+    for (let i = 0; i < languages.length; i += CONCURRENCY) {
+      const langBatch = languages.slice(i, i + CONCURRENCY);
+      await Promise.all(langBatch.map(async (lang) => {
+        const fullSlug = `${task.slugBase}-${lang.code}`;
+        const fileName = `${fullSlug}.md`;
+        const filePath = path.join(blogDir, fileName);
 
-      if (fs.existsSync(filePath)) {
-        console.log(`  - Exists: ${fileName}`);
-        continue;
-      }
+        if (fs.existsSync(filePath)) {
+          console.log(`  - Exists: ${fileName}`);
+          return;
+        }
 
-      let systemPrompt = '';
-      if (task.type === 'beauty') {
-        systemPrompt = `You are an expert K-Beauty consultant and Personal Color analyst for K-Oracle (thekoracle.com).
+        let systemPrompt = '';
+        if (task.type === 'beauty') {
+          systemPrompt = `You are an expert K-Beauty consultant and Personal Color analyst for K-Oracle (thekoracle.com).
 Write an editorial-grade Personal Color analysis blog post about ${task.idol}.
 Official Personal Color: **${task.season} (${task.korSeason})**.
 
-CRITICAL LANGUAGE RULE: Write the entire post (title, excerpt, headings, body, table, and FAQ) perfectly in ${lang.name}. Only keep YAML keys in English.
+CRITICAL LANGUAGE RULE: Write the entire post (title, excerpt, headings, body, table, and FAQ) perfectly in ${lang.name}. Only keep YAML keys in English. Do NOT use double quotes inside your title or excerpt text.
 
 CRITICAL STRUCTURE:
 ## TL;DR (Quick Answer)
@@ -220,17 +264,17 @@ CRITICAL STRUCTURE:
 Frontmatter format:
 ---
 title: "Catchy Editorial Headline in ${lang.name}"
-slug: "${task.slugBase}-${lang.code}"
+slug: "${fullSlug}"
 date: "${todayStr}"
 excerpt: "Compelling 2-3 sentence meta summary in ${lang.name}."
 author: "K-Oracle"
 tags: ${JSON.stringify(task.tags)}
 ---`;
-      } else {
-        systemPrompt = `You are an authoritative Korean Saju master and global cultural analyst for K-Oracle (thekoracle.com).
+        } else {
+          systemPrompt = `You are an authoritative Korean Saju master and global cultural analyst for K-Oracle (thekoracle.com).
 Write a captivating Saju destiny analysis blog post about ${task.idol} (Born: ${task.dob}).
 
-CRITICAL LANGUAGE RULE: Write the entire post perfectly in ${lang.name}. Only keep YAML keys in English.
+CRITICAL LANGUAGE RULE: Write the entire post perfectly in ${lang.name}. Only keep YAML keys in English. Do NOT use double quotes inside your title or excerpt text.
 Astrology Terms: Use Korean romanizations (Saju, Daewoon, Gap, Eul, Byeong, Jeong, Mu, Gi, Gyeong, Sin, Im, Gye / Ja, Chuk, In, Myo, Jin, Sa, Oh, Mi, Sin, Yu, Sul, Hae), NEVER Chinese Pinyin.
 
 CRITICAL STRUCTURE:
@@ -246,34 +290,76 @@ CRITICAL STRUCTURE:
 Frontmatter format:
 ---
 title: "Catchy Mystical Headline in ${lang.name}"
-slug: "${task.slugBase}-${lang.code}"
+slug: "${fullSlug}"
 date: "${todayStr}"
 excerpt: "Compelling 2-3 sentence meta summary in ${lang.name}."
 author: "K-Oracle"
 tags: ${JSON.stringify(task.tags)}
 ---`;
-      }
-
-      try {
-        const raw = await callGemini(systemPrompt, keys, keyIdxRef);
-        const cleaned = cleanMarkdown(raw);
-        // Validate with gray-matter
-        const parsed = matter(cleaned);
-        if (!parsed.data.title || !parsed.data.slug) {
-          throw new Error("Frontmatter validation failed");
         }
-        fs.writeFileSync(filePath, cleaned, 'utf8');
-        console.log(`  ✓ Created: ${fileName}`);
-        successCount++;
-        await sleep(1000);
-      } catch (err) {
-        console.error(`  ✗ Error creating ${fileName}:`, err.message);
-      }
+
+        try {
+          const raw = await callGemini(systemPrompt, keys, keyIdxRef);
+          const cleaned = sanitizeAndRebuildMarkdown(raw, {
+            slug: fullSlug,
+            date: todayStr,
+            tags: task.tags,
+            defaultTitle: task.type === 'beauty'
+              ? `${task.idol} Personal Color Analysis: ${task.season} Styling Blueprint`
+              : `${task.idol} Saju Destiny Analysis: Four Pillars Blueprint`,
+            defaultExcerpt: task.type === 'beauty'
+              ? `Discover ${task.idol}'s official ${task.season} personal color palette, K-Beauty makeup recipe, and iconic styling.`
+              : `Explore ${task.idol}'s Korean Saju Four Pillars of Destiny chart, elemental balance, and Daewoon luck cycles.`
+          });
+          const parsed = matter(cleaned);
+          if (!parsed.data.title || !parsed.data.slug) {
+            throw new Error("Frontmatter validation failed");
+          }
+          fs.writeFileSync(filePath, cleaned, 'utf8');
+          console.log(`  ✓ Created: ${fileName}`);
+          successCount++;
+        } catch (err) {
+          console.error(`  ✗ Error creating ${fileName}:`, err.message);
+        }
+      }));
+      await sleep(800);
     }
   }
 
+  console.log(`\n✅ [${todayStr}] Daily Automation Complete: ${successCount} posts generated.`);
+  return successCount;
+}
+
+async function main() {
+  let apiKeysStr = process.env.GEMINI_API_KEY;
+  if (!apiKeysStr) {
+    try {
+      const envPath = path.join(__dirname, '../.env.local');
+      const envContent = fs.readFileSync(envPath, 'utf8');
+      const m = envContent.match(/GEMINI_API_KEY=(.+)/);
+      if (m) apiKeysStr = m[1].trim();
+    } catch (e) {}
+  }
+
+  if (!apiKeysStr) {
+    console.warn("⚠️ [SKIPPED] GEMINI_API_KEY is not configured yet in GitHub Secrets or .env.local.");
+    process.exit(0);
+  }
+
+  const keys = apiKeysStr.split(',').map(k => k.trim()).filter(Boolean);
+  const keyIdxRef = { current: 0 };
+
+  const datesList = process.env.AUTO_DATES
+    ? process.env.AUTO_DATES.split(',').map(d => d.trim()).filter(Boolean)
+    : [process.env.AUTO_DATE || getTodayKST()];
+
+  let totalGenerated = 0;
+  for (const d of datesList) {
+    totalGenerated += await runForDate(d, keys, keyIdxRef);
+  }
+
   console.log(`\n=============================================================`);
-  console.log(`✅ Daily Automation Complete: ${successCount} posts generated.`);
+  console.log(`🎉 ALL BATCHES COMPLETE: ${totalGenerated} total posts generated across ${datesList.length} day(s).`);
   console.log(`=============================================================\n`);
 }
 

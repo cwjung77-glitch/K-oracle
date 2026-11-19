@@ -1,57 +1,18 @@
 [
   {
-    "slug": "twice-nayeon-saju-analysis-four-pillars-en",
-    "type": "SAJU",
-    "idol": "K-Pop Astrology Four Pillars of Destiny",
-    "title": "TWICE Nayeon's Saju Destiny: Decoding the K-Pop Icon's Four Pillars",
-    "hook": "Discover the cosmic secret behind TWICE Nayeon's magnetic charisma through ancient Korean Saju analysis. Explore her Day Master, hidden element powers, and stellar destiny....",
-    "date": "2026-10-12",
-    "tags": [
-      "TWICE",
-      "Nayeon",
-      "Saju Analysis",
-      "K-Pop Astrology",
-      "Four Pillars of Destiny"
-    ],
-    "callToAction": "Check Your Cosmic Compatibility with Idol at thekoracle.com",
-    "socialFormat": "1080x1350 (IG Carousel)",
-    "slides": [
-      {
-        "slide": 1,
-        "type": "COVER",
-        "headline": "TWICE Nayeon's Saju Destiny: Decoding the K-Pop Icon's Four Pillars",
-        "badge": "KOREAN ASTROLOGY (SAJU)"
-      },
-      {
-        "slide": 2,
-        "type": "ANALYSIS",
-        "text": "Discover the cosmic secret behind TWICE Nayeon's magnetic charisma through ancient Korean Saju analysis. Explore her Day Master, hidden element powers, and stellar destiny...."
-      },
-      {
-        "slide": 3,
-        "type": "VERDICT",
-        "text": "Four Pillars & Daewoon 10-Year Flow"
-      },
-      {
-        "slide": 4,
-        "type": "CTA",
-        "text": "Link in Bio: thekoracle.com",
-        "promoCode": "KVIBE777 (YesStyle)"
-      }
-    ]
-  },
-  {
-    "slug": "twice-sana-personal-color-analysis",
+    "slug": "twice-tzuyu-personal-color-analysis-en",
     "type": "BEAUTY",
-    "idol": "TWICE Sana",
-    "title": "TWICE Sana Personal Color Analysis: Is She a Spring Warm or Summer Cool Muse?",
-    "hook": "- Sana's Personal Color Season: Light Spring Warm (봄 웜 라이트) with a seamless crossover into bright spring undertones.\n- Her Vibe: Dewy, luminous, pastel-kissed, and effortlessly rad...",
-    "date": "2026-10-11",
+    "idol": "TWICE Tzuyu",
+    "title": "Unveiling Tzuyu's Golden Glow: TWICE's Visual Radiance Through Her Autumn Warm Personal Color",
+    "hook": "TWICE Tzuyu is a quintessential Autumn Warm (가을 웜톤). This means her natural beauty shines brightest when adorned with rich, earthy, and golden-toned colors. Think the warm hues of ...",
+    "date": "2026-11-12",
     "tags": [
       "Personal Color",
       "K-Beauty",
       "Makeup",
-      "TWICE Sana"
+      "TWICE",
+      "Tzuyu",
+      "Autumn Warm"
     ],
     "callToAction": "Get Your Cheongdam K-Beauty Tone Scan at thekoracle.com (Code: KVIBE777)",
     "socialFormat": "1080x1350 (IG Carousel)",
@@ -59,60 +20,18 @@
       {
         "slide": 1,
         "type": "COVER",
-        "headline": "TWICE Sana Personal Color Analysis: Is She a Spring Warm or Summer Cool Muse?",
+        "headline": "Unveiling Tzuyu's Golden Glow: TWICE's Visual Radiance Through Her Autumn Warm Personal Color",
         "badge": "K-BEAUTY PERSONAL COLOR"
       },
       {
         "slide": 2,
         "type": "ANALYSIS",
-        "text": "- Sana's Personal Color Season: Light Spring Warm (봄 웜 라이트) with a seamless crossover into bright spring undertones.\n- Her Vibe: Dewy, luminous, pastel-kissed, and effortlessly rad..."
+        "text": "TWICE Tzuyu is a quintessential Autumn Warm (가을 웜톤). This means her natural beauty shines brightest when adorned with rich, earthy, and golden-toned colors. Think the warm hues of ..."
       },
       {
         "slide": 3,
         "type": "VERDICT",
         "text": "Best vs Worst Styling Palette"
-      },
-      {
-        "slide": 4,
-        "type": "CTA",
-        "text": "Link in Bio: thekoracle.com",
-        "promoCode": "KVIBE777 (YesStyle)"
-      }
-    ]
-  },
-  {
-    "slug": "twice-sana-saju-destiny-analysis-en",
-    "type": "SAJU",
-    "idol": "K-Pop Astrology Peach Blossom Luck",
-    "title": "TWICE Sana Saju Destiny Analysis: The Cosmic Secrets Behind Her Irresistible Magnetism",
-    "hook": "Explore the ancient Korean Saju destiny reading of TWICE's Sana. Discover how her elemental blueprint and extraordinary Peach Blossom luck created her viral charisma and global sup...",
-    "date": "2026-09-09",
-    "tags": [
-      "TWICE",
-      "Sana",
-      "Saju",
-      "K-Pop Astrology",
-      "Peach Blossom Luck",
-      "Four Pillars of Destiny"
-    ],
-    "callToAction": "Check Your Cosmic Compatibility with Idol at thekoracle.com",
-    "socialFormat": "1080x1350 (IG Carousel)",
-    "slides": [
-      {
-        "slide": 1,
-        "type": "COVER",
-        "headline": "TWICE Sana Saju Destiny Analysis: The Cosmic Secrets Behind Her Irresistible Magnetism",
-        "badge": "KOREAN ASTROLOGY (SAJU)"
-      },
-      {
-        "slide": 2,
-        "type": "ANALYSIS",
-        "text": "Explore the ancient Korean Saju destiny reading of TWICE's Sana. Discover how her elemental blueprint and extraordinary Peach Blossom luck created her viral charisma and global sup..."
-      },
-      {
-        "slide": 3,
-        "type": "VERDICT",
-        "text": "Four Pillars & Daewoon 10-Year Flow"
       },
       {
         "slide": 4,
@@ -643,6 +562,88 @@
         "slide": 2,
         "type": "ANALYSIS",
         "text": "Discover the ancient Korean Saju destiny reading of TXT's Yeonjun. Explore his Water Horse day pillar, powerful Peach Blossom charisma, and cosmic secret behind his legendary star ..."
+      },
+      {
+        "slide": 3,
+        "type": "VERDICT",
+        "text": "Four Pillars & Daewoon 10-Year Flow"
+      },
+      {
+        "slide": 4,
+        "type": "CTA",
+        "text": "Link in Bio: thekoracle.com",
+        "promoCode": "KVIBE777 (YesStyle)"
+      }
+    ]
+  },
+  {
+    "slug": "wayv-kun-saju-analysis-en",
+    "type": "SAJU",
+    "idol": "WayV Kun",
+    "title": "WayV Kun's Saju Chart Unveiled: The Refined Dragon of Innovation",
+    "hook": "WayV's captivating leader, Kun, is a Gyeong Jin (庚辰) Day Master, a mighty Yang Metal Dragon. His Saju chart reveals a powerful individual driven by innovation, sharp intellect, and...",
+    "date": "2026-11-18",
+    "tags": [
+      "Saju",
+      "Korean Astrology",
+      "Four Pillars of Destiny",
+      "WayV",
+      "Kun"
+    ],
+    "callToAction": "Check Your Cosmic Compatibility with Idol at thekoracle.com",
+    "socialFormat": "1080x1350 (IG Carousel)",
+    "slides": [
+      {
+        "slide": 1,
+        "type": "COVER",
+        "headline": "WayV Kun's Saju Chart Unveiled: The Refined Dragon of Innovation",
+        "badge": "KOREAN ASTROLOGY (SAJU)"
+      },
+      {
+        "slide": 2,
+        "type": "ANALYSIS",
+        "text": "WayV's captivating leader, Kun, is a Gyeong Jin (庚辰) Day Master, a mighty Yang Metal Dragon. His Saju chart reveals a powerful individual driven by innovation, sharp intellect, and..."
+      },
+      {
+        "slide": 3,
+        "type": "VERDICT",
+        "text": "Four Pillars & Daewoon 10-Year Flow"
+      },
+      {
+        "slide": 4,
+        "type": "CTA",
+        "text": "Link in Bio: thekoracle.com",
+        "promoCode": "KVIBE777 (YesStyle)"
+      }
+    ]
+  },
+  {
+    "slug": "wayv-ten-saju-analysis-en",
+    "type": "SAJU",
+    "idol": "WayV Ten",
+    "title": "WayV Ten A Celestial Artist Guided by Flow and Fire",
+    "hook": "WayV's Ten is a Gye (Yin Water) Day Master, embodying adaptability, deep intuition, and a gentle yet powerful flow. His Saju chart is a vibrant tapestry woven with strong Wood (tal...",
+    "date": "2026-11-19",
+    "tags": [
+      "Saju",
+      "Korean Astrology",
+      "Four Pillars of Destiny",
+      "WayV",
+      "Ten"
+    ],
+    "callToAction": "Check Your Cosmic Compatibility with Idol at thekoracle.com",
+    "socialFormat": "1080x1350 (IG Carousel)",
+    "slides": [
+      {
+        "slide": 1,
+        "type": "COVER",
+        "headline": "WayV Ten A Celestial Artist Guided by Flow and Fire",
+        "badge": "KOREAN ASTROLOGY (SAJU)"
+      },
+      {
+        "slide": 2,
+        "type": "ANALYSIS",
+        "text": "WayV's Ten is a Gye (Yin Water) Day Master, embodying adaptability, deep intuition, and a gentle yet powerful flow. His Saju chart is a vibrant tapestry woven with strong Wood (tal..."
       },
       {
         "slide": 3,
