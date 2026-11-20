@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 
-export const metadata = { title: 'Contact Us' };
+export const metadata = {
+  title: 'Contact Us',
+  alternates: { canonical: '/contact' },
+};
 
 export default function ContactUsPage() {
   return (

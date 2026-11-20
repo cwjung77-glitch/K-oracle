@@ -10,6 +10,9 @@ import BlogNavbar from '@/components/features/BlogNavbar';
 export const metadata = {
   title: 'K-Oracle Blog - Saju, Destiny, & K-Culture Insights',
   description: 'Explore the mysteries of Korean Saju, K-Pop idol compatibility, and deep fortune telling insights on the K-Oracle blog.',
+  alternates: {
+    canonical: '/blog',
+  },
 };
 
 export default function BlogIndex() {

@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://thekoracle.com'),
+  metadataBase: new URL('https://www.thekoracle.com'),
   alternates: {
     canonical: '/',
   },
@@ -37,16 +37,16 @@ export const jsonLd = {
   '@graph': [
     {
       '@type': 'WebSite',
-      '@id': 'https://thekoracle.com/#website',
-      'url': 'https://thekoracle.com/',
+      '@id': 'https://www.thekoracle.com/#website',
+      'url': 'https://www.thekoracle.com/',
       'name': 'K-Oracle & K-Beauty',
       'description': 'Premium Korean Saju Astrology and Personal Color Analysis.',
     },
     {
       '@type': 'SoftwareApplication',
-      '@id': 'https://thekoracle.com/#software',
+      '@id': 'https://www.thekoracle.com/#software',
       'name': 'K-Oracle Personal Color AI',
-      'url': 'https://thekoracle.com/',
+      'url': 'https://www.thekoracle.com/',
       'applicationCategory': 'LifestyleApplication',
       'applicationSubCategory': 'Beauty',
       'operatingSystem': 'Web',

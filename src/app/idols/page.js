@@ -1,10 +1,13 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
 import { idolsDB } from '@/data/idols';
 import { parseIdolName } from '@/utils/slugify';
 
 export const metadata = {
   title: 'K-Pop Idol Saju & Astrology Directory - K-Oracle',
   description: 'Explore the cosmic destiny and Saju (Four Pillars) of over 500 K-Pop idols. Check your compatibility with BTS, BLACKPINK, SEVENTEEN, NewJeans, and more.',
+  alternates: {
+    canonical: '/idols',
+  },
 };
 
 export default function IdolsDirectory() {

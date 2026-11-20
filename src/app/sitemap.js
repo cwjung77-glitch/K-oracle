@@ -4,7 +4,7 @@ import { idolsDB } from '@/data/idols';
 import { parseIdolName } from '@/utils/slugify';
 
 export default function sitemap() {
-  const baseUrl = 'https://thekoracle.com';
+  const baseUrl = 'https://www.thekoracle.com';
   
   const contentDir = path.join(process.cwd(), 'src/content/blog');
   let blogUrls = [];

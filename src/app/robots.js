@@ -3,7 +3,8 @@ export default function robots() {
     rules: {
       userAgent: '*',
       allow: '/',
+      disallow: ['/api/', '/success'],
     },
-    sitemap: 'https://thekoracle.com/sitemap.xml', // Change to actual production URL later
+    sitemap: 'https://www.thekoracle.com/sitemap.xml',
   };
 }

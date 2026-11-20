@@ -1,7 +1,10 @@
 import React from 'react';
 import Link from 'next/link';
 
-export const metadata = { title: 'Privacy Policy' };
+export const metadata = {
+  title: 'Privacy Policy',
+  alternates: { canonical: '/privacy' },
+};
 
 export default function PrivacyPolicyPage() {
   return (

@@ -1,4 +1,4 @@
-﻿import Link from 'next/link';
+import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { idolsDB } from '@/data/idols';
 import { parseIdolName } from '@/utils/slugify';
@@ -18,12 +18,20 @@ export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
   const idolData = idolsDB.find(i => parseIdolName(i.name).slug === slug);
-  if (!idolData) return { title: 'Not Found' };
+  if (!idolData) return { title: 'Not Found', robots: { index: false, follow: false } };
   
   const { member, group } = parseIdolName(idolData.name);
   return {
     title: `${member} (${group}) Saju & Astrology Chart - K-Oracle`,
     description: `Explore the Korean Saju (Four Pillars of Destiny) of ${member} from ${group}. Discover their cosmic blueprint and check your romantic compatibility!`,
+    alternates: {
+      canonical: `/idols/${slug}`,
+    },
+    openGraph: {
+      title: `${member} (${group}) Saju & Astrology Chart - K-Oracle`,
+      description: `Explore the Korean Saju (Four Pillars of Destiny) of ${member} from ${group}. Discover their cosmic blueprint and check your romantic compatibility!`,
+      url: `https://www.thekoracle.com/idols/${slug}`,
+    },
   };
 }
 

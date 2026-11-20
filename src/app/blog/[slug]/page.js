@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Link from 'next/link';
+import { notFound } from 'next/navigation';
 import BlogEngagement from '@/components/features/BlogEngagement';
 import BlogNavbar from '@/components/features/BlogNavbar';
 import { ArrowLeft } from 'lucide-react';
@@ -17,7 +18,7 @@ export async function generateStaticParams() {
       .map((file) => ({
         slug: file.replace('.md', ''),
       }));
-  } catch(e) {
+  } catch (e) {
     return [];
   }
 }
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
   const filePath = path.join(process.cwd(), 'src/content/blog', slug + '.md');
-  
+
   try {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(fileContent);
@@ -34,14 +35,21 @@ export async function generateMetadata({ params }) {
       title: data.title + ' | K-Oracle Blog',
       description: data.excerpt,
       keywords: data.tags?.join(', '),
+      alternates: {
+        canonical: `/blog/${slug}`,
+      },
       openGraph: {
         title: data.title,
         description: data.excerpt,
+        url: `https://www.thekoracle.com/blog/${slug}`,
         type: 'article',
-      }
+      },
     };
   } catch (e) {
-    return { title: 'Post Not Found | K-Oracle Blog' };
+    return {
+      title: 'Post Not Found | K-Oracle Blog',
+      robots: { index: false, follow: false },
+    };
   }
 }
 
@@ -49,21 +57,17 @@ export default async function BlogPost({ params }) {
   const resolvedParams = await params;
   const slug = resolvedParams.slug;
   const filePath = path.join(process.cwd(), 'src/content/blog', slug + '.md');
-  
+
   let content = '';
   let data = {};
-  
+
   try {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const parsed = matter(fileContent);
     content = parsed.content;
     data = parsed.data;
   } catch (err) {
-    return (
-      <div className="min-h-screen bg-[#050505] text-white flex items-center justify-center">
-        <h1 className="text-2xl font-bold">Post not found.</h1>
-      </div>
-    );
+    notFound();
   }
 
   // Article Schema
@@ -83,19 +87,19 @@ export default async function BlogPost({ params }) {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: []
+    mainEntity: [],
   };
 
   // Simple regex to extract Q&A from "### Q1: ... \n Answer..." format
   const faqMatches = [...content.matchAll(/###\s+((?:Q\d*:?\s*)?[^\n]+[?？])\s*\r?\n+([^#]+)/g)];
-  faqMatches.forEach(match => {
+  faqMatches.forEach((match) => {
     faqSchema.mainEntity.push({
       '@type': 'Question',
       name: match[1].replace(/^Q\d*:\s*/, '').trim(),
       acceptedAnswer: {
         '@type': 'Answer',
-        text: match[2].trim()
-      }
+        text: match[2].trim(),
+      },
     });
   });
 
@@ -116,25 +120,25 @@ export default async function BlogPost({ params }) {
       <div className="absolute top-[-20%] left-[-10%] w-[60%] h-[70%] bg-purple-600/5 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />
       <div className="absolute top-[10%] right-[-10%] w-[50%] h-[80%] bg-yellow-600/5 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />
       <div className="absolute bottom-[-20%] left-[10%] w-[70%] h-[60%] bg-pink-600/5 blur-[150px] rounded-full mix-blend-screen pointer-events-none" />
-      
+
       {/* Lite Stardust Effect */}
       <div className="absolute inset-0 opacity-[0.05] pointer-events-none mix-blend-screen" style={{ backgroundImage: 'radial-gradient(circle at center, #ffffff 1px, transparent 1px)', backgroundSize: '48px 48px' }} />
       <div className="absolute inset-0 opacity-[0.03] pointer-events-none mix-blend-screen" style={{ backgroundImage: 'radial-gradient(circle at center, #ffffff 1.5px, transparent 1.5px)', backgroundSize: '72px 72px', backgroundPosition: '36px 36px' }} />
-      
+
       {/* Grid Texture Overlay */}
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff02_1px,transparent_1px),linear-gradient(to_bottom,#ffffff02_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
-      
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff02_1px,transparent_1px),linear-gradient(to_bottom,#ffffff02_1px,transparent_1px)] bg-[size:32px 32px] pointer-events-none" />
+
       <BlogNavbar />
 
       <main className="max-w-3xl mx-auto px-6 pt-32 relative z-10">
         <Link href="/blog" className="inline-flex items-center gap-2 text-zinc-400 hover:text-yellow-500 transition-colors mb-12 font-bold text-sm">
           <ArrowLeft size={16} /> Back to Blog
         </Link>
-        
+
         <article>
           <header className="mb-12">
             <div className="flex gap-2 mb-6 flex-wrap">
-              {data.tags?.map(tag => (
+              {data.tags?.map((tag) => (
                 <span key={tag} className="px-3 py-1 bg-white/10 rounded-full text-xs font-bold text-yellow-500 tracking-wider uppercase">
                   {tag}
                 </span>
@@ -159,7 +163,7 @@ export default async function BlogPost({ params }) {
           </div>
         </article>
 
-        {(data.tags && (data.tags.some(t => t.includes('Beauty') || t.includes('Color')) || (data.title && (data.title.includes('Color') || data.title.includes('Beauty'))))) ? (
+        {(data.tags && (data.tags.some((t) => t.includes('Beauty') || t.includes('Color')) || (data.title && (data.title.includes('Color') || data.title.includes('Beauty'))))) ? (
           <div className="mt-12 pt-8 border-t border-white/10 text-sm text-zinc-500 italic">
             Disclaimer: This style analysis is for entertainment purposes only. It is not affiliated with, or endorsed by, the individuals mentioned.
           </div>
@@ -172,10 +176,10 @@ export default async function BlogPost({ params }) {
         <BlogEngagement title={data.title} slug={slug} />
 
         {(() => {
-          const isBeauty = data.tags?.some(tag => 
+          const isBeauty = data.tags?.some((tag) =>
             tag.toLowerCase().includes('color') || tag.toLowerCase().includes('beauty') || tag.toLowerCase().includes('makeup')
           );
-          
+
           if (isBeauty) {
             return (
               <div className="mt-20 p-8 bg-gradient-to-br from-zinc-900 to-black border border-pink-500/30 rounded-3xl text-center">
