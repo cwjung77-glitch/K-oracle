@@ -1,46 +1,5 @@
 [
   {
-    "slug": "twice-tzuyu-saju-analysis-four-pillars-destiny-en",
-    "type": "SAJU",
-    "idol": "Four Pillars of Destiny K-Pop Astrology",
-    "title": "TWICE Tzuyu Saju Analysis: The Secret Destiny Behind Her Timeless Beauty and Grace",
-    "hook": "Discover the ancient Saju reading of TWICE's Tzuyu. Explore how her Yin Fire Day Master and Heavenly Noble Star shape her breathtaking elegance, global fame, and calm resilience....",
-    "date": "2026-09-12",
-    "tags": [
-      "Tzuyu",
-      "TWICE",
-      "Saju Reading",
-      "Four Pillars of Destiny",
-      "K-Pop Astrology"
-    ],
-    "callToAction": "Check Your Cosmic Compatibility with Idol at thekoracle.com",
-    "socialFormat": "1080x1350 (IG Carousel)",
-    "slides": [
-      {
-        "slide": 1,
-        "type": "COVER",
-        "headline": "TWICE Tzuyu Saju Analysis: The Secret Destiny Behind Her Timeless Beauty and Grace",
-        "badge": "KOREAN ASTROLOGY (SAJU)"
-      },
-      {
-        "slide": 2,
-        "type": "ANALYSIS",
-        "text": "Discover the ancient Saju reading of TWICE's Tzuyu. Explore how her Yin Fire Day Master and Heavenly Noble Star shape her breathtaking elegance, global fame, and calm resilience...."
-      },
-      {
-        "slide": 3,
-        "type": "VERDICT",
-        "text": "Four Pillars & Daewoon 10-Year Flow"
-      },
-      {
-        "slide": 4,
-        "type": "CTA",
-        "text": "Link in Bio: thekoracle.com",
-        "promoCode": "KVIBE777 (YesStyle)"
-      }
-    ]
-  },
-  {
     "slug": "tws-dohoon-saju-analysis-en",
     "type": "SAJU",
     "idol": "TWS Dohoon",
@@ -643,6 +602,47 @@
         "slide": 2,
         "type": "ANALYSIS",
         "text": "WayV's Winwin is a strong, grounded Mu Earth (戊土) Day Master, symbolizing a vast, reliable mountain. His Saju chart paints a picture of a stable, honest, and protective individual,..."
+      },
+      {
+        "slide": 3,
+        "type": "VERDICT",
+        "text": "Four Pillars & Daewoon 10-Year Flow"
+      },
+      {
+        "slide": 4,
+        "type": "CTA",
+        "text": "Link in Bio: thekoracle.com",
+        "promoCode": "KVIBE777 (YesStyle)"
+      }
+    ]
+  },
+  {
+    "slug": "wayv-xiaojun-saju-analysis-en",
+    "type": "SAJU",
+    "idol": "WayV Xiaojun",
+    "title": "The Fertile Ground of Genius: Decoding WayV Xiaojun's Saju Destiny",
+    "hook": "Xiaojun is a Gi Earth (己土) Day Master, akin to fertile garden soil – adaptable, nurturing, and deeply connected to his roots. His chart is robust with Metal energy, signifying a na...",
+    "date": "2026-11-21",
+    "tags": [
+      "Saju",
+      "Korean Astrology",
+      "Four Pillars of Destiny",
+      "WayV",
+      "Xiaojun"
+    ],
+    "callToAction": "Check Your Cosmic Compatibility with Idol at thekoracle.com",
+    "socialFormat": "1080x1350 (IG Carousel)",
+    "slides": [
+      {
+        "slide": 1,
+        "type": "COVER",
+        "headline": "The Fertile Ground of Genius: Decoding WayV Xiaojun's Saju Destiny",
+        "badge": "KOREAN ASTROLOGY (SAJU)"
+      },
+      {
+        "slide": 2,
+        "type": "ANALYSIS",
+        "text": "Xiaojun is a Gi Earth (己土) Day Master, akin to fertile garden soil – adaptable, nurturing, and deeply connected to his roots. His chart is robust with Metal energy, signifying a na..."
       },
       {
         "slide": 3,
