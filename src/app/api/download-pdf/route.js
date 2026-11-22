@@ -2,6 +2,15 @@ import { NextResponse } from 'next/server';
 import path from 'path';
 import PDFDocument from 'pdfkit';
 
+function cleanMarkdownLine(line) {
+  return line
+    .replace(/^#{1,6}\s+/, '')
+    .replace(/\*\*(.*?)\*\*/g, '$1')
+    .replace(/\*(.*?)\*/g, '$1')
+    .replace(/`([^`]+)`/g, '$1')
+    .trim();
+}
+
 export async function POST(req) {
   try {
     const { type, lang, data, plan } = await req.json();
@@ -23,7 +32,7 @@ export async function POST(req) {
     const fontPath = path.join(process.cwd(), 'public', 'fonts', 'NotoSansKR-Regular.otf');
     try {
       doc.registerFont('NotoSansKR', fontPath);
-    } catch(e) {
+    } catch (e) {
       console.error('Font registration failed:', e);
     }
     const fontSerif = 'NotoSansKR';
@@ -32,10 +41,16 @@ export async function POST(req) {
     const fontSans = 'NotoSansKR';
     const fontSansBold = 'NotoSansKR';
 
-    // Helper to add a new page with dark background
-    doc.on('pageAdded', () => { doc.rect(0, 0, doc.page.width, doc.page.height).fill(bgColor); doc.rect(25, 25, doc.page.width - 50, doc.page.height - 50).lineWidth(1).strokeColor('#2A2A2A').stroke(); doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(0.5).strokeColor('#444444').stroke(); doc.fillColor(textColor); }); const addNewPage = () => { doc.addPage(); };
+    doc.on('pageAdded', () => {
+      doc.rect(0, 0, doc.page.width, doc.page.height).fill(bgColor);
+      doc.rect(25, 25, doc.page.width - 50, doc.page.height - 50).lineWidth(1).strokeColor('#2A2A2A').stroke();
+      doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(0.5).strokeColor('#444444').stroke();
+      doc.fillColor(textColor);
+    });
+    const addNewPage = () => {
+      doc.addPage();
+    };
 
-    // Helper for Headers
     const addHeader = (title, subtitle) => {
       doc.font(fontSerifBold).fillColor(primaryColor).fontSize(24).text(title, 50, 60, { align: 'left' });
       doc.font(fontSerifItalic).fillColor('#A1A1AA').fontSize(14).text(subtitle, 50, 90, { align: 'left' });
@@ -46,286 +61,315 @@ export async function POST(req) {
     if (type === 'saju') {
       // ---------------- PAGE 1: COVER ----------------
       addNewPage();
-      doc.rect(0, 0, doc.page.width, doc.page.height).fill('#050505'); // True black for cover
+      doc.rect(0, 0, doc.page.width, doc.page.height).fill('#050505');
       doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(1.5).strokeColor(primaryColor).stroke();
       doc.font(fontSerifBold).fillColor(primaryColor).fontSize(54).text(isCompatibility ? 'K-CHEMISTRY' : 'K-ORACLE', 0, 280, { align: 'center', width: doc.page.width, characterSpacing: 12 });
-        doc.font(fontSans).fillColor(textColor).fontSize(16).text(isCompatibility ? (isEs ? 'Sinergia Cosmica Decodificada' : 'COSMIC SYNERGY DECODED') : (isEs ? 'DECODIFICA TU DESTINO Y AURA' : 'DECODE YOUR DESTINY & AURA'), 0, doc.y, { align: 'center', width: doc.page.width, characterSpacing: 4 });
-        doc.moveDown(2);
-        doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edición VIP)` : `${displayYear} Master Report (VIP Edition)`, 0, doc.y, { align: 'center', width: doc.page.width });
-        
-        doc.font(fontSans).fillColor('#555555').fontSize(10).text(`Copyright ${new Date().getFullYear()} K-ORACLE. STRICTLY CONFIDENTIAL.`, 0, 720, { align: 'center', width: doc.page.width, characterSpacing: 4 }); doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 0, 760, { align: 'center', width: doc.page.width });
+      doc.font(fontSans).fillColor(textColor).fontSize(16).text(isCompatibility ? (isEs ? 'Sinergia Cosmica Decodificada' : 'COSMIC SYNERGY DECODED') : (isEs ? 'DECODIFICA TU DESTINO Y AURA' : 'DECODE YOUR DESTINY & AURA'), 0, doc.y, { align: 'center', width: doc.page.width, characterSpacing: 4 });
+      doc.moveDown(2);
+      doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edición VIP)` : `${displayYear} Master Report (VIP Edition)`, 0, doc.y, { align: 'center', width: doc.page.width });
 
-      
-        const renderParsedText = (textStr) => {
-          const lines = textStr.split('\n');
-          lines.forEach(line => {
-            const match = line.match(/^\[CATEGORY:s*(.*?)\]/i);
-            if (match) {
-              doc.moveDown(1);
-              doc.font(fontSerifBold).fillColor(primaryColor).fontSize(16).text(match[1], { align: 'left' });
-              doc.moveDown(0.5);
-            } else if (line.trim().length > 0) {
-              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'left' });
-            }
-          });
-        };
+      doc.font(fontSans).fillColor('#555555').fontSize(10).text(`Copyright ${new Date().getFullYear()} K-ORACLE. STRICTLY CONFIDENTIAL.`, 0, 720, { align: 'center', width: doc.page.width, characterSpacing: 4 });
+      doc.font(fontSans).fillColor('#444444').fontSize(8).text(isEs ? '* Descargo de responsabilidad: Solo para fines de entretenimiento. No es asesoramiento financiero o medico.' : '* Disclaimer: For entertainment purposes only. Does not constitute financial, legal, or medical advice.', 0, 760, { align: 'center', width: doc.page.width });
 
-        
-        let rawContent = data.content || '';
-        let archetype = '';
-        let poeticHook = '';
-        let elementsText = '';
-
-        const archMatch = rawContent.match(/\[ARCHETYPE:\s*(.*?)\]/i);
-        if (archMatch) { archetype = archMatch[1]; rawContent = rawContent.replace(archMatch[0], ''); }
-        
-        const hookMatch = rawContent.match(/\[POETIC_HOOK:\s*(.*?)\]/i);
-        if (hookMatch) { poeticHook = hookMatch[1]; rawContent = rawContent.replace(hookMatch[0], ''); }
-        
-        const elMatch = rawContent.match(/\[ELEMENTS:\s*(.*?)\]/i);
-        if (elMatch) { elementsText = elMatch[1]; rawContent = rawContent.replace(elMatch[0], ''); }
-
-        data.content = rawContent.trim();
-
-
-        // ---------------- PAGE 1.5: THE COSMIC SNAPSHOT ----------------
-        if (archetype && poeticHook) {
-          addNewPage();
-          // Draw dark luxury background
-          doc.rect(0, 0, doc.page.width, doc.page.height).fill('#080808');
-          // Draw subtle border
-          doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(1).strokeColor('#2A2A2A').stroke();
-          
-          doc.moveDown(5);
-          doc.font(fontSerifBold).fillColor('#EAB308').fontSize(32).text(archetype, { align: 'center' });
-          doc.moveDown(2);
-          
-          doc.font(fontSerifItalic).fillColor('#D4D4D8').fontSize(15).text('"' + poeticHook + '"', 100, doc.y, { align: 'center', width: doc.page.width - 200, lineGap: 8 });
-          
-          if (elementsText) {
-            doc.moveDown(4);
-            doc.font(fontSansBold).fillColor('#A1A1AA').fontSize(11).text('THE ELEMENTAL BALANCE', { align: 'center', characterSpacing: 4 });
-            doc.moveDown(2);
-            
-            // Parse elements like "Wood 20%, Fire 30%, Earth 20%, Metal 10%, Water 20%"
-            const elRegex = /(Wood|Fire|Earth|Metal|Water)\s*(\d+)%/gi;
-            let elMatch;
-            const elColors = { 'Wood': '#22C55E', 'Fire': '#EF4444', 'Earth': '#EAB308', 'Metal': '#E4E4E7', 'Water': '#3B82F6' };
-            const elYStart = doc.y;
-            let currentY = elYStart;
-            
-            while ((elMatch = elRegex.exec(elementsText)) !== null) {
-              const name = elMatch[1].charAt(0).toUpperCase() + elMatch[1].slice(1).toLowerCase();
-              const pct = parseInt(elMatch[2], 10);
-              const color = elColors[name] || '#FFFFFF';
-              
-              const barX = 200;
-              const barW = doc.page.width - 400; // 200 width
-              const barH = 4;
-              
-              // Text label
-              doc.font(fontSerif).fillColor('#A1A1AA').fontSize(10).text(name, barX - 60, currentY - 3, { width: 45, align: 'right' });
-              
-              // Background bar
-              doc.rect(barX, currentY, barW, barH).fill('#222222');
-              // Fill bar
-              doc.rect(barX, currentY, barW * (pct / 100), barH).fill(color);
-              
-              // Percentage text
-              doc.font(fontSans).fillColor('#E4E4E7').fontSize(10).text(pct + '%', barX + barW + 15, currentY - 3);
-              
-              currentY += 28;
-            }
+      const renderParsedText = (textStr) => {
+        const lines = (textStr || '').split('\n');
+        lines.forEach((rawLine) => {
+          const match = rawLine.match(/^\[CATEGORY:\s*(.*?)\]/i) || rawLine.match(/^#{2,3}\s+(.*)/);
+          if (match) {
+            doc.moveDown(1);
+            doc.font(fontSerifBold).fillColor(primaryColor).fontSize(16).text(cleanMarkdownLine(match[1]), { align: 'left' });
+            doc.moveDown(0.5);
+          } else if (rawLine.trim().length > 0) {
+            doc.font(fontSerif).fillColor(textColor).fontSize(13).text(cleanMarkdownLine(rawLine), { lineGap: 8, align: 'left' });
           }
-          doc.fillColor(textColor); // Reset
+        });
+      };
+
+      let rawContent = data?.content || '';
+      let archetype = data?.archetype || '';
+      let poeticHook = data?.poeticHook || '';
+      let elementalBalance = data?.elementalBalance || null;
+
+      const archMatch = rawContent.match(/\[ARCHETYPE:\s*(.*?)\]/i);
+      if (archMatch) {
+        if (!archetype) archetype = archMatch[1];
+        rawContent = rawContent.replace(archMatch[0], '');
+      }
+
+      const hookMatch = rawContent.match(/\[POETIC_HOOK:\s*(.*?)\]/i);
+      if (hookMatch) {
+        if (!poeticHook) poeticHook = hookMatch[1];
+        rawContent = rawContent.replace(hookMatch[0], '');
+      }
+
+      const elMatch = rawContent.match(/\[ELEMENTS:\s*(.*?)\]/i);
+      if (elMatch) {
+        rawContent = rawContent.replace(elMatch[0], '');
+      }
+
+      const cleanContent = rawContent.trim();
+
+      // ---------------- PAGE 1.5: THE COSMIC SNAPSHOT ----------------
+      if (archetype || poeticHook || elementalBalance) {
+        addNewPage();
+        doc.rect(0, 0, doc.page.width, doc.page.height).fill('#080808');
+        doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(1).strokeColor('#2A2A2A').stroke();
+
+        doc.moveDown(4);
+        doc.font(fontSerifBold).fillColor('#EAB308').fontSize(30).text(archetype || 'The Sovereign Cosmic Star', { align: 'center' });
+        doc.moveDown(1.5);
+
+        if (poeticHook) {
+          doc.font(fontSerifItalic).fillColor('#D4D4D8').fontSize(14).text('"' + poeticHook + '"', 80, doc.y, { align: 'center', width: doc.page.width - 160, lineGap: 8 });
         }
 
-        // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
-      addNewPage();
-      addHeader(isCompatibility ? (isKo ? '1. 관계 케미스트리' : '1. Relationship Chemistry') : (isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix'), isCompatibility ? 'The spark and the conflict' : (isEs ? 'El nucleo de tu identidad cosmica' : 'The core of your cosmic identity'));
-        renderParsedText(data.content || (isEs ? 'Tu energia se alinea con la fuerza del Fuego. Iluminas la oscuridad pero debes tener cuidado de no quemarte.' : 'Your energy aligns with the force of Fire. You illuminate the darkness but must be careful not to burn out.'));
+        if (data?.sajuChart) {
+          doc.moveDown(2);
+          doc.font(fontSansBold).fillColor('#EAB308').fontSize(11).text(
+            `FOUR PILLARS: ${data.sajuChart.yearPillar} | ${data.sajuChart.monthPillar} | ${data.sajuChart.dayPillar} | ${data.sajuChart.hourPillar}`,
+            60,
+            doc.y,
+            { align: 'center', width: doc.page.width - 120 }
+          );
+        }
 
-      
-        // ---------------- PAGE 2.5: PAST LIFE KARMA ----------------
+        const elObj = elementalBalance || { Wood: 20, Fire: 20, Earth: 20, Metal: 20, Water: 20 };
+        doc.moveDown(3);
+        doc.font(fontSansBold).fillColor('#A1A1AA').fontSize(11).text('THE ELEMENTAL BALANCE', { align: 'center', characterSpacing: 4 });
+        doc.moveDown(2);
+
+        const elColors = { Wood: '#22C55E', Fire: '#EF4444', Earth: '#EAB308', Metal: '#E4E4E7', Water: '#3B82F6' };
+        let currentY = doc.y;
+
+        ['Wood', 'Fire', 'Earth', 'Metal', 'Water'].forEach((name) => {
+          const pct = Number(elObj[name] ?? 20);
+          const color = elColors[name] || '#FFFFFF';
+          const barX = 180;
+          const barW = doc.page.width - 360;
+          const barH = 6;
+
+          doc.font(fontSerif).fillColor('#A1A1AA').fontSize(10).text(name, barX - 65, currentY - 3, { width: 55, align: 'right' });
+          doc.rect(barX, currentY, barW, barH).fill('#222222');
+          doc.rect(barX, currentY, Math.max(4, barW * (Math.min(100, pct) / 100)), barH).fill(color);
+          doc.font(fontSans).fillColor('#E4E4E7').fontSize(10).text(pct + '%', barX + barW + 15, currentY - 3);
+          currentY += 28;
+        });
+
+        doc.fillColor(textColor);
+      }
+
+      // ---------------- PAGE 2: SOUL BLUEPRINT ----------------
+      addNewPage();
+      addHeader(
+        isCompatibility ? (isKo ? '1. 관계 케미스트리' : '1. Relationship Chemistry') : (isKo ? '1. 영혼의 매트릭스' : isEs ? '1. Matriz de tu Alma' : '1. The Soul Matrix'),
+        isCompatibility ? 'The spark and the cosmic synergy' : (isEs ? 'El nucleo de tu identidad cosmica' : 'The core of your cosmic identity')
+      );
+      renderParsedText(cleanContent || (isEs ? 'Tu energia se alinea con la fuerza del Fuego.' : 'Your energy aligns with the Four Pillars of Destiny.'));
+
+      // ---------------- PAGE 2.5: PAST LIFE KARMA ----------------
+      addNewPage();
+      addHeader(
+        isCompatibility ? (isKo ? '2. 전생의 인연' : '2. Past Life Connection') : (isKo ? '2. 히든 카르마 & 재물/연애 매트릭스' : isEs ? '2. Analisis de Vidas Pasadas y Karma' : '2. Hidden Karma, Wealth & Love Matrix'),
+        isKo ? '카르마와 운명의 해답' : isEs ? 'Karma y Destino' : 'Karmic gifts, wealth windows, and romantic destiny'
+      );
+      renderParsedText(data?.karma || (isEs ? 'Tu karma esta limpio.' : 'Your karmic path is open for expansion.'));
+
+      let hash = 0;
+      const dob = data?.dob || '1995-10-15';
+      for (let i = 0; i < dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash);
+      const seed = Math.abs(hash);
+
+      if (!isCompatibility) {
+        // ---------------- PAGE 3: 5 ELEMENTS RADAR CHART ----------------
         addNewPage();
-        addHeader(isCompatibility ? (isKo ? '2. 전생의 인연' : '2. Past Life Connection') : (isKo ? '2. 전생 분석' : isEs ? '2. Analisis de Vidas Pasadas' : '2. Past Life Analysis'), isKo ? '카르마와 업보' : isEs ? 'Karma y Deudas' : 'Karma and Debts');
-          renderParsedText(data.karma || (isEs ? 'Tu karma esta limpio.' : 'Your karma is clear.'));
+        addHeader(isKo ? '3. 오행 밸런스' : isEs ? '3. Balance de los 5 Elementos' : '3. The 5 Elements Balance', isEs ? 'La alquimia de tu energía' : 'The alchemy of your energy');
 
-        if (!isCompatibility) {
-      // ---------------- PAGE 3: 5 ELEMENTS RADAR CHART ----------------
-      addNewPage();
-      addHeader(isKo ? '3. 오행 밸런스' : isEs ? '3. Balance de los 5 Elementos' : '3. The 5 Elements Balance', isEs ? 'La alquimia de tu energía' : 'The alchemy of your energy');
-      
-      const cx = doc.page.width / 2;
-      const cy = 340;
-      const r = 140;
-      const elements = isEs ? ['Madera', 'Fuego', 'Tierra', 'Metal', 'Agua'] : ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
-      let hash = 0; const dob = data.dob || "1995-10-15"; for (let i=0; i<dob.length; i++) hash = dob.charCodeAt(i) + ((hash << 5) - hash); const seed = Math.abs(hash); const values = [ (seed % 60) + 40, ((seed >> 2) % 60) + 40, ((seed >> 4) % 60) + 40, ((seed >> 6) % 60) + 40, ((seed >> 8) % 60) + 40 ]; 
+        const cx = doc.page.width / 2;
+        const cy = 330;
+        const r = 135;
+        const elements = isEs ? ['Madera', 'Fuego', 'Tierra', 'Metal', 'Agua'] : ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
+        const elKeys = ['Wood', 'Fire', 'Earth', 'Metal', 'Water'];
 
-      // Draw background pentagons
-      for (let step = 1; step <= 5; step++) {
-        const stepR = (r / 5) * step;
-        doc.moveTo(cx, cy - stepR);
+        const values = elKeys.map((k, idx) => {
+          if (elementalBalance && typeof elementalBalance[k] === 'number') {
+            // Scale percentage (0-60%) to radar radius (35-95%) for visual clarity
+            return Math.min(95, Math.max(30, elementalBalance[k] * 1.8 + 25));
+          }
+          return ((seed >> (idx * 2)) % 55) + 40;
+        });
+
+        let dominantIdx = 0;
+        values.forEach((v, i) => {
+          if (v > values[dominantIdx]) dominantIdx = i;
+        });
+        const dominantName = elements[dominantIdx];
+
+        for (let step = 1; step <= 5; step++) {
+          const stepR = (r / 5) * step;
+          doc.moveTo(cx, cy - stepR);
+          for (let i = 1; i <= 5; i++) {
+            const angle = (i * 2 * Math.PI) / 5 - Math.PI / 2;
+            doc.lineTo(cx + Math.cos(angle) * stepR, cy + Math.sin(angle) * stepR);
+          }
+          doc.lineWidth(0.5).strokeColor('#333333').stroke();
+        }
+
+        for (let i = 0; i < 5; i++) {
+          const angle = (i * 2 * Math.PI) / 5 - Math.PI / 2;
+          doc.moveTo(cx, cy).lineTo(cx + Math.cos(angle) * r, cy + Math.sin(angle) * r).lineWidth(0.5).strokeColor('#555555').stroke();
+          const lx = cx + Math.cos(angle) * (r + 30);
+          const ly = cy + Math.sin(angle) * (r + 15);
+          doc.font(fontSansBold).fillColor(primaryColor).fontSize(10).text(elements[i], lx - 30, ly - 5, { align: 'center', width: 60 });
+        }
+
+        doc.moveTo(cx, cy - (values[0] / 100) * r);
         for (let i = 1; i <= 5; i++) {
           const angle = (i * 2 * Math.PI) / 5 - Math.PI / 2;
-          doc.lineTo(cx + Math.cos(angle) * stepR, cy + Math.sin(angle) * stepR);
+          const valR = (values[i % 5] / 100) * r;
+          doc.lineTo(cx + Math.cos(angle) * valR, cy + Math.sin(angle) * valR);
         }
-        doc.lineWidth(0.5).strokeColor('#333333').stroke();
-      }
+        doc.lineWidth(2).strokeColor(secondaryColor).fillColor(secondaryColor).fillOpacity(0.3).fillAndStroke();
+        doc.fillOpacity(1);
 
-      // Draw Axes & Labels
-      for (let i = 0; i < 5; i++) {
-        const angle = (i * 2 * Math.PI) / 5 - Math.PI / 2;
-        doc.moveTo(cx, cy).lineTo(cx + Math.cos(angle) * r, cy + Math.sin(angle) * r).lineWidth(0.5).strokeColor('#555555').stroke();
-        const lx = cx + Math.cos(angle) * (r + 30);
-        const ly = cy + Math.sin(angle) * (r + 15);
-        doc.font(fontSansBold).fillColor(primaryColor).fontSize(10).text(elements[i], lx - 30, ly - 5, { align: 'center', width: 60 });
-      }
+        doc.y = 515;
+        doc.font(fontSerifBold).fillColor(primaryColor).fontSize(14).text(isEs ? 'Glosario de Elementos' : 'Element Glossary', { align: 'center' });
+        doc.moveDown(0.5);
 
-      // Draw Data Polygon
-      doc.moveTo(cx, cy - (values[0] / 100) * r);
-      for (let i = 1; i <= 5; i++) {
-        const angle = (i * 2 * Math.PI) / 5 - Math.PI / 2;
-        const valR = (values[i % 5] / 100) * r;
-        doc.lineTo(cx + Math.cos(angle) * valR, cy + Math.sin(angle) * valR);
-      }
-      doc.lineWidth(2).strokeColor(secondaryColor).fillColor(secondaryColor).fillOpacity(0.3).fillAndStroke();
-      doc.fillOpacity(1); 
+        const glossary = isEs
+          ? [
+              'Madera (Wood) : Crecimiento, Ambición y Creatividad.',
+              'Fuego (Fire) : Pasión, Carisma y Fama.',
+              'Tierra (Earth) : Estabilidad, Confianza y Riqueza.',
+              'Metal (Metal) : Disciplina, Liderazgo y Justicia.',
+              'Agua (Water) : Sabiduría, Flujo y Adaptabilidad.',
+            ]
+          : [
+              'Wood : Growth, Ambition, and Creativity.',
+              'Fire : Passion, Charisma, and Fame.',
+              'Earth : Stability, Trust, and Wealth Retention.',
+              'Metal : Discipline, Leadership, and Justice.',
+              'Water : Wisdom, Flow, and Adaptability.',
+            ];
 
-      // Element Glossary (For Western Audiences)
-      doc.y = 520;
-      doc.font(fontSerifBold).fillColor(primaryColor).fontSize(14).text(isEs ? 'Glosario de Elementos' : 'Element Glossary', { align: 'center' });
-      doc.moveDown(0.5);
-      
-      const glossary = isEs ? [
-        'Madera (Wood) : Crecimiento, Ambición y Creatividad.',
-        'Fuego (Fire) : Pasión, Carisma y Fama.',
-        'Tierra (Earth) : Estabilidad, Confianza y Riqueza.',
-        'Metal (Metal) : Disciplina, Liderazgo y Justicia.',
-        'Agua (Water) : Sabiduría, Flujo y Adaptabilidad.'
-      ] : [
-        'Wood : Growth, Ambition, and Creativity.',
-        'Fire : Passion, Charisma, and Fame.',
-        'Earth : Stability, Trust, and Wealth Retention.',
-        'Metal : Discipline, Leadership, and Justice.',
-        'Water : Wisdom, Flow, and Adaptability.'
-      ];
+        doc.font(fontSans).fillColor(textColor).fontSize(11);
+        glossary.forEach((item) => {
+          doc.text(item, { align: 'center', lineGap: 4 });
+        });
 
-      doc.font(fontSans).fillColor(textColor).fontSize(11);
-      glossary.forEach(item => {
-        doc.text(item, { align: 'center', lineGap: 4 });
-      });
+        doc.moveDown(1.5);
+        doc.font(fontSerifItalic).fillColor('#A1A1AA').fontSize(12).text(
+          isEs
+            ? `Tu elemento dominante en este ciclo es ${dominantName}, guiando tu magnetismo y decisiones clave.`
+            : `Your prominent elemental force is ${dominantName}, anchoring your charisma and strategic breakthroughs.`,
+          { align: 'center' }
+        );
 
-      doc.moveDown(1.5);
-      doc.font(fontSerifItalic).fillColor('#A1A1AA').fontSize(12).text(isEs ? 'Tu elemento dominante es la Tierra, dándote estabilidad financiera.' : 'Your dominant element is Earth, giving you deep financial stability.', { align: 'center' });
+        // ---------------- PAGE 4: 12-MONTH FORTUNE FLOW (SPLINE GRAPH) ----------------
+        addNewPage();
+        addHeader(isEs ? `4. Flujo de Energía ${displayYear}` : `4. ${displayYear} Energy Flow`, isEs ? 'Biorritmo Cósmico Mensual' : 'Monthly Cosmic Biorhythm');
 
+        const gX = 50, gY = 450, gW = doc.page.width - 100, gH = 180;
+        doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
 
-      // ---------------- PAGE 4: 12-MONTH FORTUNE FLOW (SPLINE GRAPH) ----------------
-      addNewPage();
-      addHeader(isEs ? '3. Flujo de Energía 2026' : `3. ${displayYear} Energy Flow`, isEs ? 'Biorritmo Cósmico de 12 Meses' : '12-Month Cosmic Biorhythm');
-
-      const gX = 50, gY = 450, gW = doc.page.width - 100, gH = 180;
-      doc.rect(gX, gY - gH, gW, gH).lineWidth(1).strokeColor('#222').stroke();
-
-      let monthsData = [];
-      if (plan === 'q4') {
-        const mNames = isEs ? ['Oct','Nov','Dic'] : ['Oct','Nov','Dec'];
-        monthsData = mNames.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
-      } else if (plan === 'bundle') {
-        const m26Names = isEs ? ['Oct 26','Nov 26','Dic 26'] : ['Oct 26','Nov 26','Dec 26'];
-        const m27Names = isEs ? ['Ene 27','Feb 27','Mar 27','Abr 27','May 27','Jun 27','Jul 27','Ago 27','Sep 27','Oct 27','Nov 27','Dic 27'] : ['Jan 27','Feb 27','Mar 27','Apr 27','May 27','Jun 27','Jul 27','Aug 27','Sep 27','Oct 27','Nov 27','Dec 27'];
-        const m26 = m26Names.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
-        const m27 = m27Names.map((m, i) => ({ m, y: 2027, idx: i }));
-        monthsData = [...m26, ...m27];
-      } else {
-        const mNames = isEs ? ['Ene','Feb','Mar','Abr','May','Jun','Jul','Ago','Sep','Oct','Nov','Dic'] : ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-        monthsData = mNames.map((m, i) => ({ m, y: 2027, idx: i }));
-      }
-      
-      const months = monthsData.map(d => d.m);
-      const scores = monthsData.map(({ y, idx }) => {
-        const combinedSeed = seed + y * 100 + idx;
-        return (((combinedSeed * 17) % 70) + 30);
-      });
-
-      [0, 25, 50, 75, 100].forEach(level => {
-        const y = gY - (level / 100) * gH;
-        doc.moveTo(gX, y).lineTo(gX + gW, y).lineWidth(0.5).strokeColor('#333').stroke();
-        doc.font(fontSans).fillColor('#666').fontSize(8).text(`${level}%`, gX - 35, y - 4, { align: 'right', width: 30 });
-      });
-
-      const numPoints = months.length;
-      const stepX = gW / Math.max(1, (numPoints - 1));
-      
-      doc.moveTo(gX, gY - (scores[0] / 100) * gH);
-      for (let i = 1; i < numPoints; i++) {
-        const prevX = gX + (i - 1) * stepX;
-        const prevY = gY - (scores[i - 1] / 100) * gH;
-        const currX = gX + i * stepX;
-        const currY = gY - (scores[i] / 100) * gH;
-        doc.bezierCurveTo(prevX + stepX/2, prevY, currX - stepX/2, currY, currX, currY);
-      }
-      doc.lineWidth(3).strokeColor(primaryColor).stroke();
-
-      for (let i = 0; i < numPoints; i++) {
-        const x = gX + i * stepX;
-        const y = gY - (scores[i] / 100) * gH;
-        doc.circle(x, y, 4).fillAndStroke('#111', primaryColor);
-        if (plan === 'bundle') {
-          if (i % 2 === 0) {
-            doc.font(fontSansBold).fillColor(textColor).fontSize(7).text(months[i].replace(' ', '\n'), x - 15, gY + 10, { align: 'center', width: 30 });
-          }
+        let monthsData = [];
+        if (plan === 'q4') {
+          const mNames = isEs ? ['Oct', 'Nov', 'Dic'] : ['Oct', 'Nov', 'Dec'];
+          monthsData = mNames.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
+        } else if (plan === 'bundle') {
+          const m26Names = isEs ? ['Oct 26', 'Nov 26', 'Dic 26'] : ['Oct 26', 'Nov 26', 'Dec 26'];
+          const m27Names = isEs ? ['Ene 27', 'Feb 27', 'Mar 27', 'Abr 27', 'May 27', 'Jun 27', 'Jul 27', 'Ago 27', 'Sep 27', 'Oct 27', 'Nov 27', 'Dic 27'] : ['Jan 27', 'Feb 27', 'Mar 27', 'Apr 27', 'May 27', 'Jun 27', 'Jul 27', 'Aug 27', 'Sep 27', 'Oct 27', 'Nov 27', 'Dec 27'];
+          const m26 = m26Names.map((m, i) => ({ m, y: 2026, idx: i + 9 }));
+          const m27 = m27Names.map((m, i) => ({ m, y: 2027, idx: i }));
+          monthsData = [...m26, ...m27];
         } else {
-          doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
+          const mNames = isEs ? ['Ene', 'Feb', 'Mar', 'Abr', 'May', 'Jun', 'Jul', 'Ago', 'Sep', 'Oct', 'Nov', 'Dic'] : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+          monthsData = mNames.map((m, i) => ({ m, y: 2027, idx: i }));
         }
-      }
-      
-      const peakMonth = months[scores.indexOf(Math.max(...scores))].replace('\n', ' ');
-      doc.x = 50; doc.y = 520; doc.font(fontSerif).fillColor(textColor).fontSize(14).text(isEs ? `${peakMonth} marca tu temporada cumbre. Preparate.` : `${peakMonth} marks your absolute peak season. Prepare for a major cosmic event.`, { align: 'center', width: doc.page.width - 100 });
-      }
 
+        const months = monthsData.map((d) => d.m);
+        const scores = monthsData.map(({ y, idx }) => {
+          const combinedSeed = seed + y * 100 + idx;
+          return ((combinedSeed * 17) % 70) + 30;
+        });
 
-      // ---------------- PAGE 5-10: IN-DEPTH TEXT SECTIONS ----------------
-      } else if (type === 'beauty') {
-        // Change primary color for Beauty
-        const beautyColor = '#EC4899';
-        
-        // Helper for Headers (override with beauty color)
-        const addBeautyHeader = (title, subtitle) => {
-          doc.font(fontSerifBold).fillColor(beautyColor).fontSize(24).text(title, 50, 60, { align: 'left' });
-          doc.font(fontSerifItalic).fillColor('#A1A1AA').fontSize(14).text(subtitle, 50, 90, { align: 'left' });
-          doc.moveTo(50, 115).lineTo(doc.page.width - 50, 115).lineWidth(0.5).strokeColor('#333333').stroke();
-          doc.y = 140;
-        };
+        [0, 25, 50, 75, 100].forEach((level) => {
+          const y = gY - (level / 100) * gH;
+          doc.moveTo(gX, y).lineTo(gX + gW, y).lineWidth(0.5).strokeColor('#333').stroke();
+          doc.font(fontSans).fillColor('#666').fontSize(8).text(`${level}%`, gX - 35, y - 4, { align: 'right', width: 30 });
+        });
 
-        const renderBeautyParsedText = (textStr) => {
-          const lines = (textStr || "").split('\n');
-          lines.forEach(line => {
-            const match = line.match(/^\[CATEGORY:\s*(.*?)\]/i);
-            if (match) {
-              doc.moveDown(1);
-              doc.font(fontSerifBold).fillColor(beautyColor).fontSize(16).text(match[1], { align: 'left' });
-              doc.moveDown(0.5);
-            } else if (line.trim().length > 0) {
-              doc.font(fontSerif).fillColor(textColor).fontSize(14).text(line, { lineGap: 10, align: 'left' });
+        const numPoints = months.length;
+        const stepX = gW / Math.max(1, numPoints - 1);
+
+        doc.moveTo(gX, gY - (scores[0] / 100) * gH);
+        for (let i = 1; i < numPoints; i++) {
+          const prevX = gX + (i - 1) * stepX;
+          const prevY = gY - (scores[i - 1] / 100) * gH;
+          const currX = gX + i * stepX;
+          const currY = gY - (scores[i] / 100) * gH;
+          doc.bezierCurveTo(prevX + stepX / 2, prevY, currX - stepX / 2, currY, currX, currY);
+        }
+        doc.lineWidth(3).strokeColor(primaryColor).stroke();
+
+        for (let i = 0; i < numPoints; i++) {
+          const x = gX + i * stepX;
+          const y = gY - (scores[i] / 100) * gH;
+          doc.circle(x, y, 4).fillAndStroke('#111', primaryColor);
+          if (plan === 'bundle') {
+            if (i % 2 === 0) {
+              doc.font(fontSansBold).fillColor(textColor).fontSize(7).text(months[i].replace(' ', '\n'), x - 15, gY + 10, { align: 'center', width: 30 });
             }
-          });
-        };
+          } else {
+            doc.font(fontSansBold).fillColor(textColor).fontSize(9).text(months[i], x - 15, gY + 10, { align: 'center', width: 30 });
+          }
+        }
 
-        // ---------------- PAGE 1: COVER ----------------
-        addNewPage();
-        doc.rect(0, 0, doc.page.width, doc.page.height).fill('#050505');
-        doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(1.5).strokeColor(beautyColor).stroke();
-        
-        doc.font(fontSerifBold).fillColor(beautyColor).fontSize(54).text('K-BEAUTY', 0, 280, { align: 'center', width: doc.page.width, characterSpacing: 12 });
-        doc.font(fontSans).fillColor(textColor).fontSize(16).text(isEs ? 'TU PLAN MAESTRO DE ESTILO' : 'YOUR STYLING MASTERPLAN', 0, doc.y, { align: 'center', width: doc.page.width, characterSpacing: 4 });
-        doc.moveDown(2);
-        doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edicion VIP)` : `${displayYear} Master Report (VIP Edition)`, 0, doc.y, { align: 'center', width: doc.page.width });
-        
-        // ---------------- PAGE 2: PREMIUM STYLING REPORT ----------------
-        addNewPage();
-        addBeautyHeader(isKo ? '1. 스타일링 분석' : isEs ? '1. Analisis de Estilo' : '1. Styling Analysis', isEs ? 'El secreto de Cheongdam' : 'The Cheongdam Secret');
-        renderBeautyParsedText(data.reportText || "Data is missing.");
+        const peakMonth = months[scores.indexOf(Math.max(...scores))].replace('\n', ' ');
+        doc.x = 50;
+        doc.y = 520;
+        doc.font(fontSerif).fillColor(textColor).fontSize(14).text(
+          isEs ? `${peakMonth} marca tu temporada cumbre. Prepárate.` : `${peakMonth} marks your peak cosmic window. Align your biggest decisions with this surge.`,
+          { align: 'center', width: doc.page.width - 100 }
+        );
+      }
+    } else if (type === 'beauty') {
+      const beautyColor = '#EC4899';
+
+      const addBeautyHeader = (title, subtitle) => {
+        doc.font(fontSerifBold).fillColor(beautyColor).fontSize(24).text(title, 50, 60, { align: 'left' });
+        doc.font(fontSerifItalic).fillColor('#A1A1AA').fontSize(14).text(subtitle, 50, 90, { align: 'left' });
+        doc.moveTo(50, 115).lineTo(doc.page.width - 50, 115).lineWidth(0.5).strokeColor('#333333').stroke();
+        doc.y = 140;
+      };
+
+      const renderBeautyParsedText = (textStr) => {
+        const lines = (textStr || '').split('\n');
+        lines.forEach((rawLine) => {
+          const match = rawLine.match(/^\[CATEGORY:\s*(.*?)\]/i) || rawLine.match(/^#{2,3}\s+(.*)/);
+          if (match) {
+            doc.moveDown(1);
+            doc.font(fontSerifBold).fillColor(beautyColor).fontSize(16).text(cleanMarkdownLine(match[1]), { align: 'left' });
+            doc.moveDown(0.5);
+          } else if (rawLine.trim().length > 0) {
+            doc.font(fontSerif).fillColor(textColor).fontSize(13).text(cleanMarkdownLine(rawLine), { lineGap: 8, align: 'left' });
+          }
+        });
+      };
+
+      // ---------------- PAGE 1: COVER ----------------
+      addNewPage();
+      doc.rect(0, 0, doc.page.width, doc.page.height).fill('#050505');
+      doc.rect(20, 20, doc.page.width - 40, doc.page.height - 40).lineWidth(1.5).strokeColor(beautyColor).stroke();
+
+      doc.font(fontSerifBold).fillColor(beautyColor).fontSize(54).text('K-BEAUTY', 0, 280, { align: 'center', width: doc.page.width, characterSpacing: 12 });
+      doc.font(fontSans).fillColor(textColor).fontSize(16).text(isEs ? 'TU PLAN MAESTRO DE ESTILO' : 'YOUR STYLING MASTERPLAN', 0, doc.y, { align: 'center', width: doc.page.width, characterSpacing: 4 });
+      doc.moveDown(2);
+      doc.font(fontSerifItalic).fillColor('#888888').fontSize(14).text(isEs ? `Reporte Maestro ${displayYear} (Edicion VIP)` : `${displayYear} Master Report (VIP Edition)`, 0, doc.y, { align: 'center', width: doc.page.width });
+
+      // ---------------- PAGE 2: PREMIUM STYLING REPORT ----------------
+      addNewPage();
+      addBeautyHeader(isKo ? '1. 청담 스타일링 분석' : isEs ? '1. Analisis de Estilo' : '1. Cheongdam Styling Analysis', isEs ? 'El secreto de Cheongdam' : 'The Cheongdam Celebrity Blueprint');
+      renderBeautyParsedText(data?.reportText || 'Data is missing.');
     }
 
     doc.end();
@@ -338,15 +382,8 @@ export async function POST(req) {
         'Content-Disposition': `attachment; filename="K_Oracle_Premium_${type.toUpperCase()}.pdf"`,
       },
     });
-
   } catch (error) {
     console.error('PDF Generation Error:', error);
     return new NextResponse('Internal Server Error', { status: 500 });
   }
 }
-
-
-
-
-
-

@@ -16,7 +16,7 @@ export default function PersonalColor({ onUnlockPremium }) {
   const colors = [
     {
       season: "SPRING WARM",
-      kor: "遊??쒗넠",
+      kor: "봄 웜톤",
       theme: "from-orange-200 via-yellow-100 to-amber-200",
       textColor: "text-orange-400",
       cardText: "text-orange-900",
@@ -42,7 +42,7 @@ export default function PersonalColor({ onUnlockPremium }) {
     },
     {
       season: "SUMMER COOL",
-      kor: "?щ쫫 荑⑦넠",
+      kor: "여름 쿨톤",
       theme: "from-pink-200 via-purple-100 to-blue-200",
       textColor: "text-pink-400",
       cardText: "text-indigo-900",
@@ -94,11 +94,11 @@ export default function PersonalColor({ onUnlockPremium }) {
     },
     {
       season: "WINTER COOL",
-      kor: "寃⑥슱 荑⑦넠",
+      kor: "겨울 쿨톤",
       theme: "from-fuchsia-900 via-purple-900 to-indigo-950",
       textColor: "text-fuchsia-400",
       cardText: "text-fuchsia-100",
-      femaleIdols: ["Karina (aespa)", "Jisoo (BLACKPINK)", "Chaeyoung (TWICE)", "Hyein (NewJeans)", "Yuna (ITZY)", "Leeseo (IVE)", "Shuhua ((G)I-DLE)", "Kyujin (NMIXX)", "Yoon (STAYC)", "Lily (NMIXX)", "Moonbyul (MAMAMOO)", "Solar (MAMAMOO)", "Eunbi (沅뚯?鍮?", "Liz (IVE)", "Bae (NMIXX)", "Jeongyeon (TWICE)", "Dahyun (TWICE)", "Seoyeon (fromis_9)", "Nakyung (fromis_9)", "Belle (KISS OF LIFE)"],
+      femaleIdols: ["Karina (aespa)", "Jisoo (BLACKPINK)", "Chaeyoung (TWICE)", "Hyein (NewJeans)", "Yuna (ITZY)", "Leeseo (IVE)", "Shuhua ((G)I-DLE)", "Kyujin (NMIXX)", "Yoon (STAYC)", "Lily (NMIXX)", "Moonbyul (MAMAMOO)", "Solar (MAMAMOO)", "Eunbi (Kwon Eunbi)", "Liz (IVE)", "Bae (NMIXX)", "Jeongyeon (TWICE)", "Dahyun (TWICE)", "Seoyeon (fromis_9)", "Nakyung (fromis_9)", "Belle (KISS OF LIFE)"],
       maleIdols: ["Sehun (EXO)", "Taeyong (NCT)", "Felix (Stray Kids)", "Sungchan (RIIZE)", "Lee Know (Stray Kids)", "Suga (BTS)", "Minghao (SEVENTEEN)", "Heeseung (ENHYPEN)", "Shotaro (RIIZE)", "Jin (BTS)", "Ten (NCT)", "Xiaojun (WayV)", "Hendery (WayV)", "Woozi (SEVENTEEN)", "Woonhak (BOYNEXTDOOR)", "Riwoo (BOYNEXTDOOR)", "Jihoon (TREASURE)", "Junkyu (TREASURE)", "Doyoung (TREASURE)", "Jeongwoo (TREASURE)"],
       desc: "Like your idol skin twin! High-contrast, icy, and deep colors make your features pop. Your aura is striking, sharp, and intensely charismatic.",
       colorPool: [{hex:'#000000', name:'Black'}, {hex:'#000080', name:'Navy'}, {hex:'#800080', name:'Purple'}, {hex:'#FF00FF', name:'Magenta'}, {hex:'#DC143C', name:'Crimson'}, {hex:'#4B0082', name:'Indigo'}, {hex:'#8B008B', name:'Dark Magenta'}, {hex:'#9400D3', name:'Dark Violet'}, {hex:'#0000CD', name:'Medium Blue'}, {hex:'#C71585', name:'Medium Violet'}, {hex:'#FFFFFF', name:'White'}, {hex:'#00FFFF', name:'Cyan'}, {hex:'#0000FF', name:'Blue'}, {hex:'#00BFFF', name:'Deep Sky Blue'}, {hex:'#1E90FF', name:'Dodger Blue'}, {hex:'#4169E1', name:'Royal Blue'}, {hex:'#8A2BE2', name:'Blue Violet'}, {hex:'#9932CC', name:'Dark Orchid'}, {hex:'#FF1493', name:'Deep Pink'}, {hex:'#C71585', name:'Medium Violet Red'}, {hex:'#800000', name:'Maroon'}, {hex:'#8B0000', name:'Dark Red'}, {hex:'#B22222', name:'Firebrick'}, {hex:'#F5F5F5', name:'White Smoke'}, {hex:'#0F52BA', name:'Sapphire'}, {hex:'#E0115F', name:'Ruby'}, {hex:'#50C878', name:'Emerald'}, {hex:'#191970', name:'Midnight Blue'}, {hex:'#9966CC', name:'Amethyst'}, {hex:'#FF0090', name:'Magenta'}],

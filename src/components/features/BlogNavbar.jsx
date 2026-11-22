@@ -15,29 +15,31 @@ export default function BlogNavbar() {
     setMounted(true);
     const saved = localStorage.getItem('kOracleLang');
     if (saved) setLang(saved);
-  }, []);
+
+    // Sync dropdown badge if current blog post URL has a specific language suffix
+    if (pathname && pathname.startsWith('/blog/')) {
+      const m = pathname.match(/-(en|es|th|id|ja|de|it|pt|pl|ru|vi|fr)$/);
+      if (m && m[1]) {
+        setLang(m[1]);
+      }
+    }
+  }, [pathname]);
 
   const handleLangChange = (newLang) => {
     setLang(newLang);
     localStorage.setItem('kOracleLang', newLang);
-    
-    // If we are on a specific post, redirect to the new language slug
+
+    // If on a specific blog post, navigate directly to its localized sibling slug!
     if (pathname && pathname.startsWith('/blog/') && pathname !== '/blog') {
       const slug = pathname.replace('/blog/', '');
-      // Extract base slug (remove existing lang suffix if present)
       const match = slug.match(/(.+)-(en|es|th|id|ja|de|it|pt|pl|ru|vi|fr)$/);
-      const baseSlug = match ? match[1] : slug;
-      
-      // Navigate to the localized slug. The BlogFilter logic ensures it falls back gracefully if it doesn't exist,
-      // but the server route /blog/[slug] will return a 404 if the markdown file doesn't exist!
-      // Wait, if we redirect them to /blog/slug-es and it doesn't exist, they will get a 404.
-      // So actually, changing language on a post SHOULD redirect them to the index page /blog so they can see what's available!
-      // OR we can just reload the index. Let's redirect to /blog.
-      router.push('/blog');
-      return;
+      if (match) {
+        const baseSlug = match[1];
+        router.push(`/blog/${baseSlug}-${newLang}`);
+        return;
+      }
     }
-    
-    // If on the blog index, just reload to let BlogFilter pick up the new language
+
     window.location.reload();
   };
 
@@ -48,7 +50,8 @@ export default function BlogNavbar() {
           <span className="text-yellow-500">K</span>-ORACLE
         </Link>
         <div className="flex items-center gap-4 md:gap-6 text-sm font-bold">
-          <Link href="/" className="text-zinc-400 hover:text-white transition-colors hidden sm:block">App</Link>
+          <Link href="/" className="text-zinc-400 hover:text-white transition-colors hidden sm:block">Saju &amp; Beauty App</Link>
+          <Link href="/idols" className="text-zinc-400 hover:text-white transition-colors">Idols</Link>
           <Link href="/blog" className="text-yellow-500">Blog</Link>
           {mounted && (
             <LanguageSwitcher lang={lang} setLang={handleLangChange} showKo={false} />
