@@ -1,47 +1,5 @@
 [
   {
-    "slug": "txt-beomgyu-personal-color-analysis-en",
-    "type": "BEAUTY",
-    "idol": "TXT Beomgyu",
-    "title": "The Icy Allure of TXT Beomgyu: A Winter Cool Vision",
-    "hook": "TXT's Beomgyu is a Winter Cool. His ideal palette consists of vivid, clear, and icy cool tones like jet black, true white, royal blue, fuchsia, emerald green, and silver. These col...",
-    "date": "2026-11-22",
-    "tags": [
-      "Personal Color",
-      "K-Beauty",
-      "Makeup",
-      "TXT",
-      "Beomgyu",
-      "Winter Cool"
-    ],
-    "callToAction": "Get Your Cheongdam K-Beauty Tone Scan at thekoracle.com (Code: KVIBE777)",
-    "socialFormat": "1080x1350 (IG Carousel)",
-    "slides": [
-      {
-        "slide": 1,
-        "type": "COVER",
-        "headline": "The Icy Allure of TXT Beomgyu: A Winter Cool Vision",
-        "badge": "K-BEAUTY PERSONAL COLOR"
-      },
-      {
-        "slide": 2,
-        "type": "ANALYSIS",
-        "text": "TXT's Beomgyu is a Winter Cool. His ideal palette consists of vivid, clear, and icy cool tones like jet black, true white, royal blue, fuchsia, emerald green, and silver. These col..."
-      },
-      {
-        "slide": 3,
-        "type": "VERDICT",
-        "text": "Best vs Worst Styling Palette"
-      },
-      {
-        "slide": 4,
-        "type": "CTA",
-        "text": "Link in Bio: thekoracle.com",
-        "promoCode": "KVIBE777 (YesStyle)"
-      }
-    ]
-  },
-  {
     "slug": "txt-beomgyu-saju-analysis-destiny-water-dragon-en",
     "type": "SAJU",
     "idol": "K-Pop Astrology Four Pillars of Destiny",
@@ -114,6 +72,48 @@
         "slide": 3,
         "type": "VERDICT",
         "text": "Four Pillars & Daewoon 10-Year Flow"
+      },
+      {
+        "slide": 4,
+        "type": "CTA",
+        "text": "Link in Bio: thekoracle.com",
+        "promoCode": "KVIBE777 (YesStyle)"
+      }
+    ]
+  },
+  {
+    "slug": "txt-hueningkai-personal-color-analysis-en",
+    "type": "BEAUTY",
+    "idol": "TXT Hueningkai",
+    "title": "Hueningkai's Spring Warm Radiance: A K-Oracle Personal Color Deep Dive",
+    "hook": "TXT's Hueningkai is a Spring Warm (봄 웜톤). This means he looks best in clear, bright, and warm colors like coral, peach, light yellow, ivory, and mint green. These shades enhance hi...",
+    "date": "2026-11-24",
+    "tags": [
+      "Personal Color",
+      "K-Beauty",
+      "Makeup",
+      "TXT",
+      "Hueningkai",
+      "Spring Warm"
+    ],
+    "callToAction": "Get Your Cheongdam K-Beauty Tone Scan at thekoracle.com (Code: KVIBE777)",
+    "socialFormat": "1080x1350 (IG Carousel)",
+    "slides": [
+      {
+        "slide": 1,
+        "type": "COVER",
+        "headline": "Hueningkai's Spring Warm Radiance: A K-Oracle Personal Color Deep Dive",
+        "badge": "K-BEAUTY PERSONAL COLOR"
+      },
+      {
+        "slide": 2,
+        "type": "ANALYSIS",
+        "text": "TXT's Hueningkai is a Spring Warm (봄 웜톤). This means he looks best in clear, bright, and warm colors like coral, peach, light yellow, ivory, and mint green. These shades enhance hi..."
+      },
+      {
+        "slide": 3,
+        "type": "VERDICT",
+        "text": "Best vs Worst Styling Palette"
       },
       {
         "slide": 4,
