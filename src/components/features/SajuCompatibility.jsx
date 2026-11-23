@@ -4,6 +4,7 @@ import { getSajuFromDate } from '../../utils/zodiac';
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 import { Heart, Sparkles, RefreshCw, Star, Download, Share2, Crown, Trophy, Target, Search, Lock, Palette, Compass } from 'lucide-react';
 import { toPng } from 'html-to-image';
+import HolographicTalismanCard from '../ui/HolographicTalismanCard';
 
 function extractElementFromStem(stemStr = '') {
   if (stemStr.includes('Wood')) return 'Wood';
@@ -673,24 +674,18 @@ export default function SajuCompatibility({ onUnlockPremium }) {
               </div>
 
               <div className="flex justify-center mb-6">
-                <div className={`w-44 h-[380px] bg-[#0A0A0A] rounded-2xl flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 hover:scale-105 hover:rotate-1 border-[3px] border-t-zinc-300 border-l-zinc-300 border-b-zinc-500 border-r-zinc-500 ${result.score >= 95 ? 'ring-4 ring-zinc-300 shadow-[0_0_50px_rgba(255,255,255,0.4)]' : 'shadow-[0_10px_30px_rgba(0,0,0,0.8)]'}`}>
-                  <div className="mt-6 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-zinc-200 to-zinc-500 font-brush-cn text-3xl font-bold opacity-90 z-10">
-                    {result.userElement === 'Fire' ? '火' : result.userElement === 'Water' ? '水' : result.userElement === 'Wood' ? '木' : result.userElement === 'Metal' ? '金' : '土'}
-                  </div>
-                  <div className="relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-zinc-300 to-zinc-600 text-[52px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]">
-                    {result.talisman.text.split('').map((char, i) => (
-                      <span key={i}>{char}</span>
-                    ))}
-                  </div>
-                  <div className="relative z-10 w-full flex flex-col items-center mb-4 px-3">
-                    <div className="w-12 h-[2px] bg-zinc-600/50 mb-3"></div>
-                    <div className="text-zinc-400 font-bold text-[10px] tracking-[0.2em] uppercase mb-1 text-center">{result.talisman.en}</div>
-                    <div className="text-zinc-500 text-[9px] tracking-wider text-center leading-tight opacity-80 uppercase">{result.talisman.desc}</div>
-                    <div className="mt-3 text-[8px] text-zinc-600 font-mono tracking-widest font-bold whitespace-nowrap">
-                      {result.score >= 95 ? `✨K-ORACLE // ${currentYear} LEGENDARY✨` : `K-ORACLE // ${currentYear} COLLECTION`}
-                    </div>
-                  </div>
-                </div>
+                <HolographicTalismanCard
+                  element={result.userElement}
+                  talisman={result.talisman}
+                  userName={userName ? userName.toUpperCase() : "YOU"}
+                  partnerName={matchType === 'idol' ? selectedIdol?.name : customName}
+                  userDayMaster={result.userSaju?.day?.stem || result.userElement}
+                  partnerDayMaster={result.targetSaju?.day?.stem || result.theirElement}
+                  score={result.score}
+                  isLegendary={result.score >= 95}
+                  editionLabel={`K-ORACLE // ${currentYear} COLLECTION`}
+                  size="normal"
+                />
               </div>
 
               <div className="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-500 mb-1">{result.score}%</div>

@@ -5,6 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Lock, Sparkles, TrendingUp, HeartPulse, Activity, Download, Flame, MessageSquare, Send, Palette, Compass } from 'lucide-react';
 import CosmicLoader from '../ui/CosmicLoader';
+import HolographicTalismanCard from '../ui/HolographicTalismanCard';
 
 const personalTalismans = [
   { text: '만사형통', en: 'Ultimate Success', desc: 'Everything you do will prosper' },
@@ -332,36 +333,27 @@ export default function DeepDiveReport({ lang = "en" }) {
         {/* Exclusive Personal Amulet */}
         {!isGenerating && !isCompatibility && (
           <section className="mb-12 flex flex-col items-center">
-            <div className="flex items-center gap-2 mb-6">
+            <div className="flex items-center gap-2 mb-4">
               <Sparkles className="text-yellow-400" size={24} />
-              <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-600 font-bold uppercase tracking-widest text-lg">Your Exclusive 2027 Amulet</h4>
+              <h4 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 to-yellow-600 font-bold uppercase tracking-widest text-lg">Your Exclusive 2027 3D Holographic Amulet</h4>
             </div>
 
-            <div className="w-64 h-[460px] bg-gradient-to-b from-zinc-900 to-black rounded-[2rem] flex flex-col items-center justify-between relative overflow-hidden transition-all duration-500 border-[3px] border-t-yellow-300/50 border-l-yellow-300/50 border-b-yellow-600/50 border-r-yellow-600/50 shadow-[0_0_40px_rgba(234,179,8,0.2)]">
-              <div className="mt-8 flex items-center justify-center text-transparent bg-clip-text bg-gradient-to-b from-yellow-100 to-yellow-500 font-brush-cn text-5xl font-bold opacity-90 z-10">
-                {userElem === 'Fire' ? '火' : userElem === 'Water' ? '水' : userElem === 'Wood' ? '木' : userElem === 'Metal' ? '金' : '土'}
-              </div>
-
-              <div className="relative z-10 text-transparent bg-clip-text bg-gradient-to-br from-white via-yellow-100 to-yellow-600 text-[64px] font-serif-kr font-bold flex flex-col items-center justify-center gap-0 py-2 leading-[1.1]">
-                {getPersonalTalisman(typeof window !== 'undefined' ? localStorage.getItem("userName") || "" : "", typeof window !== 'undefined' ? localStorage.getItem("userDob") || "" : "").text.split('').map((char, i) => (
-                  <span key={i}>{char}</span>
-                ))}
-              </div>
-
-              <div className="relative z-10 w-full flex flex-col items-center mb-6 px-3">
-                <div className="w-16 h-[2px] bg-yellow-600/50 mb-3"></div>
-                <div className="text-yellow-400 font-bold text-[11px] tracking-[0.2em] uppercase mb-1 text-center">
-                  {getPersonalTalisman(typeof window !== 'undefined' ? localStorage.getItem("userName") || "" : "", typeof window !== 'undefined' ? localStorage.getItem("userDob") || "" : "").en}
-                </div>
-                <div className="text-zinc-400 text-[10px] tracking-wider text-center leading-tight opacity-90 uppercase">
-                  {getPersonalTalisman(typeof window !== 'undefined' ? localStorage.getItem("userName") || "" : "", typeof window !== 'undefined' ? localStorage.getItem("userDob") || "" : "").desc}
-                </div>
-                <div className="mt-4 text-[9px] text-yellow-600/80 font-mono tracking-widest font-bold whitespace-nowrap">
-                  K-ORACLE // 2027 VIP
-                </div>
-              </div>
-            </div>
-            <p className="text-zinc-500 text-sm mt-6 text-center max-w-md px-4">This digital talisman has been uniquely generated based on your Destiny Matrix to protect your energy in 2027.</p>
+            <HolographicTalismanCard
+              element={userElem}
+              talisman={getPersonalTalisman(
+                typeof window !== 'undefined' ? localStorage.getItem("userName") || "" : "",
+                typeof window !== 'undefined' ? localStorage.getItem("userDob") || "" : ""
+              )}
+              userName={typeof window !== 'undefined' ? localStorage.getItem("userName") || "VIP CLIENT" : "VIP CLIENT"}
+              userDayMaster={reportData?.sajuChart?.dayMaster || `${userElem} Day Master`}
+              score={98}
+              isLegendary={true}
+              editionLabel="K-ORACLE // 2027 VIP MASTER"
+              size="large"
+            />
+            <p className="text-zinc-500 text-sm mt-5 text-center max-w-md px-4">
+              Tap the amulet to flip to your Secret Royal Manseryeok Decree, or toggle 360° Slow Spin mode.
+            </p>
           </section>
         )}
 
