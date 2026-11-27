@@ -69,7 +69,13 @@ async function callGemini(prompt, keys, keyIdxRef) {
       }
 
       if (data.candidates && data.candidates[0]?.content?.parts[0]?.text) {
-        return data.candidates[0].content.parts[0].text;
+        const text = data.candidates[0].content.parts[0].text;
+        if (text.trim().length < 1200) {
+          console.warn(`Response too short (${text.trim().length} chars), retrying...`);
+          await sleep(1500);
+          continue;
+        }
+        return text;
       }
     } catch (err) {
       console.error(`Fetch exception (...${key.slice(-4)}):`, err.message);
